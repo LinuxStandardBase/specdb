@@ -404,7 +404,7 @@ INSERT INTO Interface VALUES (404,'argp_program_version','Defered','Data',0,1,0,
 INSERT INTO Interface VALUES (405,'argp_program_version_hook','Defered','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (406,'argz_delete','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (407,'asctime','Included','Function',67,1,60,63,1,'Yes','Yes');
-INSERT INTO Interface VALUES (408,'atexit','Included','Function',67,1,43,6,1,'Yes','No');
+INSERT INTO Interface VALUES (408,'atexit','Excluded','Function',67,1,43,6,1,'Yes','No');
 INSERT INTO Interface VALUES (409,'atof','Included','Function',67,1,43,13,1,'Yes','Yes');
 INSERT INTO Interface VALUES (410,'atoi','Included','Function',67,1,43,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (411,'atol','Included','Function',67,1,43,8,1,'Yes','Yes');
