@@ -31,6 +31,7 @@ GRANT INSERT,UPDATE,DELETE ON LibGroup TO lsbadmin@localhost;
 # Only want to allow certain column to be edited
 #GRANT INSERT,UPDATE ON Library TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Parameter TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON RpmTag TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON SectionTypes TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Standard TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Type TO lsbadmin@localhost;
