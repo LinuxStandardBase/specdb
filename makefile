@@ -19,12 +19,12 @@ dump::
 
 restore::
 	mysql $(DBOPTS) lsb <setupdb.sql;
-	for table in [A-Z]*sql ;\
+	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
 	do \
 		set +e; \
 		table=`basename $$table .sql`; \
 		echo $$table; \
 		mysql $(DBOPTS) lsb <$$table.sql; \
 		mysql $(DBOPTS) lsb <$$table.init; \
-	done
+	done'
 	mysql $(DBOPTS) lsb <dbperms.sql;
