@@ -532,3 +532,4 @@ INSERT INTO HeaderGroup VALUES (541,'TERMINAL Type',140,1,1,'');
 INSERT INTO HeaderGroup VALUES (544,'misc non-standard',70,1,1,'Stuff needed to make other curses related headers happy');
 INSERT INTO HeaderGroup VALUES (547,'Multicast Support',117,3,1,'Multicast interfaces to setsockopt()');
 INSERT INTO HeaderGroup VALUES (546,'attributes',70,13,1,'attributes');
+INSERT INTO HeaderGroup VALUES (548,'Default HeadGroup',156,0,1,'Currently, sendfile() is not allowed in the LSB');

@@ -2664,3 +2664,5 @@ INSERT INTO Type VALUES (10878,'uint64_t','Typedef',9,227,'','','Referenced',11,
 INSERT INTO Type VALUES (10880,'uint64_t','Typedef',11,227,'','','Referenced',2,'');
 INSERT INTO Type VALUES (10881,'const pthread_mutexattr_t','Const',9049,343,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10882,'const pthread_mutexattr_t *','Pointer',10881,343,'','','Indirect',1,'');
+INSERT INTO Type VALUES (10883,'const unsigned short **','Pointer',10539,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10884,'const int32_t **','Pointer',10459,0,'','','Referenced',0,'');

@@ -12,6 +12,7 @@ CREATE TABLE Vtable (
   VTcid int(11) NOT NULL default '0',
   VTpos int(11) NOT NULL default '0',
   VTviid int(11) NOT NULL default '0',
-  PRIMARY KEY  (VTcid,VTpos)
+  VTarch int(11) NOT NULL default '2',
+  PRIMARY KEY  (VTcid,VTpos,VTarch)
 ) TYPE=MyISAM;
 
