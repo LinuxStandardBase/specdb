@@ -530,7 +530,7 @@ INSERT INTO Command VALUES (532,'mpto','/usr/bin/mpto','Excluded',0,'No','No');
 INSERT INTO Command VALUES (533,'msgchk','/usr/bin/msgchk','Excluded',0,'No','No');
 INSERT INTO Command VALUES (534,'msgcmp','/usr/bin/msgcmp','Excluded',0,'No','No');
 INSERT INTO Command VALUES (535,'msgcomm','/usr/bin/msgcomm','Excluded',0,'No','No');
-INSERT INTO Command VALUES (536,'msgfmt','/usr/bin/msgfmt','Excluded',0,'No','No');
+INSERT INTO Command VALUES (536,'msgfmt','/usr/bin/msgfmt','Included',59,'Yes','No');
 INSERT INTO Command VALUES (537,'msghack','/usr/bin/msghack','Excluded',0,'No','No');
 INSERT INTO Command VALUES (538,'msgmerge','/usr/bin/msgmerge','Excluded',0,'No','No');
 INSERT INTO Command VALUES (539,'msgunfmt','/usr/bin/msgunfmt','Excluded',0,'No','No');
