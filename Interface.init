@@ -455,7 +455,7 @@ INSERT INTO Interface VALUES (455,'clntunix_create','Defered','Function',8,1,100
 INSERT INTO Interface VALUES (456,'clock','Included','Function',67,1,60,9164,1,'Yes','No');
 INSERT INTO Interface VALUES (457,'closelog','Included','Function',67,1,122,1,1,'Yes','No');
 INSERT INTO Interface VALUES (458,'confstr','Included','Function',67,1,62,8969,1,'Yes','No');
-INSERT INTO Interface VALUES (459,'creat','Included','Function',67,1,62,6,1,'Yes','Yes');
+INSERT INTO Interface VALUES (459,'creat','Included','Function',10,1,62,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (460,'creat64','Included','Function',35,1,62,6,2,'Yes','No');
 INSERT INTO Interface VALUES (461,'create_module','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (462,'ctermid','Included','Function',67,1,62,63,1,'Yes','Yes');
@@ -536,7 +536,7 @@ INSERT INTO Interface VALUES (536,'fgetspent','Excluded','Function',0,1,0,0,1,'N
 INSERT INTO Interface VALUES (537,'fileno','Included','Function',67,1,42,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (538,'fmtmsg','Included','Function',67,1,121,6,2,'Yes','No');
 INSERT INTO Interface VALUES (539,'fnmatch','Included','Function',67,1,20,6,10,'Yes','No');
-INSERT INTO Interface VALUES (540,'fopen','Included','Function',67,1,42,10124,2,'Yes','Yes');
+INSERT INTO Interface VALUES (540,'fopen','Included','Function',10,1,42,10124,2,'Yes','Yes');
 INSERT INTO Interface VALUES (541,'fopencookie','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (542,'fprintf','Included','Function',67,1,42,6,1,'Yes','No');
 INSERT INTO Interface VALUES (543,'fputc','Included','Function',67,1,42,6,1,'Yes','No');
@@ -544,7 +544,7 @@ INSERT INTO Interface VALUES (544,'fputc_unlocked','Defered','Function',0,1,42,6
 INSERT INTO Interface VALUES (545,'fputs_unlocked','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (546,'fread_unlocked','Defered','Function',0,1,0,8969,0,'No','No');
 INSERT INTO Interface VALUES (547,'freeaddrinfo','Included','Function',67,1,115,1,0,'No','No');
-INSERT INTO Interface VALUES (548,'freopen','Included','Function',67,1,42,10124,1,'Yes','Yes');
+INSERT INTO Interface VALUES (548,'freopen','Included','Function',10,1,42,10124,1,'Yes','Yes');
 INSERT INTO Interface VALUES (549,'freopen64','Included','Function',35,1,42,10124,2,'Yes','No');
 INSERT INTO Interface VALUES (550,'fscanf','Included','Function',67,1,42,6,1,'Yes','No');
 INSERT INTO Interface VALUES (551,'fseek','Included','Function',67,1,42,6,1,'Yes','Yes');
@@ -566,7 +566,7 @@ INSERT INTO Interface VALUES (566,'fts_set','Excluded','Function',0,1,0,0,0,'No'
 INSERT INTO Interface VALUES (567,'ftw','Included','Function',67,1,21,6,1,'Yes','No');
 INSERT INTO Interface VALUES (568,'ftw64','Included','Function',35,1,21,6,2,'Yes','No');
 INSERT INTO Interface VALUES (569,'fwrite_unlocked','Defered','Function',0,1,0,8969,0,'No','No');
-INSERT INTO Interface VALUES (570,'gai_strerror','Included','Function',67,1,115,63,0,'No','No');
+INSERT INTO Interface VALUES (570,'gai_strerror','Included','Function',67,1,115,10295,0,'No','No');
 INSERT INTO Interface VALUES (571,'gcvt','Included','Function',67,1,43,63,1,'Yes','No');
 INSERT INTO Interface VALUES (572,'get_current_dir_name','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (573,'get_kernel_syms','Excluded','Function',0,1,0,0,0,'No','No');
@@ -1185,7 +1185,7 @@ INSERT INTO Interface VALUES (1185,'longjmp','Included','Function',67,1,40,1,1,'
 INSERT INTO Interface VALUES (1186,'lseek','Included','Function',67,1,62,9111,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1187,'msync','Included','Function',67,1,56,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1188,'nanosleep','Included','Function',67,1,60,6,1,'Yes','No');
-INSERT INTO Interface VALUES (1189,'open','Included','Function',67,1,62,6,1,'Yes','Yes');
+INSERT INTO Interface VALUES (1189,'open','Included','Function',10,1,62,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1190,'pause','Included','Function',67,1,62,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1191,'pthread_atfork','Included','Function',67,1,33,9094,0,'Yes','No');
 INSERT INTO Interface VALUES (1192,'pthread_attr_destroy','Included','Function',67,1,33,6,1,'Yes','No');

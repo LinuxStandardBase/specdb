@@ -92,3 +92,5 @@ INSERT INTO ElfSections VALUES (99,'.rela.dyn',10,'This section holds RELA type 
 INSERT INTO ElfSections VALUES (96,'.rel.got',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .got section.',10,'SHF_ALLOC',0,11);
 INSERT INTO ElfSections VALUES (97,'.rel.plt',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .plt section.',10,'SHF_ALLOC',0,11);
 INSERT INTO ElfSections VALUES (98,'.rel.text',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .text section.',10,'SHF_ALLOC',0,11);
+INSERT INTO ElfSections VALUES (101,'.sdata',68,'This section holds initialized small data that contribute to the program memory image.',2,'SHF_ALLOC+SHF_WRITE',0,9);
+INSERT INTO ElfSections VALUES (102,'.sbss',68,'This section holds uninitialized data that contribute to the program\'s memory image. The system initializes the data with zeroes when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',0,9);
