@@ -17466,8 +17466,8 @@ INSERT INTO Interface VALUES (18305,'pthread_barrier_wait','','Function',67,1,0,
 INSERT INTO Interface VALUES (18306,'pthread_barrierattr_destroy','','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18307,'pthread_barrierattr_init','','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18308,'pthread_barrierattr_setpshared','','Function',67,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18309,'pthread_condattr_getpshared','Included','Function',67,1,33,6,0,'No','No');
-INSERT INTO Interface VALUES (18310,'pthread_condattr_setpshared','Included','Function',67,1,33,6,0,'No','No');
+INSERT INTO Interface VALUES (18309,'pthread_condattr_getpshared','Included','Function',67,1,33,6,0,'Yes','No');
+INSERT INTO Interface VALUES (18310,'pthread_condattr_setpshared','Included','Function',67,1,33,6,0,'Yes','No');
 INSERT INTO Interface VALUES (18311,'pthread_getcpuclockid','','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18312,'pthread_mutex_timedlock','Excluded','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18313,'pthread_mutexattr_getpshared','Included','Function',67,1,33,6,6,'Yes','No');

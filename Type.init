@@ -2580,7 +2580,7 @@ INSERT INTO Type VALUES (10790,'msglen_t','Typedef',9,373,'','','Referenced',11,
 INSERT INTO Type VALUES (10791,'semid_ds','Struct',0,47,'','','Referenced',11,'');
 INSERT INTO Type VALUES (10792,'shmid_ds','Struct',0,406,'','','Referenced',11,'');
 INSERT INTO Type VALUES (10793,'shmatt_t','Typedef',9,405,'','','Referenced',11,'');
-INSERT INTO Type VALUES (10794,'greg_t','Typedef',6,388,'','','Referenced',11,'');
+INSERT INTO Type VALUES (10794,'greg_t','Typedef',8,388,'','','Referenced',11,'');
 INSERT INTO Type VALUES (10795,'greg_t [23]','Array',10794,0,'','','Referenced',11,'');
 INSERT INTO Type VALUES (10796,'gregset_t','Typedef',10795,390,'','','Referenced',11,'');
 INSERT INTO Type VALUES (10797,'anon_mcontext_x86_64','Struct',0,395,'','','Excluded',11,'');
@@ -2647,7 +2647,7 @@ INSERT INTO Type VALUES (10860,'intmax_t','Typedef',8,227,'','','Referenced',12,
 INSERT INTO Type VALUES (10861,'uintmax_t','Typedef',9,227,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10862,'uintptr_t','Typedef',9,227,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10863,'int [18]','Array',6,0,'','','Excluded',1,'');
-INSERT INTO Type VALUES (10864,'__jmp_buf','Typedef',10863,140,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10864,'__jmp_buf','Typedef',10947,140,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10865,'ptrdiff_t','Typedef',8,347,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10866,'ssize_t','Typedef',6998,112,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10867,'int64_t','Typedef',8,45,'','','Referenced',3,'');
@@ -2688,7 +2688,7 @@ INSERT INTO Type VALUES (10903,'elf_vrregset_t','Typedef',10902,387,'','','Exclu
 INSERT INTO Type VALUES (10904,'unsigned long[48]','Array',9,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10905,'gregset_t','Typedef',10904,390,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10906,'_libc_fpstate','Struct',0,394,'','','Referenced',6,'');
-INSERT INTO Type VALUES (10907,'fpregset_t','Typedef',10278,394,'','','Referenced',6,'');
+INSERT INTO Type VALUES (10907,'fpregset_t','Typedef',10906,394,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10908,'_libc_vrstate','Struct',0,387,'','','Indirect',6,'');
 INSERT INTO Type VALUES (10909,'vrregset_t','Typedef',10908,387,'','','Referenced',6,'(__aligned__(16))');
 INSERT INTO Type VALUES (10910,'anon_mcontext_ppc32','Struct',0,0,'','','Excluded',6,'');
@@ -2728,3 +2728,6 @@ INSERT INTO Type VALUES (10943,'anon-timeval32','Struct',0,340,'','','Indirect',
 INSERT INTO Type VALUES (10944,'__suseconds32_t','Typedef',6997,45,'','','Excluded',9,'');
 INSERT INTO Type VALUES (10945,'__suseconds32_t','Typedef',6997,45,'','','Excluded',11,'');
 INSERT INTO Type VALUES (10946,'anon-timeval32','Struct',0,335,'','','Indirect',11,'');
+INSERT INTO Type VALUES (10947,'long [18]','Array',8,0,'','','Excluded',1,'');
+INSERT INTO Type VALUES (10948,'_libc_fpxreg array','Array',10799,0,'','','Excluded',0,'');
+INSERT INTO Type VALUES (10949,'_libc_xmmreg array','Array',10800,0,'','','Excluded',0,'');
