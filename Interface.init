@@ -1343,7 +1343,7 @@ INSERT INTO Interface VALUES (1346,'iswpunct','Included','Function',5,1,64,6,1,'
 INSERT INTO Interface VALUES (1347,'iswspace','Included','Function',5,1,64,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1348,'iswupper','Included','Function',5,1,64,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1349,'iswxdigit','Included','Function',5,1,64,6,1,'Yes','No');
-INSERT INTO Interface VALUES (1350,'kill','Included','Function',5,1,41,6,1,'Yes','Yes');
+INSERT INTO Interface VALUES (1350,'kill','Included','Function',10,1,41,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1351,'lchown','Included','Function',5,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1352,'ldexp','Included','Function',5,1,29,13,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1353,'link','Included','Function',5,1,62,6,1,'Yes','Yes');
@@ -17364,7 +17364,7 @@ INSERT INTO Interface VALUES (18202,'bind_textdomain_codeset','Defered','Unknown
 INSERT INTO Interface VALUES (18203,'dcngettext','Defered','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18204,'dngettext','Defered','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18205,'fgetwc','Included','Function',5,1,64,8980,6,'Yes','No');
-INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Unknown',5,1,0,0,6,'Yes','No');
+INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Function',5,1,0,0,6,'Yes','No');
 INSERT INTO Interface VALUES (18207,'fgetws','Included','Function',25,1,64,8848,6,'Yes','No');
 INSERT INTO Interface VALUES (18208,'fgetws_unlocked','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18209,'fmemopen','Defered','Function',0,1,0,0,0,'No','No');
@@ -17397,7 +17397,7 @@ INSERT INTO Interface VALUES (18235,'posix_fadvise64','Excluded','Function',0,1,
 INSERT INTO Interface VALUES (18236,'posix_fallocate','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18237,'posix_fallocate64','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18238,'posix_madvise','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18239,'posix_memalign','Included','Unknown',3,1,0,0,6,'Yes','No');
+INSERT INTO Interface VALUES (18239,'posix_memalign','Included','Function',3,1,0,0,6,'Yes','No');
 INSERT INTO Interface VALUES (18240,'posix_openpt','Excluded','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18241,'posix_spawn','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18242,'posix_spawn_file_actions_addclose','Excluded','Function',0,1,0,0,0,'No','No');
@@ -17436,7 +17436,7 @@ INSERT INTO Interface VALUES (18274,'swprintf','Included','Function',5,1,64,6,6,
 INSERT INTO Interface VALUES (18275,'swscanf','Included','Function',25,1,64,6,6,'Yes','No');
 INSERT INTO Interface VALUES (18276,'ungetwc','Included','Function',25,1,64,8980,6,'Yes','No');
 INSERT INTO Interface VALUES (18277,'vfwprintf','Included','Function',25,1,64,6,6,'Yes','No');
-INSERT INTO Interface VALUES (18278,'vfwscanf','Included','Unknown',25,1,64,6,6,'Yes','No');
+INSERT INTO Interface VALUES (18278,'vfwscanf','Included','Function',25,1,64,6,6,'Yes','No');
 INSERT INTO Interface VALUES (18279,'vswprintf','Included','Function',25,1,64,6,6,'Yes','No');
 INSERT INTO Interface VALUES (18280,'vswscanf','Included','Function',25,1,64,6,6,'Yes','No');
 INSERT INTO Interface VALUES (18281,'vwprintf','Included','Function',25,1,64,6,6,'Yes','No');

@@ -2,7 +2,7 @@
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.46-log
+# Server version	3.23.47-log
 
 #
 # Table structure for table 'Constant'

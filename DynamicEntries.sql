@@ -2,7 +2,7 @@
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.46-log
+# Server version	3.23.47-log
 
 #
 # Table structure for table 'DynamicEntries'
@@ -13,7 +13,7 @@ CREATE TABLE DynamicEntries (
   DEid int(10) NOT NULL auto_increment,
   DEname varchar(60) NOT NULL default '',
   DEstandard int(10) NOT NULL default '0',
-  DEdescription varchar(60) default NULL,
+  DEdescription blob,
   DEarch int(11) NOT NULL default '1',
   PRIMARY KEY  (DEid)
 ) TYPE=MyISAM;

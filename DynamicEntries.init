@@ -1,7 +1,7 @@
 INSERT INTO DynamicEntries VALUES (1,'DT_NULL',31,'Marks end of dynamic section',1);
 INSERT INTO DynamicEntries VALUES (2,'DT_NEEDED',31,'Name of needed library',1);
 INSERT INTO DynamicEntries VALUES (3,'DT_PLTRELSZ',31,'Size in bytes of PLT relocs',1);
-INSERT INTO DynamicEntries VALUES (4,'DT_PLTGOT',33,'On the Intel386 architecture, this entrys d_ptr member give',2);
+INSERT INTO DynamicEntries VALUES (4,'DT_PLTGOT',33,'On the Intel386 architecture, this entrys d_ptr member gives the address of the first entry in the global offset table.',2);
 INSERT INTO DynamicEntries VALUES (5,'DT_HASH',31,'Address of symbol hash table',1);
 INSERT INTO DynamicEntries VALUES (6,'DT_STRTAB',31,'Address of string table',1);
 INSERT INTO DynamicEntries VALUES (7,'DT_SYMTAB',31,'Address of symbol table',1);

@@ -50,3 +50,4 @@ INSERT INTO Standard VALUES (54,'IA64 SDM Vol1','Itanium Architecture Software D
 INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium Architecture Software Developer\'s Manual Volume 2: System Architecture','http://developer.intel.com/design/itanium/downloads/24531802','','Standard');
 INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium Architecture Software Developer\'s Manual Volume 3: Instruction Set Reference','http://developer.intel.com/design/itanium/downloads/24531902','','Standard');
 INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','Itanium Architecture Software Developer\'s Manual Volume 4: Itanium Processor Programmer\'s Guide','http://developer.intel.com/design/itanium/downloads/24532002','','Standard');
+INSERT INTO Standard VALUES (58,'IA64 ABI','Intel Itanium Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard');
