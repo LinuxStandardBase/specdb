@@ -2,7 +2,7 @@
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.43-log
+# Server version	3.23.44-log
 
 #
 # Table structure for table 'Constant'
@@ -12,13 +12,11 @@ DROP TABLE IF EXISTS Constant;
 CREATE TABLE Constant (
   Cid int(10) NOT NULL auto_increment,
   Cname varchar(60) binary NOT NULL default '',
-  Cvalue varchar(255) NOT NULL default '',
   Ctype enum('int','float','string','Unknown') NOT NULL default 'Unknown',
   Cheadgroup int(10) NOT NULL default '0',
-  Carch int(10) NOT NULL default '0',
   Ccomment varchar(60) default NULL,
   Cstd enum('Yes','No') NOT NULL default 'No',
   PRIMARY KEY  (Cid),
-  UNIQUE KEY k_c_name (Cname,Carch)
+  UNIQUE KEY k_c_name (Cname)
 ) TYPE=MyISAM;
 
