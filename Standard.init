@@ -28,7 +28,7 @@ INSERT INTO Standard VALUES (27,'SUS-XCU','CAE Specification, January 1997, Comm
 INSERT INTO Standard VALUES (28,'SUS-CURSES',' CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:\n1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmdp.org/rpmbook/','','Reference');
-INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - April 29, 1998','http://www.sco.com/developer/gabi/contents.html','','Standard');
+INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.sco.com/developer/gabi/2000-07-17/contents.html','','Standard');
 INSERT INTO Standard VALUES (32,'gABI_41','System VApplication Binary Interface, Edition 4.1','http://www.sco.com/developer/devspecs/gabi41.pdf','','Standard');
 INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.sco.com/developer/devspecs/abi386-4.pdf','','Standard');
 INSERT INTO Standard VALUES (34,'IA64conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/ia-64/downloads/245358.htm','','Standard');

@@ -70,3 +70,5 @@ INSERT INTO Header VALUES (69,'X11/Xutil.h','Yes');
 INSERT INTO Header VALUES (71,'linux/in.h','No');
 INSERT INTO Header VALUES (72,'linux/in6.h','No');
 INSERT INTO Header VALUES (73,'linux/x25.h','No');
+INSERT INTO Header VALUES (74,'X11/Xlib.h.lsb','No');
+INSERT INTO Header VALUES (75,'linux/socket.h','No');

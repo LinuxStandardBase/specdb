@@ -71,3 +71,5 @@ INSERT INTO HeaderGroup VALUES (70,'Default HeaderGroup for curses.h',70,0,0,'De
 INSERT INTO HeaderGroup VALUES (71,'Default HeaderGroup for linux/in.h',71,0,0,'Default HeaderGroup for linux/in.h');
 INSERT INTO HeaderGroup VALUES (72,'Default HeaderGroup for linux/in6.h',72,0,0,'Default HeaderGroup for linux/in6.h');
 INSERT INTO HeaderGroup VALUES (73,'Default HeaderGroup for linux/x25.h',73,0,0,'Default HeaderGroup for linux/x25.h');
+INSERT INTO HeaderGroup VALUES (74,'Default HeaderGroup for X11/Xlib.h.lsb',74,0,0,'Default HeaderGroup for X11/Xlib.h.lsb');
+INSERT INTO HeaderGroup VALUES (75,'Default HeaderGroup for linux/socket.h',75,0,0,'Default HeaderGroup for linux/socket.h');
