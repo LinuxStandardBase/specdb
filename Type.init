@@ -2086,3 +2086,5 @@ INSERT INTO Type VALUES (10290,'ifreq','Struct',0,439,'','','Referenced',1);
 INSERT INTO Type VALUES (10291,'anon-ifr_ifrn','Union',0,439,'','','Referenced',1);
 INSERT INTO Type VALUES (10292,'anon-ifr_ifru','Union',0,439,'','','Referenced',1);
 INSERT INTO Type VALUES (10293,'ifreq *','Pointer',10290,0,'','','Referenced',0);
+INSERT INTO Type VALUES (10294,'const char','Intrinsic',0,0,'','','Indirect',1);
+INSERT INTO Type VALUES (10295,'const char *','Pointer',10294,0,'','','Indirect',1);

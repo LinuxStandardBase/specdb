@@ -25,7 +25,7 @@ INSERT INTO Command VALUES (26,'Zharf','/usr/X11R6/bin/Zharf','Excluded',0,'No',
 INSERT INTO Command VALUES (27,'afterstep','/usr/X11R6/bin/afterstep','Excluded',0,'No','No');
 INSERT INTO Command VALUES (28,'animate','/usr/X11R6/bin/animate','Excluded',0,'No','No');
 INSERT INTO Command VALUES (29,'chgrp','/bin/chgrp','Included',10,'Yes','No');
-INSERT INTO Command VALUES (30,'chown','/bin/chown','Included',27,'Yes','No');
+INSERT INTO Command VALUES (30,'chown','/bin/chown','Included',10,'Yes','No');
 INSERT INTO Command VALUES (31,'login','/bin/login','Excluded',0,'No','No');
 INSERT INTO Command VALUES (32,'appres','/usr/X11R6/bin/appres','Excluded',0,'No','No');
 INSERT INTO Command VALUES (33,'asapm','/usr/X11R6/bin/asapm','Excluded',0,'No','No');
@@ -472,7 +472,7 @@ INSERT INTO Command VALUES (474,'lispmtopgm','/usr/bin/lispmtopgm','Excluded',0,
 INSERT INTO Command VALUES (475,'lkbib','/usr/bin/lkbib','Excluded',0,'No','No');
 INSERT INTO Command VALUES (476,'loadshlib','/usr/bin/loadshlib','Excluded',0,'No','No');
 INSERT INTO Command VALUES (477,'locale','/usr/bin/locale','Included',27,'Yes','No');
-INSERT INTO Command VALUES (478,'localedef','/usr/bin/localedef','Included',27,'Yes','No');
+INSERT INTO Command VALUES (478,'localedef','/usr/bin/localedef','Included',10,'Yes','No');
 INSERT INTO Command VALUES (479,'lockfile','/usr/bin/lockfile','Excluded',0,'No','No');
 INSERT INTO Command VALUES (480,'logger','/usr/bin/logger','Excluded',0,'No','No');
 INSERT INTO Command VALUES (481,'logname','/usr/bin/logname','Included',27,'Yes','No');
@@ -1026,3 +1026,5 @@ INSERT INTO Command VALUES (1034,'sendmail','/usr/sbin/sendmail','Included',10,'
 INSERT INTO Command VALUES (1035,'sort','/usr/bin/sort','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1036,'stty','/usr/bin/stty','Included',27,'Yes','No');
 INSERT INTO Command VALUES (1037,'rsync','/usr/bin/rsync','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1038,'dmesg','/bin/dmesg','Included',10,'No','No');
+INSERT INTO Command VALUES (1039,'shutdown','/sbin/shutdown','Included',10,'No','No');

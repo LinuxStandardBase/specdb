@@ -16,6 +16,7 @@ CREATE TABLE Standard (
   Surl varchar(255) default NULL,
   Scomment varchar(60) default NULL,
   Stype enum('Standard','Reference','Unknown') NOT NULL default 'Unknown',
+  Sarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Sid),
   UNIQUE KEY k_Sname (Sname)
 ) TYPE=MyISAM;

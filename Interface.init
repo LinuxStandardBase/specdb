@@ -523,7 +523,7 @@ INSERT INTO Interface VALUES (522,'fclose','Included','Function',5,1,42,6,2,'Yes
 INSERT INTO Interface VALUES (523,'fcvt','Included','Function',5,1,43,63,1,'Yes','No');
 INSERT INTO Interface VALUES (524,'fcvt_r','Excluded','Function',0,1,0,6,0,'No','No');
 INSERT INTO Interface VALUES (525,'fdatasync','Included','Function',5,1,62,6,1,'Yes','No');
-INSERT INTO Interface VALUES (526,'fdetach','Included','Function',5,1,0,0,2,'Yes','No');
+INSERT INTO Interface VALUES (526,'fdetach','Excluded','Function',5,1,0,0,2,'Yes','No');
 INSERT INTO Interface VALUES (527,'fdopen','Included','Function',5,1,42,10124,2,'Yes','Yes');
 INSERT INTO Interface VALUES (528,'feof_unlocked','Defered','Function',0,1,0,6,0,'No','No');
 INSERT INTO Interface VALUES (529,'ferror_unlocked','Defered','Function',0,1,0,6,0,'No','No');
@@ -597,7 +597,7 @@ INSERT INTO Interface VALUES (596,'gethostid','Included','Function',5,1,62,8,1,'
 INSERT INTO Interface VALUES (597,'getlogin','Included','Function',5,1,62,63,1,'Yes','Yes');
 INSERT INTO Interface VALUES (598,'getlogin_r','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (599,'getmntent','Excluded','Function',0,1,0,0,1,'No','No');
-INSERT INTO Interface VALUES (600,'getmsg','Included','Function',5,1,0,0,2,'Yes','No');
+INSERT INTO Interface VALUES (600,'getmsg','Excluded','Function',5,1,0,0,2,'Yes','No');
 INSERT INTO Interface VALUES (601,'getnameinfo','Defered','Function',0,1,48,6,0,'No','No');
 INSERT INTO Interface VALUES (602,'getnetbyaddr','Included','Function',15,1,115,10142,1,'Yes','No');
 INSERT INTO Interface VALUES (603,'getnetbyname','Excluded','Function',0,1,115,10142,1,'No','No');
@@ -1638,7 +1638,7 @@ INSERT INTO Interface VALUES (1712,'XDrawText','Included','Function',11,1,5,6,0,
 INSERT INTO Interface VALUES (1713,'XDrawText16','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (1714,'XEHeadOfExtensionList','Included','Function',11,1,5,8927,0,'Yes','No');
 INSERT INTO Interface VALUES (1715,'XESetBeforeFlush','Excluded','Data',11,1,0,0,0,'Yes','No');
-INSERT INTO Interface VALUES (1716,'XESetCloseDisplay','Excluded','Data',11,1,5,60,0,'Yes','No');
+INSERT INTO Interface VALUES (1716,'XESetCloseDisplay','Included','Data',11,1,5,60,0,'Yes','No');
 INSERT INTO Interface VALUES (1717,'XESetCopyGC','Excluded','Data',11,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (1718,'XESetCreateFont','Excluded','Data',11,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (1719,'XESetCreateGC','Excluded','Data',11,1,0,0,0,'Yes','No');
@@ -5664,8 +5664,8 @@ INSERT INTO Interface VALUES (6395,'vga_runinbackground','Excluded','Function',0
 INSERT INTO Interface VALUES (6396,'vga_runinbackground_version','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (6397,'__wcslen','Excluded','Function',0,1,64,8969,0,'No','No');
 INSERT INTO Interface VALUES (6398,'__wctype','Excluded','Function',0,1,65,7024,0,'No','No');
-INSERT INTO Interface VALUES (6841,'Xutf8TextPropertyToTextList','Excluded','Function',0,1,69,6,0,'No','No');
-INSERT INTO Interface VALUES (6840,'Xutf8TextListToTextProperty','Excluded','Function',0,1,69,6,0,'No','No');
+INSERT INTO Interface VALUES (6841,'Xutf8TextPropertyToTextList','Included','Function',0,1,69,6,0,'No','No');
+INSERT INTO Interface VALUES (6840,'Xutf8TextListToTextProperty','Included','Function',0,1,69,6,0,'No','No');
 INSERT INTO Interface VALUES (6839,'Xutf8SetWMProperties','Excluded','Function',0,1,69,1,0,'No','No');
 INSERT INTO Interface VALUES (6837,'glXGetProcAddressARB','Excluded','Function',29,1,2,8726,0,'Yes','No');
 INSERT INTO Interface VALUES (6836,'glXGetSelectedEvent','Included','Function',29,1,2,1,0,'Yes','No');
