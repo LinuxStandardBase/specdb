@@ -1,4 +1,4 @@
--- MySQL dump 9.07
+-- MySQL dump 9.08
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------

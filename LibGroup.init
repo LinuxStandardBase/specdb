@@ -131,10 +131,8 @@ INSERT INTO LibGroup VALUES (250,'21.3.1 C++ Class basic_string constructors',23
 INSERT INTO LibGroup VALUES (251,'21.3.2 C++ Class basic_string iterator support',231,1,8,'');
 INSERT INTO LibGroup VALUES (235,'18.4 C++ Dynamic Memory Managment',231,1,1,'');
 INSERT INTO LibGroup VALUES (236,'18.5 C++ Type identification',231,1,2,'');
-INSERT INTO LibGroup VALUES (237,'18.6 C++ Exception handling',231,1,3,'');
 INSERT INTO LibGroup VALUES (238,'18.6.1 C++ Class exception',231,1,4,'');
 INSERT INTO LibGroup VALUES (239,'18.6.2.1 C++ Class bad_exception',231,1,5,'');
-INSERT INTO LibGroup VALUES (240,'19.1 Exception classes',231,1,6,'');
 INSERT INTO LibGroup VALUES (252,'21.3.3 C++ Class basic_string capacity',231,1,9,'');
 INSERT INTO LibGroup VALUES (253,'21.3.4 C++ Class basic_string element access',231,1,10,'');
 INSERT INTO LibGroup VALUES (254,'21.3.5 C++ Class basic_string modifiers',231,1,11,'');
