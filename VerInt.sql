@@ -1,12 +1,12 @@
-# MySQL dump 8.16
-#
-# Host: localhost    Database: lsb
-#--------------------------------------------------------
-# Server version	3.23.47-log
+-- MySQL dump 8.21
+--
+-- Host: localhost    Database: lsb
+---------------------------------------------------------
+-- Server version	3.23.49-log
 
-#
-# Table structure for table 'VerInt'
-#
+--
+-- Table structure for table 'VerInt'
+--
 
 DROP TABLE IF EXISTS VerInt;
 CREATE TABLE VerInt (

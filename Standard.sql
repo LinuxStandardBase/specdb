@@ -1,12 +1,12 @@
-# MySQL dump 8.16
-#
-# Host: localhost    Database: lsb
-#--------------------------------------------------------
-# Server version	3.23.47-log
+-- MySQL dump 8.21
+--
+-- Host: localhost    Database: lsb
+---------------------------------------------------------
+-- Server version	3.23.49-log
 
-#
-# Table structure for table 'Standard'
-#
+--
+-- Table structure for table 'Standard'
+--
 
 DROP TABLE IF EXISTS Standard;
 CREATE TABLE Standard (

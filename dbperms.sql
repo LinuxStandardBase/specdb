@@ -15,6 +15,7 @@ GRANT INSERT,UPDATE,DELETE ON lsb.Architecture TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON lsb.ArchConst TO lsbadmin@localhost;
 GRANT INSERT,DELETE        ON lsb.ArchInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON lsb.ArchType TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON lsb.ArchTypeMem TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON lsb.CmdInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON lsb.CmdLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON lsb.Command TO lsbadmin@localhost;
