@@ -29,8 +29,8 @@ INSERT INTO ElfSections VALUES (30,'.dtors',10,'This section contains a list of 
 INSERT INTO ElfSections VALUES (31,'.gnu.version',10,'This section contains the Symbol Version Table.',19,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (32,'.gnu.version_r',10,'This section contains the Version Requirments.',18,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling. The format is the same as for .debug_frame as described by DWARF2.',2,'SHF_ALLOC+SHF_WRITE',0,1);
-INSERT INTO ElfSections VALUES (34,'.stab',10,'This section contains debugging information. The contents are not specified as part of the LSB.',2,'0',0,8);
-INSERT INTO ElfSections VALUES (35,'.stabstr',10,'This section contains strings associated with the debugging infomation contained in the .stab section.',4,'0',0,8);
+INSERT INTO ElfSections VALUES (34,'.stab',10,'This section contains debugging information. The contents are not specified as part of the LSB.',2,'0',0,1);
+INSERT INTO ElfSections VALUES (35,'.stabstr',10,'This section contains strings associated with the debugging infomation contained in the .stab section.',4,'0',0,1);
 INSERT INTO ElfSections VALUES (37,'.got',33,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE',0,2);
 INSERT INTO ElfSections VALUES (38,'.plt',33,'This section holds the procedure linkage table.',2,'SHF_ALLOC+SHF_EXECINSTR',0,2);
 INSERT INTO ElfSections VALUES (39,'.gnu.version_d',10,'This section contains the Version Definitions.',17,'SHF_ALLOC',0,1);
@@ -52,7 +52,7 @@ INSERT INTO ElfSections VALUES (55,'.rela.dyn',10,'This section holds relocation
 INSERT INTO ElfSections VALUES (56,'.got',64,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE+SHF_EXECINSTR',0,6);
 INSERT INTO ElfSections VALUES (57,'.plt',64,'This section holds the Procedure Linkage Table',9,'SHF_ALLOC+SHF_WRITE+SHF_EXECINSTR',0,6);
 INSERT INTO ElfSections VALUES (58,'.sdata',64,'This section holds initialized small data that contribute to the program memory image',2,'SHF_ALLOC+SHF_WRITE',0,6);
-INSERT INTO ElfSections VALUES (59,'.sbss',64,'This section holds uninitialized small data that contribute to the program memory image. The system sets the data to zero when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',0,6);
+INSERT INTO ElfSections VALUES (59,'.sbss',33,'This section holds uninitialized small data that contribute to the program memory image. The system sets the data to zero when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',0,2);
 INSERT INTO ElfSections VALUES (60,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (61,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (62,'.got2',10,'This section holds the second level GOT',2,'SHF_ALLOC+SHF_WRITE',0,6);

@@ -2946,3 +2946,7 @@ INSERT INTO TypeMember VALUES (34483,'ifr_ifru',10292,0,0,2,'',10290,'',0);
 INSERT INTO TypeMember VALUES (34484,'ifcu_req',10293,0,0,2,'',10289,'',0);
 INSERT INTO TypeMember VALUES (34485,'sun_family',6905,0,0,1,'AF_UNIX',9152,'',0);
 INSERT INTO TypeMember VALUES (34486,'sun_path',10194,0,0,2,'',9152,'UNIX_PATH_MAX',0);
+INSERT INTO TypeMember VALUES (34487,'ws_row',5,0,0,1,'',10301,'',0);
+INSERT INTO TypeMember VALUES (34488,'ws_col',5,0,0,2,'',10301,'',0);
+INSERT INTO TypeMember VALUES (34489,'ws_xpixel',5,0,0,3,'',10301,'',0);
+INSERT INTO TypeMember VALUES (34490,'ws_ypixel',5,0,0,4,'',10301,'',0);

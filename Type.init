@@ -2093,3 +2093,4 @@ INSERT INTO Type VALUES (10297,'const char []','Array',10294,0,'','','Referenced
 INSERT INTO Type VALUES (10298,'char * const []','Literal',0,0,'','','Referenced',0);
 INSERT INTO Type VALUES (10299,'sigcontext','Struct',0,401,'','','Referenced',3);
 INSERT INTO Type VALUES (10300,'sigcontext','Struct',0,401,'','','Referenced',6);
+INSERT INTO Type VALUES (10301,'winsize','Struct',0,59,'','','Referenced',1);

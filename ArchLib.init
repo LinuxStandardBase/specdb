@@ -34,3 +34,4 @@ INSERT INTO ArchLib VALUES (229,6,'/lib/ld-lsb.so.1');
 INSERT INTO ArchLib VALUES (132,6,'libpthread.so.0');
 INSERT INTO ArchLib VALUES (27,6,'libdl.so.2');
 INSERT INTO ArchLib VALUES (29,6,'libcrypt.so.1');
+INSERT INTO ArchLib VALUES (231,1,'libstdc++.so.4');
