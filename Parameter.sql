@@ -14,6 +14,7 @@ CREATE TABLE Parameter (
   Ptype int(11) NOT NULL default '0',
   Parsize smallint(6) default NULL,
   Pconst enum('Y','N') NOT NULL default 'N',
+  Pttid int(11) NOT NULL default '0',
   UNIQUE KEY k_Pa (Pint,Ppos),
   KEY Pint (Pint)
 ) TYPE=MyISAM;

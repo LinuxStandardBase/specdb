@@ -1,0 +1,4 @@
+INSERT INTO TypeType VALUES (1,'pathname','A character string that should be a valid pathname');
+INSERT INTO TypeType VALUES (2,'filemode','a mode_t type that should contain a valid mode description');
+INSERT INTO TypeType VALUES (3,'RWaddress','A address that should be readable & writable in the process address space');
+INSERT INTO TypeType VALUES (4,'filedescriptor','A value that should be a valid file descriptor between 0 and MAXFD');
