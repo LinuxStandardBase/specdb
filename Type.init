@@ -783,7 +783,7 @@ INSERT INTO Type VALUES (8965,'anon-X11/extensions/sync.h-20','Enum',0,136,'',''
 INSERT INTO Type VALUES (8966,'XSyncTestType','Typedef',8965,136,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8967,'anon-X11/extensions/sync.h-35','Enum',0,136,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8968,'XSyncAlarmState','Typedef',8967,136,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (8969,'size_t','Typedef',7,347,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8969,'size_t','Typedef',9,347,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8970,'__ssize_t','Typedef',6,45,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8971,'__off_t','Typedef',8,45,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8972,'__off64_t','Typedef',9166,45,'','','Excluded',1,NULL);
@@ -829,7 +829,7 @@ INSERT INTO Type VALUES (9011,'__gid_t','Typedef',9205,114,'','','Excluded',1,NU
 INSERT INTO Type VALUES (9012,'gid_t','Typedef',7,113,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9013,'group *','Pointer',6894,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9014,'group * *','Pointer',9013,0,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9015,'size_t *','Pointer',8969,0,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (9015,'size_t *','Pointer',8969,0,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9016,'intmax_t','Typedef',10,227,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9017,'uintmax_t','Typedef',11,227,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9018,'anon-langinfo.h-10','Enum',0,25,'','','Excluded',1,NULL);
@@ -843,7 +843,7 @@ INSERT INTO Type VALUES (9025,'lconv *','Pointer',6919,0,'','','Referenced',1,NU
 INSERT INTO Type VALUES (9026,'fptr-__morecore','FuncPtr',40,28,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9027,'ptrdiff_t','Typedef',8,347,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9028,'anon-math.h-31','Enum',0,29,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9029,'ssize_t','Typedef',6,45,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (9029,'ssize_t','Typedef',8,45,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9030,'anon-pthread.h-19','Enum',0,33,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9031,'anon-pthread.h-30','Enum',0,33,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9032,'anon-pthread.h-41','Enum',0,33,'','','Excluded',1,NULL);
