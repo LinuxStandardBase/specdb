@@ -17,7 +17,7 @@ CREATE TABLE Command (
   Cdocumented enum('Yes','No') DEFAULT 'No' NOT NULL,
   Ctested enum('Yes','No') DEFAULT 'No' NOT NULL,
   PRIMARY KEY (Cid),
-  KEY Cid (Cid),
-  UNIQUE Cid_2 (Cid,Cname,Cpath)
+  UNIQUE Cname (Cname),
+  UNIQUE Cpath (Cpath)
 );
 

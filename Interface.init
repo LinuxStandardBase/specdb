@@ -820,7 +820,7 @@ INSERT INTO Interface VALUES (819,'rand','Included','Function',5,1,43,6,0,'Yes',
 INSERT INTO Interface VALUES (820,'rand_r','Unknown','Function',0,1,43,6,0,'No','No');
 INSERT INTO Interface VALUES (821,'rcmd','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (822,'re_max_failures','Included','Data',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (823,'re_syntax_options','Included','Data',0,1,35,4473,0,'No','No');
+INSERT INTO Interface VALUES (823,'re_syntax_options','Included','Data',0,1,35,4666,0,'No','No');
 INSERT INTO Interface VALUES (824,'readdir64_r','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (825,'reboot','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (826,'registerrpc','Included','Function',0,1,0,0,0,'No','No');
@@ -1375,7 +1375,7 @@ INSERT INTO Interface VALUES (1388,'readlink','Included','Function',5,1,62,6,0,'
 INSERT INTO Interface VALUES (1389,'readv','Included','Function',5,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (1390,'realloc','Included','Function',5,1,43,1,0,'Yes','No');
 INSERT INTO Interface VALUES (1391,'regcomp','Included','Function',5,1,35,6,0,'Yes','No');
-INSERT INTO Interface VALUES (1392,'regerror','Included','Function',5,1,35,1127,0,'Yes','No');
+INSERT INTO Interface VALUES (1392,'regerror','Included','Function',5,1,35,4661,0,'Yes','No');
 INSERT INTO Interface VALUES (1393,'regexec','Included','Function',5,1,35,6,0,'Yes','No');
 INSERT INTO Interface VALUES (1394,'regfree','Included','Function',5,1,35,1,0,'Yes','No');
 INSERT INTO Interface VALUES (1395,'rindex','Included','Function',5,1,44,2,0,'Yes','No');
@@ -2584,7 +2584,7 @@ INSERT INTO Interface VALUES (2660,'re_match_2','Included','Function',0,1,35,6,0
 INSERT INTO Interface VALUES (2661,'re_search','Included','Function',0,1,35,6,0,'No','No');
 INSERT INTO Interface VALUES (2662,'re_search_2','Included','Function',0,1,35,6,0,'No','No');
 INSERT INTO Interface VALUES (2663,'re_set_registers','Included','Function',0,1,35,1,0,'No','No');
-INSERT INTO Interface VALUES (2664,'re_set_syntax','Included','Function',0,1,35,4473,0,'No','No');
+INSERT INTO Interface VALUES (2664,'re_set_syntax','Included','Function',0,1,35,4666,0,'No','No');
 INSERT INTO Interface VALUES (2665,'sched_get_priority_max','Included','Function',5,1,37,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2666,'sched_get_priority_min','Included','Function',5,1,37,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2667,'sched_getparam','Included','Function',5,1,37,6,0,'Yes','No');

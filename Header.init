@@ -67,3 +67,6 @@ INSERT INTO Header VALUES (66,'wordexp.h','Yes');
 INSERT INTO Header VALUES (70,'curses.h','No');
 INSERT INTO Header VALUES (68,'X11/X.h','No');
 INSERT INTO Header VALUES (69,'X11/Xutil.h','No');
+INSERT INTO Header VALUES (71,'linux/in.h','No');
+INSERT INTO Header VALUES (72,'linux/in6.h','No');
+INSERT INTO Header VALUES (73,'linux/x25.h','No');

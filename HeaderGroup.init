@@ -68,3 +68,6 @@ INSERT INTO HeaderGroup VALUES (67,'Default HeaderGroup for a.h',67,0,0,'Default
 INSERT INTO HeaderGroup VALUES (68,'Default HeaderGroup for X11/X.h',68,0,0,'Default HeaderGroup for X11/X.h');
 INSERT INTO HeaderGroup VALUES (69,'Default HeaderGroup for X11/Xutil.h',69,0,0,'Default HeaderGroup for X11/Xutil.h');
 INSERT INTO HeaderGroup VALUES (70,'Default HeaderGroup for curses.h',70,0,0,'Default HeaderGroup for curses.h');
+INSERT INTO HeaderGroup VALUES (71,'Default HeaderGroup for linux/in.h',71,0,0,'Default HeaderGroup for linux/in.h');
+INSERT INTO HeaderGroup VALUES (72,'Default HeaderGroup for linux/in6.h',72,0,0,'Default HeaderGroup for linux/in6.h');
+INSERT INTO HeaderGroup VALUES (73,'Default HeaderGroup for linux/x25.h',73,0,0,'Default HeaderGroup for linux/x25.h');

@@ -12,7 +12,7 @@ CREATE TABLE ElfSections (
   ESid tinyint(3) DEFAULT '0' NOT NULL auto_increment,
   ESname varchar(60) DEFAULT '' NOT NULL,
   ESstandard int(10) DEFAULT '0' NOT NULL,
-  ESdescription varchar(60),
+  ESdescription varchar(255),
   EStype int(10) DEFAULT '0' NOT NULL,
   ESattributes varchar(60) DEFAULT '' NOT NULL,
   ESSecType int(10),

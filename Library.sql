@@ -13,6 +13,7 @@ CREATE TABLE Library (
   Lname varchar(60) binary DEFAULT '' NOT NULL,
   Lrunname varchar(60) binary DEFAULT '' NOT NULL,
   Lstd enum('Yes','No') DEFAULT 'No' NOT NULL,
+  Larch int(11) DEFAULT '1' NOT NULL,
   PRIMARY KEY (Lid)
 );
 
