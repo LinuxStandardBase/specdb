@@ -13,6 +13,7 @@ CREATE TABLE DynamicEntries (
   DEname varchar(60) DEFAULT '' NOT NULL,
   DEstandard int(10) DEFAULT '0' NOT NULL,
   DEdescription varchar(60),
+  DEarch int(11) DEFAULT '1' NOT NULL,
   PRIMARY KEY (DEid)
 );
 

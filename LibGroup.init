@@ -125,3 +125,5 @@ INSERT INTO LibGroup VALUES (222,'Default LibGroup for libtixsam4.1.8.0.so',219,
 INSERT INTO LibGroup VALUES (223,'Default LibGroup for libtix4.1.8.0.so',220,2,0,'Default LibGroup for libtix4.1.8.0.so');
 INSERT INTO LibGroup VALUES (224,'Default LibGroup for libpisock.so.3.0.1',221,2,0,'Default LibGroup for libpisock.so.3.0.1');
 INSERT INTO LibGroup VALUES (225,'Default LibGroup for libmediatool.so.2.0.0',222,2,0,'Default LibGroup for libmediatool.so.2.0.0');
+INSERT INTO LibGroup VALUES (226,'ELF Magic',131,1,17,'');
+INSERT INTO LibGroup VALUES (227,'Large File Support',131,1,18,'');

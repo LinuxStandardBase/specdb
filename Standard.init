@@ -27,3 +27,4 @@ INSERT INTO Standard VALUES (26,'SUS-XBD','CAE Specification, January 1997, Syst
 INSERT INTO Standard VALUES (27,'SUS-XCU','CAE Specification, January 1997, Commands and Utilities (XCU), Issue 5(ISBN: 1-85912-191-8, C604)','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (28,'SUS-CURSES',' CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:\n1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
+INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmdp.org/rpmbook/','','Reference');
