@@ -72,4 +72,9 @@ INSERT INTO Standard VALUES (76,'DWARF2','DWARF Debugging Information Format, Re
 INSERT INTO Standard VALUES (77,'RFC2440','RFC 2440: OpenPGP Message Format','','','Standard',1);
 INSERT INTO Standard VALUES (78,'S390X ABI','LINUX for zSeries Application Binary Interface Supplement','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12);
 INSERT INTO Standard VALUES (79,'S390X Arch','z/Architecture Principles of Operation','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12);
-INSERT INTO Standard VALUES (80,'x86-64-ABI-1','System V Application Binary Interface x86-64&#153 Architecture Processor Supplement, Draft Version 0.21','','','Standard',11);
+INSERT INTO Standard VALUES (80,'x86-64-ABI','System V Application Binary Interface x86-64&#153 Architecture Processor Supplement, Draft Version 0.21','','','Standard',11);
+INSERT INTO Standard VALUES (82,'X86-64 APM Vol1','AMD x86-64 Architecture Programmer\'s Manual, Volume 1: Application Programming','','','Standard',11);
+INSERT INTO Standard VALUES (83,'X86-64 APM Vol2','AMD x86-64 Architecture Programmer\'s Manual, Volume 2: System Programming','','','Standard',11);
+INSERT INTO Standard VALUES (84,'X86-64 APM Vol3-1','AMD x86-64 Architecture Programmer\'s Manual, Volume 3-1: Instruction Set Reference -- General Purpose and System Programming Instructions','','','Standard',11);
+INSERT INTO Standard VALUES (85,'X86-64 APM Vol3-2','AMD x86-64 Architecture Programmer\'s Manual, Volume 3-2: Instruction Set Reference -- 128-bit Media Instructions','','','Standard',11);
+INSERT INTO Standard VALUES (86,'X86-64 APM Vol3-3','AMD x86-64 Architecture Programmer\'s Manual, Volume 3-3: Instruction Set Reference -- 64-bit Media and x87 Floating-point Instructions','','','Standard',11);

@@ -519,3 +519,7 @@ INSERT INTO HeaderGroup VALUES (528,'utmpx member sizes',132,1,1,'');
 INSERT INTO HeaderGroup VALUES (529,'psw_t',123,8,1,'');
 INSERT INTO HeaderGroup VALUES (530,'Default HeadGroup for typeinfo',150,0,1,'');
 INSERT INTO HeaderGroup VALUES (531,'Default HeadGroup for cxxabi.h',151,0,1,'');
+INSERT INTO HeaderGroup VALUES (532,'Default HeadGroup for ctype',152,0,1,'');
+INSERT INTO HeaderGroup VALUES (533,'Default HeadGroup for rpc/auth_unix.h',153,0,1,'');
+INSERT INTO HeaderGroup VALUES (534,'Default HeadGroup for rpc/auth_des.h',154,0,1,'');
+INSERT INTO HeaderGroup VALUES (535,'lockf flags',62,7,1,'Flags for lockf()');

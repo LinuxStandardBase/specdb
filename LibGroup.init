@@ -170,3 +170,5 @@ INSERT INTO LibGroup VALUES (298,'22.2.5.2 C++ Class time_get_byname<char>',231,
 INSERT INTO LibGroup VALUES (299,'22.2.5.2 C++ Class time_get_byname<wchar_t>',231,1,36,'');
 INSERT INTO LibGroup VALUES (300,'22.2.5.3 C++ Class time_put<char>',231,1,37,'');
 INSERT INTO LibGroup VALUES (301,'22.2.5.3 C++ Class time_put<wchar_t>',231,1,38,'');
+INSERT INTO LibGroup VALUES (302,'C++ ABI Class Type Info',231,1,200,'');
+INSERT INTO LibGroup VALUES (303,'Default C++ LibGroup should be empty when done',231,1,300,'A place holder for things to live until we get them sorted.');
