@@ -1028,11 +1028,15 @@ INSERT INTO `Command` VALUES (1036,'stty','/usr/bin/stty','Included',67,'Yes','N
 INSERT INTO `Command` VALUES (1037,'rsync','/usr/bin/rsync','Excluded',10,'Yes','No');
 INSERT INTO `Command` VALUES (1038,'dmesg','/bin/dmesg','Included',10,'No','No');
 INSERT INTO `Command` VALUES (1039,'shutdown','/sbin/shutdown','Included',10,'No','No');
-INSERT INTO `Command` VALUES (1040,'install_initd','/sbin/install_initd','Included',10,'Yes','No');
-INSERT INTO `Command` VALUES (1041,'remove_initd','/sbin/remove_initd','Included',10,'Yes','No');
+INSERT INTO `Command` VALUES (1040,'install_initd','/usr/lib/lsb/install_initd','Included',10,'Yes','No');
+INSERT INTO `Command` VALUES (1041,'remove_initd','/usr/lib/lsb/remove_initd','Included',10,'Yes','No');
 INSERT INTO `Command` VALUES (1042,'[','/bin/[','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (1043,'cd','/bin/cd','Builtin',67,'No','No');
 INSERT INTO `Command` VALUES (1044,'getopts','/usr/bin/getopts','Builtin',67,'No','No');
 INSERT INTO `Command` VALUES (1045,'read','/usr/bin/read','Builtin',67,'No','No');
 INSERT INTO `Command` VALUES (1046,'umask','/bin/umask','Builtin',67,'No','No');
 INSERT INTO `Command` VALUES (1047,'wait','/bin/wait','Builtin',67,'No','No');
+INSERT INTO `Command` VALUES (1048,'ed','/bin/ed','Included',67,'No','No');
+INSERT INTO `Command` VALUES (1049,'mailx','/usr/bin/mailx','Included',67,'No','No');
+INSERT INTO `Command` VALUES (1050,'lp','/usr/bin/lp','Included',67,'No','No');
+INSERT INTO `Command` VALUES (1051,'pax','/usr/bin/pax','Included',67,'No','No');

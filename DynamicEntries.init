@@ -70,3 +70,4 @@ INSERT INTO `DynamicEntries` VALUES (69,'DT_JMPREL','23',80,'This entry is assoc
 INSERT INTO `DynamicEntries` VALUES (70,'DT_RELACOUNT','0x6ffffff9',80,'The number of relative relocations in .rela.dyn',11,'Included');
 INSERT INTO `DynamicEntries` VALUES (71,'DT_PLTGOT','3',89,'This entry\'s d_ptr member gives the address of the first byte in the procedure linkage table',13,'Included');
 INSERT INTO `DynamicEntries` VALUES (72,'DT_RELACOUNT','0x6ffffff9',10,'The number of relative relocations in .rela.dyn',13,'Included');
+INSERT INTO `DynamicEntries` VALUES (73,'DT_RUNPATH','0x1d',10,'null-terminated library search path string',1,'Included');

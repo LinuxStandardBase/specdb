@@ -151,3 +151,5 @@ INSERT INTO `Header` VALUES (155,'unctrl.h','Yes',128);
 INSERT INTO `Header` VALUES (156,'sys/sendfile.h','SrcError',131);
 INSERT INTO `Header` VALUES (157,'iostream','Yes',231);
 INSERT INTO `Header` VALUES (158,'iosfwd','No',231);
+INSERT INTO `Header` VALUES (159,'netinet/ip.h','Yes',131);
+INSERT INTO `Header` VALUES (160,'fenv.h','Yes',13);
