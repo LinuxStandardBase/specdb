@@ -2371,3 +2371,14 @@ INSERT INTO Type VALUES (10576,'sigaction','Struct',0,245,'','','Referenced',12,
 INSERT INTO Type VALUES (10577,'stat','Struct',0,52,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10578,'statvfs','Struct',0,457,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10579,'statvfs64','Struct',0,457,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10580,'anon_psw_t','Struct',0,529,'','','Excluded',10,'');
+INSERT INTO Type VALUES (10581,'__psw_t','Typedef',10580,529,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10582,'anon_fpreg_t','Union',0,392,'','','Excluded',10,'');
+INSERT INTO Type VALUES (10583,'fpreg_t','Typedef',10582,392,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10584,'fpreg_t [16]','Array',10583,392,'','','Excluded',10,'');
+INSERT INTO Type VALUES (10585,'anon_fpregset_t','Struct',0,394,'','','Excluded',10,'');
+INSERT INTO Type VALUES (10586,'fpregset_t','Typedef',10585,394,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10587,'anon_mcontext','Struct',0,395,'','','Excluded',10,'');
+INSERT INTO Type VALUES (10588,'mcontext_t','Typedef',10587,395,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10589,'ucontext','Struct',0,396,'','','Indirect',10,'');
+INSERT INTO Type VALUES (10590,'ucontext_t','Typedef',10589,396,'','','Referenced',10,'');
