@@ -36,7 +36,7 @@ INSERT INTO ElfSections VALUES (35,'.stabstr',10,'This section contains strings 
 INSERT INTO ElfSections VALUES (36,'.sbss',10,'Need a proper description',2,'SHF_WRITE',8,2);
 INSERT INTO ElfSections VALUES (37,'.got',33,'This section holds the global offset table.',2,'SHF_ALLOC+SHF_WRITE',2,2);
 INSERT INTO ElfSections VALUES (38,'.plt',33,'This section holds the procedure linkage table.',2,'SHF_ALLOC+SHF_EXECINSTR',2,2);
-INSERT INTO ElfSections VALUES (39,'.gnu.version_d',10,'This section contains the Version Definitions.',18,'SHF_ALLOC',0,1);
+INSERT INTO ElfSections VALUES (39,'.gnu.version_d',10,'This section contains the Version Definitions.',17,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (41,'.rel.dyn',10,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .dyn section.',10,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (42,'.fini_array',31,'This section holds an array of function pointers that contributes to a single termination array for the executable or shared object containing the section.',22,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (43,'.init_array',31,'This section holds an array of function pointers that contributes to a single initialization array for the executable or shared object containing the section.',21,' SHF_ALLOC+SHF_WRITE',0,1);
