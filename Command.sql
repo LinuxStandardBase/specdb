@@ -17,7 +17,7 @@ CREATE TABLE Command (
   Cdocumented enum('Yes','No') NOT NULL default 'No',
   Ctested enum('Yes','No') NOT NULL default 'No',
   PRIMARY KEY  (Cid),
-  UNIQUE KEY Cname (Cname),
-  UNIQUE KEY Cpath (Cpath)
+  UNIQUE KEY Cpath (Cpath),
+  UNIQUE KEY Cname (Cname)
 ) TYPE=MyISAM;
 
