@@ -36,3 +36,8 @@ INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-syst
 INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard');
 INSERT INTO Standard VALUES (37,'X-shm','MIT-SHM--The MIT Shared Memory Extension','http://www.x.org/','','Standard');
 INSERT INTO Standard VALUES (38,'X-dbe','Double Buffer Extension Library','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (39,'X-sync','X Synchronization Extension Library','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (40,'X-test','XTEST Extension Library','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (41,'X-Record','X Record Extension Library','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (42,'X-DPMS','X Display Power Management Signaling (DPMS) Extension, Library Specification','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (43,'X-security','Security Extension Specification, Version 7.1','http://www.x.org/','','Standard');
