@@ -527,3 +527,5 @@ INSERT INTO HeaderGroup VALUES (536,'Displatch function type',103,2,0,'');
 INSERT INTO HeaderGroup VALUES (537,'svc_req structure',103,3,0,'');
 INSERT INTO HeaderGroup VALUES (538,'PPC64 base types',41,1,1,'PPC64 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
 INSERT INTO HeaderGroup VALUES (539,'PPC64 derived types',41,2,1,'');
+INSERT INTO HeaderGroup VALUES (540,'Default headgroup for unctrl.h',155,0,1,'This file intentionally blank.');
+INSERT INTO HeaderGroup VALUES (541,'TERMINAL Type',140,1,1,'');

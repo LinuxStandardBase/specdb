@@ -31,7 +31,7 @@ INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpm.
 INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard',1);
 INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard',1);
 INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386&trade Architecture Processor Supplement, Fourth Edition','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard',2);
-INSERT INTO Standard VALUES (34,'IA64 Conventions','Itanium &trade Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/itanium/downloads/24535803s.htm','','Standard',3);
+INSERT INTO Standard VALUES (34,'IA64 Conventions','Itanium &trade Software Conventions & Runtime Architecture Guide','http://refspecs.freestandards.org/IA64conventions.pdf','','Standard',3);
 INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-systems.org/version2/whatsnew/lfs20mar.html','','Standard',1);
 INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard',1);
 INSERT INTO Standard VALUES (37,'X-shm','MIT-SHM--The MIT Shared Memory Extension','http://www.x.org/','','Standard',1);
@@ -46,11 +46,11 @@ INSERT INTO Standard VALUES (46,'SVID.4','System V Interface Definition,Fourth E
 INSERT INTO Standard VALUES (51,'IA32 SDM Vol1','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 1: Basic Architecture','http://developer.intel.com/design/pentium4/manuals/245470.htm','','Standard',2);
 INSERT INTO Standard VALUES (52,'IA32 SDM Vol2','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 2: Instruction Set Reference','http://developer.intel.com/design/pentium4/manuals/245471.htm','','Standard',2);
 INSERT INTO Standard VALUES (53,'IA32 SDM Vol3','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 3: System Programming Guide','http://developer.intel.com/design/pentium4/manuals/245472.htm','','Standard',2);
-INSERT INTO Standard VALUES (54,'IA64 SDM Vol1','Itanium &trade Architecture Software Developer\'s Manual Volume 1: Application Architecture','http://developer.intel.com/design/itanium/downloads/24531703s.htm','','Standard',3);
-INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium &trade Architecture Software Developer\'s Manual Volume 2: System Architecture','http://developer.intel.com/design/itanium/downloads/24531803s.htm','','Standard',3);
-INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium &trade Architecture Software Developer\'s Manual Volume 3: Instruction Set Reference','http://developer.intel.com/design/itanium/downloads/24531903s.htm','','Standard',3);
-INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA-64 Processor Reference: Intel® Itanium &trade Processor Reference Manual for Software Development','http://developer.intel.com/design/itanium/downloads/24532003s.htm','','Standard',3);
-INSERT INTO Standard VALUES (58,'IA64 ABI','Intel®  Itanium &trade Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard',3);
+INSERT INTO Standard VALUES (54,'IA64 SDM Vol1','Itanium &trade Architecture Software Developer\'s Manual Volume 1: Application Architecture','http://refspecs.freestandards.org/IA64-softdevman-vol1.pdf','','Standard',3);
+INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium &trade Architecture Software Developer\'s Manual Volume 2: System Architecture','http://refspecs.freestandards.org/IA64-softdevman-vol2.pdf','','Standard',3);
+INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium &trade Architecture Software Developer\'s Manual Volume 3: Instruction Set Reference','http://refspecs.freestandards.org/IA64-softdevman-vol3.pdf','','Standard',3);
+INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA-64 Processor Reference: Intel® Itanium &trade Processor Reference Manual for Software Development','http://refspecs.freestandards.org/IA64-softdevman-vol4.pdf','','Standard',3);
+INSERT INTO Standard VALUES (58,'IA64 ABI','Intel®  Itanium &trade Processor-specific Application Binary Interface','http://refspecs.freestandards.org/elf/IA64-SysV-psABI.pdf','','Standard',3);
 INSERT INTO Standard VALUES (59,'Li18nux','LI18NUX 2000 Globalization Specification, Version 1.0 with Amendment 4','http://www.li18nux.org/docs/html/LI18NUX-2000-amd4.htm','','Standard',1);
 INSERT INTO Standard VALUES (60,'PPC32 Arch','The PowerPC &trade Architecture: A Specification for a new family of RISC processors','http://www.austin.ibm.com','','Standard',6);
 INSERT INTO Standard VALUES (61,'PPC32 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard',6);
