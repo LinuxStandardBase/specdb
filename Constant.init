@@ -5108,3 +5108,4 @@ INSERT INTO Constant VALUES (5113,'__USE_ANSI','int',0,'','');
 INSERT INTO Constant VALUES (5114,'_POSIX_C_SOURCE','int',521,'','Yes');
 INSERT INTO Constant VALUES (5115,'__STDC_ISO_10646__','int',521,'','Yes');
 INSERT INTO Constant VALUES (5116,'__NO_CTYPE','int',521,'','');
+INSERT INTO Constant VALUES (5117,'__GLIBC__','int',522,'Suggest we are GNUish, but don\'t make any claims as to what','SrcOnly');

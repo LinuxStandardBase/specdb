@@ -3541,7 +3541,6 @@ INSERT INTO TypeMember VALUES (40181,'__locales',10537,0,0,1,'',10531,'13',0);
 INSERT INTO TypeMember VALUES (40182,'__ctype_b',10539,0,0,2,'',10531,'',0);
 INSERT INTO TypeMember VALUES (40183,'__ctype_tolower',10541,0,0,3,'',10531,'',0);
 INSERT INTO TypeMember VALUES (40184,'__ctype_toupper',10541,0,0,4,'',10531,'',0);
-INSERT INTO TypeMember VALUES (40185,'__names',10542,0,0,5,'',10531,'13',0);
 INSERT INTO TypeMember VALUES (40191,'__key',9170,0,0,0,'',10543,NULL,0);
 INSERT INTO TypeMember VALUES (40192,'uid',9068,0,0,1,'',10543,NULL,0);
 INSERT INTO TypeMember VALUES (40193,'gid',9011,0,0,2,'',10543,NULL,0);

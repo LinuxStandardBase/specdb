@@ -2325,7 +2325,7 @@ INSERT INTO Type VALUES (10530,'unsigned long [32]','Array',9,0,'','','Excluded'
 INSERT INTO Type VALUES (10531,'__locale_struct','Struct',0,516,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10532,'__locale_struct *','Pointer',10531,516,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10533,'__locale_t','Typedef',10532,516,'','','Referenced',1,'');
-INSERT INTO Type VALUES (10534,'locale_t','Typedef',10533,518,'','','Referenced',1,'');
+INSERT INTO Type VALUES (10534,'locale_t','Typedef',10533,518,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10535,'locale_data','Struct',0,516,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10536,'locale_data *','Pointer',10535,27,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10537,'locale_data *[13]','Array',10536,27,'','','Excluded',1,'');
