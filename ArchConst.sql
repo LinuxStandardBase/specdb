@@ -2,7 +2,6 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.51-log
 
 --
 -- Table structure for table 'ArchConst'

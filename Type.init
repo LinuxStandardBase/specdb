@@ -2023,7 +2023,7 @@ INSERT INTO Type VALUES (10227,'_libc_fpreg array','Array',10225,0,'','','Indire
 INSERT INTO Type VALUES (10228,'fpregset_t','Typedef',10278,394,'','','Referenced',2,NULL);
 INSERT INTO Type VALUES (10229,'anon-mcontext','Struct',0,395,'','','Indirect',1,NULL);
 INSERT INTO Type VALUES (10230,'mcontext_t','Typedef',10229,395,'','','Referenced',2,NULL);
-INSERT INTO Type VALUES (10231,'__jmp_buf_tag array','Array',6961,364,'','','Indirect',1,'');
+INSERT INTO Type VALUES (10231,'__jmp_buf_tag array','Array',6961,364,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10232,'fptr-atexit_func','FuncPtr',1,0,'','','Indirect',1,NULL);
 INSERT INTO Type VALUES (10233,'aiocb * array','Array',8636,0,'','','Indirect',1,NULL);
 INSERT INTO Type VALUES (10234,'sigevent *','Pointer',10188,0,'','','Indirect',1,NULL);

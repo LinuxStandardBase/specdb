@@ -499,3 +499,4 @@ INSERT INTO HeaderGroup VALUES (508,'rejected_reply',146,3,1,'Reply to an rpc re
 INSERT INTO HeaderGroup VALUES (509,'reply_body',146,4,1,'Body of a reply to an rpc request.');
 INSERT INTO HeaderGroup VALUES (510,'call_body',146,5,1,'Body of an rpc request call.');
 INSERT INTO HeaderGroup VALUES (511,'rpc_msg',146,6,1,'The rpc message');
+INSERT INTO HeaderGroup VALUES (512,'Default HeaderGroup for netinet/udp.h',147,0,1,'');
