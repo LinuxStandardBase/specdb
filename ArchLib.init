@@ -61,3 +61,4 @@ INSERT INTO ArchLib VALUES (29,11,'libcrypt.so.1');
 INSERT INTO ArchLib VALUES (27,11,'libdl.so.2');
 INSERT INTO ArchLib VALUES (13,11,'libm.so.6');
 INSERT INTO ArchLib VALUES (132,11,'libpthread.so.0');
+INSERT INTO ArchLib VALUES (231,2,'libstdc++.so.5');

@@ -18,7 +18,7 @@ INSERT INTO Constant VALUES (17,'LONG_MIN','int',315,'','Yes');
 INSERT INTO Constant VALUES (18,'ULONG_MAX','long',26,'','Yes');
 INSERT INTO Constant VALUES (19,'_LINUX_LIMITS_H','int',26,'','No');
 INSERT INTO Constant VALUES (20,'NR_OPEN','int',26,'','No');
-INSERT INTO Constant VALUES (21,'NGROUPS_MAX','int',26,'','No');
+INSERT INTO Constant VALUES (21,'NGROUPS_MAX','int',26,'','Yes');
 INSERT INTO Constant VALUES (22,'ARG_MAX','int',26,'','No');
 INSERT INTO Constant VALUES (23,'CHILD_MAX','int',26,'','No');
 INSERT INTO Constant VALUES (24,'OPEN_MAX','int',26,'','Yes');

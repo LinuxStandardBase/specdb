@@ -17,6 +17,8 @@ CREATE TABLE ClassInfo (
   CIrtti int(11) NOT NULL default '0',
   CInumbasetype int(11) NOT NULL default '0',
   CIbase int(11) NOT NULL default '0',
+  CInumvmitypes int(11) NOT NULL default '0',
+  CIflags int(11) NOT NULL default '0',
   CIbaseoffset int(11) NOT NULL default '0',
   CIbasevtable int(11) NOT NULL default '0',
   CIlibg int(11) NOT NULL default '0',
