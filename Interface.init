@@ -2534,7 +2534,7 @@ INSERT INTO Interface VALUES (2609,'XtSetValues','Included','Function',12,1,90,1
 INSERT INTO Interface VALUES (2610,'XtSetWMColormapWindows','Included','Function',12,1,90,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2611,'XtSetWarningHandler','Included','Function',12,1,90,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2612,'XtSetWarningMsgHandler','Included','Function',12,1,90,1,0,'Yes','No');
-INSERT INTO Interface VALUES (2613,'XtShellStrings','Included','Data',12,1,93,10194,0,'Yes','No');
+INSERT INTO Interface VALUES (2613,'XtShellStrings','Included','Data',12,1,93,10442,0,'Yes','No');
 INSERT INTO Interface VALUES (2614,'XtStringConversionWarning','Included','Function',12,1,90,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2615,'XtStrings','Included','Data',12,1,92,10194,0,'Yes','No');
 INSERT INTO Interface VALUES (2616,'XtSuperclass','Included','Function',12,1,90,9583,0,'Yes','No');
