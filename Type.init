@@ -354,8 +354,8 @@ INSERT INTO Type VALUES (8654,'_win_st','Struct',0,423,'','','Referenced',1,NULL
 INSERT INTO Type VALUES (8657,'anon-curses.h-56','Struct',0,70,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8255,'anon-X11/SM/SMlib.h-154','Struct',0,9,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8462,'XMapRequestEvent','Typedef',8461,100,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (8656,'attr_t','Typedef',8650,250,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (8655,'WINDOW','Typedef',8654,250,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8656,'attr_t','Typedef',8650,250,'','','Referenced',1,'');
+INSERT INTO Type VALUES (8655,'WINDOW','Typedef',8654,250,'','','Referenced',1,'');
 INSERT INTO Type VALUES (6902,'sockaddr_in6','Struct',0,357,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8461,'anon-X11/Xlib.h-1773','Struct',0,100,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (6901,'anon-linux/in6.h-9','Union',0,72,'','','Excluded',1,NULL);
@@ -366,7 +366,7 @@ INSERT INTO Type VALUES (6913,'sockaddr_x25','Struct',0,0,'','','Excluded',1,NUL
 INSERT INTO Type VALUES (6912,'x25_address','Typedef',6911,73,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (6911,'anon-linux/x25.h-8','Struct',0,73,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (4659,'unsigned char *','Pointer',3,0,'','','Indirect',1,NULL);
-INSERT INTO Type VALUES (8658,'cchar_t','Typedef',8657,250,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8658,'cchar_t','Typedef',8657,250,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8659,'ldat','Struct',0,70,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8458,'XUnmapEvent','Typedef',8457,100,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8465,'anon-X11/Xlib.h-1846','Struct',0,100,'','','Excluded',1,NULL);
@@ -466,7 +466,7 @@ INSERT INTO Type VALUES (8423,'_XPrivDisplay','Typedef',7109,99,'','','Excluded'
 INSERT INTO Type VALUES (5689,'unsigned short *','Pointer',5,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8747,'fptr-IceWatchProc','FuncPtr',1,7,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (5703,'short *','Pointer',4,0,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (8653,'SCREEN','Typedef',8652,250,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8653,'SCREEN','Typedef',8652,250,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8227,'anon-X11/ICE/ICEutil.h-11','Struct',0,8,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (7107,'_XrmHashBucketRec *','Pointer',7102,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8746,'IceProcessMessagesStatus','Typedef',8745,115,'','','Referenced',1,NULL);
@@ -582,8 +582,8 @@ INSERT INTO Type VALUES (8735,'anon-X11/ICE/ICElib.h-28','Enum',0,115,'','','Exc
 INSERT INTO Type VALUES (8374,'XGCValues','Typedef',8373,84,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8371,'anon-X11/Xlib.h-69','Struct',0,83,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8652,'screen','Struct',0,0,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (8651,'bool','Typedef',6,250,'','','Referenced',1,'');
-INSERT INTO Type VALUES (8650,'chtype','Typedef',9,250,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8651,'bool','Typedef',6,514,'','','Excluded',1,'');
+INSERT INTO Type VALUES (8650,'chtype','Typedef',9,250,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8372,'XPixmapFormatValues','Typedef',8371,83,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8830,'SmcCallbacks *','Pointer',8259,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8691,'FTW','Struct',0,214,'','','Referenced',1,NULL);
@@ -684,7 +684,7 @@ INSERT INTO Type VALUES (8646,'aiocb64 *','Pointer',8639,0,'','1','Referenced',1
 INSERT INTO Type VALUES (8660,'chtype *','Pointer',8650,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8661,'ldat *','Pointer',8659,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8662,'_win_st *','Pointer',8654,0,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (8663,'pdat','Struct',0,250,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8663,'pdat','Struct',0,250,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8664,'attr_t *','Pointer',8656,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8665,'SCREEN *','Pointer',8653,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8823,'fptr-SmsNewClientProc','FuncPtr',6,9,'','','Excluded',1,NULL);
@@ -1705,7 +1705,7 @@ INSERT INTO Type VALUES (9893,'des_block *','Pointer',9888,0,'','','Excluded',1,
 INSERT INTO Type VALUES (9894,'opaque_auth','Struct',0,497,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9895,'enum_t','Typedef',6,490,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9896,'AUTH','Struct',9896,498,'','','Indirect',1,NULL);
-INSERT INTO Type VALUES (9897,'auth_ops','Struct',0,499,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (9897,'auth_ops','Struct',0,499,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9898,'fptr-ah_nextverf','FuncPtr',1,301,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9899,'AUTH *','Pointer',9896,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9900,'fptr-ah_marshal','FuncPtr',6,301,'','','Excluded',1,NULL);
@@ -2140,7 +2140,7 @@ INSERT INTO Type VALUES (10344,'const termio *','Pointer',10349,0,'','','Referen
 INSERT INTO Type VALUES (10345,'const utimbuf *','Pointer',10350,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10346,'const utmp *','Pointer',10351,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10347,'const iovec','Const',9022,0,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (10348,'fptr-putcproc','FuncPtr',6,470,'','','Indirect',1,NULL);
+INSERT INTO Type VALUES (10348,'fptr-putcproc','FuncPtr',6,470,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10349,'const termio','Const',9187,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10350,'const utimbuf','Const',7023,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10351,'const struct utmp','Const',10281,0,'','','Referenced',0,NULL);
@@ -2222,10 +2222,15 @@ INSERT INTO Type VALUES (10424,'anon-reply_bodu-ru','Union',0,509,'','','Indirec
 INSERT INTO Type VALUES (10425,'reply_body','Struct',0,509,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10426,'call_body','Struct',0,510,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10427,'anon-rpc_msg-ru','Union',0,511,'','','Indirect',1,NULL);
-INSERT INTO Type VALUES (10428,'auth_ops *','Pointer',9897,498,'','','Indirect',1,NULL);
+INSERT INTO Type VALUES (10428,'auth_ops *','Pointer',9897,498,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10429,'clnt_ops *','Pointer',9922,492,'','','Indirect',0,NULL);
 INSERT INTO Type VALUES (10432,'stat','Struct',0,52,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10433,'ifmap','Struct',0,436,'','','SrcOnly',1,'');
 INSERT INTO Type VALUES (10434,'anon-pthread_condattr','Struct',0,345,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10435,'unsigned int array','Array',7,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10436,'stat64','Struct',0,52,'','','Referenced',3,'');
+INSERT INTO Type VALUES (10437,'bool','Typedef',3,514,'','','Referenced',2,'');
+INSERT INTO Type VALUES (10438,'bool','Typedef',6,514,'','','Referenced',6,'');
+INSERT INTO Type VALUES (10439,'bool','Typedef',6,514,'','','Referenced',3,'');
+INSERT INTO Type VALUES (10440,'bool','Typedef',6,514,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10441,'bool','Typedef',6,514,'','','Referenced',10,'');
