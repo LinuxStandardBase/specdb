@@ -60,7 +60,7 @@ INSERT INTO Standard VALUES (64,'PPC32 ABI','System V Application Binary Interfa
 INSERT INTO Standard VALUES (65,'ISOCXX','ISO/IEC 14882: 1998(E) Programming languages --C++','','','Standard',1);
 INSERT INTO Standard VALUES (66,'PAM','OSF-RFC 86.0','http://www.opengroup.org/tech/rfc/mirror-rfc/rfc86.0.txt','','Standard',1);
 INSERT INTO Standard VALUES (67,'SUSv3','The Single UNIX® Specification(SUS) Version 3','http://www.unix.org/version3/','','Standard',1);
-INSERT INTO Standard VALUES (68,'PPC64 ABI','64-bit PowerPC ELF ABI Supplement','ftp://ftp.penguingppc64/pub/people/amodra/PPC-elf64abi.txt.gz','','Standard',9);
+INSERT INTO Standard VALUES (68,'PPC64 ABI','64-bit PowerPC ELF ABI Supplement, Version 1.4.1','http://www.linuxbase.org/spec/ELF/ppc64/','','Standard',9);
 INSERT INTO Standard VALUES (69,'PPC64 Arch','The PowerPC &trade Architecture: A Specification for a new family of RISC processors','http://www.austin.ibm.com','','Standard',9);
 INSERT INTO Standard VALUES (70,'PPC64 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard',9);
 INSERT INTO Standard VALUES (71,'PPC64 Arch Chg2','The PowerPC Architecture Book II changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg2.html','','Standard',9);
