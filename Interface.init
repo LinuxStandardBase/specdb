@@ -801,7 +801,7 @@ INSERT INTO Interface VALUES (800,'putchar','Included','Function',5,1,42,6,1,'Ye
 INSERT INTO Interface VALUES (801,'putchar_unlocked','Included','Function',5,1,42,6,1,'Yes','No');
 INSERT INTO Interface VALUES (802,'putenv','Included','Function',5,1,43,6,1,'Yes','No');
 INSERT INTO Interface VALUES (803,'putgrent','Defered','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (804,'putmsg','Included','Function',5,1,0,0,2,'Yes','No');
+INSERT INTO Interface VALUES (804,'putmsg','Excluded','Function',5,1,0,0,2,'Yes','No');
 INSERT INTO Interface VALUES (805,'putpmsg','Excluded','Function',5,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (806,'putpwent','Defered','Function',0,1,0,6,0,'No','No');
 INSERT INTO Interface VALUES (807,'putspent','Excluded','Function',0,1,0,0,0,'No','No');
@@ -17473,8 +17473,8 @@ INSERT INTO Interface VALUES (18311,'pthread_getcpuclockid','','Function',0,1,0,
 INSERT INTO Interface VALUES (18312,'pthread_mutex_timedlock','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18313,'pthread_mutexattr_getpshared','Included','Function',5,1,33,0,6,'Yes','No');
 INSERT INTO Interface VALUES (18314,'pthread_mutexattr_setpshared','Included','Function',5,1,33,0,6,'Yes','No');
-INSERT INTO Interface VALUES (18315,'pthread_rwlock_timedrdlock','Included','Function',10,1,33,0,0,'No','No');
-INSERT INTO Interface VALUES (18316,'pthread_rwlock_timedwrlock','Included','Function',10,1,33,0,0,'No','No');
+INSERT INTO Interface VALUES (18315,'pthread_rwlock_timedrdlock','Included','Function',5,1,33,0,0,'No','No');
+INSERT INTO Interface VALUES (18316,'pthread_rwlock_timedwrlock','Included','Function',5,1,33,0,0,'No','No');
 INSERT INTO Interface VALUES (18317,'pthread_spin_destroy','','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18318,'pthread_spin_init','','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18319,'pthread_spin_lock','','Unknown',0,1,0,0,0,'No','No');

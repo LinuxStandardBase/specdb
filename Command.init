@@ -1028,3 +1028,5 @@ INSERT INTO Command VALUES (1036,'stty','/usr/bin/stty','Included',27,'Yes','No'
 INSERT INTO Command VALUES (1037,'rsync','/usr/bin/rsync','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1038,'dmesg','/bin/dmesg','Included',10,'No','No');
 INSERT INTO Command VALUES (1039,'shutdown','/sbin/shutdown','Included',10,'No','No');
+INSERT INTO Command VALUES (1040,'install_initd','','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1041,'remove_initd','/sbin/remove_initd','Included',10,'Yes','No');
