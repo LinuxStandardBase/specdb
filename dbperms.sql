@@ -11,36 +11,36 @@
 #
 # Open up these tables for the LSB db admin
 #
-GRANT INSERT,UPDATE,DELETE ON lsb.Architecture TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ArchConst TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ArchLib TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ArchInt TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ArchType TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ArchTypeMem TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.CmdInt TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.CmdLib TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Command TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Constant TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.DynamicEntries TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.ElfSections TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Header TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.HeaderGroup TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Interface TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.LGInt TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.LibGroup TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Architecture TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchConst TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchLib TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchInt TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchType TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchTypeMem TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON CmdInt TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON CmdLib TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Command TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Constant TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON DynamicEntries TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ElfSections TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Header TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON HeaderGroup TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Interface TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON LGInt TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON LibGroup TO lsbadmin@localhost;
 # Only want to allow certain column to be edited
-#GRANT INSERT,UPDATE ON lsb.Library TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Parameter TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.SectionTypes TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Standard TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Type TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.TypeMember TO lsbadmin@localhost;
-GRANT INSERT,DELETE        ON lsb.VerInt TO lsbadmin@localhost;
-GRANT INSERT,UPDATE,DELETE ON lsb.Version TO lsbadmin@localhost;
+#GRANT INSERT,UPDATE ON Library TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Parameter TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON SectionTypes TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Standard TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Type TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON TypeMember TO lsbadmin@localhost;
+GRANT INSERT,DELETE        ON VerInt TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON Version TO lsbadmin@localhost;
 #
 # The rest should be "read Only" from the localhost
 #
-GRANT SELECT ON lsb.* TO lsbuser@localhost;
-GRANT SELECT ON lsb.* TO lsbadmin@localhost;
+GRANT SELECT ON * TO lsbuser@localhost;
+GRANT SELECT ON * TO lsbadmin@localhost;
 
 FLUSH PRIVILEGES;
