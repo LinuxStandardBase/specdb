@@ -2338,3 +2338,10 @@ INSERT INTO Type VALUES (10543,'ipc_perm','Struct',0,49,'','','Referenced',12,''
 INSERT INTO Type VALUES (10544,'msgqnum_t','Typedef',9,373,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10545,'msglen_t','Typedef',9,373,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10546,'msqid_ds','Struct',0,374,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10547,'semid_ds','Struct',0,47,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10548,'shmatt_t','Typedef',9,405,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10549,'shmid_ds','Struct',0,406,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10550,'stat','Struct',0,52,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10551,'stat64','Struct',0,52,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10552,'statvfs','Struct',0,457,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10553,'statvfs64','Struct',0,457,'','','Referenced',12,'');
