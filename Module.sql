@@ -13,8 +13,7 @@ CREATE TABLE Module (
   Mname varchar(32) NOT NULL default '',
   Mdesc varchar(255) NOT NULL default '',
   PRIMARY KEY  (Mid),
-  UNIQUE KEY Mid (Mid),
-  UNIQUE KEY Pid (Mid),
-  UNIQUE KEY Pname (Mname)
+  UNIQUE KEY Mname (Mname),
+  KEY Mid (Mid,Mname)
 ) TYPE=MyISAM;
 

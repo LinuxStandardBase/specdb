@@ -20,6 +20,8 @@ CREATE TABLE RpmTag (
   PRIMARY KEY  (Rid),
   UNIQUE KEY Rid (Rid),
   UNIQUE KEY Rname (Rname),
-  KEY Rtag (Rtag)
+  KEY Rtag (Rtag),
+  KEY Rgroup (Rgroup),
+  KEY Rstatus (Rstatus)
 ) TYPE=MyISAM;
 

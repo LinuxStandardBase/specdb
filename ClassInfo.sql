@@ -25,6 +25,7 @@ CREATE TABLE ClassInfo (
   CIlibg int(11) NOT NULL default '0',
   CIvtclass tinyint(1) NOT NULL default '1',
   PRIMARY KEY  (CIid),
-  UNIQUE KEY CIname (CIname)
+  UNIQUE KEY CIname (CIname),
+  KEY CIlibg (CIlibg)
 ) TYPE=MyISAM;
 

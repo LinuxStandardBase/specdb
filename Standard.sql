@@ -17,6 +17,7 @@ CREATE TABLE Standard (
   Stype enum('Standard','Reference','Unknown') NOT NULL default 'Unknown',
   Sarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Sid),
-  UNIQUE KEY k_Sname (Sname)
+  UNIQUE KEY Sname (Sname),
+  KEY Stype (Stype)
 ) TYPE=MyISAM;
 

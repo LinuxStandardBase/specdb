@@ -13,6 +13,8 @@ CREATE TABLE ArchInt (
   AIint int(11) NOT NULL default '0',
   AIversion smallint(6) NOT NULL default '0',
   UNIQUE KEY k_AI (AIarch,AIint),
-  KEY AIversion (AIversion)
+  KEY AIversion (AIversion),
+  KEY k_av (AIint,AIversion),
+  KEY AIint (AIint)
 ) TYPE=MyISAM;
 

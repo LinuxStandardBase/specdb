@@ -11,6 +11,7 @@ DROP TABLE IF EXISTS LGInt;
 CREATE TABLE LGInt (
   LGIint int(11) NOT NULL default '0',
   LGIlibg int(11) NOT NULL default '0',
-  UNIQUE KEY k_LGI (LGIint,LGIlibg)
+  UNIQUE KEY k_LGI (LGIint,LGIlibg),
+  KEY LGIint (LGIint)
 ) TYPE=MyISAM;
 

@@ -21,6 +21,11 @@ CREATE TABLE Interface (
   Idocumented enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   Itested enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (Iid),
-  UNIQUE KEY k_Iname (Iname,Iid)
+  UNIQUE KEY k_Iname (Iname,Iid),
+  KEY Iname (Iname),
+  KEY Istandard (Istandard),
+  KEY Istatus (Istatus),
+  KEY Itype (Itype),
+  KEY Iarch (Iarch)
 ) TYPE=MyISAM;
 
