@@ -8595,11 +8595,11 @@ INSERT INTO Interface VALUES (9433,'compositeClassRec','Included','Data',12,1,10
 INSERT INTO Interface VALUES (9434,'compositeWidgetClass','Included','Data',12,1,91,9583,0,'Yes','No');
 INSERT INTO Interface VALUES (9435,'constraintClassRec','Included','Data',12,1,124,10258,0,'Yes','No');
 INSERT INTO Interface VALUES (9436,'constraintWidgetClass','Included','Data',12,1,125,9583,0,'Yes','No');
-INSERT INTO Interface VALUES (9437,'coreWidgetClass','Included','Data',12,1,0,0,0,'Yes','No');
+INSERT INTO Interface VALUES (9437,'coreWidgetClass','Included','Data',12,1,126,9583,0,'Yes','No');
 INSERT INTO Interface VALUES (9438,'hookObjClassRec','Excluded','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (9439,'hookObjectClass','Excluded','Data',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (9440,'objectClass','Included','Data',12,1,0,0,0,'Yes','No');
-INSERT INTO Interface VALUES (9441,'objectClassRec','Included','Data',12,1,0,0,0,'Yes','No');
+INSERT INTO Interface VALUES (9440,'objectClass','Included','Data',12,1,127,9583,0,'Yes','No');
+INSERT INTO Interface VALUES (9441,'objectClassRec','Included','Data',12,1,128,10272,0,'Yes','No');
 INSERT INTO Interface VALUES (9442,'overrideShellClassRec','Included','Data',12,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (9443,'overrideShellWidgetClass','Included','Data',12,1,93,9583,0,'Yes','No');
 INSERT INTO Interface VALUES (9444,'rectObjClass','Included','Data',12,1,0,0,0,'Yes','No');

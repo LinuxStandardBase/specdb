@@ -118,3 +118,6 @@ INSERT INTO Header VALUES (121,'fmtmsg.h','Yes');
 INSERT INTO Header VALUES (122,'syslog.h','Yes');
 INSERT INTO Header VALUES (123,'ucontext.h','Yes');
 INSERT INTO Header VALUES (125,'X11/Constraint.h','Yes');
+INSERT INTO Header VALUES (126,'X11/Core.h','Yes');
+INSERT INTO Header VALUES (127,'X11/Object.h','Yes');
+INSERT INTO Header VALUES (128,'X11/ObjectP.h','Yes');
