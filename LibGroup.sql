@@ -1,6 +1,6 @@
--- MySQL dump 8.21
+-- MySQL dump 9.08
 --
--- Host: localhost    Database: lsb
+-- Host: base1.freestandards.org    Database: lsb
 ---------------------------------------------------------
 
 --
