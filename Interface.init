@@ -415,7 +415,7 @@ INSERT INTO Interface VALUES (415,'authdes_pk_create','Defered','Function',8,1,9
 INSERT INTO Interface VALUES (416,'authnone_create','Included','Function',46,1,98,9899,1,'Yes','No');
 INSERT INTO Interface VALUES (417,'authunix_create','Defered','Function',8,1,98,9899,1,'Yes','No');
 INSERT INTO Interface VALUES (418,'authunix_create_default','Defered','Function',8,1,98,9899,1,'Yes','No');
-INSERT INTO Interface VALUES (419,'basename','Included','Function',5,1,44,63,1,'Yes','No');
+INSERT INTO Interface VALUES (419,'basename','Included','Function',5,1,148,63,1,'Yes','No');
 INSERT INTO Interface VALUES (420,'bcopy','Included','Function',5,1,44,1,1,'Yes','No');
 INSERT INTO Interface VALUES (421,'bdflush','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (422,'bind','Included','Function',15,1,48,6,1,'Yes','No');
@@ -467,7 +467,7 @@ INSERT INTO Interface VALUES (467,'delete_module','Excluded','Function',0,1,0,0,
 INSERT INTO Interface VALUES (468,'des_setparity','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (469,'difftime','Included','Function',5,1,60,13,1,'Yes','No');
 INSERT INTO Interface VALUES (470,'dirfd','Excluded','Function',0,1,0,6,0,'No','No');
-INSERT INTO Interface VALUES (471,'dirname','Included','Function',5,1,0,0,1,'Yes','No');
+INSERT INTO Interface VALUES (471,'dirname','Included','Function',5,1,148,63,1,'Yes','No');
 INSERT INTO Interface VALUES (472,'div','Included','Function',5,1,43,6973,1,'Yes','No');
 INSERT INTO Interface VALUES (473,'dprintf','Excluded','Function',0,1,0,0,1,'No','No');
 INSERT INTO Interface VALUES (474,'drand48','Included','Function',5,1,43,13,1,'Yes','No');
