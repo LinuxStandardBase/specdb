@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.53-log
+-- Server version	3.23.51-log
 
 --
 -- Table structure for table 'RpmTag'
@@ -19,8 +19,8 @@ CREATE TABLE RpmTag (
   Rstatus enum('Required','Optional','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
   Rdescription text NOT NULL,
   PRIMARY KEY  (Rid),
-  UNIQUE KEY Rname (Rname),
   UNIQUE KEY Rid (Rid),
+  UNIQUE KEY Rname (Rname),
   KEY Rtag (Rtag)
 ) TYPE=MyISAM;
 

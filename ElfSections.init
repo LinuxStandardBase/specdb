@@ -60,5 +60,7 @@ INSERT INTO ElfSections VALUES (64,'.rela.sbss',10,'This section holds RELA type
 INSERT INTO ElfSections VALUES (65,'.rela.bss',10,'This section holds RELA type relocation information for the BSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (66,'.rela.got2',10,'This section holds RELA type relocation information for the second level GOT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (67,'.jcr',10,'This section contains information necessary for registering compiled\r\nJava classes.  The contents are compiler-specific and used by compiler\r\ninitialization functions.',2,'SHF_ALLOC+SHF_WRITE',0,1);
-INSERT INTO ElfSections VALUES (68,'.got',74,'',2,'SHF_ALLOC+SHF_WRITE',0,10);
-INSERT INTO ElfSections VALUES (69,'.plt',74,'',2,'SHF_ALLOC+SHF_EXECINSTR',0,10);
+INSERT INTO ElfSections VALUES (68,'.got',74,'This section holds the global offset table',2,'SHF_ALLOC+SHF_WRITE',0,10);
+INSERT INTO ElfSections VALUES (69,'.plt',74,'This section holds the Procedure Linkage Table',2,'SHF_ALLOC+SHF_EXECINSTR',0,10);
+INSERT INTO ElfSections VALUES (70,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,10);
+INSERT INTO ElfSections VALUES (71,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,10);
