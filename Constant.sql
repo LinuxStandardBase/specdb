@@ -10,7 +10,7 @@
 DROP TABLE IF EXISTS Constant;
 CREATE TABLE Constant (
   Cid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Cname varchar(60) DEFAULT '' NOT NULL,
+  Cname varchar(60) binary DEFAULT '' NOT NULL,
   Cvalue varchar(60) DEFAULT '' NOT NULL,
   Ctype enum('int','float','string','Unknown') DEFAULT 'Unknown' NOT NULL,
   Cheadgroup int(10) DEFAULT '0' NOT NULL,
