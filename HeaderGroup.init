@@ -449,7 +449,7 @@ INSERT INTO `HeaderGroup` VALUES (456,'LC_COLLATE category',25,9,1,' LC_COLLATE 
 INSERT INTO `HeaderGroup` VALUES (457,'Default HeaderGroup for sys/statvfs.h',135,0,1,'');
 INSERT INTO `HeaderGroup` VALUES (458,'Protocol Families',48,5,1,'Protocol Families');
 INSERT INTO `HeaderGroup` VALUES (459,'constants',97,5,0,'');
-INSERT INTO `HeaderGroup` VALUES (460,'Allowed flush values',97,6,0,'');
+INSERT INTO `HeaderGroup` VALUES (460,'Allowed flush values',97,6,0,'Return status of flush operations');
 INSERT INTO `HeaderGroup` VALUES (461,'Return codes for the compression/decompression functions.',97,7,0,'Return codes for the compression/decompression functions. Negative values are errors, positive values are used for special but normal events.');
 INSERT INTO `HeaderGroup` VALUES (462,'compression levels',97,8,0,'compression levels');
 INSERT INTO `HeaderGroup` VALUES (463,'compression strategy',97,9,0,'compression strategy');

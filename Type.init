@@ -1123,8 +1123,8 @@ INSERT INTO `Type` VALUES (9308,'uintptr_t','Typedef',7,227,'','','Referenced',2
 INSERT INTO `Type` VALUES (9309,'anon-inttypes.h-130','Struct',0,23,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9310,'anon-setjmp.h-22','Struct',0,40,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9311,'anon-signal.h-13','Struct',0,41,'','','Excluded',1,'');
-INSERT INTO `Type` VALUES (9316,'sigstack *','Pointer',9315,0,'','','Excluded',1,NULL);
-INSERT INTO `Type` VALUES (9315,'sigstack','Struct',0,41,'','','Referenced',1,'');
+INSERT INTO `Type` VALUES (9316,'sigstack *','Pointer',9315,0,'','','Excluded',1,'');
+INSERT INTO `Type` VALUES (9315,'sigstack','Struct',0,41,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9312,'anon-signal.h-14','Struct',0,41,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9313,'anon-signal.h-42','Enum',0,41,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9314,'stack_t','Typedef',9105,251,'','','Referenced',1,'');
