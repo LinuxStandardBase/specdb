@@ -1987,7 +1987,7 @@ INSERT INTO Type VALUES (10191,'anon-sigev_thread','Struct',0,242,'','','Exclude
 INSERT INTO Type VALUES (10192,'fptr-sigev_thread_func','FuncPtr',1,242,'','','Excluded',0,NULL);
 INSERT INTO Type VALUES (10193,'int array','Array',6,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (10194,'char array','Array',2,0,'','','Indirect',1,'');
-INSERT INTO Type VALUES (10195,'long array','Array',8,0,'','','Indirect',3,NULL);
+INSERT INTO Type VALUES (10195,'long array','Array',8,0,'','','Indirect',3,'');
 INSERT INTO Type VALUES (10196,'unsigned long array','Array',9,0,'','','Indirect',1,NULL);
 INSERT INTO Type VALUES (10197,'unsigned char array','Array',3,0,'','','Indirect',1,NULL);
 INSERT INTO Type VALUES (10198,'_fpstate','Struct',0,365,'','','Referenced',2,NULL);
@@ -2284,3 +2284,15 @@ INSERT INTO Type VALUES (10489,'msglen_t','Typedef',9,373,'','','Referenced',6,'
 INSERT INTO Type VALUES (10490,'msglen_t','Typedef',9,373,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10491,'msgqnum_t','Typedef',9,373,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10492,'msgqnum_t','Typedef',9,373,'','','Referenced',6,'');
+INSERT INTO Type VALUES (10493,'shmatt_t','Typedef',9,405,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10494,'ipc_perm','Struct',0,49,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10495,'shmid_ds','Struct',0,406,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10496,'semid_ds','Struct',0,47,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10497,'stat','Struct',0,52,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10498,'stat64','Struct',0,52,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10499,'statvfs','Struct',0,457,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10500,'statvfs64','Struct',0,457,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10501,'anon-signal.h-180','Union',0,41,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10502,'sigaction','Struct',0,245,'','','Referenced',9,'');
+INSERT INTO Type VALUES (10503,'long array','Array',8,0,'','','Indirect',9,'');
+INSERT INTO Type VALUES (10504,'__jmp_buf','Typedef',10503,140,'','','Referenced',9,'');
