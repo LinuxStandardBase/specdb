@@ -423,3 +423,8 @@ INSERT INTO HeaderGroup VALUES (431,'Lock structures',33,6,0,'Lock structures');
 INSERT INTO HeaderGroup VALUES (434,'utmp struct',131,1,1,'The structure describing an entry in the user accounting database.');
 INSERT INTO HeaderGroup VALUES (433,'Default HeadGroup for utmp.h',131,0,1,'');
 INSERT INTO HeaderGroup VALUES (435,'ut_type values',131,2,1,'Values for the `ut_type\' field of a `struct utmp\'.');
+INSERT INTO HeaderGroup VALUES (436,'Default HeadGroup for net/if.h',133,0,1,'');
+INSERT INTO HeaderGroup VALUES (437,'Standard interface flags.',133,1,1,'Standard interface flags.');
+INSERT INTO HeaderGroup VALUES (438,'The ifaddr structure',133,2,1,'The ifaddr structure contains information about one address of an\r\n   interface.  They are maintained by the different address families,\r\n   are allocated and attached when an address is set, and are linked\r\n   together so all addresses for an interface can be located.');
+INSERT INTO HeaderGroup VALUES (439,'Interface request structure',133,3,1,'Interface request structure used for socket ioctl\'s.  All interface\r\n   ioctl\'s must have parameter definitions which begin with ifr_name.\r\n   The remainder may be interface specific.');
+INSERT INTO HeaderGroup VALUES (440,'Structure used in SIOCGIFCONF request.',133,4,1,'Structure used in SIOCGIFCONF request.  Used to retrieve interface\r\n   configuration for machine (useful for programs which must know all\r\n   networks accessible).');
