@@ -13,6 +13,7 @@ CREATE TABLE Parameter (
   Pint int(11) NOT NULL default '0',
   Ppos int(11) NOT NULL default '0',
   Ptype int(11) NOT NULL default '0',
+  Parsize smallint(6) default NULL,
   UNIQUE KEY k_Pa (Pint,Ppos),
   KEY Pint (Pint)
 ) TYPE=MyISAM;
