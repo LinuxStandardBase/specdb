@@ -13,4 +13,4 @@ INSERT INTO TestSuite VALUES (12,'AQ5-LFS','AQ5-LFS','Purchasable-Test5','Exclud
 INSERT INTO TestSuite VALUES (13,'AQ6-EDL','AQ6-Enhanced Dynamic Loading','Purchasable-Test6','Excluded');
 INSERT INTO TestSuite VALUES (14,'AQ7-X-Test','AQ7-X-Test Suite','Purchasable-Test7','Excluded');
 INSERT INTO TestSuite VALUES (15,'AQ8-Dev','AQ8-Development Environment','Purchasable-Test8','Excluded');
-INSERT INTO TestSuite VALUES (16,'LSB-PAM','LSB-PAM','FSG-LSB','Excluded');
+INSERT INTO TestSuite VALUES (16,'LSB-PAM','LSB-PAM','FSG-LSB','Included');
