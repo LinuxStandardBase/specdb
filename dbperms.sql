@@ -11,20 +11,23 @@
 #
 # Open up these tables for the LSB db admin
 #
-GRANT INSERT,UPDATE,DELETE on lsb.Architecture TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Constant TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Header TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.HeaderGroup TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Interface TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.LibGroup TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.LGInt TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Library TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Parameter TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Standard TO lsbadmin;
-GRANT INSERT,UPDATE,DELETE on lsb.Version TO lsbadmin;
-GRANT INSERT,DELETE        on lsb.VerInt TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Architecture TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Constant TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Header TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.HeaderGroup TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Interface TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.LibGroup TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.LGInt TO lsbadmin;
+# Only want to allow certain column to be edited
+#GRANT INSERT,UPDATE ON lsb.Library TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Parameter TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Standard TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Version TO lsbadmin;
+GRANT INSERT,DELETE        ON lsb.VerInt TO lsbadmin;
 #
 # The rest should be "read Only" from the localhost
 #
-GRANT SELECT on lsb.* to lsbuser;
-GRANT SELECT on lsb.* to lsbadmin;
+GRANT SELECT ON lsb.* TO lsbuser;
+GRANT SELECT ON lsb.* TO lsbadmin;
+
+FLUSH PRIVILEGES;
