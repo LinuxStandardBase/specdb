@@ -290,7 +290,7 @@ INSERT INTO HeaderGroup VALUES (297,'Default HeaderGroup for X11/IntrinsicP.h',9
 INSERT INTO HeaderGroup VALUES (298,'Default HeaderGroup for sys/time.h',95,0,0,'Default HeaderGroup for sys/time.h');
 INSERT INTO HeaderGroup VALUES (299,'Default HeaderGroup for sys/timex.h',96,0,0,'Default HeaderGroup for sys/timex.h');
 INSERT INTO HeaderGroup VALUES (300,'Default HeaderGroup for zlib.h',97,0,0,'Default HeaderGroup for zlib.h');
-INSERT INTO HeaderGroup VALUES (301,'Default HeaderGroup for rpc/auth.h',98,0,0,'Default HeaderGroup for rpc/auth.h');
+INSERT INTO HeaderGroup VALUES (301,'Default HeaderGroup for rpc/auth.h',98,0,1,'Default HeaderGroup for rpc/auth.h');
 INSERT INTO HeaderGroup VALUES (302,'Default HeaderGroup for rpc/rpc.h',99,0,0,'Default HeaderGroup for rpc/rpc.h');
 INSERT INTO HeaderGroup VALUES (303,'Default HeaderGroup for rpc/clnt.h',100,0,0,'Default HeaderGroup for rpc/clnt.h');
 INSERT INTO HeaderGroup VALUES (304,'Default HeaderGroup for rpc/xdr.h',101,0,0,'Default HeaderGroup for rpc/xdr.h');
@@ -471,3 +471,9 @@ INSERT INTO HeaderGroup VALUES (480,'Values to uses as hints',115,2,1,'Values to
 INSERT INTO HeaderGroup VALUES (481,'Error Values',115,3,1,'Error values for `getaddrinfo\' function.');
 INSERT INTO HeaderGroup VALUES (482,'addrinfo flags',115,1,1,'Possible values for `ai_flags\' field in `addrinfo\' structure.');
 INSERT INTO HeaderGroup VALUES (483,'Default HeaderGroup for unwind.h',143,0,1,'');
+INSERT INTO HeaderGroup VALUES (484,'Base Types',143,1,1,'');
+INSERT INTO HeaderGroup VALUES (485,'Reason Codes',143,2,1,'The unwind interface uses reason codes in several contexts to\r\n   identify the reasons for failures or other actions.');
+INSERT INTO HeaderGroup VALUES (486,'Exception header',143,4,1,'The unwind interface uses a pointer to an exception header object\r\n   as its representation of an exception being thrown. In general, the\r\n   full representation of an exception object is language- and\r\n   implementation-specific, but it will be prefixed by a header\r\n   understood by the unwind interface.');
+INSERT INTO HeaderGroup VALUES (487,'Actions',143,5,1,'The ACTIONS argument to the personality routine is a bitwise OR of one\r\n   or more of the following constants.');
+INSERT INTO HeaderGroup VALUES (488,'Cleanup function',143,3,1,'');
+INSERT INTO HeaderGroup VALUES (489,'Default HeadGroup for strings.h',144,0,1,'An empty file is needed to prevent the strings.h from the system being included.');

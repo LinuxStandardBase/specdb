@@ -17,7 +17,7 @@ CREATE TABLE Type (
   Theadergroup int(10) NOT NULL default '0',
   Tcomment varchar(60) default NULL,
   Tarray varchar(16) default NULL,
-  Tstatus enum('Referenced','Indirect','Excluded') NOT NULL default 'Excluded',
+  Tstatus enum('Referenced','Indirect','Excluded','SrcOnly','Conly') NOT NULL default 'Excluded',
   Tarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Tid),
   UNIQUE KEY Tnamearch (Tname,Tarch)

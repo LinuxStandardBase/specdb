@@ -543,7 +543,7 @@ INSERT INTO Interface VALUES (543,'fputc','Included','Function',5,1,42,6,1,'Yes'
 INSERT INTO Interface VALUES (544,'fputc_unlocked','Defered','Function',0,1,42,6,0,'No','No');
 INSERT INTO Interface VALUES (545,'fputs_unlocked','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (546,'fread_unlocked','Defered','Function',0,1,0,8969,0,'No','No');
-INSERT INTO Interface VALUES (547,'freeaddrinfo','Included','Function',67,1,48,1,0,'No','No');
+INSERT INTO Interface VALUES (547,'freeaddrinfo','Included','Function',67,1,115,1,0,'No','No');
 INSERT INTO Interface VALUES (548,'freopen','Included','Function',5,1,42,10124,1,'Yes','Yes');
 INSERT INTO Interface VALUES (549,'freopen64','Included','Function',35,1,42,10124,2,'Yes','No');
 INSERT INTO Interface VALUES (550,'fscanf','Included','Function',5,1,42,6,1,'Yes','No');
@@ -566,7 +566,7 @@ INSERT INTO Interface VALUES (566,'fts_set','Excluded','Function',0,1,0,0,0,'No'
 INSERT INTO Interface VALUES (567,'ftw','Included','Function',5,1,21,6,1,'Yes','No');
 INSERT INTO Interface VALUES (568,'ftw64','Included','Function',35,1,21,6,2,'Yes','No');
 INSERT INTO Interface VALUES (569,'fwrite_unlocked','Defered','Function',0,1,0,8969,0,'No','No');
-INSERT INTO Interface VALUES (570,'gai_strerror','Included','Function',67,1,48,63,0,'No','No');
+INSERT INTO Interface VALUES (570,'gai_strerror','Included','Function',67,1,115,63,0,'No','No');
 INSERT INTO Interface VALUES (571,'gcvt','Included','Function',5,1,43,63,1,'Yes','No');
 INSERT INTO Interface VALUES (572,'get_current_dir_name','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (573,'get_kernel_syms','Excluded','Function',0,1,0,0,0,'No','No');
@@ -3438,7 +3438,7 @@ INSERT INTO Interface VALUES (3516,'pwrite64','Included','Function',35,1,62,9029
 INSERT INTO Interface VALUES (3517,'random_r','Included','Function',10,1,43,0,1,'No','No');
 INSERT INTO Interface VALUES (3518,'rawmemchr','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3519,'readdir64','Included','Function',35,1,15,10181,6,'Yes','No');
-INSERT INTO Interface VALUES (3520,'readdir_r','Included','Function',5,1,0,6,0,'Yes','No');
+INSERT INTO Interface VALUES (3520,'readdir_r','Included','Function',5,1,15,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3521,'realpath','Included','Function',5,1,43,63,1,'Yes','No');
 INSERT INTO Interface VALUES (3522,'register_printf_function','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3523,'scalbln','Included','Function',25,1,29,13,2,'Yes','No');
@@ -3467,7 +3467,7 @@ INSERT INTO Interface VALUES (3545,'swapon','Excluded','Function',0,1,0,0,0,'No'
 INSERT INTO Interface VALUES (3546,'sys_errlist','Excluded','Alias',10,1,17,63,0,'No','No');
 INSERT INTO Interface VALUES (3547,'sys_nerr','Excluded','Function',0,1,17,6,0,'No','No');
 INSERT INTO Interface VALUES (3548,'sysv_signal','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (3549,'tdelete','Excluded','Function',5,1,38,40,0,'Yes','No');
+INSERT INTO Interface VALUES (3549,'tdelete','Included','Function',5,1,38,40,0,'Yes','No');
 INSERT INTO Interface VALUES (3550,'tdestroy','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3551,'textdomain','Included','Function',10,1,141,63,1,'Yes','No');
 INSERT INTO Interface VALUES (3552,'tfind','Included','Function',5,1,38,40,1,'Yes','No');

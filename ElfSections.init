@@ -59,3 +59,4 @@ INSERT INTO ElfSections VALUES (63,'.rela.got',10,'This section holds RELA type 
 INSERT INTO ElfSections VALUES (64,'.rela.sbss',10,'This section holds RELA type relocation information for the SBSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (65,'.rela.bss',10,'This section holds RELA type relocation information for the BSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (66,'.rela.got2',10,'This section holds RELA type relocation information for the second level GOT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
+INSERT INTO ElfSections VALUES (67,'.jcr',10,'This section contains information necessary for registering compiled\r\nJava classes.  The contents are compiler-specific and used by compiler\r\ninitialization functions.',2,'SHF_ALLOC+SHF_WRITE',0,1);
