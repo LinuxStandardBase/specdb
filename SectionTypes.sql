@@ -2,7 +2,7 @@
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.44-log
+# Server version	3.23.45-log
 
 #
 # Table structure for table 'SectionTypes'
@@ -17,7 +17,7 @@ CREATE TABLE SectionTypes (
   STdescription varchar(250) default NULL,
   STarch int(11) NOT NULL default '1',
   PRIMARY KEY  (STid),
-  UNIQUE KEY k_STname (STname(20)),
-  UNIQUE KEY k_STvalue (STvalue)
+  UNIQUE KEY k_STvalue (STvalue),
+  UNIQUE KEY k_STname (STname(20))
 ) TYPE=MyISAM;
 

@@ -2,7 +2,7 @@
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.44-log
+# Server version	3.23.45-log
 
 #
 # Table structure for table 'LGInt'
