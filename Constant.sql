@@ -15,7 +15,7 @@ CREATE TABLE Constant (
   Ctype enum('int','float','string','Unknown') NOT NULL default 'Unknown',
   Cheadgroup int(10) NOT NULL default '0',
   Ccomment varchar(60) default NULL,
-  Cstd enum('Yes','No') NOT NULL default 'No',
+  Cstd enum('Yes','No','SrcOnly') NOT NULL default 'No',
   PRIMARY KEY  (Cid),
   UNIQUE KEY k_c_name (Cname)
 ) TYPE=MyISAM;
