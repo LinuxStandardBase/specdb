@@ -28,8 +28,3 @@ GRANT INSERT,DELETE        on lsb.VerInt TO lsbadmin;
 #
 GRANT SELECT on lsb.* to lsbuser;
 GRANT SELECT on lsb.* to lsbadmin;
-#
-# Make it take affect
-#
-FLUSH PRIVILEGES
-
