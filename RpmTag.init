@@ -20,8 +20,8 @@ INSERT INTO RpmTag VALUES (19,'RPMTAG_PROVIDENAME',1047,'STRING_ARRAY',1,'Depend
 INSERT INTO RpmTag VALUES (20,'RPMTAG_REQUIREFLAGS',1048,'INT32',0,'Dependencies','Required','Bits(s) to specify the dependency range and context.');
 INSERT INTO RpmTag VALUES (21,'RPMTAG_REQUIRENAME',1049,'STRING_ARRAY',0,'Dependencies','Required','This tag indicates the dependencies for this package.');
 INSERT INTO RpmTag VALUES (22,'RPMTAG_REQUIREVERSION',1050,'STRING_ARRAY',0,'Dependencies','Required','This tag indicates the versions associated with the values found in the RPMTAG_REQUIRENAME Index.');
-INSERT INTO RpmTag VALUES (23,'RPMTAG_PAYLOADFORMAT',1124,'STRING',1,'PackageInfo','Required','This tag specifies the format of the Archive section. The format value pointed to by this index record must be ');
-INSERT INTO RpmTag VALUES (24,'RPMTAG_PAYLOADCOMPRESSOR',1125,'STRING',1,'PackageInfo','Required','This tag specifies the compression used on the Archive section. The compression value pointed to by this index record must be ');
+INSERT INTO RpmTag VALUES (23,'RPMTAG_PAYLOADFORMAT',1124,'STRING',1,'PackageInfo','Required','This tag specifies the format of the Archive section. The format value pointed to by this index record must be \'cpio\'.');
+INSERT INTO RpmTag VALUES (24,'RPMTAG_PAYLOADCOMPRESSOR',1125,'STRING',1,'PackageInfo','Required','This tag specifies the compression used on the Archive section. The compression value pointed to by this index record must be \'gzip\'');
 INSERT INTO RpmTag VALUES (25,'SIGTAG_SHA1HEADER',1010,'STRING',1,'SigDigest','Optional','This index contains the SHA1 checksum of the entire Header Section, including the Header Record, Index Records and Header store.');
 INSERT INTO RpmTag VALUES (26,'RPMTAG_BUILDTIME',1006,'INT32',1,'Other','Optional','This tag specifies the time as seconds since the epoch at which the package was built.');
 INSERT INTO RpmTag VALUES (27,'RPMTAG_BUILDHOST',1007,'STRING',1,'Other','Optional','This tag specifies the on which which the package was built.');
