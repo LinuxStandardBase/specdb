@@ -5,4 +5,4 @@ INSERT INTO Architecture VALUES (4,'ARM','','__arm__');
 INSERT INTO Architecture VALUES (5,'M68K','','__mc68000__');
 INSERT INTO Architecture VALUES (6,'PowerPC','','__powerpc__');
 INSERT INTO Architecture VALUES (7,'Alpha','','__alpha__');
-INSERT INTO Architecture VALUES (8,'None','','0');
+INSERT INTO Architecture VALUES (8,'None','','__not_def__');

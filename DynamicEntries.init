@@ -47,3 +47,4 @@ INSERT INTO DynamicEntries VALUES (46,'DT_VERNEED',10,'Address of table with nee
 INSERT INTO DynamicEntries VALUES (47,'DT_VERNEEDNUM',10,'Number of needed versions',1);
 INSERT INTO DynamicEntries VALUES (48,'DT_AUXILIARY',10,'Shared object to load before self',1);
 INSERT INTO DynamicEntries VALUES (49,'DT_FILTER',10,'Shared object to get values from',1);
+INSERT INTO DynamicEntries VALUES (50,'DT_RELCOUNT',10,'All Elf32_Rel R_*_RELATIVE relocations have been placed into a single block and this entry specifies the number of entries in that block. This permits ld.so.1 to streamline the processing of RELATIVE relocations.',1);

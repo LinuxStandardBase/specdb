@@ -112,3 +112,7 @@ INSERT INTO Header VALUES (115,'netdb.h','Yes');
 INSERT INTO Header VALUES (116,'arpa/inet.h','Yes');
 INSERT INTO Header VALUES (117,'netinet/in.h','Yes');
 INSERT INTO Header VALUES (118,'netinet/tcp.h','Yes');
+INSERT INTO Header VALUES (119,'sys/timeb.h','Yes');
+INSERT INTO Header VALUES (120,'sys/file.h','Yes');
+INSERT INTO Header VALUES (121,'fmtmsg.h','Yes');
+INSERT INTO Header VALUES (122,'syslog.h','Yes');
