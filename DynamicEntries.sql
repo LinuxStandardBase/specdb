@@ -15,6 +15,7 @@ CREATE TABLE DynamicEntries (
   DEstandard int(10) NOT NULL default '0',
   DEdescription blob,
   DEarch int(11) NOT NULL default '1',
+  DEstatus enum('Included','Excluded') NOT NULL default 'Included',
   PRIMARY KEY  (DEid)
 ) TYPE=MyISAM;
 
