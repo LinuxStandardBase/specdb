@@ -1,5 +1,5 @@
 INSERT INTO Standard VALUES (1,'Unknown','Unknown','','','Unknown');
-INSERT INTO Standard VALUES (2,'ISOC90','ISO/IEC 9899: 1990, Programming Languages --C.','','','Standard');
+INSERT INTO Standard VALUES (2,'ISOC90','ISO/IEC 9899: 1990, Programming Languages --C','','','Standard');
 INSERT INTO Standard VALUES (3,'POSIX.1','IEEE Std POSIX.1-1996 [ISO/IEC 9945-1:1996]','http://www.ieee.org/','','Unknown');
 INSERT INTO Standard VALUES (4,'XPG4','X/Open Portability Guide, Issue 4','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (5,'SUS-XSH','CAE Specification, January 1997, System Interfaces and Headers (XSH),\r\nIssue 5 (ISBN: 1-85912-181-0, C606)','http://www.opengroup.org/','','Standard');
@@ -28,9 +28,9 @@ INSERT INTO Standard VALUES (27,'SUS-XCU','CAE Specification, January 1997, Comm
 INSERT INTO Standard VALUES (28,'SUS-CURSES','CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:  1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmdp.org/rpmbook/','','Reference');
-INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.sco.com/developer/gabi/2000-07-17/contents.html','','Standard');
-INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.sco.com/developer/devspecs/gabi41.pdf','','Standard');
-INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.sco.com/developer/devspecs/abi386-4.pdf','','Standard');
+INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard');
+INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard');
+INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard');
 INSERT INTO Standard VALUES (34,'IA64conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/ia-64/downloads/245358.htm','','Standard');
 INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-systems.org/version2/whatsnew/lfs20mar.html','','Standard');
 INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard');
@@ -43,8 +43,8 @@ INSERT INTO Standard VALUES (42,'X-DPMS','X Display Power Management Signaling (
 INSERT INTO Standard VALUES (43,'X-security','Security Extension Specification, Version 7.1','http://www.x.org/','','Standard');
 INSERT INTO Standard VALUES (44,'LANANA','Linux Assigned Names And Numbers Authority','http://www.lanana.org/','','Standard');
 INSERT INTO Standard VALUES (46,'SVID.4','System V Interface Definition,Fourth Edition','','','Standard');
-INSERT INTO Standard VALUES (51,'IA32 SDM \r\nVol1','IA32 Architecture Software Developer\'s Manual Volume 1: Basic Architecture','http://developer.intel.com/design/pentiium4/manuals/24570.ht','','Standard');
-INSERT INTO Standard VALUES (52,'IA32 SDM \r\nVol2','IA32 Architecture Software Developer\'s Manual Volume 2: Instruction Set Reference','http://developer.intel.com/design/pentiium4/manuals/24571.ht','','Standard');
+INSERT INTO Standard VALUES (51,'IA32 SDM Vol1','IA32 Architecture Software Developer\'s Manual Volume 1: Basic Architecture','http://developer.intel.com/design/pentiium4/manuals/24570.ht','','Standard');
+INSERT INTO Standard VALUES (52,'IA32 SDM Vol2','IA32 Architecture Software Developer\'s Manual Volume 2: Instruction Set Reference','http://developer.intel.com/design/pentiium4/manuals/24571.ht','','Standard');
 INSERT INTO Standard VALUES (53,'IA32 SDM Vol3','IA32 Architecture Software Developer\'s Manual Volume 3: System Programming Guide','http://developer.intel.com/design/pentiium4/manuals/24572.ht','','Standard');
 INSERT INTO Standard VALUES (54,'IA64 SDM Vol1','Itanium Architecture Software Developer\'s Manual Volume 1: Application Architecture','http://developer.intel.com/design/itanium/downloads/24531702','','Standard');
 INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium Architecture Software Developer\'s Manual Volume 2: System Architecture','http://developer.intel.com/design/itanium/downloads/24531802','','Standard');

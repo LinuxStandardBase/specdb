@@ -18,6 +18,7 @@ CREATE TABLE Type (
   Tcomment varchar(60) default NULL,
   Tarray varchar(16) default NULL,
   Tstatus enum('Referenced','Indirect','Excluded') NOT NULL default 'Excluded',
+  Tarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Tid),
   UNIQUE KEY Tname (Tname)
 ) TYPE=MyISAM;

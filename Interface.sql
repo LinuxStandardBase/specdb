@@ -13,7 +13,7 @@ CREATE TABLE Interface (
   Iid int(10) NOT NULL auto_increment,
   Iname varchar(255) binary NOT NULL default '',
   Istatus enum('Included','Excluded','Defered','Unknown') NOT NULL default 'Unknown',
-  Itype enum('Function','Data','Unknown') NOT NULL default 'Unknown',
+  Itype enum('Function','Data','Alias','Common','Unknown') NOT NULL default 'Unknown',
   Istandard int(10) NOT NULL default '0',
   Iarch int(10) NOT NULL default '1',
   Iheader int(10) NOT NULL default '0',
