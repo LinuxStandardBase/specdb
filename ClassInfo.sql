@@ -19,9 +19,11 @@ CREATE TABLE ClassInfo (
   CIbase int(11) NOT NULL default '0',
   CInumvmitypes int(11) NOT NULL default '0',
   CIflags int(11) NOT NULL default '0',
+  CIvcalloffset int(11) NOT NULL default '0',
   CIbaseoffset int(11) NOT NULL default '0',
   CIbasevtable int(11) NOT NULL default '0',
   CIlibg int(11) NOT NULL default '0',
+  CIvtclass tinyint(1) NOT NULL default '1',
   PRIMARY KEY  (CIid),
   UNIQUE KEY CIname (CIname)
 ) TYPE=MyISAM;

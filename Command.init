@@ -830,7 +830,7 @@ INSERT INTO Command VALUES (832,'spctoppm','/usr/bin/spctoppm','Excluded',0,'No'
 INSERT INTO Command VALUES (833,'splac','/usr/bin/splac','Excluded',0,'No','No');
 INSERT INTO Command VALUES (834,'splash','/usr/bin/splash','Excluded',0,'No','No');
 INSERT INTO Command VALUES (835,'splaymidi','/usr/bin/splaymidi','Excluded',0,'No','No');
-INSERT INTO Command VALUES (836,'split','/usr/bin/split','Included',10,'Yes','No');
+INSERT INTO Command VALUES (836,'split','/usr/bin/split','Included',67,'Yes','No');
 INSERT INTO Command VALUES (837,'splitmail','/usr/bin/splitmail','Excluded',0,'No','No');
 INSERT INTO Command VALUES (838,'spottopgm','/usr/bin/spottopgm','Excluded',0,'No','No');
 INSERT INTO Command VALUES (839,'sprof','/usr/bin/sprof','Excluded',0,'No','No');
@@ -925,7 +925,7 @@ INSERT INTO Command VALUES (927,'vumeter','/usr/bin/vumeter','Excluded',0,'No','
 INSERT INTO Command VALUES (928,'w','/usr/bin/w','Excluded',0,'No','No');
 INSERT INTO Command VALUES (929,'wall','/usr/bin/wall','Excluded',0,'No','No');
 INSERT INTO Command VALUES (930,'watch','/usr/bin/watch','Excluded',0,'No','No');
-INSERT INTO Command VALUES (931,'wc','/usr/bin/wc','Included',10,'Yes','No');
+INSERT INTO Command VALUES (931,'wc','/usr/bin/wc','Included',67,'Yes','No');
 INSERT INTO Command VALUES (932,'weave','/usr/bin/weave','Excluded',0,'No','No');
 INSERT INTO Command VALUES (933,'whatnow','/usr/bin/whatnow','Excluded',0,'No','No');
 INSERT INTO Command VALUES (934,'whereis','/usr/bin/whereis','Excluded',0,'No','No');
@@ -1013,7 +1013,7 @@ INSERT INTO Command VALUES (1021,'tar','/bin/tar','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1022,'touch','/bin/touch','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1023,'true','/bin/true','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1024,'umount','/bin/umount','Included',10,'Yes','No');
-INSERT INTO Command VALUES (1025,'uname','/bin/uname','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1025,'uname','/bin/uname','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1026,'uncompress','/bin/uncompress','Excluded',0,'No','No');
 INSERT INTO Command VALUES (1027,'awk','/bin/awk','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1028,'basename','/bin/basename','Included',67,'Yes','No');
