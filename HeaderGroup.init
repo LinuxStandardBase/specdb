@@ -542,3 +542,6 @@ INSERT INTO HeaderGroup VALUES (541,'POSIX Settings',519,1,1,'These may be used 
 INSERT INTO HeaderGroup VALUES (542,'X/Open Settings',519,2,1,'These may be used to determine what X/Open facilities are present at compile time.');
 INSERT INTO HeaderGroup VALUES (543,'Standard file descriptors.',519,3,1,'Standard file descriptors.');
 INSERT INTO HeaderGroup VALUES (544,'Types',519,4,1,'Various Types');
+INSERT INTO HeaderGroup VALUES (545,'Default HeaderGroup for QwCluster.h',541,0,0,'Default HeaderGroup for QwCluster.h');
+INSERT INTO HeaderGroup VALUES (546,'Default HeaderGroup for QwPublicList.h',542,0,0,'Default HeaderGroup for QwPublicList.h');
+INSERT INTO HeaderGroup VALUES (547,'Default HeaderGroup for arpa/tftp.h',543,0,0,'Default HeaderGroup for arpa/tftp.h');

@@ -16,6 +16,7 @@ CREATE TABLE Type (
   Tbasetype int(10),
   Theadergroup int(10) DEFAULT '0' NOT NULL,
   Tcomment varchar(60),
+  Tarray varchar(16),
   PRIMARY KEY (Tid)
 );
 

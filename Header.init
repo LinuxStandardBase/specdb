@@ -538,3 +538,6 @@ INSERT INTO Header VALUES (537,'zconf.h','No');
 INSERT INTO Header VALUES (538,'zlib.h','Yes');
 INSERT INTO Header VALUES (539,'zutil.h','No');
 INSERT INTO Header VALUES (540,'stdio.h.lsb','No');
+INSERT INTO Header VALUES (541,'QwCluster.h','No');
+INSERT INTO Header VALUES (542,'QwPublicList.h','No');
+INSERT INTO Header VALUES (543,'arpa/tftp.h','No');
