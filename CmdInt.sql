@@ -1,8 +1,8 @@
-# MySQL dump 8.14
+# MySQL dump 8.16
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.23.39-log
+# Server version	3.23.42-log
 
 #
 # Table structure for table 'CmdInt'
@@ -13,6 +13,6 @@ CREATE TABLE CmdInt (
   CIcid int(11) NOT NULL default '0',
   CIiid int(11) NOT NULL default '0',
   CIvid int(11) NOT NULL default '0',
-  PRIMARY KEY  (CIcid,CIiid,CIvid)
+  UNIQUE KEY k_CI (CIcid,CIiid,CIvid)
 ) TYPE=MyISAM;
 

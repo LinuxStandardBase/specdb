@@ -141,3 +141,5 @@ INSERT INTO HeaderGroup VALUES (140,'Base Types',40,1,1,'');
 INSERT INTO HeaderGroup VALUES (141,'Base Types',41,1,1,'');
 INSERT INTO HeaderGroup VALUES (142,'Base Types',48,1,1,'');
 INSERT INTO HeaderGroup VALUES (143,'Base Types',60,1,1,'');
+INSERT INTO HeaderGroup VALUES (144,'errno values',17,1,1,'1');
+INSERT INTO HeaderGroup VALUES (145,'constants',14,1,1,'');
