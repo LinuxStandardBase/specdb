@@ -31,7 +31,7 @@ INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmd
 INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard');
 INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard');
 INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard');
-INSERT INTO Standard VALUES (34,'IA64conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/itanium/downloads/24535803s.htm','','Standard');
+INSERT INTO Standard VALUES (34,'IA64 Conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/itanium/downloads/24535803s.htm','','Standard');
 INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-systems.org/version2/whatsnew/lfs20mar.html','','Standard');
 INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard');
 INSERT INTO Standard VALUES (37,'X-shm','MIT-SHM--The MIT Shared Memory Extension','http://www.x.org/','','Standard');
