@@ -17,7 +17,6 @@ CREATE TABLE SectionTypes (
   STdescription blob,
   STarch int(11) NOT NULL default '1',
   PRIMARY KEY  (STid),
-  UNIQUE KEY k_STname (STname(20)),
-  UNIQUE KEY k_STvalue (STvalue)
+  UNIQUE KEY k_STname (STname(20))
 ) TYPE=MyISAM;
 
