@@ -2783,3 +2783,5 @@ INSERT INTO Type VALUES (10998,'unsigned short [7]','Array',5,0,'','','Reference
 INSERT INTO Type VALUES (10999,'double complex','Intrinsic',0,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (11000,'long double complex','Intrinsic',0,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (11001,'float complex','Intrinsic',0,0,'','','Indirect',1,'');
+INSERT INTO Type VALUES (11002,'const unsigned char','Const',3,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (11003,'const unsigned char *','Pointer',11002,0,'','','Referenced',0,'');

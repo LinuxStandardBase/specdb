@@ -1856,7 +1856,7 @@ INSERT INTO Interface VALUES (1931,'XSelectInput','Included','Function',11,1,5,6
 INSERT INTO Interface VALUES (1932,'XSendEvent','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (1933,'XServerVendor','Included','Function',11,1,5,63,0,'Yes','No');
 INSERT INTO Interface VALUES (1934,'XSetAccessControl','Included','Function',11,1,5,6,0,'Yes','No');
-INSERT INTO Interface VALUES (1935,'XSetAfterFunction','Included','Function',11,1,5,8920,0,'Yes','No');
+INSERT INTO Interface VALUES (1935,'XSetAfterFunction','Included','Data',11,1,5,8920,0,'Yes','No');
 INSERT INTO Interface VALUES (1936,'XSetArcMode','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (1937,'XSetAuthorization','Included','Function',11,1,5,1,0,'Yes','No');
 INSERT INTO Interface VALUES (1938,'XSetBackground','Included','Function',11,1,5,6,0,'Yes','No');
@@ -1933,7 +1933,7 @@ INSERT INTO Interface VALUES (2008,'XSubImage','Included','Function',11,1,69,891
 INSERT INTO Interface VALUES (2009,'XSubtractRegion','Included','Function',11,1,69,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2010,'XSupportsLocale','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2011,'XSync','Included','Function',11,1,5,6,0,'Yes','No');
-INSERT INTO Interface VALUES (2012,'XSynchronize','Included','Function',11,1,5,8919,0,'Yes','No');
+INSERT INTO Interface VALUES (2012,'XSynchronize','Included','Data',11,1,5,8919,0,'Yes','No');
 INSERT INTO Interface VALUES (2013,'XTextExtents','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2014,'XTextExtents16','Included','Function',11,1,5,6,0,'Yes','No');
 INSERT INTO Interface VALUES (2015,'XTextPropertyToStringList','Included','Function',11,1,69,6,0,'Yes','No');

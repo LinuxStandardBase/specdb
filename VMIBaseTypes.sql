@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 9.11
 --
 -- Host: localhost    Database: lsb
----------------------------------------------------------
+-- ------------------------------------------------------
 
 --
--- Table structure for table 'VMIBaseTypes'
+-- Table structure for table `VMIBaseTypes`
 --
 
 DROP TABLE IF EXISTS VMIBaseTypes;

@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 9.11
 --
 -- Host: localhost    Database: lsb
----------------------------------------------------------
+-- ------------------------------------------------------
 
 --
--- Table structure for table 'ElfSections'
+-- Table structure for table `ElfSections`
 --
 
 DROP TABLE IF EXISTS ElfSections;
