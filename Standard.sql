@@ -14,6 +14,7 @@ CREATE TABLE Standard (
   Sfull varchar(120),
   Surl varchar(60),
   Scomment varchar(60),
+  Stype enum('Standard','Reference','Unknown') DEFAULT 'Unknown' NOT NULL,
   PRIMARY KEY (Sid),
   UNIQUE k_Sname (Sname)
 );
