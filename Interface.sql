@@ -1,4 +1,4 @@
--- MySQL dump 9.08
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
@@ -21,6 +21,6 @@ CREATE TABLE Interface (
   Idocumented enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   Itested enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (Iid),
-  UNIQUE KEY k_Iname (Iname)
+  UNIQUE KEY k_Iname (Iname,Iid)
 ) TYPE=MyISAM;
 
