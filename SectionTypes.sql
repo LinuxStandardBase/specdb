@@ -14,6 +14,7 @@ CREATE TABLE SectionTypes (
   STvalue int(10) unsigned DEFAULT '0' NOT NULL,
   STstandard int(10) DEFAULT '0' NOT NULL,
   STdescription varchar(250),
+  STarch int(11) DEFAULT '1' NOT NULL,
   PRIMARY KEY (STid),
   UNIQUE k_STname (STname(20)),
   UNIQUE k_STvalue (STvalue)

@@ -16,6 +16,7 @@ CREATE TABLE ElfSections (
   EStype int(10) DEFAULT '0' NOT NULL,
   ESattributes varchar(60) DEFAULT '' NOT NULL,
   ESSecType int(10),
+  ESarch int(11) DEFAULT '1' NOT NULL,
   PRIMARY KEY (ESid)
 );
 

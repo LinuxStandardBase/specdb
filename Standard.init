@@ -21,10 +21,14 @@ INSERT INTO Standard VALUES (20,'Linux','GNU/Linux defacto standard','http://www
 INSERT INTO Standard VALUES (21,'SVID.3','System V Interface Definition, Issue 3','','ISBN 0201566524','Standard');
 INSERT INTO Standard VALUES (22,'SUS-XSH95','The Single UNIX Specification Version 1 (UNIX 95) System Interfaces & Headers','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (23,'ELF','Tool Interface Standard (TIS) Executable and Linking Format (ELF) Specification version 1.2','','','Standard');
-INSERT INTO Standard VALUES (24,'zlib','Some unyet specified standard for zlib','http://www.info-zip.org/pub/infozip/zlib/','See \"zlib Manual\" on that site','Reference');
+INSERT INTO Standard VALUES (24,'zlib','zlib 1.1.3 Manual','http://www.info-zip.org/pub/infozip/zlib/','See \"zlib Manual\" on that site','Reference');
 INSERT INTO Standard VALUES (25,'ISOC99','ISO/IEC 9899: 1999, Programming Languages --C','','','Standard');
 INSERT INTO Standard VALUES (26,'SUS-XBD','CAE Specification, January 1997, System Interface Definitions (XBD),\nIssue 5 (ISBN: 1-85912-186-1, C605)','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (27,'SUS-XCU','CAE Specification, January 1997, Commands and Utilities (XCU), Issue 5(ISBN: 1-85912-191-8, C604)','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (28,'SUS-CURSES',' CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:\n1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org','','Standard');
 INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmdp.org/rpmbook/','','Reference');
+INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - April 29, 1998','http://www.sco.com/developer/gabi/contents.html','','Standard');
+INSERT INTO Standard VALUES (32,'gABI_41','System VApplication Binary Interface, Edition 4.1','http://www.sco.com/developer/devspecs/gabi41.pdf','','Standard');
+INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.sco.com/developer/devspecs/abi386-4.pdf','','Standard');
+INSERT INTO Standard VALUES (34,'IA64conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/ia-64/downloads/245358.htm','','Standard');

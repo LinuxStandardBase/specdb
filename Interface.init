@@ -389,8 +389,8 @@ INSERT INTO Interface VALUES (388,'_rpc_dtablesize','Excluded','Function',0,1,0,
 INSERT INTO Interface VALUES (389,'_seterr_reply','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (390,'_sys_errlist','Unknown','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (391,'_sys_siglist','Unknown','Data',0,1,41,2,0,'No','No');
-INSERT INTO Interface VALUES (392,'_tolower','Unknown','Function',5,1,14,6,0,'Yes','No');
-INSERT INTO Interface VALUES (393,'_toupper','Unknown','Function',5,1,14,6,0,'Yes','No');
+INSERT INTO Interface VALUES (392,'_tolower','Included','Function',5,1,14,6,0,'Yes','No');
+INSERT INTO Interface VALUES (393,'_toupper','Included','Function',5,1,14,6,0,'Yes','No');
 INSERT INTO Interface VALUES (394,'a64l','Included','Function',5,1,43,8,0,'Yes','No');
 INSERT INTO Interface VALUES (395,'abort','Included','Function',5,1,43,1,0,'Yes','No');
 INSERT INTO Interface VALUES (396,'abs','Included','Function',5,1,43,6,0,'Yes','No');
@@ -4083,9 +4083,9 @@ INSERT INTO Interface VALUES (4258,'store','Unknown','Function',0,1,0,0,0,'No','
 INSERT INTO Interface VALUES (4259,'delete','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4260,'firstkey','Unknown','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4261,'nextkey','Unknown','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (4262,'dbmclose','Unknown','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (4262,'dbmclose','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4263,'dbm_pagfno','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (4264,'dbm_rdonly','Unknown','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (4264,'dbm_rdonly','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4266,'GifQprintf','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4267,'PrintGifError','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (4268,'GifLastError','Excluded','Function',0,1,0,0,0,'No','No');
