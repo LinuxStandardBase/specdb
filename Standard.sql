@@ -13,7 +13,7 @@ CREATE TABLE Standard (
   Sid tinyint(3) NOT NULL auto_increment,
   Sname varchar(60) NOT NULL default '',
   Sfull varchar(120) default NULL,
-  Surl varchar(128) default NULL,
+  Surl varchar(255) default NULL,
   Scomment varchar(60) default NULL,
   Stype enum('Standard','Reference','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (Sid),
