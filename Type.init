@@ -681,7 +681,7 @@ INSERT INTO Type VALUES (8825,'SmsNewClientProc','Typedef',8823,125,'','','Refer
 INSERT INTO Type VALUES (8824,'SmsCallbacks *','Pointer',8291,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8645,'timespec *','Pointer',7018,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8646,'aiocb64 *','Pointer',8639,0,'','1','Referenced',1,NULL);
-INSERT INTO Type VALUES (8660,'chtype *','Pointer',8650,0,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (8660,'chtype *','Pointer',8650,0,'','','Referenced',1,'');
 INSERT INTO Type VALUES (8661,'ldat *','Pointer',8659,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (8662,'_win_st *','Pointer',8654,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8663,'pdat','Struct',0,250,'','','Referenced',1,'');
@@ -2630,7 +2630,7 @@ INSERT INTO Type VALUES (10841,'anon-_sigregs','Struct',0,0,'','','Referenced',1
 INSERT INTO Type VALUES (10842,'_sigregs','Typedef',10841,400,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10843,'const attr_t','Const',8656,0,'','','Indirect',0,'');
 INSERT INTO Type VALUES (10844,'const chtype','Const',8650,0,'','','Indirect',1,'');
-INSERT INTO Type VALUES (10845,'chtype[]','Array',8650,0,'','','Excluded',0,'');
+INSERT INTO Type VALUES (10845,'chtype[]','Array',8650,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10846,'TERMINAL','Typedef',10850,541,'','','Referenced',1,'');
 INSERT INTO Type VALUES (10847,'TERMINAL *','Pointer',10846,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10848,'_ZNSt8valarrayIjEE','Class',0,0,'','','Referenced',0,'');
@@ -2666,3 +2666,6 @@ INSERT INTO Type VALUES (10881,'const pthread_mutexattr_t','Const',9049,343,'','
 INSERT INTO Type VALUES (10882,'const pthread_mutexattr_t *','Pointer',10881,343,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10883,'const unsigned short **','Pointer',10539,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10884,'const int32_t **','Pointer',10459,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10885,'char *const [128]','Array',10305,0,'','128','Indirect',1,'');
+INSERT INTO Type VALUES (10886,'const char *const [128]','Const',10885,0,'','','Indirect',1,'');
+INSERT INTO Type VALUES (10887,'char *const[NSIG]','Array',10305,0,'','','Indirect',1,'');

@@ -437,7 +437,7 @@ INSERT INTO Command VALUES (439,'i386-redhat-linux-gcc','/usr/bin/i386-redhat-li
 INSERT INTO Command VALUES (440,'ical-2.2','/usr/bin/ical-2.2','Excluded',0,'No','No');
 INSERT INTO Command VALUES (441,'icombine','/usr/bin/icombine','Excluded',0,'No','No');
 INSERT INTO Command VALUES (442,'icontopbm','/usr/bin/icontopbm','Excluded',0,'No','No');
-INSERT INTO Command VALUES (443,'iconv','/usr/bin/iconv','Included',10,'Yes','No');
+INSERT INTO Command VALUES (443,'iconv','/usr/bin/iconv','Included',67,'Yes','No');
 INSERT INTO Command VALUES (444,'id','/usr/bin/id','Included',67,'Yes','No');
 INSERT INTO Command VALUES (445,'ident','/usr/bin/ident','Excluded',0,'No','No');
 INSERT INTO Command VALUES (446,'idetool','/usr/bin/idetool','Excluded',0,'No','No');
@@ -990,7 +990,7 @@ INSERT INTO Command VALUES (998,'gunzip','/bin/gunzip','Included',10,'Yes','No')
 INSERT INTO Command VALUES (999,'gzip','/bin/gzip','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1000,'hostname','/bin/hostname','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1001,'kill','/bin/kill','Included',67,'Yes','No');
-INSERT INTO Command VALUES (1002,'ln','/bin/ln','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1002,'ln','/bin/ln','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1003,'ls','/bin/ls','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1004,'lsb_release','/bin/lsb_release','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1005,'mkdir','/bin/mkdir','Included',67,'Yes','No');
@@ -1023,7 +1023,7 @@ INSERT INTO Command VALUES (1031,'fuser','/bin/fuser','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1032,'nice','/bin/nice','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1033,'nohup','/bin/nohup','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1034,'sendmail','/usr/sbin/sendmail','Included',10,'Yes','No');
-INSERT INTO Command VALUES (1035,'sort','/usr/bin/sort','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1035,'sort','/usr/bin/sort','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1036,'stty','/usr/bin/stty','Included',67,'Yes','No');
 INSERT INTO Command VALUES (1037,'rsync','/usr/bin/rsync','Excluded',10,'Yes','No');
 INSERT INTO Command VALUES (1038,'dmesg','/bin/dmesg','Included',10,'No','No');

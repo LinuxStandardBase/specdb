@@ -20,6 +20,7 @@ CREATE TABLE Type (
   Tarch int(11) NOT NULL default '1',
   Tattribute varchar(64) default NULL,
   PRIMARY KEY  (Tid),
-  UNIQUE KEY Tnamearch (Tname,Tarch,Ttype)
+  UNIQUE KEY Tnamearch (Tname,Tarch,Ttype),
+  KEY Tarch (Tarch)
 ) TYPE=MyISAM;
 
