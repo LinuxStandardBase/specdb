@@ -65,3 +65,4 @@ INSERT INTO Standard VALUES (69,'PPC64 Arch','The PowerPC &trade Architecture: A
 INSERT INTO Standard VALUES (70,'PPC64 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard',9);
 INSERT INTO Standard VALUES (71,'PPC64 Arch Chg2','The PowerPC Architecture Book II changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg2.html','','Standard',9);
 INSERT INTO Standard VALUES (72,'PPC64 Arch Chg3','The PowerPC Architecture Book III changes','The PowerPC Architecture Book III changes  http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg3.html','','Standard',9);
+INSERT INTO Standard VALUES (73,'RFC1952','RCS 1952: GZIP file format specification version 4.3','http://www.ietf.org/rfc/rfc1952.txt','','Standard',1);
