@@ -1060,7 +1060,7 @@ INSERT INTO Interface VALUES (1060,'xdr_authdes_verf','Defered','Function',8,1,0
 INSERT INTO Interface VALUES (1061,'xdr_authunix_parms','Defered','Function',8,1,0,0,1,'Yes','No');
 INSERT INTO Interface VALUES (1062,'xdr_bool','Included','Function',21,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1063,'xdr_bytes','Included','Function',21,1,101,9890,1,'Yes','No');
-INSERT INTO Interface VALUES (1064,'xdr_callhdr','Included','Function',21,1,101,1,1,'Yes','No');
+INSERT INTO Interface VALUES (1064,'xdr_callhdr','Included','Function',21,1,146,1,1,'Yes','No');
 INSERT INTO Interface VALUES (1065,'xdr_callmsg','Included','Function',21,1,0,0,1,'Yes','No');
 INSERT INTO Interface VALUES (1066,'xdr_char','Included','Function',21,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1067,'xdr_cryptkeyarg','Defered','Function',8,1,0,0,1,'Yes','No');
@@ -3162,7 +3162,7 @@ INSERT INTO Interface VALUES (3240,'gzopen','Included','Function',24,1,97,9886,0
 INSERT INTO Interface VALUES (3241,'gzdopen','Included','Function',24,1,97,9886,0,'Yes','No');
 INSERT INTO Interface VALUES (3242,'gzwrite','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3243,'gzflush','Included','Function',24,1,97,6,0,'Yes','No');
-INSERT INTO Interface VALUES (3244,'gzerror','Included','Function',24,1,97,63,0,'Yes','No');
+INSERT INTO Interface VALUES (3244,'gzerror','Included','Function',24,1,97,10295,0,'Yes','No');
 INSERT INTO Interface VALUES (3245,'adler32','Included','Function',24,1,97,9878,0,'Yes','No');
 INSERT INTO Interface VALUES (3246,'compress','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3247,'compress2','Included','Function',24,1,97,6,0,'Yes','No');
@@ -3175,7 +3175,7 @@ INSERT INTO Interface VALUES (3253,'deflateInit_','Included','Function',24,1,97,
 INSERT INTO Interface VALUES (3254,'deflateParams','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3255,'deflateReset','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3256,'deflateSetDictionary','Included','Function',24,1,97,6,0,'Yes','No');
-INSERT INTO Interface VALUES (3257,'get_crc_table','Included','Function',24,1,97,9884,0,'Yes','No');
+INSERT INTO Interface VALUES (3257,'get_crc_table','Included','Function',24,1,97,10518,0,'Yes','No');
 INSERT INTO Interface VALUES (3258,'gzeof','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3259,'gzgetc','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3260,'gzgets','Included','Function',24,1,97,63,0,'Yes','No');
@@ -3183,9 +3183,9 @@ INSERT INTO Interface VALUES (3261,'gzprintf','Included','Function',24,1,97,6,0,
 INSERT INTO Interface VALUES (3262,'gzputc','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3263,'gzputs','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3264,'gzrewind','Included','Function',24,1,97,6,0,'Yes','No');
-INSERT INTO Interface VALUES (3265,'gzseek','Included','Function',24,1,97,8,0,'Yes','No');
+INSERT INTO Interface VALUES (3265,'gzseek','Included','Function',24,1,97,10519,0,'Yes','No');
 INSERT INTO Interface VALUES (3266,'gzsetparams','Included','Function',24,1,97,6,0,'Yes','No');
-INSERT INTO Interface VALUES (3267,'gztell','Included','Function',24,1,97,8,0,'Yes','No');
+INSERT INTO Interface VALUES (3267,'gztell','Included','Function',24,1,97,10519,0,'Yes','No');
 INSERT INTO Interface VALUES (3268,'inflate','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3269,'inflateEnd','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3270,'inflateInit2_','Included','Function',24,1,97,6,0,'Yes','No');
@@ -3195,7 +3195,7 @@ INSERT INTO Interface VALUES (3273,'inflateSetDictionary','Included','Function',
 INSERT INTO Interface VALUES (3274,'inflateSync','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3275,'inflateSyncPoint','Included','Function',24,1,97,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3276,'uncompress','Included','Function',24,1,97,6,0,'Yes','No');
-INSERT INTO Interface VALUES (3277,'zError','Included','Function',24,1,97,63,0,'Yes','No');
+INSERT INTO Interface VALUES (3277,'zError','Included','Function',24,1,97,10295,0,'Yes','No');
 INSERT INTO Interface VALUES (3278,'res_gethostbyaddr','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3279,'res_gethostbyname','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3280,'res_gethostbyname2','Excluded','Function',0,1,0,0,0,'No','No');
