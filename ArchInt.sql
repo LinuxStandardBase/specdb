@@ -1,10 +1,10 @@
--- MySQL dump 8.23
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table `ArchInt`
+-- Table structure for table 'ArchInt'
 --
 
 DROP TABLE IF EXISTS ArchInt;

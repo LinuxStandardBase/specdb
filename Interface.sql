@@ -1,10 +1,10 @@
--- MySQL dump 8.23
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table `Interface`
+-- Table structure for table 'Interface'
 --
 
 DROP TABLE IF EXISTS Interface;

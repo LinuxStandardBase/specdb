@@ -306,8 +306,8 @@ INSERT INTO HeaderGroup VALUES (313,'Short attributes',26,3,1,'Minimum and maxim
 INSERT INTO HeaderGroup VALUES (314,'Integer Attributes',26,4,1,'Minimum and maximum values a `int\' can hold.');
 INSERT INTO HeaderGroup VALUES (315,'Long Integer Attributes',26,5,1,'Minimum and maximum values a `long int\' can hold.');
 INSERT INTO HeaderGroup VALUES (316,'These are the possibilities for the first argument to setloc',27,2,1,'These are the possibilities for the first argument to setlocale.');
-INSERT INTO HeaderGroup VALUES (317,'Some useful constants',29,1,1,'Some useful constants');
-INSERT INTO HeaderGroup VALUES (318,'machine-dependent HUGE_VAL value',29,2,1,'machine-dependent HUGE_VAL value');
+INSERT INTO HeaderGroup VALUES (317,'Some useful constants',29,2,1,'Some useful constants');
+INSERT INTO HeaderGroup VALUES (318,'machine-dependent HUGE_VAL value',29,1,1,'machine-dependent HUGE_VAL value');
 INSERT INTO HeaderGroup VALUES (319,'Initializers',33,7,0,'Initializers');
 INSERT INTO HeaderGroup VALUES (320,'Values for attributes.',33,8,0,'Values for attributes.');
 INSERT INTO HeaderGroup VALUES (321,'Cancellation',33,9,0,'Cancellation');
@@ -385,7 +385,7 @@ INSERT INTO HeaderGroup VALUES (392,'fpreg',123,5,1,'Definitions taken from the 
 INSERT INTO HeaderGroup VALUES (393,'fpstate',123,6,1,'');
 INSERT INTO HeaderGroup VALUES (394,'fpregset_t',123,7,1,'Structure to describe FPU registers.');
 INSERT INTO HeaderGroup VALUES (395,'mcontext_t',123,9,1,'Context to describe whole processor state.');
-INSERT INTO HeaderGroup VALUES (396,'ucontext_t',123,10,1,'Userlevel context.');
+INSERT INTO HeaderGroup VALUES (396,'ucontext_t',123,11,1,'Userlevel context.');
 INSERT INTO HeaderGroup VALUES (397,'jmpbuf tag',40,2,1,'');
 INSERT INTO HeaderGroup VALUES (398,'fd_set',45,4,1,'');
 INSERT INTO HeaderGroup VALUES (399,'time values',45,5,1,'Time related types');
@@ -525,7 +525,7 @@ INSERT INTO HeaderGroup VALUES (534,'Default HeadGroup for rpc/auth_des.h',154,0
 INSERT INTO HeaderGroup VALUES (535,'lockf flags',62,7,1,'Flags for lockf()');
 INSERT INTO HeaderGroup VALUES (536,'Displatch function type',103,3,0,'');
 INSERT INTO HeaderGroup VALUES (537,'svc_req structure',103,2,0,'');
-INSERT INTO HeaderGroup VALUES (538,'PPC64 base types',41,1,1,'PPC64 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
+INSERT INTO HeaderGroup VALUES (538,'PPC64 base types',41,1,0,'PPC64 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
 INSERT INTO HeaderGroup VALUES (539,'PPC64 derived types',41,2,1,'');
 INSERT INTO HeaderGroup VALUES (540,'Default headgroup for unctrl.h',155,0,1,'This file intentionally blank.');
 INSERT INTO HeaderGroup VALUES (541,'TERMINAL Type',140,1,1,'');
@@ -543,3 +543,5 @@ INSERT INTO HeaderGroup VALUES (554,'Structure describing an Internet V6 socket 
 INSERT INTO HeaderGroup VALUES (556,'IP Socket options',117,11,1,'IP Socket options');
 INSERT INTO HeaderGroup VALUES (557,'PPC32 base types',41,1,1,'PPC32 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
 INSERT INTO HeaderGroup VALUES (558,'PPC32 derived types',41,2,1,'');
+INSERT INTO HeaderGroup VALUES (559,'uc_regs_ptr',123,10,1,'');
+INSERT INTO HeaderGroup VALUES (560,'math_errhandling',29,3,1,'Bitmasks for the math_errhandling macro.');
