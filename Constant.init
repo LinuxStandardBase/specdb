@@ -3281,7 +3281,7 @@ INSERT INTO Constant VALUES (3281,'AF_WANPIPE','int',48,'','No');
 INSERT INTO Constant VALUES (3282,'AF_MAX','int',48,'','No');
 INSERT INTO Constant VALUES (3283,'PF_UNSPEC','int',48,'','Yes');
 INSERT INTO Constant VALUES (3284,'PF_UNIX','int',458,'','Yes');
-INSERT INTO Constant VALUES (3285,'PF_LOCAL','int',48,'','Yes');
+INSERT INTO Constant VALUES (3285,'PF_LOCAL','int',48,'','No');
 INSERT INTO Constant VALUES (3286,'PF_INET','int',458,'','Yes');
 INSERT INTO Constant VALUES (3287,'PF_AX25','int',48,'','No');
 INSERT INTO Constant VALUES (3288,'PF_IPX','int',48,'','No');
