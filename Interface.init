@@ -3592,7 +3592,7 @@ INSERT INTO Interface VALUES (3670,'exp10l','Excluded','Function',0,1,29,14,0,'N
 INSERT INTO Interface VALUES (3671,'exp2','Excluded','Function',0,1,29,13,0,'No','No');
 INSERT INTO Interface VALUES (3672,'exp2f','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3673,'exp2l','Excluded','Function',0,1,29,14,0,'No','No');
-INSERT INTO Interface VALUES (3674,'expf','Excluded','Function',0,1,29,12,0,'No','No');
+INSERT INTO Interface VALUES (3674,'expf','Included','Function',25,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3675,'expl','Included','Function',25,1,29,14,0,'Yes','No');
 INSERT INTO Interface VALUES (3676,'expm1f','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3677,'expm1l','Excluded','Function',0,1,29,14,0,'No','No');
