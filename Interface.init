@@ -661,8 +661,8 @@ INSERT INTO Interface VALUES (661,'host2netname','Defered','Function',0,1,98,6,0
 INSERT INTO Interface VALUES (662,'hsearch','Included','Function',5,1,38,9083,1,'Yes','No');
 INSERT INTO Interface VALUES (663,'hsearch_r','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (664,'hstrerror','Defered','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (665,'htonl','Included','Function',15,1,117,9,1,'Yes','No');
-INSERT INTO Interface VALUES (666,'htons','Included','Function',15,1,117,5,1,'Yes','No');
+INSERT INTO Interface VALUES (665,'htonl','Included','Function',15,1,117,9272,1,'Yes','No');
+INSERT INTO Interface VALUES (666,'htons','Included','Function',15,1,117,9271,1,'Yes','No');
 INSERT INTO Interface VALUES (667,'iconv','Included','Function',5,1,22,8969,2,'Yes','No');
 INSERT INTO Interface VALUES (668,'iconv_close','Included','Function',5,1,22,6,2,'Yes','No');
 INSERT INTO Interface VALUES (669,'iconv_open','Included','Function',5,1,22,6895,2,'Yes','No');
@@ -3418,8 +3418,8 @@ INSERT INTO Interface VALUES (3496,'monstartup','Excluded','Function',0,1,0,0,0,
 INSERT INTO Interface VALUES (3497,'mount','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3498,'mremap','Defered','Function',0,1,0,40,0,'No','No');
 INSERT INTO Interface VALUES (3499,'nrand48_r','Excluded','Function',0,1,0,6,0,'No','No');
-INSERT INTO Interface VALUES (3500,'ntohl','Included','Function',15,1,117,9,1,'Yes','No');
-INSERT INTO Interface VALUES (3501,'ntohs','Included','Function',15,1,117,5,1,'Yes','No');
+INSERT INTO Interface VALUES (3500,'ntohl','Included','Function',15,1,117,9272,1,'Yes','No');
+INSERT INTO Interface VALUES (3501,'ntohs','Included','Function',15,1,117,9271,1,'Yes','No');
 INSERT INTO Interface VALUES (3502,'ntp_adjtime','Excluded','Function',0,1,96,6,0,'No','No');
 INSERT INTO Interface VALUES (3503,'obstack_printf','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3504,'obstack_vprintf','Excluded','Function',0,1,0,0,0,'No','No');
