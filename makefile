@@ -9,22 +9,22 @@ all:
 	@echo "Please specify dump or restore"
 
 dump::
-	for table in `mysql $(DBOPTS) -e "SHOW TABLES" lsb | grep -v Tables` ;\
+	for table in `mysql $(DBOPTS) -e "SHOW TABLES" $$LSBDB | grep -v Tables` ;\
 	do \
 		set +e; \
 		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) lsb $$table >$$table.sql;\
-		mysqldump $(DBOPTS) lsb $$table | grep INSERT >$$table.init;\
+		mysqldump --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table >$$table.sql;\
+		mysqldump $(DBOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
 	done
 
 restore::
-	mysql $(DBOPTS) lsb <setupdb.sql;
+	mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
 	do \
 		set +e; \
 		table=`basename $$table .sql`; \
 		echo $$table; \
-		mysql $(DBOPTS) lsb <$$table.sql; \
-		mysql $(DBOPTS) lsb <$$table.init; \
+		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
+		mysql $(DBOPTS) $$LSBDB <$$table.init; \
 	done'
 	mysql $(DBOPTS) lsb <dbperms.sql;
