@@ -51,3 +51,4 @@ INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium &trade Architecture Sof
 INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium &trade Architecture Software Developer\'s Manual Volume 3: Instruction Set Reference','http://developer.intel.com/design/itanium/downloads/24531903s.htm','','Standard');
 INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA64 Processor Reference: Intel ® Itanium &trade Processor Reference Manual for Software Development','http://developer.intel.com/design/itanium/downloads/24532003s.htm','','Standard');
 INSERT INTO Standard VALUES (58,'IA64 ABI','Intel ®  Itanium &trade Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard');
+INSERT INTO Standard VALUES (59,'Li18nux','LI18NUX 2000 Globalization Specification, Version 1.0 with Amendment 4','http://www.li18nux.org/docs/html/LI18NUX-2000-amd4.htm','','Standard');

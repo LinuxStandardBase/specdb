@@ -2018,9 +2018,9 @@ INSERT INTO Type VALUES (10222,'greg_t','Typedef',6,388,'','','Referenced',2);
 INSERT INTO Type VALUES (10223,'greg_t array','Array',10222,0,'','','Referenced',1);
 INSERT INTO Type VALUES (10224,'gregset_t','Typedef',10223,390,'','','Referenced',2);
 INSERT INTO Type VALUES (10225,'_libc_fpreg','Struct',0,392,'','','Referenced',2);
-INSERT INTO Type VALUES (10226,'_libc_fpstate','Struct',0,394,'','','Indirect',2);
+INSERT INTO Type VALUES (10226,'_libc_fpstate','Struct',0,394,'','','Referenced',2);
 INSERT INTO Type VALUES (10227,'_libc_fpreg array','Array',10225,0,'','','Indirect',1);
-INSERT INTO Type VALUES (10228,'fpregset_t','Typedef',10226,394,'','','Referenced',2);
+INSERT INTO Type VALUES (10228,'fpregset_t','Typedef',10278,394,'','','Referenced',2);
 INSERT INTO Type VALUES (10229,'anon-mcontext','Struct',0,395,'','','Indirect',1);
 INSERT INTO Type VALUES (10230,'mcontext_t','Typedef',10229,395,'','','Referenced',1);
 INSERT INTO Type VALUES (10231,'__jmp_buf_tag array','Array',6961,0,'','','Referenced',1);
@@ -2070,3 +2070,4 @@ INSERT INTO Type VALUES (10274,'anon-fpos_t','Struct',0,42,'','','Referenced',1)
 INSERT INTO Type VALUES (10275,'anon-fpos64_t','Struct',0,42,'','','Referenced',0);
 INSERT INTO Type VALUES (10276,'__atomic_lock_t','Typedef',6,33,'','','Referenced',1);
 INSERT INTO Type VALUES (10277,'wchar_t array','Array',8848,0,'','','Referenced',0);
+INSERT INTO Type VALUES (10278,'_libc_fpstate *','Pointer',10226,0,'','','Referenced',0);

@@ -19,7 +19,7 @@ CREATE TABLE TypeMember (
   TMcomment varchar(60) default NULL,
   TMmemberof int(10) NOT NULL default '0',
   TMarray varchar(60) default NULL,
-  TMbitfiled enum('Yes','No') NOT NULL default 'No',
+  TMbitfield tinyint(4) NOT NULL default '0',
   PRIMARY KEY  (TMid),
   KEY k_TMposmem (TMposition,TMmemberof)
 ) TYPE=MyISAM;

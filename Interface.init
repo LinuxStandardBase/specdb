@@ -3296,7 +3296,7 @@ INSERT INTO Interface VALUES (3373,'asprintf','Excluded','Function',0,1,42,6,1,'
 INSERT INTO Interface VALUES (3374,'backtrace','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3375,'backtrace_symbols','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3376,'backtrace_symbols_fd','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (3377,'bindtextdomain','Included','Function',10,1,27,0,1,'Yes','No');
+INSERT INTO Interface VALUES (3377,'bindtextdomain','Included','Function',59,1,27,63,1,'Yes','No');
 INSERT INTO Interface VALUES (3378,'bsd_signal','Included','Function',5,1,0,6966,1,'Yes','No');
 INSERT INTO Interface VALUES (3379,'btowc','Included','Function',5,1,64,8980,1,'Yes','No');
 INSERT INTO Interface VALUES (3380,'canonicalize_file_name','Defered','Function',0,1,0,0,0,'No','No');
@@ -3305,8 +3305,8 @@ INSERT INTO Interface VALUES (3382,'clearenv','Excluded','Function',0,1,0,6,0,'N
 INSERT INTO Interface VALUES (3383,'clone','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3384,'copysignf','Included','Function',25,1,29,12,1,'Yes','No');
 INSERT INTO Interface VALUES (3385,'copysignl','Included','Function',25,1,29,14,1,'Yes','No');
-INSERT INTO Interface VALUES (3386,'dcgettext','Included','Function',10,1,0,0,1,'Yes','No');
-INSERT INTO Interface VALUES (3387,'dgettext','Defered','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (3386,'dcgettext','Included','Function',59,1,0,0,1,'Yes','No');
+INSERT INTO Interface VALUES (3387,'dgettext','Included','Function',59,1,0,63,0,'No','No');
 INSERT INTO Interface VALUES (3388,'environ','Included','Alias',5,1,43,4855,1,'Yes','No');
 INSERT INTO Interface VALUES (3389,'erand48_r','Excluded','Function',0,1,0,6,0,'No','No');
 INSERT INTO Interface VALUES (3390,'error','Included','Function',10,1,0,0,1,'Yes','No');
@@ -3470,7 +3470,7 @@ INSERT INTO Interface VALUES (3547,'sys_nerr','Excluded','Function',0,1,17,6,0,'
 INSERT INTO Interface VALUES (3548,'sysv_signal','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3549,'tdelete','Excluded','Function',5,1,38,40,0,'Yes','No');
 INSERT INTO Interface VALUES (3550,'tdestroy','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (3551,'textdomain','Included','Function',10,1,0,0,1,'Yes','No');
+INSERT INTO Interface VALUES (3551,'textdomain','Included','Function',59,1,0,63,1,'Yes','No');
 INSERT INTO Interface VALUES (3552,'tfind','Included','Function',5,1,38,40,1,'Yes','No');
 INSERT INTO Interface VALUES (3553,'timelocal','Defered','Function',0,1,0,6330,0,'No','No');
 INSERT INTO Interface VALUES (3554,'towctrans','Included','Function',5,1,64,8980,1,'Yes','No');
@@ -17360,9 +17360,9 @@ INSERT INTO Interface VALUES (18198,'_dl_sym','Excluded','Function',0,1,0,0,0,'N
 INSERT INTO Interface VALUES (18199,'_dl_vsym','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18200,'_flushlbf','Excluded','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18201,'_res_hconf','Excluded','Data',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18202,'bind_textdomain_codeset','Defered','Unknown',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18203,'dcngettext','Defered','Unknown',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18204,'dngettext','Defered','Unknown',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (18202,'bind_textdomain_codeset','Included','Function',59,1,0,63,0,'No','No');
+INSERT INTO Interface VALUES (18203,'dcngettext','Included','Function',59,1,0,63,0,'No','No');
+INSERT INTO Interface VALUES (18204,'dngettext','Included','Function',59,1,0,63,0,'No','No');
 INSERT INTO Interface VALUES (18205,'fgetwc','Included','Function',5,1,64,8980,6,'Yes','No');
 INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Function',5,1,0,0,6,'Yes','No');
 INSERT INTO Interface VALUES (18207,'fgetws','Included','Function',25,1,64,8848,6,'Yes','No');
@@ -17473,8 +17473,8 @@ INSERT INTO Interface VALUES (18311,'pthread_getcpuclockid','','Function',0,1,0,
 INSERT INTO Interface VALUES (18312,'pthread_mutex_timedlock','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18313,'pthread_mutexattr_getpshared','Included','Function',5,1,33,0,6,'Yes','No');
 INSERT INTO Interface VALUES (18314,'pthread_mutexattr_setpshared','Included','Function',5,1,33,0,6,'Yes','No');
-INSERT INTO Interface VALUES (18315,'pthread_rwlock_timedrdlock','Included','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18316,'pthread_rwlock_timedwrlock','Included','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (18315,'pthread_rwlock_timedrdlock','Included','Function',10,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (18316,'pthread_rwlock_timedwrlock','Included','Function',10,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18317,'pthread_spin_destroy','','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18318,'pthread_spin_init','','Unknown',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18319,'pthread_spin_lock','','Unknown',0,1,0,0,0,'No','No');
