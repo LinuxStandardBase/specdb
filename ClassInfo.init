@@ -9,7 +9,7 @@ INSERT INTO `ClassInfo` VALUES (8,'_ZN10__cxxabiv121__vmi_class_type_infoE',1070
 INSERT INTO `ClassInfo` VALUES (9,'_ZN10__cxxabiv123__fundamental_type_infoE',10705,23982,6,1,24102,0,24030,0,0,0,0,23979,313,1);
 INSERT INTO `ClassInfo` VALUES (10,'_ZN10__cxxabiv129__pointer_to_member_type_infoE',10711,24326,7,1,24097,0,24032,0,0,0,0,23979,314,1);
 INSERT INTO `ClassInfo` VALUES (11,'_ZN9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE',10600,24232,8,1,24051,0,23988,0,0,0,0,23979,315,1);
-INSERT INTO `ClassInfo` VALUES (12,'_ZN9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE',10601,24231,8,1,24050,0,23989,0,0,0,0,23979,316,1);
+INSERT INTO `ClassInfo` VALUES (12,'_ZN9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE',10601,29211,8,1,0,0,23989,0,0,0,0,23979,316,1);
 INSERT INTO `ClassInfo` VALUES (13,'_ZNSt8ios_base7failureE',10622,24252,3,1,24059,0,24002,0,0,0,0,23979,318,1);
 INSERT INTO `ClassInfo` VALUES (14,'_ZSt10bad_typeid',10701,24323,3,1,24095,0,24002,0,0,0,0,23979,323,1);
 INSERT INTO `ClassInfo` VALUES (15,'_ZSt10istrstream',10693,24318,2,2,0,0,23992,0,0,100,0,23979,325,2);
