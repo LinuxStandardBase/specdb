@@ -1169,7 +1169,7 @@ INSERT INTO Type VALUES (9357,'fptr-__selector','FuncPtr',6,15,'','','Excluded',
 INSERT INTO Type VALUES (9358,'fptr-__cmp','FuncPtr',6,15,'','','Excluded',1);
 INSERT INTO Type VALUES (9359,'__off_t *','Pointer',8971,0,'','','Excluded',1);
 INSERT INTO Type VALUES (9360,'__off64_t *','Pointer',8972,0,'','','Excluded',1);
-INSERT INTO Type VALUES (9361,'WINDOW *','Pointer',8655,0,'','','Excluded',1);
+INSERT INTO Type VALUES (9361,'WINDOW *','Pointer',8655,0,'','','Referenced',1);
 INSERT INTO Type VALUES (9362,'__FILE','Typedef',9107,42,'','','Excluded',1);
 INSERT INTO Type VALUES (9363,'_G_fpos_t','',0,0,'','','Excluded',1);
 INSERT INTO Type VALUES (9364,'_G_fpos64_t','',0,0,'','','Excluded',1);
