@@ -78,4 +78,4 @@ INSERT INTO Standard VALUES (83,'X86-64 APM Vol2','AMD64 Architecture Programmer
 INSERT INTO Standard VALUES (84,'X86-64 APM Vol3-1','AMD64 Architecture Programmer\'s Manual, Volume 3: General Purpose and System Instructions 24594 3.03','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
 INSERT INTO Standard VALUES (85,'X86-64 APM Vol3-2','AMD64 Architecture Programmer\'s Manual, Volume 4: 128-bit Media Instructions 26568 3.04','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
 INSERT INTO Standard VALUES (86,'X86-64 APM Vol3-3','AMD64 Architecture Programmer\'s Manual, Volume 5: 64-bit Media and x87 Floating-Point Instructions 26569 3.03','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
-INSERT INTO Standard VALUES (87,'CXXABI','Itanium C++ ABI ($Revision: 1.57 $)','http://www.codesourcery.com/cxx-abi/abi.html','','Standard',1);
+INSERT INTO Standard VALUES (87,'CXXABI','Itanium C++ ABI (Revision: 1.75)','http://www.codesourcery.com/cxx-abi/abi.html','','Standard',1);
