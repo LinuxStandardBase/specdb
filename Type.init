@@ -2345,3 +2345,4 @@ INSERT INTO Type VALUES (10550,'stat','Struct',0,52,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10551,'stat64','Struct',0,52,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10552,'statvfs','Struct',0,457,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10553,'statvfs64','Struct',0,457,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10554,'size_t','Typedef',9,347,'','','Referenced',12,'');
