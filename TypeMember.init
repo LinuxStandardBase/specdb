@@ -3188,7 +3188,6 @@ INSERT INTO TypeMember VALUES (34724,'cgid',9069,0,0,5,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34725,'mode',5,0,0,6,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34726,'__pad1',5,0,0,7,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34727,'__seq',5,0,0,8,'',10403,'',0);
-INSERT INTO TypeMember VALUES (34728,'__pad2',5,0,0,9,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34729,'__unused1',9,0,0,10,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34730,'__unused2',9,0,0,11,'',10403,'',0);
 INSERT INTO TypeMember VALUES (34731,'__key',9116,0,0,1,'',10404,'',0);
@@ -3206,7 +3205,7 @@ INSERT INTO TypeMember VALUES (34742,'msg_perm',10403,0,0,1,'structure describin
 INSERT INTO TypeMember VALUES (34743,'msg_stime',9191,0,0,2,'time of last msgsnd command',10405,'',0);
 INSERT INTO TypeMember VALUES (34744,'msg_rtime',9191,0,0,4,'time of last msgrcv command',10405,'',0);
 INSERT INTO TypeMember VALUES (34745,'msg_ctime',9191,0,0,6,'time of last change',10405,'',0);
-INSERT INTO TypeMember VALUES (34746,'__unsued1',9,0,0,3,'',10405,'',0);
+INSERT INTO TypeMember VALUES (34746,'__unused1',9,0,0,3,'',10405,'',0);
 INSERT INTO TypeMember VALUES (34747,'__unused2',9,0,0,5,'',10405,'',0);
 INSERT INTO TypeMember VALUES (34748,'__unused3',9,0,0,7,'',10405,'',0);
 INSERT INTO TypeMember VALUES (34749,'__msg_cbytes',9,0,0,8,'current number of bytes on queue',10405,'',0);
