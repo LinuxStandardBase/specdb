@@ -3,7 +3,7 @@
 #
 # This avoids creating one huge file that take a long time to manipulate
 #
-DBOPTS=-h $$LSBDBHOST -u $$LSBUSER -p
+DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 
 all:
 	@echo "Please specify dump or restore"
