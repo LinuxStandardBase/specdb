@@ -493,7 +493,7 @@ INSERT INTO Command VALUES (495,'makedb','/usr/bin/makedb','Excluded',0,'No','No
 INSERT INTO Command VALUES (496,'makeindex','/usr/bin/makeindex','Excluded',0,'No','No');
 INSERT INTO Command VALUES (497,'makeinfo','/usr/bin/makeinfo','Excluded',0,'No','No');
 INSERT INTO Command VALUES (498,'makemap','/usr/bin/makemap','Excluded',0,'No','No');
-INSERT INTO Command VALUES (499,'man','/usr/bin/man','Included',0,'No','No');
+INSERT INTO Command VALUES (499,'man','/usr/bin/man','Included',0,'Yes','No');
 INSERT INTO Command VALUES (500,'man2html','/usr/bin/man2html','Excluded',0,'No','No');
 INSERT INTO Command VALUES (501,'mark','/usr/bin/mark','Excluded',0,'No','No');
 INSERT INTO Command VALUES (502,'mc','/usr/bin/mc','Excluded',0,'No','No');
@@ -978,7 +978,7 @@ INSERT INTO Command VALUES (986,'groups','/usr/sbin/groups','Included',10,'Yes',
 INSERT INTO Command VALUES (987,'cat','/bin/cat','Included',5,'Yes','No');
 INSERT INTO Command VALUES (988,'chmod','/bin/chmod','Included',5,'Yes','No');
 INSERT INTO Command VALUES (989,'cp','/bin/cp','Included',5,'Yes','No');
-INSERT INTO Command VALUES (990,'cpio','/bin/cpio','Included',0,'No','No');
+INSERT INTO Command VALUES (990,'cpio','/bin/cpio','Included',0,'Yes','No');
 INSERT INTO Command VALUES (991,'date','/bin/date','Included',0,'Yes','No');
 INSERT INTO Command VALUES (992,'df','/bin/df','Included',0,'Yes','No');
 INSERT INTO Command VALUES (993,'echo','/bin/echo','Included',0,'Yes','No');
@@ -991,7 +991,7 @@ INSERT INTO Command VALUES (999,'gzip','/bin/gzip','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1000,'hostname','/bin/hostname','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1001,'kill','/bin/kill','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1002,'ln','/bin/ln','Included',0,'Yes','No');
-INSERT INTO Command VALUES (1003,'ls','/bin/ls','Included',0,'No','No');
+INSERT INTO Command VALUES (1003,'ls','/bin/ls','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1004,'lsb_release','/bin/lsb_release','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1005,'mkdir','/bin/mkdir','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1006,'mknod','/bin/mknod','Included',0,'Yes','No');
@@ -1018,7 +1018,7 @@ INSERT INTO Command VALUES (1026,'uncompress','/bin/uncompress','Excluded',0,'No
 INSERT INTO Command VALUES (1027,'awk','/bin/awk','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1028,'basename','/bin/basename','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1029,'batch','/bin/batch','Included',0,'Yes','No');
-INSERT INTO Command VALUES (1030,'dd','/bin/dd','Included',0,'No','No');
+INSERT INTO Command VALUES (1030,'dd','/bin/dd','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1031,'fuser','/bin/fuser','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1032,'nice','/bin/nice','Included',0,'Yes','No');
 INSERT INTO Command VALUES (1033,'nohup','/bin/nohup','Included',0,'Yes','No');
