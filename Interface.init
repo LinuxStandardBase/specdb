@@ -231,7 +231,6 @@ INSERT INTO Interface VALUES (230,'__libc_send','Excluded','Function',0,1,0,0,0,
 INSERT INTO Interface VALUES (231,'__libc_sendmsg','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (232,'__libc_sendto','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (233,'__libc_siglongjmp','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (234,'__libc_start_main','Excluded','Function',0,1,0,0,1,'No','No');
 INSERT INTO Interface VALUES (235,'__libc_system','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (236,'__libc_tcdrain','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (237,'__libc_valloc','Excluded','Function',0,1,0,0,0,'No','No');
@@ -346,12 +345,12 @@ INSERT INTO Interface VALUES (345,'__vfscanf','Excluded','Function',0,1,0,0,0,'N
 INSERT INTO Interface VALUES (346,'__wcscasecmp_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (347,'__wcscoll_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (348,'__wcsncasecmp_l','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (349,'__wcstod_internal','Excluded','Function',10,1,64,13,1,'Yes','No');
-INSERT INTO Interface VALUES (350,'__wcstof_internal','Excluded','Function',10,1,64,12,1,'Yes','No');
-INSERT INTO Interface VALUES (351,'__wcstol_internal','Excluded','Function',10,1,64,8,1,'Yes','No');
-INSERT INTO Interface VALUES (352,'__wcstold_internal','Excluded','Function',10,1,64,14,1,'Yes','No');
+INSERT INTO Interface VALUES (349,'__wcstod_internal','Included','Function',10,1,64,13,1,'Yes','No');
+INSERT INTO Interface VALUES (350,'__wcstof_internal','Included','Function',10,1,64,12,1,'Yes','No');
+INSERT INTO Interface VALUES (351,'__wcstol_internal','Included','Function',10,1,64,8,1,'Yes','No');
+INSERT INTO Interface VALUES (352,'__wcstold_internal','Included','Function',10,1,64,14,1,'Yes','No');
 INSERT INTO Interface VALUES (353,'__wcstoll_internal','Excluded','Function',10,1,64,10,1,'Yes','No');
-INSERT INTO Interface VALUES (354,'__wcstoul_internal','Excluded','Function',10,1,64,9,1,'Yes','No');
+INSERT INTO Interface VALUES (354,'__wcstoul_internal','Included','Function',10,1,64,9,1,'Yes','No');
 INSERT INTO Interface VALUES (355,'__wcstoull_internal','Excluded','Function',10,1,64,11,1,'Yes','No');
 INSERT INTO Interface VALUES (356,'__wcsxfrm_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (357,'__wctype_l','Excluded','Function',0,1,0,0,0,'No','No');

@@ -432,3 +432,15 @@ INSERT INTO HeaderGroup VALUES (441,'Default HeaderGroup for sys/file.h',120,0,0
 INSERT INTO HeaderGroup VALUES (442,'Default HeaderGroup for sys/un.h',134,0,1,'');
 INSERT INTO HeaderGroup VALUES (443,'Order Definitions',23,1,1,'');
 INSERT INTO HeaderGroup VALUES (444,'Platform Defintions',23,2,1,'');
+INSERT INTO HeaderGroup VALUES (445,'DayOFWeek',25,2,1,'Abbreviated days of the week.');
+INSERT INTO HeaderGroup VALUES (446,'Day Names',25,3,1,'Long-named days of the week.');
+INSERT INTO HeaderGroup VALUES (447,'Abbrev month names',25,4,1,'Abbreviated month names.');
+INSERT INTO HeaderGroup VALUES (448,'Month names',25,5,1,'Long month names.');
+INSERT INTO HeaderGroup VALUES (449,'AM/PM',25,6,1,'');
+INSERT INTO HeaderGroup VALUES (450,'strftime',25,7,1,'');
+INSERT INTO HeaderGroup VALUES (451,'Eras',25,8,1,'');
+INSERT INTO HeaderGroup VALUES (452,'LC_MONETARY category',25,11,1,'LC_MONETARY category: formatting of monetary quantities. These items each correspond to a member of `struct lconv\', defined in <locale.h>.');
+INSERT INTO HeaderGroup VALUES (453,'LC_NUMERIC category',25,12,1,'LC_NUMERIC category: formatting of numbers. These also correspond to members of `struct lconv\'; see <locale.h>.');
+INSERT INTO HeaderGroup VALUES (454,'LC_TIME category: date and time formatting.',25,1,1,'LC_TIME category: date and time formatting.');
+INSERT INTO HeaderGroup VALUES (455,'LC_CTYPE category',25,10,1,'LC_CTYPE category: character classification. This information is accessed by the functions in <ctype.h>.These \'nl_langinfo\' names are used only internally.');
+INSERT INTO HeaderGroup VALUES (456,'LC_COLLATE category',25,9,1,' LC_COLLATE category: text sorting. This information is accessed by the strcoll and strxfrm functions. These `nl_langinfo\' names are used only internally.');

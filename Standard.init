@@ -10,7 +10,7 @@ INSERT INTO Standard VALUES (9,'pthreads','POSIX 1003.1c','http://www.ieee.org/'
 INSERT INTO Standard VALUES (10,'LSB','Linux Standard Base','http://www.linuxbase.org/spec/','','Standard',1);
 INSERT INTO Standard VALUES (11,'Xlib','X11R6.4 Xlib - C library','http://www.x.org/','','Standard',1);
 INSERT INTO Standard VALUES (12,'Xt','X11R6.4 X Toolkit Intrinsics','http://www.x.org/','','Standard',1);
-INSERT INTO Standard VALUES (13,'FHS','Filesystem Hierarchy Standard 2.2','http://www.pathname.com/fhs/','','Standard',1);
+INSERT INTO Standard VALUES (13,'FHS','Filesystem Hierarchy Standard (FHS) 2.2','http://www.pathname.com/fhs/','','Standard',1);
 INSERT INTO Standard VALUES (14,'ELF Specification','Tool Interface Standard (TIS) Executable and Linking Format','http://www.linuxbase.org/spec/refspecs/elf.pdf','','Unknown',1);
 INSERT INTO Standard VALUES (15,'SUS-XNS','CAE Specification, February 1997, Networking Services (XNS), Issue 5\r\n(ISBN: 1-85912-165-9, C523)','http://www.opengroup.org/','','Standard',1);
 INSERT INTO Standard VALUES (16,'FLTPNT','IEEE Standard for Binary Floating-Point Arithmetic','http://www.ieee.org/','ANSI/IEEE Standards 745-1985 and 854-1987','Standard',1);
@@ -19,7 +19,7 @@ INSERT INTO Standard VALUES (18,'XSM','X11R6.4 X Session Management Library','ht
 INSERT INTO Standard VALUES (19,'XICE','X11R6.4 X Inter-Client Exchange (ICE) Protocol','http://www.x.org/','','Standard',1);
 INSERT INTO Standard VALUES (20,'Linux','GNU/Linux defacto standard','http://www.gnu.org/','','Reference',1);
 INSERT INTO Standard VALUES (21,'SVID.3','System V Interface Definition, Issue 3 (ISBN 0201566524)','','ISBN 0201566524','Standard',1);
-INSERT INTO Standard VALUES (22,'SUS-XSH95','The Single UNIX Specification Version 1 (UNIX 95) System Interfaces & Headers','http://www.opengroup.org/','','Standard',1);
+INSERT INTO Standard VALUES (22,'SUS-XSH95','The Single UNIX® Specification(SUS) Version 1 (UNIX 95) System Interfaces & Headers','http://www.opengroup.org/','','Standard',1);
 INSERT INTO Standard VALUES (23,'ELF','Tool Interface Standard (TIS) Executable and Linking Format (ELF) Specification version 1.2','','','Unknown',1);
 INSERT INTO Standard VALUES (24,'zlib','zlib 1.1.3 Manual','http://www.gzip.org/zlib/','See','Standard',1);
 INSERT INTO Standard VALUES (25,'ISOC99','ISO/IEC 9899: 1999, Programming Languages --C','','','Standard',1);
@@ -30,7 +30,7 @@ INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for 
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpm.org/max-rpm/s1-rpm-file-format-rpm-file-format.html','','Reference',1);
 INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard',1);
 INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard',1);
-INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard',2);
+INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386&trade Architecture Processor Supplement, Fourth Edition','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard',2);
 INSERT INTO Standard VALUES (34,'IA64 Conventions','Itanium &trade Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/itanium/downloads/24535803s.htm','','Standard',3);
 INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-systems.org/version2/whatsnew/lfs20mar.html','','Standard',1);
 INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard',1);
@@ -43,14 +43,14 @@ INSERT INTO Standard VALUES (42,'X-DPMS','X Display Power Management Signaling (
 INSERT INTO Standard VALUES (43,'X-security','Security Extension Specification, Version 7.1','http://www.x.org/','','Standard',1);
 INSERT INTO Standard VALUES (44,'LANANA','Linux Assigned Names And Numbers Authority','http://www.lanana.org/','','Standard',1);
 INSERT INTO Standard VALUES (46,'SVID.4','System V Interface Definition,Fourth Edition','','','Standard',1);
-INSERT INTO Standard VALUES (51,'IA32 SDM Vol1','IA32 Architecture Software Developer\'s Manual Volume 1: Basic Architecture','http://developer.intel.com/design/pentium4/manuals/245470.htm','','Standard',2);
-INSERT INTO Standard VALUES (52,'IA32 SDM Vol2','IA32 Architecture Software Developer\'s Manual Volume 2: Instruction Set Reference','http://developer.intel.com/design/pentium4/manuals/245471.htm','','Standard',2);
-INSERT INTO Standard VALUES (53,'IA32 SDM Vol3','IA32 Architecture Software Developer\'s Manual Volume 3: System Programming Guide','http://developer.intel.com/design/pentium4/manuals/245472.htm','','Standard',2);
+INSERT INTO Standard VALUES (51,'IA32 SDM Vol1','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 1: Basic Architecture','http://developer.intel.com/design/pentium4/manuals/245470.htm','','Standard',2);
+INSERT INTO Standard VALUES (52,'IA32 SDM Vol2','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 2: Instruction Set Reference','http://developer.intel.com/design/pentium4/manuals/245471.htm','','Standard',2);
+INSERT INTO Standard VALUES (53,'IA32 SDM Vol3','The IA-32 Intel® Architecture Software Developer\'s Manual Volume 3: System Programming Guide','http://developer.intel.com/design/pentium4/manuals/245472.htm','','Standard',2);
 INSERT INTO Standard VALUES (54,'IA64 SDM Vol1','Itanium &trade Architecture Software Developer\'s Manual Volume 1: Application Architecture','http://developer.intel.com/design/itanium/downloads/24531703s.htm','','Standard',3);
 INSERT INTO Standard VALUES (55,'IA64 SDM Vol2','Itanium &trade Architecture Software Developer\'s Manual Volume 2: System Architecture','http://developer.intel.com/design/itanium/downloads/24531803s.htm','','Standard',3);
 INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium &trade Architecture Software Developer\'s Manual Volume 3: Instruction Set Reference','http://developer.intel.com/design/itanium/downloads/24531903s.htm','','Standard',3);
-INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA64 Processor Reference: Intel ® Itanium &trade Processor Reference Manual for Software Development','http://developer.intel.com/design/itanium/downloads/24532003s.htm','','Standard',3);
-INSERT INTO Standard VALUES (58,'IA64 ABI','Intel ®  Itanium &trade Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard',3);
+INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA-64 Processor Reference: Intel® Itanium &trade Processor Reference Manual for Software Development','http://developer.intel.com/design/itanium/downloads/24532003s.htm','','Standard',3);
+INSERT INTO Standard VALUES (58,'IA64 ABI','Intel®  Itanium &trade Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard',3);
 INSERT INTO Standard VALUES (59,'Li18nux','LI18NUX 2000 Globalization Specification, Version 1.0 with Amendment 4','http://www.li18nux.org/docs/html/LI18NUX-2000-amd4.htm','','Standard',1);
 INSERT INTO Standard VALUES (60,'PPC32 Arch','The PowerPC &trade Architecture: A Specification for a new family of RISC processors','http://www.austin.ibm.com','','Standard',6);
 INSERT INTO Standard VALUES (61,'PPC32 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard',6);

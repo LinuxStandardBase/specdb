@@ -1,0 +1,15 @@
+INSERT INTO TestSuite VALUES (1,'VSX-PCTS','VSX-PCTS','FSG-LSB','Included');
+INSERT INTO TestSuite VALUES (2,'LSB-OS','LSB-OS','FSG-LSB','Included');
+INSERT INTO TestSuite VALUES (3,'UserGroups','USerGroups','FSG-LSB','Included');
+INSERT INTO TestSuite VALUES (4,'Li18nux','Li18nux','Li18nux Group','Excluded');
+INSERT INTO TestSuite VALUES (5,'VSC-Lite','VSC511-Lite','TOG-Freely Available','Excluded');
+INSERT INTO TestSuite VALUES (6,'VSTH-Lite','VSTH-Lite','TOG-Freely Available','Excluded');
+INSERT INTO TestSuite VALUES (7,'XTests','X Pre-VSW4 Tests','Free (%75 of VSW5)','Excluded');
+INSERT INTO TestSuite VALUES (8,'AP-Base','AP-Base','APTest-Charged','Excluded');
+INSERT INTO TestSuite VALUES (9,'AP-Sockets','AP-Sockets','APTest-Charged','Excluded');
+INSERT INTO TestSuite VALUES (10,'AP-Curses','AP-Curses','APTest-Charged','Excluded');
+INSERT INTO TestSuite VALUES (11,'TOG-Sockets','TOG-Sockets','TOG-Charged','Excluded');
+INSERT INTO TestSuite VALUES (12,'TOG-LFS','TOG-LFS','TOG-Charged','Excluded');
+INSERT INTO TestSuite VALUES (13,'TOG-EDL','TOG-Enhanced Dynamic Loading','TOG-Charged','Excluded');
+INSERT INTO TestSuite VALUES (14,'TOG-VSW5','TOG-VSW5 X Suite','TOG-Charged','Excluded');
+INSERT INTO TestSuite VALUES (15,'TOG-Dev','TOG-Development Environment','TOG-Charged','Excluded');

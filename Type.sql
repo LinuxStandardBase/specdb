@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS Type;
 CREATE TABLE Type (
   Tid int(10) NOT NULL auto_increment,
   Tname varchar(60) binary NOT NULL default '',
-  Ttype enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Unknown') NOT NULL default 'Unknown',
+  Ttype enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Unknown') NOT NULL default 'Unknown',
   Tbasetype int(10) default NULL,
   Theadergroup int(10) NOT NULL default '0',
   Tcomment varchar(60) default NULL,
@@ -20,6 +20,6 @@ CREATE TABLE Type (
   Tstatus enum('Referenced','Indirect','Excluded') NOT NULL default 'Excluded',
   Tarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Tid),
-  UNIQUE KEY Tname (Tname)
+  UNIQUE KEY Tnamearch (Tname,Tarch)
 ) TYPE=MyISAM;
 

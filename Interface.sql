@@ -21,6 +21,7 @@ CREATE TABLE Interface (
   Iversion int(11) NOT NULL default '0',
   Idocumented enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   Itested enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  PRIMARY KEY  (Iid)
+  PRIMARY KEY  (Iid),
+  UNIQUE KEY k_Iname (Iname)
 ) TYPE=MyISAM;
 
