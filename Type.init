@@ -2235,3 +2235,4 @@ INSERT INTO Type VALUES (10439,'bool','Typedef',6,514,'','','Referenced',3,'');
 INSERT INTO Type VALUES (10440,'bool','Typedef',6,514,'','','Referenced',9,'');
 INSERT INTO Type VALUES (10441,'bool','Typedef',6,514,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10442,'char array 2','Array',2,0,'','','Indirect',1,NULL);
+INSERT INTO Type VALUES (10443,'shmatt_t','Typedef',9,405,'','','Referenced',6,NULL);
