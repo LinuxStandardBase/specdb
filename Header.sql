@@ -11,6 +11,7 @@ DROP TABLE IF EXISTS Header;
 CREATE TABLE Header (
   Hid int(10) DEFAULT '0' NOT NULL auto_increment,
   Hname varchar(60) binary DEFAULT '' NOT NULL,
+  Hstd enum('Yes','No') DEFAULT 'No' NOT NULL,
   PRIMARY KEY (Hid)
 );
 
