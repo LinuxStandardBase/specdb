@@ -270,7 +270,7 @@ INSERT INTO `Type` VALUES (8510,'anon-X11/Xlib.h-2745','Union',0,5,'','','Exclud
 INSERT INTO `Type` VALUES (6952,'entry','Struct',0,138,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (8509,'XTextItem16','Typedef',8508,104,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (6958,'anon-semaphore.h-11','Struct',0,39,'','','Excluded',1,NULL);
-INSERT INTO `Type` VALUES (6963,'sigjmp_buf','Typedef',6962,364,'','','Referenced',1,NULL);
+INSERT INTO `Type` VALUES (6963,'sigjmp_buf','Typedef',6962,364,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (6962,'jmp_buf','Typedef',10231,364,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (6966,'__sighandler_t','Typedef',9095,239,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (8508,'anon-X11/Xlib.h-2723','Struct',0,104,'','','Excluded',1,NULL);
@@ -2202,7 +2202,7 @@ INSERT INTO `Type` VALUES (10406,'msqid_ds','Struct',0,374,'','','Referenced',10
 INSERT INTO `Type` VALUES (10407,'semid_ds','Struct',0,47,'','','Referenced',6,'');
 INSERT INTO `Type` VALUES (10408,'semid_ds','Struct',0,47,'','','Referenced',10,'');
 INSERT INTO `Type` VALUES (10409,'__jmp_buf','Typedef',10522,140,'','','Referenced',3,'(aligned (16))');
-INSERT INTO `Type` VALUES (10410,'__jmp_buf','Typedef',10523,140,'','','Referenced',6,'');
+INSERT INTO `Type` VALUES (10410,'__jmp_buf','Typedef',11027,140,'','','Referenced',6,'(aligned (16))');
 INSERT INTO `Type` VALUES (10411,'__jmp_buf','Typedef',10524,140,'','','Referenced',10,'');
 INSERT INTO `Type` VALUES (10412,'XDR','Typedef',9934,304,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10431,'xdr_ops *','Pointer',9935,503,'','','Excluded',1,NULL);
@@ -2295,7 +2295,7 @@ INSERT INTO `Type` VALUES (10500,'statvfs64','Struct',0,457,'','','Referenced',9
 INSERT INTO `Type` VALUES (10501,'anon-signal.h-180','Union',0,41,'','','Indirect',9,'');
 INSERT INTO `Type` VALUES (10502,'sigaction','Struct',0,245,'','','Referenced',9,'');
 INSERT INTO `Type` VALUES (10503,'long array','Array',8,0,'','','Indirect',9,'');
-INSERT INTO `Type` VALUES (10504,'__jmp_buf','Typedef',10521,140,'','','Referenced',9,'');
+INSERT INTO `Type` VALUES (10504,'__jmp_buf','Typedef',11026,140,'','','Referenced',9,'(aligned (16))');
 INSERT INTO `Type` VALUES (10505,'signed char','Intrinsic',0,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10506,'uintptr_t','Typedef',9,227,'','','Referenced',3,'');
 INSERT INTO `Type` VALUES (10507,'uintptr_t','Typedef',7,227,'','','Referenced',6,'');
@@ -2805,3 +2805,6 @@ INSERT INTO `Type` VALUES (11021,'size_type *','Pointer',11018,0,'','','Indirect
 INSERT INTO `Type` VALUES (11022,'size_type[]','Array',11018,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (11023,'const char *[14]','Array',10295,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (11024,'const wchar_t *[14]','Array',10445,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11025,'__jmp_buf','Typedef',2,0,'','','Indirect',8,'');
+INSERT INTO `Type` VALUES (11026,'long [64]','Array',8,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11027,'long [112]','Array',8,0,'','','Indirect',1,'');
