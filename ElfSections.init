@@ -78,3 +78,5 @@ INSERT INTO ElfSections VALUES (82,'.got',78,'This section holds the global offs
 INSERT INTO ElfSections VALUES (83,'.plt',78,'This section holds the procedure linkage table',2,'SHF_ALLOC+SHF_EXECINSTR',0,12);
 INSERT INTO ElfSections VALUES (84,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,12);
 INSERT INTO ElfSections VALUES (85,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,12);
+INSERT INTO ElfSections VALUES (86,'.sbss',10,'This section holds uninitialized data that contribute to the program\'s memory image. The system initializes the data with zeroes when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',0,6);
+INSERT INTO ElfSections VALUES (87,'.sdata2',10,'This section holds the second level of initialised small data',2,'SHF_ALLOC',0,6);
