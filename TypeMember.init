@@ -3542,3 +3542,8 @@ INSERT INTO TypeMember VALUES (40182,'__ctype_b',10539,0,0,2,'',10531,'',0);
 INSERT INTO TypeMember VALUES (40183,'__ctype_tolower',10541,0,0,3,'',10531,'',0);
 INSERT INTO TypeMember VALUES (40184,'__ctype_toupper',10541,0,0,4,'',10531,'',0);
 INSERT INTO TypeMember VALUES (40185,'__names',10542,0,0,5,'',10531,'13',0);
+INSERT INTO TypeMember VALUES (40186,'object',10264,0,0,1,'',10262,'',0);
+INSERT INTO TypeMember VALUES (40187,'object_class',10266,0,0,1,'',10271,'',0);
+INSERT INTO TypeMember VALUES (40188,'c',10194,0,0,1,'',9888,'8',0);
+INSERT INTO TypeMember VALUES (40189,'key',9889,0,0,0,'',9888,'',0);
+INSERT INTO TypeMember VALUES (40190,'dummy',6,0,0,0,'',9874,'',0);
