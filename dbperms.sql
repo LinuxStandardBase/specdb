@@ -13,6 +13,7 @@
 #
 GRANT INSERT,UPDATE,DELETE ON Architecture TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchConst TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchClass TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchType TO lsbadmin@localhost;
