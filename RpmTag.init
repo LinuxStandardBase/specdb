@@ -47,7 +47,7 @@ INSERT INTO RpmTag VALUES (47,'RPMTAG_COOKIE',1094,'STRING',1,'PackageInfo','Req
 INSERT INTO RpmTag VALUES (48,'RPMTAG_FILEDEVICES',1095,'INT32',0,'FileDetails','Required','This tag specifies the 16 bit device number from which the file was copied.');
 INSERT INTO RpmTag VALUES (49,'RPMTAG_FILEINODES',1096,'INT32',0,'FileDetails','Required','This tag specifies the inode value from the original file on the build host.');
 INSERT INTO RpmTag VALUES (50,'RPMTAG_FILELANGS',1097,'STRING_ARRAY',0,'FileDetails','Required','This tag specifies a per-file locale marker used to install only locale specific subsets of files when the package is installed.');
-INSERT INTO RpmTag VALUES (52,'RPMTAG_PROVIDEFLAGS',1112,'INT32',1,'Dependencies','Required','This tag ??????');
+INSERT INTO RpmTag VALUES (52,'RPMTAG_PROVIDEFLAGS',1112,'INT32',0,'Dependencies','Required','This tag ??????');
 INSERT INTO RpmTag VALUES (53,'RPMTAG_PROVIDEVERSION',1113,'STRING_ARRAY',0,'Dependencies','Required','This tag ????');
 INSERT INTO RpmTag VALUES (54,'RPMTAG_DIRINDEXES',1116,'INT32',0,'FileDetails','Required','This tag specifies the index into the array provided by the RPMTAG_DIRNAMES Index which contains the directory name for the corresponding filename.');
 INSERT INTO RpmTag VALUES (55,'RPMTAG_BASENAMES',1117,'STRING_ARRAY',0,'FileDetails','Required','This tag specifies the base portion of the corresponding filename.');

@@ -610,9 +610,9 @@ INSERT INTO Interface VALUES (610,'getpass','Excluded','Function',5,1,62,63,0,'Y
 INSERT INTO Interface VALUES (611,'getpgrp','Included','Function',5,1,62,9094,1,'Yes','Yes');
 INSERT INTO Interface VALUES (612,'getpmsg','Excluded','Function',5,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (613,'getpriority','Included','Function',5,1,57,6,1,'Yes','No');
-INSERT INTO Interface VALUES (614,'getprotobyname','Included','Function',10,1,115,10140,1,'Yes','No');
+INSERT INTO Interface VALUES (614,'getprotobyname','Included','Function',5,1,115,10140,1,'Yes','No');
 INSERT INTO Interface VALUES (615,'getprotobynumber','Included','Function',15,1,115,10140,1,'Yes','No');
-INSERT INTO Interface VALUES (616,'getprotoent','Included','Function',10,1,115,10140,1,'Yes','No');
+INSERT INTO Interface VALUES (616,'getprotoent','Included','Function',5,1,115,10140,1,'Yes','No');
 INSERT INTO Interface VALUES (617,'getpublickey','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (618,'getpwent','Included','Function',5,1,34,9070,1,'Yes','No');
 INSERT INTO Interface VALUES (619,'getpwnam','Included','Function',5,1,34,9070,1,'Yes','Yes');
@@ -1383,7 +1383,7 @@ INSERT INTO Interface VALUES (1397,'sbrk','Included','Function',5,1,62,40,1,'Yes
 INSERT INTO Interface VALUES (1406,'select','Included','Function',15,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1407,'setgid','Included','Function',5,1,62,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1408,'setitimer','Included','Function',5,1,95,6,1,'Yes','No');
-INSERT INTO Interface VALUES (1409,'setmntent','Included','Function',10,1,0,0,1,'Yes','No');
+INSERT INTO Interface VALUES (1409,'setmntent','Deprecated','Function',10,1,0,0,1,'Yes','No');
 INSERT INTO Interface VALUES (1410,'setpgid','Included','Function',5,1,62,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1411,'setregid','Included','Function',5,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1412,'setreuid','Included','Function',5,1,62,6,1,'Yes','No');
@@ -23076,7 +23076,7 @@ INSERT INTO Interface VALUES (23928,'strnames','Unknown','Data',0,1,0,0,0,'No','
 INSERT INTO Interface VALUES (23929,'touchline','Included','Function',28,1,70,6,0,'No','No');
 INSERT INTO Interface VALUES (23930,'touchwin','Included','Function',28,1,70,6,0,'No','No');
 INSERT INTO Interface VALUES (23931,'_Unwind_DeleteException','Included','Function',10,1,143,1,0,'No','No');
-INSERT INTO Interface VALUES (23932,'_Unwind_Find_FDE','Excluded','Function',10,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (23932,'_Unwind_Find_FDE','Included','Function',10,1,143,10392,0,'No','No');
 INSERT INTO Interface VALUES (23933,'_Unwind_ForcedUnwind','Included','Function',10,1,143,10379,0,'No','No');
 INSERT INTO Interface VALUES (23934,'_Unwind_GetDataRelBase','Included','Function',10,1,143,10379,0,'No','No');
 INSERT INTO Interface VALUES (23935,'_Unwind_GetGR','Included','Function',10,1,143,10380,0,'No','No');
@@ -23084,7 +23084,7 @@ INSERT INTO Interface VALUES (23936,'_Unwind_GetIP','Included','Function',10,1,1
 INSERT INTO Interface VALUES (23937,'_Unwind_GetLanguageSpecificData','Included','Function',10,1,143,10379,0,'No','No');
 INSERT INTO Interface VALUES (23938,'_Unwind_GetRegionStart','Included','Function',10,1,143,10379,0,'No','No');
 INSERT INTO Interface VALUES (23939,'_Unwind_GetTextRelBase','Included','Function',10,1,143,10379,0,'No','No');
-INSERT INTO Interface VALUES (23940,'_Unwind_RaiseException','Included','Function',10,1,143,10381,0,'No','No');
+INSERT INTO Interface VALUES (23940,'_Unwind_RaiseException','Included','Function',10,1,143,10388,0,'No','No');
 INSERT INTO Interface VALUES (23941,'_Unwind_Resume','Included','Function',10,1,143,1,0,'No','No');
 INSERT INTO Interface VALUES (23942,'_Unwind_SetGR','Included','Function',10,1,143,1,0,'No','No');
 INSERT INTO Interface VALUES (23943,'_Unwind_SetIP','Included','Function',10,1,143,1,0,'No','No');

@@ -2,7 +2,7 @@ INSERT INTO ElfSections VALUES (1,'.bss',31,'This section holds uninitialized da
 INSERT INTO ElfSections VALUES (2,'.comment',31,'This section holds version control information.',2,'0',0,1);
 INSERT INTO ElfSections VALUES (3,'.data',31,'This section holds initialized data that contribute to the program\'s memory image.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (4,'.data1',31,'This section holds initialized data that contribute to the program\'s memory image.',2,'SHF_ALLOC+SHF_WRITE',0,1);
-INSERT INTO ElfSections VALUES (5,'.debug',31,'This section holds information for symbolic debugging. The contents are unspecified. All section names with the prefix .debug are reserved for future use in the ABI.',2,'0',0,1);
+INSERT INTO ElfSections VALUES (5,'.debug',31,'This section holds information for symbolic debugging. The contents are unspecified. All section names with the prefix .debug hold information for symbolic debugging. The contents of these sections are unspecified.',2,'0',0,1);
 INSERT INTO ElfSections VALUES (6,'.dynamic',31,'This section holds dynamic linking information. The section\'s attributes will include the SHF_ALLOC bit. Whether the SHF_WRITE bit is set is processor specific. See Chapter 5 for more information.',7,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (7,'.hash',31,'This section holds a symbol hash table. See ``Hash Table\'\' in Chapter 5 for more information.',6,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (8,'.line',31,'This section holds line number information for symbolic debugging, which describes the correspondence between the source program and the machine code. The contents are unspecified.',2,'0',0,1);
@@ -28,7 +28,7 @@ INSERT INTO ElfSections VALUES (29,'.ctors',10,'This section contains a list of 
 INSERT INTO ElfSections VALUES (30,'.dtors',10,'This section contains a list of global destructor function pointers.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (31,'.gnu.version',10,'This section contains the Symbol Version Table.',19,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (32,'.gnu.version_r',10,'This section contains the Version Requirments.',18,'SHF_ALLOC',0,1);
-INSERT INTO ElfSections VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling. The format is the same as for .debug_frame as described by DWARF2.',2,'SHF_ALLOC+SHF_WRITE',0,1);
+INSERT INTO ElfSections VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling. The format is the same as for .debug_frame as described by <XREF LINKEND=\"std.DWARF2\">.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (34,'.stab',10,'This section contains debugging information. The contents are not specified as part of the LSB.',2,'0',0,1);
 INSERT INTO ElfSections VALUES (35,'.stabstr',10,'This section contains strings associated with the debugging infomation contained in the .stab section.',4,'0',0,1);
 INSERT INTO ElfSections VALUES (37,'.got',33,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE',0,2);
@@ -60,5 +60,5 @@ INSERT INTO ElfSections VALUES (64,'.rela.sbss',10,'This section holds RELA type
 INSERT INTO ElfSections VALUES (65,'.rela.bss',10,'This section holds RELA type relocation information for the BSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (66,'.rela.got2',10,'This section holds RELA type relocation information for the second level GOT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (67,'.jcr',10,'This section contains information necessary for registering compiled\r\nJava classes.  The contents are compiler-specific and used by compiler\r\ninitialization functions.',2,'SHF_ALLOC+SHF_WRITE',0,1);
-INSERT INTO ElfSections VALUES (68,'.got',74,NULL,2,'SHF_ALLOC+SHF_WRITE',0,10);
-INSERT INTO ElfSections VALUES (69,'.plt',74,NULL,2,'SHF_ALLOC+SHF_EXECINSTR',0,10);
+INSERT INTO ElfSections VALUES (68,'.got',74,'',2,'SHF_ALLOC+SHF_WRITE',0,10);
+INSERT INTO ElfSections VALUES (69,'.plt',74,'',2,'SHF_ALLOC+SHF_EXECINSTR',0,10);

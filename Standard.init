@@ -68,3 +68,4 @@ INSERT INTO Standard VALUES (72,'PPC64 Arch Chg3','The PowerPC Architecture Book
 INSERT INTO Standard VALUES (73,'RFC1952','RFC 1952: GZIP file format specification version 4.3','http://www.ietf.org/rfc/rfc1952.txt','','Standard',1);
 INSERT INTO Standard VALUES (74,'S390 ABI','LINUX for S/390 ELF Application Binary Interface Supplement','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',10);
 INSERT INTO Standard VALUES (75,'S390 Arch','Enterprise Systems Architecture/390 Principles of Operation','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',10);
+INSERT INTO Standard VALUES (76,'DWARF2','DWARF Debugging Information Format, Revision 2.0.0 (July 27, 1993)','','','Standard',1);
