@@ -52,3 +52,8 @@ INSERT INTO Standard VALUES (56,'IA64 SDM Vol3','Itanium &trade Architecture Sof
 INSERT INTO Standard VALUES (57,'IA64 SDM Vol4','IA64 Processor Reference: Intel ® Itanium &trade Processor Reference Manual for Software Development','http://developer.intel.com/design/itanium/downloads/24532003s.htm','','Standard');
 INSERT INTO Standard VALUES (58,'IA64 ABI','Intel ®  Itanium &trade Processor-specific Application Binary Interface','http://developer.intel.com/design/itanium/downloads/245370.htm','','Standard');
 INSERT INTO Standard VALUES (59,'Li18nux','LI18NUX 2000 Globalization Specification, Version 1.0 with Amendment 4','http://www.li18nux.org/docs/html/LI18NUX-2000-amd4.htm','','Standard');
+INSERT INTO Standard VALUES (60,'PPC32 Arch','The PowerPC trade& Architecture: A Specification for a new family of RISC processors','http://www.austin.ibm.com','','Standard');
+INSERT INTO Standard VALUES (61,'PPC32 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard');
+INSERT INTO Standard VALUES (62,'PPC32 Arch Chg2','The PowerPC Architecture Book II changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg2.html','','Standard');
+INSERT INTO Standard VALUES (63,'PPC32 Arch Chg3','The PowerPC Architecture Book III changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg3.html','','Standard');
+INSERT INTO Standard VALUES (64,'PPC32 ABI','System V Application Binary Interface PowerPC Processor Suplement','http://www.esofta.com/pdfs/SVR4abippc.pdf','','Standard');
