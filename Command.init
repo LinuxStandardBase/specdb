@@ -474,7 +474,7 @@ INSERT INTO `Command` VALUES (476,'loadshlib','/usr/bin/loadshlib','Excluded',0,
 INSERT INTO `Command` VALUES (477,'locale','/usr/bin/locale','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (478,'localedef','/usr/bin/localedef','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (479,'lockfile','/usr/bin/lockfile','Excluded',0,'No','No');
-INSERT INTO `Command` VALUES (480,'logger','/usr/bin/logger','Included',0,'No','No');
+INSERT INTO `Command` VALUES (480,'logger','/usr/bin/logger','Included',67,'No','No');
 INSERT INTO `Command` VALUES (481,'logname','/usr/bin/logname','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (482,'look','/usr/bin/look','Excluded',0,'No','No');
 INSERT INTO `Command` VALUES (483,'lookbib','/usr/bin/lookbib','Excluded',0,'No','No');
@@ -1031,3 +1031,8 @@ INSERT INTO `Command` VALUES (1039,'shutdown','/sbin/shutdown','Included',10,'No
 INSERT INTO `Command` VALUES (1040,'install_initd','/sbin/install_initd','Included',10,'Yes','No');
 INSERT INTO `Command` VALUES (1041,'remove_initd','/sbin/remove_initd','Included',10,'Yes','No');
 INSERT INTO `Command` VALUES (1042,'[','/bin/[','Included',67,'Yes','No');
+INSERT INTO `Command` VALUES (1043,'cd','/bin/cd','Builtin',67,'No','No');
+INSERT INTO `Command` VALUES (1044,'getopts','/usr/bin/getopts','Builtin',67,'No','No');
+INSERT INTO `Command` VALUES (1045,'read','/usr/bin/read','Builtin',67,'No','No');
+INSERT INTO `Command` VALUES (1046,'umask','/bin/umask','Builtin',67,'No','No');
+INSERT INTO `Command` VALUES (1047,'wait','/bin/wait','Builtin',67,'No','No');

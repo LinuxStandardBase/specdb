@@ -20,7 +20,7 @@ CREATE TABLE `Interface` (
   `Iversion` int(11) NOT NULL default '0',
   `Idocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Itested` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `Iwithdrawnin` enum('1.1','1.2','1.3','2.0','3.0') NOT NULL default '1.1',
+  `Iwithdrawnin` enum('none','1.1','1.2','1.3','2.0','3.0') NOT NULL default 'none',
   `Icomment` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Iid`),
   UNIQUE KEY `k_Iname` (`Iname`,`Iid`),

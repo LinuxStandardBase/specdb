@@ -2122,7 +2122,7 @@ INSERT INTO `Type` VALUES (10326,'statvfs64 *','Pointer',10325,0,'','','Referenc
 INSERT INTO `Type` VALUES (10327,'atomic_lock_t','Typedef',6,342,'','','Excluded',0,NULL);
 INSERT INTO `Type` VALUES (10342,'winsize *','Pointer',10301,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10328,'mcontext_t','Typedef',10299,395,'','','Referenced',3,'');
-INSERT INTO `Type` VALUES (10329,'mcontext_t','Typedef',10816,395,'','','Referenced',9,'');
+INSERT INTO `Type` VALUES (10329,'mcontext_t','Typedef',11028,395,'','','Referenced',9,'');
 INSERT INTO `Type` VALUES (10330,'ucontext','Struct',0,396,'','','Indirect',3,'');
 INSERT INTO `Type` VALUES (10331,'ucontext_t','Typedef',10330,396,'','','Referenced',3,'');
 INSERT INTO `Type` VALUES (10332,'anon-ia64context','Union',0,0,'','','Indirect',3,NULL);
@@ -2453,7 +2453,8 @@ INSERT INTO `Type` VALUES (10662,'St15numpunct_bynameIwE','Class',0,0,'','','Ref
 INSERT INTO `Type` VALUES (10663,'St7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10664,'St7num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10665,'St8time_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,0,'','','Referenced',1,'');
-INSERT INTO `Type` VALUES (10666,'St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_trait','Class',0,0,'','','Referenced',1,'');
+INSERT INTO `Type` VALUES (11028,'anon-mcontxt_ppc64','Struct',0,395,'','','Indirect',9,'');
+INSERT INTO `Type` VALUES (11029,'gregset_t','Typedef',10904,390,'','','Referenced',9,'');
 INSERT INTO `Type` VALUES (10667,'St8time_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10669,'St15messages_bynameIwE','Class',0,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10670,'St14codecvt_bynameIwc11__mbstate_tE','Class',0,0,'','','Referenced',1,'');
@@ -2808,3 +2809,11 @@ INSERT INTO `Type` VALUES (11024,'const wchar_t *[14]','Array',10445,0,'','','In
 INSERT INTO `Type` VALUES (11025,'__jmp_buf','Typedef',2,0,'','','Indirect',8,'');
 INSERT INTO `Type` VALUES (11026,'long [64]','Array',8,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (11027,'long [112]','Array',8,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11030,'double[33]','Array',13,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11031,'fpregset_t','Typedef',11030,394,'','','Referenced',9,'');
+INSERT INTO `Type` VALUES (11032,'_libc_vrstate','Struct',0,387,'','','Indirect',9,'');
+INSERT INTO `Type` VALUES (11033,'unsigned int [32]','Array',7,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11034,'_libc_vscr','Struct',0,387,'','','Indirect',9,'');
+INSERT INTO `Type` VALUES (11035,'vscr_t','Typedef',11034,387,'','','Indirect',0,'');
+INSERT INTO `Type` VALUES (11036,'vrregset_t','Typedef',11032,387,'','','Referenced',9,'(__aligned__(16))');
+INSERT INTO `Type` VALUES (11037,'vrregset_t *','Pointer',11036,0,'','','Referenced',0,'');
