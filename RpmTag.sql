@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'RpmTag'
+-- Table structure for table `RpmTag`
 --
 
 DROP TABLE IF EXISTS RpmTag;
@@ -18,8 +18,8 @@ CREATE TABLE RpmTag (
   Rstatus enum('Required','Optional','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
   Rdescription text NOT NULL,
   PRIMARY KEY  (Rid),
-  UNIQUE KEY Rid (Rid),
   UNIQUE KEY Rname (Rname),
+  UNIQUE KEY Rid (Rid),
   KEY Rtag (Rtag)
 ) TYPE=MyISAM;
 

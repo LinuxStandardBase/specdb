@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'TypeMember'
+-- Table structure for table `TypeMember`
 --
 
 DROP TABLE IF EXISTS TypeMember;
@@ -19,6 +19,7 @@ CREATE TABLE TypeMember (
   TMmemberof int(10) NOT NULL default '0',
   TMarray varchar(128) default NULL,
   TMbitfield tinyint(4) NOT NULL default '0',
+  TMtypetype int(11) default '0',
   PRIMARY KEY  (TMid),
   KEY k_TMposmem (TMposition,TMmemberof)
 ) TYPE=MyISAM;

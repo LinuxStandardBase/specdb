@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'VerInt'
+-- Table structure for table `VerInt`
 --
 
 DROP TABLE IF EXISTS VerInt;

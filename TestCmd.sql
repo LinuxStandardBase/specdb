@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'TestCmd'
+-- Table structure for table `TestCmd`
 --
 
 DROP TABLE IF EXISTS TestCmd;

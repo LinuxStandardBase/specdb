@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'Profile'
+-- Table structure for table `Profile`
 --
 
 DROP TABLE IF EXISTS Profile;
@@ -13,7 +13,7 @@ CREATE TABLE Profile (
   Pname varchar(32) NOT NULL default '',
   Pdesc varchar(255) NOT NULL default '',
   PRIMARY KEY  (Pid),
-  UNIQUE KEY Pname (Pname),
-  UNIQUE KEY Pid (Pid)
+  UNIQUE KEY Pid (Pid),
+  UNIQUE KEY Pname (Pname)
 ) TYPE=MyISAM;
 

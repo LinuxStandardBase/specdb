@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 8.23
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
 
 --
--- Table structure for table 'Standard'
+-- Table structure for table `Standard`
 --
 
 DROP TABLE IF EXISTS Standard;
