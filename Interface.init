@@ -1101,7 +1101,7 @@ INSERT INTO Interface VALUES (1101,'xdr_sizeof','Defered','Function',8,1,101,926
 INSERT INTO Interface VALUES (1102,'xdr_string','Included','Function',21,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1103,'xdr_u_char','Included','Function',21,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1104,'xdr_u_hyper','Defered','Function',8,1,101,9890,0,'Yes','No');
-INSERT INTO Interface VALUES (1105,'xdr_u_int','Defered','Function',8,1,101,9890,1,'Yes','No');
+INSERT INTO Interface VALUES (1105,'xdr_u_int','Included','Function',10,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1106,'xdr_u_long','Included','Function',21,1,101,9890,1,'Yes','No');
 INSERT INTO Interface VALUES (1107,'xdr_u_longlong_t','Defered','Function',8,1,101,9890,0,'Yes','No');
 INSERT INTO Interface VALUES (1108,'xdr_u_short','Included','Function',21,1,101,9890,1,'Yes','No');
