@@ -24,7 +24,7 @@ INSERT INTO Command VALUES (25,'Xtest','/usr/X11R6/bin/Xtest','Excluded',0,'No',
 INSERT INTO Command VALUES (26,'Zharf','/usr/X11R6/bin/Zharf','Excluded',0,'No','No');
 INSERT INTO Command VALUES (27,'afterstep','/usr/X11R6/bin/afterstep','Excluded',0,'No','No');
 INSERT INTO Command VALUES (28,'animate','/usr/X11R6/bin/animate','Excluded',0,'No','No');
-INSERT INTO Command VALUES (29,'chgrp','/bin/chgrp','Included',67,'Yes','No');
+INSERT INTO Command VALUES (29,'chgrp','/bin/chgrp','Included',10,'Yes','No');
 INSERT INTO Command VALUES (30,'chown','/bin/chown','Included',10,'Yes','No');
 INSERT INTO Command VALUES (31,'login','/bin/login','Excluded',0,'No','No');
 INSERT INTO Command VALUES (32,'appres','/usr/X11R6/bin/appres','Excluded',0,'No','No');
@@ -319,7 +319,7 @@ INSERT INTO Command VALUES (321,'fax2tiff','/usr/bin/fax2tiff','Excluded',0,'No'
 INSERT INTO Command VALUES (322,'fdformat','/usr/bin/fdformat','Excluded',0,'No','No');
 INSERT INTO Command VALUES (323,'fetchmail','/usr/bin/fetchmail','Excluded',0,'No','No');
 INSERT INTO Command VALUES (324,'fgconsole','/usr/bin/fgconsole','Excluded',0,'No','No');
-INSERT INTO Command VALUES (325,'file','/usr/bin/file','Included',67,'Yes','No');
+INSERT INTO Command VALUES (325,'file','/usr/bin/file','Included',10,'Yes','No');
 INSERT INTO Command VALUES (326,'file_by_inode','/usr/bin/file_by_inode','Excluded',0,'No','No');
 INSERT INTO Command VALUES (327,'find','/usr/bin/find','Included',10,'Yes','No');
 INSERT INTO Command VALUES (328,'finger','/usr/bin/finger','Excluded',0,'No','No');

@@ -17,7 +17,7 @@ CREATE TABLE TypeMember (
   TMposition int(10) NOT NULL default '0',
   TMcomment varchar(60) default NULL,
   TMmemberof int(10) NOT NULL default '0',
-  TMarray varchar(60) default NULL,
+  TMarray varchar(128) default NULL,
   TMbitfield tinyint(4) NOT NULL default '0',
   PRIMARY KEY  (TMid),
   KEY k_TMposmem (TMposition,TMmemberof)

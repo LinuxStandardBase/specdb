@@ -10,7 +10,7 @@ INSERT INTO Standard VALUES (9,'pthreads','POSIX 1003.1c','http://www.ieee.org/'
 INSERT INTO Standard VALUES (10,'LSB','Linux Standard Base','http://www.linuxbase.org/spec/','','Standard',1);
 INSERT INTO Standard VALUES (11,'Xlib','X11R6.4 Xlib - C library','http://www.x.org/','','Standard',1);
 INSERT INTO Standard VALUES (12,'Xt','X11R6.4 X Toolkit Intrinsics','http://www.x.org/','','Standard',1);
-INSERT INTO Standard VALUES (13,'FHS','Filesystem Hierarchy Standard (FHS) 2.2','http://www.pathname.com/fhs/','','Standard',1);
+INSERT INTO Standard VALUES (13,'FHS','Filesystem Hierarchy Standard (FHS) 2.3','http://www.pathname.com/fhs/','','Standard',1);
 INSERT INTO Standard VALUES (14,'ELF Specification','Tool Interface Standard (TIS) Executable and Linking Format','http://www.linuxbase.org/spec/refspecs/elf.pdf','','Unknown',1);
 INSERT INTO Standard VALUES (15,'SUS-XNS','CAE Specification, February 1997, Networking Services (XNS), Issue 5(ISBN: 1-85912-165-9, C523)','http://www.opengroup.org/publications/catalog/un.htm','','Unknown',1);
 INSERT INTO Standard VALUES (16,'FLTPNT','IEEE Standard for Binary Floating-Point Arithmetic','http://www.ieee.org/','ANSI/IEEE Standards 745-1985 and 854-1987','Standard',1);
@@ -28,7 +28,7 @@ INSERT INTO Standard VALUES (27,'SUS-XCU','The Single UNIX® Specification(SUS) V
 INSERT INTO Standard VALUES (28,'SUS-CURSES','CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:  1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org/publications/catalog/un.htm','','Unknown',1);
 INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard',1);
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpm.org/max-rpm/s1-rpm-file-format-rpm-file-format.html','','Reference',1);
-INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard',1);
+INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 17 December 2003','http://www.caldera.com/developers/gabi/2003-12-17/contents.html','','Standard',1);
 INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard',1);
 INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386&trade Architecture Processor Supplement, Fourth Edition','http://www.caldera.com/developers/devspecs/abi386-4.pdf','','Standard',2);
 INSERT INTO Standard VALUES (34,'IA64 Conventions','Itanium &trade Software Conventions & Runtime Architecture Guide','http://refspecs.freestandards.org/IA64conventions.pdf','','Standard',3);
@@ -60,7 +60,7 @@ INSERT INTO Standard VALUES (64,'PPC32 ABI','System V Application Binary Interfa
 INSERT INTO Standard VALUES (65,'ISOCXX','ISO/IEC 14882: 1998(E) Programming languages --C++','','','Standard',1);
 INSERT INTO Standard VALUES (66,'PAM','OSF-RFC 86.0','http://www.opengroup.org/tech/rfc/mirror-rfc/rfc86.0.txt','','Standard',1);
 INSERT INTO Standard VALUES (67,'SUSv3','The Single UNIX® Specification(SUS) Version 3','http://www.unix.org/version3/','','Standard',1);
-INSERT INTO Standard VALUES (68,'PPC64 ABI','64-bit PowerPC ELF ABI Supplement, Version 1.4.1','http://www.linuxbase.org/spec/ELF/ppc64/','','Standard',9);
+INSERT INTO Standard VALUES (68,'PPC64 ABI','64-bit PowerPC ELF ABI Supplement, Version 1.7','http://www.linuxbase.org/spec/ELF/ppc64/','','Standard',9);
 INSERT INTO Standard VALUES (69,'PPC64 Arch','The PowerPC &trade Architecture: A Specification for a new family of RISC processors','http://www.austin.ibm.com','','Standard',9);
 INSERT INTO Standard VALUES (70,'PPC64 Arch Chg1','The PowerPC Architecture Book I changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg1.html','','Standard',9);
 INSERT INTO Standard VALUES (71,'PPC64 Arch Chg2','The PowerPC Architecture Book II changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg2.html','','Standard',9);
@@ -78,3 +78,4 @@ INSERT INTO Standard VALUES (83,'X86-64 APM Vol2','AMD64 Architecture Programmer
 INSERT INTO Standard VALUES (84,'X86-64 APM Vol3-1','AMD64 Architecture Programmer\'s Manual, Volume 3: General Purpose and System Instructions 24594 3.03','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
 INSERT INTO Standard VALUES (85,'X86-64 APM Vol3-2','AMD64 Architecture Programmer\'s Manual, Volume 4: 128-bit Media Instructions 26568 3.04','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
 INSERT INTO Standard VALUES (86,'X86-64 APM Vol3-3','AMD64 Architecture Programmer\'s Manual, Volume 5: 64-bit Media and x87 Floating-Point Instructions 26569 3.03','http://www.amd.com/us-en/Processors/DevelopWithAMD/','','Standard',11);
+INSERT INTO Standard VALUES (87,'CXXABI','Itanium C++ ABI ($Revision: 1.52 $)','http://www.codesourcery.com/cxx-abi/abi.html','','Standard',1);
