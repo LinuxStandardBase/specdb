@@ -21,4 +21,5 @@ INSERT INTO Standard VALUES (20,'Linux','GNU/Linux defacto standard','http://www
 INSERT INTO Standard VALUES (21,'SVID.3','System V Interface Definition, Issue 3','','ISBN 0201566524');
 INSERT INTO Standard VALUES (22,'SUS-XSH95','The Single UNIX Specification Version 1 (UNIX 95) System Interfaces & Headers',' http://www.opengroup.org/','');
 INSERT INTO Standard VALUES (23,'ELF','Tool Interface Standard (TIS) Executable and Linking Format (ELF) Specification version 1.2','','');
-INSERT INTO Standard VALUES (24,'zlib','Some unyet specified standard for zlib','http:/???????','Can someone identify the formal standard?');
+INSERT INTO Standard VALUES (24,'zlib','Some unyet specified standard for zlib','http://www.info-zip.org/pub/infozip/zlib/','See \"zlib Manual\" on that site');
+INSERT INTO Standard VALUES (25,'C99','ISO/IEC 9899:1999 (E)','','');
