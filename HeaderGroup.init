@@ -354,3 +354,4 @@ INSERT INTO HeaderGroup VALUES (361,'Socket Options',48,6,1,'');
 INSERT INTO HeaderGroup VALUES (362,'in_addr',117,1,1,'');
 INSERT INTO HeaderGroup VALUES (363,'sockaddr_in',117,2,1,'');
 INSERT INTO HeaderGroup VALUES (364,'jmpbuf',40,2,1,'');
+INSERT INTO HeaderGroup VALUES (365,'FPU State',41,9,1,'');
