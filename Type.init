@@ -2330,7 +2330,7 @@ INSERT INTO Type VALUES (10535,'locale_data','Struct',0,516,'','','Excluded',1,'
 INSERT INTO Type VALUES (10536,'locale_data *','Pointer',10535,27,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10537,'locale_data *[13]','Array',10536,27,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10538,'const unsigned short','Const',5,0,'','','Referenced',0,'');
-INSERT INTO Type VALUES (10539,'const unsignbed short *','Pointer',10538,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10539,'const unsigned short *','Pointer',10538,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10540,'const int','Const',6,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10541,'const int *','Pointer',10540,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (10542,'const char *[13]','Array',10295,0,'','','Referenced',1,'');
@@ -2382,3 +2382,5 @@ INSERT INTO Type VALUES (10587,'anon_mcontext','Struct',0,395,'','','Excluded',1
 INSERT INTO Type VALUES (10588,'mcontext_t','Typedef',10587,395,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10589,'ucontext','Struct',0,396,'','','Indirect',10,'');
 INSERT INTO Type VALUES (10590,'ucontext_t','Typedef',10589,396,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10591,'const option','Const',10000,307,'','','Indirect',0,'');
+INSERT INTO Type VALUES (10592,'const option *','Pointer',10591,307,'','','Indirect',0,'');
