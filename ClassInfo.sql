@@ -14,6 +14,7 @@ CREATE TABLE `ClassInfo` (
   `CItid` int(11) NOT NULL default '0',
   `CIvtable` int(11) NOT NULL default '0',
   `CInumvfunc` int(11) NOT NULL default '0',
+  `CInumvtab` int(11) NOT NULL default '1',
   `CIrtti` int(11) NOT NULL default '0',
   `CInumbasetype` int(11) NOT NULL default '0',
   `CIbase` int(11) NOT NULL default '0',

@@ -20,6 +20,7 @@ GRANT INSERT,UPDATE,DELETE ON ArchType TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchTypeMem TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON BaseTypes TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ClassInfo TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ClassVtab TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON CmdInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON CmdLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Command TO lsbadmin@localhost;
