@@ -405,8 +405,9 @@ INSERT INTO HeaderGroup VALUES (412,'Default HeaderGroup for X11/ContrainP.h',12
 INSERT INTO HeaderGroup VALUES (413,'Defaut HeaderGroup for X11/constraint.h',125,0,1,'');
 INSERT INTO HeaderGroup VALUES (414,'Default HeaderGroup for X11/ObjectP.h',128,0,1,'');
 INSERT INTO HeaderGroup VALUES (415,'Default HeaderGroup for X11/Object.h',127,0,1,'');
-INSERT INTO HeaderGroup VALUES (416,'Object Part',128,1,1,'Object Instance Data Structures');
+INSERT INTO HeaderGroup VALUES (416,'ObjectPart',128,1,1,'Object Instance Data Structures');
 INSERT INTO HeaderGroup VALUES (417,'ObjectRec',128,2,1,'');
 INSERT INTO HeaderGroup VALUES (418,'ObjectClassPart',128,3,1,'Object Class Data Structures');
-INSERT INTO HeaderGroup VALUES (419,'ObjectClassExtensionRec',128,4,1,'');
-INSERT INTO HeaderGroup VALUES (420,'ObjectClassRec',128,5,1,'');
+INSERT INTO HeaderGroup VALUES (419,'ObjectClassExtensionRec',128,5,1,'');
+INSERT INTO HeaderGroup VALUES (420,'ObjectClassRec',128,6,1,'');
+INSERT INTO HeaderGroup VALUES (421,'_ObjectClassExtensionRec',128,4,1,'');

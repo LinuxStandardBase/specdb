@@ -104,5 +104,5 @@ INSERT INTO Library VALUES (219,'libtixsam4.1.8.0.so','libtixsam4.1.8.0.so','No'
 INSERT INTO Library VALUES (220,'libtix4.1.8.0.so','libtix4.1.8.0.so','No',1);
 INSERT INTO Library VALUES (221,'libpisock.so.3.0.1','libpisock.so.3','No',1);
 INSERT INTO Library VALUES (222,'libmediatool.so.2.0.0','libmediatool.so.2','No',1);
-INSERT INTO Library VALUES (223,'librt','librt.so.1','Yes',1);
+INSERT INTO Library VALUES (223,'librt','librt.so.1','No',1);
 INSERT INTO Library VALUES (229,'proginterp','See psLSB','Yes',0);
