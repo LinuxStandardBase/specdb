@@ -1,0 +1,3 @@
+INSERT INTO Architecture VALUES (1,'All','','');
+INSERT INTO Architecture VALUES (2,'IA32','http://www.intel.com/','__i386__');
+INSERT INTO Architecture VALUES (3,'IA64','http://www.intel.com','__ia64__');
