@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.51-log
+-- Server version	3.23.53-log
 
 --
 -- Table structure for table 'Type'
@@ -19,6 +19,7 @@ CREATE TABLE Type (
   Tarray varchar(16) default NULL,
   Tstatus enum('Referenced','Indirect','Excluded','SrcOnly','Conly') NOT NULL default 'Excluded',
   Tarch int(11) NOT NULL default '1',
+  Tattribute varchar(64) default NULL,
   PRIMARY KEY  (Tid),
   UNIQUE KEY Tnamearch (Tname,Tarch,Ttype)
 ) TYPE=MyISAM;
