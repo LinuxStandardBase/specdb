@@ -16,6 +16,7 @@ CREATE TABLE Constant (
   Cheadgroup int(10) DEFAULT '0' NOT NULL,
   Carch int(10) DEFAULT '0' NOT NULL,
   Ccomment varchar(60),
+  Cstd enum('Yes','No') DEFAULT 'No' NOT NULL,
   UNIQUE k_c_name (Cname,Carch),
   PRIMARY KEY (Cid)
 );

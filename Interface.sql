@@ -10,7 +10,7 @@
 DROP TABLE IF EXISTS Interface;
 CREATE TABLE Interface (
   Iid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Iname varchar(60) binary DEFAULT '' NOT NULL,
+  Iname varchar(255) binary DEFAULT '' NOT NULL,
   Istatus enum('Included','Excluded','Unknown') DEFAULT 'Unknown' NOT NULL,
   Itype enum('Function','Data','Unknown') DEFAULT 'Unknown' NOT NULL,
   Istandard int(10) DEFAULT '0' NOT NULL,

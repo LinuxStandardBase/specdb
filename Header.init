@@ -64,6 +64,5 @@ INSERT INTO Header VALUES (63,'utime.h','Yes');
 INSERT INTO Header VALUES (64,'wchar.h','Yes');
 INSERT INTO Header VALUES (65,'wctype.h','Yes');
 INSERT INTO Header VALUES (66,'wordexp.h','Yes');
-INSERT INTO Header VALUES (67,'a.h','No');
 INSERT INTO Header VALUES (68,'X11/X.h','No');
 INSERT INTO Header VALUES (69,'X11/Xutil.h','No');
