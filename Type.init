@@ -2202,7 +2202,7 @@ INSERT INTO Type VALUES (10406,'msqid_ds','Struct',0,374,'','','Referenced',10,'
 INSERT INTO Type VALUES (10407,'semid_ds','Struct',0,47,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10408,'semid_ds','Struct',0,47,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10409,'__jmp_buf','Typedef',10522,140,'','','Referenced',3,'(aligned (16))');
-INSERT INTO Type VALUES (10410,'__jmp_buf','Typedef',10523,140,'','','Referenced',6,'');
+INSERT INTO Type VALUES (10410,'__jmp_buf','Typedef',11014,140,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10411,'__jmp_buf','Typedef',10524,140,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10412,'XDR','Typedef',9934,304,'','','Referenced',1,'');
 INSERT INTO Type VALUES (10431,'xdr_ops *','Pointer',9935,503,'','','Excluded',1,NULL);
@@ -2794,3 +2794,4 @@ INSERT INTO Type VALUES (11010,'__ss_aligntype','Typedef',10879,142,'','','Refer
 INSERT INTO Type VALUES (11011,'__ss_aligntype','Typedef',10878,142,'','','Referenced',11,'');
 INSERT INTO Type VALUES (11012,'__ss_aligntype','Typedef',9272,142,'','','Referenced',8,'');
 INSERT INTO Type VALUES (11013,'__cxx_guard_variable','Typedef',11,0,'','','Referenced',1,'');
+INSERT INTO Type VALUES (11014,'int [112]','Array',6,0,'','','Excluded',1,'');
