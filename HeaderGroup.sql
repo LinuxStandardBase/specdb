@@ -13,7 +13,7 @@ CREATE TABLE HeaderGroup (
   HGname varchar(60) DEFAULT '' NOT NULL,
   HGheader int(10) DEFAULT '0' NOT NULL,
   HGorder int(10) DEFAULT '0' NOT NULL,
-  HGarch int(10) DEFAULT '0' NOT NULL,
+  HGarch int(10) DEFAULT '1' NOT NULL,
   HGdescription text,
   PRIMARY KEY (HGid)
 );

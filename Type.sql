@@ -18,6 +18,7 @@ CREATE TABLE Type (
   Tcomment varchar(60),
   Tarray varchar(16),
   Tarch int(11) DEFAULT '1' NOT NULL,
+  Tstatus enum('Referenced','Indirect','Excluded') DEFAULT 'Excluded' NOT NULL,
   PRIMARY KEY (Tid),
   UNIQUE Tname (Tname)
 );
