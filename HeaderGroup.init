@@ -136,7 +136,7 @@ INSERT INTO HeaderGroup VALUES (137,'XSI attributes',70,2,1,'');
 INSERT INTO HeaderGroup VALUES (138,'Base Types',38,1,1,'');
 INSERT INTO HeaderGroup VALUES (139,'Default HeaderGroup for setjmph.',82,0,0,'Default HeaderGroup for setjmph.');
 INSERT INTO HeaderGroup VALUES (140,'Base Types',40,1,1,'');
-INSERT INTO HeaderGroup VALUES (239,'Type of a signal handling function.',41,4,1,'Type of a signal handling function.');
+INSERT INTO HeaderGroup VALUES (239,'Type of a signal handling function.',41,2,1,'Type of a signal handling function.');
 INSERT INTO HeaderGroup VALUES (142,'Base Types',48,1,1,'');
 INSERT INTO HeaderGroup VALUES (143,'Returned by clock()',60,2,1,'Returned by clock()');
 INSERT INTO HeaderGroup VALUES (144,'errno values',17,1,1,'errno values');
@@ -233,7 +233,7 @@ INSERT INTO HeaderGroup VALUES (234,'Space that holds the compiled pattern',35,3
 INSERT INTO HeaderGroup VALUES (235,'System specific semaphore definition',39,1,1,'System specific semaphore definition');
 INSERT INTO HeaderGroup VALUES (236,'Value returned if `sem_open\' failed',39,2,1,'Value returned if `sem_open\' failed');
 INSERT INTO HeaderGroup VALUES (237,'Maximum value the semaphore can have',39,3,1,'Maximum value the semaphore can have');
-INSERT INTO HeaderGroup VALUES (238,'System defined signals.',41,3,1,'System defined signals.');
+INSERT INTO HeaderGroup VALUES (238,'System defined signals.',41,4,1,'System defined signals.');
 INSERT INTO HeaderGroup VALUES (240,'Default HeaderGroup for bits/dirent.h',83,0,0,'Default HeaderGroup for bits/dirent.h');
 INSERT INTO HeaderGroup VALUES (241,'POSIX 1003.1b sigval',41,5,1,'POSIX 1003.1b sigval');
 INSERT INTO HeaderGroup VALUES (242,'POSIX 1003.1b sigevent',41,6,1,'POSIX 1003.1b sigevent');
@@ -348,7 +348,7 @@ INSERT INTO HeaderGroup VALUES (355,'Default HeaderGroup for netdb.h',115,0,0,'D
 INSERT INTO HeaderGroup VALUES (356,'Default HeaderGroup for arpa/inet.h',116,0,0,'Default HeaderGroup for arpa/inet.h');
 INSERT INTO HeaderGroup VALUES (357,'Default HeaderGroup for netinet/in.h',117,0,0,'Default HeaderGroup for netinet/in.h');
 INSERT INTO HeaderGroup VALUES (358,'Default HeaderGroup for netinet/tcp.h',118,0,0,'Default HeaderGroup for netinet/tcp.h');
-INSERT INTO HeaderGroup VALUES (359,'Address Familise',48,4,1,'');
+INSERT INTO HeaderGroup VALUES (359,'Address Families',48,4,1,'');
 INSERT INTO HeaderGroup VALUES (360,'Socket Types',48,6,1,'');
 INSERT INTO HeaderGroup VALUES (361,'Socket Options',48,7,1,'');
 INSERT INTO HeaderGroup VALUES (362,'IPV4 addresses',117,4,1,'Address structures for IPv4');
@@ -525,8 +525,8 @@ INSERT INTO HeaderGroup VALUES (534,'Default HeadGroup for rpc/auth_des.h',154,0
 INSERT INTO HeaderGroup VALUES (535,'lockf flags',62,7,1,'Flags for lockf()');
 INSERT INTO HeaderGroup VALUES (536,'Displatch function type',103,3,0,'');
 INSERT INTO HeaderGroup VALUES (537,'svc_req structure',103,2,0,'');
-INSERT INTO HeaderGroup VALUES (538,'PPC64 base types',41,1,1,'PPC64 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
-INSERT INTO HeaderGroup VALUES (539,'PPC64 derived types',41,2,1,'');
+INSERT INTO HeaderGroup VALUES (538,'PPC64 base types',41,1,8,'PPC64 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
+INSERT INTO HeaderGroup VALUES (539,'PPC64 derived types',41,1,1,'');
 INSERT INTO HeaderGroup VALUES (540,'Default headgroup for unctrl.h',155,0,1,'This file intentionally blank.');
 INSERT INTO HeaderGroup VALUES (541,'TERMINAL Type',140,1,1,'');
 INSERT INTO HeaderGroup VALUES (544,'misc non-standard',70,1,1,'Stuff needed to make other curses related headers happy');
@@ -541,8 +541,8 @@ INSERT INTO HeaderGroup VALUES (555,'Well known IPV6 addresses',117,8,1,'Well kn
 INSERT INTO HeaderGroup VALUES (553,'Structure describing an Internet V4 socket address.',117,9,1,'Structure describing an Internet socket V4 address.');
 INSERT INTO HeaderGroup VALUES (554,'Structure describing an Internet V6 socket address.',117,10,1,'Structure describing an Internet socket V6 address.');
 INSERT INTO HeaderGroup VALUES (556,'IP Socket options',117,11,1,'IP Socket options');
-INSERT INTO HeaderGroup VALUES (557,'PPC32 base types',41,1,1,'PPC32 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
-INSERT INTO HeaderGroup VALUES (558,'PPC32 derived types',41,2,1,'');
+INSERT INTO HeaderGroup VALUES (557,'PPC32 base types',41,1,8,'PPC32 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
+INSERT INTO HeaderGroup VALUES (558,'PPC32 derived types',41,1,1,'');
 INSERT INTO HeaderGroup VALUES (559,'uc_regs_ptr',123,10,1,'');
 INSERT INTO HeaderGroup VALUES (560,'math_errhandling',29,3,1,'Bitmasks for the math_errhandling macro.');
 INSERT INTO HeaderGroup VALUES (561,'priority_which',57,5,0,'The type of the WHICH argument to `getpriority\' and `setpriority\',\r\nindicating what flavor of entity the WHO argument specifies.');
@@ -557,3 +557,4 @@ INSERT INTO HeaderGroup VALUES (569,'`si_code\' values for SIGBUS signal.`si_cod
 INSERT INTO HeaderGroup VALUES (570,'`si_code\' values for SIGTRAP signal.',41,13,1,'`si_code\' values for SIGTRAP signal.');
 INSERT INTO HeaderGroup VALUES (571,'`si_code\' values for SIGCHLD signal.`si_code\' values for SIG',41,14,1,'`si_code\' values for SIGCHLD signal.');
 INSERT INTO HeaderGroup VALUES (572,'`si_code\' values for SIGPOLL signal.`si_code\' values for SIG',41,15,1,'`si_code\' values for SIGPOLL signal.');
+INSERT INTO HeaderGroup VALUES (573,'Special Signal values',41,3,1,'Special Signal values');

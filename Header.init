@@ -129,7 +129,7 @@ INSERT INTO Header VALUES (133,'net/if.h','Yes',131);
 INSERT INTO Header VALUES (134,'sys/un.h','Yes',131);
 INSERT INTO Header VALUES (135,'sys/statvfs.h','Yes',131);
 INSERT INTO Header VALUES (136,'sys/vfs.h','Yes',0);
-INSERT INTO Header VALUES (137,'stropts.h','Yes',0);
+INSERT INTO Header VALUES (137,'stropts.h','SrcError',0);
 INSERT INTO Header VALUES (138,'pty.h','Yes',131);
 INSERT INTO Header VALUES (139,'sys/statfs.h','Yes',131);
 INSERT INTO Header VALUES (140,'term.h','Yes',128);

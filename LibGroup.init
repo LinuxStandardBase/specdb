@@ -281,3 +281,5 @@ INSERT INTO LibGroup VALUES (419,'Class _ZSt9time_base',231,1,10,'');
 INSERT INTO LibGroup VALUES (420,'Class _ZSt9type_info',231,1,10,'');
 INSERT INTO LibGroup VALUES (452,'Class _ZSt13basic_istreamIcSt11char_traitsIcEE',231,1,10,'');
 INSERT INTO LibGroup VALUES (453,'Class _ZSt13basic_ostreamIcSt11char_traitsIcEE',231,0,10,'');
+INSERT INTO LibGroup VALUES (454,'Realtime Threads',132,1,2,'');
+INSERT INTO LibGroup VALUES (455,'Advanced Realtime Threads',132,1,3,'');
