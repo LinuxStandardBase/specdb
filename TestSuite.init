@@ -1,10 +1,10 @@
 INSERT INTO TestSuite VALUES (1,'VSX-PCTS','VSX-PCTS','FSG-LSB','Included');
 INSERT INTO TestSuite VALUES (2,'LSB-OS','LSB-OS','FSG-LSB','Included');
 INSERT INTO TestSuite VALUES (3,'UserGroups','USerGroups','FSG-LSB','Included');
-INSERT INTO TestSuite VALUES (4,'Li18nux','Li18nux','Li18nux Group','Excluded');
+INSERT INTO TestSuite VALUES (4,'Li18nux','Li18nux','Li18nux Group','Included');
 INSERT INTO TestSuite VALUES (5,'VSC-Lite','VSC511-Lite','TOG-Freely Available','Excluded');
-INSERT INTO TestSuite VALUES (6,'VSTH-Lite','VSTH-Lite','TOG-Freely Available','Excluded');
-INSERT INTO TestSuite VALUES (7,'LSB-VSW4','X VSW4 Tests','FSG-LSB','Excluded');
+INSERT INTO TestSuite VALUES (6,'VSTH-Lite','VSTH-Lite','TOG-Freely Available','Included');
+INSERT INTO TestSuite VALUES (7,'LSB-VSW4','X VSW4 Tests','FSG-LSB','Included');
 INSERT INTO TestSuite VALUES (8,'AQ1-Base','AQ1-Base','Purchasable-Test1','Excluded');
 INSERT INTO TestSuite VALUES (9,'AQ2-Sockets','AQ2-Sockets','Purchasable-Test2','Excluded');
 INSERT INTO TestSuite VALUES (10,'AQ3-Curses','AQ3-Curses','Purchasable-Test3','Excluded');
