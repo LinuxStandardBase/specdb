@@ -49,3 +49,5 @@ INSERT INTO DynamicEntries VALUES (48,'DT_AUXILIARY','0x7ffffffd',10,'Shared obj
 INSERT INTO DynamicEntries VALUES (49,'DT_FILTER','0x7fffffff',10,'Shared object to get values from',1,'Included');
 INSERT INTO DynamicEntries VALUES (50,'DT_RELCOUNT','0x6ffffffa',10,'All Elf32_Rel R_*_RELATIVE relocations have been placed into a single block and this entry specifies the number of entries in that block. This permits ld.so.1 to streamline the processing of RELATIVE relocations.',1,'Included');
 INSERT INTO DynamicEntries VALUES (51,'DT_ADDRRNGHI','0',10,'Values from DT_ADDRRNGLO through DT_ADDRRNGHI are reserved for definition by an archLSB.',1,'Included');
+INSERT INTO DynamicEntries VALUES (52,'DT_PLTGOT','3',68,'This entry\'s d_ptr member gives the address of the first byte in the procedure linkage table',9,'Included');
+INSERT INTO DynamicEntries VALUES (53,'DT_JMPREL','23',68,'This entry is associated with a table of relocation entries for the procedure linkage table. This entry is mandatory both for executable and shared object files',9,'Included');

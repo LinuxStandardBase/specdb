@@ -41,7 +41,7 @@ INSERT INTO ArchLib VALUES (27,9,'libdl.so.2');
 INSERT INTO ArchLib VALUES (29,9,'libcrypt.so.1');
 INSERT INTO ArchLib VALUES (131,9,'libc.so.6');
 INSERT INTO ArchLib VALUES (132,9,'libpthread.so.0');
-INSERT INTO ArchLib VALUES (229,9,'/lib/ld-lsb-ppc64.so.1');
+INSERT INTO ArchLib VALUES (229,9,'/lib64/ld-lsb-ppc64.so.1');
 INSERT INTO ArchLib VALUES (236,1,'libgcc_s.so.1');
 INSERT INTO ArchLib VALUES (13,10,'libm.so.6');
 INSERT INTO ArchLib VALUES (27,10,'libdl.so.2');
