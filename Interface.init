@@ -17622,8 +17622,8 @@ INSERT INTO Interface VALUES (18460,'curscr','Included','Data',28,1,70,9361,0,'Y
 INSERT INTO Interface VALUES (18461,'newscr','Excluded','Data',0,1,70,9361,0,'No','No');
 INSERT INTO Interface VALUES (18462,'stdscr','Included','Data',28,1,70,9361,0,'Yes','No');
 INSERT INTO Interface VALUES (18463,'_nc_keypad','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (18464,'COLS','Excluded','Data',28,1,70,6,0,'Yes','No');
-INSERT INTO Interface VALUES (18465,'LINES','Excluded','Data',28,1,70,6,0,'Yes','No');
+INSERT INTO Interface VALUES (18464,'COLS','Included','Data',28,1,70,6,0,'Yes','No');
+INSERT INTO Interface VALUES (18465,'LINES','Included','Data',28,1,70,6,0,'Yes','No');
 INSERT INTO Interface VALUES (18466,'TABSIZE','Excluded','Data',0,1,70,6,0,'No','No');
 INSERT INTO Interface VALUES (18467,'_nc_update_screensize','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18468,'ttytype','Excluded','Data',0,1,70,2,0,'No','No');
