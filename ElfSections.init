@@ -81,3 +81,4 @@ INSERT INTO ElfSections VALUES (85,'.rela.plt',10,'This section holds RELA type 
 INSERT INTO ElfSections VALUES (86,'.sbss',10,'This section holds uninitialized data that contribute to the program\'s memory image. The system initializes the data with zeroes when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',0,6);
 INSERT INTO ElfSections VALUES (87,'.sdata2',10,'This section holds the second level of initialised small data',2,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (88,'.branch_lt',10,'This section holds destination addresses for very long branches',2,'SHF_ALLOC+SHF_WRITE',0,9);
+INSERT INTO ElfSections VALUES (89,'.sbss',10,'This section holds uninitialized data that contribute to the program\'s memory image. The system initializes the data with zeroes when the program begins to run.',2,'SHF_WRITE',0,12);
