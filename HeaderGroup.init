@@ -384,8 +384,8 @@ INSERT INTO HeaderGroup VALUES (391,'gregset reg defs',123,4,1,'Number of each r
 INSERT INTO HeaderGroup VALUES (392,'fpreg',123,5,1,'Definitions taken from the kernel headers.');
 INSERT INTO HeaderGroup VALUES (393,'fpstate',123,6,1,'');
 INSERT INTO HeaderGroup VALUES (394,'fpregset_t',123,7,1,'Structure to describe FPU registers.');
-INSERT INTO HeaderGroup VALUES (395,'mcontext_t',123,8,1,'Context to describe whole processor state.');
-INSERT INTO HeaderGroup VALUES (396,'ucontext_t',123,9,1,'Userlevel context.');
+INSERT INTO HeaderGroup VALUES (395,'mcontext_t',123,9,1,'Context to describe whole processor state.');
+INSERT INTO HeaderGroup VALUES (396,'ucontext_t',123,10,1,'Userlevel context.');
 INSERT INTO HeaderGroup VALUES (397,'jmpbuf tag',40,2,1,'');
 INSERT INTO HeaderGroup VALUES (398,'fd_set',45,4,1,'');
 INSERT INTO HeaderGroup VALUES (399,'time values',45,5,1,'Time related types');
@@ -516,3 +516,4 @@ INSERT INTO HeaderGroup VALUES (525,'Setup the values',108,1,1,'Setup some value
 INSERT INTO HeaderGroup VALUES (526,'utmpx structure',132,2,1,'');
 INSERT INTO HeaderGroup VALUES (527,'Value for ut_type',132,3,1,'');
 INSERT INTO HeaderGroup VALUES (528,'utmpx member sizes',132,1,1,'');
+INSERT INTO HeaderGroup VALUES (529,'psw_t',123,8,1,'');
