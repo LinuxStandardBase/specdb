@@ -18,6 +18,7 @@ CREATE TABLE TypeMember (
   TMcomment varchar(60),
   TMmemberof int(10) DEFAULT '0' NOT NULL,
   TMarray varchar(60),
+  TMbitfiled enum('Yes','No') DEFAULT 'No' NOT NULL,
   PRIMARY KEY (TMid),
   KEY k_TMposmem (TMposition,TMmemberof)
 );

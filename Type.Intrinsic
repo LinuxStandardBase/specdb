@@ -1,0 +1,14 @@
+INSERT INTO Type VALUES (1,'void','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (2,'char','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (3,'unsigned char','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (4,'short','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (5,'unsigned short','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (6,'int','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (7,'unsigned int','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (8,'long','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (9,'unsigned long','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (10,'long long','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (11,'unsigned long long','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (12,'float','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (13,'double','Intrinsic',0,0,0,'',NULL);
+INSERT INTO Type VALUES (14,'long double','Intrinsic',0,0,0,'',NULL);
