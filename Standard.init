@@ -87,3 +87,8 @@ INSERT INTO `Standard` VALUES (92,'RFC1321','IETF RFC 1321: The MD5 Message-Dige
 INSERT INTO `Standard` VALUES (93,'Devices','LINUX ALLOCATED DEVICES','http://www.lanana.org/docs/device-list/devices.txt','','Standard',1,'Linux Allocated Device Registry');
 INSERT INTO `Standard` VALUES (94,'RFC1950','IETF RFC 1950: ZLIB Compressed Data Format Specification','http://www.ietf.org/rfc/rfc1950.txt','','Standard',1,'RFC 1950: ZLIB Compressed Data Format Specication');
 INSERT INTO `Standard` VALUES (95,'ITUV42','International Telecommunication Union Recommendation V.42 (2002): Error-correcting procedures for DCEs using asynchronous-to-synchronous conversionITUV','http://www.itu.int/rec/recommendation.asp?type=folders&lang=e&parent=T-REC-V.42','','Standard',1,'ITU-T V.42');
+INSERT INTO `Standard` VALUES (96,'Glib','Glib 2.6.2 Reference Manual','http://www.gtk.org/api/2.6/glib/index.html','','Standard',1,'Glib 2.6.2 Reference Manual');
+INSERT INTO `Standard` VALUES (97,'Gobject','Gobject 2.6.2 Reference Manual','http://www.gtk.org/api/2.6/gobject/index.html','','Standard',1,'Gobject 2.6.2 Reference Manual');
+INSERT INTO `Standard` VALUES (98,'Gdk-pixbuf','Gdk-pixbuf 2.6.2 Reference Manual','http://www.gtk.org/api/2.6/gdk-pixbuf/index.html','','Standard',1,'Gdk-pixbuf 2.6.2 Reference Manual');
+INSERT INTO `Standard` VALUES (99,'Gdk','Gdk 2.6.2 Reference Manual','http://www.gtk.org/api/2.6/gdk/index.html','','Standard',1,'Gdk 2.6.2 Reference Manual');
+INSERT INTO `Standard` VALUES (100,'Gtk','Gtk 2.6.2 Reference Manual','http://www.gtk.org/api/2.6/gtk/index.html','','Standard',1,'Gtk 2.6.2 Reference Manual');

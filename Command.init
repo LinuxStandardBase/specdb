@@ -474,7 +474,7 @@ INSERT INTO `Command` VALUES (476,'loadshlib','/usr/bin/loadshlib','Excluded',0,
 INSERT INTO `Command` VALUES (477,'locale','/usr/bin/locale','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (478,'localedef','/usr/bin/localedef','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (479,'lockfile','/usr/bin/lockfile','Excluded',0,'No','No');
-INSERT INTO `Command` VALUES (480,'logger','/usr/bin/logger','Excluded',0,'No','No');
+INSERT INTO `Command` VALUES (480,'logger','/usr/bin/logger','Included',0,'No','No');
 INSERT INTO `Command` VALUES (481,'logname','/usr/bin/logname','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (482,'look','/usr/bin/look','Excluded',0,'No','No');
 INSERT INTO `Command` VALUES (483,'lookbib','/usr/bin/lookbib','Excluded',0,'No','No');
