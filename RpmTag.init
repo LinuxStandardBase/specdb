@@ -2,7 +2,7 @@ INSERT INTO RpmTag VALUES (2,'HDRTAG_HDRIMAGE',61,'BIN',1,'Ignore','Reserved',''
 INSERT INTO RpmTag VALUES (3,'RPMTAG_HEADERSIGNATURES',62,'BIN',16,'Private','Optional','The signature tag differentiates a signature header from a metadata header, and identifies the original contents of the signature header.');
 INSERT INTO RpmTag VALUES (4,'RPMTAG_HEADERIMMUTABLE',63,'BIN',16,'Private','Optional','This tag contains an index record which specifies the portion of the Header Record which was used for the calculation of a signature. This data must be preserved or any header-only signature will be invalidated.');
 INSERT INTO RpmTag VALUES (5,'HDRTAG_HDRREGIONS',64,'BIN',1,'Ignore','Reserved','');
-INSERT INTO RpmTag VALUES (6,'RPMTAG_HEADERI18NTABLE',100,'STRING_ARRAY',0,'Private','Optional','Contains a list of locales for which strings are provided in other parts of the package.');
+INSERT INTO RpmTag VALUES (6,'RPMTAG_HEADERI18NTABLE',100,'STRING_ARRAY',0,'Private','Required','Contains a list of locales for which strings are provided in other parts of the package.');
 INSERT INTO RpmTag VALUES (7,'HDRTAG_HDRSIGBASE',256,'INT32',1,'Ignore','Reserved','');
 INSERT INTO RpmTag VALUES (8,'HDRTAG_HDRTAGBASE',1000,'INT32',1,'Ignore','Reserved','');
 INSERT INTO RpmTag VALUES (9,'SIGTAG_SIGSIZE',1000,'INT32',1,'Signature','Required','This tag specifies the combined size of the Header and Payload sections.');
