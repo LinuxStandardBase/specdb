@@ -418,3 +418,5 @@ INSERT INTO HeaderGroup VALUES (425,'Base Types',97,1,0,'');
 INSERT INTO HeaderGroup VALUES (426,'z_stream',97,3,0,'');
 INSERT INTO HeaderGroup VALUES (427,'Exposed types',97,4,0,'');
 INSERT INTO HeaderGroup VALUES (428,'Derived Types',97,2,0,'');
+INSERT INTO HeaderGroup VALUES (429,'Default HEadGroup for sys/poll.h',0,0,0,'');
+INSERT INTO HeaderGroup VALUES (430,'Default HeaderGroup for sys/poll.h',130,0,1,'');

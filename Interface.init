@@ -247,7 +247,7 @@ INSERT INTO Interface VALUES (246,'__mempcpy_small','Excluded','Function',0,1,0,
 INSERT INTO Interface VALUES (247,'__memset_cc','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (248,'__memset_cg','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (249,'__memset_gg','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (250,'__moddi3','Excluded','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (250,'__moddi3','Included','Function',10,2,0,0,0,'No','No');
 INSERT INTO Interface VALUES (251,'__modify_ldt','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (252,'__monstartup','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (253,'__morecore','Excluded','Data',0,1,28,40,0,'No','No');
@@ -337,9 +337,9 @@ INSERT INTO Interface VALUES (336,'__towctrans_l','Excluded','Function',0,1,0,0,
 INSERT INTO Interface VALUES (337,'__towlower_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (338,'__towupper_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (339,'__tzname','Included','Data',10,1,60,4855,1,'No','No');
-INSERT INTO Interface VALUES (340,'__udivdi3','Excluded','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (340,'__udivdi3','Included','Function',10,2,0,0,0,'No','No');
 INSERT INTO Interface VALUES (341,'__uflow','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (342,'__umoddi3','Excluded','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (342,'__umoddi3','Included','Function',10,2,0,0,0,'No','No');
 INSERT INTO Interface VALUES (343,'__underflow','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (344,'__vfork','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (345,'__vfscanf','Excluded','Function',0,1,0,0,0,'No','No');
@@ -1366,7 +1366,7 @@ INSERT INTO Interface VALUES (1369,'munmap','Included','Function',5,1,56,6,1,'Ye
 INSERT INTO Interface VALUES (1370,'opendir','Included','Function',5,1,15,10177,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1371,'pathconf','Included','Function',5,1,62,8,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1372,'pipe','Included','Function',5,1,62,6,1,'Yes','Yes');
-INSERT INTO Interface VALUES (1373,'poll','Included','Function',5,1,0,0,1,'Yes','No');
+INSERT INTO Interface VALUES (1373,'poll','Included','Function',5,1,129,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1374,'putc','Included','Function',5,1,0,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1375,'puts','Included','Function',5,1,42,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1376,'random','Included','Function',5,1,43,0,1,'Yes','No');

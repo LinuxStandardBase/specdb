@@ -122,3 +122,4 @@ INSERT INTO Header VALUES (126,'X11/Core.h','Yes');
 INSERT INTO Header VALUES (127,'X11/Object.h','Yes');
 INSERT INTO Header VALUES (128,'X11/ObjectP.h','Yes');
 INSERT INTO Header VALUES (129,'poll.h','Yes');
+INSERT INTO Header VALUES (130,'sys/poll.h','Yes');
