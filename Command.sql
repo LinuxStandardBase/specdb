@@ -1,4 +1,4 @@
--- MySQL dump 8.22
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
@@ -17,7 +17,7 @@ CREATE TABLE Command (
   Cdocumented enum('Yes','No') NOT NULL default 'No',
   Ctested enum('Yes','No') NOT NULL default 'No',
   PRIMARY KEY  (Cid),
-  UNIQUE KEY Cpath (Cpath),
-  UNIQUE KEY Cname (Cname)
+  UNIQUE KEY Cname (Cname),
+  UNIQUE KEY Cpath (Cpath)
 ) TYPE=MyISAM;
 

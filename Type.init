@@ -2131,7 +2131,7 @@ INSERT INTO Type VALUES (10334,'ia64ucontext *','Pointer',10330,0,'','','Referen
 INSERT INTO Type VALUES (10335,'ucontext_t','Typedef',10526,396,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10336,'shmid_ds','Struct',0,406,'','','Referenced',3,'');
 INSERT INTO Type VALUES (10337,'shmid_ds','Struct',0,406,'','','Referenced',6,'');
-INSERT INTO Type VALUES (10338,'ia64_fpreg','Struct',0,400,'','','Referenced',3,'(aligned (16))');
+INSERT INTO Type VALUES (10338,'ia64_fpreg','Struct',0,400,'','','Referenced',3,'');
 INSERT INTO Type VALUES (10339,'','Array',10338,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10340,'ia64_fpreg array','Array',10338,0,'','','Referenced',3,'');
 INSERT INTO Type VALUES (10341,'anon-ia64fpreg','Union',0,0,'','','Referenced',3,NULL);

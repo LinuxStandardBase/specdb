@@ -510,9 +510,9 @@ INSERT INTO HeaderGroup VALUES (519,'Default HeadGroup for libgen.h',148,0,1,'')
 INSERT INTO HeaderGroup VALUES (520,'Default HeaderGroup for utmpx.h',132,0,1,'');
 INSERT INTO HeaderGroup VALUES (521,'Source Standard Definitions',149,1,1,'');
 INSERT INTO HeaderGroup VALUES (522,'Default HeaderGroup for features.h',149,0,1,'');
-INSERT INTO HeaderGroup VALUES (523,'Architecture settings',108,2,1,'Per Architecture settings');
-INSERT INTO HeaderGroup VALUES (524,'Symbol Settings',108,3,1,'The visible Symbols');
-INSERT INTO HeaderGroup VALUES (525,'Setup the values',108,1,1,'Setup some values');
+INSERT INTO HeaderGroup VALUES (523,'Architecture settings',45,7,1,'Per Architecture settings');
+INSERT INTO HeaderGroup VALUES (524,'Symbol Settings',108,8,1,'The visible Symbols');
+INSERT INTO HeaderGroup VALUES (525,'Setup the values',45,6,1,'Setup some values');
 INSERT INTO HeaderGroup VALUES (526,'utmpx structure',132,2,1,'');
 INSERT INTO HeaderGroup VALUES (527,'Value for ut_type',132,3,1,'');
 INSERT INTO HeaderGroup VALUES (528,'utmpx member sizes',132,1,1,'');

@@ -3526,8 +3526,8 @@ INSERT INTO Constant VALUES (3526,'MAP_ANON','int',56,'','Yes');
 INSERT INTO Constant VALUES (3527,'MAP_FILE','int',56,'','No');
 INSERT INTO Constant VALUES (3528,'_POSIX_MAPPED_FILES','int',366,'','Yes');
 INSERT INTO Constant VALUES (3529,'RUSAGE_SELF','int',57,'','Yes');
-INSERT INTO Constant VALUES (3530,'RUSAGE_CHILDREN','int',57,'','No');
-INSERT INTO Constant VALUES (3531,'RUSAGE_BOTH','int',57,'','No');
+INSERT INTO Constant VALUES (3530,'RUSAGE_CHILDREN','int',57,'','Yes');
+INSERT INTO Constant VALUES (3531,'RUSAGE_BOTH','int',57,'','Yes');
 INSERT INTO Constant VALUES (3532,'PRIO_MIN','int',57,'','No');
 INSERT INTO Constant VALUES (3533,'PRIO_MAX','int',57,'','No');
 INSERT INTO Constant VALUES (3534,'PRIO_PROCESS','int',57,'','Yes');
@@ -5114,3 +5114,4 @@ INSERT INTO Constant VALUES (5119,'LOG_PRI(p)','Unknown',382,'extract priority',
 INSERT INTO Constant VALUES (5120,'LOG_MAKEPRI(fac, pri)','Unknown',382,'','SrcOnly');
 INSERT INTO Constant VALUES (5121,'LOG_FACMASK','int',383,'mask to extract facility part','Yes');
 INSERT INTO Constant VALUES (5122,'LOG_FAC(p)','Unknown',383,'facility of pri','SrcOnly');
+INSERT INTO Constant VALUES (5123,'NAN','float',317,'','Yes');
