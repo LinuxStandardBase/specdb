@@ -327,7 +327,7 @@ INSERT INTO Interface VALUES (327,'__strtoull_internal','Included','Function',10
 INSERT INTO Interface VALUES (328,'__strtouq_internal','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (329,'__strverscmp','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (330,'__strxfrm_l','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (331,'__sysv_signal','Included','Function',10,1,41,6966,1,'Yes','No');
+INSERT INTO Interface VALUES (331,'__sysv_signal','Included','Function',10,1,41,9374,1,'Yes','No');
 INSERT INTO Interface VALUES (332,'__timezone','Included','Data',10,1,60,8,1,'No','No');
 INSERT INTO Interface VALUES (333,'__tolower_l','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (334,'__toupper_l','Excluded','Function',0,1,0,0,0,'No','No');
@@ -900,7 +900,7 @@ INSERT INTO Interface VALUES (900,'sigismember','Included','Function',5,1,41,6,1
 INSERT INTO Interface VALUES (901,'sigorset','Included','Function',10,1,41,6,1,'Yes','No');
 INSERT INTO Interface VALUES (902,'sigpending','Included','Function',5,1,41,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (903,'sigrelse','Included','Function',5,1,41,6,2,'Yes','No');
-INSERT INTO Interface VALUES (904,'sigset','Included','Function',5,1,41,6966,2,'Yes','No');
+INSERT INTO Interface VALUES (904,'sigset','Included','Function',5,1,41,9374,2,'Yes','No');
 INSERT INTO Interface VALUES (905,'sigstack','Included','Function',5,1,41,6,1,'Yes','No');
 INSERT INTO Interface VALUES (906,'sprintf','Included','Function',5,1,42,6,1,'Yes','No');
 INSERT INTO Interface VALUES (907,'srand48','Included','Function',5,1,43,1,1,'Yes','No');
@@ -1395,7 +1395,7 @@ INSERT INTO Interface VALUES (1417,'setvbuf','Included','Function',5,1,42,6,1,'Y
 INSERT INTO Interface VALUES (1418,'shutdown','Included','Function',15,1,48,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1419,'sigaltstack','Included','Function',5,1,41,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1420,'sigblock','Included','Function',10,1,41,6,1,'Yes','No');
-INSERT INTO Interface VALUES (1421,'signal','Included','Function',5,1,41,6966,1,'Yes','No');
+INSERT INTO Interface VALUES (1421,'signal','Included','Function',5,1,41,9374,1,'Yes','No');
 INSERT INTO Interface VALUES (1422,'sigpause','Included','Function',5,1,41,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1423,'sigprocmask','Included','Function',5,1,41,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1424,'sigreturn','Included','Function',10,1,41,6,1,'Yes','No');
@@ -3296,7 +3296,7 @@ INSERT INTO Interface VALUES (3374,'backtrace','Excluded','Function',0,1,0,0,0,'
 INSERT INTO Interface VALUES (3375,'backtrace_symbols','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3376,'backtrace_symbols_fd','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3377,'bindtextdomain','Included','Function',10,1,141,63,1,'Yes','No');
-INSERT INTO Interface VALUES (3378,'bsd_signal','Included','Function',5,1,41,6966,1,'Yes','No');
+INSERT INTO Interface VALUES (3378,'bsd_signal','Included','Function',5,1,41,9374,1,'Yes','No');
 INSERT INTO Interface VALUES (3379,'btowc','Included','Function',5,1,64,8980,1,'Yes','No');
 INSERT INTO Interface VALUES (3380,'canonicalize_file_name','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (3381,'cfree','Excluded','Function',0,1,28,1,0,'No','No');
