@@ -1,8 +1,8 @@
--- MySQL dump 8.21
+-- MySQL dump 8.22
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.49-log
+-- Server version	3.23.50-log
 
 --
 -- Table structure for table 'Command'
@@ -18,7 +18,7 @@ CREATE TABLE Command (
   Cdocumented enum('Yes','No') NOT NULL default 'No',
   Ctested enum('Yes','No') NOT NULL default 'No',
   PRIMARY KEY  (Cid),
-  UNIQUE KEY Cname (Cname),
-  UNIQUE KEY Cpath (Cpath)
+  UNIQUE KEY Cpath (Cpath),
+  UNIQUE KEY Cname (Cname)
 ) TYPE=MyISAM;
 

@@ -50,7 +50,7 @@ INSERT INTO ElfSections VALUES (52,'.sdata',58,'This section and the .sdata1 sec
 INSERT INTO ElfSections VALUES (53,'.sdata1',58,'See .sdata.',2,'SHF_ALLOC+SHF_WRITE+SHF_IA_64_SHORT',2,3);
 INSERT INTO ElfSections VALUES (54,'.rela.IA_64.pltoff',10,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .IA_64.pltoff section.',5,'SHF_ALLOC',9,3);
 INSERT INTO ElfSections VALUES (55,'.rela.dyn',10,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .dyn section.',5,'SHF_ALLOC',9,3);
-INSERT INTO ElfSections VALUES (56,'.got',64,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE',2,6);
+INSERT INTO ElfSections VALUES (56,'.got',64,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE+SHF_EXECINSTR',2,6);
 INSERT INTO ElfSections VALUES (57,'.plt',64,'This section holds the Procedure Linkage Table',9,'SHF_ALLOC+SHF_WRITE+SHF_EXECINSTR',9,6);
 INSERT INTO ElfSections VALUES (58,'.sdata',64,'This section holds initialized small data that contribute to the program memory image',2,'SHF_ALLOC+SHF_WRITE',2,6);
 INSERT INTO ElfSections VALUES (59,'.sbss',64,'This section holds uninitialized small data that contribute to the program memory image. The system sets the data to zero when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',9,6);
@@ -60,3 +60,4 @@ INSERT INTO ElfSections VALUES (62,'.got2',10,'This section holds the second lev
 INSERT INTO ElfSections VALUES (63,'.rela.got',10,'This section holds RELA type relocation information for the GOT section of a shared library or dynamically linked application',5,'SHF_ALLOC',5,6);
 INSERT INTO ElfSections VALUES (64,'.rela.sbss',10,'This section holds RELA type relocation information for the SBSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',5,6);
 INSERT INTO ElfSections VALUES (65,'.rela.bss',10,'This section holds RELA type relocation information for the BSS section of a shared library or dynamically linked application',5,'SHF_ALLOC',5,6);
+INSERT INTO ElfSections VALUES (66,'.rela.got2',10,'This section holds RELA type relocation information for the second level GOT section of a shared library or dynamically linked application',5,'SHF_ALLOC',5,6);

@@ -1,8 +1,8 @@
--- MySQL dump 8.21
+-- MySQL dump 8.22
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.49-log
+-- Server version	3.23.50-log
 
 --
 -- Table structure for table 'ArchTypeMem'
