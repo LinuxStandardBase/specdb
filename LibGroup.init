@@ -127,5 +127,5 @@ INSERT INTO LibGroup VALUES (227,'Large File Support',131,1,18,'');
 INSERT INTO LibGroup VALUES (228,'Utility Functions',130,1,1,'');
 INSERT INTO LibGroup VALUES (229,'X Display Power Management Signaling Extension',18,1,2,'');
 INSERT INTO LibGroup VALUES (232,'Default LibGroup for libstdc++.so.4.0',230,1,0,'Default LibGroup for libstdc++');
-INSERT INTO LibGroup VALUES (233,'std::basic_string<wchar_t, std::char_traits<wchar_t>, std::a',231,1,1,'');
+INSERT INTO LibGroup VALUES (233,'std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >',231,1,1,'');
 INSERT INTO LibGroup VALUES (234,'char_traits<charT>',231,1,2,'');

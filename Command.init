@@ -876,7 +876,7 @@ INSERT INTO Command VALUES (878,'tiffinfo','/usr/bin/tiffinfo','Excluded',0,'No'
 INSERT INTO Command VALUES (879,'tiffmedian','/usr/bin/tiffmedian','Excluded',0,'No','No');
 INSERT INTO Command VALUES (880,'tiffsplit','/usr/bin/tiffsplit','Excluded',0,'No','No');
 INSERT INTO Command VALUES (881,'tifftopnm','/usr/bin/tifftopnm','Excluded',0,'No','No');
-INSERT INTO Command VALUES (882,'time','/usr/bin/time','Included',10,'Yes','No');
+INSERT INTO Command VALUES (882,'time','/usr/bin/time','Included',27,'Yes','No');
 INSERT INTO Command VALUES (883,'tin','/usr/bin/tin','Excluded',0,'No','No');
 INSERT INTO Command VALUES (884,'tixwish4.1.8.0','/usr/bin/tixwish4.1.8.0','Excluded',0,'No','No');
 INSERT INTO Command VALUES (885,'tload','/usr/bin/tload','Excluded',0,'No','No');
@@ -1018,7 +1018,7 @@ INSERT INTO Command VALUES (1026,'uncompress','/bin/uncompress','Excluded',0,'No
 INSERT INTO Command VALUES (1027,'awk','/bin/awk','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1028,'basename','/bin/basename','Included',27,'Yes','No');
 INSERT INTO Command VALUES (1029,'batch','/bin/batch','Included',10,'Yes','No');
-INSERT INTO Command VALUES (1030,'dd','/bin/dd','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1030,'dd','/bin/dd','Included',27,'Yes','No');
 INSERT INTO Command VALUES (1031,'fuser','/bin/fuser','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1032,'nice','/bin/nice','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1033,'nohup','/bin/nohup','Included',10,'Yes','No');
@@ -1028,5 +1028,6 @@ INSERT INTO Command VALUES (1036,'stty','/usr/bin/stty','Included',27,'Yes','No'
 INSERT INTO Command VALUES (1037,'rsync','/usr/bin/rsync','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1038,'dmesg','/bin/dmesg','Included',10,'No','No');
 INSERT INTO Command VALUES (1039,'shutdown','/sbin/shutdown','Included',10,'No','No');
-INSERT INTO Command VALUES (1040,'install_initd','','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1040,'install_initd','/sbin/install_initd','Included',10,'Yes','No');
 INSERT INTO Command VALUES (1041,'remove_initd','/sbin/remove_initd','Included',10,'Yes','No');
+INSERT INTO Command VALUES (1042,'[','/bin/[','Included',27,'Yes','No');

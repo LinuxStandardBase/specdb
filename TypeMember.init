@@ -2950,3 +2950,8 @@ INSERT INTO TypeMember VALUES (34487,'ws_row',5,0,0,1,'',10301,'',0);
 INSERT INTO TypeMember VALUES (34488,'ws_col',5,0,0,2,'',10301,'',0);
 INSERT INTO TypeMember VALUES (34489,'ws_xpixel',5,0,0,3,'',10301,'',0);
 INSERT INTO TypeMember VALUES (34490,'ws_ypixel',5,0,0,4,'',10301,'',0);
+INSERT INTO TypeMember VALUES (34491,'',10308,0,0,1,'',9079,'',0);
+INSERT INTO TypeMember VALUES (34492,'',10308,0,0,2,'',9079,'',0);
+INSERT INTO TypeMember VALUES (34493,'',40,0,0,1,'',10111,'',0);
+INSERT INTO TypeMember VALUES (34494,'',1,0,0,1,'',10116,'',0);
+INSERT INTO TypeMember VALUES (34495,'',6,0,0,1,'',9095,'',0);

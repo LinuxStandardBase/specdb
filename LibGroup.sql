@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.50-log
+-- Server version	3.23.51-log
 
 --
 -- Table structure for table 'LibGroup'
@@ -11,7 +11,7 @@
 DROP TABLE IF EXISTS LibGroup;
 CREATE TABLE LibGroup (
   LGid int(10) NOT NULL auto_increment,
-  LGname varchar(60) NOT NULL default '',
+  LGname varchar(255) NOT NULL default '',
   LGlib int(10) NOT NULL default '0',
   LGarch int(10) NOT NULL default '0',
   LGorder int(10) default NULL,

@@ -57,3 +57,4 @@ INSERT INTO Standard VALUES (61,'PPC32 Arch Chg1','The PowerPC Architecture Book
 INSERT INTO Standard VALUES (62,'PPC32 Arch Chg2','The PowerPC Architecture Book II changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg2.html','','Standard',6);
 INSERT INTO Standard VALUES (63,'PPC32 Arch Chg3','The PowerPC Architecture Book III changes','http://www-1.ibm.com/servers/eserver/pseries/library/ppc_chg3.html','','Standard',6);
 INSERT INTO Standard VALUES (64,'PPC32 ABI','System V Application Binary Interface PowerPC Processor Supplement','http://www.esofta.com/pdfs/SVR4abippc.pdf','','Standard',1);
+INSERT INTO Standard VALUES (65,'ISOC++','ISO/IEC 14882: 1998(E) Programming languages --C++','','','Standard',0);

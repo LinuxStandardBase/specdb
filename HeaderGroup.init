@@ -349,8 +349,8 @@ INSERT INTO HeaderGroup VALUES (356,'Default HeaderGroup for arpa/inet.h',116,0,
 INSERT INTO HeaderGroup VALUES (357,'Default HeaderGroup for netinet/in.h',117,0,0,'Default HeaderGroup for netinet/in.h');
 INSERT INTO HeaderGroup VALUES (358,'Default HeaderGroup for netinet/tcp.h',118,0,0,'Default HeaderGroup for netinet/tcp.h');
 INSERT INTO HeaderGroup VALUES (359,'Address Familise',48,4,1,'');
-INSERT INTO HeaderGroup VALUES (360,'Socket Types',48,5,1,'');
-INSERT INTO HeaderGroup VALUES (361,'Socket Options',48,6,1,'');
+INSERT INTO HeaderGroup VALUES (360,'Socket Types',48,6,1,'');
+INSERT INTO HeaderGroup VALUES (361,'Socket Options',48,7,1,'');
 INSERT INTO HeaderGroup VALUES (362,'in_addr',117,1,1,'');
 INSERT INTO HeaderGroup VALUES (363,'sockaddr_in',117,2,1,'');
 INSERT INTO HeaderGroup VALUES (364,'jmpbuf',40,3,1,'');
@@ -445,3 +445,4 @@ INSERT INTO HeaderGroup VALUES (454,'LC_TIME category: date and time formatting.
 INSERT INTO HeaderGroup VALUES (455,'LC_CTYPE category',25,10,1,'LC_CTYPE category: character classification. This information is accessed by the functions in <ctype.h>.These \'nl_langinfo\' names are used only internally.');
 INSERT INTO HeaderGroup VALUES (456,'LC_COLLATE category',25,9,1,' LC_COLLATE category: text sorting. This information is accessed by the strcoll and strxfrm functions. These `nl_langinfo\' names are used only internally.');
 INSERT INTO HeaderGroup VALUES (457,'Default HeaderGroup for sys/statvfs.h',135,0,1,'');
+INSERT INTO HeaderGroup VALUES (458,'Protocol Families',48,5,1,'');
