@@ -1907,7 +1907,7 @@ INSERT INTO `Type` VALUES (10097,'anon-X11/Xlib.h-3162','Enum',0,5,'','','Exclud
 INSERT INTO `Type` VALUES (10098,'anon-X11/Xlib.h-3193','Enum',0,5,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (10099,'anon-X11/Xlib.h-3210','Union',0,5,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (10100,'anon-X11/Xlib.h-3262','Struct',0,5,'','','Excluded',1,NULL);
-INSERT INTO `Type` VALUES (10101,'itimerspec','Struct',0,60,'','','Referenced',1,NULL);
+INSERT INTO `Type` VALUES (10101,'itimerspec','Struct',0,60,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10103,'_pthread_descr_struct','Struct',0,346,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (10104,'_pthread_descr_struct *','Pointer',10103,0,'','','Excluded',0,NULL);
 INSERT INTO `Type` VALUES (10105,'_pthread_fastlock','Struct',0,342,'','','Referenced',1,NULL);
@@ -2001,7 +2001,7 @@ INSERT INTO `Type` VALUES (10205,'_xmmreg array','Array',10203,0,'','','Indirect
 INSERT INTO `Type` VALUES (10206,'cc_t','Typedef',3,371,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (10207,'tcflag_t','Typedef',7,371,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (10208,'timer_t','Typedef',6,45,'','','Referenced',1,'');
-INSERT INTO `Type` VALUES (10209,'clockid_t','Typedef',6,45,'','','Referenced',1,NULL);
+INSERT INTO `Type` VALUES (10209,'clockid_t','Typedef',6,45,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10210,'rlim_t','Typedef',9,402,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10211,'semid_ds','Struct',0,47,'','','Referenced',2,'');
 INSERT INTO `Type` VALUES (10212,'shmatt_t','Typedef',9,405,'','','Referenced',2,'');
@@ -2840,3 +2840,8 @@ INSERT INTO `Type` VALUES (11057,'const fexcept_t','Const',11038,0,'','','Indire
 INSERT INTO `Type` VALUES (11058,'const fexcept_t *','Pointer',11057,0,'','','Indirect',0,'');
 INSERT INTO `Type` VALUES (11059,'anon_fenv_t','Struct',0,593,'','','Indirect',11,'');
 INSERT INTO `Type` VALUES (11060,'int [3]','Array',6,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11061,'timer_t *','Pointer',10208,60,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11062,'itimerspec *','Pointer',10101,60,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11063,'const itimerspec','Const',10101,60,'','','Indirect',0,'');
+INSERT INTO `Type` VALUES (11064,'const itimerspec *','Pointer',11063,60,'','','Indirect',0,'');
+INSERT INTO `Type` VALUES (11065,'clockid_t *','Pointer',10209,0,'','','Indirect',1,'');

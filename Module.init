@@ -1,3 +1,3 @@
-INSERT INTO `Module` VALUES (1,'LSB-Core','Core LSB Specification');
-INSERT INTO `Module` VALUES (2,'LSB-Graphics','Graphics libraries Module');
-INSERT INTO `Module` VALUES (3,'LSB-C++','LSB C++ module');
+INSERT INTO `Module` VALUES (1,'LSB_Core','Core LSB Specification');
+INSERT INTO `Module` VALUES (2,'LSB_Graphics','Graphics libraries Module');
+INSERT INTO `Module` VALUES (3,'LSB_Cpp','LSB C++ module');

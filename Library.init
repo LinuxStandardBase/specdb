@@ -14,7 +14,7 @@ INSERT INTO `Library` VALUES (129,'libresolv','libresolv.so.lsb.1','Future',1);
 INSERT INTO `Library` VALUES (130,'libutil','libutil.so.1','Yes',1);
 INSERT INTO `Library` VALUES (131,'libc','libc.so.6','Yes',1);
 INSERT INTO `Library` VALUES (132,'libpthread','libpthread.so.0','Yes',1);
-INSERT INTO `Library` VALUES (223,'librt','librt.so.1','Future',1);
+INSERT INTO `Library` VALUES (223,'librt','librt.so.1','Yes',1);
 INSERT INTO `Library` VALUES (229,'proginterp','See psLSB','Yes',0);
 INSERT INTO `Library` VALUES (231,'libstdcxx','libstdc++.so.6','Yes',1);
 INSERT INTO `Library` VALUES (233,'libpam','libpam.so.0','Yes',1);
