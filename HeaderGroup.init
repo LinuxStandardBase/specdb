@@ -429,6 +429,6 @@ INSERT INTO HeaderGroup VALUES (438,'The ifaddr structure',133,2,1,'The ifaddr s
 INSERT INTO HeaderGroup VALUES (439,'Interface request structure',133,3,1,'Interface request structure used for socket ioctl\'s.  All interface\r\n   ioctl\'s must have parameter definitions which begin with ifr_name.\r\n   The remainder may be interface specific.');
 INSERT INTO HeaderGroup VALUES (440,'Structure used in SIOCGIFCONF request.',133,4,1,'Structure used in SIOCGIFCONF request.  Used to retrieve interface\r\n   configuration for machine (useful for programs which must know all\r\n   networks accessible).');
 INSERT INTO HeaderGroup VALUES (441,'Default HeaderGroup for sys/file.h',120,0,0,'');
-INSERT INTO HeaderGroup VALUES (442,'Default HeadGroup for sys/un.h',134,0,1,'');
+INSERT INTO HeaderGroup VALUES (442,'Default HeaderGroup for sys/un.h',134,0,1,'');
 INSERT INTO HeaderGroup VALUES (443,'Order Definitions',23,1,1,'');
 INSERT INTO HeaderGroup VALUES (444,'Platform Defintions',23,2,1,'');

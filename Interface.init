@@ -581,7 +581,7 @@ INSERT INTO Interface VALUES (580,'getcontext','Included','Function',5,1,123,6,2
 INSERT INTO Interface VALUES (581,'getdate','Included','Function',5,1,60,9193,2,'Yes','No');
 INSERT INTO Interface VALUES (582,'getdate_err','Included','Common',5,1,60,6,2,'Yes','No');
 INSERT INTO Interface VALUES (583,'getdirentries','Defered','Function',0,1,0,8970,0,'No','No');
-INSERT INTO Interface VALUES (584,'getdomainname','Excluded','Function',0,1,62,6,1,'No','No');
+INSERT INTO Interface VALUES (584,'getdomainname','Included','Function',10,1,62,6,1,'No','No');
 INSERT INTO Interface VALUES (585,'getenv','Included','Function',5,1,43,63,1,'Yes','Yes');
 INSERT INTO Interface VALUES (586,'getfsent','Excluded','Function',0,1,0,0,1,'No','No');
 INSERT INTO Interface VALUES (587,'getfsfile','Excluded','Function',7,1,0,0,0,'No','No');
@@ -851,7 +851,7 @@ INSERT INTO Interface VALUES (850,'sendfile','Defered','Function',0,1,62,6,0,'No
 INSERT INTO Interface VALUES (851,'setaliasent','Excluded','Function',0,1,0,0,1,'No','No');
 INSERT INTO Interface VALUES (852,'setbuf','Included','Function',5,1,42,1,1,'Yes','Yes');
 INSERT INTO Interface VALUES (853,'setcontext','Included','Function',5,1,123,6,1,'Yes','No');
-INSERT INTO Interface VALUES (854,'setdomainname','Excluded','Function',0,1,62,6,0,'No','No');
+INSERT INTO Interface VALUES (854,'setdomainname','Included','Function',10,1,62,6,0,'No','No');
 INSERT INTO Interface VALUES (855,'setegid','Included','Function',10,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (856,'seteuid','Included','Function',10,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (857,'setfsent','Excluded','Function',0,1,0,0,1,'No','No');
@@ -4221,7 +4221,7 @@ INSERT INTO Interface VALUES (4513,'_nc_fallback','Excluded','Function',0,1,0,0,
 INSERT INTO Interface VALUES (4514,'set_curterm','Excluded','Function',28,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (4515,'del_curterm','Excluded','Function',28,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (4516,'restartterm','Excluded','Function',28,1,0,0,0,'Yes','No');
-INSERT INTO Interface VALUES (4517,'setupterm','Excluded','Function',28,1,0,0,0,'Yes','No');
+INSERT INTO Interface VALUES (4517,'setupterm','Included','Function',28,1,70,6,0,'Yes','No');
 INSERT INTO Interface VALUES (4518,'tgetstr','Included','Function',28,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (4519,'tgoto','Included','Function',28,1,0,0,0,'Yes','No');
 INSERT INTO Interface VALUES (4520,'tgetent','Included','Function',28,1,0,0,0,'Yes','No');
@@ -18827,7 +18827,7 @@ INSERT INTO Interface VALUES (19665,'glMultTransposeMatrixdARB','Excluded','Func
 INSERT INTO Interface VALUES (19666,'glMultTransposeMatrixfARB','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (19667,'glNormalPointerEXT','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (19668,'glPointParameterfEXT','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (19669,'glPointParameterfvEXT','Excluded','Function',0,1,0,0,0,'No','No');
+INSERT INTO Interface VALUES (19669,'glPointParameterfvEXT','Included','Function',29,1,1,0,0,'No','No');
 INSERT INTO Interface VALUES (19670,'glPolygonOffsetEXT','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (19671,'glPrioritizeTexturesEXT','Excluded','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (19672,'glResetHistogramEXT','Excluded','Function',0,1,0,0,0,'No','No');
