@@ -456,3 +456,10 @@ INSERT INTO HeaderGroup VALUES (465,'Default HeaderGroup for sys/vfs.h',136,0,1,
 INSERT INTO HeaderGroup VALUES (466,'Default HeaderGroup for stropts.h',137,0,1,'');
 INSERT INTO HeaderGroup VALUES (467,'Comment',137,1,1,'The streams interfaces are excluded from the LSB.\r\nThis empty file is needed to make the compilation environment happy.');
 INSERT INTO HeaderGroup VALUES (468,'Default HeadGroup for pty.h',138,0,1,'');
+INSERT INTO HeaderGroup VALUES (469,'Default HeadGroup for sys/statfs.h',139,0,1,'');
+INSERT INTO HeaderGroup VALUES (470,'Default HeadGroup for term.h',140,0,1,'');
+INSERT INTO HeaderGroup VALUES (471,'Default HeadGroup for libintl.h',141,0,1,'');
+INSERT INTO HeaderGroup VALUES (472,'Default HeaderGroup for security/pam_appl.h',142,0,1,'');
+INSERT INTO HeaderGroup VALUES (473,'Values for item_type',142,3,1,'Possible Values for Item_type');
+INSERT INTO HeaderGroup VALUES (474,'Pam conversion',142,2,1,'');
+INSERT INTO HeaderGroup VALUES (475,'Pam structures',142,1,1,'');
