@@ -1024,3 +1024,4 @@ INSERT INTO Command VALUES (1032,'nice','/bin/nice','Included',0,'No','No');
 INSERT INTO Command VALUES (1033,'nohup','/bin/nohup','Included',0,'No','No');
 INSERT INTO Command VALUES (1034,'sendmail','/usr/sbin/sendmail','Included',0,'No','No');
 INSERT INTO Command VALUES (1035,'sort','/usr/bin/sort','Included',0,'No','No');
+INSERT INTO Command VALUES (1036,'stty','/usr/bin/stty','Included',5,'Yes','No');

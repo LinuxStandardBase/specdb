@@ -14,6 +14,7 @@ CREATE TABLE Library (
   Lrunname varchar(60) binary DEFAULT '' NOT NULL,
   Lstd enum('Yes','No') DEFAULT 'No' NOT NULL,
   Larch int(11) DEFAULT '1' NOT NULL,
-  PRIMARY KEY (Lid)
+  PRIMARY KEY (Lid),
+  UNIQUE k_lib (Lname,Lstd)
 );
 
