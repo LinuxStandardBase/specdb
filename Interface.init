@@ -408,7 +408,7 @@ INSERT INTO Interface VALUES (408,'atexit','Included','Function',5,1,43,6,1,'Yes
 INSERT INTO Interface VALUES (409,'atof','Included','Function',5,1,43,13,1,'Yes','Yes');
 INSERT INTO Interface VALUES (410,'atoi','Included','Function',5,1,43,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (411,'atol','Included','Function',5,1,43,8,1,'Yes','Yes');
-INSERT INTO Interface VALUES (412,'atoll','Defered','Function',0,1,43,10,0,'No','No');
+INSERT INTO Interface VALUES (412,'atoll','Included','Function',25,1,43,10,0,'No','No');
 INSERT INTO Interface VALUES (413,'authdes_create','Defered','Function',8,1,98,9899,2,'Yes','No');
 INSERT INTO Interface VALUES (414,'authdes_getucred','Defered','Function',8,1,0,0,2,'Yes','No');
 INSERT INTO Interface VALUES (415,'authdes_pk_create','Defered','Function',8,1,98,9899,2,'Yes','No');
@@ -1330,7 +1330,7 @@ INSERT INTO Interface VALUES (1334,'index','Included','Function',5,1,44,63,1,'Ye
 INSERT INTO Interface VALUES (1335,'initstate','Included','Function',5,1,43,40,1,'Yes','No');
 INSERT INTO Interface VALUES (1336,'ioctl','Included','Function',10,1,114,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1337,'isinf','Included','Function',25,1,29,6,1,'Yes','No');
-INSERT INTO Interface VALUES (1338,'iswalnum','Included','Function',5,1,65,6,1,'Yes','No');
+INSERT INTO Interface VALUES (1338,'iswalnum','Included','Function',5,1,64,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1339,'iswalpha','Included','Function',5,1,64,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1340,'iswcntrl','Included','Function',5,1,64,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1341,'iswctype','Included','Function',10,1,64,6,1,'Yes','No');
@@ -1447,9 +1447,9 @@ INSERT INTO Interface VALUES (1471,'wcslen','Included','Function',5,1,64,8969,1,
 INSERT INTO Interface VALUES (1472,'wcsnrtombs','Included','Function',10,1,64,0,1,'Yes','No');
 INSERT INTO Interface VALUES (1473,'wcsrtombs','Included','Function',5,1,64,8969,1,'Yes','No');
 INSERT INTO Interface VALUES (1474,'wcstod','Included','Function',5,1,64,13,1,'Yes','No');
-INSERT INTO Interface VALUES (1475,'wcstof','Included','Function',25,1,64,0,1,'Yes','No');
+INSERT INTO Interface VALUES (1475,'wcstof','Included','Function',25,1,64,12,1,'Yes','No');
 INSERT INTO Interface VALUES (1476,'wcstol','Included','Function',5,1,64,8,1,'Yes','No');
-INSERT INTO Interface VALUES (1477,'wcstold','Included','Function',25,1,64,0,1,'Yes','No');
+INSERT INTO Interface VALUES (1477,'wcstold','Included','Function',25,1,64,14,1,'Yes','No');
 INSERT INTO Interface VALUES (1478,'wcstoq','Included','Function',10,1,64,0,1,'Yes','No');
 INSERT INTO Interface VALUES (1479,'wcstoul','Included','Function',5,1,64,9,1,'Yes','No');
 INSERT INTO Interface VALUES (1480,'wcstouq','Included','Function',10,1,64,0,1,'Yes','No');
@@ -1499,7 +1499,7 @@ INSERT INTO Interface VALUES (1574,'sinh','Included','Function',5,1,29,13,1,'Yes
 INSERT INTO Interface VALUES (1575,'sqrt','Included','Function',5,1,29,13,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1576,'tan','Included','Function',5,1,29,13,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1577,'tanh','Included','Function',5,1,29,13,1,'Yes','Yes');
-INSERT INTO Interface VALUES (1578,'wcswcs','Included','Function',5,1,64,8848,2,'Yes','No');
+INSERT INTO Interface VALUES (1578,'wcswcs','Included','Function',5,1,64,8849,2,'Yes','No');
 INSERT INTO Interface VALUES (1579,'y0','Included','Function',5,1,29,13,1,'Yes','No');
 INSERT INTO Interface VALUES (1580,'y1','Included','Function',5,1,29,13,1,'Yes','No');
 INSERT INTO Interface VALUES (1581,'yn','Included','Function',5,1,29,13,1,'Yes','No');
@@ -3486,10 +3486,10 @@ INSERT INTO Interface VALUES (3564,'utmpname','Defered','Function',0,1,0,0,0,'No
 INSERT INTO Interface VALUES (3565,'valloc','Excluded','Function',5,1,43,40,0,'Yes','No');
 INSERT INTO Interface VALUES (3566,'vasprintf','Included','Function',10,1,42,6,1,'Yes','No');
 INSERT INTO Interface VALUES (3567,'vdprintf','Included','Function',10,1,42,0,1,'Yes','No');
-INSERT INTO Interface VALUES (3568,'vfscanf','Defered','Function',0,1,42,6,0,'No','No');
+INSERT INTO Interface VALUES (3568,'vfscanf','Included','Function',25,1,42,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3569,'vm86','Excluded','Function',0,1,0,0,0,'No','No');
-INSERT INTO Interface VALUES (3570,'vscanf','Defered','Function',0,1,42,6,0,'No','No');
-INSERT INTO Interface VALUES (3571,'vsscanf','Defered','Function',0,1,42,6,0,'No','No');
+INSERT INTO Interface VALUES (3570,'vscanf','Included','Function',25,1,42,6,0,'Yes','No');
+INSERT INTO Interface VALUES (3571,'vsscanf','Included','Function',25,1,42,6,0,'Yes','No');
 INSERT INTO Interface VALUES (3572,'acosf','Included','Function',25,1,29,12,1,'Yes','No');
 INSERT INTO Interface VALUES (3573,'acoshf','Included','Function',25,1,29,12,1,'Yes','No');
 INSERT INTO Interface VALUES (3574,'acoshl','Included','Function',25,1,29,14,1,'Yes','No');
@@ -3593,7 +3593,7 @@ INSERT INTO Interface VALUES (3671,'exp2','Excluded','Function',0,1,29,13,0,'No'
 INSERT INTO Interface VALUES (3672,'exp2f','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3673,'exp2l','Excluded','Function',0,1,29,14,0,'No','No');
 INSERT INTO Interface VALUES (3674,'expf','Excluded','Function',0,1,29,12,0,'No','No');
-INSERT INTO Interface VALUES (3675,'expl','Excluded','Function',0,1,29,14,0,'No','No');
+INSERT INTO Interface VALUES (3675,'expl','Included','Function',25,1,29,14,0,'Yes','No');
 INSERT INTO Interface VALUES (3676,'expm1f','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3677,'expm1l','Excluded','Function',0,1,29,14,0,'No','No');
 INSERT INTO Interface VALUES (3678,'fabsf','Included','Function',25,1,29,12,1,'Yes','No');
@@ -3637,8 +3637,8 @@ INSERT INTO Interface VALUES (3715,'llrintl','Included','Function',25,1,29,10,2,
 INSERT INTO Interface VALUES (3716,'llround','Included','Function',25,1,29,10,2,'Yes','No');
 INSERT INTO Interface VALUES (3717,'llroundf','Included','Function',25,1,29,10,2,'Yes','No');
 INSERT INTO Interface VALUES (3718,'llroundl','Included','Function',25,1,29,10,2,'Yes','No');
-INSERT INTO Interface VALUES (3719,'log10f','Excluded','Function',0,1,29,12,0,'No','No');
-INSERT INTO Interface VALUES (3720,'log10l','Excluded','Function',0,1,29,14,0,'No','No');
+INSERT INTO Interface VALUES (3719,'log10f','Included','Function',25,1,29,12,0,'Yes','No');
+INSERT INTO Interface VALUES (3720,'log10l','Included','Function',25,1,29,14,0,'Yes','No');
 INSERT INTO Interface VALUES (3721,'log1pf','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3722,'log1pl','Excluded','Function',0,1,29,14,0,'No','No');
 INSERT INTO Interface VALUES (3723,'log2','Excluded','Function',0,1,29,13,0,'No','No');
@@ -3646,8 +3646,8 @@ INSERT INTO Interface VALUES (3724,'log2f','Excluded','Function',0,1,29,12,0,'No
 INSERT INTO Interface VALUES (3725,'log2l','Excluded','Function',0,1,29,14,0,'No','No');
 INSERT INTO Interface VALUES (3726,'logbf','Excluded','Function',0,1,29,12,0,'No','No');
 INSERT INTO Interface VALUES (3727,'logbl','Excluded','Function',0,1,29,14,0,'No','No');
-INSERT INTO Interface VALUES (3728,'logf','Excluded','Function',0,1,29,12,0,'No','No');
-INSERT INTO Interface VALUES (3729,'logl','Excluded','Function',0,1,29,14,0,'No','No');
+INSERT INTO Interface VALUES (3728,'logf','Included','Function',25,1,29,12,0,'Yes','No');
+INSERT INTO Interface VALUES (3729,'logl','Included','Function',25,1,29,14,0,'Yes','No');
 INSERT INTO Interface VALUES (3730,'lrint','Included','Function',25,1,29,8,2,'Yes','No');
 INSERT INTO Interface VALUES (3731,'lrintf','Included','Function',25,1,29,8,2,'Yes','No');
 INSERT INTO Interface VALUES (3732,'lrintl','Included','Function',25,1,29,8,2,'Yes','No');
@@ -5666,7 +5666,7 @@ INSERT INTO Interface VALUES (6398,'__wctype','Excluded','Function',0,1,65,7024,
 INSERT INTO Interface VALUES (6841,'Xutf8TextPropertyToTextList','Included','Function',0,1,69,6,0,'No','No');
 INSERT INTO Interface VALUES (6840,'Xutf8TextListToTextProperty','Included','Function',0,1,69,6,0,'No','No');
 INSERT INTO Interface VALUES (6839,'Xutf8SetWMProperties','Excluded','Function',0,1,69,1,0,'No','No');
-INSERT INTO Interface VALUES (6837,'glXGetProcAddressARB','Excluded','Function',29,1,2,8726,0,'Yes','No');
+INSERT INTO Interface VALUES (6837,'glXGetProcAddressARB','Included','Function',29,1,2,8726,0,'Yes','No');
 INSERT INTO Interface VALUES (6836,'glXGetSelectedEvent','Included','Function',29,1,2,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6835,'glXSelectEvent','Included','Function',29,1,2,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6834,'glXQueryContext','Included','Function',29,1,2,6,0,'Yes','No');
@@ -17364,7 +17364,7 @@ INSERT INTO Interface VALUES (18203,'dcngettext','Included','Function',10,1,141,
 INSERT INTO Interface VALUES (18204,'dngettext','Included','Function',10,1,141,63,0,'No','No');
 INSERT INTO Interface VALUES (18205,'fgetwc','Included','Function',5,1,64,8980,6,'Yes','No');
 INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Function',5,1,64,0,6,'Yes','No');
-INSERT INTO Interface VALUES (18207,'fgetws','Included','Function',25,1,64,8848,6,'Yes','No');
+INSERT INTO Interface VALUES (18207,'fgetws','Included','Function',25,1,64,8849,6,'Yes','No');
 INSERT INTO Interface VALUES (18208,'fgetws_unlocked','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18209,'fmemopen','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18210,'fputwc','Included','Function',25,1,64,8980,6,'Yes','No');
