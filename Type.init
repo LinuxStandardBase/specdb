@@ -2795,3 +2795,5 @@ INSERT INTO `Type` VALUES (11011,'__ss_aligntype','Typedef',10878,142,'','','Ref
 INSERT INTO `Type` VALUES (11012,'__ss_aligntype','Typedef',9272,142,'','','Referenced',8,'');
 INSERT INTO `Type` VALUES (11013,'__cxx_guard_variable','Typedef',11,0,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (11014,'int [112]','Array',6,0,'','','Excluded',1,'');
+INSERT INTO `Type` VALUES (11015,'if_nameindex','Struct',0,577,'','','Referenced',1,'');
+INSERT INTO `Type` VALUES (11016,'if_nameindex *','Pointer',11015,0,'','','Referenced',0,'');

@@ -306,8 +306,8 @@ INSERT INTO `HeaderGroup` VALUES (313,'Short attributes',26,3,1,'Minimum and max
 INSERT INTO `HeaderGroup` VALUES (314,'Integer Attributes',26,4,1,'Minimum and maximum values a `int\' can hold.');
 INSERT INTO `HeaderGroup` VALUES (315,'Long Integer Attributes',26,5,1,'Minimum and maximum values a `long int\' can hold.');
 INSERT INTO `HeaderGroup` VALUES (316,'These are the possibilities for the first argument to setloc',27,2,1,'These are the possibilities for the first argument to setlocale.');
-INSERT INTO `HeaderGroup` VALUES (317,'Some useful constants',29,3,1,'Some useful constants');
-INSERT INTO `HeaderGroup` VALUES (318,'machine-dependent HUGE_VAL value',29,2,1,'machine-dependent HUGE_VAL value');
+INSERT INTO `HeaderGroup` VALUES (317,'Some useful constants',29,4,1,'Some useful constants');
+INSERT INTO `HeaderGroup` VALUES (318,'machine-dependent HUGE_VAL value',29,3,1,'machine-dependent HUGE_VAL value');
 INSERT INTO `HeaderGroup` VALUES (319,'Initializers',33,7,0,'Initializers');
 INSERT INTO `HeaderGroup` VALUES (320,'Values for attributes.',33,8,0,'Values for attributes.');
 INSERT INTO `HeaderGroup` VALUES (321,'Cancellation',33,9,0,'Cancellation');
@@ -425,9 +425,9 @@ INSERT INTO `HeaderGroup` VALUES (433,'Default HeaderGroup for utmp.h',131,0,1,'
 INSERT INTO `HeaderGroup` VALUES (435,'ut_type values',131,2,1,'Values for the `ut_type\' field of a `struct utmp\'.');
 INSERT INTO `HeaderGroup` VALUES (436,'Default HeadGroup for net/if.h',133,0,1,'');
 INSERT INTO `HeaderGroup` VALUES (437,'Standard interface flags.',133,1,1,'Standard interface flags.');
-INSERT INTO `HeaderGroup` VALUES (438,'The ifaddr structure',133,3,1,'The ifaddr structure contains information about one address of an\r\n   interface.  They are maintained by the different address families,\r\n   are allocated and attached when an address is set, and are linked\r\n   together so all addresses for an interface can be located.');
-INSERT INTO `HeaderGroup` VALUES (439,'Interface request structure',133,4,1,'Interface request structure used for socket ioctl\'s.  All interface\r\n   ioctl\'s must have parameter definitions which begin with ifr_name.\r\n   The remainder may be interface specific.');
-INSERT INTO `HeaderGroup` VALUES (440,'Structure used in SIOCGIFCONF request.',133,5,1,'Structure used in SIOCGIFCONF request.  Used to retrieve interface\r\n   configuration for machine (useful for programs which must know all\r\n   networks accessible).');
+INSERT INTO `HeaderGroup` VALUES (438,'The ifaddr structure',133,4,1,'The ifaddr structure contains information about one address of an\r\n   interface.  They are maintained by the different address families,\r\n   are allocated and attached when an address is set, and are linked\r\n   together so all addresses for an interface can be located.');
+INSERT INTO `HeaderGroup` VALUES (439,'Interface request structure',133,5,1,'Interface request structure used for socket ioctl\'s.  All interface\r\n   ioctl\'s must have parameter definitions which begin with ifr_name.\r\n   The remainder may be interface specific.');
+INSERT INTO `HeaderGroup` VALUES (440,'Structure used in SIOCGIFCONF request.',133,6,1,'Structure used in SIOCGIFCONF request.  Used to retrieve interface\r\n   configuration for machine (useful for programs which must know all\r\n   networks accessible).');
 INSERT INTO `HeaderGroup` VALUES (441,'Default HeaderGroup for sys/file.h',120,0,0,'');
 INSERT INTO `HeaderGroup` VALUES (442,'Default HeaderGroup for sys/un.h',134,0,1,'');
 INSERT INTO `HeaderGroup` VALUES (443,'Order Definitions',23,1,1,'');
@@ -544,7 +544,7 @@ INSERT INTO `HeaderGroup` VALUES (556,'IP Socket options',117,11,1,'IP Socket op
 INSERT INTO `HeaderGroup` VALUES (557,'PPC32 base types',41,1,8,'PPC32 stuff that doesn\'t belong here, but it has to be here to avoid nasty cyclic dependencies');
 INSERT INTO `HeaderGroup` VALUES (558,'PPC32 derived types',41,1,1,'');
 INSERT INTO `HeaderGroup` VALUES (559,'uc_regs_ptr',123,10,1,'');
-INSERT INTO `HeaderGroup` VALUES (560,'math_errhandling',29,4,1,'Bitmasks for the math_errhandling macro.');
+INSERT INTO `HeaderGroup` VALUES (560,'math_errhandling',29,5,1,'Bitmasks for the math_errhandling macro.');
 INSERT INTO `HeaderGroup` VALUES (561,'priority_which',57,5,0,'The type of the WHICH argument to `getpriority\' and `setpriority\',\r\nindicating what flavor of entity the WHO argument specifies.');
 INSERT INTO `HeaderGroup` VALUES (562,'Priority limits.',57,4,0,'Priority limits.');
 INSERT INTO `HeaderGroup` VALUES (563,'priority_which defines',57,6,0,'');
@@ -558,4 +558,7 @@ INSERT INTO `HeaderGroup` VALUES (570,'`si_code\' values for SIGTRAP signal.',41
 INSERT INTO `HeaderGroup` VALUES (571,'`si_code\' values for SIGCHLD signal.`si_code\' values for SIG',41,14,1,'`si_code\' values for SIGCHLD signal.');
 INSERT INTO `HeaderGroup` VALUES (572,'`si_code\' values for SIGPOLL signal.`si_code\' values for SIG',41,15,1,'`si_code\' values for SIGPOLL signal.');
 INSERT INTO `HeaderGroup` VALUES (573,'Special Signal values',41,3,1,'Special Signal values');
-INSERT INTO `HeaderGroup` VALUES (574,'generic macros',29,1,1,'ISO C99 defines some generic macros which work on any data type.');
+INSERT INTO `HeaderGroup` VALUES (574,'generic macros',29,2,1,'ISO C99 defines some generic macros which work on any data type.');
+INSERT INTO `HeaderGroup` VALUES (575,'comparison macros',29,6,1,'ISO C99 defines some macros to compare number while taking care\r\n   for unordered numbers.  Since many FPUs provide special\r\n   instructions to support these operations and these tests are\r\n   defined in <bits/mathinline.h>, we define the generic macros at\r\n   this late point and only if they are not defined yet.');
+INSERT INTO `HeaderGroup` VALUES (576,'FP categories',29,1,1,'All floating-point numbers can be put in one of these categories.');
+INSERT INTO `HeaderGroup` VALUES (577,'The if_name structure',133,3,1,'');
