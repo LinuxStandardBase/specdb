@@ -22,6 +22,8 @@ GRANT INSERT,UPDATE,DELETE ON lsb.LGInt TO lsbadmin;
 #GRANT INSERT,UPDATE ON lsb.Library TO lsbadmin;
 GRANT INSERT,UPDATE,DELETE ON lsb.Parameter TO lsbadmin;
 GRANT INSERT,UPDATE,DELETE ON lsb.Standard TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.Type TO lsbadmin;
+GRANT INSERT,UPDATE,DELETE ON lsb.TypeMember TO lsbadmin;
 GRANT INSERT,UPDATE,DELETE ON lsb.Version TO lsbadmin;
 GRANT INSERT,DELETE        ON lsb.VerInt TO lsbadmin;
 #
