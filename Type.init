@@ -2368,3 +2368,6 @@ INSERT INTO Type VALUES (10573,'mcontext_t','Typedef',10572,395,'','','Reference
 INSERT INTO Type VALUES (10574,'ucontext','Struct',0,396,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10575,'ucontext_t','Typedef',10574,396,'','','Referenced',12,'');
 INSERT INTO Type VALUES (10576,'sigaction','Struct',0,245,'','','Referenced',12,'');
+INSERT INTO Type VALUES (10577,'stat','Struct',0,52,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10578,'statvfs','Struct',0,457,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10579,'statvfs64','Struct',0,457,'','','Referenced',10,'');
