@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 9.10
 --
 -- Host: localhost    Database: lsb
----------------------------------------------------------
+-- ------------------------------------------------------
 
 --
--- Table structure for table 'ArchClass'
+-- Table structure for table `ArchClass`
 --
 
 DROP TABLE IF EXISTS ArchClass;

@@ -1,10 +1,10 @@
--- MySQL dump 8.21
+-- MySQL dump 9.10
 --
 -- Host: localhost    Database: lsb
----------------------------------------------------------
+-- ------------------------------------------------------
 
 --
--- Table structure for table 'Command'
+-- Table structure for table `Command`
 --
 
 DROP TABLE IF EXISTS Command;
