@@ -26,7 +26,7 @@ INSERT INTO HeaderGroup VALUES (25,'Default HeaderGroup for langinfo.h',25,0,0,'
 INSERT INTO HeaderGroup VALUES (26,'Default HeaderGroup for limits.h',26,0,0,'Default HeaderGroup for limits.h');
 INSERT INTO HeaderGroup VALUES (27,'Default HeaderGroup for locale.h',27,0,0,'Default HeaderGroup for locale.h');
 INSERT INTO HeaderGroup VALUES (28,'Default HeaderGroup for malloc.h',28,0,0,'Default HeaderGroup for malloc.h');
-INSERT INTO HeaderGroup VALUES (29,'Default HeaderGroup for math.h',29,0,0,'Default HeaderGroup for math.h');
+INSERT INTO HeaderGroup VALUES (29,'Default HeaderGroup for math.h',29,0,1,'Default HeaderGroup for math.h');
 INSERT INTO HeaderGroup VALUES (30,'Default HeaderGroup for monetary.h',30,0,0,'Default HeaderGroup for monetary.h');
 INSERT INTO HeaderGroup VALUES (31,'Default HeaderGroup for mqueue.h',31,0,0,'Default HeaderGroup for mqueue.h');
 INSERT INTO HeaderGroup VALUES (32,'Default HeaderGroup for nl_types.h',32,0,0,'Default HeaderGroup for nl_types.h');
@@ -343,3 +343,14 @@ INSERT INTO HeaderGroup VALUES (350,'Default HeaderGroup for sys/uio.h',110,0,0,
 INSERT INTO HeaderGroup VALUES (351,'Default HeaderGroup for stdarg.h',111,0,0,'Default HeaderGroup for stdarg.h');
 INSERT INTO HeaderGroup VALUES (352,'Default HeaderGroup for sys/param.h',112,0,0,'Default HeaderGroup for sys/param.h');
 INSERT INTO HeaderGroup VALUES (353,'Default HeaderGroup for sys/select.h',113,0,0,'Default HeaderGroup for sys/select.h');
+INSERT INTO HeaderGroup VALUES (354,'Default HeaderGroup for sys/ioctl.h',114,0,0,'Default HeaderGroup for sys/ioctl.h');
+INSERT INTO HeaderGroup VALUES (355,'Default HeaderGroup for netdb.h',115,0,0,'Default HeaderGroup for netdb.h');
+INSERT INTO HeaderGroup VALUES (356,'Default HeaderGroup for arpa/inet.h',116,0,0,'Default HeaderGroup for arpa/inet.h');
+INSERT INTO HeaderGroup VALUES (357,'Default HeaderGroup for netinet/in.h',117,0,0,'Default HeaderGroup for netinet/in.h');
+INSERT INTO HeaderGroup VALUES (358,'Default HeaderGroup for netinet/tcp.h',118,0,0,'Default HeaderGroup for netinet/tcp.h');
+INSERT INTO HeaderGroup VALUES (359,'Address Familise',48,4,1,'');
+INSERT INTO HeaderGroup VALUES (360,'Socket Types',48,5,1,'');
+INSERT INTO HeaderGroup VALUES (361,'Socket Options',48,6,1,'');
+INSERT INTO HeaderGroup VALUES (362,'in_addr',117,1,1,'');
+INSERT INTO HeaderGroup VALUES (363,'sockaddr_in',117,2,1,'');
+INSERT INTO HeaderGroup VALUES (364,'jmpbuf',40,2,1,'');
