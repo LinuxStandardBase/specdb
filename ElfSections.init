@@ -44,7 +44,7 @@ INSERT INTO ElfSections VALUES (47,'.IA_64.unwind',58,'This section holds the un
 INSERT INTO ElfSections VALUES (48,'.IA_64.unwind_info',58,'This section holds stack unwind and and exception handling information. The exception handling information is programming language specific, and is unspecified.',2,'SHF_ALLOC',0,3);
 INSERT INTO ElfSections VALUES (49,'.got',58,'This section holds the Global Offset Table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE+SHF_IA_64_SHORT',0,3);
 INSERT INTO ElfSections VALUES (50,'.plt',58,'This section holds the Procedure Linkage Table.',2,'SHF_ALLOC+SHF_EXECINSTR',0,3);
-INSERT INTO ElfSections VALUES (51,'.sbss',58,'This section holds uninitialized data that contribute to the program\'\'s memory image. Data objects contained in this section are recommended to be eight bytes or less in size. The system initializes the data with zeroes when the program begins to run. The section occupies no file space, as indicated by the section type SHT_NOBITS. The .sbss section is placed so it may be accessed using short direct addressing (22 bit offset from gp).',9,'SHF_ALLOC+SHF_WRITE+SHF_IA_64_SHORT',0,3);
+INSERT INTO ElfSections VALUES (51,'.sbss',58,'This section holds uninitialized data that contribute to the program\'\'s memory image. Data objects contained in this section are recommended to be eight bytes or less in size. The system initializes the data with zeroes when the program begins to run. The section occupies no file space, as indicated by the section type SHT_NOBITS. The .sbss section is placed so it may be accessed using short direct addressing (22 bit offset from gp).',9,'SHF_ALLOC+SHF_WRITE',0,3);
 INSERT INTO ElfSections VALUES (52,'.sdata',58,'This section and the .sdata1 section hold initialized data that contribute to the program\'\'s memory image. Data objects contained in this section are recommended to be eight bytes or less in size. The .sdata and .sdata1 sections are placed so they may be accessed using short direct addressing (22 bit offset from gp).',2,'SHF_ALLOC+SHF_WRITE+SHF_IA_64_SHORT',0,3);
 INSERT INTO ElfSections VALUES (53,'.sdata1',58,'See .sdata.',2,'SHF_ALLOC+SHF_WRITE+SHF_IA_64_SHORT',0,3);
 INSERT INTO ElfSections VALUES (54,'.rela.IA_64.pltoff',10,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .IA_64.pltoff section.',5,'SHF_ALLOC',0,3);
@@ -72,7 +72,7 @@ INSERT INTO ElfSections VALUES (76,'.tocbss',68,'This section may be used to hol
 INSERT INTO ElfSections VALUES (77,'.opd',10,'This section holds function descriptors',2,'SHF_ALLOC+SHF_WRITE',0,9);
 INSERT INTO ElfSections VALUES (78,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,9);
 INSERT INTO ElfSections VALUES (79,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,9);
-INSERT INTO ElfSections VALUES (80,'.toc1',10,'This section holds the second level TOC information',9,'SHF_ALLOC+SHF_WRITE',0,9);
+INSERT INTO ElfSections VALUES (80,'.toc1',10,'This section holds the second level TOC information',2,'SHF_ALLOC+SHF_WRITE',0,9);
 INSERT INTO ElfSections VALUES (81,'.eh_frame_hdr',10,'This section contains a pointer to the .eh_frame section which is accessible to the runtime support code of a C++ application. This section may also contain a binary search table which may be used by the runtime support code to more efficiently access records in the .eh_frame section.',2,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (82,'.got',78,'This section holds the global offset table',2,'SHF_ALLOC+SHF_WRITE',0,12);
 INSERT INTO ElfSections VALUES (83,'.plt',78,'This section holds the procedure linkage table',2,'SHF_ALLOC+SHF_EXECINSTR',0,12);
@@ -82,7 +82,7 @@ INSERT INTO ElfSections VALUES (86,'.sbss',10,'This section holds uninitialized 
 INSERT INTO ElfSections VALUES (87,'.sdata2',10,'This section holds the second level of initialised small data',2,'SHF_ALLOC',0,6);
 INSERT INTO ElfSections VALUES (88,'.branch_lt',10,'This section holds destination addresses for very long branches',2,'SHF_ALLOC+SHF_WRITE',0,9);
 INSERT INTO ElfSections VALUES (89,'.sbss',10,'This section holds uninitialized data that contribute to the program\'s memory image. The system initializes the data with zeroes when the program begins to run.',2,'SHF_WRITE',0,12);
-INSERT INTO ElfSections VALUES (90,'.opd',10,'This section holds function descriptors',2,'SHF_ALLOC+SHF_WRITE',0,3);
+INSERT INTO ElfSections VALUES (90,'.opd',10,'This section holds function descriptors',2,'SHF_ALLOC',0,3);
 INSERT INTO ElfSections VALUES (91,'.got',80,'This section holds the global offset table',2,'SHF_ALLOC+SHF_WRITE',0,11);
 INSERT INTO ElfSections VALUES (100,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,11);
 INSERT INTO ElfSections VALUES (92,'.plt',80,'This section holds the procedure linkage table.',2,'SHF_ALLOC+SHF_EXECINSTR',0,11);

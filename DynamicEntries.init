@@ -40,7 +40,7 @@ INSERT INTO DynamicEntries VALUES (39,'DT_VALRNGHI','0x6ffffdff',10,'Entries whi
 INSERT INTO DynamicEntries VALUES (40,'DT_ADDRRNGLO','0x6ffffe00',10,'Values from DT_ADDRRNGLO through DT_ADDRRNGHI are reserved for definition by an archLSB.',1,'Included');
 INSERT INTO DynamicEntries VALUES (41,'DT_SYMINFO','0x6ffffeff',10,'Address of the Syminfo table.',1,'Included');
 INSERT INTO DynamicEntries VALUES (42,'DT_VERSYM','0x6ffffff0',10,'Address of the table provided by the .gnu.version section.',1,'Included');
-INSERT INTO DynamicEntries VALUES (43,'DT_FLAGS_1','0x6ffffffb',10,'State flags, see DF_1_* below',1,'Included');
+INSERT INTO DynamicEntries VALUES (43,'DT_FLAGS_1','0x6ffffffb',10,'State flags, see DF_1_* below',1,'Excluded');
 INSERT INTO DynamicEntries VALUES (44,'DT_VERDEF','0',10,'Address of version definition table',1,'Included');
 INSERT INTO DynamicEntries VALUES (45,'DT_VERDEFNUM','0',10,'Number of version definitions',1,'Included');
 INSERT INTO DynamicEntries VALUES (46,'DT_VERNEED','0',10,'Address of table with needed versions',1,'Included');

@@ -10,7 +10,7 @@ INSERT INTO Type VALUES (9,'unsigned long','Intrinsic',0,0,'',NULL,'Indirect',1,
 INSERT INTO Type VALUES (10,'long long','Intrinsic',0,0,'',NULL,'Referenced',1,'');
 INSERT INTO Type VALUES (11,'unsigned long long','Intrinsic',0,0,'',NULL,'Referenced',1,'');
 INSERT INTO Type VALUES (12,'float','Intrinsic',0,0,'',NULL,'Indirect',1,NULL);
-INSERT INTO Type VALUES (13,'double','Intrinsic',0,0,'',NULL,'Indirect',1,NULL);
+INSERT INTO Type VALUES (13,'double','Intrinsic',0,0,'',NULL,'Indirect',1,'');
 INSERT INTO Type VALUES (14,'long double','Intrinsic',0,0,'',NULL,'Referenced',1,'');
 INSERT INTO Type VALUES (8155,'GLclampf','Typedef',12,266,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8154,'GLfloat','Typedef',12,266,'','','Referenced',1,NULL);
@@ -508,7 +508,7 @@ INSERT INTO Type VALUES (8410,'XArc','Typedef',8409,94,'','','Referenced',1,NULL
 INSERT INTO Type VALUES (8406,'XPoint','Typedef',8405,94,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8405,'anon-X11/Xlib.h-760','Struct',0,94,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (6973,'div_t','Typedef',6972,256,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (6280,'double *','Pointer',13,0,'','1','Excluded',1,NULL);
+INSERT INTO Type VALUES (6280,'double *','Pointer',13,0,'','1','Excluded',1,'');
 INSERT INTO Type VALUES (6972,'anon-stdlib.h-9','Struct',0,43,'','','Excluded',1,'');
 INSERT INTO Type VALUES (8402,'XColor','Typedef',8401,5,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (8404,'XSegment','Typedef',8403,94,'','','Referenced',1,NULL);
@@ -917,7 +917,7 @@ INSERT INTO Type VALUES (9099,'siginfo_t','Typedef',9321,243,'','','Referenced',
 INSERT INTO Type VALUES (9100,'siginfo_t *','Pointer',9099,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9343,'','',0,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9317,'anon-signal.h-16','Struct',0,41,'','','Excluded',1,'');
-INSERT INTO Type VALUES (9105,'sigaltstack','Struct',0,41,'','','Excluded',1,'');
+INSERT INTO Type VALUES (9105,'sigaltstack','Struct',0,251,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9106,'sigaltstack *','Pointer',9105,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9107,'_IO_FILE','Struct',0,42,'','','SrcOnly',1,'');
 INSERT INTO Type VALUES (9108,'fpos_t','Typedef',10274,42,'','','Referenced',1,NULL);
@@ -981,7 +981,7 @@ INSERT INTO Type VALUES (9165,'tms *','Pointer',6990,0,'','','Referenced',1,NULL
 INSERT INTO Type VALUES (9166,'__loff_t','Typedef',9208,114,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9167,'loff_t','Typedef',10,114,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9168,'__id_t','Typedef',9205,45,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9169,'id_t','Typedef',7,45,'','','Referenced',1,NULL);
+INSERT INTO Type VALUES (9169,'id_t','Typedef',7,112,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9170,'__key_t','Typedef',6,114,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9171,'__blkcnt_t','Typedef',8,45,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9172,'blkcnt_t','Typedef',9,114,'','','Referenced',1,NULL);
@@ -1127,7 +1127,7 @@ INSERT INTO Type VALUES (9316,'sigstack *','Pointer',9315,0,'','','Excluded',1,N
 INSERT INTO Type VALUES (9315,'sigstack','Struct',0,41,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9312,'anon-signal.h-14','Struct',0,41,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9313,'anon-signal.h-42','Enum',0,41,'','','Excluded',1,'');
-INSERT INTO Type VALUES (9314,'stack_t','Typedef',9105,41,'','','Referenced',1,'');
+INSERT INTO Type VALUES (9314,'stack_t','Typedef',9105,251,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9318,'anon-signal.h-44','Enum',0,41,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9319,'sigval','Union',0,241,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9320,'sigval_t','Typedef',9319,241,'','','Referenced',1,'');
@@ -1781,7 +1781,7 @@ INSERT INTO Type VALUES (9971,'anon-math.h-33','Enum',0,29,'','','Excluded',1,NU
 INSERT INTO Type VALUES (9972,'anon-math.h-50','Enum',0,29,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9973,'_LIB_VERSION_TYPE','Typedef',9972,29,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9974,'float_t','Typedef',14,29,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9975,'double_t','Typedef',14,29,'','','Excluded',1,NULL);
+INSERT INTO Type VALUES (9975,'double_t','Typedef',14,29,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9976,'long double *','Pointer',14,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9977,'anon-math.h-5606','Enum',0,29,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9978,'anon-math.h-5623','Enum',0,29,'','','Excluded',1,NULL);
@@ -2750,7 +2750,7 @@ INSERT INTO Type VALUES (10965,'__priority_which','Enum',0,561,'','','Referenced
 INSERT INTO Type VALUES (10966,'const ucontext *','Pointer',10317,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10967,'gid_t *[]','Array',9909,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10968,'const gid_t *','Pointer',10993,0,'','','Referenced',0,'');
-INSERT INTO Type VALUES (10994,'__priority_which_t','Typedef',10965,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10994,'__priority_which_t','Typedef',10965,563,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10969,'__rlimit_resource_t','Typedef',6,402,'','','Referenced',1,'');
 INSERT INTO Type VALUES (10970,'const rlimit *','Pointer',10971,0,'','','Referenced',1,'');
 INSERT INTO Type VALUES (10971,'const rlimit','Const',9120,0,'','','Referenced',1,'');
@@ -2779,3 +2779,7 @@ INSERT INTO Type VALUES (10993,'const gid_t','Const',9012,0,'','','Referenced',0
 INSERT INTO Type VALUES (10995,'voidpc','Typedef',10989,425,'','','Referenced',1,'');
 INSERT INTO Type VALUES (10996,'const pthread_condattr_t','Const',9053,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10997,'const pthread_condattr_t *','Pointer',10996,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10998,'unsigned short [7]','Array',5,0,'','','Referenced',1,'');
+INSERT INTO Type VALUES (10999,'double complex','Intrinsic',0,0,'','','Indirect',1,'');
+INSERT INTO Type VALUES (11000,'long double complex','Intrinsic',0,0,'','','Indirect',1,'');
+INSERT INTO Type VALUES (11001,'float complex','Intrinsic',0,0,'','','Indirect',1,'');
