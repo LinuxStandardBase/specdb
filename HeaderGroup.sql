@@ -1,10 +1,10 @@
--- MySQL dump 9.11
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
--- ------------------------------------------------------
+---------------------------------------------------------
 
 --
--- Table structure for table `HeaderGroup`
+-- Table structure for table 'HeaderGroup'
 --
 
 DROP TABLE IF EXISTS HeaderGroup;

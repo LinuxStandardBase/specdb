@@ -1673,7 +1673,7 @@ INSERT INTO Type VALUES (9861,'itimerval','Struct',0,335,'','','Referenced',1,NU
 INSERT INTO Type VALUES (9862,'__itimer_which_t','Typedef',6,336,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9863,'itimerval *','Pointer',9861,0,'','1','Excluded',1,NULL);
 INSERT INTO Type VALUES (9864,'ntptimeval','Struct',0,299,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9865,'timex','Struct',0,299,'','','Excluded',1,'');
+INSERT INTO Type VALUES (9865,'timex','Struct',0,299,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9866,'timex *','Pointer',9865,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9867,'ntptimeval *','Pointer',9864,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9868,'voidpf','Typedef',40,425,'','','Referenced',1,'');
@@ -2785,3 +2785,11 @@ INSERT INTO Type VALUES (11000,'long double complex','Intrinsic',0,0,'','','Indi
 INSERT INTO Type VALUES (11001,'float complex','Intrinsic',0,0,'','','Indirect',1,'');
 INSERT INTO Type VALUES (11002,'const unsigned char','Const',3,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (11003,'const unsigned char *','Pointer',11002,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (11004,'__ss_aligntype','Typedef',9272,142,'','','Referenced',2,'');
+INSERT INTO Type VALUES (11005,'__ss_aligntype','Typedef',10874,142,'','','Referenced',3,'');
+INSERT INTO Type VALUES (11006,'__ss_aligntype','Typedef',9272,142,'','','Referenced',6,'');
+INSERT INTO Type VALUES (11008,'__ss_aligntype','Typedef',10876,142,'','','Referenced',9,'');
+INSERT INTO Type VALUES (11009,'__ss_aligntype','Typedef',9272,142,'','','Referenced',10,'');
+INSERT INTO Type VALUES (11010,'__ss_aligntype','Typedef',10879,142,'','','Referenced',12,'');
+INSERT INTO Type VALUES (11011,'__ss_aligntype','Typedef',10878,142,'','','Referenced',11,'');
+INSERT INTO Type VALUES (11012,'__ss_aligntype','Typedef',9272,142,'','','Referenced',8,'');

@@ -1,10 +1,10 @@
--- MySQL dump 9.11
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
--- ------------------------------------------------------
+---------------------------------------------------------
 
 --
--- Table structure for table `Module`
+-- Table structure for table 'Module'
 --
 
 DROP TABLE IF EXISTS Module;
@@ -13,8 +13,8 @@ CREATE TABLE Module (
   Mname varchar(32) NOT NULL default '',
   Mdesc varchar(255) NOT NULL default '',
   PRIMARY KEY  (Mid),
-  UNIQUE KEY Pname (Mname),
+  UNIQUE KEY Mid (Mid),
   UNIQUE KEY Pid (Mid),
-  UNIQUE KEY Mid (Mid)
+  UNIQUE KEY Pname (Mname)
 ) TYPE=MyISAM;
 

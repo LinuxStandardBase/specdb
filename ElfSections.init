@@ -1,4 +1,4 @@
-INSERT INTO ElfSections VALUES (1,'.bss',31,'This section holds uninitialized data that contribute to the program\'s memory image. By definition, the system initializes the data with zeros when the program begins to run. The section occupies no file space, as indicated by the section type, SHT_NOBITS',9,'SHF_ALLOC+SHF_WRITE',0,1);
+INSERT INTO ElfSections VALUES (1,'.bss',31,'This section holds data that contributes to the program\'s memory image. The \r\nprogram may treat this data as uninitialized. However, the system shall \r\ninitialize this data with zeroes when the program begins to run.\r\nThe section occupies no file space, as indicated by the section type, SHT_NOBITS',9,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (2,'.comment',31,'This section holds version control information.',2,'0',0,1);
 INSERT INTO ElfSections VALUES (3,'.data',31,'This section holds initialized data that contribute to the program\'s memory image.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (4,'.data1',31,'This section holds initialized data that contribute to the program\'s memory image.',2,'SHF_ALLOC+SHF_WRITE',0,1);
@@ -28,7 +28,7 @@ INSERT INTO ElfSections VALUES (29,'.ctors',10,'This section contains a list of 
 INSERT INTO ElfSections VALUES (30,'.dtors',10,'This section contains a list of global destructor function pointers.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO ElfSections VALUES (31,'.gnu.version',10,'This section contains the Symbol Version Table.',19,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (32,'.gnu.version_r',10,'This section contains the Version Requirments.',18,'SHF_ALLOC',0,1);
-INSERT INTO ElfSections VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling. The format is the same as for .debug_frame as described by <XREF LINKEND=\"std.DWARF2\">.',2,'SHF_ALLOC',0,1);
+INSERT INTO ElfSections VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling.',2,'SHF_ALLOC',0,1);
 INSERT INTO ElfSections VALUES (34,'.stab',10,'This section contains debugging information. The contents are not specified as part of the LSB.',2,'0',0,1);
 INSERT INTO ElfSections VALUES (35,'.stabstr',10,'This section contains strings associated with the debugging infomation contained in the .stab section.',4,'0',0,1);
 INSERT INTO ElfSections VALUES (37,'.got',33,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE',0,2);

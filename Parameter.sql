@@ -1,10 +1,10 @@
--- MySQL dump 9.11
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
--- ------------------------------------------------------
+---------------------------------------------------------
 
 --
--- Table structure for table `Parameter`
+-- Table structure for table 'Parameter'
 --
 
 DROP TABLE IF EXISTS Parameter;

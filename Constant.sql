@@ -1,10 +1,10 @@
--- MySQL dump 9.11
+-- MySQL dump 8.21
 --
 -- Host: localhost    Database: lsb
--- ------------------------------------------------------
+---------------------------------------------------------
 
 --
--- Table structure for table `Constant`
+-- Table structure for table 'Constant'
 --
 
 DROP TABLE IF EXISTS Constant;
