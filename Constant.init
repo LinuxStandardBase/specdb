@@ -2810,7 +2810,7 @@ INSERT INTO Constant VALUES (2810,'KEY_RIGHT','int',248,'','Yes');
 INSERT INTO Constant VALUES (2811,'KEY_HOME','int',248,'','Yes');
 INSERT INTO Constant VALUES (2812,'KEY_BACKSPACE','int',248,'','Yes');
 INSERT INTO Constant VALUES (2813,'KEY_F0','int',248,'','Yes');
-INSERT INTO Constant VALUES (2814,'KEY_F(n)','int',70,'','No');
+INSERT INTO Constant VALUES (2814,'KEY_F(n)','int',248,'','SrcOnly');
 INSERT INTO Constant VALUES (2815,'KEY_DL','int',248,'','Yes');
 INSERT INTO Constant VALUES (2816,'KEY_IL','int',248,'','Yes');
 INSERT INTO Constant VALUES (2817,'KEY_DC','int',248,'','Yes');

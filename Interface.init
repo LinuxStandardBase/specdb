@@ -701,7 +701,7 @@ INSERT INTO Interface VALUES (701,'isprint','Included','Function',5,1,14,6,1,'Ye
 INSERT INTO Interface VALUES (702,'ispunct','Included','Function',5,1,14,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (703,'isspace','Included','Function',5,1,14,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (704,'isupper','Included','Function',5,1,14,6,1,'Yes','Yes');
-INSERT INTO Interface VALUES (705,'iswblank','Included','Function',10,1,64,6,2,'Yes','No');
+INSERT INTO Interface VALUES (705,'iswblank','Included','Function',67,1,64,6,2,'Yes','No');
 INSERT INTO Interface VALUES (706,'isxdigit','Included','Function',5,1,14,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (707,'jrand48','Included','Function',5,1,43,8,1,'Yes','No');
 INSERT INTO Interface VALUES (708,'key_decryptsession','Included','Function',21,1,98,6,2,'Yes','No');
@@ -1368,7 +1368,7 @@ INSERT INTO Interface VALUES (1372,'pipe','Included','Function',5,1,62,6,1,'Yes'
 INSERT INTO Interface VALUES (1373,'poll','Included','Function',5,1,129,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1374,'putc','Included','Function',5,1,42,6,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1375,'puts','Included','Function',5,1,42,6,1,'Yes','Yes');
-INSERT INTO Interface VALUES (1376,'random','Included','Function',5,1,43,6,1,'Yes','No');
+INSERT INTO Interface VALUES (1376,'random','Included','Function',5,1,43,8,1,'Yes','No');
 INSERT INTO Interface VALUES (1387,'readdir','Included','Function',5,1,15,10180,1,'Yes','Yes');
 INSERT INTO Interface VALUES (1388,'readlink','Included','Function',5,1,62,6,1,'Yes','No');
 INSERT INTO Interface VALUES (1389,'readv','Included','Function',5,1,110,6,1,'Yes','No');
@@ -2715,7 +2715,7 @@ INSERT INTO Interface VALUES (2793,'glBindTexture','Included','Function',29,1,1,
 INSERT INTO Interface VALUES (2794,'glBitmap','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2795,'glBlendColorEXT','Excluded','Function',29,1,1,0,0,'Yes','No');
 INSERT INTO Interface VALUES (2796,'glBlendEquationEXT','Excluded','Function',29,1,1,0,0,'Yes','No');
-INSERT INTO Interface VALUES (2797,'glBlendFunc','Excluded','Function',29,1,1,0,0,'Yes','No');
+INSERT INTO Interface VALUES (2797,'glBlendFunc','Included','Function',29,1,1,0,0,'Yes','No');
 INSERT INTO Interface VALUES (2798,'glCallList','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2799,'glCallLists','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (2800,'glClear','Included','Function',29,1,1,1,0,'Yes','No');
@@ -3386,7 +3386,7 @@ INSERT INTO Interface VALUES (3464,'imaxabs','Included','Function',25,1,23,9016,
 INSERT INTO Interface VALUES (3465,'imaxdiv','Included','Function',25,1,23,6898,4,'Yes','No');
 INSERT INTO Interface VALUES (3466,'initstate_r','Defered','Function',0,1,0,6,0,'No','No');
 INSERT INTO Interface VALUES (3467,'isatty','Included','Function',5,1,62,6,1,'Yes','Yes');
-INSERT INTO Interface VALUES (3468,'isblank','Included','Function',10,1,14,6,1,'Yes','No');
+INSERT INTO Interface VALUES (3468,'isblank','Included','Function',67,1,14,6,1,'Yes','No');
 INSERT INTO Interface VALUES (3469,'isinff','Included','Function',0,1,29,6,0,'No','No');
 INSERT INTO Interface VALUES (3470,'isinfl','Included','Function',25,1,29,6,1,'Yes','No');
 INSERT INTO Interface VALUES (3471,'isnan','Included','Function',25,1,29,6,1,'Yes','No');
@@ -5749,8 +5749,8 @@ INSERT INTO Interface VALUES (6758,'glGetHistogramParameterfv','Included','Funct
 INSERT INTO Interface VALUES (6757,'glGetHistogram','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6756,'glResetHistogram','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6755,'glHistogram','Included','Function',29,1,1,1,0,'Yes','No');
-INSERT INTO Interface VALUES (6754,'glBlendColor','Excluded','Function',29,1,1,0,0,'Yes','No');
-INSERT INTO Interface VALUES (6753,'glBlendEquation','Excluded','Function',29,1,1,0,0,'Yes','No');
+INSERT INTO Interface VALUES (6754,'glBlendColor','Included','Function',29,1,1,0,0,'Yes','No');
+INSERT INTO Interface VALUES (6753,'glBlendEquation','Included','Function',29,1,1,0,0,'Yes','No');
 INSERT INTO Interface VALUES (6752,'glGetColorTableParameteriv','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6751,'glGetColorTableParameterfv','Included','Function',29,1,1,1,0,'Yes','No');
 INSERT INTO Interface VALUES (6750,'glGetColorTable','Included','Function',29,1,1,1,0,'Yes','No');

@@ -30,7 +30,7 @@ INSERT INTO ArchLib VALUES (29,2,'libcrypt.so.1');
 INSERT INTO ArchLib VALUES (29,3,'libcrypt.so.1');
 INSERT INTO ArchLib VALUES (13,6,'libm.so.6');
 INSERT INTO ArchLib VALUES (131,6,'libc.so.6');
-INSERT INTO ArchLib VALUES (229,6,'/lib/ld-lsb.so.1');
+INSERT INTO ArchLib VALUES (229,6,'/lib/ld-lsb-ppc32.so.1');
 INSERT INTO ArchLib VALUES (132,6,'libpthread.so.0');
 INSERT INTO ArchLib VALUES (27,6,'libdl.so.2');
 INSERT INTO ArchLib VALUES (29,6,'libcrypt.so.1');

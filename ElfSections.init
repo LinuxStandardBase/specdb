@@ -73,3 +73,4 @@ INSERT INTO ElfSections VALUES (77,'.opd',10,'This section holds function descri
 INSERT INTO ElfSections VALUES (78,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,9);
 INSERT INTO ElfSections VALUES (79,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,9);
 INSERT INTO ElfSections VALUES (80,'.toc1',10,'This section holds the second level TOC information',9,'SHF_ALLOC+SHF_WRITE',0,9);
+INSERT INTO ElfSections VALUES (81,'.eh_frame_hdr',10,'This section contains a pointer to the .eh_frame section which is accessible to the runtime support code of a C++ application. This section may also contain a binary search table which may be used by the runtime support code to more efficiently access records in the .eh_frame section.',2,'SHF_ALLOC',0,1);
