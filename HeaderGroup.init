@@ -227,8 +227,10 @@ INSERT INTO `HeaderGroup` VALUES (228,'Structure giving information about numeri
 INSERT INTO `HeaderGroup` VALUES (229,'Message catalog descriptor type',32,1,1,'Message catalog descriptor type');
 INSERT INTO `HeaderGroup` VALUES (230,'Type used by `nl_langinfo\'',32,2,1,'Type used by `nl_langinfo\'');
 INSERT INTO `HeaderGroup` VALUES (231,'The passwd structure.',34,1,1,'The passwd structure.');
-INSERT INTO `HeaderGroup` VALUES (232,'regexp syntax',35,1,1,'The following bits are used to determine the regexp syntax we    recognize.  The set/not-set meanings are chosen so that Emacs syntax    remains the value 0.  The bits are given in alphabetical order, and    the definitions shifted by one from the previous bit; thus, when we    add or remove a bit, only one other definition need change.');
-INSERT INTO `HeaderGroup` VALUES (233,'regex error codes',35,2,1,'regex error codes');
+INSERT INTO `HeaderGroup` VALUES (232,'reg_syntax_t',35,2,1,'');
+INSERT INTO `HeaderGroup` VALUES (581,'Socket ioctls',48,8,1,'ioctl() commands which are permitted on sockets.');
+INSERT INTO `HeaderGroup` VALUES (582,'Shutdown Flags',48,9,1,'Flags for the \'how\' argument to shutdown()');
+INSERT INTO `HeaderGroup` VALUES (233,'regex error codes',35,6,1,'regex error codes');
 INSERT INTO `HeaderGroup` VALUES (234,'Space that holds the compiled pattern',35,3,1,'');
 INSERT INTO `HeaderGroup` VALUES (235,'System specific semaphore definition',39,1,1,'System specific semaphore definition');
 INSERT INTO `HeaderGroup` VALUES (236,'Value returned if `sem_open\' failed',39,2,1,'Value returned if `sem_open\' failed');
@@ -311,7 +313,7 @@ INSERT INTO `HeaderGroup` VALUES (318,'machine-dependent HUGE_VAL value',29,3,1,
 INSERT INTO `HeaderGroup` VALUES (319,'Initializers',33,7,0,'Initializers');
 INSERT INTO `HeaderGroup` VALUES (320,'Values for attributes.',33,8,0,'Values for attributes.');
 INSERT INTO `HeaderGroup` VALUES (321,'Cancellation',33,9,0,'Cancellation');
-INSERT INTO `HeaderGroup` VALUES (322,'POSIX `cflags\' bits',35,4,1,'POSIX `cflags\' bits (i.e., information for `regcomp\').');
+INSERT INTO `HeaderGroup` VALUES (322,'POSIX `cflags\' bits',35,4,1,'Values for the cflags parameter to the regcomp() function');
 INSERT INTO `HeaderGroup` VALUES (323,'Constants used for fcntl(2)',18,3,1,'Constants used for fcntl(2)');
 INSERT INTO `HeaderGroup` VALUES (324,'Filename Matching',20,1,1,'Filename Matching');
 INSERT INTO `HeaderGroup` VALUES (325,'common mode bits',49,1,0,'common mode bits');
@@ -348,9 +350,9 @@ INSERT INTO `HeaderGroup` VALUES (355,'Default HeaderGroup for netdb.h',115,0,0,
 INSERT INTO `HeaderGroup` VALUES (356,'Default HeaderGroup for arpa/inet.h',116,0,0,'Default HeaderGroup for arpa/inet.h');
 INSERT INTO `HeaderGroup` VALUES (357,'Default HeaderGroup for netinet/in.h',117,0,0,'Default HeaderGroup for netinet/in.h');
 INSERT INTO `HeaderGroup` VALUES (358,'Default HeaderGroup for netinet/tcp.h',118,0,0,'Default HeaderGroup for netinet/tcp.h');
-INSERT INTO `HeaderGroup` VALUES (359,'Address Families',48,4,1,'');
+INSERT INTO `HeaderGroup` VALUES (359,'Address Families',48,4,1,'Address Families');
 INSERT INTO `HeaderGroup` VALUES (360,'Socket Types',48,6,1,'');
-INSERT INTO `HeaderGroup` VALUES (361,'Socket Options',48,7,1,'');
+INSERT INTO `HeaderGroup` VALUES (361,'Socket Options',48,7,1,'Socket Options');
 INSERT INTO `HeaderGroup` VALUES (362,'IPV4 addresses',117,4,1,'Address structures for IPv4');
 INSERT INTO `HeaderGroup` VALUES (363,'IPV6 addresses',117,7,1,'Address structures for IPv6');
 INSERT INTO `HeaderGroup` VALUES (364,'jmpbuf',40,3,1,'');
@@ -445,7 +447,7 @@ INSERT INTO `HeaderGroup` VALUES (454,'LC_TIME category: date and time formattin
 INSERT INTO `HeaderGroup` VALUES (455,'LC_CTYPE category',25,10,1,'LC_CTYPE category: character classification. This information is accessed by the functions in <ctype.h>.These \'nl_langinfo\' names are used only internally.');
 INSERT INTO `HeaderGroup` VALUES (456,'LC_COLLATE category',25,9,1,' LC_COLLATE category: text sorting. This information is accessed by the strcoll and strxfrm functions. These `nl_langinfo\' names are used only internally.');
 INSERT INTO `HeaderGroup` VALUES (457,'Default HeaderGroup for sys/statvfs.h',135,0,1,'');
-INSERT INTO `HeaderGroup` VALUES (458,'Protocol Families',48,5,1,'');
+INSERT INTO `HeaderGroup` VALUES (458,'Protocol Families',48,5,1,'Protocol Families');
 INSERT INTO `HeaderGroup` VALUES (459,'constants',97,5,0,'');
 INSERT INTO `HeaderGroup` VALUES (460,'Allowed flush values',97,6,0,'');
 INSERT INTO `HeaderGroup` VALUES (461,'Return codes for the compression/decompression functions.',97,7,0,'Return codes for the compression/decompression functions. Negative values are errors, positive values are used for special but normal events.');
@@ -562,3 +564,7 @@ INSERT INTO `HeaderGroup` VALUES (574,'generic macros',29,2,1,'ISO C99 defines s
 INSERT INTO `HeaderGroup` VALUES (575,'comparison macros',29,6,1,'ISO C99 defines some macros to compare number while taking care\r\n   for unordered numbers.  Since many FPUs provide special\r\n   instructions to support these operations and these tests are\r\n   defined in <bits/mathinline.h>, we define the generic macros at\r\n   this late point and only if they are not defined yet.');
 INSERT INTO `HeaderGroup` VALUES (576,'FP categories',29,1,1,'All floating-point numbers can be put in one of these categories.');
 INSERT INTO `HeaderGroup` VALUES (577,'The if_name structure',133,3,1,'');
+INSERT INTO `HeaderGroup` VALUES (578,'Default Headergroup',158,1,1,'');
+INSERT INTO `HeaderGroup` VALUES (579,'s27_2_iosfwd I/O Forward Declarations',158,2,1,'');
+INSERT INTO `HeaderGroup` VALUES (580,'POSIX `eflags\' bits',35,5,1,'Values for the eflags parameter to the regexec() function');
+INSERT INTO `HeaderGroup` VALUES (583,'rcvmgr() flags',48,10,1,'flags used in recvmsg()');

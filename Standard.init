@@ -21,7 +21,7 @@ INSERT INTO `Standard` VALUES (20,'Linux','GNU/Linux defacto standard','http://w
 INSERT INTO `Standard` VALUES (21,'SVID.3','American Telephone and Telegraph Company, System V Interface Definition, Issue 3 ; Morristown, NJ, UNIX Press, 1989.(ISBN 0201566524)','','ISBN 0201566524','Standard',1,'SVID Issue 3');
 INSERT INTO `Standard` VALUES (22,'SUS-XSH95','The Single UNIX® Specification(SUS) Version 1 (UNIX 95) System Interfaces & Headers','http://www.opengroup.org/publications/catalog/un.htm','','Unknown',1,'SUSv1 System Interfaces and Headers');
 INSERT INTO `Standard` VALUES (23,'ELF','Tool Interface Standard (TIS) Executable and Linking Format (ELF) Specification version 1.2','','','Unknown',1,'ELF Tool Interface Standard');
-INSERT INTO `Standard` VALUES (24,'zlib','zlib 1.2 Manual','http://www.gzip.org/zlib/','See','Standard',1,'zlib Manual');
+INSERT INTO `Standard` VALUES (24,'zlib','zlib 1.2 Manual','http://www.gzip.org/zlib/','See','Reference',1,'zlib Manual');
 INSERT INTO `Standard` VALUES (25,'ISOC99','ISO/IEC 9899: 1999, Programming Languages --C','','','Standard',1,'ISO C (1999)');
 INSERT INTO `Standard` VALUES (26,'SUS-XBD','CAE Specification, January 1997, System Interface Definitions (XBD),Issue 5 (ISBN: 1-85912-186-1, C605)','http://www.opengroup.org/publications/catalog/un.htm','','Unknown',1,'SUSv2 Base Definitions');
 INSERT INTO `Standard` VALUES (27,'SUS-XCU','The Single UNIX® Specification(SUS) Version 2, Commands and Utilities (XCU), Issue 5 (ISBN: 1-85912-191-8, C604)','http://www.opengroup.org/publications/catalog/un.htm','','Standard',1,'SUSv2 Command and Utilities');
@@ -86,4 +86,4 @@ INSERT INTO `Standard` VALUES (91,'RFC1951','IETF RFC 1951: DEFLATE Compressed D
 INSERT INTO `Standard` VALUES (92,'RFC1321','IETF RFC 1321: The MD5 Message-Digest Algorithm','http://www.ietf.org/rfc/rfc1321.txt','','Standard',1,'RFC 1321: The MD5 Message-Digest Algorithm');
 INSERT INTO `Standard` VALUES (93,'Devices','LINUX ALLOCATED DEVICES','http://www.lanana.org/docs/device-list/devices.txt','','Standard',1,'Linux Allocated Device Registry');
 INSERT INTO `Standard` VALUES (94,'RFC1950','IETF RFC 1950: ZLIB Compressed Data Format Specification','http://www.ietf.org/rfc/rfc1950.txt','','Standard',1,'RFC 1950: ZLIB Compressed Data Format Specication');
-INSERT INTO `Standard` VALUES (95,'ITUV42','International Telecommunication Union Recommendation V.42 (2002): Error-correcting procedures for DCEs using asynchronous-to-synchronous conversionITUV','http://www.itu.int/rec/recommendation.asp?type=folders&lang=e&parent=T-REC-V.42','','Standard',1,' ITU-T V.42');
+INSERT INTO `Standard` VALUES (95,'ITUV42','International Telecommunication Union Recommendation V.42 (2002): Error-correcting procedures for DCEs using asynchronous-to-synchronous conversionITUV','http://www.itu.int/rec/recommendation.asp?type=folders&lang=e&parent=T-REC-V.42','','Standard',1,'ITU-T V.42');
