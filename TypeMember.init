@@ -3052,3 +3052,6 @@ INSERT INTO TypeMember VALUES (34589,'appdata_ptr',40,0,0,2,'',10352,'',0);
 INSERT INTO TypeMember VALUES (34590,'msg',10362,0,0,2,'',10355,'',0);
 INSERT INTO TypeMember VALUES (34591,'resp',10363,0,0,3,'',10355,'',0);
 INSERT INTO TypeMember VALUES (34592,'appdata_ptr',40,0,0,4,'',10355,'',0);
+INSERT INTO TypeMember VALUES (34593,'',6,0,0,1,'',9384,'',0);
+INSERT INTO TypeMember VALUES (34594,'',9100,0,0,2,'',9384,'',0);
+INSERT INTO TypeMember VALUES (34595,'',40,0,0,3,'',9384,'',0);

@@ -151,3 +151,6 @@ INSERT INTO LibGroup VALUES (275,'22.2.1.3 C++ ctype specializations ctype<char>
 INSERT INTO LibGroup VALUES (274,'22.1.1 C++ Class locale',231,1,14,'');
 INSERT INTO LibGroup VALUES (271,'Default LibGroup for libstdc++.so.5',232,1,0,'Default LibGroup for libstdc++.so.5');
 INSERT INTO LibGroup VALUES (272,'Pluggable Authentication API',233,1,1,'');
+INSERT INTO LibGroup VALUES (283,'Default LibGroup for libncurses.so.5.2',234,2,0,'Default LibGroup for libncurses.so.5.2');
+INSERT INTO LibGroup VALUES (284,'Default LibGroup for libgcc_s.so.1',235,2,0,'Default LibGroup for libgcc_s.so.1');
+INSERT INTO LibGroup VALUES (285,'Unwind Library',236,1,1,'');
