@@ -452,3 +452,7 @@ INSERT INTO HeaderGroup VALUES (461,'Return codes for the compression/decompress
 INSERT INTO HeaderGroup VALUES (462,'compression levels',97,8,0,'compression levels');
 INSERT INTO HeaderGroup VALUES (463,'compression strategy',97,9,0,'compression strategy');
 INSERT INTO HeaderGroup VALUES (464,'Possible values of the data_type field',97,10,0,'Possible values of the data_type field');
+INSERT INTO HeaderGroup VALUES (465,'Default HeaderGroup for sys/vfs.h',136,0,1,'');
+INSERT INTO HeaderGroup VALUES (466,'Default HeaderGroup for stropts.h',137,0,1,'');
+INSERT INTO HeaderGroup VALUES (467,'Comment',137,1,1,'The streams interfaces are excluded from the LSB.\r\nThis empty file is needed to make the compilation environment happy.');
+INSERT INTO HeaderGroup VALUES (468,'Default HeadGroup for pty.h',138,0,1,'');

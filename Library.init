@@ -107,4 +107,5 @@ INSERT INTO Library VALUES (222,'libmediatool.so.2.0.0','libmediatool.so.2','No'
 INSERT INTO Library VALUES (223,'librt','librt.so.1','No',1);
 INSERT INTO Library VALUES (229,'proginterp','See psLSB','Yes',0);
 INSERT INTO Library VALUES (230,'libstdc++.so.4.0','libstdc++.so.4','No',1);
-INSERT INTO Library VALUES (231,'libstdcxx','libstdc++.so.4','Yes',1);
+INSERT INTO Library VALUES (231,'libstdcxx','libstdc++.so.5','Future',1);
+INSERT INTO Library VALUES (232,'libstdc++.so.5','libstdc++.so.5','No',1);

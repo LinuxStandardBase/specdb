@@ -369,7 +369,7 @@ INSERT INTO Command VALUES (371,'getconf','/usr/bin/getconf','Included',27,'Yes'
 INSERT INTO Command VALUES (372,'getent','/usr/bin/getent','Excluded',0,'No','No');
 INSERT INTO Command VALUES (373,'getkeycodes','/usr/bin/getkeycodes','Excluded',0,'No','No');
 INSERT INTO Command VALUES (374,'getopt','/usr/bin/getopt','Excluded',0,'No','No');
-INSERT INTO Command VALUES (375,'gettext','/usr/bin/gettext','Excluded',0,'No','No');
+INSERT INTO Command VALUES (375,'gettext','/usr/bin/gettext','Included',0,'No','No');
 INSERT INTO Command VALUES (376,'gfontsel','/usr/bin/gfontsel','Excluded',0,'No','No');
 INSERT INTO Command VALUES (377,'gftodvi','/usr/bin/gftodvi','Excluded',0,'No','No');
 INSERT INTO Command VALUES (378,'gftopk','/usr/bin/gftopk','Excluded',0,'No','No');

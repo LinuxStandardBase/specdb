@@ -163,3 +163,4 @@ INSERT INTO LibGroup VALUES (267,'21.3.6.5 C++ Class basic_string find_first_not
 INSERT INTO LibGroup VALUES (268,'21.3.6.6 C++ Class basic_string find_last_not_of',231,1,31,'');
 INSERT INTO LibGroup VALUES (269,'21.3.6.7 C++ Class basic_string substr',231,1,32,'');
 INSERT INTO LibGroup VALUES (270,'21.3.6.8 C++ Class basic_string compare',231,1,33,'');
+INSERT INTO LibGroup VALUES (271,'Default LibGroup for libstdc++.so.5',232,1,0,'Default LibGroup for libstdc++.so.5');

@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.51-log
+-- Server version	3.23.52-log
 
 --
 -- Table structure for table 'Interface'
@@ -12,7 +12,7 @@ DROP TABLE IF EXISTS Interface;
 CREATE TABLE Interface (
   Iid int(10) NOT NULL auto_increment,
   Iname varchar(255) binary NOT NULL default '',
-  Istatus enum('Included','Excluded','Defered','Unknown','SrcOnly') NOT NULL default 'Unknown',
+  Istatus enum('Included','Excluded','Defered','Unknown','SrcOnly','Deprecated') NOT NULL default 'Unknown',
   Itype enum('Function','Data','Alias','Common','Unknown') NOT NULL default 'Unknown',
   Istandard int(10) NOT NULL default '0',
   Iarch int(10) NOT NULL default '1',

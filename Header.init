@@ -128,3 +128,6 @@ INSERT INTO Header VALUES (132,'utmpx.h','Yes');
 INSERT INTO Header VALUES (133,'net/if.h','Yes');
 INSERT INTO Header VALUES (134,'sys/un.h','Yes');
 INSERT INTO Header VALUES (135,'sys/statvfs.h','Yes');
+INSERT INTO Header VALUES (136,'sys/vfs.h','Yes');
+INSERT INTO Header VALUES (137,'stropts.h','Yes');
+INSERT INTO Header VALUES (138,'pty.h','Yes');
