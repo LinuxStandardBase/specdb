@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.52-log
+-- Server version	3.23.53-log
 
 --
 -- Table structure for table 'TestInt'

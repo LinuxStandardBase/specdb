@@ -8,3 +8,4 @@ INSERT INTO Architecture VALUES (7,'Alpha','','__alpha__');
 INSERT INTO Architecture VALUES (8,'None','','__not_def__');
 INSERT INTO Architecture VALUES (9,'PPC64','','__powerpc64__');
 INSERT INTO Architecture VALUES (10,'S390','','__s390__');
+INSERT INTO Architecture VALUES (11,'x86_64','','__x86_64__');
