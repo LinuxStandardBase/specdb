@@ -119,8 +119,8 @@ INSERT INTO Interface VALUES (118,'__collate_symbol_hash','Excluded','Data',0,1,
 INSERT INTO Interface VALUES (119,'__collate_symbol_strings','Excluded','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (120,'__ctype32_b','Excluded','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (121,'__ctype_b','Excluded','Common',10,1,14,5689,1,'Yes','No');
-INSERT INTO Interface VALUES (122,'__ctype_tolower','Included','Data',10,1,14,9942,1,'Yes','No');
-INSERT INTO Interface VALUES (123,'__ctype_toupper','Included','Common',10,1,14,9942,1,'Yes','No');
+INSERT INTO Interface VALUES (122,'__ctype_tolower','Excluded','Data',10,1,14,9942,1,'Yes','No');
+INSERT INTO Interface VALUES (123,'__ctype_toupper','Excluded','Common',10,1,14,9942,1,'Yes','No');
 INSERT INTO Interface VALUES (124,'__curbrk','Excluded','Data',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (125,'__cxa_atexit','Included','Function',10,1,0,0,7,'Yes','No');
 INSERT INTO Interface VALUES (126,'__cxa_finalize','Excluded','Function',10,1,0,0,0,'No','No');
@@ -671,7 +671,7 @@ INSERT INTO Interface VALUES (671,'if_indextoname','Excluded','Function',67,1,0,
 INSERT INTO Interface VALUES (672,'if_nameindex','Excluded','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (673,'if_nametoindex','Excluded','Function',67,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (674,'inet_addr','Included','Function',67,1,116,9,1,'Yes','No');
-INSERT INTO Interface VALUES (675,'inet_aton','Included','Function',15,1,116,6,1,'Yes','No');
+INSERT INTO Interface VALUES (675,'inet_aton','Excluded','Function',0,1,116,6,1,'Yes','No');
 INSERT INTO Interface VALUES (676,'inet_lnaof','Excluded','Function',0,1,116,9,0,'No','No');
 INSERT INTO Interface VALUES (677,'inet_makeaddr','Excluded','Function',0,1,116,10143,0,'No','No');
 INSERT INTO Interface VALUES (678,'inet_netof','Excluded','Function',0,1,116,9,0,'No','No');
@@ -17363,7 +17363,7 @@ INSERT INTO Interface VALUES (18202,'bind_textdomain_codeset','Included','Functi
 INSERT INTO Interface VALUES (18203,'dcngettext','Included','Function',10,1,141,63,0,'No','No');
 INSERT INTO Interface VALUES (18204,'dngettext','Included','Function',10,1,141,63,0,'No','No');
 INSERT INTO Interface VALUES (18205,'fgetwc','Included','Function',67,1,64,8980,6,'Yes','No');
-INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Function',67,1,64,8980,6,'Yes','No');
+INSERT INTO Interface VALUES (18206,'fgetwc_unlocked','Included','Function',10,1,64,8980,6,'Yes','No');
 INSERT INTO Interface VALUES (18207,'fgetws','Included','Function',67,1,64,8849,6,'Yes','No');
 INSERT INTO Interface VALUES (18208,'fgetws_unlocked','Defered','Function',0,1,0,0,0,'No','No');
 INSERT INTO Interface VALUES (18209,'fmemopen','Defered','Function',0,1,0,0,0,'No','No');

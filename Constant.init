@@ -5118,3 +5118,4 @@ INSERT INTO Constant VALUES (5123,'NAN','float',317,'','Yes');
 INSERT INTO Constant VALUES (5124,'NCURSES_EXPORT(type)','macro',544,'','SrcOnly');
 INSERT INTO Constant VALUES (5125,'NCURSES_EXPORT_VAR(type)','macro',544,'','SrcOnly');
 INSERT INTO Constant VALUES (5126,'NCURSES_ATTR_SHIFT','int',546,'','Yes');
+INSERT INTO Constant VALUES (5127,'SSIZE_MAX','int',26,'Maximum value of an object of type ssize_t','Yes');
