@@ -869,9 +869,9 @@ INSERT INTO Type VALUES (9051,'pthread_cond_t','Typedef',10110,345,'','','Refere
 INSERT INTO Type VALUES (9052,'pthread_cond_t *','Pointer',9051,0,'','','Referenced',1);
 INSERT INTO Type VALUES (9053,'pthread_condattr_t','Typedef',40,345,'','','Referenced',1);
 INSERT INTO Type VALUES (9054,'pthread_condattr_t *','Pointer',9053,0,'','','Referenced',1);
-INSERT INTO Type VALUES (9055,'pthread_rwlock_t','',0,0,'','','Indirect',1);
-INSERT INTO Type VALUES (9056,'pthread_rwlock_t *','Pointer',9055,0,'','','Referenced',1);
-INSERT INTO Type VALUES (9057,'pthread_rwlockattr_t','',0,0,'','','Indirect',1);
+INSERT INTO Type VALUES (9055,'pthread_rwlock_t','Typedef',10279,431,'','','Referenced',1);
+INSERT INTO Type VALUES (9056,'pthread_rwlock_t *','Pointer',9055,33,'','','Indirect',1);
+INSERT INTO Type VALUES (9057,'pthread_rwlockattr_t','Typedef',10280,431,'','','Referenced',1);
 INSERT INTO Type VALUES (9058,'pthread_rwlockattr_t *','Pointer',9057,0,'','','Referenced',1);
 INSERT INTO Type VALUES (9059,'pthread_key_t','Typedef',7,33,'','','Referenced',1);
 INSERT INTO Type VALUES (9060,'pthread_key_t *','Pointer',9059,0,'','','Referenced',1);
@@ -2071,3 +2071,9 @@ INSERT INTO Type VALUES (10275,'anon-fpos64_t','Struct',0,42,'','','Indirect',0)
 INSERT INTO Type VALUES (10276,'__atomic_lock_t','Typedef',6,33,'','','Referenced',1);
 INSERT INTO Type VALUES (10277,'wchar_t array','Array',8848,0,'','','Referenced',0);
 INSERT INTO Type VALUES (10278,'_libc_fpstate *','Pointer',10226,0,'','','Referenced',0);
+INSERT INTO Type VALUES (10279,'_pthread_rwlock_t','Struct',0,431,'','','Indirect',1);
+INSERT INTO Type VALUES (10280,'anon-pthread_rwlockattr_t','Struct',0,431,'','','Indirect',0);
+INSERT INTO Type VALUES (10281,'utmp','Struct',0,434,'','','Referenced',1);
+INSERT INTO Type VALUES (10282,'exit_status','Struct',0,433,'','','Referenced',1);
+INSERT INTO Type VALUES (10283,'int32_t array','Array',6997,0,'','','Excluded',0);
+INSERT INTO Type VALUES (10284,'utmp *','Pointer',10281,0,'','','Referenced',0);
