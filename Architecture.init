@@ -10,3 +10,4 @@ INSERT INTO Architecture VALUES (9,'PPC64','','__powerpc64__');
 INSERT INTO Architecture VALUES (10,'S390','','__s390__ && !__s390x__');
 INSERT INTO Architecture VALUES (11,'x86-64','','__x86_64__');
 INSERT INTO Architecture VALUES (12,'S390X','','__s390x__');
+INSERT INTO Architecture VALUES (13,'M32R','','__m32r__');

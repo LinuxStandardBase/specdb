@@ -1673,7 +1673,7 @@ INSERT INTO Type VALUES (9861,'itimerval','Struct',0,335,'','','Referenced',1,NU
 INSERT INTO Type VALUES (9862,'__itimer_which_t','Typedef',6,336,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9863,'itimerval *','Pointer',9861,0,'','1','Excluded',1,NULL);
 INSERT INTO Type VALUES (9864,'ntptimeval','Struct',0,299,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9865,'timex','Struct',0,299,'','','Referenced',1,'');
+INSERT INTO Type VALUES (9865,'timex','Struct',0,299,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9866,'timex *','Pointer',9865,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9867,'ntptimeval *','Pointer',9864,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9868,'voidpf','Typedef',40,425,'','','Referenced',1,'');
@@ -2793,3 +2793,4 @@ INSERT INTO Type VALUES (11009,'__ss_aligntype','Typedef',9272,142,'','','Refere
 INSERT INTO Type VALUES (11010,'__ss_aligntype','Typedef',10879,142,'','','Referenced',12,'');
 INSERT INTO Type VALUES (11011,'__ss_aligntype','Typedef',10878,142,'','','Referenced',11,'');
 INSERT INTO Type VALUES (11012,'__ss_aligntype','Typedef',9272,142,'','','Referenced',8,'');
+INSERT INTO Type VALUES (11013,'__cxx_guard_variable','Typedef',11,0,'','','Referenced',1,'');
