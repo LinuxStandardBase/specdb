@@ -25,6 +25,8 @@ CREATE TABLE `ClassInfo` (
   `CIbasevtable` int(11) NOT NULL default '0',
   `CIlibg` int(11) NOT NULL default '0',
   `CIvtclass` tinyint(1) NOT NULL default '1',
+  `CIvtt` int(11) NOT NULL default '0',
+  `CInumvtt` int(11) NOT NULL default '0',
   PRIMARY KEY  (`CIid`),
   UNIQUE KEY `CIname` (`CIname`),
   KEY `CIlibg` (`CIlibg`)
