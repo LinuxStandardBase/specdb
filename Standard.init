@@ -33,3 +33,6 @@ INSERT INTO Standard VALUES (32,'gABI_41','System VApplication Binary Interface,
 INSERT INTO Standard VALUES (33,'IA32-ABI-4','System V Application Binary Interface - Intel386 Architecture Processor Supplement','http://www.sco.com/developer/devspecs/abi386-4.pdf','','Standard');
 INSERT INTO Standard VALUES (34,'IA64conventions','Itanium(R) Software Conventions & Runtime Architecture Guide','http://developer.intel.com/design/ia-64/downloads/245358.htm','','Standard');
 INSERT INTO Standard VALUES (35,'LFS','Large File Support','http://www.UNIX-systems.org/version2/whatsnew/lfs20mar.html','','Standard');
+INSERT INTO Standard VALUES (36,'X-shape','X Nonrectangular Window Shape Extension Library Version 1.0','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (37,'X-shm','MIT-SHM--The MIT Shared Memory Extension','http://www.x.org/','','Standard');
+INSERT INTO Standard VALUES (38,'X-dbe','Double Buffer Extension Library','http://www.x.org/','','Standard');
