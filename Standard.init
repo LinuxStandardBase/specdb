@@ -26,7 +26,7 @@ INSERT INTO Standard VALUES (25,'ISOC99','ISO/IEC 9899: 1999, Programming Langua
 INSERT INTO Standard VALUES (26,'SUS-XBD','CAE Specification, January 1997, System Interface Definitions (XBD),\r\nIssue 5 (ISBN: 1-85912-186-1, C605)','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (27,'SUS-XCU','CAE Specification, January 1997, Commands and Utilities (XCU), Issue 5 (ISBN: 1-85912-191-8, C604)','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (28,'SUS-CURSES','CAE Specification, May 1996, X/Open Curses, Issue 4, Version 2 (ISBN:  1-85912-171-3, C610), plus Corrigendum U018','http://www.opengroup.org/','','Standard');
-INSERT INTO Standard VALUES (29,'OGL','OpenGL® Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
+INSERT INTO Standard VALUES (29,'OGL','OpenGL&reg Application Binary Interface for Linux','http://oss.sgi.com/projects/ogl-sample/ABI/','','Standard');
 INSERT INTO Standard VALUES (30,'RPM','RPM Package Format V3.0','http://www.rpmdp.org/rpmbook/','','Reference');
 INSERT INTO Standard VALUES (31,'ABIUpdate','System V Application Binary Interface - DRAFT - 22 June 2000','http://www.caldera.com/developers/gabi/2000-07-17/contents.html','','Standard');
 INSERT INTO Standard VALUES (32,'gABI_41','System V Application Binary Interface, Edition 4.1','http://www.caldera.com/developers/devspecs/gabi41.pdf','','Standard');
