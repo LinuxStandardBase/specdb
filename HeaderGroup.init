@@ -547,3 +547,4 @@ INSERT INTO HeaderGroup VALUES (559,'uc_regs_ptr',123,10,1,'');
 INSERT INTO HeaderGroup VALUES (560,'math_errhandling',29,3,1,'Bitmasks for the math_errhandling macro.');
 INSERT INTO HeaderGroup VALUES (561,'priority_which',57,5,0,'The type of the WHICH argument to `getpriority\' and `setpriority\',\r\nindicating what flavor of entity the WHO argument specifies.');
 INSERT INTO HeaderGroup VALUES (562,'Priority limits.',57,4,0,'Priority limits.');
+INSERT INTO HeaderGroup VALUES (563,'priority_which defines',57,6,0,'');

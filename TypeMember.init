@@ -4139,3 +4139,11 @@ INSERT INTO TypeMember VALUES (40834,'tv_usec',6997,0,0,2,'Microseconds.',10962,
 INSERT INTO TypeMember VALUES (40835,'PRIO_PROCESS',0,0,0,1,'WHO is a process ID.',10965,'0',0,0);
 INSERT INTO TypeMember VALUES (40836,'PRIO_PGRP',0,0,0,2,'WHO is a process group ID.',10965,'1',0,0);
 INSERT INTO TypeMember VALUES (40837,'PRIO_USER',0,0,0,3,'WHO is a user ID.',10965,'2',0,0);
+INSERT INTO TypeMember VALUES (40838,'p1',10295,0,0,1,'',9008,'',0,0);
+INSERT INTO TypeMember VALUES (40839,'p2',6,0,0,2,'',9008,'',0,0);
+INSERT INTO TypeMember VALUES (40840,'p1',63,0,0,1,'',9969,'',0,0);
+INSERT INTO TypeMember VALUES (40841,'p2',63,0,0,2,'',9969,'',0,0);
+INSERT INTO TypeMember VALUES (40842,'p3',6,0,0,3,'',9969,'',0,0);
+INSERT INTO TypeMember VALUES (40843,'p1',63,0,0,1,'',9970,'',0,0);
+INSERT INTO TypeMember VALUES (40844,'p2',63,0,0,2,'',9970,'',0,0);
+INSERT INTO TypeMember VALUES (40845,'p3',6,0,0,3,'',9970,'',0,0);
