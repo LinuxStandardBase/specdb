@@ -3728,3 +3728,6 @@ INSERT INTO TypeMember VALUES (40374,'uc_mcontext',10588,0,0,3,'',10589,'',0);
 INSERT INTO TypeMember VALUES (40375,'uc_sigmask',9090,0,0,4,'',10589,'',0);
 INSERT INTO TypeMember VALUES (40376,'uc_link',10221,0,0,1,'',10589,'',0);
 INSERT INTO TypeMember VALUES (40377,'__dummy',14,0,0,2,'force 16-byte alignment',10341,'',0);
+INSERT INTO TypeMember VALUES (40378,'vtableptr',10594,0,0,1,'',10593,'',0);
+INSERT INTO TypeMember VALUES (40379,'__name',10295,0,0,2,'',10593,'',0);
+INSERT INTO TypeMember VALUES (40380,'base',10593,0,0,1,'',10595,'',0);

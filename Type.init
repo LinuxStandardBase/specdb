@@ -2384,3 +2384,6 @@ INSERT INTO Type VALUES (10589,'ucontext','Struct',0,396,'','','Indirect',10,'')
 INSERT INTO Type VALUES (10590,'ucontext_t','Typedef',10589,396,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10591,'const option','Const',10000,307,'','','Indirect',0,'');
 INSERT INTO Type VALUES (10592,'const option *','Pointer',10591,307,'','','Indirect',0,'');
+INSERT INTO Type VALUES (10593,'St9type_info','Class',0,530,'','','Referenced',1,'');
+INSERT INTO Type VALUES (10594,'vtptr','Typedef',40,0,'','','Indirect',0,'');
+INSERT INTO Type VALUES (10595,'N10__cxxabiv123__fundamental_type_info','Class',0,531,'','','Referenced',1,'');

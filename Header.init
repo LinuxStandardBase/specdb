@@ -142,3 +142,5 @@ INSERT INTO Header VALUES (146,'rpc/rpc_msg.h','Yes',131);
 INSERT INTO Header VALUES (147,'netinet/udp.h','Yes',131);
 INSERT INTO Header VALUES (148,'libgen.h','Yes',131);
 INSERT INTO Header VALUES (149,'features.h','No',131);
+INSERT INTO Header VALUES (150,'typeinfo','Yes',231);
+INSERT INTO Header VALUES (151,'cxxabi.h','Yes',231);
