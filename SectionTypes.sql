@@ -17,7 +17,7 @@ CREATE TABLE SectionTypes (
   STdescription varchar(250) default NULL,
   STarch int(11) NOT NULL default '1',
   PRIMARY KEY  (STid),
-  UNIQUE KEY k_STvalue (STvalue),
-  UNIQUE KEY k_STname (STname(20))
+  UNIQUE KEY k_STname (STname(20)),
+  UNIQUE KEY k_STvalue (STvalue)
 ) TYPE=MyISAM;
 
