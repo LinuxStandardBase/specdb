@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS Type;
 CREATE TABLE Type (
   Tid int(10) DEFAULT '0' NOT NULL auto_increment,
   Tname varchar(60) binary DEFAULT '' NOT NULL,
-  Ttype enum('Intrinsic','Pointer','Typedef','Struct','Union','Unknown') DEFAULT 'Unknown' NOT NULL,
+  Ttype enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Unknown') DEFAULT 'Unknown' NOT NULL,
   Tsize int(10) DEFAULT '0' NOT NULL,
   Tbasetype int(10),
   Theadergroup int(10) DEFAULT '0' NOT NULL,

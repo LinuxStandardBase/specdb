@@ -77,3 +77,4 @@ INSERT INTO HeaderGroup VALUES (76,'Default HeaderGroup for X11/extensions/dpms.
 INSERT INTO HeaderGroup VALUES (77,'Default HeaderGroup for X11/extensions/security.h',77,0,0,'Default HeaderGroup for X11/extensions/security.h');
 INSERT INTO HeaderGroup VALUES (78,'Default HeaderGroup for X11/extensions/ssync.h',78,0,0,'Default HeaderGroup for X11/extensions/ssync.h');
 INSERT INTO HeaderGroup VALUES (79,'Default HeaderGroup for X11/extensions/sync.h',79,0,0,'Default HeaderGroup for X11/extensions/sync.h');
+INSERT INTO HeaderGroup VALUES (80,'Default HeaderGroup for setjmph.',80,0,0,'Default HeaderGroup for setjmph.');

@@ -74,3 +74,4 @@ INSERT INTO Header VALUES (77,'X11/extensions/security.h','Yes');
 INSERT INTO Header VALUES (75,'linux/socket.h','No');
 INSERT INTO Header VALUES (76,'X11/extensions/dpms.h','Yes');
 INSERT INTO Header VALUES (79,'X11/extensions/sync.h','Yes');
+INSERT INTO Header VALUES (80,'setjmph.','No');
