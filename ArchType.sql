@@ -1,17 +1,18 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'ArchType'
 #
+
 DROP TABLE IF EXISTS ArchType;
 CREATE TABLE ArchType (
-  ATaid int(11) DEFAULT '0' NOT NULL,
-  ATtid int(11) DEFAULT '0' NOT NULL,
-  ATsize int(11) DEFAULT '0' NOT NULL,
-  UNIQUE k_AT (ATaid,ATtid)
-);
+  ATaid int(11) NOT NULL default '0',
+  ATtid int(11) NOT NULL default '0',
+  ATsize int(11) NOT NULL default '0',
+  PRIMARY KEY  (ATaid,ATtid)
+) TYPE=MyISAM;
 

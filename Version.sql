@@ -1,16 +1,17 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'Version'
 #
+
 DROP TABLE IF EXISTS Version;
 CREATE TABLE Version (
-  Vid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Vname varchar(60) binary DEFAULT '' NOT NULL,
-  PRIMARY KEY (Vid)
-);
+  Vid int(10) NOT NULL auto_increment,
+  Vname varchar(60) binary NOT NULL default '',
+  PRIMARY KEY  (Vid)
+) TYPE=MyISAM;
 

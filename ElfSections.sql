@@ -1,22 +1,23 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'ElfSections'
 #
+
 DROP TABLE IF EXISTS ElfSections;
 CREATE TABLE ElfSections (
-  ESid tinyint(3) DEFAULT '0' NOT NULL auto_increment,
-  ESname varchar(60) DEFAULT '' NOT NULL,
-  ESstandard int(10) DEFAULT '0' NOT NULL,
-  ESdescription varchar(255),
-  EStype int(10) DEFAULT '0' NOT NULL,
-  ESattributes varchar(60) DEFAULT '' NOT NULL,
-  ESSecType int(10),
-  ESarch int(11) DEFAULT '1' NOT NULL,
-  PRIMARY KEY (ESid)
-);
+  ESid tinyint(3) NOT NULL auto_increment,
+  ESname varchar(60) NOT NULL default '',
+  ESstandard int(10) NOT NULL default '0',
+  ESdescription varchar(255) default NULL,
+  EStype int(10) NOT NULL default '0',
+  ESattributes varchar(60) NOT NULL default '',
+  ESSecType int(10) default NULL,
+  ESarch int(11) NOT NULL default '1',
+  PRIMARY KEY  (ESid)
+) TYPE=MyISAM;
 

@@ -1,16 +1,17 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'VerInt'
 #
+
 DROP TABLE IF EXISTS VerInt;
 CREATE TABLE VerInt (
-  VIver int(11) DEFAULT '0' NOT NULL,
-  VIint int(11) DEFAULT '0' NOT NULL,
-  UNIQUE k_VI (VIver,VIint)
-);
+  VIver int(11) NOT NULL default '0',
+  VIint int(11) NOT NULL default '0',
+  PRIMARY KEY  (VIver,VIint)
+) TYPE=MyISAM;
 

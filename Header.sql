@@ -1,18 +1,19 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'Header'
 #
+
 DROP TABLE IF EXISTS Header;
 CREATE TABLE Header (
-  Hid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Hname varchar(60) binary DEFAULT '' NOT NULL,
-  Hstd enum('Yes','No') DEFAULT 'No' NOT NULL,
-  PRIMARY KEY (Hid),
-  UNIQUE Hname (Hname)
-);
+  Hid int(10) NOT NULL auto_increment,
+  Hname varchar(60) binary NOT NULL default '',
+  Hstd enum('Yes','No') NOT NULL default 'No',
+  PRIMARY KEY  (Hid),
+  UNIQUE KEY Hname (Hname)
+) TYPE=MyISAM;
 

@@ -1,25 +1,26 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'TypeMember'
 #
+
 DROP TABLE IF EXISTS TypeMember;
 CREATE TABLE TypeMember (
-  TMid int(10) DEFAULT '0' NOT NULL auto_increment,
-  TMname varchar(60) DEFAULT '' NOT NULL,
-  TMtypeid int(10) DEFAULT '0' NOT NULL,
-  TMsize int(10) DEFAULT '0' NOT NULL,
-  TMoffset int(10) DEFAULT '0' NOT NULL,
-  TMposition int(10) DEFAULT '0' NOT NULL,
-  TMcomment varchar(60),
-  TMmemberof int(10) DEFAULT '0' NOT NULL,
-  TMarray varchar(60),
-  TMbitfiled enum('Yes','No') DEFAULT 'No' NOT NULL,
-  PRIMARY KEY (TMid),
+  TMid int(10) NOT NULL auto_increment,
+  TMname varchar(60) NOT NULL default '',
+  TMtypeid int(10) NOT NULL default '0',
+  TMsize int(10) NOT NULL default '0',
+  TMoffset int(10) NOT NULL default '0',
+  TMposition int(10) NOT NULL default '0',
+  TMcomment varchar(60) default NULL,
+  TMmemberof int(10) NOT NULL default '0',
+  TMarray varchar(60) default NULL,
+  TMbitfiled enum('Yes','No') NOT NULL default 'No',
+  PRIMARY KEY  (TMid),
   KEY k_TMposmem (TMposition,TMmemberof)
-);
+) TYPE=MyISAM;
 

@@ -1,23 +1,24 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'Constant'
 #
+
 DROP TABLE IF EXISTS Constant;
 CREATE TABLE Constant (
-  Cid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Cname varchar(60) binary DEFAULT '' NOT NULL,
-  Cvalue varchar(60) DEFAULT '' NOT NULL,
-  Ctype enum('int','float','string','Unknown') DEFAULT 'Unknown' NOT NULL,
-  Cheadgroup int(10) DEFAULT '0' NOT NULL,
-  Carch int(10) DEFAULT '0' NOT NULL,
-  Ccomment varchar(60),
-  Cstd enum('Yes','No') DEFAULT 'No' NOT NULL,
-  UNIQUE k_c_name (Cname,Carch),
-  PRIMARY KEY (Cid)
-);
+  Cid int(10) NOT NULL auto_increment,
+  Cname varchar(60) binary NOT NULL default '',
+  Cvalue varchar(60) NOT NULL default '',
+  Ctype enum('int','float','string','Unknown') NOT NULL default 'Unknown',
+  Cheadgroup int(10) NOT NULL default '0',
+  Carch int(10) NOT NULL default '0',
+  Ccomment varchar(60) default NULL,
+  Cstd enum('Yes','No') NOT NULL default 'No',
+  PRIMARY KEY  (Cid),
+  UNIQUE KEY k_c_name (Cname,Carch)
+) TYPE=MyISAM;
 

@@ -1,20 +1,21 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'Library'
 #
+
 DROP TABLE IF EXISTS Library;
 CREATE TABLE Library (
-  Lid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Lname varchar(60) binary DEFAULT '' NOT NULL,
-  Lrunname varchar(60) binary DEFAULT '' NOT NULL,
-  Lstd enum('Yes','No') DEFAULT 'No' NOT NULL,
-  Larch int(11) DEFAULT '1' NOT NULL,
-  PRIMARY KEY (Lid),
-  UNIQUE k_lib (Lname,Lstd)
-);
+  Lid int(10) NOT NULL auto_increment,
+  Lname varchar(60) binary NOT NULL default '',
+  Lrunname varchar(60) binary NOT NULL default '',
+  Lstd enum('Yes','No') NOT NULL default 'No',
+  Larch int(11) NOT NULL default '1',
+  PRIMARY KEY  (Lid),
+  UNIQUE KEY k_lib (Lname,Lstd)
+) TYPE=MyISAM;
 

@@ -1,25 +1,26 @@
-# MySQL dump 7.1
+# MySQL dump 8.14
 #
 # Host: localhost    Database: lsb
 #--------------------------------------------------------
-# Server version	3.22.32
+# Server version	3.23.39-log
 
 #
 # Table structure for table 'Interface'
 #
+
 DROP TABLE IF EXISTS Interface;
 CREATE TABLE Interface (
-  Iid int(10) DEFAULT '0' NOT NULL auto_increment,
-  Iname varchar(255) binary DEFAULT '' NOT NULL,
-  Istatus enum('Included','Excluded','Defered','Unknown') DEFAULT 'Unknown' NOT NULL,
-  Itype enum('Function','Data','Unknown') DEFAULT 'Unknown' NOT NULL,
-  Istandard int(10) DEFAULT '0' NOT NULL,
-  Iarch int(10) DEFAULT '1' NOT NULL,
-  Iheader int(10) DEFAULT '0' NOT NULL,
-  Ireturn int(11) DEFAULT '0' NOT NULL,
-  Iversion int(11) DEFAULT '0' NOT NULL,
-  Idocumented enum('Yes','No','Unknown') DEFAULT 'Unknown' NOT NULL,
-  Itested enum('Yes','No','Unknown') DEFAULT 'Unknown' NOT NULL,
-  PRIMARY KEY (Iid)
-);
+  Iid int(10) NOT NULL auto_increment,
+  Iname varchar(255) binary NOT NULL default '',
+  Istatus enum('Included','Excluded','Defered','Unknown') NOT NULL default 'Unknown',
+  Itype enum('Function','Data','Unknown') NOT NULL default 'Unknown',
+  Istandard int(10) NOT NULL default '0',
+  Iarch int(10) NOT NULL default '1',
+  Iheader int(10) NOT NULL default '0',
+  Ireturn int(11) NOT NULL default '0',
+  Iversion int(11) NOT NULL default '0',
+  Idocumented enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  Itested enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  PRIMARY KEY  (Iid)
+) TYPE=MyISAM;
 
