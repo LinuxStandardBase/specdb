@@ -2146,7 +2146,7 @@ INSERT INTO Type VALUES (10350,'const utimbuf','Const',7023,0,'','','Referenced'
 INSERT INTO Type VALUES (10351,'const struct utmp','Const',10281,0,'','','Referenced',0);
 INSERT INTO Type VALUES (10352,'pam_conv','Struct',0,474,'','','Referenced',1);
 INSERT INTO Type VALUES (10353,'pam_handle','Struct',0,472,'','','Excluded',1);
-INSERT INTO Type VALUES (10354,'pam_handle_t','Typedef',10353,475,'','','Indirect',1);
+INSERT INTO Type VALUES (10354,'pam_handle_t','Typedef',10353,475,'','','Referenced',1);
 INSERT INTO Type VALUES (10355,'fptr-conv','FuncPtr',6,472,'','','Excluded',0);
 INSERT INTO Type VALUES (10356,'pam_message','Struct',0,475,'','','Referenced',1);
 INSERT INTO Type VALUES (10357,'pam_message *','Pointer',10356,0,'','','Referenced',1);
