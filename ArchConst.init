@@ -4171,3 +4171,7 @@ INSERT INTO ArchConst VALUES (1,5016,'ifr_ifru.ifru_ivalue');
 INSERT INTO ArchConst VALUES (1,5017,'ifr_ifru.ifru_slave');
 INSERT INTO ArchConst VALUES (1,5018,'ifr_ifru.ifru_data');
 INSERT INTO ArchConst VALUES (1,4212,'1.1.4');
+INSERT INTO ArchConst VALUES (3,1587,'66244');
+INSERT INTO ArchConst VALUES (3,3517,'4');
+INSERT INTO ArchConst VALUES (3,3518,'2');
+INSERT INTO ArchConst VALUES (3,4955,'1');

@@ -2,7 +2,7 @@
 --
 -- Host: localhost    Database: lsb
 ---------------------------------------------------------
--- Server version	3.23.51-log
+-- Server version	3.23.50-log
 
 --
 -- Table structure for table 'VerInt'
