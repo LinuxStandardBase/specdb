@@ -20,7 +20,6 @@ INSERT INTO ElfSections VALUES (19,'.init',31,'This section holds executable ins
 INSERT INTO ElfSections VALUES (20,'.interp',31,'This section holds the path name of a program interpreter. If the file has a loadable segment that includes relocation, the sections\' attributes will include the SHF_ALLOC bit; otherwise, that bit will be off. See Chapter 5 for more information.',2,'SHF_ALLOC',1,1);
 INSERT INTO ElfSections VALUES (21,'.rel.text',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .text section.',10,'0',9,2);
 INSERT INTO ElfSections VALUES (22,'.rel.data',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .data section.',10,'0',9,2);
-INSERT INTO ElfSections VALUES (24,'.plt',31,'This section holds the procedure linkage table. See ``Special Sections\'\' in Chapter 4 and ``Procedure Linkage Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_EXECINSTR',1,1);
 INSERT INTO ElfSections VALUES (25,'.rel.got',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .got section.',10,'SHF_ALLOC',9,2);
 INSERT INTO ElfSections VALUES (26,'.rel.bss',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .bss section.',10,'SHF_ALLOC',9,2);
 INSERT INTO ElfSections VALUES (27,'.rel.plt',31,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .plt section.',10,'SHF_ALLOC',9,2);
@@ -53,7 +52,7 @@ INSERT INTO ElfSections VALUES (54,'.rela.IA_64.pltoff',10,'This section holds r
 INSERT INTO ElfSections VALUES (55,'.rela.dyn',10,'This section holds relocation information, as described in ``Relocation\'\'. These relocations are applied to the .dyn section.',5,'SHF_ALLOC',9,3);
 INSERT INTO ElfSections VALUES (56,'.got',64,'This section holds the global offset table. See ``Coding Examples\'\' in Chapter 3, ``Special Sections\'\' in Chapter 4, and ``Global Offset Table\'\' in Chapter 5 of the processor supplement for more information.',2,'SHF_ALLOC+SHF_WRITE',2,6);
 INSERT INTO ElfSections VALUES (57,'.plt',64,'This section holds the Procedure Linkage Table',9,'SHF_ALLOC+SHF_WRITE+SHF_EXECINSTR',9,6);
-INSERT INTO ElfSections VALUES (58,'.sdata',64,'This section holds initialized small data that contribute to the program memory image',9,'SHF_ALLOC+SHF_WRITE',9,6);
+INSERT INTO ElfSections VALUES (58,'.sdata',64,'This section holds initialized small data that contribute to the program memory image',2,'SHF_ALLOC+SHF_WRITE',2,6);
 INSERT INTO ElfSections VALUES (59,'.sbss',64,'This section holds uninitialized small data that contribute to the program memory image. The system sets the data to zero when the program begins to run.',9,'SHF_ALLOC+SHF_WRITE',9,6);
 INSERT INTO ElfSections VALUES (60,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',5,6);
 INSERT INTO ElfSections VALUES (61,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',5,6);
