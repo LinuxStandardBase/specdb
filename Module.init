@@ -1,2 +1,2 @@
-INSERT INTO Module VALUES (1,'LSB-Core','Core LSB Specification');
-INSERT INTO Module VALUES (2,'LSB-Graphics','Graphics libraries Module');
+INSERT INTO `Module` VALUES (1,'LSB-Core','Core LSB Specification');
+INSERT INTO `Module` VALUES (2,'LSB-Graphics','Graphics libraries Module');

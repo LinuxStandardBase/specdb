@@ -7,13 +7,13 @@
 -- Table structure for table `Vtable`
 --
 
-DROP TABLE IF EXISTS Vtable;
-CREATE TABLE Vtable (
-  VTcid int(11) NOT NULL default '0',
-  VTpos int(11) NOT NULL default '0',
-  VTviid int(11) NOT NULL default '0',
-  VTarch int(11) NOT NULL default '2',
-  PRIMARY KEY  (VTcid,VTpos,VTarch),
-  KEY VTcid (VTcid)
+DROP TABLE IF EXISTS `Vtable`;
+CREATE TABLE `Vtable` (
+  `VTcid` int(11) NOT NULL default '0',
+  `VTpos` int(11) NOT NULL default '0',
+  `VTviid` int(11) NOT NULL default '0',
+  `VTarch` int(11) NOT NULL default '2',
+  PRIMARY KEY  (`VTcid`,`VTpos`,`VTarch`),
+  KEY `VTcid` (`VTcid`)
 ) TYPE=MyISAM;
 
