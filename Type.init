@@ -941,7 +941,7 @@ INSERT INTO Type VALUES (9125,'rusage','Struct',0,404,'','','Referenced',1,NULL)
 INSERT INTO Type VALUES (9126,'rusage *','Pointer',9125,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9127,'enum __priority_which','',0,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9128,'sembuf *','Pointer',6982,0,'','','Referenced',1,NULL);
-INSERT INTO Type VALUES (9129,'shmid_ds','Struct',0,406,'','','Referenced',2,NULL);
+INSERT INTO Type VALUES (9129,'shmid_ds','Struct',0,406,'','','Referenced',2,'');
 INSERT INTO Type VALUES (9130,'shmid_ds *','Pointer',9129,0,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9131,'anon-sys/socket.h-13','Enum',0,48,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9132,'sockaddr *','Pointer',6906,0,'','','Excluded',1,NULL);
@@ -1934,8 +1934,8 @@ INSERT INTO Type VALUES (10125,'addrinfo','Struct',0,482,'','','Referenced',1,NU
 INSERT INTO Type VALUES (10126,'addrinfo *','Pointer',10125,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (10127,'addrinfo * *','Pointer',10126,0,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (10128,'ipc_perm','Struct',0,49,'','','Referenced',2,NULL);
-INSERT INTO Type VALUES (10129,'shminfo','Struct',0,51,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (10130,'shm_info','Struct',0,51,'','','Excluded',1,NULL);
+INSERT INTO Type VALUES (10129,'shminfo','Struct',0,51,'','','Excluded',1,'');
+INSERT INTO Type VALUES (10130,'shm_info','Struct',0,51,'','','Excluded',1,'');
 INSERT INTO Type VALUES (10131,'fd_mask','Typedef',8,45,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10132,'anon-sys/select.h-9','Struct',0,353,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (10134,'servent','Struct',0,355,'','','Referenced',1,NULL);
@@ -2004,7 +2004,7 @@ INSERT INTO Type VALUES (10208,'timer_t','Typedef',6,45,'','','Referenced',1,NUL
 INSERT INTO Type VALUES (10209,'clockid_t','Typedef',6,45,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10210,'rlim_t','Typedef',9,402,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10211,'semid_ds','Struct',0,47,'','','Referenced',2,NULL);
-INSERT INTO Type VALUES (10212,'shmatt_t','Typedef',9,405,'','','Referenced',2,NULL);
+INSERT INTO Type VALUES (10212,'shmatt_t','Typedef',9,405,'','','Referenced',2,'');
 INSERT INTO Type VALUES (10213,'msgqnum_t','Typedef',9,373,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10214,'msglen_t','Typedef',9,373,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (10215,'cc_t array','Array',10206,0,'','','Indirect',1,NULL);
@@ -2129,8 +2129,8 @@ INSERT INTO Type VALUES (10332,'anon-ia64context','Union',0,0,'','','Indirect',3
 INSERT INTO Type VALUES (10333,'anon-ia64context-padlink','Struct',0,0,'','','Indirect',3,NULL);
 INSERT INTO Type VALUES (10334,'ia64ucontext *','Pointer',10330,0,'','','Referenced',3,NULL);
 INSERT INTO Type VALUES (10335,'ucontext_t','Typedef',10219,396,'','','Referenced',6,NULL);
-INSERT INTO Type VALUES (10336,'shmid_ds','Struct',0,406,'','','Referenced',3,NULL);
-INSERT INTO Type VALUES (10337,'shmid_ds','Struct',0,406,'','','Referenced',6,NULL);
+INSERT INTO Type VALUES (10336,'shmid_ds','Struct',0,406,'','','Referenced',3,'');
+INSERT INTO Type VALUES (10337,'shmid_ds','Struct',0,406,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10338,'ia64_fpreg','Struct',0,400,'','','Referenced',3,'(aligned (16))');
 INSERT INTO Type VALUES (10339,'','Array',10338,0,'','','Referenced',0,NULL);
 INSERT INTO Type VALUES (10340,'ia64_fpreg array','Array',10338,0,'','','Referenced',3,'');
@@ -2235,7 +2235,7 @@ INSERT INTO Type VALUES (10439,'bool','Typedef',6,514,'','','Referenced',3,'');
 INSERT INTO Type VALUES (10440,'bool','Typedef',6,514,'','','Referenced',9,'');
 INSERT INTO Type VALUES (10441,'bool','Typedef',6,514,'','','Referenced',10,'');
 INSERT INTO Type VALUES (10442,'char array 2','Array',2,0,'','','Indirect',1,NULL);
-INSERT INTO Type VALUES (10443,'shmatt_t','Typedef',9,405,'','','Referenced',6,NULL);
+INSERT INTO Type VALUES (10443,'shmatt_t','Typedef',9,405,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10444,'const wchar_t','Const',8848,0,'','','Indirect',0,'');
 INSERT INTO Type VALUES (10445,'const wchar_t *','Pointer',10444,0,'','','Referenced',0,'');
 INSERT INTO Type VALUES (10446,'const mbstate_t','Const',9235,0,'','','Referenced',0,'');
@@ -2247,4 +2247,5 @@ INSERT INTO Type VALUES (10451,'size_t','Typedef',9,347,'','','Referenced',3,'')
 INSERT INTO Type VALUES (10452,'size_t','Typedef',7,347,'','','Referenced',6,'');
 INSERT INTO Type VALUES (10453,'size_t','Typedef',9,347,'','','Referenced',9,'');
 INSERT INTO Type VALUES (10454,'size_t','Typedef',9,347,'','','Referenced',10,'');
-INSERT INTO Type VALUES (10455,'','Intrinsic',0,0,'','','Referenced',0,'');
+INSERT INTO Type VALUES (10456,'shmatt_t','Typedef',9,405,'','','Referenced',10,'');
+INSERT INTO Type VALUES (10457,'shmid_ds','Struct',0,406,'','','Referenced',10,'');
