@@ -27,4 +27,4 @@ restore::
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		mysql $(DBOPTS) $$LSBDB <$$table.init; \
 	done'
-	mysql $(DBOPTS) lsb <dbperms.sql;
+	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
