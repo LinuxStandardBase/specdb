@@ -61,3 +61,5 @@ INSERT INTO DynamicEntries VALUES (60,'DT_PLTGOT','3',64,'This entry\'s d_ptr me
 INSERT INTO DynamicEntries VALUES (61,'DT_JMPREL','23',64,'This entry is associated with a table of relocation entries for the procedure linkage table. This entry is mandatory both for executable and shared object files',6,'Included');
 INSERT INTO DynamicEntries VALUES (62,'DT_RELACOUNT','0x6ffffff9',10,'The number of relative relocations in .rela.dyn',6,'Included');
 INSERT INTO DynamicEntries VALUES (63,'DT_RELACOUNT','0x6ffffff9',10,'The number of relative relocations in .rela.dyn',9,'Included');
+INSERT INTO DynamicEntries VALUES (64,'DT_JMPREL','23',68,'This entry is associated with a table of relocation entries for the procedure linkage table. This entry is mandatory both for executable and shared object files',3,'Included');
+INSERT INTO DynamicEntries VALUES (65,'DT_PLTGOT','3',74,'This entry\'s d_ptr member gives the address of the first byte in the procedure linkage table',3,'Included');
