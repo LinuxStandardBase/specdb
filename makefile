@@ -13,7 +13,7 @@ dump::
 	do \
 		set +e; \
 		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table >$$table.sql;\
+		mysqldump --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
 		mysqldump $(DBOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
 	done
 
