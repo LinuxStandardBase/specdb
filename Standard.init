@@ -72,3 +72,4 @@ INSERT INTO Standard VALUES (76,'DWARF2','DWARF Debugging Information Format, Re
 INSERT INTO Standard VALUES (77,'RFC2440','RFC 2440: OpenPGP Message Format','','','Standard',1);
 INSERT INTO Standard VALUES (78,'S390X ABI','LINUX for zSeries Application Binary Interface Supplement','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12);
 INSERT INTO Standard VALUES (79,'S390X Arch','z/Architecture Principles of Operation','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12);
+INSERT INTO Standard VALUES (80,'x86-64-ABI-1','System V Application Binary Interface x86-64&#153 Architecture Processor Supplement, Draft Version 0.21','','','Standard',11);

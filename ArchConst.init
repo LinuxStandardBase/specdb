@@ -4509,3 +4509,4 @@ INSERT INTO ArchConst VALUES (1,5119,'((p) & LOG_PRIMASK)');
 INSERT INTO ArchConst VALUES (1,5120,'(((fac) << 3) | (pri))');
 INSERT INTO ArchConst VALUES (1,5121,'0x03f8');
 INSERT INTO ArchConst VALUES (1,5122,'(((p) & LOG_FACMASK) >> 3)');
+INSERT INTO ArchConst VALUES (0,4378,'0');

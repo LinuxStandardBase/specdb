@@ -56,3 +56,8 @@ INSERT INTO ArchLib VALUES (29,12,'libcrypt.so.1');
 INSERT INTO ArchLib VALUES (131,12,'libc.so.6');
 INSERT INTO ArchLib VALUES (132,12,'libpthread.so.0');
 INSERT INTO ArchLib VALUES (229,12,'/lib64/ld-lsb-s390x.so.1');
+INSERT INTO ArchLib VALUES (131,11,'libc.so.6');
+INSERT INTO ArchLib VALUES (29,11,'libcrypt.so.1');
+INSERT INTO ArchLib VALUES (27,11,'libdl.so.2');
+INSERT INTO ArchLib VALUES (13,11,'libm.so.6');
+INSERT INTO ArchLib VALUES (132,11,'libpthread.so.0');
