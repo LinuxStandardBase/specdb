@@ -76,3 +76,5 @@ INSERT INTO Library VALUES (188,'libpwdb.so.0.61','libpwdb.so.0','No');
 INSERT INTO Library VALUES (189,'libsnmp.so.0.4.1.1','libsnmp.so.0','No');
 INSERT INTO Library VALUES (190,'libnsl-2.1.3.so','libnsl.so.1','No');
 INSERT INTO Library VALUES (191,'libXIE.so.6.0','libXIE.so.6','No');
+INSERT INTO Library VALUES (192,'libbfd-2.9.5.0.22.so','libbfd.so','No');
+INSERT INTO Library VALUES (193,'foo','foo','No');
