@@ -1,6 +1,6 @@
 INSERT INTO Standard VALUES (1,'Unknown','Unknown','','','Unknown');
 INSERT INTO Standard VALUES (2,'ISOC90','ISO/IEC 9899: 1990, Programming Languages --C.','','','Standard');
-INSERT INTO Standard VALUES (3,'POSIX.1','IEEE Std POSIX.1-1990 (ISO/IEC 9945-1)','http://www.ieee.org',NULL,'Standard');
+INSERT INTO Standard VALUES (3,'POSIX.1','IEEE Std POSIX.1-1996 [ISO/IEC 9945-1:1996]','http://www.ieee.org','','Standard');
 INSERT INTO Standard VALUES (4,'XPG4','X/Open Portability Guide, Issue 4','http://www.opengroup.org',NULL,'Standard');
 INSERT INTO Standard VALUES (5,'SUS-XSH','CAE Specification, January 1997, System Interfaces and Headers (XSH),\nIssue 5 (ISBN: 1-85912-181-0, C606)','http://www.opengroup.org/','','Standard');
 INSERT INTO Standard VALUES (6,'POSIX.2','IEEE Std POSIX 1003.2-1992 (ISO/IEC 9945-2:1993)','http://www.ieee.org',NULL,'Standard');
