@@ -20,6 +20,6 @@ CREATE TABLE Type (
   Tstatus enum('Referenced','Indirect','Excluded','SrcOnly','Conly') NOT NULL default 'Excluded',
   Tarch int(11) NOT NULL default '1',
   PRIMARY KEY  (Tid),
-  UNIQUE KEY Tnamearch (Tname,Tarch)
+  UNIQUE KEY Tnamearch (Tname,Tarch,Ttype)
 ) TYPE=MyISAM;
 

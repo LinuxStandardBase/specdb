@@ -137,3 +137,4 @@ INSERT INTO Header VALUES (141,'libintl.h','Yes',131);
 INSERT INTO Header VALUES (142,'security/pam_appl.h','Yes',233);
 INSERT INTO Header VALUES (143,'unwind.h','SrcOnly',236);
 INSERT INTO Header VALUES (144,'strings.h','SrcOnly',0);
+INSERT INTO Header VALUES (145,'rpc/types.h','Yes',131);
