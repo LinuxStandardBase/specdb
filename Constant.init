@@ -1678,7 +1678,7 @@ INSERT INTO Constant VALUES (1677,'_SYS_SEM_H','int',47,'','No');
 INSERT INTO Constant VALUES (1678,'_SYS_IPC_H','int',49,'','No');
 INSERT INTO Constant VALUES (1679,'_SYS_MSG_H','int',50,'','No');
 INSERT INTO Constant VALUES (1680,'_SYS_SHM_H','int',51,'','No');
-INSERT INTO Constant VALUES (1681,'SHMLBA','Unknown',51,'','Yes');
+INSERT INTO Constant VALUES (1681,'SHMLBA','int',51,'','Yes');
 INSERT INTO Constant VALUES (1682,'_SYS_STAT_H','int',52,'','No');
 INSERT INTO Constant VALUES (1683,'S_IFMT','int',52,'','Yes');
 INSERT INTO Constant VALUES (1684,'S_IFDIR','int',52,'','Yes');

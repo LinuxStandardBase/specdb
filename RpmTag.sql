@@ -18,8 +18,8 @@ CREATE TABLE RpmTag (
   Rstatus enum('Required','Optional','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
   Rdescription text NOT NULL,
   PRIMARY KEY  (Rid),
-  UNIQUE KEY Rname (Rname),
   UNIQUE KEY Rid (Rid),
+  UNIQUE KEY Rname (Rname),
   KEY Rtag (Rtag)
 ) TYPE=MyISAM;
 
