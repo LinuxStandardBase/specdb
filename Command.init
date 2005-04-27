@@ -1005,7 +1005,7 @@ INSERT INTO `Command` VALUES (1013,'pwd','/bin/pwd','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (1014,'rm','/bin/rm','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (1015,'rmdir','/bin/rmdir','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (1016,'sed','/bin/sed','Included',10,'Yes','No');
-INSERT INTO `Command` VALUES (1017,'sh','/bin/sh','Included',67,'Yes','No');
+INSERT INTO `Command` VALUES (1017,'sh','/bin/sh','Included',10,'Yes','No');
 INSERT INTO `Command` VALUES (1018,'sleep','/bin/sleep','Included',67,'Yes','No');
 INSERT INTO `Command` VALUES (1019,'su','/bin/su','Included',10,'Yes','No');
 INSERT INTO `Command` VALUES (1020,'sync','/bin/sync','Included',10,'Yes','No');

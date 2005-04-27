@@ -60,7 +60,7 @@ INSERT INTO `LibGroup` VALUES (445,'Class _ZNSt19istreambuf_iteratorIcSt11char_t
 INSERT INTO `LibGroup` VALUES (451,'C++ Runtime Support',231,1,1,'');
 INSERT INTO `LibGroup` VALUES (450,'Class _ZNSt6gsliceE',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (448,'Class _ZNSt12__basic_fileIcEE',231,1,10,'');
-INSERT INTO `LibGroup` VALUES (449,'Class _ZNSt24__default_alloc_templateILb1ELi0EEE',231,1,10,'');
+INSERT INTO `LibGroup` VALUES (462,'Class _ZNSt15_List_node_baseE',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (447,'Class _ZNSt8valarrayIjEE',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (444,'Class _ZNSaIwEE',231,1,5,'');
 INSERT INTO `LibGroup` VALUES (425,'struct numeric_limits<unsigned char>',231,1,2,'');
@@ -85,9 +85,9 @@ INSERT INTO `LibGroup` VALUES (315,'Class _ZN9__gnu_cxx13stdio_filebufIcSt11char
 INSERT INTO `LibGroup` VALUES (316,'Class _ZN9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (317,'Class _ZNSt6locale5facetE',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (318,'Class _ZNSt8ios_base7failureE',231,1,10,'');
-INSERT INTO `LibGroup` VALUES (319,'Class _ZSdE',231,1,10,'');
-INSERT INTO `LibGroup` VALUES (320,'Class _ZSiE',231,1,10,'');
-INSERT INTO `LibGroup` VALUES (321,'Class _ZSoE',231,1,10,'');
+INSERT INTO `LibGroup` VALUES (319,'Class _ZSd',231,1,10,'');
+INSERT INTO `LibGroup` VALUES (320,'Class _ZSi',231,1,10,'');
+INSERT INTO `LibGroup` VALUES (321,'Class _ZSo',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (322,'Class _ZSt10__num_base',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (323,'Class _ZSt10bad_typeid',231,1,10,'');
 INSERT INTO `LibGroup` VALUES (324,'Class _ZSt10ctype_base',231,1,10,'');
@@ -193,5 +193,6 @@ INSERT INTO `LibGroup` VALUES (454,'Realtime Threads',132,1,2,'');
 INSERT INTO `LibGroup` VALUES (455,'Advanced Realtime Threads',132,1,3,'');
 INSERT INTO `LibGroup` VALUES (456,'Default LibGroup for libstdcxx6',237,1,0,'');
 INSERT INTO `LibGroup` VALUES (457,'C++ Unsorted Interfaces',231,1,1,'');
+INSERT INTO `LibGroup` VALUES (461,'X Extended Visual Interface Extension',18,1,8,'');
 INSERT INTO `LibGroup` VALUES (459,'Clock',223,1,2,'');
 INSERT INTO `LibGroup` VALUES (460,'Timers',223,1,3,'');

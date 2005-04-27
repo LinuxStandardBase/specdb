@@ -580,3 +580,6 @@ INSERT INTO `HeaderGroup` VALUES (593,'floating-point environment',160,5,1,'Type
 INSERT INTO `HeaderGroup` VALUES (594,'Default Environment',160,6,1,'If the default argument is used we use this value.');
 INSERT INTO `HeaderGroup` VALUES (595,'POSIX Threads values',26,6,1,'POSIX Threads values');
 INSERT INTO `HeaderGroup` VALUES (596,'exception masks',160,2,1,'');
+INSERT INTO `HeaderGroup` VALUES (597,'Constants',161,1,1,'');
+INSERT INTO `HeaderGroup` VALUES (598,'ExtendedVisualInfo',161,2,1,'');
+INSERT INTO `HeaderGroup` VALUES (599,'Default HeaderGroup for XEVI.h',161,0,1,'');

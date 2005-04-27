@@ -68,7 +68,7 @@ INSERT INTO `Standard` VALUES (72,'PPC64 Arch Chg3','The PowerPC Architecture Bo
 INSERT INTO `Standard` VALUES (73,'RFC1952','IETF RFC 1952: GZIP file format specification version 4.3','http://www.ietf.org/rfc/rfc1952.txt','','Standard',1,'RFC 1952: GZIP File Format Specification');
 INSERT INTO `Standard` VALUES (74,'S390 ABI','LINUX for S/390 ELF Application Binary Interface Supplement','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',10,'LINUX for S/390 ELF Application Binary Interface Supplement');
 INSERT INTO `Standard` VALUES (75,'S390 Arch','Enterprise Systems Architecture/390 Principles of Operation','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',10,'Enterprise Systems Architecture/390 Principles of Operation');
-INSERT INTO `Standard` VALUES (76,'DWARF2','DWARF Debugging Information Format, Revision 2.0.0 (July 27, 1993)','http://www.eagercon.com/dwarf/dwarf-2.0.0.pdf','','Standard',1,'DWARF Debugging Information Format');
+INSERT INTO `Standard` VALUES (76,'DWARF2','DWARF Debugging Information Format, Revision 2.0.0 (July 27, 1993)','http://www.eagercon.com/dwarf/dwarf-2.0.0.pdf','','Standard',1,'DWARF Debugging Information Format, Revision 2.0.0');
 INSERT INTO `Standard` VALUES (77,'RFC2440','IETF RFC 2440: OpenPGP Message Format','http://www.ietf.org/rfc/rfc2440.txt','','Standard',1,'RFC 2440: OpenPGP Message Format');
 INSERT INTO `Standard` VALUES (78,'S390X ABI','LINUX for zSeries Application Binary Interface Supplement','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12,'LINUX for zSeries Application Binary Interface Supplement');
 INSERT INTO `Standard` VALUES (79,'S390X Arch','z/Architecture Principles of Operation','http://oss.software.ibm.com/linux390/documentation-2.2.shtml','','Standard',12,'z/Architecture Principles of Operation');
@@ -96,3 +96,4 @@ INSERT INTO `Standard` VALUES (101,'TR14652','ISO/IEC Technical Report 14652:200
 INSERT INTO `Standard` VALUES (102,'RFC791','IETF RFC 791: Internet Protocol Specification','http://www.ietf.org/rfc/rfc791.txt','','Standard',1,'RFC 791:Internet Protocol');
 INSERT INTO `Standard` VALUES (103,'RFC2822','IETF RFC 2822: Internet Message Format','http://www.ietf.org/rfc/rfc2822.txt','','Standard',1,'RFC 2822:Internet Message Format');
 INSERT INTO `Standard` VALUES (104,'RFC2821','IETF RFC 2821: Simple Mail Transfer Protocol','http://www.ietf.org/rfc/rfc2821.txt','','Standard',1,'RFC 2821:Simple Mail Transfer Protocol');
+INSERT INTO `Standard` VALUES (105,'X-evi','X Extended Visual Interface Extension','http://www.x.org/','','Standard',1,'X Extended Visual Interface Extension');

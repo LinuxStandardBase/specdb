@@ -2823,8 +2823,8 @@ INSERT INTO `Type` VALUES (11040,'fenv_t','Typedef',13,593,'','','Referenced',6,
 INSERT INTO `Type` VALUES (11041,'fenv_t','Typedef',13,593,'','','Referenced',9,'');
 INSERT INTO `Type` VALUES (11042,'fenv_t','Typedef',9,593,'','','Referenced',3,'');
 INSERT INTO `Type` VALUES (11043,'fexcept_t','Typedef',9,592,'','','Referenced',3,'');
-INSERT INTO `Type` VALUES (11044,'fenv_t','Typedef',7,593,'','','Referenced',10,'');
-INSERT INTO `Type` VALUES (11045,'fenv_t','Typedef',7,593,'','','Referenced',12,'');
+INSERT INTO `Type` VALUES (11044,'fenv_t','Typedef',11066,593,'','','Referenced',10,'');
+INSERT INTO `Type` VALUES (11045,'fenv_t','Typedef',11066,593,'','','Referenced',12,'');
 INSERT INTO `Type` VALUES (11046,'fexcept_t','Typedef',7,592,'','','Referenced',6,'');
 INSERT INTO `Type` VALUES (11047,'fexcept_t','Typedef',7,592,'','','Referenced',9,'');
 INSERT INTO `Type` VALUES (11048,'fenv_t','Typedef',11039,593,'','','Referenced',2,'');
@@ -2845,3 +2845,9 @@ INSERT INTO `Type` VALUES (11062,'itimerspec *','Pointer',10101,60,'','','Indire
 INSERT INTO `Type` VALUES (11063,'const itimerspec','Const',10101,60,'','','Indirect',0,'');
 INSERT INTO `Type` VALUES (11064,'const itimerspec *','Pointer',11063,60,'','','Indirect',0,'');
 INSERT INTO `Type` VALUES (11065,'clockid_t *','Pointer',10209,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11066,'anon_fenv_tf','Struct',0,593,'','','Indirect',10,'');
+INSERT INTO `Type` VALUES (11067,'anon-ExtendedVisualInfo;','Struct',0,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11068,'ExtendedVisualInfo;','Typedef',11067,598,'','','Referenced',1,'');
+INSERT INTO `Type` VALUES (11069,'VisualID *','Pointer',8174,0,'','','Referenced',0,'');
+INSERT INTO `Type` VALUES (11070,'ExtendedVisualInfo *','Pointer',11068,0,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (11071,'ExtendedVisualInfo **','Pointer',11070,0,'','','Indirect',0,'');

@@ -4188,3 +4188,14 @@ INSERT INTO `TypeMember` VALUES (40887,'__data_offset',7,0,0,11,'',11059,'',0,0)
 INSERT INTO `TypeMember` VALUES (40888,'__data_selector',5,0,0,12,'',11059,'',0,0);
 INSERT INTO `TypeMember` VALUES (40889,'__unused5',5,0,0,13,'',11059,'',0,0);
 INSERT INTO `TypeMember` VALUES (40890,'__mxcsr',7,0,0,14,'',11059,'',0,0);
+INSERT INTO `TypeMember` VALUES (40891,'fpc',11053,0,0,1,'',11066,'',0,0);
+INSERT INTO `TypeMember` VALUES (40892,'ieee_instruction_pointer',40,0,0,2,'',11066,'',0,0);
+INSERT INTO `TypeMember` VALUES (40893,'core_visual_id',8174,0,0,1,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40894,'screen',6,0,0,2,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40895,'level',6,0,0,3,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40896,'transparency_type',7,0,0,4,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40897,'transparency_value',7,0,0,5,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40898,'min_hw_colormaps',7,0,0,6,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40899,'max_hw_colormaps',7,0,0,7,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40900,'num_colormap_conflicts',7,0,0,8,'',11067,'',0,0);
+INSERT INTO `TypeMember` VALUES (40901,'colormap_conflicts',11069,0,0,9,'',11067,'',0,0);
