@@ -20,3 +20,4 @@ INSERT INTO `Library` VALUES (231,'libstdcxx','libstdc++.so.6','Yes',1);
 INSERT INTO `Library` VALUES (233,'libpam','libpam.so.0','Yes',1);
 INSERT INTO `Library` VALUES (236,'libgcc_s','libgcc_s.so.1','Yes',1);
 INSERT INTO `Library` VALUES (237,'libstdcxx6','libstdc++.so.6','Yes',1);
+INSERT INTO `Library` VALUES (238,'libXi','libXi.so.6','Yes',1);
