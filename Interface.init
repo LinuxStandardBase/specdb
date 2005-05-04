@@ -10555,13 +10555,13 @@ INSERT INTO `Interface` VALUES (29961,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refil
 INSERT INTO `Interface` VALUES (29962,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refillEm','Included','Function',10,3,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29963,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refillEj','Included','Function',10,2,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29964,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refillEj','Included','Function',10,6,0,0,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (29965,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refillEj','Included','Function',10,10,0,0,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (29965,'_ZN9__gnu_cxx17__pool_alloc_base9_M_refillEm','Included','Function',10,10,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29966,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEm','Included','Function',10,3,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29967,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEm','Included','Function',10,11,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29968,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEm','Included','Function',10,12,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29969,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEj','Included','Function',10,2,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29970,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEj','Included','Function',10,6,0,0,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (29971,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEj','Included','Function',10,10,0,0,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (29971,'_ZN9__gnu_cxx17__pool_alloc_base16_M_get_free_listEm','Included','Function',10,10,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29972,'XAllowDeviceEvents','Included','Function',17,1,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29973,'XChangeDeviceControl','Included','Function',17,1,0,0,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (29974,'XChangeDeviceDontPropagateList','Included','Function',17,1,0,0,0,'Yes','No','none','');

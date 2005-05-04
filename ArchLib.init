@@ -101,4 +101,4 @@ INSERT INTO `ArchLib` VALUES (130,10,'libutil.so.1');
 INSERT INTO `ArchLib` VALUES (130,12,'libutil.so.1');
 INSERT INTO `ArchLib` VALUES (130,11,'libutil.so.1');
 INSERT INTO `ArchLib` VALUES (223,1,'librt.so.1');
-INSERT INTO `ArchLib` VALUES (238,1,'ibXi.so.6');
+INSERT INTO `ArchLib` VALUES (238,1,'libXi.so.6');
