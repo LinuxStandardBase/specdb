@@ -2093,7 +2093,7 @@ INSERT INTO `Type` VALUES (10297,'const char []','Const',10194,0,'','','Referenc
 INSERT INTO `Type` VALUES (10298,'char * const []','Array',10305,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (10299,'sigcontext','Struct',0,401,'','','Referenced',3,'');
 INSERT INTO `Type` VALUES (10300,'sigcontext','Struct',0,401,'','','Referenced',6,'');
-INSERT INTO `Type` VALUES (10301,'winsize','Struct',0,468,'','','Referenced',1,'');
+INSERT INTO `Type` VALUES (10301,'winsize','Struct',0,59,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10302,'in_addr_t','Typedef',9272,362,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10303,'const struct tm *','Pointer',10306,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (10304,'const time_t *','Pointer',10307,0,'','','Indirect',1,'');
