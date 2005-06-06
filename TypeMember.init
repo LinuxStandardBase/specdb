@@ -3056,10 +3056,10 @@ INSERT INTO `TypeMember` VALUES (34603,'_URC_INSTALL_CONTEXT',6,0,0,8,'',10381,'
 INSERT INTO `TypeMember` VALUES (34604,'_URC_CONTINUE_UNWIND',6,0,0,9,'',10381,'8',0,0);
 INSERT INTO `TypeMember` VALUES (34605,'',10381,0,0,1,'',10383,'',0,0);
 INSERT INTO `TypeMember` VALUES (34606,'',10378,0,0,2,'',10383,'',0,0);
-INSERT INTO `TypeMember` VALUES (34607,'',10382,0,0,1,'',10377,'',0,0);
-INSERT INTO `TypeMember` VALUES (34608,'',10384,0,0,2,'',10377,'',0,0);
-INSERT INTO `TypeMember` VALUES (34609,'',10380,0,0,3,'',10377,'',0,0);
-INSERT INTO `TypeMember` VALUES (34610,'',10380,0,0,4,'',10377,'',0,0);
+INSERT INTO `TypeMember` VALUES (34607,'exception_class',7002,0,0,1,'',10377,'',0,0);
+INSERT INTO `TypeMember` VALUES (34608,'exception_cleanup',10384,0,0,2,'',10377,'',0,0);
+INSERT INTO `TypeMember` VALUES (34609,'private_1',7002,0,0,3,'',10377,'',0,0);
+INSERT INTO `TypeMember` VALUES (34610,'private_2',7002,0,0,4,'',10377,'',0,0);
 INSERT INTO `TypeMember` VALUES (34611,'tbase',40,0,0,1,'',10373,'',0,0);
 INSERT INTO `TypeMember` VALUES (34612,'dbase',40,0,0,2,'',10373,'',0,0);
 INSERT INTO `TypeMember` VALUES (34613,'func',40,0,0,3,'',10373,'',0,0);
@@ -4201,3 +4201,11 @@ INSERT INTO `TypeMember` VALUES (40900,'num_colormap_conflicts',7,0,0,8,'',11067
 INSERT INTO `TypeMember` VALUES (40901,'colormap_conflicts',11069,0,0,9,'',11067,'',0,0);
 INSERT INTO `TypeMember` VALUES (40902,'__pad',7,0,0,1,'',11072,'3',0,0);
 INSERT INTO `TypeMember` VALUES (40903,'vscr_word',7,0,0,2,'',11072,'',0,0);
+INSERT INTO `TypeMember` VALUES (40904,'version',6,0,0,1,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40905,'actions',10385,0,0,2,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40906,'exceptionClass',10382,0,0,3,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40907,'exceptionObject',10378,0,0,4,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40908,'context',10376,0,0,5,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40909,'stop_parameter',40,0,0,6,'',11075,'',0,0);
+INSERT INTO `TypeMember` VALUES (40910,'',10376,0,0,1,'',11076,'',0,0);
+INSERT INTO `TypeMember` VALUES (40911,'',40,0,0,2,'',11076,'',0,0);
