@@ -10631,10 +10631,10 @@ INSERT INTO `Interface` VALUES (30037,'_Unwind_FindEnclosingFunction','Included'
 INSERT INTO `Interface` VALUES (30038,'_Unwind_FindEnclosingFunction','Included','Function',10,9,143,40,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (30039,'_Unwind_FindEnclosingFunction','Included','Function',10,11,143,40,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (30040,'_Unwind_FindEnclosingFunction','Included','Function',10,12,143,40,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30041,'_Unwind_GetBSP','Included','Function',10,10,143,10380,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30042,'_Unwind_GetBSP','Included','Function',10,2,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30041,'_Unwind_GetBSP','Excluded','Function',10,10,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30042,'_Unwind_GetBSP','Excluded','Function',10,2,143,10380,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (30043,'_Unwind_GetBSP','Included','Function',10,3,143,10380,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30044,'_Unwind_GetBSP','Included','Function',10,6,143,10380,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30045,'_Unwind_GetBSP','Included','Function',10,9,143,10380,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30046,'_Unwind_GetBSP','Included','Function',10,11,143,10380,0,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (30047,'_Unwind_GetBSP','Included','Function',10,12,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30044,'_Unwind_GetBSP','Excluded','Function',10,6,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30045,'_Unwind_GetBSP','Excluded','Function',10,9,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30046,'_Unwind_GetBSP','Excluded','Function',10,11,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30047,'_Unwind_GetBSP','Excluded','Function',10,12,143,10380,0,'Yes','No','none','');
