@@ -10638,3 +10638,10 @@ INSERT INTO `Interface` VALUES (30044,'_Unwind_GetBSP','Excluded','Function',10,
 INSERT INTO `Interface` VALUES (30045,'_Unwind_GetBSP','Excluded','Function',10,9,143,10380,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (30046,'_Unwind_GetBSP','Excluded','Function',10,11,143,10380,0,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (30047,'_Unwind_GetBSP','Excluded','Function',10,12,143,10380,0,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (30048,'pango_color_free','','Function',0,1,0,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30049,'pango_font_describe','','Function',0,1,0,11094,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30050,'pango_parse_markup','','Function',0,1,0,11112,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30051,'pango_font_metrics_get_ap','','Function',0,1,0,6,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30052,'pango_coverage_set','','Function',0,1,0,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30053,'pango_attr_background_new','','Function',0,1,0,11145,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30054,'pango_renderer_set_matrix','','Function',0,1,0,1,0,'Unknown','Unknown','none','');

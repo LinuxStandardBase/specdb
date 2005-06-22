@@ -192,3 +192,4 @@ INSERT INTO `LibGroup` VALUES (464,'Class _ZN9__gnu_cxx18stdio_sync_filebufIcSt1
 INSERT INTO `LibGroup` VALUES (465,'Class _ZN9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE',231,1,5,'');
 INSERT INTO `LibGroup` VALUES (466,'XInput',238,1,0,'');
 INSERT INTO `LibGroup` VALUES (467,'C++ _Rb_tree',231,1,1,'');
+INSERT INTO `LibGroup` VALUES (468,'Thread aware versions of libc interfaces',132,1,7,'');
