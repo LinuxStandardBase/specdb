@@ -1,21 +1,21 @@
--- MySQL dump 9.11
+-- MySQL dump 8.23
 --
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
+-- Host: base1.freestandards.org    Database: lsb
+---------------------------------------------------------
 
 --
 -- Table structure for table `LibGroup`
 --
 
-DROP TABLE IF EXISTS `LibGroup`;
-CREATE TABLE `LibGroup` (
-  `LGid` int(10) NOT NULL auto_increment,
-  `LGname` varchar(255) NOT NULL default '',
-  `LGlib` int(10) NOT NULL default '0',
-  `LGarch` int(10) NOT NULL default '0',
-  `LGorder` int(10) default NULL,
-  `LGdescription` text NOT NULL,
-  PRIMARY KEY  (`LGid`),
-  UNIQUE KEY `k_LG` (`LGname`,`LGlib`)
+DROP TABLE IF EXISTS LibGroup;
+CREATE TABLE LibGroup (
+  LGid int(10) NOT NULL auto_increment,
+  LGname varchar(255) NOT NULL default '',
+  LGlib int(10) NOT NULL default '0',
+  LGarch int(10) NOT NULL default '0',
+  LGorder int(10) default NULL,
+  LGdescription text NOT NULL,
+  PRIMARY KEY  (LGid),
+  UNIQUE KEY k_LG (LGname,LGlib)
 ) TYPE=MyISAM;
 

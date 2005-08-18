@@ -19,6 +19,7 @@ dump::
 
 restore::
 	mysql $(DBOPTS) $$LSBDB <setupdb.sql;
+	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
 	do \
 		set +e; \
