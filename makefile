@@ -13,8 +13,8 @@ dump::
 	do \
 		set +e; \
 		echo $$table; \
-		mysqldump -e --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump --extended-insert=FALSE $(DBOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+		mysqldump --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
+		mysqldump $(DBOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
 	done
 
 restore::
