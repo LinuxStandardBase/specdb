@@ -4404,8 +4404,6 @@ INSERT INTO Constant VALUES (4404,'isclr(a,i)','int',352,'','No');
 INSERT INTO Constant VALUES (4405,'howmany(x,','int',352,'','No');
 INSERT INTO Constant VALUES (4406,'roundup(x,','int',352,'','No');
 INSERT INTO Constant VALUES (4407,'powerof2(x)','int',352,'','No');
-INSERT INTO Constant VALUES (4408,'MIN(a,b)','int',352,'','No');
-INSERT INTO Constant VALUES (4409,'MAX(a,b)','int',352,'','No');
 INSERT INTO Constant VALUES (4410,'DEV_BSIZE','int',352,'','No');
 INSERT INTO Constant VALUES (4411,'_SYS_SELECT_H','int',353,'','No');
 INSERT INTO Constant VALUES (4412,'__NFDBITS','int',353,'','No');
