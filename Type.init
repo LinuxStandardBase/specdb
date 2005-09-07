@@ -1785,7 +1785,7 @@ INSERT INTO Type VALUES (9975,'double_t','Typedef',14,29,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9976,'long double *','Pointer',14,0,'','','Excluded',1,'');
 INSERT INTO Type VALUES (9977,'anon-math.h-5606','Enum',0,29,'','','Excluded',1,NULL);
 INSERT INTO Type VALUES (9978,'anon-math.h-5623','Enum',0,29,'','','Excluded',1,NULL);
-INSERT INTO Type VALUES (9979,'xprt_stat','Enum',0,306,'','','Included',1,'');
+INSERT INTO Type VALUES (9979,'xprt_stat','Enum',0,306,'','','Referenced',1,'');
 INSERT INTO Type VALUES (9980,'SVCXPRT','Struct',0,494,'','','Indirect',1,'');
 INSERT INTO Type VALUES (9981,'xp_ops','Struct',0,495,'','','Referenced',1,NULL);
 INSERT INTO Type VALUES (9982,'fptr-xp_recv','FuncPtr',9890,306,'','','Excluded',1,'');
