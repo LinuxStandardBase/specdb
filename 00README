@@ -1,0 +1,57 @@
+SPECDB
+======
+
+The files in this directory reflect the current state of the LSB
+database. There are some basic rules that must be followed when 
+using these files:
+
+make restore
+	This will create a new database copy using the environment
+	variables LSBUSER, LSBDBPASSWORD, LSBDBHOST and LSBDB.
+	*** NEVER use "make restore" on the central database
+	(base1.freestandards.org) unless that database has been hoplessly
+	lost!  "make restore" is ONLY intended for users requiring to
+	initialize local copies of their own database.
+
+make dump
+	This copies the current database (using the same environment
+	variables) to local files here.
+	*** NEVER dump your own database and check it in to CVS.
+	*** ALWAYS run "make dump" on base1.freestandards.org
+	with LSBDBHOST=localhost.
+	
+
+In addition ... since no-one is permitted to use "make restore"
+to update the central database, editing a file here and commiting
+it to CVS is a fruitless exercise!
+
+How to update the database:
+1. You are not going to edit these files ... EVER!!!!
+2. get the most recent snapshot - there are two ways to do this:
+	a. cvs update .
+		This will get you a copy that is perfect ONLY if 
+		everyone is playing by the rules!
+	b. set LSBDBHOST to "base1.freestandards.org", and LSBUSER/
+	   LSBDBPASSWORD to appropriate values for that database.
+	   Then run make dump.
+	   Then reset LSBDBHOST to localhost (i.e. your system), 
+	   LSBUSER/LSBDBPASSWORD to appropriate values, and finally:
+	   run make restore.
+3. Test your change. If the change is direct SQL, write a script file
+   with your change in it. Test it. Make restore and test it again. 
+   Be prepared to lose 150 points from your contributor status if you
+   get it wrong!
+4. Approach the current database change co-ordinator (by default, this is
+   the workgroup chair) with a request to update the central database. He
+   will give you approval at the appropriate time to update the central
+   database. NEVER just update it! If the change is small, you can send 
+   the SQL script to the change co-ordinator and have him run it.
+5. Once the change has been applied to the central database, login to
+   base1.freestandards.org.
+6. On base1, get an up to date copy of the CVS files in this directory.
+7. On base1, set LSBDBHOST=localhost. Set LSBUSER/LSBDBPASSWORD appropriately.
+   Set LSBDB=lsb.
+8. make dump
+9. cvs commit .
+10.Pray you didn't screw up ... or expect to donate a kidney to charity!
+3. using 
