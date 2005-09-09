@@ -46,7 +46,7 @@ INSERT INTO RpmTag VALUES (45,'RPMTAG_CHANGELOGNAME',1081,'STRING_ARRAY',0,'Othe
 INSERT INTO RpmTag VALUES (46,'RPMTAG_CHANGELOGTEXT',1082,'STRING_ARRAY',0,'Other','Optional','This tag specifies the changes asssociated with a changelog entry.');
 INSERT INTO RpmTag VALUES (47,'RPMTAG_COOKIE',1094,'STRING',1,'PackageInfo','Optional','This tag contains an opaque string whose contents are undefined.');
 INSERT INTO RpmTag VALUES (48,'RPMTAG_FILEDEVICES',1095,'INT32',0,'FileDetails','Required','This tag specifies the 16 bit device number from which the file was copied.');
-INSERT INTO RpmTag VALUES (49,'RPMTAG_FILEINODES',1096,'INT32',0,'FileDetails','Required','This tag specifies the inode value from the original file on the the system on which it was built.');
+INSERT INTO RpmTag VALUES (49,'RPMTAG_FILEINODES',1096,'INT32',0,'FileDetails','Required','This tag specifies the inode value from the original file system on the the system on which it was built.');
 INSERT INTO RpmTag VALUES (50,'RPMTAG_FILELANGS',1097,'STRING_ARRAY',0,'FileDetails','Required','This tag specifies a per-file locale marker used to install only locale specific subsets of files when the package is installed.');
 INSERT INTO RpmTag VALUES (52,'RPMTAG_PROVIDEFLAGS',1112,'INT32',0,'Dependencies','Required','Bits(s) to specify the conflict range and context.');
 INSERT INTO RpmTag VALUES (53,'RPMTAG_PROVIDEVERSION',1113,'STRING_ARRAY',0,'Dependencies','Required','This tag indicates the versions associated with the values found in the RPMTAG_PROVIDENAME Index.');
