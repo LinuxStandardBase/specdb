@@ -51,7 +51,12 @@ How to update the database:
 6. On base1, get an up to date copy of the CVS files in this directory.
 7. On base1, set LSBDBHOST=localhost. Set LSBUSER/LSBDBPASSWORD appropriately.
    Set LSBDB=lsb.
-8. make dump
+8. Check you ~/.my.cnf. Make sure it has the following lines in it:
+   [mysqldump]
+   quote-names=false
+   extended-insert=false
+
+   Then:
+   make dump
 9. cvs commit .
 10.Pray you didn't screw up ... or expect to donate a kidney to charity!
-3. using 
