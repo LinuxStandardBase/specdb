@@ -1,16 +1,16 @@
--- MySQL dump 8.23
+-- MySQL dump 9.11
 --
--- Host: base1.freestandards.org    Database: lsb
----------------------------------------------------------
+-- Host: localhost    Database: lsb
+-- ------------------------------------------------------
 
 --
 -- Table structure for table `Version`
 --
 
-DROP TABLE IF EXISTS Version;
-CREATE TABLE Version (
-  Vid int(10) NOT NULL auto_increment,
-  Vname varchar(60) binary NOT NULL default '',
-  PRIMARY KEY  (Vid)
+DROP TABLE IF EXISTS `Version`;
+CREATE TABLE `Version` (
+  `Vid` int(10) NOT NULL auto_increment,
+  `Vname` varchar(60) binary NOT NULL default '',
+  PRIMARY KEY  (`Vid`)
 ) TYPE=MyISAM;
 
