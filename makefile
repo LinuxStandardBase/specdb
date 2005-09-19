@@ -4,6 +4,7 @@
 # This avoids creating one huge file that take a long time to manipulate
 #
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
+DUMPOPTS=--quote-names --extended-insert=false
 
 all:
 	@echo "Please specify dump or restore"
@@ -13,8 +14,8 @@ dump::
 	do \
 		set +e; \
 		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump $(DBOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
+		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
 	done
 
 restore::
