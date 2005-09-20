@@ -1792,7 +1792,7 @@ INSERT INTO `Type` VALUES (9982,'fptr-xp_recv','FuncPtr',9890,306,'','','Exclude
 INSERT INTO `Type` VALUES (9983,'SVCXPRT *','Pointer',10390,0,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9984,'rpc_msg','Struct',0,511,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (9985,'rpc_msg *','Pointer',9984,511,'','','Indirect',0,'');
-INSERT INTO `Type` VALUES (9986,'fptr-xp_stat','FuncPtr',0,306,'','','Excluded',1,'');
+INSERT INTO `Type` VALUES (9986,'fptr-xp_stat','FuncPtr',9979,306,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9987,'fptr-xp_getargs','FuncPtr',9890,306,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9988,'fptr-xp_reply','FuncPtr',9890,306,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9989,'fptr-xp_freeargs','FuncPtr',9890,306,'','','Excluded',1,'');
