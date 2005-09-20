@@ -1,0 +1,3748 @@
+2005-09-20	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Type.init
+	   Fix broken reference to xprt_stat
+
+2005-09-19	Nick Stoughton <nick_at_usenix.org>
+	* makefile
+	  00README
+	  ElfSections.init
+	   options are now in the makefile ... you don't need a .my.cnf
+	   file!
+
+2005-09-16	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Vtable.sql
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  BaseTypes.init
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  ClassVtab.init
+	  ClassVtab.sql
+	  CmdInt.init
+	  CmdInt.sql
+	  CmdLib.init
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  ModLib.init
+	  ModLib.sql
+	  Module.init
+	  Module.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.init
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.init
+	  TypeType.sql
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  VerInt.init
+	  VerInt.sql
+	  Version.init
+	  Version.sql
+	  Vtable.init
+	   Syncing on-line database into cvs. After this we stay in sync!!!
+
+2005-09-14	Nick Stoughton <nick_at_usenix.org>
+	* ElfSections.init
+	  00README
+	   add description of .my.cnf to ensure that dump options are
+	   correct.
+
+2005-09-09	Nick Stoughton <nick_at_usenix.org>
+	* RpmTag.init
+	   Post Singapore meeting update.
+
+2005-09-07	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Type.init
+	   Redo bug 1072 fix: xprt_stat should have been Referenced, not
+	   Included
+
+2005-09-07	Nick Stoughton <nick_at_usenix.org>
+	* 00README
+	   An inital stab at some rules to work in this directory
+
+2005-09-02	Nick Stoughton <nick_at_usenix.org>
+	* ArchConst.sql
+	  ArchConst.init
+	   Update of ArchConst to handle long definitions.
+
+2005-09-01	Nilesh Jain <nilesh.jain_at_intel.com>
+	* makefile
+	  ArchType.init
+	  Constant.init
+	  Interface.init
+	  Module.init
+	  Parameter.init
+	  Type.init
+	  TypeMember.init
+	  makefile
+	   Remove bogus data bug #1048
+
+2005-08-25	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	   update C++ ABI reference
+
+2005-08-17	Nick Stoughton <nick_at_usenix.org>
+	* makefile
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  BaseTypes.init
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  ClassVtab.init
+	  ClassVtab.sql
+	  CmdInt.init
+	  CmdInt.sql
+	  CmdLib.init
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  ModLib.init
+	  ModLib.sql
+	  Module.init
+	  Module.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.init
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.init
+	  TypeType.sql
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  VerInt.init
+	  VerInt.sql
+	  Version.init
+	  Version.sql
+	  Vtable.init
+	  Vtable.sql
+	   db dump
+
+2005-06-24	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ElfSections.init
+	  ArchConst.init
+	  ElfSections.init
+	   Commit DB changes: bug 1008 (FE_UPWARD and TIOCGWINSZ), bug 997
+	   (.sbss section on IA64, from Nick)
+
+2005-06-22	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* TypeMember.init
+	  ArchInt.init
+	  ArchType.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  Type.init
+	   Database dump after changes for bug 853. Note there are a bunch
+	   of other changes too - this should be checked carefully to make
+	   sure nothing leaked through.
+
+2005-06-15	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ElfSections.init
+	   add .gcc_except_table
+
+2005-06-10	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchInt.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  Standard.init
+	   RC4 data
+
+2005-06-06	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchInt.init
+	  Command.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.init
+	  TypeMember.init
+	   Recent changes
+
+2005-06-01	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchType.init
+	   Fix the size of a pointer on S390X
+
+2005-05-26	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  LGInt.init
+	  LibGroup.init
+	  RpmTag.init
+	  Standard.init
+	   LSB 3.0Rc3
+
+2005-05-05	Stuart Anderson <anderson_at_freestandards.org>
+	* SectionTypes.init
+	  ArchConst.init
+	  ArchInt.init
+	  ClassInfo.init
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   Snapshot recent changes
+
+2005-05-03	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchInt.init
+	  ArchLib.init
+	  Interface.init
+	  ModLib.init
+	   Sync w/ DB
+
+2005-05-02	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Type.init
+	   Sync DB - Add XINPUT & fix symbols version, missing C++ int, etc
+
+2005-04-27	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	   Clarify DWARF 2/3
+
+2005-04-26	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Sync the DB
+
+2005-04-01	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchLib.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  ModLib.init
+	  Module.init
+	  Parameter.init
+	   Add librt and renam the modules a bit
+
+2005-04-01	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Module.init
+	   backports
+
+2005-03-30	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  ClassInfo.init
+	  ClassInfo.sql
+	  ClassVtab.init
+	  Command.init
+	  Constant.init
+	  ElfSections.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  SectionTypes.init
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	   LSB 3.0Preview1
+
+2005-03-18	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Standard.init
+	   Typo
+
+2005-03-14	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Constant.init
+	  DynamicEntries.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.init
+	  Standard.init
+	  Type.init
+	   Snapshot of the 3.0 changes
+
+2005-03-11	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	   Fix a bad URL
+
+2005-03-11	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Command.init
+	   Corrrect paths of install_initd, remove_initd
+
+2005-03-10	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* makefile
+	   Stamp out last instance of hardcoded db name
+
+2005-03-08	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  ModLib.init
+	  Module.init
+	  Type.init
+	   Sync in changes
+
+2005-03-02	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Interface.init
+	  Interface.sql
+	  Type.init
+	   update jmpbuf structures for Power archs
+
+2005-02-25	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchClass.init
+	  ArchInt.init
+	  ArchType.init
+	  ClassInfo.init
+	  ClassVtab.init
+	  Interface.init
+	  Standard.init
+	  Type.init
+	   libchk is clean on most arch now
+
+2005-02-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ClassInfo.init
+	  ClassVtab.init
+	   A few more class fixes done on an airplane
+
+2005-02-17	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchClass.init
+	  ClassInfo.init
+	  ClassVtab.init
+	  Command.init
+	  Interface.init
+	  Standard.init
+	   Snapshot of cleaned up C++ data
+
+2005-02-08	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchLib.init
+	  ClassInfo.init
+	  ClassInfo.sql
+	  ClassVtab.init
+	  ClassVtab.sql
+	  Vtable.init
+	  Vtable.sql
+	   Restructure how Vtables are represented.
+
+2005-02-01	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchClass.init
+	  ArchInt.init
+	  ArchLib.init
+	  ClassInfo.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Version.init
+	  Vtable.init
+	   Upgrade libstdc++ to the v6 abi
+
+2005-01-28	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchInt.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	   LSB 2.1 final data
+
+2005-01-14	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	  ArchInt.init
+	  ArchLib.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   1) Clean up the libstdcxx data. Eliminate dup data & make how
+	   interfaces	 that are only found on some arch be handled
+	   consistantly 2) Begin a major cleanp -- Purge the useless old
+	   libraries that we got from	 early surves of distros several
+	   years ago.
+
+2005-01-12	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  Type.sql
+	   Snapshot of 2.1 data before I start fixing inconsistant C++
+	   data, which should be a noop, but....
+
+2004-12-08	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Library.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	  TypeType.init
+	   Snapshot of 2.1 changes
+
+2004-10-21	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  BaseTypes.init
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  CmdInt.init
+	  CmdInt.sql
+	  CmdLib.init
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  ModLib.init
+	  ModLib.sql
+	  Module.init
+	  Module.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.init
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.init
+	  TypeType.sql
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  VerInt.init
+	  VerInt.sql
+	  Version.init
+	  Version.sql
+	  Vtable.init
+	   Final dump for 2.0.1
+
+2004-09-20	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.sql
+	  Constant.init
+	  Standard.init
+	   Some of the short names were >60 chars, so make it bigger
+
+2004-09-20	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	   Tweaks to some short names (Thanks to Jim Kingdon/Andrew Josey)
+
+2004-09-17	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  ModLib.sql
+	  Module.sql
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Fix S290 C++ interface names & PPC32 jump buf defn & some
+	   standards anme updates
+
+2004-09-17	Nick Stoughton <nick_at_usenix.org>
+	* Standard.sql
+	  Standard.init
+	   First pass at adding a short name -- see bug 277
+
+2004-08-27	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  ModLib.init
+	  ModLib.sql
+	  Module.sql
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Final sync that reflects LSB 2.0
+
+2004-08-13	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchConst.init
+	  ArchInt.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  Constant.init
+	  Interface.sql
+	  LGInt.sql
+	  ModLib.sql
+	  Module.sql
+	  RpmTag.sql
+	  Standard.sql
+	  TestInt.init
+	  TestSuite.init
+	   recent bug fixes for FS_SET et al & INADDR_NONE
+
+2004-08-06	Stuart Anderson <anderson_at_freestandards.org>
+	* VMIBaseTypes.sql
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Architecture.init
+	  Constant.init
+	  DynamicEntries.init
+	  ElfSections.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  VMIBaseTypes.init
+	   DB Snapshot for LSB 2.0rc2
+
+2004-07-14	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  ModLib.sql
+	  Module.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Snapshot of the data
+
+2004-06-28	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  ModLib.sql
+	  Module.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Fixed a few things on the road
+
+2004-06-24	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchTypeMem.init
+	  Type.init
+	   Added sockaddr_storage
+
+2004-06-19	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  RpmTag.init
+	  Type.init
+	   sync in changes
+
+2004-06-01	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  Constant.init
+	  DynamicEntries.init
+	  ElfSections.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Parameter.sql
+	  Standard.init
+	   Sync in changes
+
+2004-05-11	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  Constant.init
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Sync in lot's of recent changes
+
+2004-04-26	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeType.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  ElfSections.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	   Fix lots of errors found during dynchk development
+
+2004-04-20	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  ModLib.init
+	  ModLib.sql
+	  Module.init
+	  Module.sql
+	  Standard.init
+	  Type.init
+	   Sync in recent changes, including new Module/Lib tables
+
+2004-04-06	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeType.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Interface.init
+	  Parameter.init
+	  Standard.init
+	  TypeMember.init
+	   Mostly added more TypeType info
+
+2004-03-30	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Make previous structural changes on the live data, and dump it
+	   into cvs
+
+2004-03-30	Matthew Elder <elder_at_newsweng.com>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Added the TMtypetype field to the TypeMember table; this is
+	   necessary for the dynchk system.
+
+2004-02-10	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.sql
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	   Sync in changes
+
+2004-01-14	Stuart Anderson <anderson_at_freestandards.org>
+	* VMIBaseTypes.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Parameter.sql
+	  ProfLib.init
+	  ProfLib.sql
+	  Profile.init
+	  Profile.sql
+	  RpmTag.sql
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	  TypeType.init
+	  TypeType.sql
+	   Pick up recent changes that have been reflected in the headers.
+	   Add some new Tables that are needed for the Profile definitions,
+	   and the dynamic application testing tool.
+
+2003-12-10	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchLib.init
+	  Constant.init
+	  Interface.init
+	   Sync changes & fix PPC64 symbol versions
+
+2003-12-03	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchConst.init
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  Type.init
+	  Type.sql
+	   Sync the DB, and pass the lock to Chris
+
+2003-11-12	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchInt.init
+	  ClassInfo.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Standard.init
+	  Type.init
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  Version.init
+	  Vtable.init
+	   snapshot containing C++ correction for non-IA32 architectures
+
+2003-10-29	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchInt.init
+	  Interface.init
+	  LGInt.init
+	   Uplift symbols version for glibc 2.3
+
+2003-10-27	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchInt.init
+	  BaseTypes.init
+	  ClassInfo.init
+	  ClassInfo.sql
+	  Command.init
+	  Command.sql
+	  Interface.init
+	  LGInt.init
+	  RpmTag.sql
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  Version.init
+	   Verified set of data for C++ ABI on IA32
+
+2003-10-15	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  BaseTypes.init
+	  ClassInfo.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Snapshot  - Stuart wants to hold the lock for a couple of days
+
+2003-09-17	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   more srting C++ interfaces in to architectuer specific
+	   categories
+
+2003-09-16	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	  Vtable.sql
+	   1) libstdcxx changes 2) Change Arch to 'All' for ints that are
+	   the same for 32 & 64 platforms 3) Synthesize Arch data for
+	   non-IA32 platforms based on baseline_symbols.txt
+
+2003-09-15	Stuart Anderson <anderson_at_freestandards.org>
+	* RpmTag.init
+	  ClassInfo.init
+	  LGInt.init
+	  LibGroup.init
+	   Clean up and sort some class info
+
+2003-09-04	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  ClassInfo.init
+	  TestSuite.init
+	  Type.init
+	   Sync in DB changes for 1.3.4 tools
+
+2003-09-03	Doug Beattie <dbb_at_freestandards.org>
+	* TestInt.init
+	  TestCmd.init
+	   Updates to reflect changes to the Li18nux commands tested.
+
+2003-08-22	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  RpmTag.init
+	  TestSuite.init
+	  Type.init
+	   Sync in recent changes
+
+2003-07-16	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  ClassInfo.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Sync in data for 1.3.3
+
+2003-06-24	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Snapshot after first pass of C++ class assignment
+
+2003-06-03	Stuart Anderson <anderson_at_freestandards.org>
+	* Vtable.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Sync in DB
+
+2003-05-22	Doug Beattie <dbb_at_freestandards.org>
+	* TestSuite.init
+	  TestInt.init
+	   Added the 13 tests for LSB-PAM test suite
+
+2003-05-20	Stuart Anderson <anderson_at_freestandards.org>
+	* VMIBaseTypes.sql
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  Library.init
+	  Parameter.init
+	  Type.init
+	  TypeMember.init
+	  VMIBaseTypes.init
+	   Snapshot of DB
+
+2003-05-07	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  ClassInfo.init
+	  ClassInfo.sql
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Sync in latest C++ and other header fixes
+
+2003-04-25	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  BaseTypes.init
+	  ClassInfo.init
+	  Constant.init
+	  DynamicEntries.init
+	  ElfSections.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   1) AMD64 additiona & fixes 2)  More C++ class data
+
+2003-04-18	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.init
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.init
+	  Version.sql
+	  Vtable.init
+	  Vtable.sql
+	   Snapshot of the libstdc++ class data
+
+2003-04-04	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   1) Move the ednian stuff around some 2) Add x86_64 data 3) Add
+	   some more C++ info 4) Add a Class type
+	* TypeMember.init
+	  Constant.sql
+	  Header.init
+	  HeaderGroup.init
+	  Type.init
+	   Add a macro type Constant, where the value is anotehr macro
+
+2003-03-26	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchConst.init
+	  ArchLib.init
+	  Architecture.init
+	  Command.sql
+	  Constant.init
+	  Header.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.sql
+	  RpmTag.sql
+	   Sync in to move master to base1 for a little while
+
+2003-03-05	Christopher Yeoh <cyeoh_at_samba.org>
+	* DynamicEntries.init
+	   Adds missing DT_RELACOUNT for S390 and S390X
+
+2003-02-28	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchInt.init
+	  Command.sql
+	  Constant.init
+	  DynamicEntries.init
+	  Parameter.init
+	  RpmTag.sql
+	   Sync in my changes, including some header fixes, and IA64
+	   sym,bol version corrections
+
+2003-02-28	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Type.init
+	  TypeMember.init
+	   Type fixes for S390
+
+2003-02-27	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchInt.init
+	  Command.sql
+	   Sync up symbol versions for interfaces of S390 against SLES8
+
+2003-02-26	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Type.init
+	   Remove some stuff that is post glibs2.2 that got picked up. Also
+	   update some values for PPC32
+
+2003-02-26	Christopher Yeoh <cyeoh_at_samba.org>
+	* ArchTypeMem.init
+	  ArchConst.init
+	  ArchType.init
+	   Fixes for struct sizes and struct member and offset sizes
+
+2003-02-25	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Constant.init
+	  DynamicEntries.init
+	  ElfSections.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  RpmTag.sql
+	  Type.init
+	   1) Fix NULL 2) Add features.h 3) Fill in utmpx 4) move u_int 5)
+	   Add sections on IA64 6) ......
+
+2003-02-25	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  HeaderGroup.init
+	  RpmTag.sql
+	  Type.init
+	   Adds ucontext_t, sigaction and associated types for S390X
+
+2003-02-24	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  Type.init
+	   sync continuing S390X updates
+
+2003-02-23	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Type.init
+	  TypeMember.init
+	   more s390x types
+
+2003-02-21	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  RpmTag.sql
+	   Db updates for S390X
+
+2003-02-17	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchInt.init
+	  Command.sql
+	   Changes for S390X. Some of the previously generic symbol
+	   versions are now architecture specific because they are
+	   different only on S390X
+
+2003-02-14	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	  DynamicEntries.init
+	   Adds mising section for S390x Fixes incorrect standard
+	   assignment dynamic entries for S390x
+
+2003-02-12	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  Command.sql
+	  DynamicEntries.init
+	  ElfSections.init
+	   Adds .sdata2 and .sbss sections missing from PPC32 spec
+
+2003-02-11	Stuart Anderson <anderson_at_freestandards.org>
+	* Parameter.init
+	  Interface.init
+	   Fix the types on hton*() and ntoh*()
+
+2003-01-28	Doug Beattie <dbb_at_freestandards.org>
+	* TestSuite.init
+	   Modification of Name and Descriptions of tests.
+
+2003-01-08	Stuart Anderson <anderson_at_freestandards.org>
+	* Parameter.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	   Add libgen.h
+
+2003-01-08	Christopher Yeoh <cyeoh_at_samba.org>
+	* Standard.init
+	  Command.sql
+	  RpmTag.sql
+	   Add official site for PPC64 ELF ABI document
+
+2002-12-15	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  HeaderGroup.init
+	  RpmTag.init
+	  Type.init
+	   1) Fix a couple of missing arrya sizes in structure defs on
+	   PPC32 2) Add locale_t to make C++ happy 3) make
+	   RPMTAG_HEADERI18NTABLE Required
+
+2002-12-11	Stuart Anderson <anderson_at_freestandards.org>
+	* RpmTag.sql
+	  RpmTag.init
+	   Somewhere along the way, the quoted values got dropped
+
+2002-12-10	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	   Adds Elf Section info for S390X
+
+2002-12-09	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchInt.init
+	  ArchType.init
+	  Command.sql
+	   Updates for S390X
+
+2002-12-04	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  HeaderGroup.init
+	  RpmTag.sql
+	  Type.init
+	   Snapshot of the DB with the PPC structures fixed.
+
+2002-12-04	Christopher Yeoh <cyeoh_at_samba.org>
+	* Standard.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Constant.init
+	  RpmTag.sql
+	   Header file updates for S390X
+
+2002-12-03	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  RpmTag.sql
+	  Type.init
+	   Some more header related fixes
+
+2002-12-03	Christopher Yeoh <cyeoh_at_samba.org>
+	* Standard.init
+	  ArchLib.init
+	  Architecture.init
+	  Command.sql
+	  DynamicEntries.init
+	  ElfSections.init
+	  RpmTag.sql
+	   S390x and S390 updates. Stuart has the lock
+
+2002-11-28	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Type.init
+	   Fixes [ 643821 ] __jmp_buf needed for ppc64 Fixes [ 643809 ]
+	   shmatt_t and shmid_ds needed for ppc64 Fixes [ 643814 ] semid_ds
+	   needed for ppc64 Fixes [ 643806 ] stat and stat64 needed for
+	   ppc64 Fixes [ 643812 ] statvfs and statvfs64 needed for ppc64
+	   Fixes [ 643810 ] ipc_perm needed for ppc64 Fixes [ 643807 ]
+	   sigaction needed for ppc64
+
+2002-11-26	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  ElfSections.init
+	  Interface.init
+	  RpmTag.init
+	  RpmTag.sql
+	  Standard.init
+	  Type.init
+	   Data for LSB v1.3pr7
+
+2002-11-15	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  SectionTypes.init
+	  Standard.init
+	  Type.init
+	   Found another batch of interfaces descriptions which were
+	   incomplete
+
+2002-11-13	Stuart Anderson <anderson_at_freestandards.org>
+	* RpmTag.sql
+	  ArchInt.init
+	  Command.sql
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	   Sync in todays work
+
+2002-11-12	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchInt.init
+	  ArchType.init
+	  Command.sql
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  RpmTag.sql
+	   Sync in new interfaces and other fixes
+
+2002-11-12	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  RpmTag.sql
+	  Type.init
+	   db updates
+
+2002-11-11	Christopher Yeoh <cyeoh_at_samba.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Interface.init
+	  RpmTag.sql
+	  Type.init
+	   db fixes for PPC32
+
+2002-11-08	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  HeaderGroup.init
+	  RpmTag.sql
+	  Type.init
+	   Filled in more values from PPC32, and fixed a few struct and
+	   other type problems
+
+2002-11-07	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchConst.init
+	  Command.sql
+	   db  fixes for S390 and IA64
+
+2002-11-06	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  DynamicEntries.init
+	  HeaderGroup.init
+	  Type.init
+	   Fill in lots of TypeMember sizes
+
+2002-11-06	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchConst.init
+	  Command.sql
+	  RpmTag.sql
+	   Fix for unexpected db changes
+
+2002-11-05	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchConst.init
+	  Command.sql
+	   first lot of db changes for header file fixes
+
+2002-11-04	Christopher Yeoh <cyeoh_at_samba.org>
+	* RpmTag.sql
+	  ArchLib.init
+	  Command.sql
+	  DynamicEntries.init
+	  ElfSections.init
+	   PPC64 updates. Stuart has the lock
+
+2002-11-01	Stuart Anderson <anderson_at_freestandards.org>
+	* makefile
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.sql
+	   Sync in work. Gone fishin'. Chris has the lock.
+
+2002-11-01	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.init
+	   Updates for PPC32
+
+2002-10-31	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.sql
+	   Add a new filed, Tattribute to the Type table to hol dGNU
+	   attributes. Add PPC32 stat* structures
+
+2002-10-31	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   PPC64 db updates. Stuart has the db lock
+
+2002-10-30	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Fix the type of wchar_t and a regex constant
+
+2002-10-30	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   PPC32 updates
+
+2002-10-29	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   S390 db updates
+
+2002-10-28	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Sync in a few small changes and pass the lock to Chris
+
+2002-10-27	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  RpmTag.init
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   Lot's of header related cleanups in preparation for 1.3 Several
+	   types have become architecture specific since the contents vary
+	   accross architectures. More RPC sorting.
+
+2002-10-25	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.init
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Additions for S390
+
+2002-10-23	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  RpmTag.init
+	  RpmTag.sql
+	  Type.init
+	  Type.sql
+	   Snapshot RPC fixes and RPM changes. Chris has the Token now
+
+2002-10-17	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  ElfSections.init
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  RpmTag.init
+	  RpmTag.sql
+	  Type.init
+	  Type.sql
+	   PAM & RPM changes. General snapshot before trveling
+
+2002-10-11	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Parameter.init
+	  RpmTag.init
+	  RpmTag.sql
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	   Purge ArchInt records that had a 0 for the version Snapshot of
+	   RPM work and unwind library
+
+2002-09-29	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchConst.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  RpmTag.init
+	  RpmTag.sql
+	  Standard.init
+	  Type.init
+	   Mark *statfs* as deprecated Change PAM to be defined by the LSB
+	   Add the rest of the return value, flags, etc for PAM
+
+2002-09-25	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchLib.init
+	  Command.sql
+	  Header.init
+	  Header.sql
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   1) More PPC64 stuff 2) C++ cleanup/additions 3) Library ->Header
+	   relation 4) Various SA fixes.
+
+2002-09-20	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Constant.init
+	  Constant.sql
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Sync in PAM info and other fixes
+
+2002-09-11	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.init
+	   1) Add new Version symbol GNUCPP_3.2 2) Fix more prototypes 3)
+	   Add TOG-Sockets test info
+	* TestInt.init
+	   Add more TOG-Sockets details
+
+2002-08-05	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.init
+	   Snapshot of the C++ work
+
+2002-07-29	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Commit IA64 db updates (header files)
+
+2002-07-18	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchType.init
+	   Sync in a couple of changes, and pass the DB token to Chris for
+	   a few days
+
+2002-07-12	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   Quite a variety of changes driven by bugs and C++ work
+
+2002-07-02	Stuart Anderson <anderson_at_freestandards.org>
+	* TestCmd.init
+	   Another update from Doug
+
+2002-06-28	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchInt.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  ElfSections.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Type.init
+	   A few (hopeflly) final changes for 1.2. Also showing up here, is
+	   an import of libstdc++, but that data will not have any affect
+	   on the 1.2 builds.
+
+2002-06-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchType.init
+	  Command.sql
+	  Parameter.init
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	   Fix some bad types
+
+2002-06-21	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.sql
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  Constant.init
+	  ElfSections.init
+	  HeaderGroup.init
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.init
+	  Type.init
+	   Sync in changes resulting from spec bug fixes. Also new copies
+	   of the Test Suite related tables.
+
+2002-06-14	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   The 6/13 snapshot
+
+2002-06-07	Stuart Anderson <anderson_at_freestandards.org>
+	* TestSuite.sql
+	  ArchConst.init
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  ElfSections.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  TestCmd.init
+	  TestCmd.sql
+	  TestInt.init
+	  TestInt.sql
+	  TestSuite.init
+	   Add the new tables for representing the Test Suites
+
+2002-06-03	Christopher Yeoh <cyeoh_at_samba.org>
+	* Version.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   ElfSection updates for PPC32
+
+2002-05-31	Stuart Anderson <anderson_at_freestandards.org>
+	* SectionTypes.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  Command.init
+	  Command.sql
+	  Constant.init
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	   Nearly v1.2 - drop libc deprecated and add X Extension hook API
+
+2002-05-27	Stuart Anderson <anderson_at_freestandards.org>
+	* makefile
+	  dbperms.sql
+	   Don't hardcode the db name to make it easier to call the db
+	   something else (via lsb11)
+
+2002-05-23	Stuart Anderson <anderson_at_freestandards.org>
+	* ArchLib.init
+	   s/psLSB/archLSB/
+
+2002-05-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchType.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Standard.sql
+	   Make the Standards Architecture sensitive, and a few other small
+	   tweaks
+
+2002-05-22	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	   clarify .got2 section definition
+
+2002-05-21	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.sql
+	  Standard.init
+	   Fix the paths of the IA32 specs
+
+2002-05-21	Christopher Yeoh <cyeoh_at_samba.org>
+	* Standard.init
+	  Command.sql
+	   Fixes spelling mistakes in referenced documents Stuart has the
+	   token
+
+2002-05-17	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	  Command.sql
+	   Removes generic setting for .plt section as it is not correct
+	   for ppc32 and there arch specific entries now Fixes sh_type for
+	   .sdata PPC32 section
+
+2002-05-16	Christopher Yeoh <cyeoh_at_samba.org>
+	* Command.sql
+	  ArchConst.init
+	  ArchType.init
+	   Adds PPC32 arch specific constants
+
+2002-05-16	George Kraft <gk4_at_austin.ibm.com>
+	* Interface.init
+	   Tagged more functions with their header file location.
+
+2002-05-15	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Constant.init
+	  HeaderGroup.init
+	  Parameter.init
+	   A few more fixes. Chris now has the token, and George will have
+	   it on Thursday CDT
+
+2002-05-15	Christopher Yeoh <cyeoh_at_samba.org>
+	* Command.sql
+	  ArchType.init
+	   Start to commit arch specific sizes/constants Stuart has the
+	   token
+
+2002-05-14	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	  Command.sql
+	   Adds Linux PPC32 sections Stuart has the token
+
+2002-05-13	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Type.init
+	   Another snapshot, and passing of the token
+
+2002-05-13	Christopher Yeoh <cyeoh_at_samba.org>
+	* ElfSections.init
+	  Command.sql
+	   Adds PPC32 specific sections
+
+2002-05-13	George Kraft <gk4_at_austin.ibm.com>
+	* Interface.init
+	   Added header files to the outstanding "included interfaces
+	   without header" that were found in Linux header files and found
+	   in the SUSv2 or SUSv3. The LSB database virtual edit token
+	   passed back.  I will not be able to update again until Wednesday
+	   May 15th, 2002.
+
+2002-05-10	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.sql
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	   Sync in changes. Chris can now have the token if needed
+
+2002-05-09	Christopher Yeoh <cyeoh_at_samba.org>
+	* Command.sql
+	  ArchInt.init
+	  Command.sql
+	   Adds interface version info for PPC32 Stuart has the token
+
+2002-05-08	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  Command.sql
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	   Daily sync. Chris has the token
+
+2002-05-08	Christopher Yeoh <cyeoh_at_samba.org>
+	* Standard.init
+	  ArchLib.init
+	   Updates for PPC32 Stuart has the token now
+
+2002-05-07	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchInt.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Parameter.sql
+	   Add Pconst to parameters, and set it correctly for some of the
+	   more common interfaces
+
+2002-05-03	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.sql
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  TypeMember.init
+	   Snapshot with some bitfiled data and a few other things
+	   corrected
+
+2002-05-01	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchInt.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Parameter.init
+	  Type.init
+	   Sync in latest changes
+
+2002-04-25	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchType.init
+	  Command.sql
+	  HeaderGroup.init
+	  Interface.init
+	  Library.init
+	  Type.init
+	  TypeMember.init
+	   Snapshot containing IA64 specific symbol versions
+
+2002-04-15	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  ElfSections.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	   New snapshot
+
+2002-04-10	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Architecture.init
+	  Constant.init
+	  Constant.sql
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Parameter.sql
+	  Type.init
+	   Intermediate snapshot to reflect table layout changes. Warning:
+	   the data may not yet produce the same results, but will very
+	   soon
+
+2002-04-06	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	   Snapshot of more header cleanups
+
+2002-03-29	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Architecture.init
+	  Constant.init
+	  DynamicEntries.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Library.init
+	  Type.init
+	   Snapshot of mroe header fixing
+
+2002-03-25	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchConst.init
+	  ArchLib.init
+	  ArchLib.sql
+	  Architecture.init
+	  Constant.init
+	  ElfSections.init
+	  Library.init
+	   Snapshot of new ArchLib data
+
+2002-03-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	   Add libm for IA64, and make libutil & librt for All archs
+
+2002-03-21	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchType.init
+	  Constant.init
+	  ElfSections.init
+	  HeaderGroup.init
+	   Fi the type of .gnu.version_d, and other header improvements
+
+2002-03-15	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  HeaderGroup.init
+	  Type.init
+	   Improved header related data
+
+2002-03-13	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* makefile
+	   Fix locale problem: some shells will not expand [A-Z]*sql as
+	   expected by the makefile unless forced to use the "C" locale.
+
+2002-03-11	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchType.sql
+	  ArchTypeMem.init
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.sql
+	   Add a new table, ArchTypeMem that contains the architecture
+	   sensitive parts of TypeMember.
+
+2002-03-06	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	   Fixes for psABI IA64
+
+2002-02-27	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	   Fix up the short name of IA64 Conventions
+
+2002-02-04	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ElfSections.init
+	  ElfSections.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	   Updates for IA64
+
+2002-01-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   LSB 1.1-draft 2 & final data
+
+2001-12-20	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	  ArchConst.init
+	  Constant.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   Final 1.1 DB snapshot
+
+2001-12-18	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchType.init
+	  ElfSections.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   Cleaned up loose ends found when genning the tests/stubs
+
+2001-12-17	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchType.init
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Hopefully final sync for 1.1
+
+2001-12-11	Stuart Anderson <anderson_at_freestandards.org>
+	* Constant.init
+	  ArchConst.init
+	   A couple of cleanups to make devchk happy
+
+2001-12-10	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	   Improved header data
+
+2001-12-05	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchType.init
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   New snapshot of improved header data - it compiles some of the X
+	   libraries
+
+2001-11-26	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  ArchConst.init
+	  ArchType.init
+	  Constant.init
+	  HeaderGroup.init
+	  Interface.init
+	  LibGroup.init
+	   Data sync
+
+2001-11-20	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Interface.sql
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  Type.sql
+	   Snapshot that fixes a lot of the data problems that mklibstub
+	   had to work around
+
+2001-11-18	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchConst.init
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchType.init
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	  Version.sql
+	   Finish pulling Constant values & type sizes into architecture
+	   sensitive tables
+
+2001-11-14	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	   Added IA64 and IA32 Software Developer's Manuals to reference
+	   standards list
+
+2001-10-29	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	   Add perms for the rest of the tables
+
+2001-10-26	Stuart Anderson <anderson_at_freestandards.org>
+	* SectionTypes.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  Interface.init
+	  LGInt.init
+	   Fix #472656 and #473585
+
+2001-10-17	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchInt.sql
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Sync in data
+
+2001-10-16	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	   Be explicte about access from localhost
+
+2001-10-11	Stuart Anderson <anderson_at_freestandards.org>
+	* dbperms.sql
+	  ArchType.init
+	  Constant.init
+	  Constant.sql
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	  TypeMember.init
+	   A snapshot of the header work
+
+2001-10-09	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	   Clean ups from Bruce
+
+2001-10-03	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchInt.sql
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.init
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  Type.sql
+	  TypeMember.sql
+	  VerInt.sql
+	   Some initial raw data for the header constants
+
+2001-06-29	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	  Command.init
+	   LSB v1.0
+
+2001-06-25	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchInt.sql
+	  ArchType.sql
+	  Architecture.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  VerInt.sql
+	   v0.9.4
+
+2001-05-08	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchType.init
+	  Header.init
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	  Type.sql
+	   v 0.9
+
+2001-05-01	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  ArchType.init
+	  ArchType.sql
+	  Architecture.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.init
+	  Type.sql
+	   v0.8.1
+
+2001-04-26	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  DynamicEntries.init
+	  ElfSections.init
+	  Interface.init
+	  LGInt.init
+	  SectionTypes.init
+	   v0.8 data
+
+2001-04-23	Stuart Anderson <anderson_at_freestandards.org>
+	* Interface.init
+	  Command.init
+	   Sync in changes
+
+2001-04-17	Stuart Anderson <anderson_at_freestandards.org>
+	* LGInt.init
+	  Command.init
+	  Interface.init
+	   v0.7.8
+
+2001-04-12	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.init
+	   More srubbing
+
+2001-04-04	Stuart Anderson <anderson_at_freestandards.org>
+	* Command.init
+	   Update command data
+
+2001-04-02	Stuart Anderson <anderson_at_freestandards.org>
+	* Command.init
+	   Sync in command updates
+
+2001-03-30	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  Command.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   v0.7.3
+
+2001-03-26	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  Command.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   Pick up a couple more commands
+
+2001-03-22	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	   v0.7
+
+2001-03-15	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  Command.init
+	  Interface.init
+	  LGInt.init
+	  Library.init
+	  Library.sql
+	   v0.6.3
+
+2001-03-08	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	  Command.init
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	   v0.6
+
+2001-03-07	Stuart Anderson <anderson_at_freestandards.org>
+	* LGInt.init
+	  Interface.init
+	   Sync in Adreas' excludes
+
+2001-03-05	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.init
+	  Interface.init
+	  LGInt.init
+	  Library.init
+	  Standard.init
+	   0.5.4 7 LFS clean ups
+
+2001-03-01	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  Command.init
+	  Header.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	  Type.sql
+	   Update w/ 0.5.2+ data
+
+2001-03-01	Theodore Ts'o <tytso_at_mit.edu>
+	* dbperms.sql
+	   Remove "FLUSH PRIVILEGES".  It's not needed when you modify
+	   privileges using the GRANT instruction, and it requires
+	   privileges which the lsbadmin user may not have.
+
+2001-02-25	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.init
+	  Command.init
+	  Command.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  Interface.init
+	  Library.init
+	  Library.sql
+	  Parameter.init
+	  Type.init
+	   Data that corresponds to gLSB v0.5
+
+2001-02-21	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  Command.init
+	  ElfSections.init
+	  ElfSections.sql
+	  Interface.init
+	  LGInt.init
+	  SectionTypes.init
+	  SectionTypes.sql
+	   sync in changes for 0.4.8+
+
+2001-02-19	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  Architecture.init
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   Data for v0.4.7
+
+2001-02-08	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchInt.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Parameter.init
+	  Type.init
+	  TypeMember.init
+	   Sync in data that corresponds to v 0.4.4
+
+2001-01-19	Stuart Anderson <anderson_at_freestandards.org>
+	* Library.init
+	  CmdInt.init
+	  CmdInt.sql
+	  CmdLib.init
+	  CmdLib.sql
+	  Command.init
+	  Command.sql
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	   Snapshot with Command & additional Library data added
+
+2001-01-18	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.init
+	  ArchInt.init
+	  Constant.sql
+	  Header.init
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  Library.sql
+	   Snapshot with Command & additional Library data added
+
+2001-01-07	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.sql
+	  Interface.init
+	  LibGroup.init
+	  Standard.init
+	   Sync in changes after addressing bugs 127627-127639
+
+2001-01-04	Stuart Anderson <anderson_at_freestandards.org>
+	* LGInt.init
+	  Interface.init
+	   Sync in updates
+
+2001-01-03	Stuart Anderson <anderson_at_freestandards.org>
+	* makefile
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.Intrinsic
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	   Snapshot the DB with the type info added
+
+2000-12-20	Stuart Anderson <anderson_at_freestandards.org>
+	* TypeMember.sql
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  Parameter.init
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	   Sync in more header & Type data to make the admin interface more
+	   interesting
+
+2000-11-29	Stuart Anderson <anderson_at_freestandards.org>
+	* Type.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.init
+	   Sync in current DB
+
+2000-10-06	Stuart Anderson <anderson_at_freestandards.org>
+	* setupdb.sql
+	  dbperms.sql
+	  makefile
+	   A couple of extra SQL statements for setting up the DB
+
+2000-10-04	Stuart Anderson <anderson_at_freestandards.org>
+	* Version.sql
+	  ArchInt.init
+	  Constant.sql
+	  DynamicEntries.init
+	  DynamicEntries.sql
+	  ElfSections.init
+	  ElfSections.sql
+	  Header.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  Library.init
+	  Library.sql
+	  SectionTypes.init
+	  SectionTypes.sql
+	  Type.sql
+	  VerInt.init
+	   Sync in the latest changes
+
+2000-10-01	Stuart Anderson <anderson_at_freestandards.org>
+	* Standard.init
+	  ArchInt.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	   Add libz & libncurses
+
+2000-09-29	Stuart Anderson <anderson_at_freestandards.org>
+	* makefile
+	  ArchInt.init
+	  ArchInt.sql
+	  Architecture.init
+	  Architecture.sql
+	  Constant.init
+	  Constant.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  Parameter.init
+	  Parameter.sql
+	  Standard.init
+	  Standard.sql
+	  Type.init
+	  Type.sql
+	  VerInt.init
+	  VerInt.sql
+	  Version.init
+	  Version.sql
+	   New way to save/restore the database. Several smaller file to
+	   make it easier on cvs
+
+1127242120
