@@ -27,7 +27,7 @@ INSERT INTO `ElfSections` VALUES (28,'.note.ABI-tag',10,'Specify ABI details. Se
 INSERT INTO `ElfSections` VALUES (29,'.ctors',10,'This section contains a list of global constructor function pointers.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO `ElfSections` VALUES (30,'.dtors',10,'This section contains a list of global destructor function pointers.',2,'SHF_ALLOC+SHF_WRITE',0,1);
 INSERT INTO `ElfSections` VALUES (31,'.gnu.version',10,'This section contains the Symbol Version Table. See <XREF LINKEND=\"symvertbl\">.',19,'SHF_ALLOC',0,1);
-INSERT INTO `ElfSections` VALUES (32,'.gnu.version_r',10,'This section contains the Version Requirments. See <XREF LINKEND=\"symverrgmts\">.',18,'SHF_ALLOC',0,1);
+INSERT INTO `ElfSections` VALUES (32,'.gnu.version_r',10,'This section contains the Version Requirements. See <XREF LINKEND=\"symverrqmts\">.',18,'SHF_ALLOC',0,1);
 INSERT INTO `ElfSections` VALUES (33,'.eh_frame',10,'This section contains information necessary for frame unwinding during exception handling. See <XREF LINKEND=\"ehframe\">.',2,'SHF_ALLOC',0,1);
 INSERT INTO `ElfSections` VALUES (34,'.stab',10,'This section contains debugging information. The contents are not specified as part of the LSB.',2,'0',0,1);
 INSERT INTO `ElfSections` VALUES (35,'.stabstr',10,'This section contains strings associated with the debugging infomation contained in the .stab section.',4,'0',0,1);
