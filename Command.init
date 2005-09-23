@@ -1041,3 +1041,4 @@ INSERT INTO `Command` VALUES (1049,'mailx','/usr/bin/mailx','Included',67,'No','
 INSERT INTO `Command` VALUES (1050,'lp','/usr/bin/lp','Included',67,'No','No');
 INSERT INTO `Command` VALUES (1051,'pax','/usr/bin/pax','Included',67,'No','No');
 INSERT INTO `Command` VALUES (1052,'lsbinstall','/usr/lib/lsb/lsbinstall','Excluded',10,'Yes','No');
+INSERT INTO `Command` VALUES (1053,'zcat','/bin/zcat','Excluded',10,'Yes','No');
