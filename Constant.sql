@@ -10,7 +10,7 @@
 DROP TABLE IF EXISTS `Constant`;
 CREATE TABLE `Constant` (
   `Cid` int(10) NOT NULL auto_increment,
-  `Cname` varchar(80) binary NOT NULL default '',
+  `Cname` varchar(255) binary NOT NULL default '',
   `Ctype` enum('int','long','float','double','longdouble','string','macro','Unknown') NOT NULL default 'Unknown',
   `Cheadgroup` int(10) NOT NULL default '0',
   `Ccomment` varchar(60) default NULL,
