@@ -69,7 +69,7 @@ INSERT INTO `ElfSections` VALUES (73,'.plt',68,'This section holds the procedure
 INSERT INTO `ElfSections` VALUES (74,'.glink',68,'This section may be used to hold the global linkage table which aids the procedure linkage table. See Procedure Linkage Table in Chapter 5 of the processor supplement for more information',2,'SHF_ALLOC+SHF_EXECINSTR',0,9);
 INSERT INTO `ElfSections` VALUES (75,'.toc',68,'This section may be used to hold the initialized Table of Contents, or TOC',2,'SHF_ALLOC+SHF_WRITE',0,9);
 INSERT INTO `ElfSections` VALUES (76,'.tocbss',68,'This section may be used to hold the uninitialized portions of the TOC.  This data may also be stored as zero-initialized data in a .toc section',9,'SHF_ALLOC+SHF_WRITE',0,9);
-INSERT INTO `ElfSections` VALUES (77,'.opd',10,'This section holds function descriptors',2,'SHF_ALLOC+SHF_WRITE',0,9);
+INSERT INTO `ElfSections` VALUES (77,'.opd',10,'This section contains the official procedure descriptors. A pointer to a function shall reference a procedure descriptor in this section.',2,'SHF_ALLOC+SHF_WRITE',0,9);
 INSERT INTO `ElfSections` VALUES (78,'.rela.dyn',10,'This section holds RELA type relocation information for all sections of a shared library except the PLT',5,'SHF_ALLOC',0,9);
 INSERT INTO `ElfSections` VALUES (79,'.rela.plt',10,'This section holds RELA type relocation information for the PLT section of a shared library or dynamically linked application',5,'SHF_ALLOC',0,9);
 INSERT INTO `ElfSections` VALUES (80,'.toc1',10,'This section holds the second level TOC information',2,'SHF_ALLOC+SHF_WRITE',0,9);
