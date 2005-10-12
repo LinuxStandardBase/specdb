@@ -324,8 +324,8 @@ INSERT INTO `Interface` VALUES (661,'host2netname','Defered','Function',0,1,98,6
 INSERT INTO `Interface` VALUES (662,'hsearch','Included','Function',67,1,38,9083,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (663,'hsearch_r','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (664,'hstrerror','Defered','Function',0,1,0,0,0,'No','No','none','');
-INSERT INTO `Interface` VALUES (665,'htonl','Included','Function',67,1,117,9272,1,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (666,'htons','Included','Function',67,1,117,9271,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (665,'htonl','Included','Function',67,1,116,9272,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (666,'htons','Included','Function',67,1,116,9271,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (667,'iconv','Included','Function',67,1,22,8969,2,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (668,'iconv_close','Included','Function',67,1,22,6,2,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (669,'iconv_open','Included','Function',67,1,22,6895,2,'Yes','No','none','');
@@ -2874,8 +2874,8 @@ INSERT INTO `Interface` VALUES (3493,'modff','Included','Function',67,1,29,12,1,
 INSERT INTO `Interface` VALUES (3494,'modfl','Included','Function',67,1,29,14,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (3498,'mremap','Defered','Function',0,1,0,40,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3499,'nrand48_r','Excluded','Function',0,1,0,6,0,'No','No','none','');
-INSERT INTO `Interface` VALUES (3500,'ntohl','Included','Function',67,1,117,9272,1,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (3501,'ntohs','Included','Function',67,1,117,9271,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (3500,'ntohl','Included','Function',67,1,116,9272,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (3501,'ntohs','Included','Function',67,1,116,9271,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (3502,'ntp_adjtime','Excluded','Function',0,1,96,6,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3505,'on_exit','Excluded','Function',0,1,0,6,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3506,'open64','Included','Function',35,1,62,6,2,'Yes','No','none','');
