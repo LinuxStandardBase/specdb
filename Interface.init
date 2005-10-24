@@ -193,9 +193,9 @@ INSERT INTO `Interface` VALUES (497,'envz_merge','Defered','Function',0,1,0,0,0,
 INSERT INTO `Interface` VALUES (498,'envz_remove','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (499,'envz_strip','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (500,'erand48','Included','Function',67,1,43,13,1,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (501,'err','Included','Function',10,1,0,0,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (501,'err','Included','Function',10,1,162,0,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (502,'errno','Excluded','Common',67,1,17,6,1,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (506,'errx','Included','Function',10,1,0,0,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (506,'errx','Included','Function',10,1,162,0,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (507,'ether_aton','Defered','Function',0,1,0,0,1,'No','No','none','');
 INSERT INTO `Interface` VALUES (508,'ether_aton_r','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (509,'ether_hostton','Defered','Function',0,1,0,0,1,'No','No','none','');
@@ -619,8 +619,8 @@ INSERT INTO `Interface` VALUES (1017,'vprintf','Included','Function',67,1,42,6,1
 INSERT INTO `Interface` VALUES (1018,'vsyslog','Included','Function',10,1,122,1,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (1019,'vtimes','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (1022,'waitid','Excluded','Function',67,1,55,6,2,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (1023,'warn','Included','Function',10,1,0,0,1,'Yes','No','none','');
-INSERT INTO `Interface` VALUES (1024,'warnx','Included','Function',10,1,0,0,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (1023,'warn','Included','Function',10,1,162,0,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (1024,'warnx','Included','Function',10,1,162,0,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (1025,'wcscat','Included','Function',67,1,64,8849,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (1026,'wcschr','Included','Function',67,1,64,8849,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (1027,'wcscmp','Included','Function',67,1,64,6,1,'Yes','No','none','');
@@ -2785,7 +2785,7 @@ INSERT INTO `Interface` VALUES (3386,'dcgettext','Included','Function',10,1,141,
 INSERT INTO `Interface` VALUES (3387,'dgettext','Included','Function',10,1,141,63,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3388,'environ','Included','Alias',67,1,43,4855,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (3389,'erand48_r','Excluded','Function',0,1,0,6,0,'No','No','none','');
-INSERT INTO `Interface` VALUES (3390,'error','Included','Function',10,1,0,0,1,'Yes','No','none','');
+INSERT INTO `Interface` VALUES (3390,'error','Included','Function',10,1,162,0,1,'Yes','No','none','');
 INSERT INTO `Interface` VALUES (3392,'euidaccess','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3393,'fcloseall','Defered','Function',0,1,0,0,0,'No','No','none','');
 INSERT INTO `Interface` VALUES (3395,'fgetc_unlocked','Defered','Function',0,1,42,6,0,'No','No','none','');

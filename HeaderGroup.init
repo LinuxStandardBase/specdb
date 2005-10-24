@@ -585,3 +585,4 @@ INSERT INTO `HeaderGroup` VALUES (598,'ExtendedVisualInfo',161,2,1,'');
 INSERT INTO `HeaderGroup` VALUES (599,'Default HeaderGroup for XEVI.h',161,0,1,'');
 INSERT INTO `HeaderGroup` VALUES (600,'Unwind Stop Function',143,6,1,'');
 INSERT INTO `HeaderGroup` VALUES (601,'Unwind Trace Function',143,7,1,'');
+INSERT INTO `HeaderGroup` VALUES (602,'Default HeaderGroup for err.h',162,0,0,'Default HeaderGroup for err.h');
