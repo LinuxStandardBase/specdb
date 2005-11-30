@@ -1,3 +1,71 @@
+2005-11-16	Vinay Pawar <vinay.pawar_at_codito.com>
+	* Standard.init
+	   Rolling back following changes:	   "&trade;" to "&trade"
+	   and added <PARA> </PARA> tags, as before Note: Changes prior to
+	   "this" commit did not follow the specdb protocol as mentioned in
+	   the 00README.
+
+2005-11-10	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Type.sql
+	   In response to Bug #1112
+	   (http://bugs.linuxbase.org/show_bug.cgi?id=1112) Updated Ttype
+	   identifiers to include 'Volatile' type qualifier
+
+2005-10-25	Nick Stoughton <nick_at_usenix.org>
+	* Parameter.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	   added (almost) complete defs for rpc/pmap_clnt.h and err.h
+	   (skipped the defered interfaces).
+
+2005-10-24	Nick Stoughton <nick_at_usenix.org>
+	* Interface.init
+	  Header.init
+	  HeaderGroup.init
+	   add err.h as header for err(), error(), errx(), warn() and
+	   warnx()
+
+2005-10-12	Nick Stoughton <nick_at_usenix.org>
+	* Interface.init
+	   move htonl, htons, ntohl, and ntohs from netinet/in.h to
+	   arpa/inet.h See bug 1099.
+
+2005-10-11	Nick Stoughton <nick_at_usenix.org>
+	* ElfSections.init
+	   update description for PPC64 .opd section - see bug 1079
+
+2005-10-07	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Standard.init
+	  Constant.sql
+	  Module.init
+	  RpmTag.init
+	   Expand Constant.Cname per bug 1094
+
+2005-09-30	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Command.init
+	   install_initd, remove_initd should have had paths (part of bug
+	   1006)
+
+2005-09-23	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Command.sql
+	  Command.init
+	   For bug 1006: clear command paths when not required. Adjusted
+	   Command table somewhat to accomodate.
+
+2005-09-23	Nick Stoughton <nick_at_usenix.org>
+	* Command.init
+	   added zcat
+
+2005-09-20	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ChangeLog
+	   Generated a ChangeLog per request
+
+2005-09-20	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	  ElfSections.init
+	   fix typo
+
 2005-09-20	Mats Wichmann <mats.d.wichmann_at_intel.com>
 	* Type.init
 	   Fix broken reference to xprt_stat
@@ -3745,4 +3813,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1127242120
+1133364969
