@@ -100,3 +100,4 @@ INSERT INTO `Standard` VALUES (105,'X-evi','Extended Visual Information Extensio
 INSERT INTO `Standard` VALUES (106,'DWARF3','DWARF Debugging Information Format, Revision 3.0.0 (Draft)','http://refspecs.freestandards.org/dwarf/','','Reference',1,'DWARF Debugging Information Format, Revision 3.0.0 (Draft)');
 INSERT INTO `Standard` VALUES (107,'Pango','Pango 1.8.0 Reference Manual','http://www.gtk.org/api/2.6/pango/index.html','','Standard',1,'Pango 1.8.0 Reference Manual');
 INSERT INTO `Standard` VALUES (108,'ATK','ATK 1.9.0 Reference Manual','http://www.gtk.org/api/2.6/atk/index.html','','Standard',1,'ATK 1.9.0 Reference Manual');
+INSERT INTO `Standard` VALUES (109,'fontconfig','Fontconfig Developers Reference, Version 2.3.0','http://fontconfig.org/fontconfig-devel/','','Standard',1,'Fontconfig Developers Reference');
