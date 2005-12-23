@@ -1042,3 +1042,6 @@ INSERT INTO `Command` VALUES (1050,'lp',NULL,'Included',67,'No','No');
 INSERT INTO `Command` VALUES (1051,'pax',NULL,'Included',67,'No','No');
 INSERT INTO `Command` VALUES (1052,'lsbinstall',NULL,'Excluded',10,'Yes','No');
 INSERT INTO `Command` VALUES (1053,'zcat','/bin/zcat','Excluded',10,'Yes','No');
+INSERT INTO `Command` VALUES (1054,'fc-cache','NULL','Unknown',109,'No','No');
+INSERT INTO `Command` VALUES (1055,'fc-list','NULL','Unknown',109,'No','No');
+INSERT INTO `Command` VALUES (1056,'fc-match','NULL','Unknown',109,'No','No');
