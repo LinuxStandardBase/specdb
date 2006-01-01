@@ -1,3 +1,23 @@
+2005-12-23	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Constant.init
+	  ArchConst.init
+	  Command.init
+	   Bug fix for broken entries -
+	   http://bugs.linuxbase.org/show_bug.cgi?id=1095
+
+2005-12-22	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Standard.init
+	   Fontconfig standard added
+
+2005-12-03	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	   update for LSB itself now it is an ISO standard (and for
+	   improved xrefs from ARCHlsbs)
+
+2005-11-30	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ChangeLog
+	   bring changelog up to date
+
 2005-11-16	Vinay Pawar <vinay.pawar_at_codito.com>
 	* Standard.init
 	   Rolling back following changes:	   "&trade;" to "&trade"
@@ -3813,4 +3833,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1133364969
+1136132200
