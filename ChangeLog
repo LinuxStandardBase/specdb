@@ -1,3 +1,22 @@
+2006-01-05	Nick Stoughton <nick_at_usenix.org>
+	* Interface.init
+	   fix return types for several X11 interfaces (mostly where the
+	   return types were the #define'd Status or Bool types, both of
+	   which are actully int).
+
+2006-01-05	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* ModCmd.sql
+	  ModCmd.init
+	   - Relation table to show the relationship between commands and
+	   modules.(See bug #1114 -
+	   http://bugs.linuxbase.org/show_bug.cgi?id=1114 ) - Only Added
+	   commands included in LSB-Core and LSB-Graphics-Ext
+
+2006-01-02	Nick Stoughton <nick_at_usenix.org>
+	* Standard.init
+	   move IEEE floating point and SUSv2-XCU to Reference materials
+	   only
+
 2005-12-23	Pradosh Adoni <pradosh.adoni_at_codito.com>
 	* Constant.init
 	  ArchConst.init
@@ -13,10 +32,6 @@
 	* Standard.init
 	   update for LSB itself now it is an ISO standard (and for
 	   improved xrefs from ARCHlsbs)
-
-2005-11-30	Mats Wichmann <mats.d.wichmann_at_intel.com>
-	* ChangeLog
-	   bring changelog up to date
 
 2005-11-16	Vinay Pawar <vinay.pawar_at_codito.com>
 	* Standard.init
@@ -3833,4 +3848,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1136132200
+1136487773
