@@ -1,3 +1,14 @@
+2006-01-16	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Vtable.init
+	   - Fix for bug # 1046
+	   (http://bugs.linuxbase.org/show_bug.cgi?id=1046).contributed by
+	   Jeff Licquia
+
+2006-01-06	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Command.init
+	   - Changed Cpath for fontconfig commands to be actually null
+	   rather than a string "NULL"
+
 2006-01-05	Nick Stoughton <nick_at_usenix.org>
 	* Interface.init
 	   fix return types for several X11 interfaces (mostly where the
@@ -3848,4 +3859,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1136487773
+1137428392
