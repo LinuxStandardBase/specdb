@@ -1,4 +1,7 @@
 INSERT INTO `Module` VALUES (1,'LSB_Core','Core LSB Specification');
 INSERT INTO `Module` VALUES (2,'LSB_Graphics','Graphics libraries Module');
 INSERT INTO `Module` VALUES (3,'LSB_Cpp','LSB C++ module');
-INSERT INTO `Module` VALUES (4,'LSB_Desktop','LSB Desktop module');
+INSERT INTO `Module` VALUES (4,'LSB_Toolkit_Gtk','LSB Toolkit GTK module');
+INSERT INTO `Module` VALUES (5,'LSB_Toolkit_Qt','LSB Toolkit Qt module');
+INSERT INTO `Module` VALUES (6,'LSB_Graphics_Ext','Graphics additional libraries Module');
+INSERT INTO `Module` VALUES (7,'LSB_XML','LSB XML module');
