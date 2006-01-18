@@ -209,3 +209,10 @@ INSERT INTO `LibGroup` VALUES (481,'GDK pixbuf rendering to an X drawable librar
 INSERT INTO `LibGroup` VALUES (482,'GTK Drawing toolkit',252,1,0,'GTK Drawing toolkit');
 INSERT INTO `LibGroup` VALUES (483,'GTK main Widgets library',253,1,0,'GTK main Widgets library');
 INSERT INTO `LibGroup` VALUES (484,'The XML C parser and toolkit for XML processing',254,1,0,'The XML C parser and toolkit for XML processing');
+INSERT INTO `LibGroup` VALUES (485,'QtCore',255,1,1,'');
+INSERT INTO `LibGroup` VALUES (486,'QtGui',256,1,1,'');
+INSERT INTO `LibGroup` VALUES (487,'QtNetwork',257,1,1,'');
+INSERT INTO `LibGroup` VALUES (488,'QtXml',258,1,1,'');
+INSERT INTO `LibGroup` VALUES (489,'QtOpenGL',259,1,1,'');
+INSERT INTO `LibGroup` VALUES (490,'QtSql',260,1,1,'');
+INSERT INTO `LibGroup` VALUES (491,'QtSvg',261,1,1,'');
