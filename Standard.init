@@ -101,9 +101,9 @@ INSERT INTO `Standard` VALUES (106,'DWARF3','DWARF Debugging Information Format,
 INSERT INTO `Standard` VALUES (107,'Pango','Pango 1.8.0 Reference Manual','http://www.gtk.org/api/2.6/pango/index.html','','Standard',1,'Pango 1.8.0 Reference Manual');
 INSERT INTO `Standard` VALUES (108,'ATK','ATK 1.9.0 Reference Manual','http://www.gtk.org/api/2.6/atk/index.html','','Standard',1,'ATK 1.9.0 Reference Manual');
 INSERT INTO `Standard` VALUES (109,'fontconfig','Fontconfig Developers Reference, Version 2.3.0','http://fontconfig.org/fontconfig-devel/','','Standard',1,'Fontconfig Developers Reference');
-INSERT INTO `Standard` VALUES (110,'libJPEG','Independent JPEG Group','http://www.ijg.org/','','Standard',1,'Independent JPEG Group');
+INSERT INTO `Standard` VALUES (110,'libJPEG','Independent JPEG Group','http://www.ijg.org/','','Reference',1,'Independent JPEG Group');
 INSERT INTO `Standard` VALUES (111,'libXML2','Reference Manual for libxml2','http://xmlsoft.org/html/index.html','','Standard',1,'Reference Manual for libxml2');
-INSERT INTO `Standard` VALUES (112,'Png12','A description on how to use and modify libpng','http://www.libpng.org/pub/png/libpng-1.2.5-manual.html','','Standard',1,'A description on how to use and modify libpng');
+INSERT INTO `Standard` VALUES (112,'Png12','A description on how to use and modify libpng','http://www.libpng.org/pub/png/libpng-1.2.5-manual.html','','Reference',1,'A description on how to use and modify libpng');
 INSERT INTO `Standard` VALUES (113,'QtCore','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtcore.html','','Standard',1,'QtCore 4.1.0');
 INSERT INTO `Standard` VALUES (114,'QtGui','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtgui.html','','Standard',1,'QtGui 4.1.0');
 INSERT INTO `Standard` VALUES (115,'QtXml','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtxml.html','','Standard',1,'QtXml 4.1.0');
