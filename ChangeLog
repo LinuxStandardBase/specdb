@@ -1,3 +1,171 @@
+2006-01-23	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* LGInt.init
+	  ArchInt.init
+	  Interface.init
+	   syncing in latest updates from Harald for Arch specific entries
+
+2006-01-21	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Interface.init
+	   some of (about 10) Qt interfaces were with Arch=2 instead of 1
+	   like all others. Checking this change pending Harald's
+	   verification. This was causing issues in Spec building process
+	   for Core appendix
+
+2006-01-20	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Standard.init
+	   changing png and jpeg to reference standards
+
+2006-01-19	Harald Fernengel <harald_at_trolltech.com>
+	* ArchType.init
+	   I was so busy making sure that all those other platforms behave
+	   well that I forgot to add the size info for IA32 :)
+
+2006-01-19	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Standard.init
+	   - Fix for bug #1166
+	   (http://bugs.linuxbase.org/show_bug.cgi?id=1166): got rid of
+	   invalid characters in the table
+
+2006-01-18	Harald Fernengel <harald_at_trolltech.com>
+	* Vtable.sql
+	  ArchClass.init
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.init
+	  ArchInt.sql
+	  ArchLib.init
+	  ArchLib.sql
+	  ArchType.init
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.init
+	  BaseTypes.sql
+	  ClassInfo.init
+	  ClassInfo.sql
+	  ClassVtab.init
+	  ClassVtab.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.init
+	  Header.sql
+	  HeaderGroup.init
+	  HeaderGroup.sql
+	  Interface.init
+	  Interface.sql
+	  LGInt.init
+	  LGInt.sql
+	  LibGroup.init
+	  LibGroup.sql
+	  Library.init
+	  Library.sql
+	  ModCmd.sql
+	  ModLib.init
+	  ModLib.sql
+	  Module.sql
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.init
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.init
+	  Type.sql
+	  TypeMember.init
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.init
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	  Vtable.init
+	   Add QtCore, QtGui, QtSql, QtSvg, QtXml, QtNetwork, QtOpenGL
+
+2006-01-18	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Vtable.sql
+	  ArchClass.sql
+	  ArchConst.sql
+	  ArchInt.sql
+	  ArchLib.sql
+	  ArchType.sql
+	  ArchTypeMem.sql
+	  Architecture.sql
+	  BaseTypes.sql
+	  ClassInfo.sql
+	  ClassVtab.sql
+	  CmdInt.sql
+	  CmdLib.sql
+	  Command.sql
+	  Constant.sql
+	  DynamicEntries.sql
+	  ElfSections.sql
+	  Header.sql
+	  HeaderGroup.sql
+	  Interface.sql
+	  LGInt.sql
+	  LibGroup.sql
+	  Library.sql
+	  ModCmd.init
+	  ModCmd.sql
+	  ModLib.sql
+	  Module.sql
+	  Parameter.sql
+	  ProfLib.sql
+	  Profile.sql
+	  RpmTag.sql
+	  SectionTypes.sql
+	  Standard.sql
+	  TestCmd.sql
+	  TestInt.sql
+	  TestSuite.sql
+	  Type.sql
+	  TypeMember.sql
+	  TypeType.sql
+	  VMIBaseTypes.sql
+	  VerInt.sql
+	  Version.sql
+	   Resync: after the last two sets of changes not made through the
+	   live DB, this is the reload-and-dump of that data through the
+	   live DB.
+
+2006-01-18	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* ArchTypeMem.init
+	  ArchType.init
+	   Fixing Aid information for some of the types (added by addType
+	   script). Reram devchk on IA32 and x86-64
+
+2006-01-17	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchLib.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Command.init
+	  Constant.init
+	  Header.init
+	  HeaderGroup.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  ModLib.init
+	  Module.init
+	  Parameter.init
+	  Standard.init
+	  Type.init
+	   adding DB entries for desktop libraries: libjpeg, libpng,
+	   libfontconfig, fontconfig cmds, libxml2, all GTK+ stack
+	   libraries Arch size info for IA32 and x86-64 archs only. For
+	   other archs, devchk need to be run.
+
 2006-01-16	Pradosh Adoni <pradosh.adoni_at_codito.com>
 	* Vtable.init
 	   - Fix for bug # 1046
@@ -3859,4 +4027,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1137428392
+1138052787
