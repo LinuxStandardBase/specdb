@@ -6836,7 +6836,7 @@ INSERT INTO `Type` VALUES (15053,'xmlSchemaVal *','Pointer',15052,665,NULL,NULL,
 INSERT INTO `Type` VALUES (15054,'xmlSchemaValPtr','Typedef',15053,665,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (15055,'xmlSchemaValPtr *','Pointer',15054,665,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (15056,'anon-libxml2/libxml/xmlschemastypes.h-220','Enum',0,665,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (15057,'xmlSchemaValType','Typedef',15056,665,NULL,NULL,'Indirect',1,NULL);
+INSERT INTO `Type` VALUES (15057,'xmlSchemaValType','Typedef',15056,665,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (15058,'_xmlTextReader','Struct',0,666,NULL,NULL,'Excluded',1,NULL);
 INSERT INTO `Type` VALUES (15059,'xmlTextReader','Typedef',15058,666,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (15060,'xmlTextReader *','Pointer',15059,666,NULL,NULL,'Indirect',1,NULL);
