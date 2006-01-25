@@ -9474,3 +9474,4 @@ INSERT INTO `Constant` VALUES (9481,'XML_CATALOGS_NAMESPACE','Unknown',667,'','Y
 INSERT INTO `Constant` VALUES (9482,'XML_CATALOG_PI','Unknown',667,'','Yes');
 INSERT INTO `Constant` VALUES (9483,'xmlTextWriterWriteProcessingInstruction','Unknown',668,'','Yes');
 INSERT INTO `Constant` VALUES (9484,'xmlTextWriterWriteDocType','Unknown',668,'','Yes');
+INSERT INTO `Constant` VALUES (9485,'LIBXML_THREAD_ENABLED','Unknown',631,'','Yes');

@@ -9189,3 +9189,4 @@ INSERT INTO `ArchConst` VALUES (1,9481,' \\\n	(const xmlChar *) \"urn:oasis:name
 INSERT INTO `ArchConst` VALUES (1,9482,'(const xmlChar *) \"oasis-xml-catalog\"');
 INSERT INTO `ArchConst` VALUES (1,9483,'xmlTextWriterWritePI');
 INSERT INTO `ArchConst` VALUES (1,9484,'xmlTextWriterWriteDTD');
+INSERT INTO `ArchConst` VALUES (1,9485,'');
