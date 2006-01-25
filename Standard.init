@@ -7,7 +7,7 @@ INSERT INTO `Standard` VALUES (6,'POSIX.2','IEEE Std POSIX 1003.2-1992 (ISO/IEC 
 INSERT INTO `Standard` VALUES (7,'BSD','BSD 4.4 Lite version 2','','','Implementation',1,'BSD 4.4 Lite');
 INSERT INTO `Standard` VALUES (8,'RPC & XDR','IETF RFC 1831 &amp; 1832','http://www.ietf.org/','Still need API reference, instead of protocol reference','Reference',1,'RFC 1831/1832 RPC &amp; XDR');
 INSERT INTO `Standard` VALUES (9,'pthreads','POSIX 1003.1c','http://www.ieee.org/','','Unknown',1,'IEEE Std 1003.1c');
-INSERT INTO `Standard` VALUES (10,'LSB','ISO/IEC 23360:2005 Linux Standard Base - Part 1 Generic Specification','http://www.linuxbase.org/spec/','','Standard',1,'&amp;ISOSTD-1;');
+INSERT INTO `Standard` VALUES (10,'LSB','ISO/IEC 23360:2005 Linux Standard Base - Part 1 Generic Specification','http://www.linuxbase.org/spec/','','Standard',1,'&ISOSTD-1;');
 INSERT INTO `Standard` VALUES (11,'Xlib','Xlib - C Language X Interface - X Version 11 Release 6.4','http://refspecs.freestandards.org/X11/xlib.pdf','','Standard',1,'X11 C Library');
 INSERT INTO `Standard` VALUES (12,'Xt','X Toolkit Intrinsics - C Language Interface - X Version 11, Release 6.4','http://refspecs.freestandards.org/X11/intrinsics.pdf','','Standard',1,'X11 Toolkit Intrinsics');
 INSERT INTO `Standard` VALUES (13,'FHS','Filesystem Hierarchy Standard (FHS) 2.3','http://www.pathname.com/fhs/','','Standard',1,'Filesystem Hierarchy Standard');
