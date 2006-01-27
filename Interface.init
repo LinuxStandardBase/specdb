@@ -16962,7 +16962,6 @@ INSERT INTO `Interface` VALUES (36368,'_ZTI15QObjectUserData','Included','Data',
 INSERT INTO `Interface` VALUES (36369,'_ZTI15QSocketNotifier','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36370,'_ZTI16QCoreApplication','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36371,'_ZTI16QIODevicePrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (36372,'_ZTI16QSettingsPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36373,'_ZTI16QTextCodecPlugin','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36374,'_ZTI17QFactoryInterface','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36375,'_ZTI18QAbstractItemModel','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
@@ -16973,7 +16972,6 @@ INSERT INTO `Interface` VALUES (36379,'_ZTI20QEventDispatcherUNIX','Included','D
 INSERT INTO `Interface` VALUES (36380,'_ZTI21QObjectCleanupHandler','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36381,'_ZTI23QCoreApplicationPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36382,'_ZTI24QAbstractEventDispatcher','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (36383,'_ZTI25QAbstractItemModelPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36384,'_ZTI26QAbstractFileEngineHandler','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36385,'_ZTI26QTextCodecFactoryInterface','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36386,'_ZTI27QEventDispatcherUNIXPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
@@ -17010,7 +17008,6 @@ INSERT INTO `Interface` VALUES (36416,'_ZTV15QObjectUserData','Included','Data',
 INSERT INTO `Interface` VALUES (36417,'_ZTV15QSocketNotifier','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36418,'_ZTV16QCoreApplication','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36419,'_ZTV16QIODevicePrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (36420,'_ZTV16QSettingsPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36421,'_ZTV16QTextCodecPlugin','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36422,'_ZTV17QFactoryInterface','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36423,'_ZTV18QAbstractItemModel','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
@@ -17021,7 +17018,6 @@ INSERT INTO `Interface` VALUES (36427,'_ZTV20QEventDispatcherUNIX','Included','D
 INSERT INTO `Interface` VALUES (36428,'_ZTV21QObjectCleanupHandler','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36429,'_ZTV23QCoreApplicationPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36430,'_ZTV24QAbstractEventDispatcher','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (36431,'_ZTV25QAbstractItemModelPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36432,'_ZTV26QAbstractFileEngineHandler','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36433,'_ZTV26QTextCodecFactoryInterface','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36434,'_ZTV27QEventDispatcherUNIXPrivate','Included','Data',113,1,0,0,0,'Unknown','Unknown','none','');
@@ -17241,7 +17237,7 @@ INSERT INTO `Interface` VALUES (36647,'_ZNK7QString3argEdiciRK5QChar','Included'
 INSERT INTO `Interface` VALUES (36648,'_ZNK7QString3argEciRK5QChar','Included','Function',113,1,240,15296,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36649,'_ZNK7QString3argE5QChariRKS0_','Included','Function',113,1,240,15296,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36650,'_ZNK7QString3argERKS_iRK5QChar','Included','Function',113,1,240,15296,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (36651,'_ZN7QString8vsprintfEPKcPc','Included','Function',113,1,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (36651,'_ZN7QString8vsprintfEPKcPc','Included','Function',113,2,240,15296,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36652,'_ZN7QString7sprintfEPKcz','Included','Function',113,1,240,15296,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36653,'_ZNK7QString7indexOfE5QChariN2Qt15CaseSensitivityE','Included','Function',113,1,240,6,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (36654,'_ZNK7QString7indexOfERKS_iN2Qt15CaseSensitivityE','Included','Function',113,1,240,6,0,'Unknown','Unknown','none','');
@@ -19426,7 +19422,6 @@ INSERT INTO `Interface` VALUES (38832,'_ZTI23QPictureFormatInterface','Included'
 INSERT INTO `Interface` VALUES (38833,'_ZTI23QWindowStateChangeEvent','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (38834,'_ZTI24QAbstractItemViewPrivate','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (38835,'_ZTI24QAbstractPageSetupDialog','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (38836,'_ZTI25QAbstractItemModelPrivate','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (38837,'_ZTI27QAbstractTextDocumentLayout','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (38838,'_ZTI27QAccessibleFactoryInterface','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (38839,'_ZTI27QIconEngineFactoryInterface','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
@@ -19631,7 +19626,7 @@ INSERT INTO `Interface` VALUES (39037,'_ZTV23QPictureFormatInterface','Included'
 INSERT INTO `Interface` VALUES (39038,'_ZTV23QWindowStateChangeEvent','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (39039,'_ZTV24QAbstractItemViewPrivate','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (39040,'_ZTV24QAbstractPageSetupDialog','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (39041,'_ZTV25QAbstractItemModelPrivate','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48536,'_ZN15QListWidgetItem18setBackgroundColorERK6QColor','SrcOnly','Function',114,1,383,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (39042,'_ZTV27QAbstractTextDocumentLayout','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (39043,'_ZTV27QAccessibleFactoryInterface','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (39044,'_ZTV27QIconEngineFactoryInterface','Included','Data',114,1,0,0,0,'Unknown','Unknown','none','');
@@ -27318,11 +27313,6 @@ INSERT INTO `Interface` VALUES (46724,'_ZTI11QHttpHeader','Included','Data',116,
 INSERT INTO `Interface` VALUES (46725,'_ZTI15QAbstractSocket','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46726,'_ZTI18QHttpRequestHeader','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46727,'_ZTI19QHttpResponseHeader','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46728,'_ZTI19QNativeSocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46729,'_ZTI19QSocks5SocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46730,'_ZTI20QSocketEngineHandler','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46731,'_ZTI21QAbstractSocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46732,'_ZTI26QSocks5SocketEngineHandler','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46733,'_ZTI4QFtp','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46734,'_ZTI5QHttp','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46735,'_ZTI8QUrlInfo','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
@@ -27333,11 +27323,6 @@ INSERT INTO `Interface` VALUES (46739,'_ZTV11QHttpHeader','Included','Data',116,
 INSERT INTO `Interface` VALUES (46740,'_ZTV15QAbstractSocket','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46741,'_ZTV18QHttpRequestHeader','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46742,'_ZTV19QHttpResponseHeader','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46743,'_ZTV19QNativeSocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46744,'_ZTV19QSocks5SocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46745,'_ZTV20QSocketEngineHandler','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46746,'_ZTV21QAbstractSocketEngine','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (46747,'_ZTV26QSocks5SocketEngineHandler','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46748,'_ZTV4QFtp','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46749,'_ZTV5QHttp','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (46750,'_ZTV8QUrlInfo','Included','Data',116,1,0,0,0,'Unknown','Unknown','none','');
@@ -28602,7 +28587,7 @@ INSERT INTO `Interface` VALUES (48008,'_ZTI16QSqlCachedResult','Included','Data'
 INSERT INTO `Interface` VALUES (48009,'_ZTI16QSqlDriverPlugin','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48010,'_ZTI17QFactoryInterface','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48011,'_ZTI24QSqlRelationalTableModel','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (48012,'_ZTI25QAbstractItemModelPrivate','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48537,'_ZNK14QGLPixelBuffer7devTypeEv','SrcOnly','Function',117,1,472,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48013,'_ZTI26QSqlDriverFactoryInterface','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48014,'_ZTV10QSqlDriver','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48015,'_ZTV10QSqlResult','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
@@ -28612,7 +28597,7 @@ INSERT INTO `Interface` VALUES (48018,'_ZTV16QSqlCachedResult','Included','Data'
 INSERT INTO `Interface` VALUES (48019,'_ZTV16QSqlDriverPlugin','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48020,'_ZTV17QFactoryInterface','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48021,'_ZTV24QSqlRelationalTableModel','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (48022,'_ZTV25QAbstractItemModelPrivate','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48535,'_ZNK12QPaintDevice7devTypeEv','SrcOnly','Function',114,1,324,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48023,'_ZTV26QSqlDriverFactoryInterface','Included','Data',118,1,0,0,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48024,'_ZN10QSqlRecordC2Ev','Included','Function',118,1,474,16154,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48025,'_ZN10QSqlRecordC1Ev','Included','Function',118,1,474,16154,0,'Unknown','Unknown','none','');
@@ -29109,8 +29094,8 @@ INSERT INTO `Interface` VALUES (48515,'_Z7qMemSetPvim','Included','Function',113
 INSERT INTO `Interface` VALUES (48516,'_Z7qMemSetPvim','Included','Function',113,9,235,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48517,'_Z7qMemSetPvim','Included','Function',113,11,235,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48518,'_Z7qMemSetPvim','Included','Function',113,12,235,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (48519,'_Z10qvsnprintfPcjPKcS_','Included','Function',113,6,239,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (48520,'_Z10qvsnprintfPcjPKcS_','Included','Function',113,10,239,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48519,'_Z10qvsnprintfPcjPKcP13__va_list_tag','Included','Function',113,6,239,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48520,'_Z10qvsnprintfPcjPKcP13__va_list_tag','Included','Function',113,10,239,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48521,'_Z10qvsnprintfPcmPKcP13__va_list_tag','Included','Function',113,3,239,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48522,'_Z10qvsnprintfPcmPKcP13__va_list_tag','Included','Function',113,9,239,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48523,'_Z10qvsnprintfPcmPKcP13__va_list_tag','Included','Function',113,11,239,1,0,'Unknown','Unknown','none','');
@@ -29125,3 +29110,9 @@ INSERT INTO `Interface` VALUES (48531,'xmlOutputBufferCreateFilename','Included'
 INSERT INTO `Interface` VALUES (48532,'xmlXPathNAN','Included','Data',111,1,211,13,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48533,'xmlXPathNINF','Included','Data',111,1,211,13,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (48534,'xmlXPathPINF','Included','Data',111,1,211,13,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48538,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,6,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48539,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,10,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48540,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,12,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48541,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,11,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48542,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,9,240,15296,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (48543,'_ZN7QString8vsprintfEPKcP13__va_list_tag','Included','Function',113,3,240,15296,0,'Unknown','Unknown','none','');
