@@ -7960,3 +7960,4 @@ INSERT INTO `Type` VALUES (16177,'QSqlRelationalTableModel','Class',16173,924,NU
 INSERT INTO `Type` VALUES (16178,'QSvgRenderer','Class',15315,925,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16179,'QtSvgModule','Typedef',15266,926,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16180,'QSvgWidget','Class',15672,926,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (16181,'FcChar16','Typedef',11209,604,NULL,NULL,'Referenced',1,NULL);
