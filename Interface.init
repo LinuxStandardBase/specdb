@@ -12812,7 +12812,7 @@ INSERT INTO `Interface` VALUES (32218,'gdk_pixmap_create_from_xpm_d','Included',
 INSERT INTO `Interface` VALUES (32219,'gdk_display_supports_selection_notification','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32220,'gdk_display_manager_list_displays','Included','Function',99,1,186,11452,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32221,'gdk_gc_set_subwindow','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32222,'gdk_pre_parse_libgtk_only','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32222,'gdk_pre_parse_libgtk_only','Excluded','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32223,'gdk_gc_set_colormap','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32224,'gdk_grab_status_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32225,'gdk_visual_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
@@ -12903,7 +12903,7 @@ INSERT INTO `Interface` VALUES (32309,'gdk_event_mask_get_type','Included','Func
 INSERT INTO `Interface` VALUES (32310,'gdk_set_program_class','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32311,'gdk_draw_polygon','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32312,'gdk_font_equal','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32313,'gdk_display_open_default_libgtk_only','Included','Function',99,1,186,12716,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32313,'gdk_display_open_default_libgtk_only','Excluded','Function',99,1,186,12716,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32314,'gdk_function_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32315,'gdk_display_close','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32316,'gdk_screen_get_n_monitors','Included','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
@@ -12976,7 +12976,7 @@ INSERT INTO `Interface` VALUES (32382,'gdk_screen_get_monitor_at_point','Include
 INSERT INTO `Interface` VALUES (32383,'gdk_utf8_to_compound_text_for_display','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32384,'gdk_image_get_colormap','Included','Function',99,1,186,12688,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32385,'gdk_window_get_origin','Included','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32386,'gdk_keyboard_grab_info_libgtk_only','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32386,'gdk_keyboard_grab_info_libgtk_only','Excluded','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32387,'gdk_set_double_click_time','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32388,'gdk_gc_get_values','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32389,'gdk_color_copy','Included','Function',99,1,186,12679,0,'Unknown','Unknown','none','');
@@ -13036,7 +13036,7 @@ INSERT INTO `Interface` VALUES (32442,'gdk_window_reparent','Included','Function
 INSERT INTO `Interface` VALUES (32443,'gdk_display_list_devices','Included','Function',99,1,186,11430,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32444,'gdk_screen_get_rgb_visual','Included','Function',99,1,186,12686,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32445,'gdk_set_sm_client_id','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32446,'gdk_pointer_grab_info_libgtk_only','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32446,'gdk_pointer_grab_info_libgtk_only','Excluded','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32447,'gdk_region_destroy','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32448,'gdk_display_manager_set_default_display','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32449,'gdk_beep','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
@@ -13050,7 +13050,7 @@ INSERT INTO `Interface` VALUES (32456,'gdk_window_add_filter','Included','Functi
 INSERT INTO `Interface` VALUES (32457,'gdk_draw_line','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32458,'gdk_event_send_client_message','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32459,'gdk_window_set_geometry_hints','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32460,'gdk_draw_rectangle_alpha_libgtk_only','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32460,'gdk_draw_rectangle_alpha_libgtk_only','Excluded','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32461,'gdk_window_class_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32462,'gdk_unicode_to_keyval','Included','Function',99,1,186,11402,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32463,'gdk_draw_arc','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
@@ -13073,7 +13073,7 @@ INSERT INTO `Interface` VALUES (32479,'gdk_rgb_dither_get_type','Included','Func
 INSERT INTO `Interface` VALUES (32480,'gdk_window_hide','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32481,'gdk_window_register_dnd','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32482,'gdk_notify_type_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32483,'gdk_add_option_entries_libgtk_only','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32483,'gdk_add_option_entries_libgtk_only','Excluded','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32484,'gdk_window_invalidate_rect','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32485,'gdk_window_unmaximize','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32486,'gdk_gc_copy','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
@@ -13340,7 +13340,7 @@ INSERT INTO `Interface` VALUES (32746,'gdk_x11_atom_to_xatom','Included','Functi
 INSERT INTO `Interface` VALUES (32747,'gdk_x11_image_get_ximage','Included','Function',99,1,188,8917,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32748,'gdk_x11_cursor_get_xdisplay','Included','Function',99,1,188,8724,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32749,'gdk_x11_display_grab','Included','Function',99,1,188,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32750,'gdk_x11_display_get_user_time_libgtk_only','Included','Function',99,1,188,11412,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32750,'gdk_x11_display_get_user_time_libgtk_only','Excluded','Function',99,1,188,11412,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32751,'gdk_display','Included','Data',99,1,188,8724,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32752,'gdk_x11_image_get_xdisplay','Included','Function',99,1,188,8724,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32753,'gdk_x11_get_default_xdisplay','Included','Function',99,1,188,8724,0,'Unknown','Unknown','none','');
