@@ -2322,7 +2322,7 @@ INSERT INTO `Type` VALUES (10527,'long [4]','Array',8,0,'','','Excluded',6,'');
 INSERT INTO `Type` VALUES (10528,'pt_regs','Struct',0,387,'','','Referenced',6,'');
 INSERT INTO `Type` VALUES (10529,'pt_regs *','Pointer',10824,0,'','','Indirect',0,'');
 INSERT INTO `Type` VALUES (10530,'unsigned long [32]','Array',9,0,'','','Excluded',0,'');
-INSERT INTO `Type` VALUES (10531,'__locale_struct','Struct',0,516,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (10531,'__locale_struct','Struct',0,516,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10532,'__locale_struct *','Pointer',10531,516,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (10533,'__locale_t','Typedef',10532,516,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10534,'locale_t','Typedef',10532,518,'','','Referenced',1,'');
