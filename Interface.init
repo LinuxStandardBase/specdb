@@ -10811,7 +10811,7 @@ INSERT INTO `Interface` VALUES (30217,'png_get_sBIT','Included','Function',10,1,
 INSERT INTO `Interface` VALUES (30218,'png_process_data','Included','Function',10,1,167,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (30219,'png_get_text','Included','Function',10,1,167,11187,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (30220,'png_write_rows','Included','Function',10,1,167,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (30221,'png_libpng_ver','Included','Data',10,1,167,11207,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (30221,'png_libpng_ver','Included','Data',10,1,167,11206,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (30222,'png_access_version_number','Included','Function',10,1,167,11187,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (30223,'png_get_progressive_ptr','Included','Function',10,1,167,11180,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (30224,'png_get_rowbytes','Included','Function',10,1,167,11187,0,'Unknown','Unknown','none','');
