@@ -3233,7 +3233,7 @@ INSERT INTO `Type` VALUES (11450,'_GSList','Struct',0,609,NULL,NULL,'Indirect',1
 INSERT INTO `Type` VALUES (11451,'GSList','Typedef',11450,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11452,'GSList *','Pointer',11451,609,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (11453,'_GString','Struct',0,609,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (11454,'gsize','Typedef',7,609,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (11454,'gsize','Typedef',10450,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11455,'GString','Typedef',11453,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11456,'GString *','Pointer',11455,609,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (11457,'_GPtrArray','Struct',0,609,NULL,NULL,'Indirect',1,NULL);
@@ -3299,7 +3299,7 @@ INSERT INTO `Type` VALUES (11516,'gint *','Pointer',11400,609,NULL,NULL,'Indirec
 INSERT INTO `Type` VALUES (11517,'_GMarkupParseContext','Struct',0,609,NULL,NULL,'Excluded',1,NULL);
 INSERT INTO `Type` VALUES (11518,'GMarkupParseContext','Typedef',11517,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11519,'GMarkupParseContext *','Pointer',11518,609,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (11520,'gssize','Typedef',6,609,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (11520,'gssize','Typedef',9029,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11521,'_GData','Struct',0,609,NULL,NULL,'Excluded',1,NULL);
 INSERT INTO `Type` VALUES (11522,'GData','Typedef',11521,609,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11523,'GData *','Pointer',11522,609,NULL,NULL,'Indirect',1,NULL);
@@ -7998,3 +7998,5 @@ INSERT INTO `Type` VALUES (16215,'png_row_info * *','Pointer',11246,607,NULL,NUL
 INSERT INTO `Type` VALUES (16216,'png_row_infopp','Typedef',16215,607,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16217,'png_textpp','Typedef',11203,607,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16218,'png_timepp','Typedef',11229,607,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (16219,'gchararray','Typedef',11415,612,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (16220,'GStrv','Typedef',11485,612,NULL,NULL,'Referenced',1,NULL);

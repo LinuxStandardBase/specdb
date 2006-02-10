@@ -11857,12 +11857,12 @@ INSERT INTO `Interface` VALUES (31263,'g_value_set_uint64','Included','Function'
 INSERT INTO `Interface` VALUES (31264,'g_cclosure_marshal_VOID__OBJECT','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31265,'g_value_get_uint64','Included','Function',97,1,172,11621,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31266,'g_type_children','Included','Function',97,1,172,11893,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31267,'g_type_name','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31267,'g_type_name','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31268,'g_type_check_class_cast','Included','Function',97,1,172,11838,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31269,'g_cclosure_marshal_VOID__UCHAR','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31270,'g_object_new','Included','Function',97,1,172,11404,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31271,'g_type_class_unref_uncached','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31272,'g_type_name_from_class','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31272,'g_type_name_from_class','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31273,'g_object_set','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31274,'g_signal_emit_valist','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31275,'g_signal_get_invocation_hint','Included','Function',97,1,172,11922,0,'Unknown','Unknown','none','');
@@ -11895,7 +11895,7 @@ INSERT INTO `Interface` VALUES (31301,'g_value_type_compatible','Included','Func
 INSERT INTO `Interface` VALUES (31302,'g_object_set_data_full','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31303,'g_signal_handlers_block_matched','Included','Function',97,1,172,11402,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31304,'g_boxed_copy','Included','Function',97,1,172,11404,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31305,'g_value_get_string','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31305,'g_value_get_string','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31306,'g_object_thaw_notify','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31307,'g_signal_handler_block','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31308,'g_type_plugin_complete_type_info','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
@@ -11989,8 +11989,8 @@ INSERT INTO `Interface` VALUES (31395,'g_type_interface_prerequisites','Included
 INSERT INTO `Interface` VALUES (31396,'g_boxed_free','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31397,'g_param_spec_uint64','Included','Function',97,1,172,11854,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31398,'g_type_next_base','Included','Function',97,1,172,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31399,'g_type_name_from_instance','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31400,'g_param_spec_get_name','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31399,'g_type_name_from_instance','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31400,'g_param_spec_get_name','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31401,'g_signal_add_emission_hook','Included','Function',97,1,172,11427,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31402,'g_object_class_find_property','Included','Function',97,1,172,11854,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31403,'g_value_set_long','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
@@ -12044,7 +12044,7 @@ INSERT INTO `Interface` VALUES (31450,'g_value_get_long','Included','Function',9
 INSERT INTO `Interface` VALUES (31451,'g_type_check_is_value_type','Included','Function',97,1,172,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31452,'g_value_set_double','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31453,'g_value_set_static_string','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31454,'g_param_spec_get_nick','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31454,'g_param_spec_get_nick','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31455,'g_cclosure_new','Included','Function',97,1,172,11871,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31456,'g_value_get_uint','Included','Function',97,1,172,11402,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31457,'g_cclosure_new_swap','Included','Function',97,1,172,11871,0,'Unknown','Unknown','none','');
@@ -12092,10 +12092,10 @@ INSERT INTO `Interface` VALUES (31498,'g_value_array_append','Included','Functio
 INSERT INTO `Interface` VALUES (31499,'g_type_add_interface_static','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31500,'g_param_spec_steal_qdata','Included','Function',97,1,172,11404,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31501,'g_type_check_class_is_a','Included','Function',97,1,172,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31502,'g_param_spec_get_blurb','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31502,'g_param_spec_get_blurb','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31503,'g_value_set_uint','Included','Function',97,1,172,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31504,'g_param_spec_pool_new','Included','Function',97,1,172,11890,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (31505,'g_signal_name','Included','Function',97,1,172,11415,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (31505,'g_signal_name','Included','Function',97,1,172,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31506,'g_param_spec_int64','Included','Function',97,1,172,11854,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31507,'g_signal_newv','Included','Function',97,1,172,11402,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (31508,'g_signal_new','Included','Function',97,1,172,11402,0,'Unknown','Unknown','none','');
