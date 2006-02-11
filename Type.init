@@ -5162,10 +5162,10 @@ INSERT INTO `Type` VALUES (13379,'GtkTable','Typedef',13375,629,NULL,NULL,'Refer
 INSERT INTO `Type` VALUES (13380,'GtkTable *','Pointer',13379,629,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (13381,'GtkFunction','Typedef',11542,629,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (13382,'GtkObject *','Pointer',13045,629,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (13383,'_GtkArg','Struct',0,629,NULL,NULL,'Indirect',1,NULL);
+INSERT INTO `Type` VALUES (13383,'_GtkArg','Struct',0,629,NULL,NULL,'Excluded',1,NULL);
 INSERT INTO `Type` VALUES (13384,'GtkSignalFunc','Typedef',10318,629,NULL,NULL,'Referenced',1,NULL);
-INSERT INTO `Type` VALUES (13385,'anon-gtk-2.0/gtk/gtk.h-2376','Struct',0,629,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (13386,'anon-gtk-2.0/gtk/gtk.h-2377','Union',0,629,NULL,NULL,'Indirect',1,NULL);
+INSERT INTO `Type` VALUES (13385,'anon-gtk-2.0/gtk/gtk.h-2376','Struct',0,629,NULL,NULL,'Excluded',1,NULL);
+INSERT INTO `Type` VALUES (13386,'anon-gtk-2.0/gtk/gtk.h-2377','Union',0,629,NULL,NULL,'Excluded',1,NULL);
 INSERT INTO `Type` VALUES (13387,'GtkArg','Typedef',13383,629,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (13388,'GtkArg *','Pointer',13387,629,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (13389,'fptr_gtk_6201','FuncPtr',1,629,NULL,NULL,'Indirect',1,NULL);

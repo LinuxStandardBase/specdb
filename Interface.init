@@ -12902,7 +12902,7 @@ INSERT INTO `Interface` VALUES (32308,'gdk_drawable_get_image','Included','Funct
 INSERT INTO `Interface` VALUES (32309,'gdk_event_mask_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32310,'gdk_set_program_class','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32311,'gdk_draw_polygon','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32312,'gdk_font_equal','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32312,'gdk_font_equal','Excluded','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32313,'gdk_display_open_default_libgtk_only','Excluded','Function',99,1,186,12716,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32314,'gdk_function_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32315,'gdk_display_close','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
@@ -12956,7 +12956,7 @@ INSERT INTO `Interface` VALUES (32362,'gdk_keyval_is_lower','Included','Function
 INSERT INTO `Interface` VALUES (32363,'gdk_threads_unlock','Included','Data',99,1,186,11911,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32364,'gdk_modifier_type_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32365,'gdk_visual_get_best_depth','Included','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32366,'gdk_font_ref','Included','Function',99,1,186,12886,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32366,'gdk_font_ref','Excluded','Function',99,1,186,12886,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32367,'gdk_setting_get','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32368,'gdk_screen_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32369,'gdk_drag_get_protocol_for_display','Included','Function',99,1,186,11412,0,'Unknown','Unknown','none','');
@@ -13063,7 +13063,7 @@ INSERT INTO `Interface` VALUES (32469,'gdk_window_get_root_origin','Included','F
 INSERT INTO `Interface` VALUES (32470,'gdk_color_parse','Included','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32471,'gdk_window_set_skip_taskbar_hint','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32472,'gdk_gc_get_type','Included','Function',99,1,186,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32473,'gdk_font_unref','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32473,'gdk_font_unref','Excluded','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32474,'gdk_pango_layout_get_clip_region','Included','Function',99,1,186,12756,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32475,'gdk_window_fullscreen','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32476,'gdk_keyval_name','Included','Function',99,1,186,11415,0,'Unknown','Unknown','none','');
@@ -13184,7 +13184,7 @@ INSERT INTO `Interface` VALUES (32590,'gdk_window_set_user_data','Included','Fun
 INSERT INTO `Interface` VALUES (32591,'gdk_colormap_free_colors','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32592,'gdk_window_get_internal_paint_info','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32593,'gdk_window_is_viewable','Included','Function',99,1,186,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32594,'gdk_font_id','Included','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32594,'gdk_font_id','Excluded','Function',99,1,186,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32595,'gdk_bitmap_create_from_data','Included','Function',99,1,186,12933,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32596,'gdk_window_unfullscreen','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32597,'gdk_drag_find_window','Included','Function',99,1,186,1,0,'Unknown','Unknown','none','');
@@ -13355,7 +13355,7 @@ INSERT INTO `Interface` VALUES (32761,'gtk_widget_get_pointer','Included','Funct
 INSERT INTO `Interface` VALUES (32762,'gtk_progress_bar_set_fraction','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32763,'gtk_file_chooser_action_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32764,'gtk_text_buffer_get_start_iter','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32765,'gtk_list_get_type','Included','Function',100,1,189,13091,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32765,'gtk_list_get_type','Excluded','Function',100,1,189,13091,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32766,'gtk_combo_box_get_column_span_column','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32767,'gtk_misc_set_padding','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32768,'gtk_statusbar_push','Included','Function',100,1,189,11402,0,'Unknown','Unknown','none','');
@@ -13554,7 +13554,7 @@ INSERT INTO `Interface` VALUES (32960,'gtk_tree_view_column_get_sort_order','Inc
 INSERT INTO `Interface` VALUES (32961,'gtk_notebook_insert_page','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32962,'gtk_table_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32963,'gtk_menu_item_get_submenu','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32964,'gtk_marshal_VOID__INT_INT_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32964,'gtk_marshal_VOID__INT_INT_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32965,'gtk_text_view_scroll_to_iter','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32966,'gtk_window_set_icon_list','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32967,'gtk_window_get_destroy_with_parent','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
@@ -13582,7 +13582,7 @@ INSERT INTO `Interface` VALUES (32988,'gtk_grab_add','Included','Function',100,1
 INSERT INTO `Interface` VALUES (32989,'gtk_about_dialog_get_logo_icon_name','Included','Function',100,1,189,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32990,'gtk_radio_menu_item_new_with_mnemonic','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32991,'gtk_window_get_focus_on_map','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (32992,'gtk_marshal_VOID__POINTER_POINTER_UINT_UINT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (32992,'gtk_marshal_VOID__POINTER_POINTER_UINT_UINT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32993,'gtk_radio_menu_item_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32994,'gtk_entry_get_text','Included','Function',100,1,189,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (32995,'gtk_ui_manager_new','Included','Function',100,1,189,13298,0,'Unknown','Unknown','none','');
@@ -13608,7 +13608,7 @@ INSERT INTO `Interface` VALUES (33014,'gtk_icon_size_lookup','Included','Functio
 INSERT INTO `Interface` VALUES (33015,'gtk_tree_selection_get_tree_view','Included','Function',100,1,189,13523,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33016,'gtk_expander_set_use_underline','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33017,'gtk_binding_set_new','Included','Function',100,1,189,13589,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33018,'gtk_progress_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33018,'gtk_progress_get_type','Excluded','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33019,'gtk_accelerator_name','Included','Function',100,1,189,11415,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33020,'gtk_expander_get_use_underline','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33021,'gtk_handle_box_get_handle_position','Included','Function',100,1,189,13629,0,'Unknown','Unknown','none','');
@@ -13680,7 +13680,7 @@ INSERT INTO `Interface` VALUES (33086,'gtk_tree_store_move_after','Included','Fu
 INSERT INTO `Interface` VALUES (33087,'gtk_text_buffer_insert_with_tags_by_name','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33088,'gtk_statusbar_get_has_resize_grip','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33089,'gtk_window_get_gravity','Included','Function',100,1,189,12912,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33090,'gtk_marshal_VOID__INT_INT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33090,'gtk_marshal_VOID__INT_INT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33091,'gtk_image_menu_item_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33092,'gtk_button_leave','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33093,'gtk_text_buffer_insert_pixbuf','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -13765,7 +13765,7 @@ INSERT INTO `Interface` VALUES (33171,'gtk_container_get_type','Included','Funct
 INSERT INTO `Interface` VALUES (33172,'gtk_about_dialog_set_version','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33173,'gtk_file_chooser_set_uri','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33174,'gtk_tree_model_filter_refilter','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33175,'gtk_marshal_VOID__POINTER_UINT_UINT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33175,'gtk_marshal_VOID__POINTER_UINT_UINT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33176,'gtk_tooltips_force_window','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33177,'gtk_tree_view_new_with_model','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33178,'gtk_tree_model_row_inserted','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -13894,7 +13894,7 @@ INSERT INTO `Interface` VALUES (33300,'gtk_icon_size_get_type','Included','Funct
 INSERT INTO `Interface` VALUES (33301,'gtk_statusbar_set_has_resize_grip','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33302,'gtk_entry_completion_get_model','Included','Function',100,1,189,13133,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33303,'gtk_notebook_get_tab_pos','Included','Function',100,1,189,13629,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33304,'gtk_marshal_VOID__POINTER_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33304,'gtk_marshal_VOID__POINTER_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33305,'gtk_combo_box_get_row_separator_func','Included','Function',100,1,189,13542,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33306,'gtk_accel_map_save','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33307,'gtk_cell_renderer_text_new','Included','Function',100,1,189,13214,0,'Unknown','Unknown','none','');
@@ -13949,7 +13949,7 @@ INSERT INTO `Interface` VALUES (33355,'gtk_scrolled_window_get_hadjustment','Inc
 INSERT INTO `Interface` VALUES (33356,'gtk_text_buffer_backspace','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33357,'gtk_tool_item_set_expand','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33358,'gtk_icon_info_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33359,'gtk_marshal_BOOLEAN__VOID','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33359,'gtk_marshal_BOOLEAN__VOID','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33360,'gtk_tree_model_iter_n_children','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33361,'gtk_toolbar_get_relief_style','Included','Function',100,1,189,13712,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33362,'gtk_button_set_image','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -13985,7 +13985,7 @@ INSERT INTO `Interface` VALUES (33391,'gtk_target_list_find','Included','Functio
 INSERT INTO `Interface` VALUES (33392,'gtk_cell_view_new_with_text','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33393,'gtk_editable_select_region','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33394,'gtk_clipboard_wait_for_text','Included','Function',100,1,189,11415,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33395,'gtk_selection_clear','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33395,'gtk_selection_clear','Excluded','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33396,'gtk_color_selection_get_has_palette','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33397,'gtk_text_search_flags_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33398,'gtk_tree_view_insert_column_with_data_func','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
@@ -13997,7 +13997,7 @@ INSERT INTO `Interface` VALUES (33403,'gtk_cell_layout_pack_start','Included','F
 INSERT INTO `Interface` VALUES (33404,'gtk_action_group_get_action','Included','Function',100,1,189,13391,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33405,'gtk_color_selection_dialog_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33406,'gtk_entry_get_completion','Included','Function',100,1,189,13548,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33407,'gtk_marshal_VOID__POINTER_UINT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33407,'gtk_marshal_VOID__POINTER_UINT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33408,'gtk_toggle_action_new','Included','Function',100,1,189,13230,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33409,'gtk_file_chooser_set_filter','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33410,'gtk_text_iter_get_line_offset','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
@@ -14103,7 +14103,7 @@ INSERT INTO `Interface` VALUES (33509,'gtk_drag_source_add_image_targets','Inclu
 INSERT INTO `Interface` VALUES (33510,'gtk_notebook_set_menu_label','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33511,'gtk_action_group_get_name','Included','Function',100,1,189,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33512,'gtk_text_buffer_insert_interactive','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33513,'gtk_marshal_BOOLEAN__POINTER_POINTER_INT_INT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33513,'gtk_marshal_BOOLEAN__POINTER_POINTER_INT_INT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33514,'gtk_table_attach_defaults','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33515,'gtk_notebook_reorder_child','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33516,'gtk_icon_source_set_state','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -14175,7 +14175,7 @@ INSERT INTO `Interface` VALUES (33581,'gtk_notebook_get_tab_label_text','Include
 INSERT INTO `Interface` VALUES (33582,'gtk_file_chooser_get_action','Included','Function',100,1,189,13570,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33583,'gtk_frame_get_label_align','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33584,'gtk_icon_set_ref','Included','Function',100,1,189,13042,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33585,'gtk_marshal_VOID__UINT_POINTER_UINT_UINT_ENUM','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33585,'gtk_marshal_VOID__UINT_POINTER_UINT_UINT_ENUM','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33586,'gtk_hpaned_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33587,'gtk_about_dialog_set_website_label','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33588,'gtk_icon_factory_new','Included','Function',100,1,189,13337,0,'Unknown','Unknown','none','');
@@ -14234,7 +14234,7 @@ INSERT INTO `Interface` VALUES (33640,'gtk_table_attach','Included','Function',1
 INSERT INTO `Interface` VALUES (33641,'gtk_menu_reorder_child','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33642,'gtk_widget_event','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33643,'gtk_font_selection_get_font_name','Included','Function',100,1,189,11415,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33644,'gtk_marshal_BOOLEAN__POINTER_INT_INT_UINT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33644,'gtk_marshal_BOOLEAN__POINTER_INT_INT_UINT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33645,'gtk_icon_info_load_icon','Included','Function',100,1,189,12612,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33646,'gtk_label_get_selection_bounds','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33647,'gtk_icon_factory_remove_default','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -14398,7 +14398,7 @@ INSERT INTO `Interface` VALUES (33804,'gtk_expander_get_use_markup','Included','
 INSERT INTO `Interface` VALUES (33805,'gtk_main_iteration','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33806,'gtk_tree_view_column_set_sort_column_id','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33807,'gtk_text_mark_get_deleted','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33808,'gtk_marshal_INT__POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33808,'gtk_marshal_INT__POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33809,'gtk_combo_box_new_with_model','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33810,'gtk_icon_view_new_with_model','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33811,'gtk_side_type_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
@@ -14479,7 +14479,7 @@ INSERT INTO `Interface` VALUES (33885,'gtk_file_selection_show_fileop_buttons','
 INSERT INTO `Interface` VALUES (33886,'gtk_widget_set_size_request','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33887,'gtk_about_dialog_get_copyright','Included','Function',100,1,189,11421,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33888,'gtk_window_begin_move_drag','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33889,'gtk_marshal_VOID__POINTER_INT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33889,'gtk_marshal_VOID__POINTER_INT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33890,'gtk_range_set_adjustment','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33891,'gtk_text_iter_is_cursor_position','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33892,'gtk_text_iter_ends_sentence','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
@@ -14535,7 +14535,7 @@ INSERT INTO `Interface` VALUES (33941,'gtk_hseparator_get_type','Included','Func
 INSERT INTO `Interface` VALUES (33942,'gtk_menu_set_active','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33943,'gtk_text_buffer_get_modified','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33944,'gtk_icon_view_select_path','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (33945,'gtk_marshal_VOID__POINTER_STRING_STRING','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (33945,'gtk_marshal_VOID__POINTER_STRING_STRING','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33946,'gtk_widget_can_activate_accel','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33947,'gtk_box_pack_end','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (33948,'gtk_dialog_get_has_separator','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
@@ -14661,7 +14661,7 @@ INSERT INTO `Interface` VALUES (34067,'gtk_combo_box_entry_get_type','Included',
 INSERT INTO `Interface` VALUES (34068,'gtk_text_buffer_get_tag_table','Included','Function',100,1,189,13079,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34069,'gtk_tree_model_get_iter','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34070,'gtk_window_remove_accel_group','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34071,'gtk_marshal_BOOLEAN__POINTER_STRING_STRING_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34071,'gtk_marshal_BOOLEAN__POINTER_STRING_STRING_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34072,'gtk_notebook_append_page','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34073,'gtk_container_set_focus_vadjustment','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34074,'gtk_window_reshow_with_initial_size','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -14829,7 +14829,7 @@ INSERT INTO `Interface` VALUES (34235,'gtk_style_apply_default_background','Incl
 INSERT INTO `Interface` VALUES (34236,'gtk_file_chooser_dialog_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34237,'gtk_tree_model_iter_parent','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34238,'gtk_vscale_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34239,'gtk_marshal_VOID__POINTER_POINTER_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34239,'gtk_marshal_VOID__POINTER_POINTER_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34240,'gtk_spin_button_new_with_range','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34241,'gtk_image_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34242,'gtk_im_multicontext_new','Included','Function',100,1,189,13141,0,'Unknown','Unknown','none','');
@@ -14839,12 +14839,12 @@ INSERT INTO `Interface` VALUES (34245,'gtk_icon_view_get_path_at_pos','Included'
 INSERT INTO `Interface` VALUES (34246,'gtk_tree_view_column_get_clickable','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34247,'gtk_editable_insert_text','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34248,'gtk_key_snooper_install','Included','Function',100,1,189,11402,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34249,'gtk_marshal_VOID__UINT_POINTER_UINT_ENUM_ENUM_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34249,'gtk_marshal_VOID__UINT_POINTER_UINT_ENUM_ENUM_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34250,'gtk_object_sink','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34251,'gtk_widget_style_get','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34252,'gtk_icon_theme_list_icons','Included','Function',100,1,189,11430,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34253,'gtk_cell_renderer_get_fixed_size','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34254,'gtk_marshal_BOOLEAN__POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34254,'gtk_marshal_BOOLEAN__POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34255,'gtk_button_released','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34256,'gtk_icon_source_set_size_wildcarded','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34257,'gtk_window_begin_resize_drag','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -14867,7 +14867,7 @@ INSERT INTO `Interface` VALUES (34273,'gtk_selection_mode_get_type','Included','
 INSERT INTO `Interface` VALUES (34274,'gtk_window_activate_default','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34275,'gtk_about_dialog_set_url_hook','Included','Function',100,1,189,13173,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34276,'gtk_check_menu_item_get_inconsistent','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34277,'gtk_marshal_ENUM__ENUM','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34277,'gtk_marshal_ENUM__ENUM','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34278,'gtk_set_locale','Included','Function',100,1,189,11415,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34279,'gtk_icon_theme_set_screen','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34280,'gtk_editable_get_position','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
@@ -15007,7 +15007,7 @@ INSERT INTO `Interface` VALUES (34413,'gtk_list_store_swap','Included','Function
 INSERT INTO `Interface` VALUES (34414,'gtk_tree_model_get','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34415,'gtk_ui_manager_get_widget','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34416,'gtk_icon_size_register','Included','Function',100,1,189,13515,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34417,'gtk_marshal_INT__POINTER_CHAR_CHAR','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34417,'gtk_marshal_INT__POINTER_CHAR_CHAR','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34418,'gtk_text_view_get_accepts_tab','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34419,'gtk_radio_button_new_from_widget','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34420,'gtk_file_chooser_get_preview_filename','Included','Function',100,1,189,63,0,'Unknown','Unknown','none','');
@@ -15057,11 +15057,11 @@ INSERT INTO `Interface` VALUES (34463,'gtk_about_dialog_get_comments','Included'
 INSERT INTO `Interface` VALUES (34464,'gtk_file_chooser_button_new_with_backend','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34465,'gtk_widget_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34466,'gtk_combo_box_entry_new_text','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34467,'gtk_paned_compute_position','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34467,'gtk_paned_compute_position','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34468,'gtk_resize_mode_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34469,'gtk_entry_completion_set_match_func','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34470,'gtk_spin_button_get_increments','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34471,'gtk_marshal_VOID__UINT_STRING','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34471,'gtk_marshal_VOID__UINT_STRING','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34472,'gtk_font_button_set_use_font','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34473,'gtk_widget_get_colormap','Included','Function',100,1,189,12688,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34474,'gtk_radio_tool_button_new','Included','Function',100,1,189,13339,0,'Unknown','Unknown','none','');
@@ -15114,11 +15114,11 @@ INSERT INTO `Interface` VALUES (34520,'gtk_menu_item_set_submenu','Included','Fu
 INSERT INTO `Interface` VALUES (34521,'gtk_menu_detach','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34522,'gtk_container_resize_children','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34523,'gtk_text_mark_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34524,'gtk_marshal_VOID__STRING_INT_POINTER','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34524,'gtk_marshal_VOID__STRING_INT_POINTER','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34525,'gtk_entry_get_max_length','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34526,'gtk_radio_menu_item_get_group','Included','Function',100,1,189,11452,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34527,'gtk_text_attributes_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34528,'gtk_marshal_BOOLEAN__POINTER_INT_INT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34528,'gtk_marshal_BOOLEAN__POINTER_INT_INT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34529,'gtk_text_mark_get_left_gravity','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34530,'gtk_widget_region_intersect','Included','Function',100,1,189,12756,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34531,'gtk_handle_box_new','Included','Function',100,1,189,13063,0,'Unknown','Unknown','none','');
@@ -15172,7 +15172,7 @@ INSERT INTO `Interface` VALUES (34578,'gtk_tree_store_remove','Included','Functi
 INSERT INTO `Interface` VALUES (34579,'gtk_widget_list_mnemonic_labels','Included','Function',100,1,189,11430,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34580,'gtk_cell_layout_add_attribute','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34581,'gtk_widget_class_list_style_properties','Included','Function',100,1,189,11863,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34582,'gtk_marshal_VOID__ENUM_FLOAT_BOOLEAN','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34582,'gtk_marshal_VOID__ENUM_FLOAT_BOOLEAN','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34583,'gtk_entry_completion_get_minimum_key_length','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34584,'gtk_text_buffer_move_mark','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34585,'gtk_text_mark_get_visible','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
@@ -15215,7 +15215,7 @@ INSERT INTO `Interface` VALUES (34621,'gtk_action_group_add_actions','Included',
 INSERT INTO `Interface` VALUES (34622,'gtk_separator_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34623,'gtk_table_set_col_spacing','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34624,'gtk_text_view_get_editable','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34625,'gtk_marshal_VOID__ENUM_FLOAT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34625,'gtk_marshal_VOID__ENUM_FLOAT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34626,'gtk_widget_get_parent_window','Included','Function',100,1,189,12674,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34627,'gtk_color_selection_get_current_color','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34628,'gtk_about_dialog_set_website','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
@@ -15227,12 +15227,12 @@ INSERT INTO `Interface` VALUES (34633,'gtk_accelerator_set_default_mod_mask','In
 INSERT INTO `Interface` VALUES (34634,'gtk_window_set_keep_below','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34635,'gtk_text_iter_get_visible_slice','Included','Function',100,1,189,11415,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34636,'gtk_drag_source_add_uri_targets','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34637,'gtk_marshal_VOID__POINTER_INT_INT_POINTER_UINT_UINT','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34637,'gtk_marshal_VOID__POINTER_INT_INT_POINTER_UINT_UINT','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34638,'gtk_font_selection_set_font_name','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34639,'gtk_entry_set_completion','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34640,'gtk_action_group_get_sensitive','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34641,'gtk_label_set_ellipsize','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34642,'gtk_list_item_get_type','Included','Function',100,1,189,13091,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34642,'gtk_list_item_get_type','Excluded','Function',100,1,189,13091,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34643,'gtk_arg_flags_get_type','Included','Function',100,1,189,11836,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34644,'gtk_rc_parse','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34645,'gtk_text_iter_has_tag','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
@@ -15355,7 +15355,7 @@ INSERT INTO `Interface` VALUES (34761,'gtk_text_iter_get_line_index','Included',
 INSERT INTO `Interface` VALUES (34762,'gtk_text_buffer_get_bounds','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34763,'gtk_widget_is_focus','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34764,'gtk_check_menu_item_get_active','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34765,'gtk_cell_renderer_editing_canceled','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34765,'gtk_cell_renderer_editing_canceled','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34766,'gtk_icon_view_get_item_width','Included','Function',100,1,189,11400,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34767,'gtk_check_menu_item_get_draw_as_radio','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34768,'gtk_clipboard_get_for_display','Included','Function',100,1,189,13551,0,'Unknown','Unknown','none','');
@@ -15442,7 +15442,7 @@ INSERT INTO `Interface` VALUES (34848,'gtk_scrolled_window_new','Included','Func
 INSERT INTO `Interface` VALUES (34849,'gtk_about_dialog_set_copyright','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34850,'gtk_target_list_add','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34851,'gtk_tree_view_get_columns','Included','Function',100,1,189,11430,0,'Unknown','Unknown','none','');
-INSERT INTO `Interface` VALUES (34852,'gtk_marshal_VOID__POINTER_UINT_ENUM','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
+INSERT INTO `Interface` VALUES (34852,'gtk_marshal_VOID__POINTER_UINT_ENUM','Excluded','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34853,'gtk_icon_source_new','Included','Function',100,1,189,13706,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34854,'gtk_check_menu_item_set_active','Included','Function',100,1,189,1,0,'Unknown','Unknown','none','');
 INSERT INTO `Interface` VALUES (34855,'gtk_text_iter_forward_sentence_ends','Included','Function',100,1,189,11401,0,'Unknown','Unknown','none','');
