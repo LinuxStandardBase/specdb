@@ -9424,3 +9424,9 @@ INSERT INTO `Constant` VALUES (9484,'xmlTextWriterWriteDocType','Unknown',668,''
 INSERT INTO `Constant` VALUES (9485,'LIBXML_THREAD_ENABLED','Unknown',631,'','Yes');
 INSERT INTO `Constant` VALUES (9486,'PNGARG(arglist)','Unknown',607,'','Yes');
 INSERT INTO `Constant` VALUES (9487,'PNG_SETJMP_SUPPORTED','Unknown',607,'','Yes');
+INSERT INTO `Constant` VALUES (9488,'G_VA_COPY_AS_ARRAY','int',609,'','Yes');
+INSERT INTO `Constant` VALUES (9489,'GLIB_LSB_PADDING_SIZE','int',609,'','Yes');
+INSERT INTO `Constant` VALUES (9490,'GLIB_LSB_DATA_SIZE','int',609,'','Yes');
+INSERT INTO `Constant` VALUES (9491,'GDK_WINDOWING_X11','Unknown',626,'','Yes');
+INSERT INTO `Constant` VALUES (9492,'GDK_HAVE_WCHAR_H','int',626,'','Yes');
+INSERT INTO `Constant` VALUES (9493,'GDK_HAVE_WCTYPE_H','int',626,'','Yes');
