@@ -1,3 +1,101 @@
+2006-02-15	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  HeaderGroup.init
+	  Type.init
+	   Type and macro updates due to glibconfig synchup for 32 and
+	   64bit archs. Size info for x86-64 and IA64 after running devchk.
+
+2006-02-11	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* TypeMember.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	  Constant.init
+	  Interface.init
+	  Type.init
+	   removed a bunch of deprecated interfaces, macros and types for
+	   GTK and GDK.
+
+2006-02-10	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Type.init
+	  ArchType.init
+	  Interface.init
+	   fix bug 1218
+
+2006-02-07	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Type.init
+	  ArchConst.init
+	  ArchType.init
+	  Constant.init
+	  Interface.init
+	   bug 1210 fixes
+
+2006-02-03	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Vtable.init
+	   updates from bug 1178
+
+2006-02-01	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Type.init
+	   The latest mkheader patch takes care of the situation where
+	   typedef is directly to a struct pointer. Changing
+	   __locale_struct to Referenced instead of Indirect as the patch
+	   will take care of mkheader issue. Please see notes in bug 1045.
+
+2006-01-31	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Interface.init
+	  ArchType.init
+	   IA32 size for FcChar16
+
+2006-01-30	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Type.init
+	  ArchType.init
+	  Interface.init
+	   size info entry for FcChar16 type added
+
+2006-01-26	Pradosh Adoni <pradosh.adoni_at_codito.com>
+	* Vtable.init
+	  Interface.init
+	  LGInt.init
+	   - Harald Fernengel's fix for libchk failures for QT RPMS on SuSe
+	   10.0
+
+2006-01-26	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Vtable.init
+	  ArchClass.init
+	  ArchInt.init
+	  Interface.init
+	  LGInt.init
+	  VMIBaseTypes.init
+	  Vtable.init
+	   bug 1174 and 1175 fixes: libchk and mandriva package compliance
+
+2006-01-25	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Vtable.init
+	  ArchClass.init
+	  ArchConst.init
+	  ArchLib.init
+	  ClassInfo.init
+	  ClassVtab.init
+	  Constant.init
+	  Standard.init
+	  VMIBaseTypes.init
+	   changes for Qt classes discovered while getting libchk working.
+
+2006-01-24	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* Type.init
+	  ArchConst.init
+	  ArchType.init
+	  Interface.init
+	  LGInt.init
+	  Parameter.init
+	  Type.init
+	   updates for libxml2: removed __ interfaces; added a type and 4
+	   symbols
+
 2006-01-23	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
 	* LGInt.init
 	  ArchInt.init
@@ -4027,4 +4125,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1138052787
+1140050046
