@@ -592,7 +592,7 @@ INSERT INTO `HeaderGroup` VALUES (605,'Default HeaderGroup for fontconfig/fcfree
 INSERT INTO `HeaderGroup` VALUES (606,'Default HeaderGroup for fontconfig/fcprivate.h',166,0,1,'Default HeaderGroup for fontconfig/fcprivate.h');
 INSERT INTO `HeaderGroup` VALUES (607,'Default HeaderGroup for png.h',167,0,1,'Default HeaderGroup for png.h');
 INSERT INTO `HeaderGroup` VALUES (608,'Default HeaderGroup for jpeglib.h',168,0,1,'Default HeaderGroup for jpeglib.h');
-INSERT INTO `HeaderGroup` VALUES (609,'Default HeaderGroup for glib-2.0/glib.h',169,0,1,'Default HeaderGroup for glib-2.0/glib.h');
+INSERT INTO `HeaderGroup` VALUES (609,'Default HeaderGroup for glib-2.0/glib.h',169,2,1,'Default HeaderGroup for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (610,'Default HeaderGroup for glib-2.0/glib/gprintf.h',170,0,1,'Default HeaderGroup for glib-2.0/glib/gprintf.h');
 INSERT INTO `HeaderGroup` VALUES (611,'Default HeaderGroup for glib-2.0/glib/gstdio.h',171,0,1,'Default HeaderGroup for glib-2.0/glib/gstdio.h');
 INSERT INTO `HeaderGroup` VALUES (612,'Default HeaderGroup for glib-2.0/glib-object.h',172,0,1,'Default HeaderGroup for glib-2.0/glib-object.h');
@@ -910,3 +910,5 @@ INSERT INTO `HeaderGroup` VALUES (923,'Default HeaderGroup for QtSql/qsqltablemo
 INSERT INTO `HeaderGroup` VALUES (924,'Default HeaderGroup for QtSql/qsqlrelationaltablemodel.h',485,0,1,NULL);
 INSERT INTO `HeaderGroup` VALUES (925,'Default HeaderGroup for QtSvg/qsvgrenderer.h',486,0,1,NULL);
 INSERT INTO `HeaderGroup` VALUES (926,'Default HeaderGroup for QtSvg/qsvgwidget.h',487,0,1,NULL);
+INSERT INTO `HeaderGroup` VALUES (927,'Constnat HeaderGroup for glib-2.0/glib.h',169,0,1,'ConstnatDefault HeaderGroup for glib-2.0/glib.h');
+INSERT INTO `HeaderGroup` VALUES (928,'Arch Specific HeaderGroup for glib-2.0/glib.h',169,1,1,'Arch Specific HeaderGroup for glib-2.0/glib.h');
