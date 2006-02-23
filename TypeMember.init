@@ -3484,7 +3484,7 @@ INSERT INTO `TypeMember` VALUES (40147,'f_namemax',9,0,0,10,'',10500,'',0,0);
 INSERT INTO `TypeMember` VALUES (40148,'__f_spare',10193,0,0,11,'',10499,'6',0,0);
 INSERT INTO `TypeMember` VALUES (40149,'__f_spare',10193,0,0,11,'',10500,'6',0,0);
 INSERT INTO `TypeMember` VALUES (40150,'_sa_handler',9374,0,0,0,'',10501,'',0,0);
-INSERT INTO `TypeMember` VALUES (40151,'sa_sigaction',9384,0,0,1,'',10501,'',0,0);
+INSERT INTO `TypeMember` VALUES (40151,'_sa_sigaction',9384,0,0,1,'',10501,'',0,0);
 INSERT INTO `TypeMember` VALUES (40152,'__sigaction_handler',10501,0,0,0,'',10502,'',0,0);
 INSERT INTO `TypeMember` VALUES (40153,'sa_mask',10163,0,0,1,'',10502,'',0,0);
 INSERT INTO `TypeMember` VALUES (40154,'sa_flags',6,0,0,2,'',10502,'',0,0);
