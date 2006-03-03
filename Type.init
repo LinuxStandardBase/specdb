@@ -2966,7 +2966,7 @@ INSERT INTO `Type` VALUES (11183,'png_byte','Typedef',3,607,NULL,NULL,'Reference
 INSERT INTO `Type` VALUES (11184,'png_byte *','Pointer',11183,607,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (11185,'png_bytep','Typedef',11184,607,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11186,'long unsigned int','Intrinsic',0,0,NULL,NULL,'Indirect',1,NULL);
-INSERT INTO `Type` VALUES (11187,'png_uint_32','Typedef',7,607,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (11187,'png_uint_32','Typedef',9,607,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11188,'fptr_png_176','FuncPtr',1,607,NULL,NULL,'Indirect',1,NULL);
 INSERT INTO `Type` VALUES (11189,'png_progressive_row_ptr','Typedef',11188,607,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (11190,'png_progressive_end_ptr','Typedef',11181,607,NULL,NULL,'Referenced',1,NULL);
