@@ -8024,3 +8024,4 @@ INSERT INTO `Type` VALUES (16241,'gsize','Typedef',9,928,NULL,NULL,'Referenced',
 INSERT INTO `Type` VALUES (16242,'gsize','Typedef',7,928,NULL,NULL,'Referenced',10,NULL);
 INSERT INTO `Type` VALUES (16243,'gsize','Typedef',9,928,NULL,NULL,'Referenced',11,NULL);
 INSERT INTO `Type` VALUES (16244,'gsize','Typedef',9,928,NULL,NULL,'Referenced',12,NULL);
+INSERT INTO `Type` VALUES (16245,'gint[7]','Array',13358,629,NULL,NULL,'Indirect',1,NULL);
