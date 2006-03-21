@@ -44,3 +44,4 @@ INSERT INTO `Library` VALUES (258,'libQtXml','libQtXml.so.4','Yes',1);
 INSERT INTO `Library` VALUES (259,'libQtOpenGL','libQtOpenGL.so.4','Yes',1);
 INSERT INTO `Library` VALUES (260,'libQtSql','libQtSql.so.4','Yes',1);
 INSERT INTO `Library` VALUES (261,'libQtSvg','libQtSvg.so.4','Yes',1);
+INSERT INTO `Library` VALUES (262,'libqt-mt','libqt-mt.so.3','Yes',1);

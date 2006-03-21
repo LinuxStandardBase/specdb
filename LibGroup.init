@@ -216,3 +216,4 @@ INSERT INTO `LibGroup` VALUES (488,'QtXml',258,1,1,'');
 INSERT INTO `LibGroup` VALUES (489,'QtOpenGL',259,1,1,'');
 INSERT INTO `LibGroup` VALUES (490,'QtSql',260,1,1,'');
 INSERT INTO `LibGroup` VALUES (491,'QtSvg',261,1,1,'');
+INSERT INTO `LibGroup` VALUES (492,'Qt',262,1,1,'');
