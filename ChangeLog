@@ -1,3 +1,92 @@
+2006-03-22	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Parameter.init
+	  Interface.init
+	   bug 1295
+
+2006-03-20	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Vtable.init
+	  ArchClass.init
+	  ArchInt.init
+	  ArchLib.init
+	  BaseTypes.init
+	  ClassInfo.init
+	  ClassVtab.init
+	  Interface.init
+	  LGInt.init
+	  LibGroup.init
+	  Library.init
+	  ModLib.init
+	  Module.init
+	  Standard.init
+	  Type.init
+	  VMIBaseTypes.init
+	   Adding qt3
+
+2006-03-15	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ArchConst.init
+	   Fixed for bug 1288
+
+2006-03-14	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Library.init
+	  ArchLib.init
+	   Fix library name per bug 1287
+
+2006-03-13	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* TypeMember.init
+	   Fixing for bug 1277
+
+2006-03-09	Marvin Heffler <heffler_at_us.ibm.com>
+	* ArchType.init
+	   add lots of entries for the four IBM archs
+
+2006-03-04	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* TypeMember.init
+	  ArchType.init
+	  Type.init
+	   Changes for bug 1276
+
+2006-03-03	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Type.init
+	   The real fix for 1271 (what happened last time???)
+
+2006-02-28	Marvin Heffler <heffler_at_us.ibm.com>
+	* Interface.init
+	   correct mangled names for several interfaces as described in bug
+	   1247
+
+2006-02-27	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ArchTypeMem.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	   Make cvs match the master's "make dump"
+
+2006-02-25	Marvin Heffler <heffler_at_us.ibm.com>
+	* ArchTypeMem.init
+	  ArchType.init
+	   more db changes to correct size info for several archs
+
+2006-02-24	Marvin Heffler <heffler_at_us.ibm.com>
+	* ArchTypeMem.init
+	  ArchConst.init
+	  ArchType.init
+	  ArchTypeMem.init
+	   change SHMLBA for s390x to use __getpagesize instead of of 4096;
+	   define G_VA_COPY_AS_ARRAY for ppc32 and s390 archs.
+
+2006-02-23	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* TypeMember.init
+	   Bug 1194: _sa_sigaction for ppc64.
+
+2006-02-17	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* ArchLib.init
+	   entries for creating Arch specific specs for GTK libraries
+
+2006-02-16	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
+	* ArchType.init
+	   fix bug 1229; added entries for libpng_ver variable for all
+	   archs
+
 2006-02-15	Rajesh Banginwar <rajesh.banginwar_at_intel.com>
 	* TypeMember.init
 	  ArchConst.init
@@ -4125,4 +4214,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1140050046
+1145898416
