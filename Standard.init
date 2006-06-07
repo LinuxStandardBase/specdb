@@ -13,7 +13,7 @@ INSERT INTO `Standard` VALUES (12,'Xt','X Toolkit Intrinsics - C Language Interf
 INSERT INTO `Standard` VALUES (13,'FHS','Filesystem Hierarchy Standard (FHS) 2.3','http://www.pathname.com/fhs/','','Standard',1,'Filesystem Hierarchy Standard');
 INSERT INTO `Standard` VALUES (14,'ELF Specification','Tool Interface Standard (TIS) Executable and Linking Format','http://www.linuxbase.org/spec/refspecs/elf.pdf','','Unknown',1,'ELF Specification');
 INSERT INTO `Standard` VALUES (15,'SUS-XNS','CAE Specification, February 1997, Networking Services (XNS), Issue 5(ISBN: 1-85912-165-9, C523)','http://www.opengroup.org/publications/catalog/un.htm','','Unknown',1,'XNS Networking Services');
-INSERT INTO `Standard` VALUES (16,'FLTPNT','IEC 60559:1989 Binary floating-point arithmetic for microprocessor systems','http://www.ieee.org/','ANSI/IEEE Standards 745-1985 and 854-1987','Reference',1,'IEC 60559/IEEE 754 Floating Point');
+INSERT INTO `Standard` VALUES (16,'FLTPNT','IEC 60559:1989 Binary floating-point arithmetic for microprocessor systems','http://www.ieee.org/','ANSI/IEEE Standards 754-1985 and 854-1987','Reference',1,'IEC 60559/IEEE 754 Floating Point');
 INSERT INTO `Standard` VALUES (17,'XINPUT','X Input Device Extension Library - X Version 11, Release 6.4','http://refspecs.freestandards.org/X11/Xinput.pdf','','Standard',1,'X11 Input Library');
 INSERT INTO `Standard` VALUES (18,'XSM','X Session Management Library - Version 1.0','http://refspecs.freestandards.org/X11/SMlib.pdf','','Standard',1,'X11 Session Management');
 INSERT INTO `Standard` VALUES (19,'XICE','Inter-Client Exchange Library - Version 1.0','http://refspecs.freestandards.org/X11/ICElib.pdf','','Standard',1,'X11 Inter-Client Exchange');
