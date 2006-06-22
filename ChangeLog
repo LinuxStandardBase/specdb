@@ -1,3 +1,46 @@
+2006-06-14	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	   update info for alphasort/scandir (no functional change)
+
+2006-06-09	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	   bug 1374: fooled by interface split between headers; fix
+	   breakage
+
+2006-06-08	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	   cleanups on __fpclassify*/__signbit* per bug 1377
+
+2006-06-07	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Standard.init
+	  Interface.init
+	   change matherr Istandard to SVID.3 per bug 1291
+
+2006-06-02	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	   fix some more data entry errors
+
+2006-06-01	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	  ArchConst.init
+	  Interface.init
+	   complete bug 1349: this is the dumped version after updating the
+	   master DB
+
+2006-05-31	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* Interface.init
+	   restore or add missing POSIX interfaces to allows for better
+	   difference-to- POSIX questies. None are Included so no impact.
+	   Bugs 1393, 1388, 1395.
+
+2006-05-06	Marvin Heffler <heffler_at_us.ibm.com>
+	* ArchConst.init
+	   db changes to make G_BYTE_ORDER arch specific - see bug 1349
+
+2006-05-04	Mats Wichmann <mats.d.wichmann_at_intel.com>
+	* ModCmd.init
+	   add builtin cmds to ModCmd (bug 1344)
+
 2006-03-22	Mats Wichmann <mats.d.wichmann_at_intel.com>
 	* Parameter.init
 	  Interface.init
@@ -4214,4 +4257,4 @@
 	   New way to save/restore the database. Several smaller file to
 	   make it easier on cvs
 
-1145898416
+1150998746
