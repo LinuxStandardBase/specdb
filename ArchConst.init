@@ -4623,7 +4623,7 @@ INSERT INTO `ArchConst` VALUES (1,5129,'21');
 INSERT INTO `ArchConst` VALUES (1,4723,'IPV6_JOIN_GROUP');
 INSERT INTO `ArchConst` VALUES (1,4724,'IPV6_LEAVE_GROUP');
 INSERT INTO `ArchConst` VALUES (1,5130,'26');
-INSERT INTO `ArchConst` VALUES (0,4512,'');
+INSERT INTO `ArchConst` VALUES (1,4512,'((((const uint32_t *) (a))[0] == ((const uint32_t *) (b))[0]) && (((const uint32_t *) (a))[1] == ((const uint32_t *) (b))[1]) && (((const uint32_t *) (a))[2] == ((const uint32_t *) (b))[2]) && (((const uint32_t *) (a))[3] == ((const uint32_t *) (b))[3]))');
 INSERT INTO `ArchConst` VALUES (1,4506,'(((const uint32_t *) (a))[0] == 0 && ((const uint32_t *) (a))[1] == 0 && ((const uint32_t *) (a))[2] == 0 && ((const uint32_t *) (a))[3] == htonl (1))');
 INSERT INTO `ArchConst` VALUES (1,4517,'(IN6_IS_ADDR_MULTICAST(a) && ((((const uint8_t *) (a))[1] & 0xf) == 0xe))');
 INSERT INTO `ArchConst` VALUES (1,4505,'(((const uint32_t *) (a))[0] == 0 && ((const uint32_t *) (a))[1] == 0 && ((const uint32_t *) (a))[2] == 0 && ((const uint32_t *) (a))[3] == 0)');
