@@ -5727,8 +5727,6 @@ INSERT INTO `Constant` VALUES (5734,'png_composite_16(composite,fg,alpha,bg)','m
 INSERT INTO `Constant` VALUES (5735,'HAVE_PROTOTYPES','Unknown',608,'','Yes');
 INSERT INTO `Constant` VALUES (5736,'HAVE_UNSIGNED_CHAR','Unknown',608,'','Yes');
 INSERT INTO `Constant` VALUES (5737,'HAVE_UNSIGNED_SHORT','Unknown',608,'','Yes');
-INSERT INTO `Constant` VALUES (5738,'HAVE_STDDEF_H','Unknown',608,'','Yes');
-INSERT INTO `Constant` VALUES (5739,'HAVE_STDLIB_H','Unknown',608,'','Yes');
 INSERT INTO `Constant` VALUES (5740,'BITS_IN_JSAMPLE','int',608,'','Yes');
 INSERT INTO `Constant` VALUES (5741,'MAX_COMPONENTS','int',608,'','Yes');
 INSERT INTO `Constant` VALUES (5742,'GETJSAMPLE(value)','macro',608,'','Yes');
