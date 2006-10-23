@@ -3596,7 +3596,7 @@ INSERT INTO `Constant` VALUES (3596,'_SC_CLK_TCK','int',368,'','Yes');
 INSERT INTO `Constant` VALUES (3597,'____gwchar_t_defined','int',23,'','No');
 INSERT INTO `Constant` VALUES (3598,'_LIMITS_H___','int',26,'','No');
 INSERT INTO `Constant` VALUES (3599,'_MACH_MACHLIMITS_H_','int',26,'','No');
-INSERT INTO `Constant` VALUES (3600,'__INT_MAX__','int',314,'','Yes');
+INSERT INTO `Constant` VALUES (3600,'__INT_MAX__','int',314,'Exclude, compiler-internal','No');
 INSERT INTO `Constant` VALUES (3601,'__LONG_MAX__','int',0,'','Yes');
 INSERT INTO `Constant` VALUES (3602,'_PTHREAD_DESCR_DEFINED','int',39,'','No');
 INSERT INTO `Constant` VALUES (3603,'_SHAPE_H_','int',287,'','No');
