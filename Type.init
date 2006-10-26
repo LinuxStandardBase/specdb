@@ -8324,3 +8324,5 @@ INSERT INTO `Type` VALUES (16541,'9QSqlIndex','Class',NULL,0,NULL,NULL,'Referenc
 INSERT INTO `Type` VALUES (16542,'9QSqlField','Class',NULL,0,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16543,'10QVGroupBox','Class',NULL,0,NULL,NULL,'Referenced',1,NULL);
 INSERT INTO `Type` VALUES (16544,'11QCloseEvent','Class',NULL,0,NULL,NULL,'Referenced',1,NULL);
+INSERT INTO `Type` VALUES (16545,'const GLubyte','Const',8150,266,'','','Indirect',1,'');
+INSERT INTO `Type` VALUES (16546,'const GLubyte *','Pointer',16545,266,'','','Indirect',1,'');
