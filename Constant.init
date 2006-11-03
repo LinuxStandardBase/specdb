@@ -9428,3 +9428,4 @@ INSERT INTO `Constant` VALUES (9490,'GLIB_LSB_DATA_SIZE','int',927,'','Yes');
 INSERT INTO `Constant` VALUES (9491,'GDK_WINDOWING_X11','Unknown',626,'','Yes');
 INSERT INTO `Constant` VALUES (9492,'GDK_HAVE_WCHAR_H','int',626,'','Yes');
 INSERT INTO `Constant` VALUES (9493,'GDK_HAVE_WCTYPE_H','int',626,'','Yes');
+INSERT INTO `Constant` VALUES (9494,'Z_BLOCK','int',459,'','Yes');
