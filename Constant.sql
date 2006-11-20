@@ -18,14 +18,16 @@
 
 DROP TABLE IF EXISTS `Constant`;
 CREATE TABLE `Constant` (
-  `Cid` int(10) NOT NULL auto_increment,
+  `Cid` int(10) unsigned NOT NULL auto_increment,
   `Cname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   `Ctype` enum('int','long','float','double','longdouble','string','macro','Unknown') NOT NULL default 'Unknown',
-  `Cheadgroup` int(10) NOT NULL default '0',
-  `Ccomment` varchar(60) default NULL,
-  `Cstd` enum('Yes','No','SrcOnly') NOT NULL default 'No',
+  `Cheadgroup` int(10) unsigned NOT NULL default '0',
+  `Cdescription` varchar(255) NOT NULL default '',
+  `Cstdstatus` enum('Included','Excluded','Unknown','Withdrawn','Future','SrcOnly') NOT NULL default 'Unknown',
+  `Ccandidatefor` varchar(255) default NULL,
   PRIMARY KEY  (`Cid`),
-  UNIQUE KEY `k_c_name` (`Cname`)
+  UNIQUE KEY `k_c_name` (`Cname`),
+  KEY `Cheadgroup` (`Cheadgroup`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

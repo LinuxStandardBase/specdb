@@ -18,14 +18,14 @@
 
 DROP TABLE IF EXISTS `Standard`;
 CREATE TABLE `Standard` (
-  `Sid` tinyint(3) NOT NULL auto_increment,
-  `Sname` varchar(60) NOT NULL default '',
+  `Sid` int(10) unsigned NOT NULL auto_increment,
+  `Sname` varchar(255) NOT NULL default '',
   `Sfull` blob,
   `Surl` varchar(255) default NULL,
-  `Scomment` varchar(60) default NULL,
+  `Sdescription` varchar(255) NOT NULL default '',
   `Stype` enum('Standard','Reference','Unknown','Implementation') default NULL,
-  `Sarch` int(11) NOT NULL default '1',
-  `Sshort` varchar(128) NOT NULL default '',
+  `Sarch` int(10) unsigned NOT NULL default '1',
+  `Sshort` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Sid`),
   UNIQUE KEY `Sname` (`Sname`),
   KEY `Stype` (`Stype`),

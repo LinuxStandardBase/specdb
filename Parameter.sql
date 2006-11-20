@@ -18,15 +18,14 @@
 
 DROP TABLE IF EXISTS `Parameter`;
 CREATE TABLE `Parameter` (
-  `Pint` int(11) NOT NULL default '0',
+  `Pint` int(10) unsigned NOT NULL default '0',
   `Ppos` int(11) NOT NULL default '0',
-  `Ptype` int(11) NOT NULL default '0',
+  `Ptype` int(10) unsigned NOT NULL default '0',
   `Parsize` smallint(6) default NULL,
-  `Pconst` enum('Y','N') NOT NULL default 'N',
-  `Pttid` int(11) NOT NULL default '0',
-  `Pnull` enum('Y','N') NOT NULL default 'N',
-  UNIQUE KEY `k_Pa` (`Pint`,`Ppos`),
-  KEY `Pint` (`Pint`)
+  `Pconst` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Pttid` int(10) unsigned NOT NULL default '0',
+  `Pnull` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  PRIMARY KEY  (`Pint`,`Ppos`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

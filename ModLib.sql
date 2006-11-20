@@ -18,11 +18,9 @@
 
 DROP TABLE IF EXISTS `ModLib`;
 CREATE TABLE `ModLib` (
-  `MLmid` int(11) NOT NULL default '0',
-  `MLlid` int(4) NOT NULL default '0',
-  PRIMARY KEY  (`MLlid`),
-  UNIQUE KEY `MLmid` (`MLmid`,`MLlid`),
-  KEY `MLmid_2` (`MLmid`)
+  `MLmid` int(10) unsigned NOT NULL default '0',
+  `MLlid` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`MLmid`,`MLlid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

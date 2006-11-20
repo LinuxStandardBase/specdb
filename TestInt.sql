@@ -18,9 +18,9 @@
 
 DROP TABLE IF EXISTS `TestInt`;
 CREATE TABLE `TestInt` (
-  `TSIint` int(11) NOT NULL default '0',
-  `TSItest` int(11) NOT NULL default '0',
-  UNIQUE KEY `TSIint` (`TSIint`,`TSItest`)
+  `TSIint` int(10) unsigned NOT NULL default '0',
+  `TSItest` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`TSIint`,`TSItest`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

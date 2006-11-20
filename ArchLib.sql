@@ -18,10 +18,10 @@
 
 DROP TABLE IF EXISTS `ArchLib`;
 CREATE TABLE `ArchLib` (
-  `ALlid` int(11) NOT NULL default '0',
-  `ALaid` int(11) NOT NULL default '0',
-  `ALrunname` varchar(32) NOT NULL default '0',
-  UNIQUE KEY `ALlid` (`ALlid`,`ALaid`)
+  `ALlid` int(10) unsigned NOT NULL default '0',
+  `ALaid` int(10) unsigned NOT NULL default '0',
+  `ALrunname` varchar(255) NOT NULL default '0',
+  PRIMARY KEY  (`ALlid`,`ALaid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -18,8 +18,8 @@
 
 DROP TABLE IF EXISTS `ArchClass`;
 CREATE TABLE `ArchClass` (
-  `ACcid` int(11) NOT NULL default '0',
-  `ACaid` int(11) NOT NULL default '1',
+  `ACcid` int(10) unsigned NOT NULL default '0',
+  `ACaid` int(10) unsigned NOT NULL default '1',
   `ACpos` int(11) NOT NULL default '0',
   `ACbaseoffset` int(11) NOT NULL default '0',
   `ACvoffset` int(11) NOT NULL default '0',

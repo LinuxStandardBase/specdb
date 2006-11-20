@@ -111,4 +111,4 @@ INSERT INTO `Standard` VALUES (116,'QtNetwork','Qt 4.1.0 Reference Manual','http
 INSERT INTO `Standard` VALUES (117,'QtOpenGL','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtopengl.html','','Standard',1,'QtOpenGL 4.1.0');
 INSERT INTO `Standard` VALUES (118,'QtSql','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtsql.html','','Standard',1,'QtSql 4.1.0');
 INSERT INTO `Standard` VALUES (119,'QtSvg','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtsvg.html','','Standard',1,'QtSvg 4.1.0');
-INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://doc.trolltech.com/3.3/index.html',NULL,'Standard',1,'Qt 3.3.6');
+INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://doc.trolltech.com/3.3/index.html','','Standard',1,'Qt 3.3.6');

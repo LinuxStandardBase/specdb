@@ -18,9 +18,9 @@
 
 DROP TABLE IF EXISTS `TestCmd`;
 CREATE TABLE `TestCmd` (
-  `TSCcmd` int(11) NOT NULL default '0',
-  `TSCtest` int(11) NOT NULL default '0',
-  UNIQUE KEY `TSCcmd` (`TSCcmd`,`TSCtest`)
+  `TSCcmd` int(10) unsigned NOT NULL default '0',
+  `TSCtest` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`TSCcmd`,`TSCtest`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

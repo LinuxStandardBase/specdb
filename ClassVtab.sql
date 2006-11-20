@@ -18,12 +18,13 @@
 
 DROP TABLE IF EXISTS `ClassVtab`;
 CREATE TABLE `ClassVtab` (
-  `CVcid` int(11) NOT NULL default '0',
-  `CVclass` int(11) NOT NULL default '0',
+  `CVcid` int(10) unsigned NOT NULL default '0',
+  `CVclass` int(10) unsigned NOT NULL default '0',
   `CVpos` int(11) NOT NULL default '0',
-  `CVrtti` int(11) NOT NULL default '0',
-  `CVnumvtfuncs` int(11) NOT NULL default '0',
-  UNIQUE KEY `CVcid` (`CVcid`,`CVpos`)
+  `CVrtti` int(10) unsigned NOT NULL default '0',
+  `CVnumvtfuncs` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`CVcid`,`CVpos`),
+  KEY `CVpos` (`CVpos`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

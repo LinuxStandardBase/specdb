@@ -18,14 +18,14 @@
 
 DROP TABLE IF EXISTS `ElfSections`;
 CREATE TABLE `ElfSections` (
-  `ESid` tinyint(3) NOT NULL auto_increment,
-  `ESname` varchar(60) NOT NULL default '',
-  `ESstandard` int(10) NOT NULL default '0',
-  `ESdescription` blob,
-  `EStype` int(10) NOT NULL default '0',
+  `ESid` int(10) unsigned NOT NULL auto_increment,
+  `ESname` varchar(255) NOT NULL default '',
+  `ESstandard` int(10) unsigned NOT NULL default '0',
+  `ESdescription` blob NOT NULL,
+  `EStype` int(10) unsigned NOT NULL default '0',
   `ESattributes` varchar(60) NOT NULL default '',
-  `ESSecType` int(10) default NULL,
-  `ESarch` int(11) NOT NULL default '1',
+  `ESSecType` int(10) unsigned NOT NULL default '0',
+  `ESarch` int(10) unsigned NOT NULL default '1',
   PRIMARY KEY  (`ESid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

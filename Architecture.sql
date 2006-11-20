@@ -18,9 +18,9 @@
 
 DROP TABLE IF EXISTS `Architecture`;
 CREATE TABLE `Architecture` (
-  `Aid` int(10) NOT NULL auto_increment,
-  `Aname` varchar(60) NOT NULL default '',
-  `Aspecification` varchar(60) NOT NULL default '',
+  `Aid` int(10) unsigned NOT NULL auto_increment,
+  `Aname` varchar(255) NOT NULL default '',
+  `Aspecification` varchar(255) NOT NULL default '',
   `Asymbol` varchar(60) NOT NULL default '',
   PRIMARY KEY  (`Aid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;

@@ -18,9 +18,9 @@
 
 DROP TABLE IF EXISTS `VerInt`;
 CREATE TABLE `VerInt` (
-  `VIver` int(11) NOT NULL default '0',
-  `VIint` int(11) NOT NULL default '0',
-  UNIQUE KEY `k_VI` (`VIver`,`VIint`)
+  `VIver` int(10) unsigned NOT NULL default '0',
+  `VIint` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`VIver`,`VIint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -18,10 +18,10 @@
 
 DROP TABLE IF EXISTS `ArchConst`;
 CREATE TABLE `ArchConst` (
-  `ACaid` int(11) NOT NULL default '0',
-  `ACcid` int(11) NOT NULL default '0',
+  `ACaid` int(10) unsigned NOT NULL default '0',
+  `ACcid` int(10) unsigned NOT NULL default '0',
   `ACvalue` text NOT NULL,
-  UNIQUE KEY `k_AC` (`ACaid`,`ACcid`)
+  PRIMARY KEY  (`ACaid`,`ACcid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

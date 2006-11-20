@@ -18,8 +18,8 @@
 
 DROP TABLE IF EXISTS `RpmTag`;
 CREATE TABLE `RpmTag` (
-  `Rid` int(11) NOT NULL auto_increment,
-  `Rname` varchar(64) NOT NULL default '',
+  `Rid` int(10) unsigned NOT NULL auto_increment,
+  `Rname` varchar(255) NOT NULL default '',
   `Rtag` int(11) NOT NULL default '0',
   `Rtype` enum('NULL_TYPE','CHAR_TYPE','INT8','INT16','INT32','INT64','STRING','BIN','STRING_ARRAY','I18NSTRING') NOT NULL default 'BIN',
   `Rcount` int(11) NOT NULL default '0',
@@ -27,7 +27,6 @@ CREATE TABLE `RpmTag` (
   `Rstatus` enum('Required','Optional','Informational','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
   `Rdescription` text NOT NULL,
   PRIMARY KEY  (`Rid`),
-  UNIQUE KEY `Rid` (`Rid`),
   UNIQUE KEY `Rname` (`Rname`),
   KEY `Rtag` (`Rtag`),
   KEY `Rgroup` (`Rgroup`),

@@ -18,8 +18,8 @@
 
 DROP TABLE IF EXISTS `Version`;
 CREATE TABLE `Version` (
-  `Vid` int(10) NOT NULL auto_increment,
-  `Vname` varchar(60) character set latin1 collate latin1_bin NOT NULL default '',
+  `Vid` int(10) unsigned NOT NULL auto_increment,
+  `Vname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   PRIMARY KEY  (`Vid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
