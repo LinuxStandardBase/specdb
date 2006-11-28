@@ -18,11 +18,11 @@
 
 DROP TABLE IF EXISTS `LibGroup`;
 CREATE TABLE `LibGroup` (
-  `LGid` int(10) NOT NULL auto_increment,
+  `LGid` int(10) unsigned NOT NULL auto_increment,
   `LGname` varchar(255) NOT NULL default '',
-  `LGlib` int(10) NOT NULL default '0',
-  `LGarch` int(10) NOT NULL default '0',
-  `LGorder` int(10) default NULL,
+  `LGlib` int(10) unsigned NOT NULL default '0',
+  `LGarch` int(10) unsigned NOT NULL default '0',
+  `LGorder` int(11) NOT NULL default '0',
   `LGdescription` text NOT NULL,
   PRIMARY KEY  (`LGid`),
   UNIQUE KEY `k_LG` (`LGname`,`LGlib`)

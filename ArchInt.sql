@@ -18,13 +18,12 @@
 
 DROP TABLE IF EXISTS `ArchInt`;
 CREATE TABLE `ArchInt` (
-  `AIarch` int(11) NOT NULL default '0',
-  `AIint` int(11) NOT NULL default '0',
-  `AIversion` smallint(6) NOT NULL default '0',
-  UNIQUE KEY `k_AI` (`AIarch`,`AIint`),
+  `AIarch` int(10) unsigned NOT NULL default '0',
+  `AIint` int(10) unsigned NOT NULL default '0',
+  `AIversion` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`AIarch`,`AIint`),
   KEY `AIversion` (`AIversion`),
-  KEY `k_av` (`AIint`,`AIversion`),
-  KEY `AIint` (`AIint`)
+  KEY `k_av` (`AIint`,`AIversion`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

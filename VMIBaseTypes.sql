@@ -18,13 +18,12 @@
 
 DROP TABLE IF EXISTS `VMIBaseTypes`;
 CREATE TABLE `VMIBaseTypes` (
-  `VBTcid` int(11) NOT NULL default '0',
+  `VBTcid` int(10) unsigned NOT NULL default '0',
   `VBTpos` int(11) NOT NULL default '0',
-  `VBTbasetype` int(11) NOT NULL default '0',
+  `VBTbasetype` int(10) unsigned NOT NULL default '0',
   `VBTflags` bigint(20) unsigned NOT NULL default '0',
-  `VBTaid` int(11) NOT NULL default '1',
-  PRIMARY KEY  (`VBTcid`,`VBTpos`,`VBTaid`),
-  KEY `VBTciid` (`VBTcid`)
+  `VBTaid` int(10) unsigned NOT NULL default '1',
+  PRIMARY KEY  (`VBTcid`,`VBTpos`,`VBTaid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

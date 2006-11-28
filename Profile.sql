@@ -18,12 +18,11 @@
 
 DROP TABLE IF EXISTS `Profile`;
 CREATE TABLE `Profile` (
-  `Pid` int(11) NOT NULL default '0',
-  `Pname` varchar(32) NOT NULL default '',
+  `Pid` int(10) unsigned NOT NULL default '0',
+  `Pname` varchar(255) NOT NULL default '',
   `Pdesc` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Pid`),
-  UNIQUE KEY `Pname` (`Pname`),
-  UNIQUE KEY `Pid` (`Pid`)
+  UNIQUE KEY `Pname` (`Pname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

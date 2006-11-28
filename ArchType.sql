@@ -18,10 +18,10 @@
 
 DROP TABLE IF EXISTS `ArchType`;
 CREATE TABLE `ArchType` (
-  `ATaid` int(11) NOT NULL default '0',
-  `ATtid` int(11) NOT NULL default '0',
-  `ATsize` int(11) NOT NULL default '0',
-  UNIQUE KEY `k_AT` (`ATaid`,`ATtid`)
+  `ATaid` int(10) unsigned NOT NULL default '0',
+  `ATtid` int(10) unsigned NOT NULL default '0',
+  `ATsize` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`ATaid`,`ATtid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

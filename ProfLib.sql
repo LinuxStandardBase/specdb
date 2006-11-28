@@ -18,8 +18,8 @@
 
 DROP TABLE IF EXISTS `ProfLib`;
 CREATE TABLE `ProfLib` (
-  `PLpid` int(11) NOT NULL default '0',
-  `PLlid` tinyint(4) NOT NULL default '0',
+  `PLpid` int(10) unsigned NOT NULL default '0',
+  `PLlid` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`PLpid`,`PLlid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

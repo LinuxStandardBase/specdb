@@ -18,14 +18,13 @@
 
 DROP TABLE IF EXISTS `TestSuite`;
 CREATE TABLE `TestSuite` (
-  `TSid` int(11) NOT NULL auto_increment,
-  `TSname` varchar(16) NOT NULL default '',
+  `TSid` int(10) unsigned NOT NULL auto_increment,
+  `TSname` varchar(255) NOT NULL default '',
   `TSfullname` varchar(255) NOT NULL default '',
-  `TSvendor` varchar(128) NOT NULL default '',
-  `TSstatus` enum('Included','Excluded') NOT NULL default 'Excluded',
+  `TSvendor` varchar(255) NOT NULL default '',
+  `TSstatus` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`TSid`),
-  UNIQUE KEY `TSid` (`TSid`,`TSname`),
-  KEY `TSid_2` (`TSid`,`TSname`)
+  KEY `TSid` (`TSid`,`TSname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

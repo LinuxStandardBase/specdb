@@ -18,13 +18,12 @@
 
 DROP TABLE IF EXISTS `Vtable`;
 CREATE TABLE `Vtable` (
-  `VTcid` int(11) NOT NULL default '0',
+  `VTcid` int(10) unsigned NOT NULL default '0',
   `VTvtpos` int(11) NOT NULL default '0',
   `VTpos` int(11) NOT NULL default '0',
-  `VTviid` int(11) NOT NULL default '0',
-  `VTarch` int(11) NOT NULL default '2',
+  `VTviid` int(10) unsigned NOT NULL default '0',
+  `VTarch` int(10) unsigned NOT NULL default '2',
   PRIMARY KEY  (`VTcid`,`VTpos`,`VTarch`,`VTvtpos`),
-  KEY `VTcid` (`VTcid`),
   KEY `VTcid_2` (`VTcid`,`VTvtpos`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

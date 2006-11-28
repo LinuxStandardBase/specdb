@@ -18,10 +18,12 @@
 
 DROP TABLE IF EXISTS `Header`;
 CREATE TABLE `Header` (
-  `Hid` int(10) NOT NULL auto_increment,
-  `Hname` varchar(60) character set latin1 collate latin1_bin NOT NULL default '',
-  `Hstd` enum('Yes','No','SrcOnly','SrcError') NOT NULL default 'No',
-  `Hlib` int(11) NOT NULL default '0',
+  `Hid` int(10) unsigned NOT NULL auto_increment,
+  `Hname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
+  `Hstdstatus` enum('Included','Excluded','Unknown','Withdrawn','Future','SrcOnly') NOT NULL default 'Unknown',
+  `Hlib` int(10) unsigned NOT NULL default '0',
+  `Hsrcerror` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Hcandidatefor` varchar(255) default NULL,
   PRIMARY KEY  (`Hid`),
   UNIQUE KEY `Hname` (`Hname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
