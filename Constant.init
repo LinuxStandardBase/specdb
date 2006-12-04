@@ -3527,7 +3527,7 @@ INSERT INTO `Constant` VALUES (3527,'MAP_FILE','int',56,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3528,'_POSIX_MAPPED_FILES','int',366,'','Included',NULL);
 INSERT INTO `Constant` VALUES (3529,'RUSAGE_SELF','int',57,'','Included',NULL);
 INSERT INTO `Constant` VALUES (3530,'RUSAGE_CHILDREN','int',57,'','Included',NULL);
-INSERT INTO `Constant` VALUES (3531,'RUSAGE_BOTH','int',57,'','Included',NULL);
+INSERT INTO `Constant` VALUES (3531,'RUSAGE_BOTH','int',57,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3532,'PRIO_MIN','int',562,'Minimum priority a process can have.','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3533,'PRIO_MAX','int',562,'Maximum priority a process can have.','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3534,'PRIO_PROCESS','int',563,'','Included',NULL);
