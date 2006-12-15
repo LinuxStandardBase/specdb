@@ -3399,7 +3399,7 @@ INSERT INTO `Constant` VALUES (3399,'SIOCSIFNAME','int',581,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3400,'SIOCSIFHWADDR','int',581,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3401,'SIOCGIFENCAP','int',581,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3402,'SIOCSIFENCAP','int',581,'','Excluded',NULL);
-INSERT INTO `Constant` VALUES (3403,'SIOCGIFHWADDR','int',581,'','Excluded',NULL);
+INSERT INTO `Constant` VALUES (3403,'SIOCGIFHWADDR','int',581,'','Included',NULL);
 INSERT INTO `Constant` VALUES (3404,'SIOCGIFSLAVE','int',581,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3405,'SIOCSIFSLAVE','int',581,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (3406,'SIOCADDMULTI','int',581,'','Excluded',NULL);
