@@ -2111,9 +2111,9 @@ INSERT INTO `Type` VALUES (10315,'const sockaddr','Const',6906,0,'','','Referenc
 INSERT INTO `Type` VALUES (10316,'ucontext_t *','Pointer',10220,0,'','','Indirect',1,'');
 INSERT INTO `Type` VALUES (10317,'const ucontext_t','Const',10219,0,'','','Indirect',0,'');
 INSERT INTO `Type` VALUES (10318,'fptr-func','FuncPtr',1,0,'','','Indirect',0,NULL);
-INSERT INTO `Type` VALUES (10319,'statfs','Struct',0,465,'','','Excluded',1,'');
+INSERT INTO `Type` VALUES (10319,'statfs','Struct',0,469,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10320,'statfs *','Pointer',10319,0,'','','Referenced',0,'');
-INSERT INTO `Type` VALUES (10321,'statfs64','Struct',0,465,'','','Excluded',1,'');
+INSERT INTO `Type` VALUES (10321,'statfs64','Struct',0,469,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (10322,'statfs64 *','Pointer',10321,0,'','','Referenced',0,'');
 INSERT INTO `Type` VALUES (10323,'statvfs','Struct',0,457,'','','Referenced',2,'');
 INSERT INTO `Type` VALUES (10324,'statvfs *','Pointer',10323,0,'','','Referenced',0,'');
