@@ -5012,11 +5012,11 @@ INSERT INTO `Constant` VALUES (5019,'SIGEV_MAX_SIZE','int',242,'','Included',NUL
 INSERT INTO `Constant` VALUES (5020,'SIGEV_PAD_SIZE','int',242,'','Included',NULL);
 INSERT INTO `Constant` VALUES (5021,'MAX_MEM_LEVEL','int',300,'Maximum value for memLevel in deflateInit2','Included',NULL);
 INSERT INTO `Constant` VALUES (5022,'MAX_WBITS','int',300,'32K LZ77 window','Included',NULL);
-INSERT INTO `Constant` VALUES (5023,'EXT2_SUPER_MAGIC','int',465,'','Excluded',NULL);
-INSERT INTO `Constant` VALUES (5024,'ISOFS_SUPER_MAGIC','int',465,'','Excluded',NULL);
-INSERT INTO `Constant` VALUES (5025,'MSDOS_SUPER_MAGIC','int',465,'','Excluded',NULL);
-INSERT INTO `Constant` VALUES (5026,'NFS_SUPER_MAGIC','int',465,'','Excluded',NULL);
-INSERT INTO `Constant` VALUES (5027,'PROC_SUPER_MAGIC','int',465,'','Excluded',NULL);
+INSERT INTO `Constant` VALUES (5023,'EXT2_SUPER_MAGIC','int',469,'','Excluded',NULL);
+INSERT INTO `Constant` VALUES (5024,'ISOFS_SUPER_MAGIC','int',469,'','Excluded',NULL);
+INSERT INTO `Constant` VALUES (5025,'MSDOS_SUPER_MAGIC','int',469,'','Excluded',NULL);
+INSERT INTO `Constant` VALUES (5026,'NFS_SUPER_MAGIC','int',469,'','Included',NULL);
+INSERT INTO `Constant` VALUES (5027,'PROC_SUPER_MAGIC','int',469,'','Excluded',NULL);
 INSERT INTO `Constant` VALUES (5028,'_POSIX_VDISABLE','int',366,'','Included',NULL);
 INSERT INTO `Constant` VALUES (5029,'_POSIX_NO_TRUNC','int',366,'','Included',NULL);
 INSERT INTO `Constant` VALUES (5030,'_POSIX_CHOWN_RESTRICTED','int',366,'','Included',NULL);
