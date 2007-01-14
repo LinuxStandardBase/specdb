@@ -2158,7 +2158,7 @@ INSERT INTO `TypeMember` VALUES (32254,'rq_proc',9994,0,0,2,'',9991,'',0,0);
 INSERT INTO `TypeMember` VALUES (32255,'rq_cred',9894,0,0,3,'',9991,'',0,0);
 INSERT INTO `TypeMember` VALUES (32256,'rq_clntcred',9258,0,0,4,'',9991,'',0,0);
 INSERT INTO `TypeMember` VALUES (32257,'rq_xprt',9983,0,0,5,'',9991,'',0,0);
-INSERT INTO `TypeMember` VALUES (32258,'name',63,0,4,0,'',10000,'',0,0);
+INSERT INTO `TypeMember` VALUES (32258,'name',10295,0,4,0,'',10000,'',0,0);
 INSERT INTO `TypeMember` VALUES (32259,'has_arg',6,0,0,1,'',10000,'',0,0);
 INSERT INTO `TypeMember` VALUES (32260,'flag',60,0,0,2,'',10000,'',0,0);
 INSERT INTO `TypeMember` VALUES (32261,'val',6,0,0,3,'',10000,'',0,0);
