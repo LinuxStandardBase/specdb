@@ -183,7 +183,6 @@ INSERT INTO `LibGroup` VALUES (419,'Class std::time_base',231,1,160,'');
 INSERT INTO `LibGroup` VALUES (420,'Class std::type_info',231,1,2,'');
 INSERT INTO `LibGroup` VALUES (454,'Realtime Threads',132,1,2,'');
 INSERT INTO `LibGroup` VALUES (455,'Advanced Realtime Threads',132,1,3,'');
-INSERT INTO `LibGroup` VALUES (456,'Default LibGroup for libstdcxx6',237,1,0,'');
 INSERT INTO `LibGroup` VALUES (461,'X Extended Visual Interface Extension',18,1,8,'');
 INSERT INTO `LibGroup` VALUES (459,'Clock',223,1,2,'');
 INSERT INTO `LibGroup` VALUES (460,'Timers',223,1,3,'');
