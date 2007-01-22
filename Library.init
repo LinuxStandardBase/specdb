@@ -19,7 +19,7 @@ INSERT INTO `Library` VALUES (229,'proginterp','Included',NULL);
 INSERT INTO `Library` VALUES (231,'libstdcxx','Included',NULL);
 INSERT INTO `Library` VALUES (233,'libpam','Included',NULL);
 INSERT INTO `Library` VALUES (236,'libgcc_s','Included',NULL);
-INSERT INTO `Library` VALUES (237,'libstdcxx6','Included',NULL);
+INSERT INTO `Library` VALUES (237,'libstdcxx6','Excluded',NULL);
 INSERT INTO `Library` VALUES (238,'libXi','Included',NULL);
 INSERT INTO `Library` VALUES (239,'libfontconfig','Included',NULL);
 INSERT INTO `Library` VALUES (240,'libpng12','Included',NULL);
