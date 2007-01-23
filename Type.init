@@ -1740,7 +1740,6 @@ INSERT INTO `Type` VALUES (9928,'rpc_err *','Pointer',9917,0,'','','Excluded',1,
 INSERT INTO `Type` VALUES (9929,'fptr-cl_freeres','FuncPtr',9890,303,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9930,'fptr-cl_destroy','FuncPtr',1,303,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9931,'fptr-cl_control','FuncPtr',9890,303,'','','Excluded',1,NULL);
-INSERT INTO `Type` VALUES (9932,'enum clnt_stat','',0,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9933,'xdr_op','Enum',0,304,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (9935,'xdr_ops','Struct',0,503,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (9936,'fptr-x_getlong','FuncPtr',9890,304,'','','Excluded',1,NULL);
@@ -1774,7 +1773,6 @@ INSERT INTO `Type` VALUES (9964,'caddr_t *','Pointer',9258,0,'','','Excluded',1,
 INSERT INTO `Type` VALUES (9965,'xdr_discrim *','Pointer',9949,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9966,'u_char *','Pointer',9259,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9967,'float *','Pointer',12,0,'','','Excluded',1,NULL);
-INSERT INTO `Type` VALUES (9968,'enum xdr_op','',0,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9969,'fptr-__readit','FuncPtr',6,304,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9970,'fptr-__writeit','FuncPtr',6,304,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (9971,'anon-math.h-33','Enum',0,29,'','','Excluded',1,NULL);
@@ -1805,7 +1803,6 @@ INSERT INTO `Type` VALUES (9995,'fptr-__dispatch_fn_t','FuncPtr',1,306,'','','Ex
 INSERT INTO `Type` VALUES (9996,'svc_req *','Pointer',9991,0,'','','Excluded',1,'');
 INSERT INTO `Type` VALUES (9997,'__dispatch_fn_t','Typedef',9995,536,'','','Referenced',1,'');
 INSERT INTO `Type` VALUES (9998,'rpcprot_t','Typedef',9,490,'','','Referenced',1,'');
-INSERT INTO `Type` VALUES (9999,'enum auth_stat','',0,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (10000,'option','Struct',0,307,'','','Referenced',1,NULL);
 INSERT INTO `Type` VALUES (10001,'option *','Pointer',10000,0,'','','Excluded',1,NULL);
 INSERT INTO `Type` VALUES (10002,'sig_t','Typedef',6966,41,'','','Excluded',1,'');
