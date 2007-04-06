@@ -3716,7 +3716,6 @@ INSERT INTO `ArchConst` VALUES (1,4943,'(23<<3)');
 INSERT INTO `ArchConst` VALUES (1,4944,'1L');
 INSERT INTO `ArchConst` VALUES (1,4945,'((XtAllocateProc) _XtInherit)');
 INSERT INTO `ArchConst` VALUES (1,4946,'((XtDeallocateProc) _XtInherit)');
-INSERT INTO `ArchConst` VALUES (1,4947,'1');
 INSERT INTO `ArchConst` VALUES (1,4948,'0x0001');
 INSERT INTO `ArchConst` VALUES (1,4949,'0x0002');
 INSERT INTO `ArchConst` VALUES (1,4950,'0x0004');
