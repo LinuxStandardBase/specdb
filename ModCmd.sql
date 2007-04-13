@@ -20,7 +20,11 @@ DROP TABLE IF EXISTS `ModCmd`;
 CREATE TABLE `ModCmd` (
   `MCmid` int(10) unsigned NOT NULL default '0',
   `MCcid` int(10) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`MCmid`,`MCcid`)
+  `MCappearedin` varchar(255) NOT NULL default '',
+  `MCwithdrawnin` varchar(255) default NULL,
+  PRIMARY KEY  (`MCmid`,`MCcid`,`MCappearedin`),
+  KEY `k_appearedin` (`MCappearedin`),
+  KEY `k_withdrawnin` (`MCwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

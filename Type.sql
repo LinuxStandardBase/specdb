@@ -21,16 +21,22 @@ CREATE TABLE `Type` (
   `Tid` int(10) unsigned NOT NULL auto_increment,
   `Tname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','TypeInfo','Volatile','Function') NOT NULL default 'Unknown',
-  `Tbasetype` int(10) unsigned NOT NULL default '0',
   `Theadergroup` int(10) unsigned NOT NULL default '0',
   `Tdescription` varchar(255) NOT NULL default '',
   `Tarray` varchar(16) default NULL,
-  `Tstatus` enum('Referenced','Indirect','Excluded','SrcOnly','Conly') NOT NULL default 'Excluded',
   `Tarch` int(10) unsigned NOT NULL default '1',
   `Tattribute` varchar(64) default NULL,
+  `Tsrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Tconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Tindirect` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`Tid`),
   UNIQUE KEY `Tnamearch` (`Tname`,`Tarch`,`Ttype`),
-  KEY `Tarch` (`Tarch`)
+  KEY `Tarch` (`Tarch`),
+  KEY `k_Theadergroup` (`Theadergroup`),
+  KEY `k_Tsrconly` (`Tsrconly`),
+  KEY `k_Tindirect` (`Tindirect`),
+  KEY `k_Tconly` (`Tconly`),
+  KEY `k_Ttype` (`Ttype`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

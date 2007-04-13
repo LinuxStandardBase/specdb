@@ -20,8 +20,14 @@ DROP TABLE IF EXISTS `ArchLib`;
 CREATE TABLE `ArchLib` (
   `ALlid` int(10) unsigned NOT NULL default '0',
   `ALaid` int(10) unsigned NOT NULL default '0',
-  `ALrunname` varchar(255) NOT NULL default '0',
-  PRIMARY KEY  (`ALlid`,`ALaid`)
+  `ALrunname` varchar(255) NOT NULL default '',
+  `ALappearedin` varchar(255) NOT NULL default '',
+  `ALwithdrawnin` varchar(255) default NULL,
+  PRIMARY KEY  (`ALlid`,`ALaid`,`ALappearedin`),
+  KEY `k_appearedin` (`ALappearedin`,`ALwithdrawnin`),
+  KEY `k_withdrawnin` (`ALwithdrawnin`),
+  KEY `k_ALaid` (`ALaid`),
+  KEY `k_ALrunname` (`ALrunname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -24,7 +24,8 @@ CREATE TABLE `RawCommand` (
   `RCcomment` varchar(255) default NULL,
   `RCcomponent` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`RCid`),
-  UNIQUE KEY `k_RCname` (`RCname`,`RCpath`,`RCcomponent`)
+  UNIQUE KEY `k_RCname` (`RCname`,`RCpath`,`RCcomponent`),
+  KEY `k_RCcomponent` (`RCcomponent`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

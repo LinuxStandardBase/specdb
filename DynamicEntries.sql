@@ -21,10 +21,6 @@ CREATE TABLE `DynamicEntries` (
   `DEid` int(10) unsigned NOT NULL auto_increment,
   `DEname` varchar(255) NOT NULL default '',
   `DEvalue` varchar(11) NOT NULL default '0',
-  `DEstandard` int(10) unsigned NOT NULL default '0',
-  `DEdescription` blob NOT NULL,
-  `DEarch` int(10) unsigned NOT NULL default '1',
-  `DEstdstatus` enum('Included','Excluded','SrcOnly','Unknown','Withdrawn','Future') NOT NULL default 'Unknown',
   PRIMARY KEY  (`DEid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

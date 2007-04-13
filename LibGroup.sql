@@ -21,11 +21,12 @@ CREATE TABLE `LibGroup` (
   `LGid` int(10) unsigned NOT NULL auto_increment,
   `LGname` varchar(255) NOT NULL default '',
   `LGlib` int(10) unsigned NOT NULL default '0',
-  `LGarch` int(10) unsigned NOT NULL default '0',
   `LGorder` int(11) NOT NULL default '0',
   `LGdescription` text NOT NULL,
   PRIMARY KEY  (`LGid`),
-  UNIQUE KEY `k_LG` (`LGname`,`LGlib`)
+  UNIQUE KEY `k_LG` (`LGname`,`LGlib`),
+  KEY `k_LGlib` (`LGlib`),
+  KEY `k_LGorder` (`LGorder`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

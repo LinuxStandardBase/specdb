@@ -20,25 +20,25 @@ DROP TABLE IF EXISTS `Interface`;
 CREATE TABLE `Interface` (
   `Iid` int(10) unsigned NOT NULL auto_increment,
   `Iname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  `Istdstatus` enum('Included','Excluded','Unknown','Withdrawn','Future','SrcOnly') NOT NULL default 'Unknown',
   `Itype` enum('Function','Data','Alias','Common','Unknown') NOT NULL default 'Unknown',
   `Istandard` int(10) unsigned NOT NULL default '0',
-  `Iarch` int(10) unsigned NOT NULL default '1',
   `Iheader` int(10) unsigned NOT NULL default '0',
   `Ireturn` int(10) unsigned NOT NULL default '0',
-  `Iversion` int(10) unsigned NOT NULL default '0',
   `Idocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Itested` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `Iwithdrawnin` varchar(255) default NULL,
   `Icomment` varchar(255) default NULL,
   `Icandidatefor` varchar(255) default NULL,
   `Iisdeprecated` enum('Yes','No','Unknown') default 'Unknown',
+  `Iunmangled` text,
+  `Isrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Iurl` varchar(255) default NULL,
   PRIMARY KEY  (`Iid`),
   KEY `k_Iname` (`Iname`,`Iid`),
   KEY `Istandard` (`Istandard`),
-  KEY `Istdstatus` (`Istdstatus`),
   KEY `Itype` (`Itype`),
-  KEY `Iarch` (`Iarch`)
+  KEY `k_Itested` (`Itested`),
+  KEY `k_Idocumented` (`Idocumented`),
+  KEY `k_Iheader` (`Iheader`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

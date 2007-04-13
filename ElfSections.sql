@@ -20,12 +20,6 @@ DROP TABLE IF EXISTS `ElfSections`;
 CREATE TABLE `ElfSections` (
   `ESid` int(10) unsigned NOT NULL auto_increment,
   `ESname` varchar(255) NOT NULL default '',
-  `ESstandard` int(10) unsigned NOT NULL default '0',
-  `ESdescription` blob NOT NULL,
-  `EStype` int(10) unsigned NOT NULL default '0',
-  `ESattributes` varchar(60) NOT NULL default '',
-  `ESSecType` int(10) unsigned NOT NULL default '0',
-  `ESarch` int(10) unsigned NOT NULL default '1',
   PRIMARY KEY  (`ESid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 

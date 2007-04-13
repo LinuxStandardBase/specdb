@@ -1,13 +1,8 @@
 INSERT INTO `Architecture` VALUES (1,'All','','1');
 INSERT INTO `Architecture` VALUES (2,'IA32','http://www.intel.com/','__i386__');
 INSERT INTO `Architecture` VALUES (3,'IA64','http://www.intel.com/','__ia64__');
-INSERT INTO `Architecture` VALUES (4,'ARM','','__arm__');
-INSERT INTO `Architecture` VALUES (5,'M68K','','__mc68000__');
 INSERT INTO `Architecture` VALUES (6,'PPC32','','__powerpc__ && !__powerpc64__');
-INSERT INTO `Architecture` VALUES (7,'Alpha','','__alpha__');
-INSERT INTO `Architecture` VALUES (8,'None','','__not_def__');
 INSERT INTO `Architecture` VALUES (9,'PPC64','','__powerpc64__');
 INSERT INTO `Architecture` VALUES (10,'S390','','__s390__ && !__s390x__');
 INSERT INTO `Architecture` VALUES (11,'x86-64','','__x86_64__');
 INSERT INTO `Architecture` VALUES (12,'S390X','','__s390x__');
-INSERT INTO `Architecture` VALUES (13,'M32R','','__m32r__');

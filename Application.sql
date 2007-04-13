@@ -24,9 +24,12 @@ CREATE TABLE `Application` (
   `Aarch` int(10) unsigned NOT NULL default '0',
   `Aabitag` varchar(255) NOT NULL default '',
   `Acompany` varchar(255) NOT NULL default '',
+  `Asummary` varchar(255) default NULL,
   `Acomment` varchar(255) default NULL,
+  `Aurl` varchar(255) default NULL,
   PRIMARY KEY  (`Aid`),
-  UNIQUE KEY `k_Dname` (`Aname`,`Aversion`,`Aarch`)
+  UNIQUE KEY `k_Aname` (`Aname`,`Aversion`,`Aarch`),
+  KEY `k_Aarch` (`Aarch`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

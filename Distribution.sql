@@ -25,7 +25,8 @@ CREATE TABLE `Distribution` (
   `Darch` int(10) unsigned NOT NULL default '0',
   `Dcompany` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Did`),
-  UNIQUE KEY `k_Dname` (`Dname`,`Dversion`,`Darch`)
+  UNIQUE KEY `k_Dname` (`Dname`,`Dversion`,`Darch`),
+  KEY `k_Darch` (`Darch`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

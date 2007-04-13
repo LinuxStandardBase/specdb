@@ -21,12 +21,12 @@ CREATE TABLE `Command` (
   `Cid` int(10) unsigned NOT NULL auto_increment,
   `Cname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   `Cpath` varchar(255) default NULL,
-  `Cstdstatus` enum('Included','Excluded','SrcOnly','Unknown','Withdrawn','Future') NOT NULL default 'Unknown',
   `Cstandard` int(10) unsigned NOT NULL default '0',
   `Cdocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Ctested` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Ccandidatefor` varchar(255) default NULL,
   `Cbuiltin` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Curl` varchar(255) default NULL,
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `Cname` (`Cname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;

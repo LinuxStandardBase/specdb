@@ -20,7 +20,7 @@ DROP TABLE IF EXISTS `RawInterface`;
 CREATE TABLE `RawInterface` (
   `RIid` int(10) unsigned NOT NULL auto_increment,
   `RIname` varchar(255) NOT NULL default '',
-  `RIunmangled` varchar(255) default NULL,
+  `RIunmangled` text,
   `RIversion` varchar(255) NOT NULL default '',
   `RIcomment` varchar(255) default NULL,
   `RIrcid` int(10) unsigned NOT NULL default '0',
