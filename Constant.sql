@@ -23,8 +23,8 @@ CREATE TABLE `Constant` (
   `Ctype` enum('int','long','float','double','longdouble','string','macro','Unknown') NOT NULL default 'Unknown',
   `Cheadgroup` int(10) unsigned NOT NULL default '0',
   `Cdescription` varchar(255) NOT NULL default '',
-  `Cstdstatus` enum('Included','Excluded','Unknown','Withdrawn','Future','SrcOnly') NOT NULL default 'Unknown',
   `Ccandidatefor` varchar(255) default NULL,
+  `Csrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `k_c_name` (`Cname`),
   KEY `Cheadgroup` (`Cheadgroup`)

@@ -21,9 +21,13 @@ CREATE TABLE `ArchInt` (
   `AIarch` int(10) unsigned NOT NULL default '0',
   `AIint` int(10) unsigned NOT NULL default '0',
   `AIversion` int(10) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`AIarch`,`AIint`),
+  `AIappearedin` varchar(255) NOT NULL default '',
+  `AIwithdrawnin` varchar(255) default NULL,
+  PRIMARY KEY  (`AIarch`,`AIint`,`AIappearedin`),
   KEY `AIversion` (`AIversion`),
-  KEY `k_av` (`AIint`,`AIversion`)
+  KEY `k_av` (`AIint`,`AIversion`),
+  KEY `k_appearedin` (`AIappearedin`,`AIwithdrawnin`),
+  KEY `k_withdrawnin` (`AIwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

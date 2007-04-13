@@ -27,7 +27,9 @@ CREATE TABLE `Component` (
   `Cdistr` int(10) unsigned NOT NULL default '0',
   `Ccompany` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Cid`),
-  UNIQUE KEY `k_Cname` (`Cname`,`Cversion`,`Cdistr`,`Carch`)
+  UNIQUE KEY `k_Cname` (`Cname`,`Cversion`,`Cdistr`,`Carch`),
+  KEY `k_Cdistr` (`Cdistr`),
+  KEY `k_Carch` (`Carch`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

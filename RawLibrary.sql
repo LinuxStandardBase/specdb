@@ -28,7 +28,8 @@ CREATE TABLE `RawLibrary` (
   `RLsoname` varchar(255) NOT NULL default '',
   `RLabitag` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`RLid`),
-  UNIQUE KEY `k_RLname` (`RLrunname`,`RLpath`,`RLcomponent`)
+  UNIQUE KEY `k_RLname` (`RLrunname`,`RLpath`,`RLcomponent`),
+  KEY `k_RLcomponent` (`RLcomponent`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

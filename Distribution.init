@@ -1,0 +1,14 @@
+INSERT INTO `Distribution` VALUES (28,'Asianux','2.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (29,'Debian','3.1r2',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (30,'Mandriva','2006',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (31,'OpenSUSE','10.2',NULL,11,'0');
+INSERT INTO `Distribution` VALUES (32,'RHEL','4.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (33,'RHEL','4.0',NULL,11,'0');
+INSERT INTO `Distribution` VALUES (34,'SLES','10.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (35,'SLES','10.0',NULL,3,'0');
+INSERT INTO `Distribution` VALUES (36,'Ubuntu','6.06',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (37,'Xandros Server','1.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (40,'Gentoo','2006.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (41,'Debian','4.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (42,'BOSS','1.0',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (43,'Xandros Desktop','4.1',NULL,2,'0');

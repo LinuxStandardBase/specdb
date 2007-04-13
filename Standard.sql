@@ -26,6 +26,7 @@ CREATE TABLE `Standard` (
   `Stype` enum('Standard','Reference','Unknown','Implementation') default NULL,
   `Sarch` int(10) unsigned NOT NULL default '1',
   `Sshort` varchar(255) NOT NULL default '',
+  `Sbaselink` varchar(255) default NULL,
   PRIMARY KEY  (`Sid`),
   UNIQUE KEY `Sname` (`Sname`),
   KEY `Stype` (`Stype`),

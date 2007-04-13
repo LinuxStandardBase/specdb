@@ -21,7 +21,14 @@ CREATE TABLE `ArchType` (
   `ATaid` int(10) unsigned NOT NULL default '0',
   `ATtid` int(10) unsigned NOT NULL default '0',
   `ATsize` int(10) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`ATaid`,`ATtid`)
+  `ATappearedin` varchar(255) NOT NULL default '',
+  `ATwithdrawnin` varchar(255) default NULL,
+  `ATbasetype` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`ATaid`,`ATtid`,`ATappearedin`),
+  KEY `ATtid` (`ATtid`),
+  KEY `k_appearedin` (`ATappearedin`),
+  KEY `k_withdrawnin` (`ATwithdrawnin`),
+  KEY `k_basetype` (`ATbasetype`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

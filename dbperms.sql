@@ -21,8 +21,6 @@ GRANT INSERT,UPDATE,DELETE ON ArchTypeMem TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON BaseTypes TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ClassInfo TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ClassVtab TO lsbadmin@localhost;
-#GRANT INSERT,UPDATE,DELETE ON CmdInt TO lsbadmin@localhost;
-#GRANT INSERT,UPDATE,DELETE ON CmdLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Command TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Constant TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON DynamicEntries TO lsbadmin@localhost;
@@ -40,7 +38,6 @@ GRANT INSERT,UPDATE,DELETE ON SectionTypes TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Standard TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Type TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON TypeMember TO lsbadmin@localhost;
-GRANT INSERT,DELETE        ON VerInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Version TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Vtable TO lsbadmin@localhost;
 #

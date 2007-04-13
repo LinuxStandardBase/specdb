@@ -23,7 +23,11 @@ CREATE TABLE `ArchClass` (
   `ACpos` int(11) NOT NULL default '0',
   `ACbaseoffset` int(11) NOT NULL default '0',
   `ACvoffset` int(11) NOT NULL default '0',
-  PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`)
+  `ACappearedin` varchar(255) NOT NULL default '',
+  `ACwithdrawnin` varchar(255) default NULL,
+  PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
+  KEY `k_appearedin` (`ACappearedin`),
+  KEY `k_withdrawnin` (`ACwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

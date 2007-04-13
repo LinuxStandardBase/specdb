@@ -26,11 +26,15 @@ CREATE TABLE `RpmTag` (
   `Rgroup` enum('Private','Signature','SigDigest','SigSigning','Header','Other','Ignore','PackageInfo','InstallInfo','FileDetails','Dependencies') NOT NULL default 'Private',
   `Rstatus` enum('Required','Optional','Informational','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
   `Rdescription` text NOT NULL,
+  `Rappearedin` varchar(255) NOT NULL default '',
+  `Rwithdrawnin` varchar(255) default NULL,
   PRIMARY KEY  (`Rid`),
-  UNIQUE KEY `Rname` (`Rname`),
+  UNIQUE KEY `Rname` (`Rname`,`Rstatus`),
   KEY `Rtag` (`Rtag`),
   KEY `Rgroup` (`Rgroup`),
-  KEY `Rstatus` (`Rstatus`)
+  KEY `Rstatus` (`Rstatus`),
+  KEY `k_appearedin` (`Rappearedin`),
+  KEY `k_withdrawnin` (`Rwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

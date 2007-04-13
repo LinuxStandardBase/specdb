@@ -20,10 +20,10 @@ DROP TABLE IF EXISTS `Library`;
 CREATE TABLE `Library` (
   `Lid` int(10) unsigned NOT NULL auto_increment,
   `Lname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  `Lstdstatus` enum('Included','Excluded','SrcOnly','Unknown','Withdrawn','Future') NOT NULL default 'Unknown',
   `Lcandidatefor` varchar(255) default NULL,
   PRIMARY KEY  (`Lid`),
-  UNIQUE KEY `k_lib` (`Lname`,`Lstdstatus`)
+  UNIQUE KEY `k_lib` (`Lname`),
+  KEY `k_candidatefor` (`Lcandidatefor`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

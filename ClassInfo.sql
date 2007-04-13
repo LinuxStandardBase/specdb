@@ -36,6 +36,7 @@ CREATE TABLE `ClassInfo` (
   `CIvtclass` enum('1','2') NOT NULL default '1',
   `CIvtt` int(10) unsigned NOT NULL default '0',
   `CInumvtt` int(10) unsigned NOT NULL default '0',
+  `CIunmangled` text,
   PRIMARY KEY  (`CIid`),
   UNIQUE KEY `CIname` (`CIname`),
   KEY `CIlibg` (`CIlibg`)

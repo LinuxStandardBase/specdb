@@ -21,6 +21,9 @@ CREATE TABLE `Module` (
   `Mid` int(10) unsigned NOT NULL auto_increment,
   `Mname` varchar(255) NOT NULL default '',
   `Mcomment` varchar(255) default NULL,
+  `Mappearedin` varchar(255) NOT NULL default '',
+  `Mwithdrawnin` varchar(255) default NULL,
+  `Mmandatorysince` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`Mid`),
   UNIQUE KEY `Mname` (`Mname`),
   KEY `Mid` (`Mid`,`Mname`)

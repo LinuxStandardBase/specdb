@@ -25,7 +25,11 @@ CREATE TABLE `Parameter` (
   `Pconst` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Pttid` int(10) unsigned NOT NULL default '0',
   `Pnull` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  PRIMARY KEY  (`Pint`,`Ppos`)
+  PRIMARY KEY  (`Pint`,`Ppos`),
+  KEY `k_Ppos` (`Ppos`),
+  KEY `k_Ptype` (`Ptype`),
+  KEY `k_Pconst` (`Pconst`),
+  KEY `k_Pnull` (`Pnull`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

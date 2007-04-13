@@ -20,12 +20,17 @@ DROP TABLE IF EXISTS `Header`;
 CREATE TABLE `Header` (
   `Hid` int(10) unsigned NOT NULL auto_increment,
   `Hname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  `Hstdstatus` enum('Included','Excluded','Unknown','Withdrawn','Future','SrcOnly') NOT NULL default 'Unknown',
   `Hlib` int(10) unsigned NOT NULL default '0',
   `Hsrcerror` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Hcandidatefor` varchar(255) default NULL,
+  `Happearedin` varchar(255) NOT NULL default '',
+  `Hwithdrawnin` varchar(255) default NULL,
+  `Hsrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`Hid`),
-  UNIQUE KEY `Hname` (`Hname`)
+  UNIQUE KEY `Hname` (`Hname`),
+  KEY `k_appearedin` (`Happearedin`),
+  KEY `k_withdrawnin` (`Hwithdrawnin`),
+  KEY `k_Hlib` (`Hlib`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -22,7 +22,8 @@ CREATE TABLE `Architecture` (
   `Aname` varchar(255) NOT NULL default '',
   `Aspecification` varchar(255) NOT NULL default '',
   `Asymbol` varchar(60) NOT NULL default '',
-  PRIMARY KEY  (`Aid`)
+  PRIMARY KEY  (`Aid`),
+  KEY `k_Aname` (`Aname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
