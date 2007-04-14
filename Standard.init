@@ -112,3 +112,6 @@ INSERT INTO `Standard` VALUES (117,'QtOpenGL','Qt 4.1.0 Reference Manual','http:
 INSERT INTO `Standard` VALUES (118,'QtSql','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtsql.html','','Standard',1,'QtSql 4.1.0','http://doc.trolltech.com/4.1');
 INSERT INTO `Standard` VALUES (119,'QtSvg','Qt 4.1.0 Reference Manual','http://doc.trolltech.com/4.1/qtsvg.html','','Standard',1,'QtSvg 4.1.0','http://doc.trolltech.com/4.1');
 INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://doc.trolltech.com/3.3/index.html','','Standard',1,'Qt 3.3.6','http://doc.trolltech.com/3.3');
+INSERT INTO `Standard` VALUES (121,'xrender','Xrender Specification Placeholder','','','Unknown',1,'Xrender Placeholder',NULL);
+INSERT INTO `Standard` VALUES (122,'freetype','Freetype Specification Placeholder','','','Unknown',1,'Freetype Placeholder',NULL);
+INSERT INTO `Standard` VALUES (123,'xft','Xft Specification Placeholder','','','Unknown',1,'Xft Placeholder',NULL);
