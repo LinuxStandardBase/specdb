@@ -1,8 +1,10 @@
 #
-# This makefile contains the command to dump out the database
-#
+# This makefile contains the commands to dump out the database by table
 # This avoids creating one huge file that take a long time to manipulate
 #
+# It also allows populating (or re-populating) a database
+#
+
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false
 
@@ -19,7 +21,9 @@ dump::
 	done
 
 restore::
-	mysql $(DBOPTS) $$LSBDB <setupdb.sql;
+	mysqladmin drop $$LSBDB
+	mysqladmin create $$LSBDB
+	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
 	do \

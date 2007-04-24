@@ -1,5 +1,5 @@
 #
-# This permission scheme allows two users to be defined
+# This permission scheme defines two users
 #
 # lsbuser
 #	This user may browse the DB, but not make any changes.
