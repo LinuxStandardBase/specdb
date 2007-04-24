@@ -21,8 +21,8 @@ dump::
 	done
 
 restore::
-	mysqladmin drop $$LSBDB
-	mysqladmin create $$LSBDB
+	@mysqladmin $(DBOPTS) drop $$LSBDB
+	@mysqladmin $(DBOPTS) create $$LSBDB
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
