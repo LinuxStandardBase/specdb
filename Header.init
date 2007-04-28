@@ -28,7 +28,7 @@ INSERT INTO `Header` VALUES (27,'locale.h',131,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (28,'malloc.h',131,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (29,'math.h',13,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (30,'monetary.h',131,'No',NULL,'1.0',NULL,'No');
-INSERT INTO `Header` VALUES (31,'mqueue.h',131,'No',NULL,'1.0',NULL,'No');
+INSERT INTO `Header` VALUES (31,'mqueue.h',223,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (32,'nl_types.h',131,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (33,'pthread.h',132,'No',NULL,'1.0',NULL,'No');
 INSERT INTO `Header` VALUES (34,'pwd.h',131,'No',NULL,'1.0',NULL,'No');
