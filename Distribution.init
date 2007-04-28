@@ -12,3 +12,5 @@ INSERT INTO `Distribution` VALUES (40,'Gentoo','2006.0',NULL,2,'0');
 INSERT INTO `Distribution` VALUES (41,'Debian','4.0',NULL,2,'0');
 INSERT INTO `Distribution` VALUES (42,'BOSS','1.0',NULL,2,'0');
 INSERT INTO `Distribution` VALUES (43,'Xandros Desktop','4.1',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (44,'Ubuntu','7.04',NULL,2,'0');
+INSERT INTO `Distribution` VALUES (45,'RHEL','5',NULL,2,'0');
