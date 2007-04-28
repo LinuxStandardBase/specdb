@@ -1,5 +1,5 @@
 #
-# This permission scheme defines two users
+# This permission scheme allows two users to be defined
 #
 # lsbuser
 #	This user may browse the DB, but not make any changes.
@@ -45,5 +45,8 @@ GRANT INSERT,UPDATE,DELETE ON Vtable TO lsbadmin@localhost;
 #
 GRANT SELECT ON * TO lsbuser@localhost;
 GRANT SELECT ON * TO lsbadmin@localhost;
+
+# Allow lsbuser to create temporary tables - vital for DB Navigator
+GRANT CREATE TEMPORARY TABLES ON lsb.* TO lsbuser@localhost;
 
 FLUSH PRIVILEGES;
