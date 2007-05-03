@@ -229,3 +229,4 @@ INSERT INTO `Application` VALUES (528,'zoo','2.10',11,'','','Pack Program',NULL,
 INSERT INTO `Application` VALUES (529,'zope','2.9.4',11,'','','Open Source Web Application Server',NULL,NULL);
 INSERT INTO `Application` VALUES (530,'java','1.5.0_update8-19',11,'','','Java(TM) 5 Runtime Environment',NULL,NULL);
 INSERT INTO `Application` VALUES (531,'MozillaSunbird','0.3',11,'','','Mozilla',NULL,NULL);
+INSERT INTO `Application` VALUES (532,'MathematicaPlayer','6.0',2,'','',NULL,NULL,NULL);
