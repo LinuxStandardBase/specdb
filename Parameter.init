@@ -21915,3 +21915,7 @@ INSERT INTO `Parameter` VALUES (62981,2,9910,0,'No',0,'Yes');
 INSERT INTO `Parameter` VALUES (62981,3,9910,0,'No',0,'Yes');
 INSERT INTO `Parameter` VALUES (62981,4,10480,0,'No',0,'Yes');
 INSERT INTO `Parameter` VALUES (62981,5,10482,0,'No',0,'Yes');
+INSERT INTO `Parameter` VALUES (3498,0,40,0,'Unknown',0,'Unknown');
+INSERT INTO `Parameter` VALUES (3498,1,10450,0,'Unknown',0,'Unknown');
+INSERT INTO `Parameter` VALUES (3498,2,10450,0,'Unknown',0,'Unknown');
+INSERT INTO `Parameter` VALUES (3498,3,6,0,'Unknown',0,'Unknown');
