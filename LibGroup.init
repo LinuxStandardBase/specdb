@@ -219,3 +219,5 @@ INSERT INTO `LibGroup` VALUES (492,'Qt',262,1,'');
 INSERT INTO `LibGroup` VALUES (493,'Posix Spawn',131,5,'POSIX Spawn (SPN) interfaces');
 INSERT INTO `LibGroup` VALUES (494,'Posix Msg',223,1,'POSIX Message Queue (MSG) interfaces');
 INSERT INTO `LibGroup` VALUES (495,'Posix Advisory',131,5,'POSIX Advisory Information(ADV) interfaces');
+INSERT INTO `LibGroup` VALUES (496,'Class std::allocator<char>',231,301,'');
+INSERT INTO `LibGroup` VALUES (497,'Class std::allocator<wchar>',231,302,'');
