@@ -2491,6 +2491,17 @@ INSERT INTO `Type` VALUES (10708,'N10__cxxabiv116__enum_type_infoE','Class',0,''
 INSERT INTO `Type` VALUES (10709,'N10__cxxabiv117__pbase_type_infoE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10710,'N10__cxxabiv119__pointer_type_infoE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10711,'N10__cxxabiv129__pointer_to_member_type_infoE','Class',0,'','',1,'','No','No','No');
+INSERT INTO `Type` VALUES (16583,'long int[4]','Array',31,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16582,'const struct timespec *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16581,'const struct timespec','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16580,'const struct sigevent *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16579,'const struct sigevent','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16578,'const struct mq_attr *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16577,'const struct mq_attr','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16576,'struct mq_attr *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16575,'mq_attr','Struct',31,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16574,'mqd_t *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16573,'mqd_t','Typedef',31,'',NULL,1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (10763,'St15time_put_bynameIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10764,'St15time_get_bynameIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10765,'St15time_put_bynameIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,'','',1,'','No','No','No');

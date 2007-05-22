@@ -16964,3 +16964,8 @@ INSERT INTO `TypeMember` VALUES (53753,'Required',16171,1,'',16171,NULL,0,0,NULL
 INSERT INTO `TypeMember` VALUES (53754,'OnFieldChange',16174,0,'',16174,NULL,0,0,NULL,'',1);
 INSERT INTO `TypeMember` VALUES (53755,'OnRowChange',16174,1,'',16174,NULL,0,0,NULL,'',1);
 INSERT INTO `TypeMember` VALUES (53756,'OnManualSubmit',16174,2,'',16174,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53757,'mq_flags',8,0,'',16575,'',0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53758,'mq_maxmsg',8,1,'',16575,'',0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53759,'mq_msgsize',8,2,'',16575,'',0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53760,'mq_curmsgs',8,3,'',16575,'',0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53761,'__pad',16583,4,'',16575,'',0,0,NULL,'',1);
