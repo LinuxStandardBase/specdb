@@ -2491,6 +2491,8 @@ INSERT INTO `Type` VALUES (10708,'N10__cxxabiv116__enum_type_infoE','Class',0,''
 INSERT INTO `Type` VALUES (10709,'N10__cxxabiv117__pbase_type_infoE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10710,'N10__cxxabiv119__pointer_type_infoE','Class',0,'','',1,'','No','No','No');
 INSERT INTO `Type` VALUES (10711,'N10__cxxabiv129__pointer_to_member_type_infoE','Class',0,'','',1,'','No','No','No');
+INSERT INTO `Type` VALUES (16585,'__spawn_action','Struct',929,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16584,'anon-spawn.h-0','Struct',0,'',NULL,1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (16583,'long int[4]','Array',31,'',NULL,1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (16582,'const struct timespec *','Pointer',0,'',NULL,1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (16581,'const struct timespec','Const',0,'',NULL,1,NULL,'No','No','No');
@@ -8295,3 +8297,16 @@ INSERT INTO `Type` VALUES (16569,'const GLdouble','Const',0,'','',1,NULL,'No','N
 INSERT INTO `Type` VALUES (16570,'const GLdouble *','Pointer',0,'','',1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (16571,'const GLclampd','Const',0,'','',1,NULL,'No','No','Yes');
 INSERT INTO `Type` VALUES (16572,'const GLclampd *','Pointer',0,'','',1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16586,'__spawn_action *','Pointer',929,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16587,'int[16]','Array',929,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16588,'posix_spawn_file_actions_t','Typedef',929,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16589,'anon-spawn.h-1','Struct',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16590,'struct sched_param','Struct',37,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16591,'posix_spawnattr_t','Typedef',929,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16592,'posix_spawnattr_t *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16593,'const posix_spawnattr_t *','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16594,'posix_spawn_file_actions_t *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16595,'const posix_spawn_file_actions_t *','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16596,'short int *','Pointer',0,'',NULL,1,NULL,'No','No','Yes');
+INSERT INTO `Type` VALUES (16597,'struct sched_param *','Pointer',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16598,'const struct sched_param *','Const',0,'',NULL,1,NULL,'No','No','No');
