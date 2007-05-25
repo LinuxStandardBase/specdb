@@ -16969,3 +16969,14 @@ INSERT INTO `TypeMember` VALUES (53758,'mq_maxmsg',8,1,'',16575,'',0,0,NULL,'',1
 INSERT INTO `TypeMember` VALUES (53759,'mq_msgsize',8,2,'',16575,'',0,0,NULL,'',1);
 INSERT INTO `TypeMember` VALUES (53760,'mq_curmsgs',8,3,'',16575,'',0,0,NULL,'',1);
 INSERT INTO `TypeMember` VALUES (53761,'__pad',16583,4,'',16575,'',0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53762,'__allocated',6,0,'',16584,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53763,'__used',6,1,'',16584,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53764,'__actions',16586,2,'',16584,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53765,'__pad',16587,3,'',16584,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53766,'__flags',11264,0,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53767,'__pgrp',9094,1,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53768,'__sd',10163,2,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53769,'__ss',10163,3,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53770,'__sp',16590,4,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53771,'__policy',6,5,'',16589,NULL,0,0,NULL,'',1);
+INSERT INTO `TypeMember` VALUES (53772,'__pad',16587,6,'',16589,NULL,0,0,NULL,'',1);
