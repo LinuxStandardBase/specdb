@@ -8310,3 +8310,4 @@ INSERT INTO `Type` VALUES (16595,'const posix_spawn_file_actions_t *','Const',0,
 INSERT INTO `Type` VALUES (16596,'short int *','Pointer',0,'',NULL,1,NULL,'No','No','Yes');
 INSERT INTO `Type` VALUES (16597,'struct sched_param *','Pointer',0,'',NULL,1,NULL,'No','No','No');
 INSERT INTO `Type` VALUES (16598,'const struct sched_param *','Const',0,'',NULL,1,NULL,'No','No','No');
+INSERT INTO `Type` VALUES (16599,'dirent64 **','Pointer',0,'','',1,NULL,'No','No','No');
