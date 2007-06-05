@@ -1,0 +1,1 @@
+INSERT INTO `InterfaceAttribute` VALUES (63096,1330,'Recommendation','Do not use this interface. This is a bad practice.');
