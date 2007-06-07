@@ -2087,10 +2087,10 @@ INSERT INTO `Type` VALUES (10297,'const char []','Const',0,'','','No','No','No',
 INSERT INTO `Type` VALUES (10298,'char * const []','Array',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (10301,'winsize','Struct',354,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10302,'in_addr_t','Typedef',362,'','','No','No','No',NULL);
-INSERT INTO `Type` VALUES (10303,'const struct tm *','Pointer',0,'','','No','No','Yes',NULL);
+INSERT INTO `Type` VALUES (10303,'const tm *','Pointer',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (10304,'const time_t *','Pointer',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (10305,'char * const','Const',0,'','','No','No','Yes',NULL);
-INSERT INTO `Type` VALUES (10306,'const struct tm','Const',0,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (10306,'const tm','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10307,'const time_t','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10308,'const void *','Pointer',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10309,'const void','Const',0,'','','No','No','No',NULL);
@@ -2127,7 +2127,7 @@ INSERT INTO `Type` VALUES (10347,'const iovec','Const',0,'','','No','No','No',NU
 INSERT INTO `Type` VALUES (10348,'fptr-putcproc','FuncPtr',470,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10349,'const termios','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10350,'const utimbuf','Const',0,'','','No','No','No',NULL);
-INSERT INTO `Type` VALUES (10351,'const struct utmp','Const',0,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (10351,'const utmp','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10352,'pam_conv','Struct',474,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10353,'pam_handle','Struct',472,'','','Yes','No','No',NULL);
 INSERT INTO `Type` VALUES (10354,'pam_handle_t','Typedef',475,'','','No','No','No',NULL);
@@ -2478,8 +2478,8 @@ INSERT INTO `Type` VALUES (10977,'const fpos_t *','Pointer',0,'','','No','No','Y
 INSERT INTO `Type` VALUES (10978,'nfds_t','Typedef',430,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10980,'const regex_t','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10981,'const regex_t *','Pointer',0,'','','No','No','No',NULL);
-INSERT INTO `Type` VALUES (10982,'const struct itimerval','Const',0,'','','No','No','No',NULL);
-INSERT INTO `Type` VALUES (10983,'const struct itimerval *','Pointer',0,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (10982,'const itimerval','Const',0,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (10983,'const itimerval *','Pointer',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10984,'const sigaltstack','Const',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10985,'const sigaltstack *','Pointer',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10986,'const timeval','Const',0,'','','No','No','No',NULL);
@@ -2530,8 +2530,8 @@ INSERT INTO `Type` VALUES (11058,'const fexcept_t *','Pointer',0,'','','No','No'
 INSERT INTO `Type` VALUES (11060,'int [3]','Array',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11061,'timer_t *','Pointer',60,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11062,'itimerspec *','Pointer',60,'','','No','No','Yes',NULL);
-INSERT INTO `Type` VALUES (11063,'const struct itimerspec','Const',60,'','','No','No','Yes',NULL);
-INSERT INTO `Type` VALUES (11064,'const struct itimerspec *','Pointer',60,'','','No','No','Yes',NULL);
+INSERT INTO `Type` VALUES (11063,'const itimerspec','Const',60,'','','No','No','Yes',NULL);
+INSERT INTO `Type` VALUES (11064,'const itimerspec *','Pointer',60,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11065,'clockid_t *','Pointer',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11066,'anon_fenv_tf','Struct',593,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11067,'anon-ExtendedVisualInfo','Struct',0,'','','No','No','Yes',NULL);
