@@ -912,3 +912,4 @@ INSERT INTO `HeaderGroup` VALUES (926,'Default Header Section for QtSvg/qsvgwidg
 INSERT INTO `HeaderGroup` VALUES (927,'Constnat Header Section for glib-2.0/glib.h',169,0,'Constnat Default Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (928,'Arch Specific Header Section for glib-2.0/glib.h',169,1,'Arch Specific Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (929,'Default Header Section for spawn.h',488,0,'Default Header Section for spawn.h');
+INSERT INTO `HeaderGroup` VALUES (930,'Default Header Section for stdint.h',489,0,'Default Header Section for stdint.h');
