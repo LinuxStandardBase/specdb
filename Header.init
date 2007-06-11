@@ -481,3 +481,4 @@ INSERT INTO `Header` VALUES (485,'QtSql/qsqlrelationaltablemodel.h',260,'No',NUL
 INSERT INTO `Header` VALUES (486,'QtSvg/qsvgrenderer.h',261,'No',NULL,'3.1',NULL,'No');
 INSERT INTO `Header` VALUES (487,'QtSvg/qsvgwidget.h',261,'No',NULL,'3.1',NULL,'No');
 INSERT INTO `Header` VALUES (488,'spawn.h',131,'No','3.2','3.2',NULL,'No');
+INSERT INTO `Header` VALUES (489,'stdint.h',131,'No','3.2','3.2',NULL,'No');
