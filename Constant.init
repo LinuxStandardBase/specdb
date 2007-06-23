@@ -9435,3 +9435,4 @@ INSERT INTO `Constant` VALUES (9498,'POSIX_SPAWN_SETSIGMASK','int',929,'',NULL,'
 INSERT INTO `Constant` VALUES (9499,'POSIX_SPAWN_SETSCHEDPARAM','int',929,'',NULL,'No');
 INSERT INTO `Constant` VALUES (9500,'POSIX_SPAWN_SETSCHEDULER','int',929,'',NULL,'No');
 INSERT INTO `Constant` VALUES (9501,'sys/types.h depends on stddef.h','header_depend',45,'',NULL,'No');
+INSERT INTO `Constant` VALUES (9502,'sys/types.h depends on strings.h','header_depend',45,'',NULL,'No');

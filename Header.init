@@ -136,7 +136,7 @@ INSERT INTO `Header` VALUES (140,'term.h',128,'No',NULL,'1.3',NULL,'No');
 INSERT INTO `Header` VALUES (141,'libintl.h',131,'No',NULL,'1.3',NULL,'No');
 INSERT INTO `Header` VALUES (142,'security/pam_appl.h',233,'No',NULL,'1.3',NULL,'No');
 INSERT INTO `Header` VALUES (143,'unwind.h',236,'No',NULL,'',NULL,'Yes');
-INSERT INTO `Header` VALUES (144,'strings.h',0,'No',NULL,'',NULL,'Yes');
+INSERT INTO `Header` VALUES (144,'strings.h',131,'No',NULL,'3.2',NULL,'Yes');
 INSERT INTO `Header` VALUES (145,'rpc/types.h',131,'No',NULL,'1.3',NULL,'No');
 INSERT INTO `Header` VALUES (146,'rpc/rpc_msg.h',131,'No',NULL,'1.3',NULL,'No');
 INSERT INTO `Header` VALUES (147,'netinet/udp.h',131,'No',NULL,'1.3',NULL,'No');
