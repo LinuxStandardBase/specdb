@@ -9167,3 +9167,4 @@ INSERT INTO `ArchConst` VALUES (1,4363,'(*(xprt)->xp_ops->xp_recv)((xprt), (msg)
 INSERT INTO `ArchConst` VALUES (1,4365,'(*(xprt)->xp_ops->xp_stat)(xprt)','3.2',NULL);
 INSERT INTO `ArchConst` VALUES (1,4369,'(*(xprt)->xp_ops->xp_reply) ((xprt), (msg))','3.2',NULL);
 INSERT INTO `ArchConst` VALUES (1,9501,'109','3.2',NULL);
+INSERT INTO `ArchConst` VALUES (1,9502,'144','3.2',NULL);

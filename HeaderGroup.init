@@ -477,7 +477,7 @@ INSERT INTO `HeaderGroup` VALUES (485,'Reason Codes',143,2,'The unwind interface
 INSERT INTO `HeaderGroup` VALUES (486,'Exception header',143,4,'The unwind interface uses a pointer to an exception header object\r\n   as its representation of an exception being thrown. In general, the\r\n   full representation of an exception object is language- and\r\n   implementation-specific, but it will be prefixed by a header\r\n   understood by the unwind interface.');
 INSERT INTO `HeaderGroup` VALUES (487,'Actions',143,5,'The ACTIONS argument to the personality routine is a bitwise OR of one\r\n   or more of the following constants.');
 INSERT INTO `HeaderGroup` VALUES (488,'Cleanup function',143,3,'');
-INSERT INTO `HeaderGroup` VALUES (489,'Default HeadGroup for strings.h',144,0,'An empty file is needed to prevent the strings.h from the system being included.');
+INSERT INTO `HeaderGroup` VALUES (489,'Default Header Section for strings.h',144,0,'');
 INSERT INTO `HeaderGroup` VALUES (490,'Default Header Section for rpc/types.h',145,0,'');
 INSERT INTO `HeaderGroup` VALUES (491,'client ops',100,3,'');
 INSERT INTO `HeaderGroup` VALUES (492,'CLIENT structure',100,2,'');
