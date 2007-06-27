@@ -1,8 +1,8 @@
-INSERT INTO `Architecture` VALUES (1,'All','','1');
-INSERT INTO `Architecture` VALUES (2,'IA32','http://www.intel.com/','defined ___i386__');
-INSERT INTO `Architecture` VALUES (3,'IA64','http://www.intel.com/','defined __ia64__');
-INSERT INTO `Architecture` VALUES (6,'PPC32','','defined __powerpc__ && !defined __powerpc64__');
-INSERT INTO `Architecture` VALUES (9,'PPC64','','defined __powerpc64__');
-INSERT INTO `Architecture` VALUES (10,'S390','','defined __s390__ && !defined __s390x__');
-INSERT INTO `Architecture` VALUES (11,'x86-64','','defined __x86_64__');
-INSERT INTO `Architecture` VALUES (12,'S390X','','defined __s390x__');
+INSERT INTO `Architecture` VALUES (1,'All','','defined __i386__');
+INSERT INTO `Architecture` VALUES (2,'IA32','http://www.intel.com/','defined __i386__');
+INSERT INTO `Architecture` VALUES (3,'IA64','http://www.intel.com/','defined __i386__');
+INSERT INTO `Architecture` VALUES (6,'PPC32','','defined __i386__');
+INSERT INTO `Architecture` VALUES (9,'PPC64','','defined __i386__');
+INSERT INTO `Architecture` VALUES (10,'S390','','defined __i386__');
+INSERT INTO `Architecture` VALUES (11,'x86-64','','defined __i386__');
+INSERT INTO `Architecture` VALUES (12,'S390X','','defined __i386__');
