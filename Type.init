@@ -8057,3 +8057,4 @@ INSERT INTO `Type` VALUES (16620,'int_fast64_t','Typedef',930,'',NULL,'No','No',
 INSERT INTO `Type` VALUES (16621,'uint_fast16_t','Typedef',930,'',NULL,'No','No','No',NULL);
 INSERT INTO `Type` VALUES (16622,'uint_fast32_t','Typedef',930,'',NULL,'No','No','No',NULL);
 INSERT INTO `Type` VALUES (16623,'uint_fast64_t','Typedef',930,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (6988,'fptr-cxa_atexit_func','FuncPtr',0,'','','No','No','Yes',NULL);
