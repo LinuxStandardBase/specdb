@@ -2437,7 +2437,7 @@ INSERT INTO `Type` VALUES (10902,'elf_vrreg_t[33]','Array',0,'','','No','No','No
 INSERT INTO `Type` VALUES (10903,'elf_vrregset_t','Typedef',387,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10904,'unsigned long[48]','Array',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10908,'_libc_vrstate','Struct',387,'','','No','No','Yes',NULL);
-INSERT INTO `Type` VALUES (10909,'vrregset_t','Typedef',387,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (11035,'vrregset_t','Typedef',387,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10910,'anon_mcontext_ppc32','Struct',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10912,'uint8_t Array','Array',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (10913,'uint16_t Array','Array',0,'','','No','No','No',NULL);
@@ -2516,7 +2516,7 @@ INSERT INTO `Type` VALUES (11027,'long [112]','Array',0,'','','No','No','Yes',NU
 INSERT INTO `Type` VALUES (11030,'double[33]','Array',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11033,'unsigned int [32]','Array',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (11034,'_libc_vscr','Struct',387,'','','No','No','Yes',NULL);
-INSERT INTO `Type` VALUES (11035,'vscr_t','Typedef',387,'','','No','No','No',NULL);
+INSERT INTO `Type` VALUES (10909,'vscr_t','Typedef',387,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (11037,'vrregset_t *','Pointer',0,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (11038,'fexcept_t','Typedef',592,'','','No','No','No',NULL);
 INSERT INTO `Type` VALUES (11039,'anon_fenv_t','Struct',593,'','','No','No','Yes',NULL);
