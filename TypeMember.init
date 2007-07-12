@@ -3882,7 +3882,7 @@ INSERT INTO `TypeMember` VALUES (40644,'vrsave',7,2,'',10908,'',0,0,NULL,'',6);
 INSERT INTO `TypeMember` VALUES (40645,'_pad',10435,3,'',10908,'2',0,0,NULL,'',6);
 INSERT INTO `TypeMember` VALUES (40646,'gregs',10224,1,'',10910,'',0,0,NULL,'',6);
 INSERT INTO `TypeMember` VALUES (40647,'fpregs',10228,2,'',10910,'',0,0,NULL,'',6);
-INSERT INTO `TypeMember` VALUES (40648,'vrregs',10909,3,'',10910,'',0,0,NULL,'',6);
+INSERT INTO `TypeMember` VALUES (40648,'vrregs',11035,3,'',10910,'',0,0,NULL,'',6);
 INSERT INTO `TypeMember` VALUES (40649,'uc_reg_space',10194,7,'',10219,'sizeof(mcontext_t) + 12',0,0,NULL,'',6);
 INSERT INTO `TypeMember` VALUES (40657,'msg_rtime',9191,3,'time of last msgrcv command',9117,'',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40658,'msg_ctime',9191,4,'time of last change',9117,'',0,0,NULL,'',9);
@@ -4082,7 +4082,7 @@ INSERT INTO `TypeMember` VALUES (40855,'fp_regs',10228,8,'',11028,'',0,0,NULL,''
 INSERT INTO `TypeMember` VALUES (40856,'vrregs',10435,1,'',10908,'128',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40857,'__pad',11060,1,'',11034,'3',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40858,'vscr_word',6,2,'',11034,'',0,0,NULL,'',9);
-INSERT INTO `TypeMember` VALUES (40859,'vscr',11035,2,'',10908,'',0,0,NULL,'',9);
+INSERT INTO `TypeMember` VALUES (40859,'vscr',10909,2,'',10908,'',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40860,'vrsave',7,3,'',10908,'',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40861,'__pad',10435,4,'',10908,'3',0,0,NULL,'',9);
 INSERT INTO `TypeMember` VALUES (40862,'v_regs',11037,9,'',11028,'',0,0,NULL,'',9);
