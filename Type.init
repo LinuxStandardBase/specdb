@@ -8059,3 +8059,12 @@ INSERT INTO `Type` VALUES (16622,'uint_fast32_t','Typedef',930,'',NULL,'No','No'
 INSERT INTO `Type` VALUES (16623,'uint_fast64_t','Typedef',930,'',NULL,'No','No','No',NULL);
 INSERT INTO `Type` VALUES (6988,'fptr-cxa_atexit_func','FuncPtr',0,'','','No','No','Yes',NULL);
 INSERT INTO `Type` VALUES (6989,'_IO_FILE *','Pointer',0,'',NULL,'No','No','Yes',NULL);
+INSERT INTO `Type` VALUES (16581,'pthread_spinlock_t','Typedef',33,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16582,'pthread_spinlock_t *','Pointer',0,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16601,'volatile int','Volatile',0,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16602,'pthread_barrier_t','Union',33,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16603,'pthread_barrier_t *','Pointer',0,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16604,'pthread_barrierattr_t','Union',33,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16605,'pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16606,'const pthread_barrierattr_t','Const',0,'',NULL,'No','No','No',NULL);
+INSERT INTO `Type` VALUES (16607,'const pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL);
