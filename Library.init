@@ -44,3 +44,4 @@ INSERT INTO `Library` VALUES (259,'libQtOpenGL',NULL);
 INSERT INTO `Library` VALUES (260,'libQtSql',NULL);
 INSERT INTO `Library` VALUES (261,'libQtSvg',NULL);
 INSERT INTO `Library` VALUES (262,'libqt-mt',NULL);
+INSERT INTO `Library` VALUES (263,'libXrender',NULL);

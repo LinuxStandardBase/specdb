@@ -478,6 +478,7 @@ INSERT INTO `HeaderGroup` VALUES (486,'Exception header',143,4,'The unwind inter
 INSERT INTO `HeaderGroup` VALUES (487,'Actions',143,5,'The ACTIONS argument to the personality routine is a bitwise OR of one\r\n   or more of the following constants.');
 INSERT INTO `HeaderGroup` VALUES (488,'Cleanup function',143,3,'');
 INSERT INTO `HeaderGroup` VALUES (489,'Default Header Section for strings.h',144,0,'');
+INSERT INTO `HeaderGroup` VALUES (931,'Default Header Section for X11/extensions/render.h',490,0,'Default Header Section for X11/extensions/render.h');
 INSERT INTO `HeaderGroup` VALUES (490,'Default Header Section for rpc/types.h',145,0,'');
 INSERT INTO `HeaderGroup` VALUES (491,'client ops',100,3,'');
 INSERT INTO `HeaderGroup` VALUES (492,'CLIENT structure',100,2,'');
@@ -913,3 +914,4 @@ INSERT INTO `HeaderGroup` VALUES (927,'Constnat Header Section for glib-2.0/glib
 INSERT INTO `HeaderGroup` VALUES (928,'Arch Specific Header Section for glib-2.0/glib.h',169,1,'Arch Specific Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (929,'Default Header Section for spawn.h',488,0,'Default Header Section for spawn.h');
 INSERT INTO `HeaderGroup` VALUES (930,'Default Header Section for stdint.h',489,0,'Default Header Section for stdint.h');
+INSERT INTO `HeaderGroup` VALUES (932,'Default Header Section for X11/extensions/Xrender.h',491,0,'Default Header Section for X11/extensions/Xrender.h');
