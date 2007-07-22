@@ -482,3 +482,5 @@ INSERT INTO `Header` VALUES (486,'QtSvg/qsvgrenderer.h',261,'No',NULL,'3.1',NULL
 INSERT INTO `Header` VALUES (487,'QtSvg/qsvgwidget.h',261,'No',NULL,'3.1',NULL,'No');
 INSERT INTO `Header` VALUES (488,'spawn.h',131,'No','3.2','3.2',NULL,'No');
 INSERT INTO `Header` VALUES (489,'stdint.h',131,'No','3.2','3.2',NULL,'No');
+INSERT INTO `Header` VALUES (490,'X11/extensions/render.h',263,'No',NULL,'3.2',NULL,'No');
+INSERT INTO `Header` VALUES (491,'X11/extensions/Xrender.h',263,'No',NULL,'3.2',NULL,'No');
