@@ -305,3 +305,4 @@ INSERT INTO `LibGroup` VALUES (578,'Qt3 Validators',262,33,'Qt3 Validators');
 INSERT INTO `LibGroup` VALUES (579,'Qt3 Internals',262,34,'Qt3 Internals');
 INSERT INTO `LibGroup` VALUES (580,'Qt3 Miscellaneous',262,35,'Qt3 Miscellaneous');
 INSERT INTO `LibGroup` VALUES (581,'Default LibGroup for libXrender',263,0,'Default LibGroup for libXrender');
+INSERT INTO `LibGroup` VALUES (582,'Default LibGroup for libfreetype',264,0,'Default LibGroup for libfreetype');
