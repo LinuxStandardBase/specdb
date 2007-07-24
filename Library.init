@@ -45,3 +45,4 @@ INSERT INTO `Library` VALUES (260,'libQtSql',NULL);
 INSERT INTO `Library` VALUES (261,'libQtSvg',NULL);
 INSERT INTO `Library` VALUES (262,'libqt-mt',NULL);
 INSERT INTO `Library` VALUES (263,'libXrender',NULL);
+INSERT INTO `Library` VALUES (264,'libfreetype',NULL);
