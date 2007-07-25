@@ -6,3 +6,5 @@ INSERT INTO `Module` VALUES (5,'LSB_Toolkit_Qt','LSB Toolkit Qt module','3.1',NU
 INSERT INTO `Module` VALUES (6,'LSB_Graphics_Ext','Graphics additional libraries Module','3.1',NULL,'3.1');
 INSERT INTO `Module` VALUES (7,'LSB_XML','LSB XML module','3.1',NULL,'3.1');
 INSERT INTO `Module` VALUES (8,'LSB_Toolkit_Qt3','LSB Toolkit Qt3 module','3.1',NULL,'3.1');
+INSERT INTO `Module` VALUES (9,'LSB_Printing','LSB Printing module','3.2',NULL,'');
+INSERT INTO `Module` VALUES (10,'LSB_Optional','Placeholder module for optional libraries','3.2',NULL,'');
