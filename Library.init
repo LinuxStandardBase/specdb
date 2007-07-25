@@ -46,3 +46,4 @@ INSERT INTO `Library` VALUES (261,'libQtSvg',NULL);
 INSERT INTO `Library` VALUES (262,'libqt-mt',NULL);
 INSERT INTO `Library` VALUES (263,'libXrender',NULL);
 INSERT INTO `Library` VALUES (264,'libfreetype',NULL);
+INSERT INTO `Library` VALUES (265,'libXft',NULL);

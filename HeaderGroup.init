@@ -948,3 +948,4 @@ INSERT INTO `HeaderGroup` VALUES (962,'Default Header Section for freetype/confi
 INSERT INTO `HeaderGroup` VALUES (963,'Default Header Section for freetype/config/ftmodule.h',522,0,'Default Header Section for freetype/config/ftmodule.h');
 INSERT INTO `HeaderGroup` VALUES (964,'Default Header Section for freetype/config/ftoption.h',523,0,'Default Header Section for freetype/config/ftoption.h');
 INSERT INTO `HeaderGroup` VALUES (965,'Default Header Section for freetype/config/ftstdlib.h',524,0,'Default Header Section for freetype/config/ftstdlib.h');
+INSERT INTO `HeaderGroup` VALUES (966,'Default Header Section for X11/Xft/Xft.h',525,0,'Default Header Section for X11/Xft/Xft.h');
