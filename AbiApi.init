@@ -1,0 +1,1 @@
+INSERT INTO `AbiApi` VALUES (125,408,'#define atexit(func) __cxa_atexit(func, NULL, NULL)');

@@ -1,1 +1,2 @@
 INSERT INTO `InterfaceAttribute` VALUES (63096,1330,'Recommendation','Do not use this interface. This is a bad practice.');
+INSERT INTO `InterfaceAttribute` VALUES (63110,3270,'','Yes');

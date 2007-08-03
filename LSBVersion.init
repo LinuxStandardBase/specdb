@@ -1,0 +1,9 @@
+INSERT INTO `LSBVersion` VALUES (1,'1.0','Yes');
+INSERT INTO `LSBVersion` VALUES (2,'1.1','Yes');
+INSERT INTO `LSBVersion` VALUES (3,'1.2','Yes');
+INSERT INTO `LSBVersion` VALUES (4,'1.3','Yes');
+INSERT INTO `LSBVersion` VALUES (5,'2.0','Yes');
+INSERT INTO `LSBVersion` VALUES (6,'2.1','Yes');
+INSERT INTO `LSBVersion` VALUES (7,'3.0','Yes');
+INSERT INTO `LSBVersion` VALUES (8,'3.1','Yes');
+INSERT INTO `LSBVersion` VALUES (9,'3.2','No');

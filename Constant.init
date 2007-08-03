@@ -10605,3 +10605,5 @@ INSERT INTO `Constant` VALUES (10668,'XFT_NMISSING','int',966,'',NULL,'No');
 INSERT INTO `Constant` VALUES (10669,'XFT_REVISION','int',966,'',NULL,'No');
 INSERT INTO `Constant` VALUES (10670,'_XFT_H_','Unknown',966,'',NULL,'No');
 INSERT INTO `Constant` VALUES (10671,'X11/Xft/Xft.h','header_depend',966,'',NULL,'No');
+INSERT INTO `Constant` VALUES (10672,'__SIZEOF_PTHREAD_BARRIER_T','int',33,'','3.2','No');
+INSERT INTO `Constant` VALUES (10673,'__SIZEOF_PTHREAD_BARRIERATTR_T','int',33,'','3.2','No');
