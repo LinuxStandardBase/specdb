@@ -14,6 +14,8 @@
 GRANT INSERT,UPDATE,DELETE ON Architecture TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchConst TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchClass TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchDE TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ArchES TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON ArchType TO lsbadmin@localhost;
@@ -27,16 +29,20 @@ GRANT INSERT,UPDATE,DELETE ON ElfSections TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Header TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON HeaderGroup TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Interface TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON InterfaceAttribute TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON LGInt TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON LibGroup TO lsbadmin@localhost;
 # Only want to allow certain column to be edited
 #GRANT INSERT,UPDATE ON Library TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ModCmd TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON ModLib TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Parameter TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON RpmTag TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON SectionTypes TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Standard TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Type TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON TypeMember TO lsbadmin@localhost;
+GRANT INSERT,UPDATE,DELETE ON TypeMemberExtras TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Version TO lsbadmin@localhost;
 GRANT INSERT,UPDATE,DELETE ON Vtable TO lsbadmin@localhost;
 #

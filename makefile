@@ -8,19 +8,19 @@
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false
 
-ELEMENTS=ArchClass ArchConst ArchDE ArchES ArchInt Architecture \
+ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt Architecture \
 	ArchLib ArchType BaseTypes ClassInfo ClassVtab Command \
-	Component Constant DynamicEntries ElfSections Header \
+	Constant DynamicEntries ElfSections Header \
 	HeaderGroup Interface InterfaceAttribute LGInt LibGroup \
-	Library ModCmd ModLib Module Parameter RpmTag SectionTypes \
-	Standard Type TypeMember TypeMemberExtras TypeType Version \
+	Library LSBVersion ModCmd ModLib Module Parameter RpmTag SectionTypes \
+	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType Version \
 	VMIBaseTypes Vtable
 
 all:
 	@echo "Please specify dump or restore"
 
 dump::
-	for table in `mysql $(DBOPTS) -e "SHOW TABLES" $$LSBDB | grep -v Tables` ;\
+	for table in `mysql $(DBOPTS) -e "SHOW TABLES" $$LSBDB | grep -v Tables | grep -v cache_` ;\
 	do \
 		set +e; \
 		echo $$table; \
@@ -40,7 +40,9 @@ restore::
 		echo $$table; \
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		mysql $(DBOPTS) $$LSBDB <$$table.init; \
+		mysql $(DBOPTS) $$LSBDB -e "ANALYZE TABLE $$table"; \
 	done'
+	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
 # these two rules dump/restore the "LSB Elements" only,
