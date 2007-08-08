@@ -654,7 +654,7 @@ INSERT INTO `Application` VALUES (4302,'sturmbahnfahrer','1.2',2,'','','Simulate
 INSERT INTO `Application` VALUES (4303,'subversion-server','1.4.3',2,'','','Subversion Server',NULL,'http://subversion.tigris.org','Mandriva');
 INSERT INTO `Application` VALUES (4304,'suck','4.3.2',2,'','','Download news from remote NNTP server',NULL,'http://www.sucknews.org','Fedora Project');
 INSERT INTO `Application` VALUES (4305,'sunstudio','12',2,'','','Sun Studio',NULL,'http://developers.sun.com/sunstudio','SUSE LINUX 10.1 (i386)');
-INSERT INTO `Application` VALUES (4306,'supertux','0.3.0',2,'','','Classic 2D jump ',NULL,'http://supertux.berlios.de/','Mandriva');
+INSERT INTO `Application` VALUES (4306,'supertux','0.3.0',2,'','','Classic 2D jump',NULL,'http://supertux.berlios.de/','Mandriva');
 INSERT INTO `Application` VALUES (4307,'sweep','0.9.0-2ubuntu1',2,'','','An editor for sound samples',NULL,'','Ubuntu MOTU Developers');
 INSERT INTO `Application` VALUES (4308,'swig','1.3.31',2,'','','Simplified Wrapper and Interface Generator (SWIG)',NULL,'http://www.swig.org/','Mandriva');
 INSERT INTO `Application` VALUES (4309,'synce','0.9.1',2,'','','Serial connection support for Pocket PC devices',NULL,'http://synce.sourceforge.net/','Fedora Project');
