@@ -10605,5 +10605,3 @@ INSERT INTO `Type` VALUES (17020,'const XftFontInfo','Const',966,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (17021,'const XftFontInfo *','Pointer',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17022,'const FcChar32','Const',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17023,'const FcChar32 *','Pointer',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (22148,'char[__SIZEOF_PTHREAD_BARRIER_T]','Array',33,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (22149,'char[__SIZEOF_PTHREAD_BARRIERATTR_T]','Array',33,'',NULL,'No','No','No',NULL,0,0,'',0);
