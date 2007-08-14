@@ -912,7 +912,7 @@ INSERT INTO `HeaderGroup` VALUES (926,'Default Header Section for QtSvg/qsvgwidg
 INSERT INTO `HeaderGroup` VALUES (927,'Constnat Header Section for glib-2.0/glib.h',169,0,'Constnat Default Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (928,'Arch Specific Header Section for glib-2.0/glib.h',169,1,'Arch Specific Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (929,'Default Header Section for spawn.h',488,0,'Default Header Section for spawn.h');
-INSERT INTO `HeaderGroup` VALUES (930,'Default Header Section for stdint.h',489,0,'Default Header Section for stdint.h');
+INSERT INTO `HeaderGroup` VALUES (930,'Default Header Section for stdint.h',489,1,'Default Header Section for stdint.h');
 INSERT INTO `HeaderGroup` VALUES (1192,'Default Header Section for private/qtextengine_p.h',692,0,'');
 INSERT INTO `HeaderGroup` VALUES (1031,'Default Header Section for qdatastream.h',531,0,'');
 INSERT INTO `HeaderGroup` VALUES (1032,'Default Header Section for qdatatable.h',532,0,'');
@@ -1196,3 +1196,4 @@ INSERT INTO `HeaderGroup` VALUES (963,'Default Header Section for freetype/confi
 INSERT INTO `HeaderGroup` VALUES (964,'Default Header Section for freetype/config/ftoption.h',523,0,'Default Header Section for freetype/config/ftoption.h');
 INSERT INTO `HeaderGroup` VALUES (965,'Default Header Section for freetype/config/ftstdlib.h',524,0,'Default Header Section for freetype/config/ftstdlib.h');
 INSERT INTO `HeaderGroup` VALUES (966,'Default Header Section for X11/Xft/Xft.h',772,0,'Default Header Section for X11/Xft/Xft.h');
+INSERT INTO `HeaderGroup` VALUES (1247,'Macro Section for stdint.h',489,0,'Macro Section for stdint.h');
