@@ -8017,7 +8017,7 @@ INSERT INTO `Type` VALUES (16572,'const GLclampd *','Pointer',0,'','','No','No',
 INSERT INTO `Type` VALUES (10823,'pt_regs','Struct',41,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16585,'__spawn_action','Struct',929,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16584,'anon-spawn.h-0','Struct',0,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16583,'long int[4]','Array',31,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16583,'long int[4]','Array',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16590,'const posix_spawnattr_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16580,'const sigevent *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16579,'const sigevent','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
@@ -10238,7 +10238,7 @@ INSERT INTO `Type` VALUES (16653,'XFilters','Typedef',932,'',NULL,'Unknown','Unk
 INSERT INTO `Type` VALUES (16654,'XFilters *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16655,'XRenderPictFormat *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16656,'_XTransform','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16657,'XFixed[3]','Array',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16657,'XFixed[3]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16658,'XTransform','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16659,'XTransform *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16660,'_XAnimCursor','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -10355,7 +10355,7 @@ INSERT INTO `Type` VALUES (16770,'FT_Module_Class','Typedef',952,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (16771,'FT_Module_Class *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16772,'FT_LibraryRec_ *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16773,'FT_Library','Typedef',952,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16774,'FT_Module[32]','Array',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16774,'FT_Module[32]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16775,'FT_ListRec','Typedef',935,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16776,'FT_RendererRec_','Struct',935,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16777,'FT_ModuleRec','Typedef',935,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
@@ -10450,7 +10450,7 @@ INSERT INTO `Type` VALUES (16865,'FT_Glyph_PrepareFunc','Typedef',935,'',NULL,'U
 INSERT INTO `Type` VALUES (16866,'FT_Byte','Typedef',961,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16867,'FT_Byte *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16868,'FT_DebugHook_Func','Typedef',952,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16869,'FT_DebugHook_Func[4]','Array',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16869,'FT_DebugHook_Func[4]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16870,'const FT_Outline','Const',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16871,'const FT_Outline *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16872,'const FT_Matrix','Const',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10518,7 +10518,7 @@ INSERT INTO `Type` VALUES (16933,'BDF_PropertyRec *','Pointer',947,'',NULL,'Unkn
 INSERT INTO `Type` VALUES (16934,'FT_Multi_Master_','Struct',948,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16935,'FT_MM_Axis_','Struct',948,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16936,'FT_MM_Axis','Typedef',948,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16937,'FT_MM_Axis[4]','Array',948,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16937,'FT_MM_Axis[4]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16938,'FT_Multi_Master','Typedef',948,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16939,'FT_Multi_Master *','Pointer',948,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16940,'FT_Long *','Pointer',948,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10553,7 +10553,7 @@ INSERT INTO `Type` VALUES (16968,'anon-freetype/ftstroke.h-6','Enum',957,'',NULL
 INSERT INTO `Type` VALUES (16969,'FT_Stroker_LineJoin','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16970,'FT_StrokeBorderRec_','Struct',957,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16971,'FT_StrokeBorderRec','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16972,'FT_StrokeBorderRec[2]','Array',957,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16972,'FT_StrokeBorderRec[2]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16973,'FT_StrokerRec_ *','Pointer',957,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16974,'FT_Stroker','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16975,'anon-freetype/ftstroke.h-8','Enum',957,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -10563,11 +10563,11 @@ INSERT INTO `Type` VALUES (16978,'FT_Bytes','Typedef',959,'',NULL,'Unknown','Unk
 INSERT INTO `Type` VALUES (16979,'FT_Bytes *','Pointer',959,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16980,'PS_PrivateRec_','Struct',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16981,'FT_Short','Typedef',961,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16982,'FT_Short[14]','Array',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16983,'FT_Short[10]','Array',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16984,'FT_UShort[1]','Array',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16985,'FT_Short[13]','Array',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16986,'FT_Short[2]','Array',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16982,'FT_Short[14]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16983,'FT_Short[10]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16984,'FT_UShort[1]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16985,'FT_Short[13]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16986,'FT_Short[2]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16987,'PS_PrivateRec','Typedef',961,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16988,'PS_PrivateRec *','Pointer',961,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16989,'PS_FontInfoRec','Struct',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
