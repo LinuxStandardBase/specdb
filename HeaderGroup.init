@@ -1161,7 +1161,7 @@ INSERT INTO `HeaderGroup` VALUES (1244,'Default Header Section for private/qmute
 INSERT INTO `HeaderGroup` VALUES (1245,'Default Header Section for private/qthreadinstance_p.h',745,0,'');
 INSERT INTO `HeaderGroup` VALUES (1246,'Default Header Section for private/qlibrary_p.h',746,0,'');
 INSERT INTO `HeaderGroup` VALUES (931,'Default Header Section for X11/extensions/render.h',490,0,'Default Header Section for X11/extensions/render.h');
-INSERT INTO `HeaderGroup` VALUES (932,'Default Header Section for X11/extensions/Xrender.h',491,0,'Default Header Section for X11/extensions/Xrender.h');
+INSERT INTO `HeaderGroup` VALUES (932,'Default Header Section for X11/extensions/Xrender.h',491,2,'Default Header Section for X11/extensions/Xrender.h');
 INSERT INTO `HeaderGroup` VALUES (933,'Default Header Section for freetype/fterrdef.h',492,0,'Default Header Section for freetype/fterrdef.h');
 INSERT INTO `HeaderGroup` VALUES (934,'Default Header Section for freetype/ftlist.h',493,0,'Default Header Section for freetype/ftlist.h');
 INSERT INTO `HeaderGroup` VALUES (935,'Default Header Section for freetype/ftoutln.h',494,0,'Default Header Section for freetype/ftoutln.h');
@@ -1197,3 +1197,5 @@ INSERT INTO `HeaderGroup` VALUES (964,'Default Header Section for freetype/confi
 INSERT INTO `HeaderGroup` VALUES (965,'Default Header Section for freetype/config/ftstdlib.h',524,0,'Default Header Section for freetype/config/ftstdlib.h');
 INSERT INTO `HeaderGroup` VALUES (966,'Default Header Section for X11/Xft/Xft.h',772,0,'Default Header Section for X11/Xft/Xft.h');
 INSERT INTO `HeaderGroup` VALUES (1247,'Macro Section for stdint.h',489,0,'Macro Section for stdint.h');
+INSERT INTO `HeaderGroup` VALUES (1248,'Macros for X11/extensions/Xrender.h',491,0,'');
+INSERT INTO `HeaderGroup` VALUES (1249,'Base Types for X11/extensions/Xrender.h',491,1,'');

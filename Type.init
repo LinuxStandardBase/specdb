@@ -10205,7 +10205,7 @@ INSERT INTO `Type` VALUES (16604,'pthread_barrierattr_t','Union',33,'',NULL,'No'
 INSERT INTO `Type` VALUES (16605,'pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16606,'const pthread_barrierattr_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16607,'const pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16624,'GlyphSet','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16624,'GlyphSet','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16625,'anon-X11/extensions/Xrender.h-694','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16626,'XRenderColor','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16627,'const XRenderColor','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10224,9 +10224,9 @@ INSERT INTO `Type` VALUES (16639,'anon-X11/extensions/Xrender.h-934','Struct',93
 INSERT INTO `Type` VALUES (16640,'XRenderPictFormat','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16641,'const XRenderPictFormat','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16642,'const XRenderPictFormat *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16643,'_XPointFixed','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16644,'XFixed','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16645,'XPointFixed','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16643,'_XPointFixed','Struct',1249,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16644,'XFixed','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16645,'XPointFixed','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16646,'const XPointFixed','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16647,'const XPointFixed *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16648,'_XGlyphInfo','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -10245,8 +10245,8 @@ INSERT INTO `Type` VALUES (16660,'_XAnimCursor','Struct',932,'',NULL,'Unknown','
 INSERT INTO `Type` VALUES (16661,'XAnimCursor','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16662,'XAnimCursor *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16663,'_XRadialGradient','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16664,'_XCircle','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16665,'XCircle','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16664,'_XCircle','Struct',1249,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16665,'XCircle','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16666,'XRadialGradient','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16667,'const XRadialGradient','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16668,'const XRadialGradient *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10271,7 +10271,7 @@ INSERT INTO `Type` VALUES (16686,'XLinearGradient','Typedef',932,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (16687,'const XLinearGradient','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16688,'const XLinearGradient *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16689,'_XPointDouble','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16690,'XDouble','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16690,'XDouble','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16691,'XPointDouble','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16692,'const XPointDouble','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16693,'const XPointDouble *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10283,8 +10283,8 @@ INSERT INTO `Type` VALUES (16698,'XRenderPictureAttributes','Typedef',932,'',NUL
 INSERT INTO `Type` VALUES (16699,'const XRenderPictureAttributes','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16700,'const XRenderPictureAttributes *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16701,'_XTrap','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16702,'_XSpanFix','Struct',932,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16703,'XSpanFix','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16702,'_XSpanFix','Struct',1249,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16703,'XSpanFix','Typedef',1249,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16704,'XTrap','Typedef',932,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16705,'const XTrap','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16706,'const XTrap *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10605,5 +10605,5 @@ INSERT INTO `Type` VALUES (17020,'const XftFontInfo','Const',966,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (17021,'const XftFontInfo *','Pointer',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17022,'const FcChar32','Const',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17023,'const FcChar32 *','Pointer',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (17024,'_XLineFixed','Struct',932,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (17025,'XLineFixed','Typedef',932,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (17024,'_XLineFixed','Struct',1249,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (17025,'XLineFixed','Typedef',1249,'',NULL,'No','No','No',NULL,0,0,'',0);
