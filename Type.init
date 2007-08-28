@@ -10607,3 +10607,4 @@ INSERT INTO `Type` VALUES (17022,'const FcChar32','Const',966,'',NULL,'Unknown',
 INSERT INTO `Type` VALUES (17023,'const FcChar32 *','Pointer',966,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17024,'_XLineFixed','Struct',1249,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (17025,'XLineFixed','Typedef',1249,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22150,'fptr_xlib_1','FuncPtr',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
