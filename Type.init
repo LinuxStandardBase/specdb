@@ -10199,9 +10199,9 @@ INSERT INTO `Type` VALUES (22147,'void *[2]','Array',0,'',NULL,'No','No','No',NU
 INSERT INTO `Type` VALUES (16581,'pthread_spinlock_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16582,'pthread_spinlock_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16601,'volatile int','Volatile',0,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16602,'pthread_barrier_t','Union',33,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16602,'anon-pthread_1','Union',33,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16603,'pthread_barrier_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16604,'pthread_barrierattr_t','Union',33,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16604,'anon-pthread_2','Union',33,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16605,'pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16606,'const pthread_barrierattr_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16607,'const pthread_barrierattr_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'',0);
@@ -10609,3 +10609,7 @@ INSERT INTO `Type` VALUES (17024,'_XLineFixed','Struct',1249,'',NULL,'No','No','
 INSERT INTO `Type` VALUES (17025,'XLineFixed','Typedef',1249,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22150,'fptr_xlib_1','FuncPtr',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
 INSERT INTO `Type` VALUES (22151,'int (*) (int, char * *, char * *)','FuncPtr',0,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22154,'pthread_barrier_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22155,'pthread_barrierattr_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22152,'accepted_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22153,'rejected_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
