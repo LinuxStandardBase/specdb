@@ -10611,3 +10611,5 @@ INSERT INTO `Type` VALUES (22150,'fptr_xlib_1','FuncPtr',0,'',NULL,'No','No','No
 INSERT INTO `Type` VALUES (22151,'int (*) (int, char * *, char * *)','FuncPtr',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22154,'pthread_barrier_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'0',0);
 INSERT INTO `Type` VALUES (22155,'pthread_barrierattr_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22152,'accepted_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22153,'rejected_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
