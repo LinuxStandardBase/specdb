@@ -10668,3 +10668,4 @@ INSERT INTO `Constant` VALUES (10731,'UINTMAX_MAX','int',930,'','3.2','No');
 INSERT INTO `Constant` VALUES (10732,'UINTPTR_MAX','int',930,'','3.2','No');
 INSERT INTO `Constant` VALUES (10733,'WINT_MAX','int',930,'','3.2','No');
 INSERT INTO `Constant` VALUES (10734,'WINT_MIN','int',930,'','3.2','No');
+INSERT INTO `Constant` VALUES (10735,'_SC_2_PBS','int',368,'','3.2','No');
