@@ -1,2 +1,5 @@
-INSERT INTO `InterfaceAttribute` VALUES (63096,1330,'Recommendation','Do not use this interface. This is a bad practice.');
-INSERT INTO `InterfaceAttribute` VALUES (63110,3270,'','Yes');
+INSERT INTO `InterfaceAttribute` VALUES (1,1330,'Recommendation','This interface is an extreme security risk, and is marked obsolete in both ISO-C and POSIX. Use fgets() instead');
+INSERT INTO `InterfaceAttribute` VALUES (2,3270,'','Yes');
+INSERT INTO `InterfaceAttribute` VALUES (3,1303,'Recommendation','This interface is obsolete. Use the isfinite() macro from ISO C99');
+INSERT INTO `InterfaceAttribute` VALUES (4,3401,'Recommendation','This interface is obsolete. Use the isfinite() macro from ISO C99');
+INSERT INTO `InterfaceAttribute` VALUES (5,3402,'Recommendation','This interface is obsolete. Use the isfinite() macro from ISO C99');
