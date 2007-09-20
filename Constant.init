@@ -10716,3 +10716,5 @@ INSERT INTO `Constant` VALUES (10817,'_SC_LEVEL3_CACHE_LINESIZE','int',368,'','3
 INSERT INTO `Constant` VALUES (10818,'_SC_LEVEL4_CACHE_SIZE','int',368,'','3.2','No');
 INSERT INTO `Constant` VALUES (10819,'_SC_LEVEL4_CACHE_ASSOC','int',368,'','3.2','No');
 INSERT INTO `Constant` VALUES (10820,'_SC_LEVEL4_CACHE_LINESIZE','int',368,'','3.2','No');
+INSERT INTO `Constant` VALUES (9501,'sys/types.h depends on stddef.h','header_depend',45,'',NULL,'No');
+INSERT INTO `Constant` VALUES (9502,'sys/types.h depends on strings.h','header_depend',45,'',NULL,'No');
