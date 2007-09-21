@@ -6,3 +6,15 @@ INSERT INTO `InterfaceAttribute` VALUES (5,3402,'Recommendation','This interface
 INSERT INTO `InterfaceAttribute` VALUES (6,1583,'Recommendation','This interface is obsolete. Use remainder() from ISO C99');
 INSERT INTO `InterfaceAttribute` VALUES (7,3662,'Recommendation','This interface is obsolete. Use remainderf() from ISO C99');
 INSERT INTO `InterfaceAttribute` VALUES (8,3663,'Recommendation','This interface is obsolete. Use remainderl() from ISO C99');
+INSERT INTO `InterfaceAttribute` VALUES (9,1311,'Recommendation','Use fstatvfs instead');
+INSERT INTO `InterfaceAttribute` VALUES (10,554,'Recommendation','Use fstatvfs64 instead');
+INSERT INTO `InterfaceAttribute` VALUES (11,592,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (12,3423,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (13,593,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (14,594,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (15,3424,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (16,3425,'Recommendation','Use getaddrinfo instead');
+INSERT INTO `InterfaceAttribute` VALUES (17,3736,'Recommendation','Use IEEE 754 floating point exceptions instead');
+INSERT INTO `InterfaceAttribute` VALUES (18,1434,'Recommendation','Use statvfs instead');
+INSERT INTO `InterfaceAttribute` VALUES (19,910,'Recommendation','Use stavfs64 instead');
+INSERT INTO `InterfaceAttribute` VALUES (20,584,'Recommendation','Use strncpy(name, len, \"(none)\" instead');
