@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -21,17 +21,17 @@
 DROP TABLE IF EXISTS `RawInterface`;
 CREATE TABLE `RawInterface` (
   `RIid` int(10) unsigned NOT NULL auto_increment,
-  `RIname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
+  `RIname` varchar(750) character set latin1 collate latin1_bin NOT NULL default '',
   `RIunmangled` text,
-  `RIversion` varchar(255) NOT NULL default '',
-  `RIlibrary` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
+  `RIversion` varchar(40) character set latin1 collate latin1_bin NOT NULL default '',
+  `RIlibrary` varchar(200) character set latin1 collate latin1_bin NOT NULL default '',
   `RIcomment` varchar(255) default NULL,
   `RIrcid` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`RIid`),
   UNIQUE KEY `k_RIname` (`RIname`,`RIlibrary`,`RIversion`,`RIrcid`),
   KEY `k_Class` (`RIrcid`),
   KEY `k_Library` (`RIlibrary`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=9280150 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,3 +42,4 @@ CREATE TABLE `RawInterface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-27  7:49:41

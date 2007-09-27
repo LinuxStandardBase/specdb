@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -34,7 +34,7 @@ CREATE TABLE `Interface` (
   `Iunmangled` text,
   `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL default 'Both',
   `Iurl` varchar(255) default NULL,
-  `Ilibrary` varchar(255) character set latin1 collate latin1_bin default NULL,
+  `Ilibrary` varchar(200) character set latin1 collate latin1_bin default NULL,
   `Istatic` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Ivirtual` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Iaccess` enum('public','protected','private','Unknown') default NULL,
@@ -48,7 +48,7 @@ CREATE TABLE `Interface` (
   KEY `Itype` (`Itype`),
   KEY `k_Idocumented` (`Idocumented`),
   KEY `k_Iheader` (`Iheader`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=83557 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -59,3 +59,4 @@ CREATE TABLE `Interface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-17  7:09:17

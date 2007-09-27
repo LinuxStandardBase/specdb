@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `AppCertification`;
 CREATE TABLE `AppCertification` (
   `ACaid` int(10) unsigned NOT NULL default '0',
   `AClsbversion` varchar(255) NOT NULL default '',
-  `ACdate` date NOT NULL default '0000-00-00',
+  `ACdate` date NOT NULL,
   `ACstatus` enum('Certified','Compliant','Unknown') default 'Unknown',
   PRIMARY KEY  (`ACaid`,`AClsbversion`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -36,3 +36,4 @@ CREATE TABLE `AppCertification` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-27  7:48:51

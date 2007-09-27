@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -33,12 +33,13 @@ CREATE TABLE `TypeMember` (
   `TMappearedin` varchar(255) NOT NULL default '',
   `TMaid` int(10) unsigned NOT NULL default '0',
   `TMaccess` enum('public','private','protected') default NULL,
+  `TMvalue` varchar(255) default NULL,
   PRIMARY KEY  (`TMid`),
   KEY `k_TMposmem` (`TMposition`,`TMmemberof`),
   KEY `k_TMtypeid` (`TMtypeid`),
   KEY `k_TMmemberof` (`TMmemberof`),
   KEY `k_TMaid` (`TMaid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=64413 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -49,3 +50,4 @@ CREATE TABLE `TypeMember` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-26  9:44:51

@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -21,7 +21,7 @@
 DROP TABLE IF EXISTS `Application`;
 CREATE TABLE `Application` (
   `Aid` int(10) unsigned NOT NULL auto_increment,
-  `Aname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
+  `Aname` varchar(255) character set latin1 collate latin1_bin NOT NULL,
   `Aversion` varchar(255) NOT NULL default '',
   `Aarch` int(10) unsigned NOT NULL default '0',
   `Aabitag` varchar(255) NOT NULL default '',
@@ -33,7 +33,7 @@ CREATE TABLE `Application` (
   PRIMARY KEY  (`Aid`),
   UNIQUE KEY `k_Aname` (`Aname`,`Aversion`,`Aarch`),
   KEY `k_Aarch` (`Aarch`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=9004 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -44,3 +44,4 @@ CREATE TABLE `Application` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-27  7:48:51
