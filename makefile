@@ -42,7 +42,11 @@ restore::
 		mysql $(DBOPTS) $$LSBDB <$$table.init; \
 		mysql $(DBOPTS) $$LSBDB -e "ANALYZE TABLE $$table"; \
 	done'
+	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
+	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+#	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
+	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
 # these two rules dump/restore the "LSB Elements" only,

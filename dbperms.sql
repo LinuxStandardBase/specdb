@@ -54,4 +54,8 @@ GRANT SELECT ON * TO lsbadmin@localhost;
 # Allow lsbuser to create temporary tables - vital for DB Navigator
 GRANT CREATE TEMPORARY TABLES ON lsb.* TO lsbuser@localhost;
 
+# Allow lsbuser to add interface comments; authentication here will go
+# through the linux-foundation wiki
+GRANT INSERT ON InterfaceComment TO lsbuser@localhost;
+
 FLUSH PRIVILEGES;

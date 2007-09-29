@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -21,13 +21,14 @@
 DROP TABLE IF EXISTS `InterfaceAttribute`;
 CREATE TABLE `InterfaceAttribute` (
   `IAid` int(10) unsigned NOT NULL auto_increment,
-  `IAint` int(10) unsigned NOT NULL default '0',
+  `IAiname` varchar(750) NOT NULL,
+  `IAlibrary` varchar(200) NOT NULL default '',
   `IAtype` enum('Recommendation','Custom') NOT NULL default 'Custom',
   `IAvalue` text NOT NULL,
   PRIMARY KEY  (`IAid`),
-  KEY `k_IAint` (`IAint`,`IAtype`),
+  KEY `k_IAiname` (`IAiname`,`IAlibrary`,`IAtype`),
   KEY `k_IAtype` (`IAtype`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -38,3 +39,4 @@ CREATE TABLE `InterfaceAttribute` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-09-05 13:37:00
