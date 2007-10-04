@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: localhost    Database: lsb
+-- Host: db.linux-foundation.org    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -34,7 +34,7 @@ CREATE TABLE `TestSuite` (
   KEY `TSappearedin` (`TSappearedin`,`TSwithdrawnin`),
   KEY `TSwithdrawnin` (`TSwithdrawnin`),
   KEY `TSname` (`TSname`)
-) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -45,4 +45,3 @@ CREATE TABLE `TestSuite` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2007-09-17  7:09:54
