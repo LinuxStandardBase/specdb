@@ -2633,7 +2633,7 @@ INSERT INTO `Type` VALUES (11164,'FcBool *','Pointer',604,'',NULL,'No','No','Yes
 INSERT INTO `Type` VALUES (11165,'FcValue *','Pointer',604,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11166,'FT_FaceRec_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11167,'FT_FaceRec_ *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (11168,'FT_Face','Typedef',935,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (11168,'FT_Face','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11169,'FT_Face *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11170,'const FT_Face','Const',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11171,'FT_UInt','Typedef',935,'',NULL,'No','No','No',NULL,0,0,'',0);
@@ -4058,9 +4058,9 @@ INSERT INTO `Type` VALUES (12589,'PangoFT2FontMap','Typedef',620,'',NULL,'No','N
 INSERT INTO `Type` VALUES (12590,'PangoFT2FontMap *','Pointer',620,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12591,'PangoFT2SubstituteFunc','Typedef',620,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12592,'PangoFcFont *','Pointer',620,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12593,'FT_Bitmap_','Struct',955,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12594,'FT_Bitmap','Typedef',935,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12595,'FT_Bitmap *','Pointer',955,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12593,'FT_Bitmap_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12594,'FT_Bitmap','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12595,'FT_Bitmap *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12596,'_PangoFcDecoder','Struct',621,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12597,'PangoFcDecoder','Typedef',621,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12598,'PangoFcDecoder *','Pointer',621,'',NULL,'No','No','Yes',NULL,0,0,'',0);
@@ -10307,9 +10307,9 @@ INSERT INTO `Type` VALUES (16722,'FT_ListNodeRec_ *','Pointer',934,'',NULL,'Unkn
 INSERT INTO `Type` VALUES (16723,'FT_ListNode','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16724,'FT_ListRec_ *','Pointer',934,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16725,'FT_List','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16726,'FT_MemoryRec_','Struct',934,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16727,'FT_MemoryRec_ *','Pointer',934,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16728,'FT_Memory','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16726,'FT_MemoryRec_','Struct',1250,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16727,'FT_MemoryRec_ *','Pointer',1250,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16728,'FT_Memory','Typedef',1250,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16729,'fptr_ftlist_2222','FuncPtr',934,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16730,'FT_Alloc_Func','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16731,'fptr_ftlist_1804','FuncPtr',934,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10613,3 +10613,4 @@ INSERT INTO `Type` VALUES (22154,'pthread_barrier_t','Typedef',33,'',NULL,'No','
 INSERT INTO `Type` VALUES (22155,'pthread_barrierattr_t','Typedef',33,'',NULL,'No','No','No',NULL,0,0,'0',0);
 INSERT INTO `Type` VALUES (22152,'accepted_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
 INSERT INTO `Type` VALUES (22153,'rejected_reply *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'0',0);
+INSERT INTO `Type` VALUES (22156,'FT_CharMap *','Pointer',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
