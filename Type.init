@@ -10329,7 +10329,7 @@ INSERT INTO `Type` VALUES (16744,'FT_Vector *','Pointer',935,'',NULL,'Unknown','
 INSERT INTO `Type` VALUES (16745,'FT_Outline','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16746,'FT_Outline *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16747,'FT_LibraryRec_','Struct',935,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16748,'FT_Generic_','Struct',935,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16748,'FT_Generic_','Struct',945,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16749,'FT_Generic_Finalizer','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16750,'FT_Generic','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16751,'FT_Int','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
