@@ -765,3 +765,4 @@ INSERT INTO `Header` VALUES (522,'freetype/config/ftmodule.h',264,'No',NULL,'3.2
 INSERT INTO `Header` VALUES (523,'freetype/config/ftoption.h',264,'No',NULL,'3.2',NULL,'No');
 INSERT INTO `Header` VALUES (524,'freetype/config/ftstdlib.h',264,'No',NULL,'3.2',NULL,'No');
 INSERT INTO `Header` VALUES (772,'X11/Xft/Xft.h',265,'No',NULL,'3.2',NULL,'No');
+INSERT INTO `Header` VALUES (773,'freetype/ftsystem.h',264,'No',NULL,'3.2',NULL,'No');
