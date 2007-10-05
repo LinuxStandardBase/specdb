@@ -1200,3 +1200,4 @@ INSERT INTO `HeaderGroup` VALUES (1247,'Macro Section for stdint.h',489,0,'Macro
 INSERT INTO `HeaderGroup` VALUES (1248,'Macros for X11/extensions/Xrender.h',491,0,'');
 INSERT INTO `HeaderGroup` VALUES (1249,'Base Types for X11/extensions/Xrender.h',491,1,'');
 INSERT INTO `HeaderGroup` VALUES (1250,'Default Header Section for freetype/ftsystem.h',773,0,'Default Header Section for freetype/ftsystem.h');
+INSERT INTO `HeaderGroup` VALUES (1251,'Default Header Section for ft2build.h',774,0,'Default Header Section for ft2build.h');
