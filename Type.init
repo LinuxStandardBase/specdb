@@ -10620,3 +10620,6 @@ INSERT INTO `Type` VALUES (22162,'FT_Face_Internal','Typedef',937,'',NULL,'No','
 INSERT INTO `Type` VALUES (22163,'FT_DriverRec_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22164,'FT_DriverRec_ *','Pointer',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22165,'FT_Driver','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22157,'FT_Bitmap_Size_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22158,'FT_Bitmap_Size','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22159,'FT_Bitmap_Size *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
