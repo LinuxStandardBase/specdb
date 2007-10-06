@@ -8,18 +8,30 @@
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false
 
-ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt Architecture \
-	ArchLib ArchType BaseTypes ClassInfo ClassVtab Command \
-	Constant DynamicEntries ElfSections Header \
-	HeaderGroup Interface InterfaceAttribute LGInt LibGroup \
-	Library LSBVersion ModCmd ModLib Module Parameter RpmTag SectionTypes \
-	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType Version \
-	VMIBaseTypes Vtable
+ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
+	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab Command \
+	Constant DynamicEntries ElfSections Header HeaderGroup \
+	Interface InterfaceAttribute LGInt LibGroup Library \
+	LSBVersion ModCmd ModLib Module Parameter RpmTag SectionTypes \
+	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
+	Version VMIBaseTypes Vtable
 
 all:
-	@echo "Please specify dump or restore"
+	@echo "Please specify dump or restore (or variants dumpall, restoreall)"
 
+# dump the "source code" tables
 dump::
+	for table in $(ELEMENTS) ; \
+	do \
+		set +e; \
+		echo $$table; \
+		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
+		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+	done
+
+# dump everything: the "source code" tables + the "community" tables
+# if the community tables are populated, this will be big!
+dumpall::
 	for table in `mysql $(DBOPTS) -e "SHOW TABLES" $$LSBDB | grep -v Tables | grep -v cache_` ;\
 	do \
 		set +e; \
@@ -29,11 +41,20 @@ dump::
 	done
 
 restore::
+	for table in $(ELEMENTS) ; \
+	do \
+		set +e; \
+		echo $$table; \
+		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
+		mysql $(DBOPTS) $$LSBDB <$$table.init; \
+	done
+
+restoreall::
 	@mysqladmin $(DBOPTS) drop $$LSBDB
 	@mysqladmin $(DBOPTS) create $$LSBDB
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 	sleep 5
-	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ;\
+	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
 	do \
 		set +e; \
 		table=`basename $$table .sql`; \
@@ -49,24 +70,13 @@ restore::
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
-# these two rules dump/restore the "LSB Elements" only,
-# not any of the other database info.  This is only for
-# performance for developers fiddling with elements,
-# otherwise the full dump/restore is safer
-dumpelements::
-	for table in $(ELEMENTS) ; \
-	do \
-		set +e; \
-		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
-	done
+# need a rule to populate the now external community tables,
+# then call the 'cache' rule
 
-elements::
-	for table in $(ELEMENTS) ; \
-	do \
-		set +e; \
-		echo $$table; \
-		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-		mysql $(DBOPTS) $$LSBDB <$$table.init; \
-	done
+cache::
+	./create_cache_tables_inits.sh
+	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
+	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+#	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
+	rm -f cache*.init
+	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
