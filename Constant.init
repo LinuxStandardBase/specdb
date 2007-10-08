@@ -10773,3 +10773,4 @@ INSERT INTO `Constant` VALUES (10872,'FT_GX_VALIDATE_H','',962,'from freetype >2
 INSERT INTO `Constant` VALUES (10873,'FT_PFR_H','',962,'from freetype >2.1.10',NULL,'No');
 INSERT INTO `Constant` VALUES (10874,'FT_LCD_FILTER_H','',962,'from freetype >2.1.10',NULL,'No');
 INSERT INTO `Constant` VALUES (10875,'FT_GASP_H','',962,'from freetype >2.1.10',NULL,'No');
+INSERT INTO `Constant` VALUES (10876,'netinet/in.h depends on arpa/inet.h','header_depend',357,'',NULL,'No');
