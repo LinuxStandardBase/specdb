@@ -10618,3 +10618,4 @@ INSERT INTO `ArchConst` VALUES (1,10563,'<freetype/ftcache.h>','3.2',NULL);
 INSERT INTO `ArchConst` VALUES (1,10566,'<freetype/ftcache.h>','3.2',NULL);
 INSERT INTO `ArchConst` VALUES (1,10579,'<freetype/ftincrem.h>','3.2',NULL);
 INSERT INTO `ArchConst` VALUES (1,10599,'<freetype/ttunpat.h>','3.2',NULL);
+INSERT INTO `ArchConst` VALUES (1,10876,'116','3.2',NULL);
