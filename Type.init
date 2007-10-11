@@ -10389,9 +10389,9 @@ INSERT INTO `Type` VALUES (16804,'FT_Renderer_RenderFunc','Typedef',944,'',NULL,
 INSERT INTO `Type` VALUES (16805,'FT_Matrix *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16806,'fptr_ftoutln_2516','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16807,'FT_Renderer_TransformFunc','Typedef',944,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16808,'FT_BBox_','Struct',935,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16809,'FT_BBox','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16810,'FT_BBox *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16808,'FT_BBox_','Struct',955,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16809,'FT_BBox','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16810,'FT_BBox *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16811,'fptr_ftoutln_1899','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16812,'FT_Renderer_GetCBoxFunc','Typedef',944,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16813,'fptr_ftoutln_2623','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10623,3 +10623,8 @@ INSERT INTO `Type` VALUES (22165,'FT_Driver','Typedef',937,'',NULL,'No','No','No
 INSERT INTO `Type` VALUES (22157,'FT_Bitmap_Size_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22158,'FT_Bitmap_Size','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22159,'FT_Bitmap_Size *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22166,'FT_FaceRec','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22167,'FT_Kerning_Mode_','Enum',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22168,'FT_Kerning_Mode','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22169,'FT_Glyph_BBox_Mode_','Enum',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22170,'FT_Glyph_BBox_Mode','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
