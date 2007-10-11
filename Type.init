@@ -10302,11 +10302,11 @@ INSERT INTO `Type` VALUES (16717,'XTriangle','Typedef',932,'',NULL,'Unknown','Un
 INSERT INTO `Type` VALUES (16718,'const XTriangle','Const',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16719,'const XTriangle *','Pointer',932,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16720,'FT_ListRec_','Struct',945,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16721,'FT_ListNodeRec_','Struct',934,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16722,'FT_ListNodeRec_ *','Pointer',934,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16723,'FT_ListNode','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16721,'FT_ListNodeRec_','Struct',945,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16722,'FT_ListNodeRec_ *','Pointer',945,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16723,'FT_ListNode','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16724,'FT_ListRec_ *','Pointer',945,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16725,'FT_List','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16725,'FT_List','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16726,'FT_MemoryRec_','Struct',1250,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16727,'FT_MemoryRec_ *','Pointer',1250,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16728,'FT_Memory','Typedef',1250,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
@@ -10323,7 +10323,7 @@ INSERT INTO `Type` VALUES (16738,'fptr_ftlist_2268','FuncPtr',934,'',NULL,'Unkno
 INSERT INTO `Type` VALUES (16739,'FT_List_Iterator','Typedef',934,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16740,'FT_Outline_','Struct',955,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16741,'FT_Vector_','Struct',955,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16742,'FT_Pos','Typedef',949,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16742,'FT_Pos','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16743,'FT_Vector','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16744,'FT_Vector *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16745,'FT_Outline','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
@@ -10500,7 +10500,7 @@ INSERT INTO `Type` VALUES (16915,'FT_Open_Args','Typedef',937,'',NULL,'Unknown',
 INSERT INTO `Type` VALUES (16916,'FT_Open_Args *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16917,'const FT_Open_Args','Const',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16918,'const FT_Open_Args *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16919,'FT_Pos *','Pointer',939,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16919,'FT_Pos *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16920,'FT_Fixed *','Pointer',939,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16921,'FT_Angle','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16922,'FT_Angle *','Pointer',940,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
