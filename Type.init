@@ -4058,9 +4058,9 @@ INSERT INTO `Type` VALUES (12589,'PangoFT2FontMap','Typedef',620,'',NULL,'No','N
 INSERT INTO `Type` VALUES (12590,'PangoFT2FontMap *','Pointer',620,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12591,'PangoFT2SubstituteFunc','Typedef',620,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12592,'PangoFcFont *','Pointer',620,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12593,'FT_Bitmap_','Struct',937,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12594,'FT_Bitmap','Typedef',937,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (12595,'FT_Bitmap *','Pointer',937,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12593,'FT_Bitmap_','Struct',955,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12594,'FT_Bitmap','Typedef',955,'',NULL,'No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12595,'FT_Bitmap *','Pointer',955,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12596,'_PangoFcDecoder','Struct',621,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12597,'PangoFcDecoder','Typedef',621,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12598,'PangoFcDecoder *','Pointer',621,'',NULL,'No','No','Yes',NULL,0,0,'',0);
@@ -10408,8 +10408,8 @@ INSERT INTO `Type` VALUES (16823,'FT_Raster_ResetFunc','Typedef',955,'',NULL,'Un
 INSERT INTO `Type` VALUES (16824,'fptr_ftoutln_2531','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16825,'FT_Raster_SetModeFunc','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16826,'FT_Raster_Params_','Struct',955,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16827,'const FT_Bitmap','Const',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16828,'const FT_Bitmap *','Pointer',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16827,'const FT_Bitmap','Const',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16828,'const FT_Bitmap *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16829,'FT_Span_','Struct',955,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16830,'FT_Span','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16831,'FT_Span *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10429,13 +10429,13 @@ INSERT INTO `Type` VALUES (16844,'FT_Raster_Funcs','Typedef',955,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (16845,'FT_Raster_Funcs *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16846,'FT_Renderer_Class','Typedef',944,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16847,'FT_Renderer_Class *','Pointer',944,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16848,'FT_Glyph_Class_','Struct',935,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16848,'FT_Glyph_Class_','Struct',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16849,'FT_GlyphRec_','Struct',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16850,'FT_Glyph_Class','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16851,'const FT_Glyph_Class','Const',943,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16852,'const FT_Glyph_Class *','Pointer',943,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16853,'FT_GlyphRec_ *','Pointer',943,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16854,'FT_Glyph','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16854,'FT_Glyph','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16855,'fptr_ftoutln_2633','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16856,'FT_Glyph_InitFunc','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16857,'fptr_ftoutln_3152','FuncPtr',935,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
@@ -10628,3 +10628,4 @@ INSERT INTO `Type` VALUES (22167,'FT_Kerning_Mode_','Enum',937,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (22168,'FT_Kerning_Mode','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22169,'FT_Glyph_BBox_Mode_','Enum',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22170,'FT_Glyph_BBox_Mode','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22171,'FT_ListNodeRec','Typedef',945,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
