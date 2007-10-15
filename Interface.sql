@@ -47,7 +47,8 @@ CREATE TABLE `Interface` (
   KEY `Istandard` (`Istandard`),
   KEY `Itype` (`Itype`),
   KEY `k_Idocumented` (`Idocumented`),
-  KEY `k_Iheader` (`Iheader`)
+  KEY `k_Iheader` (`Iheader`),
+  KEY `k_Isrcbin` (`Isrcbin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
