@@ -15,9 +15,11 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	LSBVersion ModCmd ModLib Module Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable
+	
+APP_TABLES=Application AppLib AppRInt RawInterface RawClass
 
 all:
-	@echo "Please specify dump or restore (or variants dumpall, restoreall)"
+	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
 
 # dump the "source code" tables
 dump::
