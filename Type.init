@@ -10629,3 +10629,7 @@ INSERT INTO `Type` VALUES (22168,'FT_Kerning_Mode','Typedef',937,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (22169,'FT_Glyph_BBox_Mode_','Enum',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22170,'FT_Glyph_BBox_Mode','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22171,'FT_ListNodeRec','Typedef',945,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22172,'FT_OutlineGlyphRec_','Struct',943,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22173,'FT_OutlineGlyphRec_ *','Pointer',943,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22174,'FT_OutlineGlyph','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22175,'FT_GlyphRec','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
