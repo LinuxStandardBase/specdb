@@ -10502,7 +10502,7 @@ INSERT INTO `Type` VALUES (16917,'const FT_Open_Args','Const',937,'',NULL,'Unkno
 INSERT INTO `Type` VALUES (16918,'const FT_Open_Args *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16919,'FT_Pos *','Pointer',955,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16920,'FT_Fixed *','Pointer',939,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (16921,'FT_Angle','Typedef',957,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (16921,'FT_Angle','Typedef',940,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16922,'FT_Angle *','Pointer',940,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16923,'FT_ULong *','Pointer',941,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (16924,'anon-freetype/tttables.h-2','Enum',941,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -10633,3 +10633,4 @@ INSERT INTO `Type` VALUES (22172,'FT_OutlineGlyphRec_','Struct',943,'',NULL,'Unk
 INSERT INTO `Type` VALUES (22173,'FT_OutlineGlyphRec_ *','Pointer',943,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22174,'FT_OutlineGlyph','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (22175,'FT_GlyphRec','Typedef',943,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (22176,'anon-freetype/fterrors.h-1','Enum',938,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
