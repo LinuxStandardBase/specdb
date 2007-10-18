@@ -82,3 +82,29 @@ cache::
 #	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
+
+# rules to process application data only
+
+restore_apps::
+	for table in $(APP_TABLES) ; \
+	do \
+		set +e; \
+		echo $$table; \
+	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
+	        mysql $(DBOPTS) $$LSBDB <$$table.init; \
+	done
+	./create_cache_tables_inits.sh
+	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
+	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+#       mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
+	rm -f cache*.init
+	mysql $(DBOPTS) $$LSBDB <dbperms.sql
+
+dump_apps::
+	for table in $(APP_TABLES) ; \
+	do \
+	        set +e; \
+	        echo $$table; \
+	        mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
+	        mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+	done
