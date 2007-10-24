@@ -21324,7 +21324,7 @@ INSERT INTO `TypeMember` VALUES (64015,'palette',40,8,'',12593,'',0,0,NULL,'',1,
 INSERT INTO `TypeMember` VALUES (64014,'palette_mode',2,7,'',12593,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (64013,'pixel_mode',2,6,'',12593,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (64012,'num_grays',4,5,'',12593,'',0,0,NULL,'',1,NULL,NULL);
-INSERT INTO `TypeMember` VALUES (64011,'buffer',3,4,'',12593,'',0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (64011,'buffer',4659,4,'',12593,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (64010,'pitch',6,3,'',12593,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (54386,'font',12574,1,'',17008,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (54387,'ucs4',11113,2,'',17008,'',0,0,NULL,'',1,NULL,NULL);
