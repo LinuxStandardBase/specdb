@@ -28,8 +28,8 @@ CREATE TABLE `ArchClass` (
   `ACappearedin` varchar(255) NOT NULL default '',
   `ACwithdrawnin` varchar(255) default NULL,
   PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
-  KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`),
-  KEY `k_withdrawnin` (`ACwithdrawnin`)
+  KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`,`ACaid`),
+  KEY `k_appeared_arch` (`ACappearedin`,`ACaid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

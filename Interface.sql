@@ -30,7 +30,7 @@ CREATE TABLE `Interface` (
   `Idocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Icomment` varchar(255) default NULL,
   `Icandidatefor` varchar(255) default NULL,
-  `Iisdeprecated` enum('Yes','No','Unknown') default 'Unknown',
+  `Ideprecatedsince` varchar(255) default NULL,
   `Iunmangled` text,
   `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL default 'Both',
   `Iurl` varchar(255) default NULL,
