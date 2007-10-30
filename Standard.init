@@ -115,3 +115,4 @@ INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://d
 INSERT INTO `Standard` VALUES (121,'xrender','Xrender Specification Placeholder','','','Standard',1,'Xrender Placeholder',NULL);
 INSERT INTO `Standard` VALUES (122,'freetype','Freetype Specification Placeholder','','','Standard',1,'Freetype Placeholder',NULL);
 INSERT INTO `Standard` VALUES (123,'xft','Xft Specification Placeholder','','','Standard',1,'Xft Placeholder',NULL);
+INSERT INTO `Standard` VALUES (124,'ALSA','ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/','ALSA Library API Reference','Reference',1,'ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/');

@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -23,7 +23,7 @@ CREATE TABLE `Type` (
   `Tid` int(10) unsigned NOT NULL auto_increment,
   `Tname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','TypeInfo','Volatile','Function','Ref','Namespace','Template','TemplateInstance','Macro','MemberPtr','MethodPtr') default NULL,
-  `Theadergroup` int(10) unsigned NOT NULL default '0',
+  `Theadgroup` int(10) unsigned NOT NULL default '0',
   `Tdescription` varchar(255) NOT NULL default '',
   `Tarray` varchar(16) default NULL,
   `Tsrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
@@ -35,13 +35,13 @@ CREATE TABLE `Type` (
   `Tlibrary` varchar(255) NOT NULL default '',
   `Tclass` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`Tid`),
-  UNIQUE KEY `Tnamearch` (`Tname`,`Theadergroup`,`Ttype`),
-  KEY `k_Theadergroup` (`Theadergroup`),
+  UNIQUE KEY `Tnamearch` (`Tname`,`Theadgroup`,`Ttype`),
+  KEY `k_Theadergroup` (`Theadgroup`),
   KEY `k_Tsrconly` (`Tsrconly`),
   KEY `k_Tindirect` (`Tindirect`),
   KEY `k_Tconly` (`Tconly`),
   KEY `k_Ttype` (`Ttype`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=100001 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -52,3 +52,4 @@ CREATE TABLE `Type` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-10-30  9:59:20

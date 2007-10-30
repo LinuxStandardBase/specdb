@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -28,8 +28,8 @@ CREATE TABLE `ArchClass` (
   `ACappearedin` varchar(255) NOT NULL default '',
   `ACwithdrawnin` varchar(255) default NULL,
   PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
-  KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`),
-  KEY `k_withdrawnin` (`ACwithdrawnin`)
+  KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`,`ACaid`),
+  KEY `k_appeared_arch` (`ACappearedin`,`ACaid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -41,3 +41,4 @@ CREATE TABLE `ArchClass` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-10-30  9:59:17

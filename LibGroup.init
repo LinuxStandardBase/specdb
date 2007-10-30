@@ -307,3 +307,4 @@ INSERT INTO `LibGroup` VALUES (580,'Qt3 Miscellaneous',262,35,'Qt3 Miscellaneous
 INSERT INTO `LibGroup` VALUES (581,'Default LibGroup for libXrender',263,0,'Default LibGroup for libXrender');
 INSERT INTO `LibGroup` VALUES (582,'Default LibGroup for libfreetype',264,0,'Default LibGroup for libfreetype');
 INSERT INTO `LibGroup` VALUES (583,'Default LibGroup for libXft',265,0,'Default LibGroup for libXft');
+INSERT INTO `LibGroup` VALUES (584,'Default LibGroup for libasound',272,0,'Default LibGroup for libasound');

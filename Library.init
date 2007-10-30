@@ -53,3 +53,4 @@ INSERT INTO `Library` VALUES (268,'libdbus-1',NULL);
 INSERT INTO `Library` VALUES (269,'libcups',NULL);
 INSERT INTO `Library` VALUES (270,'libcupsimage',NULL);
 INSERT INTO `Library` VALUES (271,'libijs',NULL);
+INSERT INTO `Library` VALUES (272,'libasound',NULL);

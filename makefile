@@ -28,7 +28,7 @@ dump::
 		set +e; \
 		echo $$table; \
 		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
 	done
 
 # dump everything: the "source code" tables + the "community" tables
@@ -39,7 +39,7 @@ dumpall::
 		set +e; \
 		echo $$table; \
 		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
 	done
 
 restore::
@@ -68,6 +68,7 @@ restoreall::
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 #	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
@@ -79,9 +80,11 @@ cache::
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 #	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
+
 
 # rules to process application data only
 
@@ -96,6 +99,7 @@ restore_apps::
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
+	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
 #       mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql
@@ -106,5 +110,5 @@ dump_apps::
 	        set +e; \
 	        echo $$table; \
 	        mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-	        mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep INSERT >$$table.init;\
+	        mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
 	done

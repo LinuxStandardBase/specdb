@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -29,7 +29,8 @@ CREATE TABLE `ArchInt` (
   KEY `AIversion` (`AIversion`),
   KEY `k_av` (`AIint`,`AIversion`),
   KEY `k_appearedin` (`AIappearedin`,`AIwithdrawnin`),
-  KEY `k_withdrawnin` (`AIwithdrawnin`)
+  KEY `k_withdrawnin` (`AIwithdrawnin`,`AIarch`),
+  KEY `k_appeared_arch` (`AIappearedin`,`AIarch`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -41,3 +42,4 @@ CREATE TABLE `ArchInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-10-30  9:59:17

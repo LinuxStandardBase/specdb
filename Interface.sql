@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -30,7 +30,7 @@ CREATE TABLE `Interface` (
   `Idocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Icomment` varchar(255) default NULL,
   `Icandidatefor` varchar(255) default NULL,
-  `Iisdeprecated` enum('Yes','No','Unknown') default 'Unknown',
+  `Ideprecatedsince` varchar(255) default NULL,
   `Iunmangled` text,
   `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL default 'Both',
   `Iurl` varchar(255) default NULL,
@@ -49,7 +49,7 @@ CREATE TABLE `Interface` (
   KEY `k_Idocumented` (`Idocumented`),
   KEY `k_Iheader` (`Iheader`),
   KEY `k_Isrcbin` (`Isrcbin`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=91694 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -60,3 +60,4 @@ CREATE TABLE `Interface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-10-30  9:59:18
