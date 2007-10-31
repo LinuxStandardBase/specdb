@@ -606,5 +606,6 @@ INSERT INTO `InterfaceAttribute` VALUES (1101,'gdk_pixbuf_animation_ref','libgdk
 INSERT INTO `InterfaceAttribute` VALUES (1102,'gdk_pixbuf_animation_unref','libgdk_pixbuf-2.0','Recommendation','gdk_pixbuf_animation_unref is deprecated and should not be used in newly-written code. Use g_object_unref().');
 INSERT INTO `InterfaceAttribute` VALUES (1103,'gdk_pixbuf_ref','libgdk_pixbuf-2.0','Recommendation','gdk_pixbuf_ref is deprecated and should not be used in newly-written code. Use g_object_ref().');
 INSERT INTO `InterfaceAttribute` VALUES (1104,'gdk_pixbuf_unref','libgdk_pixbuf-2.0','Recommendation','gdk_pixbuf_unref is deprecated and should not be used in newly-written code. Use g_object_unref().');
-INSERT INTO `InterfaceAttribute` VALUES (1105,'pthread_attr_getstackaddr','libpthread','Recommendation','This interface is\nobsolete. Use the pthread_attr_getstack() function');
-INSERT INTO `InterfaceAttribute` VALUES (1106,'pthread_attr_isetstackaddr','libpthread','Recommendation','This interface is\nobsolete. Use the pthread_attr_setstack() function');
+INSERT INTO `InterfaceAttribute` VALUES (1105,'pthread_attr_getstackaddr','libpthread','Recommendation','This interface is obsolete. Use the pthread_attr_getstack() function');
+INSERT INTO `InterfaceAttribute` VALUES (1106,'pthread_attr_isetstackaddr','libpthread','Recommendation','This interface is obsolete. Use the pthread_attr_setstack() function');
+INSERT INTO `InterfaceAttribute` VALUES (1107,'getwd','libc','Recommendation','This interface is obsolete. Use the getcwd() function');
