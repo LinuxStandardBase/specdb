@@ -609,3 +609,6 @@ INSERT INTO `InterfaceAttribute` VALUES (1104,'gdk_pixbuf_unref','libgdk_pixbuf-
 INSERT INTO `InterfaceAttribute` VALUES (1105,'pthread_attr_getstackaddr','libpthread','Recommendation','This interface is obsolete. Use the pthread_attr_getstack() function');
 INSERT INTO `InterfaceAttribute` VALUES (1106,'pthread_attr_isetstackaddr','libpthread','Recommendation','This interface is obsolete. Use the pthread_attr_setstack() function');
 INSERT INTO `InterfaceAttribute` VALUES (1107,'getwd','libc','Recommendation','This interface is obsolete. Use the getcwd() function');
+INSERT INTO `InterfaceAttribute` VALUES (1108,'gamma','libm','Recommendation','This name for the interface is obsolete. Use lgamma instead');
+INSERT INTO `InterfaceAttribute` VALUES (1109,'gammaf','libm','Recommendation','This name for the interface is obsolete. Use lgammaf instead');
+INSERT INTO `InterfaceAttribute` VALUES (1110,'gammal','libm','Recommendation','This name for the interface is obsolete. Use lgammal instead');
