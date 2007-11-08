@@ -612,3 +612,5 @@ INSERT INTO `InterfaceAttribute` VALUES (1107,'getwd','libc','Recommendation','T
 INSERT INTO `InterfaceAttribute` VALUES (1108,'gamma','libm','Recommendation','This name for the interface is obsolete. Use lgamma instead');
 INSERT INTO `InterfaceAttribute` VALUES (1109,'gammaf','libm','Recommendation','This name for the interface is obsolete. Use lgammaf instead');
 INSERT INTO `InterfaceAttribute` VALUES (1110,'gammal','libm','Recommendation','This name for the interface is obsolete. Use lgammal instead');
+INSERT INTO `InterfaceAttribute` VALUES (1111,'getdtablesize','libc','Recommendation','This interface is deprecated. Use getrlimit with the RLIMIT_NOFILE option instead');
+INSERT INTO `InterfaceAttribute` VALUES (1112,'getpagesize','libc','Recommendation','This interface is deprecated. Use sysconf(_SC_GET_PAGE_SIZE) instead');
