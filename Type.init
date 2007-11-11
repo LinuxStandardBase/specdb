@@ -12558,4 +12558,4 @@ INSERT INTO `Type` VALUES (29384,'const short int','Const',0,'',NULL,'No','No','
 INSERT INTO `Type` VALUES (29437,'const snd_pcm_format_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29453,'const snd_pcm_state_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29509,'const status_event_list_t','Const',0,'',NULL,'No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (100001,'const in6_addr','Const',363,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (29510,'const in6_addr','Const',363,'','','No','No','No',NULL,0,0,'',0);
