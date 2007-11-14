@@ -308,3 +308,5 @@ INSERT INTO `LibGroup` VALUES (581,'Default LibGroup for libXrender',263,0,'Defa
 INSERT INTO `LibGroup` VALUES (582,'Default LibGroup for libfreetype',264,0,'Default LibGroup for libfreetype');
 INSERT INTO `LibGroup` VALUES (583,'Default LibGroup for libXft',265,0,'Default LibGroup for libXft');
 INSERT INTO `LibGroup` VALUES (584,'Default LibGroup for libasound',272,0,'Default LibGroup for libasound');
+INSERT INTO `LibGroup` VALUES (585,'CUPS Convenience ABI',269,0,'CUPS Convenience ABI');
+INSERT INTO `LibGroup` VALUES (586,'CUPS Raster ABI',270,0,'CUPS Raster ABI');
