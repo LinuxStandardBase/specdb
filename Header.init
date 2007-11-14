@@ -806,3 +806,6 @@ INSERT INTO `Header` VALUES (810,'alsa/sound/sb16_csp.h',272,'No',NULL,'',NULL,'
 INSERT INTO `Header` VALUES (811,'alsa/sound/ainstr_gf1.h',272,'No',NULL,'',NULL,'No');
 INSERT INTO `Header` VALUES (812,'alsa/sound/sscape_ioctl.h',272,'No',NULL,'',NULL,'No');
 INSERT INTO `Header` VALUES (813,'alsa/sound/emu10k1.h',272,'No',NULL,'',NULL,'No');
+INSERT INTO `Header` VALUES (814,'cups/cups.h',269,'No',NULL,'3.2',NULL,'No');
+INSERT INTO `Header` VALUES (815,'cups/ppd.h',269,'No',NULL,'3.2',NULL,'No');
+INSERT INTO `Header` VALUES (816,'cups/raster.h',270,'No',NULL,'3.2',NULL,'No');
