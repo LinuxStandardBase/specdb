@@ -9,8 +9,8 @@ DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
-	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab Command \
-	Constant DynamicEntries ElfSections Header HeaderGroup \
+	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab Command CommandAttribute \
+	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
 	Interface InterfaceAttribute LGInt LibGroup Library \
 	LSBVersion ModCmd ModLib Module Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
