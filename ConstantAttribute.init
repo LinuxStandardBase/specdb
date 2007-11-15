@@ -1,0 +1,2 @@
+INSERT INTO `ConstantAttribute` VALUES (1,2507,'Condition','#ifndef TRUE');
+INSERT INTO `ConstantAttribute` VALUES (2,2508,'Condition','#ifndef FALSE');
