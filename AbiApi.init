@@ -1,4 +1,3 @@
-INSERT INTO `AbiApi` VALUES (125,408,'#define atexit(func) __cxa_atexit(func, NULL, NULL)');
 INSERT INTO `AbiApi` VALUES (63086,2673,'#define strerror_r __xpg_strerror_r');
 INSERT INTO `AbiApi` VALUES (63084,419,'#define basename __xpg_basename');
 INSERT INTO `AbiApi` VALUES (63085,1422,'#define sigpause __xpg_sigpause');
