@@ -113,6 +113,6 @@ INSERT INTO `Standard` VALUES (118,'QtSql','Qt 4.2.0 Reference Manual','http://d
 INSERT INTO `Standard` VALUES (119,'QtSvg','Qt 4.2.0 Reference Manual','http://doc.trolltech.com/4.2/qtsvg.html','','Standard',1,'QtSvg 4.2.0','http://doc.trolltech.com/4.2');
 INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://doc.trolltech.com/3.3/index.html','','Standard',1,'Qt 3.3.6','http://doc.trolltech.com/3.3');
 INSERT INTO `Standard` VALUES (121,'xrender','Xrender Specification Placeholder','','','Standard',1,'Xrender Placeholder',NULL);
-INSERT INTO `Standard` VALUES (122,'freetype','FreeType 2.1.10 API Reference','http://refspecs.linux-foundation.org/freetype/freetype-doc-2.1.10/docs/reference/ft2-toc.html','','Reference',1,'FreeType Reference',NULL);
+INSERT INTO `Standard` VALUES (122,'freetype','FreeType 2.1.10 API Reference','http://refspecs.linux-foundation.org/freetype/freetype-doc-2.1.10/docs/reference/ft2-toc.html','','Reference',1,'FreeType Reference','http://refspecs.linux-foundation.org/freetype/freetype-doc-2.1.10/docs/reference');
 INSERT INTO `Standard` VALUES (123,'xft','Xft Specification Placeholder','','','Standard',1,'Xft Placeholder',NULL);
 INSERT INTO `Standard` VALUES (124,'ALSA','ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/','ALSA Library API Reference','Reference',1,'ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/');
