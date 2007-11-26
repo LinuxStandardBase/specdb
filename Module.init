@@ -10,3 +10,4 @@ INSERT INTO `Module` VALUES (9,'LSB_Printing','LSB Printing module','3.2',NULL,'
 INSERT INTO `Module` VALUES (10,'LSB_TUM','LSB Trial Use module','3.2',NULL,'');
 INSERT INTO `Module` VALUES (11,'LSB_Python','LSB Python Module','3.2',NULL,'');
 INSERT INTO `Module` VALUES (12,'LSB_Perl','LSB Perl Module','3.2',NULL,'');
+INSERT INTO `Module` VALUES (13,'LSB_Multimedia','LSB Multimedia Module','3.2',NULL,'');
