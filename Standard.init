@@ -129,3 +129,4 @@ INSERT INTO `Standard` VALUES (134,'XdgMenu','Desktop Menu Specification Version
 INSERT INTO `Standard` VALUES (135,'XdgDesktop','Desktop Entry Specification Version 1.0','http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html','','Reference',1,'Desktop Entry Spec',NULL);
 INSERT INTO `Standard` VALUES (136,'XdgIcon','Icon Theme Specification Version 0.10','http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-0.10.html','','Standard',0,'Icon Theme Spec',NULL);
 INSERT INTO `Standard` VALUES (137,'XdgBasedir','XDG Base Directory Specification Versio 0.6','http://standards.freedesktop.org/basedir-spec/basedir-spec-0.6.html','','Reference',1,'Base Directory Spec',NULL);
+INSERT INTO `Standard` VALUES (138,'xdg-utils','Portland Project XDG Utilities Reference 1.0','http://portland.freedesktop.org/xdg-utils-1.0/','','Reference',1,'xdg-utils reference',NULL);
