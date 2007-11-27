@@ -784,7 +784,7 @@ INSERT INTO `Header` VALUES (788,'alsa/error.h',272,'Unknown',NULL,'3.2',NULL,'U
 INSERT INTO `Header` VALUES (789,'alsa/hwdep.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
 INSERT INTO `Header` VALUES (790,'alsa/conf.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
 INSERT INTO `Header` VALUES (791,'alsa/global.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
-INSERT INTO `Header` VALUES (792,'alsa/pcm_rate.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
+INSERT INTO `Header` VALUES (792,'alsa/pcm_rate.h',272,'Unknown',NULL,'',NULL,'Unknown');
 INSERT INTO `Header` VALUES (793,'alsa/sound/ainstr_fm.h',272,'Unknown',NULL,'',NULL,'Unknown');
 INSERT INTO `Header` VALUES (794,'alsa/rawmidi.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
 INSERT INTO `Header` VALUES (795,'alsa/pcm_extplug.h',272,'Unknown',NULL,'3.2',NULL,'Unknown');
