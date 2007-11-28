@@ -909,7 +909,7 @@ INSERT INTO `HeaderGroup` VALUES (923,'Default Header Section for QtSql/qsqltabl
 INSERT INTO `HeaderGroup` VALUES (924,'Default Header Section for QtSql/qsqlrelationaltablemodel.h',485,0,'');
 INSERT INTO `HeaderGroup` VALUES (925,'Default Header Section for QtSvg/qsvgrenderer.h',486,0,'');
 INSERT INTO `HeaderGroup` VALUES (926,'Default Header Section for QtSvg/qsvgwidget.h',487,0,'');
-INSERT INTO `HeaderGroup` VALUES (927,'Constnat Header Section for glib-2.0/glib.h',169,0,'Constnat Default Header Section for glib-2.0/glib.h');
+INSERT INTO `HeaderGroup` VALUES (927,'Constant Header Section for glib-2.0/glib.h',169,0,'Constant Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (928,'Arch Specific Header Section for glib-2.0/glib.h',169,1,'Arch Specific Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (929,'Default Header Section for spawn.h',488,0,'Default Header Section for spawn.h');
 INSERT INTO `HeaderGroup` VALUES (930,'Default Header Section for stdint.h',489,1,'Default Header Section for stdint.h');
