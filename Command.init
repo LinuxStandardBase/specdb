@@ -618,7 +618,7 @@ INSERT INTO `Command` VALUES (620,'pbmupc',NULL,0,0,'No','No',NULL,'No',NULL,NUL
 INSERT INTO `Command` VALUES (621,'pcxtoppm',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (622,'pdfetex',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (623,'pdftex',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
-INSERT INTO `Command` VALUES (624,'perl',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (624,'perl','/usr/bin/perl',127,0,'Yes','Yes',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (625,'perl5.00503',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (626,'pfb2pfa',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (627,'pfbtops',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
@@ -744,7 +744,7 @@ INSERT INTO `Command` VALUES (746,'psfaddtable',NULL,0,0,'No','No',NULL,'No',NUL
 INSERT INTO `Command` VALUES (747,'psfgettable',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (748,'psidtopgm',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (749,'pstree',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
-INSERT INTO `Command` VALUES (750,'python',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (750,'python','/usr/bin/python',133,0,'Yes','Yes',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (751,'python1.5',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (752,'quota',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (753,'rsh',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
@@ -1042,7 +1042,14 @@ INSERT INTO `Command` VALUES (1050,'lp',NULL,67,0,'Yes','No',NULL,'No','lp.html'
 INSERT INTO `Command` VALUES (1051,'pax',NULL,67,0,'Yes','No',NULL,'No','pax.html',NULL);
 INSERT INTO `Command` VALUES (1052,'lsbinstall',NULL,10,0,'Yes','No',NULL,'No','LSB-Core-generic/LSB-Core-generic/lsbinstall.html',NULL);
 INSERT INTO `Command` VALUES (1053,'zcat','/bin/zcat',10,67,'Yes','No',NULL,'No',NULL,NULL);
-INSERT INTO `Command` VALUES (1054,'fc-cache','',10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-cache.html',NULL);
-INSERT INTO `Command` VALUES (1055,'fc-list','',10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-list.html',NULL);
-INSERT INTO `Command` VALUES (1056,'fc-match','',10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-match.html',NULL);
+INSERT INTO `Command` VALUES (1054,'fc-cache',NULL,10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-cache.html',NULL);
+INSERT INTO `Command` VALUES (1055,'fc-list',NULL,10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-list.html',NULL);
+INSERT INTO `Command` VALUES (1056,'fc-match',NULL,10,0,'Yes','No',NULL,'No','LSB-Desktop-generic/LSB-Desktop-generic/fc-match.html',NULL);
 INSERT INTO `Command` VALUES (1057,'foomatic-rip','/usr/bin',10,0,'Yes','No',NULL,'No','LSB-Core-generic/LSB-Core-generic/foomatic-rip.html',NULL);
+INSERT INTO `Command` VALUES (1058,'xdg-desktop-icon',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1059,'xdg-desktop-menu',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1060,'xdg-email',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1061,'xdg-icon-resource',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1062,'xdg-mime',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1063,'xdg-open',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1064,'xdg-screensaver',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
