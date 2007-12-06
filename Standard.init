@@ -112,7 +112,7 @@ INSERT INTO `Standard` VALUES (117,'QtOpenGL','Qt 4.2.0 Reference Manual','http:
 INSERT INTO `Standard` VALUES (118,'QtSql','Qt 4.2.0 Reference Manual','http://doc.trolltech.com/4.2/qtsql.html','','Standard',1,'QtSql 4.2.0','http://doc.trolltech.com/4.2');
 INSERT INTO `Standard` VALUES (119,'QtSvg','Qt 4.2.0 Reference Manual','http://doc.trolltech.com/4.2/qtsvg.html','','Standard',1,'QtSvg 4.2.0','http://doc.trolltech.com/4.2');
 INSERT INTO `Standard` VALUES (120,'qt-mt','Qt 3.3.6 Reference Manual','http://doc.trolltech.com/3.3/index.html','','Standard',1,'Qt 3.3.6','http://doc.trolltech.com/3.3');
-INSERT INTO `Standard` VALUES (121,'xrender','Xrender Specification Placeholder','','','Standard',1,'Xrender Placeholder',NULL);
+INSERT INTO `Standard` VALUES (121,'xrender','Xrender Specification Placeholder','http://refspecs.linux-foundation.org/X11/XRenderProtocol.html','','Standard',1,'Xrender Placeholder',NULL);
 INSERT INTO `Standard` VALUES (122,'freetype','FreeType 2.1.10 API Reference','http://refspecs.linux-foundation.org/freetype/freetype-doc-2.1.10/docs/reference/ft2-toc.html','','Reference',1,'FreeType Reference','http://refspecs.linux-foundation.org/freetype/freetype-doc-2.1.10/docs/reference');
 INSERT INTO `Standard` VALUES (123,'xft','Xft Specification Placeholder','','','Standard',1,'Xft Placeholder',NULL);
 INSERT INTO `Standard` VALUES (124,'ALSA','ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/','ALSA Library API Reference','Reference',1,'ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/');
@@ -130,3 +130,5 @@ INSERT INTO `Standard` VALUES (135,'XdgDesktop','Desktop Entry Specification Ver
 INSERT INTO `Standard` VALUES (136,'XdgIcon','Icon Theme Specification Version 0.10','http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-0.10.html','','Standard',0,'Icon Theme Spec',NULL);
 INSERT INTO `Standard` VALUES (137,'XdgBasedir','XDG Base Directory Specification Versio 0.6','http://standards.freedesktop.org/basedir-spec/basedir-spec-0.6.html','','Reference',1,'Base Directory Spec',NULL);
 INSERT INTO `Standard` VALUES (138,'xdg-utils','Portland Project XDG Utilities Reference 1.0','http://portland.freedesktop.org/xdg-utils-1.0/','','Reference',1,'xdg-utils reference',NULL);
+INSERT INTO `Standard` VALUES (139,'PerlFun','Perl 5.8.8 Functions','http://perldoc.perl.org/5.8.8/perlfunc.html','','Reference',1,'Perl Functions',NULL);
+INSERT INTO `Standard` VALUES (140,'PerlMan','Perl 5.8.8 Manual Page','http://perldoc.perl.org/5.8.8/perlrun.html','','Reference',1,'Perl Manual',NULL);
