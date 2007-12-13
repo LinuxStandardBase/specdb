@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -20,10 +20,10 @@
 
 DROP TABLE IF EXISTS `AppCategory`;
 CREATE TABLE `AppCategory` (
-  `ACaid` int(10) unsigned NOT NULL auto_increment,
-  `AClicense` enum('Open Source','Proprietary','Unknown') NOT NULL default 'Open Source',
-  `ACui` enum('Command Line','GUI','Unknown') NOT NULL default 'GUI',
-  `ACsize` enum('Large','Medium','Small','Unknown') NOT NULL default 'Small',
+  `ACaid` int(10) unsigned NOT NULL default '0',
+  `AClicense` enum('Open Source','Proprietary','Mixed','Unknown') NOT NULL default 'Unknown',
+  `ACui` enum('non-GUI','GUI','Unknown') NOT NULL default 'Unknown',
+  `ACsize` enum('Large','Medium','Small','Unknown') NOT NULL default 'Unknown',
   `ACvendor` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`ACaid`),
   KEY `k_ACcategories` (`AClicense`,`ACui`,`ACsize`,`ACvendor`),
@@ -44,3 +44,4 @@ CREATE TABLE `AppCategory` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2007-12-13  9:11:43
