@@ -3016,7 +3016,7 @@ INSERT INTO `Constant` VALUES (3016,'_GCC_LIMITS_H_','int',15,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3017,'_GCC_NEXT_LIMITS_H','int',15,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3018,'__set_errno(x)','int',17,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3019,'O_DIRECT','int',0,'',NULL,'No');
-INSERT INTO `Constant` VALUES (3020,'O_LARGEFILE','int',0,'',NULL,'No');
+INSERT INTO `Constant` VALUES (3020,'O_LARGEFILE','int',18,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3021,'O_DIRECTORY','int',0,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3022,'O_NOFOLLOW','int',0,'',NULL,'No');
 INSERT INTO `Constant` VALUES (3023,'F_SETSIG','int',323,'','3.2','No');
