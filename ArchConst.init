@@ -5926,7 +5926,7 @@ INSERT INTO `ArchConst` VALUES (1,6251,'(0x000000ff)','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6252,'(8)','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6253,' \\\n	(((GClosure*) (closure))->marshal == NULL)','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6254,' \\\n	((cl)->meta_marshal + ((cl)->n_guards << 1L) + (cl)->n_fnotifiers + \\\n	(cl)->n_inotifiers)','3.1',NULL);
-INSERT INTO `ArchConst` VALUES (1,6255,' \\\n	(((GClosure*) (closure))->derivative_flag)','3.1',NULL);
+INSERT INTO `ArchConst` VALUES (1,6255,' \\\n	(((GClosure*) (cclosure))->derivative_flag)','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6256,'((GCallback) (f))','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6257,'g_cclosure_marshal_BOOLEAN__FLAGS','3.1',NULL);
 INSERT INTO `ArchConst` VALUES (1,6258,'0x7f','3.1',NULL);
