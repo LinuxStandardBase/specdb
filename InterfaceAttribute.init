@@ -648,3 +648,9 @@ INSERT INTO `InterfaceAttribute` VALUES (1143,'FT_GlyphSlot_Embolden','libfreety
 INSERT INTO `InterfaceAttribute` VALUES (1144,'FT_GlyphSlot_Oblique','libfreetype','Recommendation','This interface is marked alpha/due to change/do not use this function directly');
 INSERT INTO `InterfaceAttribute` VALUES (1145,'FT_Outline_Done_Internal','libfreetype','Recommendation','Internal function, should not be used in user code');
 INSERT INTO `InterfaceAttribute` VALUES (1146,'FT_Outline_New_Internal','libfreetype','Recommendation','Internal function, should not be used in user code');
+INSERT INTO `InterfaceAttribute` VALUES (1147,'chroot','libc','Recommendation','This interface is deprecated and is no longer in POSIX.');
+INSERT INTO `InterfaceAttribute` VALUES (1148,'cuserid','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Use getlogin_r() or getpwuid(geteuid()) depending on context.');
+INSERT INTO `InterfaceAttribute` VALUES (1149,'getw','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Use fread() instead');
+INSERT INTO `InterfaceAttribute` VALUES (1150,'putw','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Use fwrite() instead');
+INSERT INTO `InterfaceAttribute` VALUES (1151,'brk','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Its use will interfere with the use of malloc elsewhere in the program, and such usage may be silent through library routines. Use malloc() for portable memory allocation instead');
+INSERT INTO `InterfaceAttribute` VALUES (1152,'sbrk','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Its use will interfere with the use of malloc elsewhere in the program, and such usage may be silent through library routines. Use malloc() for portable memory allocation instead');
