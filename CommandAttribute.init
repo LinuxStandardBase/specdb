@@ -1,0 +1,2 @@
+INSERT INTO `CommandAttribute` VALUES (1,'cpio','Recommendation','This command is deprecated and is no longer in POSIX. Suggest to use pax instead.');
+INSERT INTO `CommandAttribute` VALUES (2,'tar','Recommendation','This command is deprecated and is no longer in POSIX. Suggest to use pax instead.');
