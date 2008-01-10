@@ -12682,3 +12682,6 @@ INSERT INTO `Type` VALUES (29630,'cups_cspace_t','Typedef',1293,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (29631,'anon-cups/raster.h-43','Struct',1293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29632,'cups_page_header_t','Typedef',1293,'',NULL,'Unknown','Unknown','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29633,'cups_page_header_t *','Pointer',1293,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (29634,'char[27][256]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (29635,'float[3][3]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (29636,'XFixed[3][3]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
