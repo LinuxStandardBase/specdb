@@ -6,4 +6,5 @@ INSERT INTO `LSBVersion` VALUES (5,'2.0','Yes');
 INSERT INTO `LSBVersion` VALUES (6,'2.1','Yes');
 INSERT INTO `LSBVersion` VALUES (7,'3.0','Yes');
 INSERT INTO `LSBVersion` VALUES (8,'3.1','Yes');
-INSERT INTO `LSBVersion` VALUES (9,'3.2','No');
+INSERT INTO `LSBVersion` VALUES (9,'3.2','Yes');
+INSERT INTO `LSBVersion` VALUES (10,'4.0','No');
