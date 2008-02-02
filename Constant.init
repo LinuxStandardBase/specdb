@@ -11436,3 +11436,4 @@ INSERT INTO `Constant` VALUES (11896,'CUPS_RASTER_REVSYNC','int',1293,'',NULL,'N
 INSERT INTO `Constant` VALUES (11897,'CUPS_RASTER_SYNC','int',1293,'',NULL,'No');
 INSERT INTO `Constant` VALUES (11898,'_CUPS_RASTER_H_','Unknown',1293,'',NULL,'No');
 INSERT INTO `Constant` VALUES (11899,'glib-2.0/glib.h depends on limits.h','header_depend',609,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11900,'RTLD_DEFAULT','int',16,'',NULL,'No');
