@@ -11437,3 +11437,7 @@ INSERT INTO `Constant` VALUES (11897,'CUPS_RASTER_SYNC','int',1293,'',NULL,'No')
 INSERT INTO `Constant` VALUES (11898,'_CUPS_RASTER_H_','Unknown',1293,'',NULL,'No');
 INSERT INTO `Constant` VALUES (11899,'glib-2.0/glib.h depends on limits.h','header_depend',609,'',NULL,'No');
 INSERT INTO `Constant` VALUES (11900,'RTLD_DEFAULT','int',16,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11901,'AI_V4MAPPED','int',482,'IPv4 mapped addresses are acceptable.',NULL,'No');
+INSERT INTO `Constant` VALUES (11902,'AI_ALL','int',482,'Return IPv4 mapped and IPv6 addresses.',NULL,'No');
+INSERT INTO `Constant` VALUES (11903,'AI_ADDRCONFIG','int',482,'Use configuration of this host to choose returned address type..',NULL,'No');
+INSERT INTO `Constant` VALUES (11904,'AI_NUMERICSERV','int',482,'Don\'t use name resolution',NULL,'No');
