@@ -644,10 +644,10 @@ INSERT INTO `InterfaceAttribute` VALUES (1139,'snd_pcm_hw_params_is_block_transf
 INSERT INTO `InterfaceAttribute` VALUES (1140,'snd_pcm_hw_params_set_periods_min','libasound','Recommendation','snd_pcm_hw_params have *_set_min() and *_set_max() functions but they are not really helpful because the app has to pass the definite value via *_set_xxx() or *_set_xxx_near(). So, set_min() doesn\'t make much sense if you reset the value anyway.');
 INSERT INTO `InterfaceAttribute` VALUES (1141,'snd_pcm_sw_params_set_sleep_min','libasound','Recommendation','This function is related with snd_pcm_hw_params_*_tick_time_* functions which are conceptually badly implemented and should not be used.');
 INSERT INTO `InterfaceAttribute` VALUES (1142,'inet_aton','libc','Recommendation','This interface is deprecated. Use inet_pton instead');
-INSERT INTO `InterfaceAttribute` VALUES (1143,'FT_GlyphSlot_Embolden','libfreetype','Recommendation','This interface is marked alpha/due to change. Do not use yet');
-INSERT INTO `InterfaceAttribute` VALUES (1144,'FT_GlyphSlot_Oblique','libfreetype','Recommendation','This interface is marked alpha/due to change/do not use this function directly');
-INSERT INTO `InterfaceAttribute` VALUES (1145,'FT_Outline_Done_Internal','libfreetype','Recommendation','Internal function, should not be used in user code');
 INSERT INTO `InterfaceAttribute` VALUES (1146,'FT_Outline_New_Internal','libfreetype','Recommendation','Internal function, should not be used in user code');
+INSERT INTO `InterfaceAttribute` VALUES (1145,'FT_Outline_Done_Internal','libfreetype','Recommendation','Internal function, should not be used in user code');
+INSERT INTO `InterfaceAttribute` VALUES (1144,'FT_GlyphSlot_Oblique','libfreetype','Recommendation','This interface is marked alpha/due to change/do not use this function directly');
+INSERT INTO `InterfaceAttribute` VALUES (1143,'FT_GlyphSlot_Embolden','libfreetype','Recommendation','This interface is marked alpha/due to change. Do not use yet');
 INSERT INTO `InterfaceAttribute` VALUES (1147,'chroot','libc','Recommendation','This interface is deprecated and is no longer in POSIX.');
 INSERT INTO `InterfaceAttribute` VALUES (1148,'cuserid','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Use getlogin_r() or getpwuid(geteuid()) depending on context.');
 INSERT INTO `InterfaceAttribute` VALUES (1149,'getw','libc','Recommendation','This interface is deprecated and is no longer in POSIX. Use fread() instead');

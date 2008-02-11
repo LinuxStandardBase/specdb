@@ -72,3 +72,25 @@ CREATE TABLE `cache_RIntNames`
 -- 	by 'create_cache_tables_inits.sh' script
 --    SELECT distinct RIname FROM RawInterface;
 
+CREATE TEMPORARY TABLE `tmp_DistrCmds`
+    (KEY `Did`(`Did`))
+    SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM Component
+    LEFT JOIN RawCommand ON RCcomponent=Cid
+    GROUP BY Cdistr;
+    
+CREATE TEMPORARY TABLE `tmp_DistrClasses`
+    (KEY `Did`(`Did`))
+    SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM Component
+    LEFT JOIN RawLibrary ON RLcomponent=Cid
+    LEFT JOIN RLibRClass ON RLRCrlid=RLid
+    GROUP BY Cdistr;
+
+DROP TABLE IF EXISTS `cache_DistrContent`;
+CREATE TABLE `cache_DistrContent`
+    (PRIMARY KEY `Did` (`Did`) )
+    SELECT Cdistr AS Did, COUNT(distinct Cid) AS comp_cnt, COUNT(distinct RLid) AS lib_cnt, COUNT(distinct RLRIriid) AS int_cnt, cmd_cnt, class_cnt FROM Component
+    LEFT JOIN RawLibrary ON RLcomponent=Cid
+    LEFT JOIN RLibRInt ON RLRIrlid=RLid
+    LEFT JOIN tmp_DistrCmds ON Cdistr=Did
+    LEFT JOIN tmp_DistrClasses USING(Did)
+    GROUP BY Cdistr;

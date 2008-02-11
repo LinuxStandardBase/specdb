@@ -26,8 +26,8 @@ BEGIN
 	    EXECUTE stmt;
 	    
 	    SET @stmt_text = CONCAT( "CREATE TABLE ", @table_name,
-		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid FROM Interface
+		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `Istd`(`Istd`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
+		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, Istandard AS Istd FROM Interface
 		LEFT JOIN ArchInt ON AIint=Iid
 		LEFT JOIN LGInt ON LGIint=Iid 
 		LEFT JOIN LibGroup ON LGIlibg=LGid
@@ -57,8 +57,8 @@ BEGIN
 		EXECUTE stmt;
 		
 		SET @stmt_text = CONCAT( "CREATE TABLE ", @table_arch_name,
-		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid FROM ", @table_name,
+		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `Istd`(`Istd`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
+		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid, Istd FROM ", @table_name,
 		    " WHERE AIarch=1 OR AIarch=", arch,
 		    " GROUP BY Iid");
 		PREPARE stmt FROM @stmt_text;

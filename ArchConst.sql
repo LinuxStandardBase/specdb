@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -25,6 +25,7 @@ CREATE TABLE `ArchConst` (
   `ACvalue` text NOT NULL,
   `ACappearedin` varchar(255) NOT NULL default '',
   `ACwithdrawnin` varchar(255) default NULL,
+  `ACorder` int(11) NOT NULL default '0',
   PRIMARY KEY  (`ACaid`,`ACcid`,`ACappearedin`),
   KEY `k_cid` (`ACcid`),
   KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`),
@@ -40,3 +41,4 @@ CREATE TABLE `ArchConst` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-02-11  9:47:46

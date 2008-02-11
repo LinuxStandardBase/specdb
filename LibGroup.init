@@ -341,3 +341,4 @@ INSERT INTO `LibGroup` VALUES (625,'ALSA Simple Mixer Interface',272,39,'ALSA Si
 INSERT INTO `LibGroup` VALUES (626,'ALSA Timer Interface',272,40,'ALSA Timer Interface');
 INSERT INTO `LibGroup` VALUES (627,'ALSA Sequencer Event Type Checks',272,27,'ALSA Sequencer Event Type Checks');
 INSERT INTO `LibGroup` VALUES (628,'ALSA Error Handling',272,28,'ALSA Error Handling');
+INSERT INTO `LibGroup` VALUES (629,'GL Utilities',275,0,'GL Utilities');

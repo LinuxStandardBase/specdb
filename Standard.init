@@ -118,12 +118,12 @@ INSERT INTO `Standard` VALUES (123,'xft','Xft Specification Placeholder','','','
 INSERT INTO `Standard` VALUES (124,'ALSA','ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/','ALSA Library API Reference','Reference',1,'ALSA Library API Reference','http://www.alsa-project.org/alsa-doc/alsa-lib/');
 INSERT INTO `Standard` VALUES (125,'PPD','PostScript Printer Description File Format Specification version 4.3','http://partners.adobe.com/public/developer/en/ps/5003.PPD_Spec_v4.3.pdf','PPD Specification','Standard',1,'PPD Specification',NULL);
 INSERT INTO `Standard` VALUES (126,'PPDUpdate','Update to PPD Specification Version 4.3','http://partners.adobe.com/public/developer/en/ps/5645.PPD_Update.pdf','PPD Specification Update','Standard',1,'PPD Specification Update',NULL);
-INSERT INTO `Standard` VALUES (127,'PerlLang','Perl 5.8.8 Language Reference','http://perldoc.perl.org/5.8.8/index-language.html','','Reference',1,'Perl Language Reference',NULL);
+INSERT INTO `Standard` VALUES (127,'PerlLang','Perl 5.8.8 Language Reference','http://perldoc.perl.org/5.8.8/index-language.html','','Reference',1,'Perl Language Reference','http://perldoc.perl.org/5.8.8');
 INSERT INTO `Standard` VALUES (128,'PerlFunc','Perl 5.8.8 Functions A-Z','http://perldoc.perl.org/5.8.8/perlfunc.html','','Reference',1,'Perl Functions',NULL);
 INSERT INTO `Standard` VALUES (129,'PerlMod','Perl 5.8.8 Core Modules','http://perldoc.perl.org/5.8.8/index-modules-A.html','','Reference',1,'Perl Core Modules',NULL);
 INSERT INTO `Standard` VALUES (130,'PerlOp','Perl 5.8.8 Operators and Precedence','http://perldoc.perl.org/5.8.8/perlop.html','','Reference',1,'Perl Operators',NULL);
 INSERT INTO `Standard` VALUES (131,'PerlSyn','Perl 5.8.8 Syntax','http://perldoc.perl.org/5.8.8/perlsyn.html','','Reference',1,'Perl Syntax',NULL);
-INSERT INTO `Standard` VALUES (132,'PythonLib','Python Library Reference Release 2.4.2','http://www.python.org/doc/2.4.2/lib/lib.html','','Reference',1,'Python Library Reference',NULL);
+INSERT INTO `Standard` VALUES (132,'PythonLib','Python Library Reference Release 2.4.2','http://www.python.org/doc/2.4.2/lib/lib.html','','Reference',1,'Python Library Reference','http://www.python.org/doc/2.4.2/lib');
 INSERT INTO `Standard` VALUES (133,'Python','Python Reference Manual Release 2.4.2','http://www.python.org/doc/2.4.2/ref/ref.html','','Reference',1,'Python Reference Manual',NULL);
 INSERT INTO `Standard` VALUES (134,'XdgMenu','Desktop Menu Specification Version 1.0','http://standards.freedesktop.org/menu-spec/menu-spec-1.0.html','','Reference',1,'Desktop Menu Spec',NULL);
 INSERT INTO `Standard` VALUES (135,'XdgDesktop','Desktop Entry Specification Version 1.0','http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html','','Reference',1,'Desktop Entry Spec',NULL);

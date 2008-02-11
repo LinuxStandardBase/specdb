@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `BaseTypes`;
 CREATE TABLE `BaseTypes` (
   `BTcid` int(10) unsigned NOT NULL default '0',
   `BTpos` int(10) unsigned NOT NULL default '0',
-  `BTrttiid` int(10) unsigned NOT NULL default '0',
+  `BTbasetype` int(10) unsigned NOT NULL default '0',
   `BTaccess` enum('public','private','protected') NOT NULL default 'public',
   PRIMARY KEY  (`BTcid`,`BTpos`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -36,3 +36,4 @@ CREATE TABLE `BaseTypes` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-02-11  9:47:46
