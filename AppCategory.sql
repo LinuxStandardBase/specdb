@@ -25,6 +25,7 @@ CREATE TABLE `AppCategory` (
   `ACui` enum('non-GUI','GUI','Unknown') NOT NULL default 'Unknown',
   `ACsize` enum('Large','Medium','Small','Unknown') NOT NULL default 'Unknown',
   `ACvendor` varchar(255) NOT NULL default '',
+  `ACcategory` enum('Accessibility and i18n','Antivirus and Secutity','Emulators','Office and Desktop','Data Management','Development','Games','Multimedia and Graphics','Network','Science and Education','System Tools','X11 Utilities','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`ACaid`),
   KEY `k_ACcategories` (`AClicense`,`ACui`,`ACsize`,`ACvendor`),
   KEY `k_ACui_size_vendor` (`ACui`,`ACsize`,`ACvendor`),
@@ -44,4 +45,4 @@ CREATE TABLE `AppCategory` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2007-12-13  9:11:43
+-- Dump completed on 2008-02-11  9:47:44

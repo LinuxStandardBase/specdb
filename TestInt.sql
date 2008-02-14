@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `TestInt`;
 CREATE TABLE `TestInt` (
   `TSIint` int(10) unsigned NOT NULL default '0',
   `TSItest` int(10) unsigned NOT NULL default '0',
-  `TSIquality` enum('Primary','Secondary','Called') default 'Called',
+  `TSIquality` enum('Deep','Normal','Shallow') NOT NULL default 'Shallow',
   `TSIcomment` varchar(255) default NULL,
   PRIMARY KEY  (`TSIint`,`TSItest`),
   KEY `k_IntQuality` (`TSIint`,`TSIquality`),
@@ -39,3 +39,4 @@ CREATE TABLE `TestInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-02-12 10:40:28
