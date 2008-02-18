@@ -1,6 +1,6 @@
--- MySQL dump 10.11
+-- MySQL dump 10.10
 --
--- Host: localhost    Database: lsb
+-- Host: db.linux-foundation.org    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -37,4 +37,3 @@ CREATE TABLE `TypeMemberExtras` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-02-11  9:49:48
