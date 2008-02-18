@@ -110,7 +110,7 @@ INSERT INTO `ClassInfo` VALUES (155,'_ZSt12codecvt_base',10676,0,0,1,24009,'0',2
 INSERT INTO `ClassInfo` VALUES (156,'_ZSt13messages_base',10674,0,0,1,24011,'0',24011,0,0,0,0,23981,350,'1',0,0,'std::messages_base',0);
 INSERT INTO `ClassInfo` VALUES (157,'_ZSt15basic_streambufIcSt11char_traitsIcEE',10690,24315,14,1,23990,'0',0,0,0,0,0,23981,362,'1',0,0,'std::basic_streambuf<char, std::char_traits<char> >',0);
 INSERT INTO `ClassInfo` VALUES (158,'_ZSt15basic_streambufIwSt11char_traitsIwEE',10607,24314,14,1,23991,'0',0,0,0,0,0,23981,363,'1',0,0,'std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >',0);
-INSERT INTO `ClassInfo` VALUES (159,'_ZSt8ios_base',10621,0,0,1,24001,'0',0,0,0,0,0,23981,401,'1',0,0,'std::ios_base',0);
+INSERT INTO `ClassInfo` VALUES (159,'_ZSt8ios_base',10621,29891,2,1,24001,'0',0,0,0,0,0,23981,401,'1',0,0,'std::ios_base',0);
 INSERT INTO `ClassInfo` VALUES (160,'_ZSt9exception',10696,24321,3,1,24002,'0',0,0,0,0,0,23981,413,'1',0,0,'std::exception',0);
 INSERT INTO `ClassInfo` VALUES (161,'_ZSt9time_base',10672,0,0,1,24016,'0',0,0,0,0,0,23981,419,'1',0,0,'std::time_base',0);
 INSERT INTO `ClassInfo` VALUES (162,'_ZSt9type_info',10699,24325,6,1,24030,'0',0,0,0,0,0,23981,420,'1',0,0,'std::type_info',0);
