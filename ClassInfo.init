@@ -8,8 +8,8 @@ INSERT INTO `ClassInfo` VALUES (7,'_ZN10__cxxabiv120__si_class_type_infoE',10703
 INSERT INTO `ClassInfo` VALUES (8,'_ZN10__cxxabiv121__vmi_class_type_infoE',10704,23980,9,1,24093,'0',24031,0,0,0,0,23979,312,'1',0,0,'__cxxabiv1::__vmi_class_type_info',0);
 INSERT INTO `ClassInfo` VALUES (9,'_ZN10__cxxabiv123__fundamental_type_infoE',10705,23982,6,1,24102,'0',24030,0,0,0,0,23979,313,'1',0,0,'__cxxabiv1::__fundamental_type_info',0);
 INSERT INTO `ClassInfo` VALUES (10,'_ZN10__cxxabiv129__pointer_to_member_type_infoE',10711,24326,7,1,24097,'0',24032,0,0,0,0,23979,314,'1',0,0,'__cxxabiv1::__pointer_to_member_type_info',0);
-INSERT INTO `ClassInfo` VALUES (11,'_ZN9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE',10600,29351,8,1,0,'0',23988,0,0,0,0,23979,315,'1',0,0,'__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >',0);
-INSERT INTO `ClassInfo` VALUES (12,'_ZN9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE',10601,29211,8,1,0,'0',23989,0,0,0,0,23979,316,'1',0,0,'__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >',0);
+INSERT INTO `ClassInfo` VALUES (11,'_ZN9__gnu_cxx18stdio_sync_filebufIcSt11char_traitsIcEEE',31632,29351,8,1,0,'0',23988,0,0,0,0,23979,464,'1',0,0,'__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >',0);
+INSERT INTO `ClassInfo` VALUES (12,'_ZN9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE',31633,29211,8,1,0,'0',23989,0,0,0,0,23979,465,'1',0,0,'__gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t> >',0);
 INSERT INTO `ClassInfo` VALUES (13,'_ZNSt8ios_base7failureE',10622,24252,3,1,24059,'0',24002,0,0,0,0,23979,318,'1',0,0,'std::ios_base::failure',0);
 INSERT INTO `ClassInfo` VALUES (14,'_ZSt10bad_typeid',10701,24323,3,1,24095,'0',24002,0,0,0,0,23979,323,'1',0,0,'std::bad_typeid',0);
 INSERT INTO `ClassInfo` VALUES (15,'_ZSt10istrstream',10693,24318,2,2,0,'0',23992,0,0,100,0,0,325,'2',0,4,'std::istrstream',0);
@@ -1654,3 +1654,5 @@ INSERT INTO `ClassInfo` VALUES (2487,'_Z15QVarLengthArrayI11QFixedPointLi256EE',
 INSERT INTO `ClassInfo` VALUES (2488,'_Z15QVarLengthArrayIjLi256EE',0,0,0,1,0,'0',0,0,0,0,0,0,0,'1',0,0,'QVarLengthArray<unsigned int, 256>',0);
 INSERT INTO `ClassInfo` VALUES (2489,'_Z7QVectorI13QLayoutStructE',0,0,0,1,0,'0',0,0,0,0,0,0,0,'1',0,0,'QVector<QLayoutStruct>',0);
 INSERT INTO `ClassInfo` VALUES (2490,'_Z20QWindowsStylePrivate',0,0,0,1,0,'0',0,0,0,0,0,0,0,'1',0,0,'QWindowsStylePrivate',0);
+INSERT INTO `ClassInfo` VALUES (2491,'_ZN9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE',0,96370,8,1,0,'',23988,0,0,0,0,23979,315,'1',0,0,'__gnu_cxx::stdio_filebuf<char, std::char_traits<char> >',0);
+INSERT INTO `ClassInfo` VALUES (2492,'_ZN9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE',0,96371,8,1,0,'',23989,0,0,0,0,23979,316,'1',0,0,'__gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t> >',0);
