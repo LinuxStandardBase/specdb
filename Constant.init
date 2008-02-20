@@ -11441,3 +11441,7 @@ INSERT INTO `Constant` VALUES (11902,'AI_ALL','int',482,'Return IPv4 mapped and 
 INSERT INTO `Constant` VALUES (11903,'AI_ADDRCONFIG','int',482,'Use configuration of this host to choose returned address type..',NULL,'No');
 INSERT INTO `Constant` VALUES (11904,'AI_NUMERICSERV','int',482,'Don\'t use name resolution',NULL,'No');
 INSERT INTO `Constant` VALUES (11900,'RTLD_DEFAULT','int',16,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11905,'uc_mcontext','int',396,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11906,'uc_sigmask','int',396,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11907,'uc_stack','int',396,'',NULL,'No');
+INSERT INTO `Constant` VALUES (11908,'uc_link','int',396,'',NULL,'No');
