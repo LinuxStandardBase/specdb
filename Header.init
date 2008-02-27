@@ -846,5 +846,5 @@ INSERT INTO `Header` VALUES (851,'QtGui/qgraphicsitemanimation.h',256,'No',NULL,
 INSERT INTO `Header` VALUES (852,'QtGui/qgraphicsview.h',256,'No',NULL,'',NULL,'No');
 INSERT INTO `Header` VALUES (853,'QtGui/qundoview.h',256,'No',NULL,'',NULL,'No');
 INSERT INTO `Header` VALUES (864,'QtGui/qcalendarwidget.h',256,'No',NULL,'',NULL,'No');
-INSERT INTO `Header` VALUES (865,'GL/glu.h',275,'Unknown',NULL,'',NULL,'Unknown');
+INSERT INTO `Header` VALUES (865,'GL/glu.h',275,'Unknown',NULL,'4.0',NULL,'Unknown');
 INSERT INTO `Header` VALUES (866,'QtCore/qvarlengtharray.h',255,'No','','',NULL,'No');
