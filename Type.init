@@ -14671,3 +14671,6 @@ INSERT INTO `Type` VALUES (31641,'GLUquadricObj','Typedef',1332,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (31642,'GLUnurbs','Struct',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
 INSERT INTO `Type` VALUES (31643,'GLUnurbs *','Pointer',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
 INSERT INTO `Type` VALUES (31644,'GLUnurbsObj','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
+INSERT INTO `Type` VALUES (31645,'volatile gint *','Volatile',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (31646,'volatile gpointer *','Volatile',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (31647,'volatile guint','Volatile',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libglib-2.0',0);
