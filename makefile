@@ -53,7 +53,7 @@ restore::
 	done
 
 restoreall::
-	@mysqladmin $(DBOPTS) drop $$LSBDB
+        mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
 	@mysqladmin $(DBOPTS) create $$LSBDB
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 	sleep 5
