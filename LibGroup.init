@@ -219,7 +219,7 @@ INSERT INTO `LibGroup` VALUES (493,'Posix Spawn Option',131,5,'POSIX Spawn (SPN)
 INSERT INTO `LibGroup` VALUES (494,'Message Queues',223,4,'POSIX Message Queue (MSG) interfaces');
 INSERT INTO `LibGroup` VALUES (495,'Posix Advisory Option',131,5,'POSIX Advisory Information(ADV) interfaces');
 INSERT INTO `LibGroup` VALUES (496,'Class std::allocator<char>',231,301,'');
-INSERT INTO `LibGroup` VALUES (497,'Class std::allocator<wchar>',231,302,'');
+INSERT INTO `LibGroup` VALUES (497,'Class std::allocator<wchar_t>',231,302,'');
 INSERT INTO `LibGroup` VALUES (498,'Glib Arrays',242,250,'Arrays');
 INSERT INTO `LibGroup` VALUES (499,'Glib Asynchronous Queues',242,251,'Asynchronous Queues');
 INSERT INTO `LibGroup` VALUES (500,'Glib Atomic Operations',242,252,'Atomic Operations');
