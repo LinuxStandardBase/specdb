@@ -196,7 +196,6 @@ INSERT INTO `LibGroup` VALUES (469,'Font Customization and Configuration Library
 INSERT INTO `LibGroup` VALUES (470,'PNG Reference library',240,0,'PNG Reference library');
 INSERT INTO `LibGroup` VALUES (471,'JPEG Reference library',241,0,'JPEG Reference library');
 INSERT INTO `LibGroup` VALUES (472,'GTK General purpose utility library',242,0,'GTK General purpose utility library');
-INSERT INTO `LibGroup` VALUES (473,'Glib Object System',243,0,'Glib Object System');
 INSERT INTO `LibGroup` VALUES (474,'Glib-Dynamic loading of Modules',244,0,'Glib-Dynamic loading of Modules');
 INSERT INTO `LibGroup` VALUES (475,'Glib thread abstraction',245,0,'Glib thread abstraction');
 INSERT INTO `LibGroup` VALUES (476,'GTK Accessibility Toolkit',246,0,'GTK Accessibility Toolkit');
@@ -220,7 +219,7 @@ INSERT INTO `LibGroup` VALUES (493,'Posix Spawn Option',131,5,'POSIX Spawn (SPN)
 INSERT INTO `LibGroup` VALUES (494,'Message Queues',223,4,'POSIX Message Queue (MSG) interfaces');
 INSERT INTO `LibGroup` VALUES (495,'Posix Advisory Option',131,5,'POSIX Advisory Information(ADV) interfaces');
 INSERT INTO `LibGroup` VALUES (496,'Class std::allocator<char>',231,301,'');
-INSERT INTO `LibGroup` VALUES (497,'Class std::allocator<wchar>',231,302,'');
+INSERT INTO `LibGroup` VALUES (497,'Class std::allocator<wchar_t>',231,302,'');
 INSERT INTO `LibGroup` VALUES (498,'Glib Arrays',242,250,'Arrays');
 INSERT INTO `LibGroup` VALUES (499,'Glib Asynchronous Queues',242,251,'Asynchronous Queues');
 INSERT INTO `LibGroup` VALUES (500,'Glib Atomic Operations',242,252,'Atomic Operations');
@@ -379,3 +378,15 @@ INSERT INTO `LibGroup` VALUES (663,'Qt4 Object Model',255,13,'Qt4 Object Model')
 INSERT INTO `LibGroup` VALUES (664,'Qt4 Threading',255,14,'Qt4 Threading');
 INSERT INTO `LibGroup` VALUES (665,'Qt4 2D Graphics',255,15,'Qt4 2D Graphics');
 INSERT INTO `LibGroup` VALUES (666,'Qt4 Internals',255,16,'Qt4 Internals');
+INSERT INTO `LibGroup` VALUES (667,'Gobject GTypeModule',243,39,'Gobject GTypeModule');
+INSERT INTO `LibGroup` VALUES (668,'Gobject Enums and Flags',243,40,'Gobject Enums and Flags');
+INSERT INTO `LibGroup` VALUES (669,'Gobject Signals',243,41,'Gobject Signals');
+INSERT INTO `LibGroup` VALUES (670,'Gobject Value arrays',243,42,'Gobject Value arrays');
+INSERT INTO `LibGroup` VALUES (671,'Gobject Generic Values',243,43,'Gobject Generic Values');
+INSERT INTO `LibGroup` VALUES (672,'Gobject Parameters and Values',243,44,'Gobject Parameters and Values');
+INSERT INTO `LibGroup` VALUES (673,'Gobject GParamSpec',243,45,'Gobject GParamSpec');
+INSERT INTO `LibGroup` VALUES (674,'Gobject GBoxed',243,46,'Gobject GBoxed');
+INSERT INTO `LibGroup` VALUES (675,'Gobject Closures',243,47,'Gobject Closures');
+INSERT INTO `LibGroup` VALUES (676,'Gobject Gobject',243,48,'Gobject Gobject');
+INSERT INTO `LibGroup` VALUES (677,'Gobject GType',243,49,'Gobject GType');
+INSERT INTO `LibGroup` VALUES (678,'Gobject GTypePlugin',243,50,'Gobject GTypePlugin');
