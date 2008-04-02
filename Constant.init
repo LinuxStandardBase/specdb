@@ -11600,3 +11600,7 @@ INSERT INTO `Constant` VALUES (12060,'GLU_TESS_END','int',1332,'',NULL,'No');
 INSERT INTO `Constant` VALUES (12061,'GLU_INVALID_VALUE','int',1332,'',NULL,'No');
 INSERT INTO `Constant` VALUES (12062,'GLU_EDGE_FLAG','int',1332,'',NULL,'No');
 INSERT INTO `Constant` VALUES (12063,'GLU_EXT_nurbs_tessellator','int',1332,'',NULL,'No');
+INSERT INTO `Constant` VALUES (12064,'POLLRDNORM','int',430,'Normal data may be\nread',NULL,'No');
+INSERT INTO `Constant` VALUES (12065,'POLLRDBAND','int',430,'Priority data may be\nread',NULL,'No');
+INSERT INTO `Constant` VALUES (12066,'POLLWRNORM','int',430,'Writing now will not\nblock',NULL,'No');
+INSERT INTO `Constant` VALUES (12067,'POLLWRBAND','int',430,'Priority data may be\nwritten',NULL,'No');
