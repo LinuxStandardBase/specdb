@@ -1,3 +1,4 @@
-INSERT INTO `AbiApi` VALUES (63086,2673,'#define strerror_r __xpg_strerror_r');
-INSERT INTO `AbiApi` VALUES (63084,419,'#define basename __xpg_basename');
-INSERT INTO `AbiApi` VALUES (63085,1422,'#define sigpause __xpg_sigpause');
+INSERT INTO `AbiApi` VALUES (63086,2673,'#define strerror_r __xpg_strerror_r','3.2',NULL);
+INSERT INTO `AbiApi` VALUES (63084,419,'#define basename __xpg_basename','3.2',NULL);
+INSERT INTO `AbiApi` VALUES (63085,1422,'#define sigpause __xpg_sigpause','3.2',NULL);
+INSERT INTO `AbiApi` VALUES (310,1436,'#define __strdup strdup','3.0',NULL);

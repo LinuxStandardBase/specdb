@@ -1,3 +1,5 @@
+SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024;
+
 delimiter //
 
 DROP PROCEDURE IF EXISTS create_included_ints_table //
@@ -26,14 +28,20 @@ BEGIN
 	    EXECUTE stmt;
 	    
 	    SET @stmt_text = CONCAT( "CREATE TABLE ", @table_name,
-		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `Istd`(`Istd`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, Istandard AS Istd FROM Interface
+		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
+		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, ISsid FROM Interface
 		LEFT JOIN ArchInt ON AIint=Iid
+		LEFT JOIN IntStd ON ISiid=Iid
 		LEFT JOIN LGInt ON LGIint=Iid 
 		LEFT JOIN LibGroup ON LGIlibg=LGid
-		WHERE AIappearedin <> '' AND AIappearedin <= '", version, "' AND AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "'" );
+		WHERE AIappearedin <> '' AND AIappearedin <= '", version, "' AND AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "'
+		AND ( ISsid IS NULL OR (ISappearedin <> '' AND ISappearedin <= '", version, "' AND ISwithdrawnin IS NULL OR ISwithdrawnin > '", version, "') )");
 	    PREPARE stmt FROM @stmt_text;
     	    EXECUTE stmt;
+	    
+--	    SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_name );
+--	    PREPARE stmt FROM @stmt_text;
+--	    EXECUTE stmt;
 	    
 	    SET @table_correspondance_name = CONCAT( @table_name, "_correspondance" );
             SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
@@ -47,7 +55,11 @@ BEGIN
 		);
 	    PREPARE stmt FROM @stmt_text;
 	    EXECUTE stmt;
-            
+
+--            SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_correspondance_name );
+--	    PREPARE stmt FROM @stmt_text;
+--	    EXECUTE stmt;
+				                
 	    OPEN arch_cur;
 	    REPEAT
 		FETCH arch_cur INTO arch;
@@ -57,13 +69,17 @@ BEGIN
 		EXECUTE stmt;
 		
 		SET @stmt_text = CONCAT( "CREATE TABLE ", @table_arch_name,
-		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `Istd`(`Istd`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid, Istd FROM ", @table_name,
+		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
+		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid, ISsid FROM ", @table_name,
 		    " WHERE AIarch=1 OR AIarch=", arch,
 		    " GROUP BY Iid");
 		PREPARE stmt FROM @stmt_text;
 		EXECUTE stmt;
-		
+
+--                SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_arch_name );
+--	        PREPARE stmt FROM @stmt_text;
+--		EXECUTE stmt;
+				    		
 		SET @table_correspondance_name = CONCAT( @table_arch_name, "_correspondance" );
 	        SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
                 PREPARE stmt FROM @stmt_text;
@@ -76,6 +92,10 @@ BEGIN
 		    );  
 		PREPARE stmt FROM @stmt_text;
 		EXECUTE stmt;
+		
+--                SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_correspondance_name );
+--	        PREPARE stmt FROM @stmt_text;
+--		EXECUTE stmt;		
 	    UNTIL done END REPEAT;
 	    SET done = 0;
 	    CLOSE arch_cur;

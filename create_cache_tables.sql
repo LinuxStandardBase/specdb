@@ -1,9 +1,8 @@
 -- Temporary table used to create the next one
 DROP TABLE IF EXISTS `cache_IntRoughCorrespondance`;
 CREATE TABLE `cache_IntRoughCorrespondance` 
-    (PRIMARY KEY `Iid` (`Iid`,`RIid`,`Ilibrary`), KEY `RIid` (`RIid`), KEY `Ilib` (`Ilibrary`,`RIlibrary`))
-    SELECT Iid, RIid, Ilibrary, RIlibrary FROM Interface,RawInterface
-    WHERE RIname=Iname;
+    SELECT Iid, RIid, Ilibrary, RIlibrary FROM Interface LEFT JOIN RawInterface ON Iname=RIname;
+DELETE FROM cache_IntRoughCorrespondance WHERE RIid IS NULL;
 
 -- Correspondance between RawInterface and Interface tables    
 DROP TABLE IF EXISTS `cache_IntCorrespondance`;
@@ -17,7 +16,7 @@ DROP TABLE cache_IntRoughCorrespondance;
 -- Temporary table used to create the next one
 DROP TABLE IF EXISTS `cache_AppRoughLibs`;
 CREATE TABLE `cache_AppRoughLibs`
-    (PRIMARY KEY `Aid` (`Aid`,`RIlibrary`))
+    (KEY `Aid` (`Aid`))
     SELECT DISTINCT AppRInt.ARIaid AS Aid, RIlibrary FROM AppRInt
     LEFT JOIN RawInterface ON RIid=ARIriid
     WHERE RIlibrary<>'';
@@ -33,13 +32,6 @@ CREATE TABLE `cache_AppLibUsage`
     
 DROP TABLE cache_AppRoughLibs;
 
--- Distinct (RIname, RIlibrary) values
-DROP TABLE IF EXISTS `cache_RLibRIntMapping`;
-CREATE TABLE `cache_RLibRIntMapping`
-(
-    PRIMARY KEY `RIname` (`RIname`,`RIlibrary`)
-)
-SELECT DISTINCT RIname, RIlibrary FROM RawInterface;
 ALTER TABLE cache_RLibRIntMapping ADD RLibRIntId int(10) unsigned NOT NULL auto_increment, ADD KEY `RLibRIntId`(`RLibRIntId`);
 
 -- Table with combined information about app<->rawint mapping.
@@ -54,24 +46,7 @@ SELECT Aname, Aversion, Aarch, ARIaid, RawInterface.RIid, RawInterface.RIlibrary
     LEFT JOIN cache_RLibRIntMapping ON cache_RLibRIntMapping.RIname=RawInterface.RIname AND cache_RLibRIntMapping.RIlibrary=RawInterface.RIlibrary
     LEFT JOIN Application ON Aid=ARIaid;
 
---DROP TABLE IF EXISTS `cache_RLibInterfaceMapping`;
---CREATE TABLE `cache_RLibInterfaceMapping`
---    (PRIMARY KEY `RIname` (`RIname`,`RIlibrary`,`Iid`), KEY `Iid`(`Iid`) )
---    SELECT distinct RawInterface.RIname, RawInterface.RIlibrary, Iid FROM cache_RLibRIntMapping
---    LEFT JOIN RawInterface USING(RIname,RIlibrary)
---    LEFT JOIN cache_IntCorrespondance USING(RIid);
-
--- Distinct RawInterface names.    
-DROP TABLE IF EXISTS `cache_RIntNames`;
-CREATE TABLE `cache_RIntNames`
-(
-    `RIname` varchar(750) character set latin1 collate latin1_bin NOT NULL default '',
-    PRIMARY KEY `RIname` (`RIname`)
-) ENGINE=MyISAM;
--- Do not perform 'select' here - it is too slow... Data for this table will be created
--- 	by 'create_cache_tables_inits.sh' script
---    SELECT distinct RIname FROM RawInterface;
-
+-- Two temporary tables to create the third one with distributions content
 CREATE TEMPORARY TABLE `tmp_DistrCmds`
     (KEY `Did`(`Did`))
     SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM Component

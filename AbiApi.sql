@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -23,6 +23,8 @@ CREATE TABLE `AbiApi` (
   `AAbinint` int(10) unsigned NOT NULL default '0',
   `AAsrcint` int(10) unsigned NOT NULL default '0',
   `AAvalue` text NOT NULL,
+  `AAappearedin` varchar(255) NOT NULL,
+  `AAwithdrawnin` varchar(255) default NULL,
   PRIMARY KEY  (`AAbinint`,`AAsrcint`,`AAvalue`(20)),
   KEY `k_src` (`AAsrcint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -36,3 +38,4 @@ CREATE TABLE `AbiApi` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-04-03 10:53:23
