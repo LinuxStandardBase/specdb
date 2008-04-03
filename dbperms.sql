@@ -57,5 +57,6 @@ GRANT CREATE TEMPORARY TABLES ON lsb.* TO lsbuser@localhost;
 # Allow lsbuser to add interface comments; authentication here will go
 # through the linux-foundation wiki
 GRANT INSERT ON InterfaceComment TO lsbuser@localhost;
+GRANT INSERT ON InterfaceVote TO lsbuser@localhost;
 
 FLUSH PRIVILEGES;

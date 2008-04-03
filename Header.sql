@@ -27,7 +27,6 @@ CREATE TABLE `Header` (
   `Hcandidatefor` varchar(255) default NULL,
   `Happearedin` varchar(255) NOT NULL default '',
   `Hwithdrawnin` varchar(255) default NULL,
-  `Hsrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`Hid`),
   UNIQUE KEY `Hname` (`Hname`,`Happearedin`),
   KEY `k_appearedin` (`Happearedin`,`Hwithdrawnin`),

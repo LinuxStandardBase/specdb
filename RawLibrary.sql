@@ -33,7 +33,7 @@ CREATE TABLE `RawLibrary` (
   UNIQUE KEY `k_RLrunname` (`RLrunname`,`RLpath`,`RLcomponent`),
   KEY `k_RLname` (`RLname`,`RLsoname`),
   KEY `k_RLcomponent` (`RLcomponent`)
-) ENGINE=MyISAM AUTO_INCREMENT=138769 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=66414 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -44,4 +44,4 @@ CREATE TABLE `RawLibrary` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-02-11  9:49:43
+-- Dump completed on 2008-04-03 10:33:38

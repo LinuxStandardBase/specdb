@@ -30,8 +30,9 @@ CREATE TABLE `RawInterface` (
   PRIMARY KEY  (`RIid`),
   UNIQUE KEY `k_RIname` (`RIname`,`RIlibrary`,`RIversion`,`RIrcid`),
   KEY `k_Class` (`RIrcid`),
-  KEY `k_Library` (`RIlibrary`)
-) ENGINE=MyISAM AUTO_INCREMENT=4709219 DEFAULT CHARSET=latin1;
+  KEY `k_Library` (`RIlibrary`),
+  KEY `k_RIunmangled` (`RIunmangled`(1000))
+) ENGINE=MyISAM AUTO_INCREMENT=2410325 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,4 +43,4 @@ CREATE TABLE `RawInterface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-02-11  9:49:17
+-- Dump completed on 2008-04-03 10:33:21

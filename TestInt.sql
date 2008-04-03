@@ -25,9 +25,8 @@ CREATE TABLE `TestInt` (
   `TSIquality` enum('Deep','Normal','Shallow') NOT NULL default 'Shallow',
   `TSIcomment` varchar(255) default NULL,
   PRIMARY KEY  (`TSIint`,`TSItest`),
-  KEY `k_IntQuality` (`TSIint`,`TSIquality`),
-  KEY `k_TSItest` (`TSItest`),
-  KEY `k_TSIquality` (`TSIquality`)
+  KEY `k_IntQuality` (`TSItest`,`TSIint`,`TSIquality`),
+  KEY `k_TSIquality` (`TSIquality`,`TSIint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -39,4 +38,4 @@ CREATE TABLE `TestInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-02-12 10:40:28
+-- Dump completed on 2008-04-03 10:33:41

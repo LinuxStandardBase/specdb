@@ -6,13 +6,13 @@
 #
 
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
-DUMPOPTS=--quote-names --extended-insert=false
+DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab Command CommandAttribute \
 	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
-	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule \
-	LGInt LibGroup Library LSBVersion ModCmd ModLib ModSMod Module SubModule \
+	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote\
+	LGInt LibGroup Library LibraryAttribute LSBVersion ModCmd ModLib ModSMod Module SubModule \
 	Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable
@@ -40,7 +40,10 @@ dumpall::
 		set +e; \
 		echo $$table; \
 		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
+		case "$(ELEMENTS)" in \
+			*"$$table"*) mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init ;; \
+			*) rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'" ;; \
+		esac;\
 	done
 
 restore::
@@ -56,22 +59,28 @@ restoreall::
 	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
 	@mysqladmin $(DBOPTS) create $$LSBDB
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
-	sleep 5
+#	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
 	do \
 		set +e; \
 		table=`basename $$table .sql`; \
 		echo $$table; \
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-		mysql $(DBOPTS) $$LSBDB <$$table.init; \
-		mysql $(DBOPTS) $$LSBDB -e "ANALYZE TABLE $$table"; \
+		case "$(ELEMENTS)" in \
+		        *"$$table"*) mysql $(DBOPTS) $$LSBDB <$$table.init ;; \
+		        *) mysql $(DBOPTS) $$LSBDB -e "load data infile \"$${PWD}/$${table}.init\" into table $$table" ;; \
+		esac;\
 	done'
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
-	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
-#	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
+	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
+	do \
+		table=`basename $$table .sql`; \
+		mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
+	done'
+	mysql $(DBOPTS) $$LSBDB <create_triggers.sql;
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
 # need a rule to populate the now external community tables,
@@ -80,9 +89,7 @@ restoreall::
 cache::
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
-	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
-#	mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
@@ -95,13 +102,11 @@ restore_apps::
 		set +e; \
 		echo $$table; \
 	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-	        mysql $(DBOPTS) $$LSBDB <$$table.init; \
+		mysql $(DBOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
 	done
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
-	mysql $(DBOPTS) $$LSBDB <cache_RIntNames.init;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
-#       mysql $(DBOPTS) $$LSBDB <cache_RLibRIntMapping.init
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql
 
@@ -111,5 +116,5 @@ dump_apps::
 	        set +e; \
 	        echo $$table; \
 	        mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-	        mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
+		rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'";\
 	done

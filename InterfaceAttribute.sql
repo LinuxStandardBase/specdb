@@ -23,7 +23,7 @@ CREATE TABLE `InterfaceAttribute` (
   `IAid` int(10) unsigned NOT NULL auto_increment,
   `IAiname` varchar(750) NOT NULL,
   `IAlibrary` varchar(200) NOT NULL default '',
-  `IAtype` enum('Recommendation','Custom') NOT NULL default 'Custom',
+  `IAtype` enum('Recommendation','Rejection','Custom') NOT NULL default 'Custom',
   `IAvalue` text NOT NULL,
   PRIMARY KEY  (`IAid`),
   KEY `k_IAiname` (`IAiname`,`IAlibrary`,`IAtype`),
