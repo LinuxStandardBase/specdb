@@ -133,4 +133,4 @@ INSERT INTO `Standard` VALUES (138,'xdg-utils','Portland Project XDG Utilities R
 INSERT INTO `Standard` VALUES (139,'PerlFun','Perl 5.8.8 Functions','http://perldoc.perl.org/5.8.8/perlfunc.html','','Reference',1,'Perl Functions',NULL);
 INSERT INTO `Standard` VALUES (140,'PerlMan','Perl 5.8.8 Manual Page','http://perldoc.perl.org/5.8.8/perlrun.html','','Reference',1,'Perl Manual',NULL);
 INSERT INTO `Standard` VALUES (141,'XKBlib','X Keyboard Extension Library Specification - X Version 11, Release 6.4','http://refspecs.linux-foundation.org/X11/XKBlib.pdf','','Standard',1,'X11 Keyboard Extension',NULL);
-INSERT INTO `Standard` VALUES (142,'SUSv4','','Portable Operating System Interface (POSIX) 200X Edition','XXX Placeholder for POSIX 200X (probably 2009), update when details complete','Standard',1,'ISO POSIX (200X)','');
+INSERT INTO `Standard` VALUES (142,'SUSv4','Portable Operating System Interface (POSIX) 200X Edition','','XXX Placeholder for POSIX 200X (probably 2009), update when details complete','Standard',1,'ISO POSIX (200X)','');
