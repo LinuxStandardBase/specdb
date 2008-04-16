@@ -5680,7 +5680,6 @@ INSERT INTO `ArchConst` VALUES (1,6008,'extern GStaticMutex G_LOCK_NAME (name)',
 INSERT INTO `ArchConst` VALUES (1,6009,'g_static_mutex_lock (&G_LOCK_NAME (name))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6010,'g_static_mutex_unlock (&G_LOCK_NAME (name))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6011,'g_static_mutex_trylock (&G_LOCK_NAME (name))','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,6012,' \\\n	G_STMT_START{ __asm__ __volatile__ (\"int $03\"); }G_STMT_END','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6013,'GLIB_SIZEOF_LONG','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6014,' \\\n	((struct_type *) g_malloc (((gsize) sizeof (struct_type)) * ((gsize) \\\n	(n_structs))))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6015,' \\\n	((struct_type *) g_malloc0 (((gsize) sizeof (struct_type)) * ((gsize) \\\n	(n_structs))))','3.1',NULL,0);
@@ -13082,3 +13081,10 @@ INSERT INTO `ArchConst` VALUES (1,13757,'0x0040','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,13758,'0x0080','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,13759,'0x0100','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,13760,'0x0200','3.2',NULL,0);
+INSERT INTO `ArchConst` VALUES (2,6012,'G_STMT_START{ __asm__ __volatile__ (\"int $03\"); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (11,6012,'G_STMT_START{ __asm__ __volatile__ (\"int $03\"); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (3,6012,'G_STMT_START{ raise (SIGTRAP); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (6,6012,'G_STMT_START{ raise (SIGTRAP); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (9,6012,'G_STMT_START{ raise (SIGTRAP); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (10,6012,'G_STMT_START{ raise (SIGTRAP); }G_STMT_END','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (12,6012,'G_STMT_START{ raise (SIGTRAP); }G_STMT_END','3.1',NULL,0);
