@@ -14861,3 +14861,5 @@ INSERT INTO `Type` VALUES (100661,'_XtConditionProc','Typedef',1376,'',NULL,'Unk
 INSERT INTO `Type` VALUES (100662,'XtPerDisplayInput','Typedef',1380,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (10240,'CompositeClassRec','Typedef',411,'','','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (10258,'ConstraintClassRec','Typedef',412,'','','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (10272,'ObjectClassRec','Typedef',420,'','','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (10271,'_ObjectClassRec','Struct',420,'','','No','No','Yes',NULL,0,0,'libXt',0);
