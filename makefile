@@ -17,7 +17,7 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable
 	
-APP_TABLES=Application AppLib AppRInt RawInterface RawClass AppRILM RawILModule
+APP_TABLES=Application AppLib AppCategory AppRInt RawInterface RawClass AppRILM RawILModule
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
@@ -53,6 +53,7 @@ restore::
 		echo $$table; \
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		mysql $(DBOPTS) $$LSBDB <$$table.init; \
+		mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
 	done
 
 restoreall::
@@ -117,4 +118,14 @@ dump_apps::
 	        echo $$table; \
 	        mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
 		rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'";\
+	done
+
+# Optimization for spec part tables
+
+optimize::
+	for table in $(ELEMENTS) ; \
+	do \
+	        set +e; \
+	        echo $$table; \
+	        mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
 	done
