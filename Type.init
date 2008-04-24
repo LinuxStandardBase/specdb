@@ -10281,10 +10281,10 @@ INSERT INTO `Type` VALUES (16779,'FT_Glyph_Format_','Enum',955,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (16780,'FT_Glyph_Format','Typedef',955,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16781,'FT_RendererRec_ *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16782,'FT_Renderer','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
-INSERT INTO `Type` VALUES (16783,'FT_GlyphSlotRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (16786,'FT_GlyphSlotRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16784,'FT_GlyphSlotRec_ *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16785,'FT_GlyphSlot','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
-INSERT INTO `Type` VALUES (16786,'FT_Glyph_Metrics_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (16783,'FT_Glyph_Metrics_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16787,'FT_Glyph_Metrics','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16788,'FT_SubGlyphRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16789,'FT_UShort','Typedef',945,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
@@ -10449,8 +10449,8 @@ INSERT INTO `Type` VALUES (16947,'FT_Var_Named_Style *','Pointer',948,'',NULL,'U
 INSERT INTO `Type` VALUES (16948,'FT_MM_Var','Typedef',948,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16949,'FT_MM_Var *','Pointer',948,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16950,'FT_MM_Var * *','Pointer',948,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libfreetype',0);
-INSERT INTO `Type` VALUES (16951,'FT_SizeRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
-INSERT INTO `Type` VALUES (16952,'FT_Size_Metrics_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (16952,'FT_SizeRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (16951,'FT_Size_Metrics_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16953,'FT_Size_Metrics','Typedef',937,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16954,'FT_Size_InternalRec_','Struct',937,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (16955,'FT_Size_InternalRec_ *','Pointer',937,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libfreetype',0);
