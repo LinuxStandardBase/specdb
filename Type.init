@@ -14896,3 +14896,6 @@ INSERT INTO `Type` VALUES (1116,'fptr-png.h-5','FuncPtr',0,'',NULL,'Unknown','Un
 INSERT INTO `Type` VALUES (101117,'png_malloc_ptr','Typedef',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1118,'fptr-png.h-6','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (101119,'png_free_ptr','Typedef',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
+INSERT INTO `Type` VALUES (1000001,'GLUnurbs','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
+INSERT INTO `Type` VALUES (1000002,'GLUquadric','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
+INSERT INTO `Type` VALUES (1000003,'GLUtesselator','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
