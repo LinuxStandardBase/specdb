@@ -13682,3 +13682,9 @@ INSERT INTO `Constant` VALUES (15484,'GLX_EXT_import_context','int',1335,'',NULL
 INSERT INTO `Constant` VALUES (15485,'GLX_SUN_get_transparent_index','int',1335,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15486,'GLX_EXT_fbconfig_packed_float','int',1335,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15487,'GLX_EXT_framebuffer_sRGB','int',1335,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15488,'GL_ARB_imaging','int',1364,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15489,'GL_VERSION_1_3','int',1,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15490,'GLX_ARB_get_proc_address','int',2,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15491,'GLX_GLXEXT_VERSION','int',2,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15492,'GL/gl.h depends on GL/glext.h','header_depend',1,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15493,'GL/glx.h depends on GL/glxext.h','header_depend',2,'',NULL,'No');
