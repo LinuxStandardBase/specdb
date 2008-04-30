@@ -24,6 +24,7 @@ CREATE TABLE `TypeMemberExtras` (
   `TMEtmid` int(10) unsigned NOT NULL default '0',
   `TMEsize` int(10) unsigned NOT NULL default '0',
   `TMEoffset` int(11) NOT NULL default '0',
+  `TMEreserved` enum('Yes','No') default 'No',
   PRIMARY KEY  (`TMEaid`,`TMEtmid`),
   KEY `k_TMEtmid` (`TMEtmid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
