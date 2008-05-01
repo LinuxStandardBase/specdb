@@ -390,3 +390,10 @@ INSERT INTO `LibGroup` VALUES (675,'Gobject Closures',243,47,'Gobject Closures')
 INSERT INTO `LibGroup` VALUES (676,'Gobject Gobject',243,48,'Gobject Gobject');
 INSERT INTO `LibGroup` VALUES (677,'Gobject GType',243,49,'Gobject GType');
 INSERT INTO `LibGroup` VALUES (678,'Gobject GTypePlugin',243,50,'Gobject GTypePlugin');
+INSERT INTO `LibGroup` VALUES (679,'Class __gnu_cxx::__pool<true>',231,303,'');
+INSERT INTO `LibGroup` VALUES (680,'Class __gnu_cxx::__pool<false>',231,304,'');
+INSERT INTO `LibGroup` VALUES (681,'Class __gnu_cxx::free_list',231,305,'');
+INSERT INTO `LibGroup` VALUES (682,'Class std::locale::_Impl',231,305,'');
+INSERT INTO `LibGroup` VALUES (683,'Namespace std Functions',231,306,'');
+INSERT INTO `LibGroup` VALUES (684,'Class std::char_traits<char>',231,308,'');
+INSERT INTO `LibGroup` VALUES (685,'Class std::char_traits<wchar_t>',231,310,'');
