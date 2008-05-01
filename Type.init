@@ -14899,3 +14899,14 @@ INSERT INTO `Type` VALUES (101119,'png_free_ptr','Typedef',607,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (101997,'GLUnurbs','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
 INSERT INTO `Type` VALUES (101998,'GLUquadric','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
 INSERT INTO `Type` VALUES (101999,'GLUtesselator','Typedef',1332,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libGLU',0);
+INSERT INTO `Type` VALUES (1000004,'_ZSt12basic_stringIcSt11char_traitsIcESaIcEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::basic_string<char, std::char_traits<char>, std::allocator<char> >',0,0,'libstdcxx',2493);
+INSERT INTO `Type` VALUES (1000005,'_ZSt12basic_stringIwSt11char_traitsIwESaIwEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >',0,0,'libstdcxx',2494);
+INSERT INTO `Type` VALUES (1000006,'_ZNSt19istreambuf_iteratorIcSt11char_traitsIcEEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::istreambuf_iterator<char, std::char_traits<char> >',0,0,'libstdcxx',2495);
+INSERT INTO `Type` VALUES (1000007,'_ZNSt19istreambuf_iteratorIwSt11char_traitsIwEEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> >',0,0,'libstdcxx',2496);
+INSERT INTO `Type` VALUES (1000008,'_ZN9__gnu_cxx6__poolILb1EEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','__gnu_cxx::__pool<true>',0,0,'libstdcxx',2497);
+INSERT INTO `Type` VALUES (1000009,'_ZN9__gnu_cxx6__poolILb0EEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','__gnu_cxx::__pool<false>',0,0,'libstdcxx',2498);
+INSERT INTO `Type` VALUES (1000010,'_ZN9__gnu_cxx9free_listE','Class',0,'',NULL,'Unknown','Unknown','Unknown','__gnu_cxx::free_list',0,0,'libstdcxx',2499);
+INSERT INTO `Type` VALUES (1000011,'_ZNSt6locale5_ImplE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::locale::_Impl',0,0,'libstdcxx',2500);
+INSERT INTO `Type` VALUES (1000012,'_ZNSt17__copy_streambufsIcSt11char_traitsIcEEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::__copy_streambufs<char, std::char_traits<char> >',0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (1000013,'_ZNSt11char_traitsIcEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::char_traits<char>',0,0,'libstdcxx',2501);
+INSERT INTO `Type` VALUES (1000014,'_ZNSt11char_traitsIwEE','Class',0,'',NULL,'Unknown','Unknown','Unknown','std::char_traits<wchar_t>',0,0,'libstdcxx',2502);
