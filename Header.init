@@ -92,7 +92,7 @@ INSERT INTO `Header` VALUES (95,'sys/time.h',131,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (96,'sys/timex.h',131,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (97,'zlib.h',127,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (98,'rpc/auth.h',131,'No',NULL,'1.1',NULL);
-INSERT INTO `Header` VALUES (99,'rpc/rpc.h',131,'No',NULL,'1.1','2.0');
+INSERT INTO `Header` VALUES (99,'rpc/rpc.h',131,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (100,'rpc/clnt.h',131,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (101,'rpc/xdr.h',131,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (102,'complex.h',13,'No',NULL,'1.1',NULL);
