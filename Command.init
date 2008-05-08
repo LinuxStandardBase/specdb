@@ -792,7 +792,7 @@ INSERT INTO `Command` VALUES (794,'rmm',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (795,'rpcgen',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (796,'rz',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (797,'send',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
-INSERT INTO `Command` VALUES (798,'seq',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (798,'seq',NULL,10,0,'No','No',NULL,'No','LSB-Core-generic/LSB-Core-generic/seq.html',NULL);
 INSERT INTO `Command` VALUES (799,'session-properties',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (800,'setfdprm',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (801,'setfx',NULL,0,0,'No','No',NULL,'No',NULL,NULL);
