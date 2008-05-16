@@ -1,2 +1,4 @@
 INSERT INTO `ConstantAttribute` VALUES (1,2507,'Condition','#ifndef TRUE');
 INSERT INTO `ConstantAttribute` VALUES (2,2508,'Condition','#ifndef FALSE');
+INSERT INTO `ConstantAttribute` VALUES (3,15512,'Condition','#if defined(PANGO_ENABLE_ENGINE) || defined(PANGO_ENABLE_BACKEND)');
+INSERT INTO `ConstantAttribute` VALUES (4,15513,'Condition','#if defined(PANGO_ENABLE_ENGINE) || defined(PANGO_ENABLE_BACKEND)');
