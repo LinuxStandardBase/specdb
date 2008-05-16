@@ -13698,3 +13698,13 @@ INSERT INTO `Constant` VALUES (15500,'rpc/rpc.h depends on rpc/rpc_msg.h','heade
 INSERT INTO `Constant` VALUES (15501,'rpc/rpc.h depends on rpc/auth_unix.h','header_depend',302,'',NULL,'No');
 INSERT INTO `Constant` VALUES (15502,'rpc/rpc.h depends on rpc/auth_des.h','header_depend',302,'',NULL,'No');
 INSERT INTO `Constant` VALUES (15503,'rpc/rpc.h depends on rpc/svc.h','header_depend',302,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15504,'g_chmod','Unknown',611,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15505,'g_creat','Unknown',611,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15506,'GDK_TYPE_PIXBUF_SIMPLE_ANIM','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15507,'GDK_PIXBUF_SIMPLE_ANIM(object)','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15508,'GDK_IS_PIXBUF_SIMPLE_ANIM(object)','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15509,'GDK_PIXBUF_SIMPLE_ANIM_CLASS(klass)','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15510,'GDK_IS_PIXBUF_SIMPLE_ANIM_CLASS(klass)','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15511,'GDK_PIXBUF_SIMPLE_ANIM_GET_CLASS(obj)','macro',623,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15512,'PANGO_GET_UNKNOWN_GLYPH(wc)','macro',617,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15513,'PANGO_GLYPH_UNKNOWN_FLAG','long',617,'',NULL,'Unknown');
