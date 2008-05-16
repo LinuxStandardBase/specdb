@@ -1,6 +1,6 @@
 -- MySQL dump 10.10
 --
--- Host: db.linux-foundation.org    Database: lsb
+-- Host: db2.linux-foundation.org    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
