@@ -8269,7 +8269,7 @@ INSERT INTO `IntStd` VALUES (31205,97,0,'3.1',NULL,'gobject-The-Base-Object-Type
 INSERT INTO `IntStd` VALUES (31206,97,0,'3.1',NULL,'gobject-The-Base-Object-Type.html#id2919698');
 INSERT INTO `IntStd` VALUES (31207,97,0,'3.1',NULL,'gobject-Closures.html#id3026810');
 INSERT INTO `IntStd` VALUES (31208,97,0,'3.1',NULL,'gobject-Closures.html#id3023985');
-INSERT INTO `IntStd` VALUES (31209,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31209,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-VALUE-TYPE:CAPS');
 INSERT INTO `IntStd` VALUES (31210,97,0,'3.1',NULL,'gobject-Type-Information.html#id2893288');
 INSERT INTO `IntStd` VALUES (31211,97,0,'3.1',NULL,'gobject-Value-arrays.html#id3041594');
 INSERT INTO `IntStd` VALUES (31212,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2991081');
@@ -8287,7 +8287,7 @@ INSERT INTO `IntStd` VALUES (31223,97,0,'3.1',NULL,'gobject-Type-Information.htm
 INSERT INTO `IntStd` VALUES (31224,97,0,'3.1',NULL,'gobject-Closures.html#id3025102');
 INSERT INTO `IntStd` VALUES (31225,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2960828');
 INSERT INTO `IntStd` VALUES (31226,97,0,'3.1',NULL,'gobject-Value-arrays.html#id3041000');
-INSERT INTO `IntStd` VALUES (31227,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31227,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-INSTANCE-GET-PRIVATE:CAPS');
 INSERT INTO `IntStd` VALUES (31228,97,0,'3.1',NULL,'gobject-Closures.html#id3027904');
 INSERT INTO `IntStd` VALUES (31229,97,0,'3.1',NULL,'gobject-Type-Information.html#id2892134');
 INSERT INTO `IntStd` VALUES (31230,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2990785');
@@ -8302,7 +8302,7 @@ INSERT INTO `IntStd` VALUES (31238,97,0,'3.1',NULL,'gobject-Signals.html#id30093
 INSERT INTO `IntStd` VALUES (31239,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2991217');
 INSERT INTO `IntStd` VALUES (31240,97,0,'3.1',NULL,'gobject-Closures.html#id3024707');
 INSERT INTO `IntStd` VALUES (31241,97,0,'3.1',NULL,'gobject-Type-Information.html#id2888258');
-INSERT INTO `IntStd` VALUES (31242,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31242,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-IS-CLASSED:CAPS');
 INSERT INTO `IntStd` VALUES (31243,97,0,'3.1',NULL,'gobject-Signals.html#id3005413');
 INSERT INTO `IntStd` VALUES (31244,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2955974');
 INSERT INTO `IntStd` VALUES (31245,97,0,'3.1',NULL,'gobject-Closures.html#id3027028');
@@ -8328,7 +8328,7 @@ INSERT INTO `IntStd` VALUES (31264,97,0,'3.1',NULL,'gobject-Closures.html#id3029
 INSERT INTO `IntStd` VALUES (31265,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2956915');
 INSERT INTO `IntStd` VALUES (31266,97,0,'3.1',NULL,'gobject-Type-Information.html#id2888815');
 INSERT INTO `IntStd` VALUES (31267,97,0,'3.1',NULL,'gobject-Type-Information.html#id2887000');
-INSERT INTO `IntStd` VALUES (31268,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31268,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-CLASS-CAST:CAPS');
 INSERT INTO `IntStd` VALUES (31269,97,0,'3.1',NULL,'gobject-Closures.html#id3026591');
 INSERT INTO `IntStd` VALUES (31270,97,0,'3.1',NULL,'gobject-The-Base-Object-Type.html#id2920382');
 INSERT INTO `IntStd` VALUES (31271,97,0,'3.1',NULL,'gobject-Type-Information.html#id2893068');
@@ -8369,7 +8369,7 @@ INSERT INTO `IntStd` VALUES (31305,97,0,'3.1',NULL,'gobject-Standard-Parameter-a
 INSERT INTO `IntStd` VALUES (31306,97,0,'3.1',NULL,'gobject-The-Base-Object-Type.html#id2922496');
 INSERT INTO `IntStd` VALUES (31307,97,0,'3.1',NULL,'gobject-Signals.html#id3007175');
 INSERT INTO `IntStd` VALUES (31308,97,0,'3.1',NULL,'GTypePlugin.html#id2910667');
-INSERT INTO `IntStd` VALUES (31309,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31309,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-INSTANCE-CAST:CAPS');
 INSERT INTO `IntStd` VALUES (31310,97,0,'3.1',NULL,'gobject-Enumeration-and-Flag-Types.html#id2935070');
 INSERT INTO `IntStd` VALUES (31311,97,0,'3.1',NULL,'gobject-Type-Information.html#id2887146');
 INSERT INTO `IntStd` VALUES (31312,97,0,'3.1',NULL,'gobject-Signals.html#id3010278');
@@ -8423,7 +8423,7 @@ INSERT INTO `IntStd` VALUES (31359,97,0,'3.1',NULL,'gobject-The-Base-Object-Type
 INSERT INTO `IntStd` VALUES (31360,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2962009');
 INSERT INTO `IntStd` VALUES (31361,97,0,'3.1',NULL,'gobject-Signals.html#id3009253');
 INSERT INTO `IntStd` VALUES (31362,97,0,'3.1',NULL,'gobject-Value-arrays.html#id3041855');
-INSERT INTO `IntStd` VALUES (31363,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31363,97,0,'3.1',NULL,'gobject-Generic-values.html#G-TYPE-VALUE-ARRAY:CAPS');
 INSERT INTO `IntStd` VALUES (31364,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2961244');
 INSERT INTO `IntStd` VALUES (31365,97,0,'3.1','4.0',NULL);
 INSERT INTO `IntStd` VALUES (31366,97,0,'3.1',NULL,'gobject-Signals.html#id3009123');
@@ -8450,7 +8450,7 @@ INSERT INTO `IntStd` VALUES (31386,97,0,'3.1',NULL,'gobject-Type-Information.htm
 INSERT INTO `IntStd` VALUES (31387,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2952777');
 INSERT INTO `IntStd` VALUES (31388,97,0,'3.1',NULL,'gobject-Closures.html#id3027685');
 INSERT INTO `IntStd` VALUES (31389,97,0,'3.1',NULL,'gobject-Type-Information.html#id2892444');
-INSERT INTO `IntStd` VALUES (31390,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31390,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-VALUE-TYPE:CAPS');
 INSERT INTO `IntStd` VALUES (31391,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2963803');
 INSERT INTO `IntStd` VALUES (31392,97,0,'3.1',NULL,'gobject-Signals.html#id3010149');
 INSERT INTO `IntStd` VALUES (31393,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2963433');
@@ -8470,7 +8470,7 @@ INSERT INTO `IntStd` VALUES (31406,97,0,'3.1','4.0',NULL);
 INSERT INTO `IntStd` VALUES (31407,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2965679');
 INSERT INTO `IntStd` VALUES (31408,97,0,'3.1',NULL,'gobject-Enumeration-and-Flag-Types.html#id2936022');
 INSERT INTO `IntStd` VALUES (31409,97,0,'3.1',NULL,'gobject-Signals.html#id3007017');
-INSERT INTO `IntStd` VALUES (31410,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31410,97,0,'3.1',NULL,'gobject-Generic-values.html#G-TYPE-VALUE:CAPS');
 INSERT INTO `IntStd` VALUES (31411,97,0,'3.1',NULL,'gobject-Signals.html#id3006880');
 INSERT INTO `IntStd` VALUES (31412,97,0,'3.1',NULL,'gobject-Signals.html#id3006268');
 INSERT INTO `IntStd` VALUES (31413,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2962330');
@@ -8511,7 +8511,7 @@ INSERT INTO `IntStd` VALUES (31447,97,0,'3.1',NULL,'gobject-Signals.html#id30073
 INSERT INTO `IntStd` VALUES (31448,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2993402');
 INSERT INTO `IntStd` VALUES (31449,97,0,'3.1',NULL,'gobject-The-Base-Object-Type.html#id2921417');
 INSERT INTO `IntStd` VALUES (31450,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2954431');
-INSERT INTO `IntStd` VALUES (31451,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31451,97,0,'3.1',NULL,'gobject-Generic-values.html#G-TYPE-IS-VALUE:CAPS');
 INSERT INTO `IntStd` VALUES (31452,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2958497');
 INSERT INTO `IntStd` VALUES (31453,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2961122');
 INSERT INTO `IntStd` VALUES (31454,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2991923');
@@ -8557,11 +8557,11 @@ INSERT INTO `IntStd` VALUES (31493,97,0,'3.1',NULL,'gobject-GParamSpec.html#id29
 INSERT INTO `IntStd` VALUES (31494,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2954914');
 INSERT INTO `IntStd` VALUES (31495,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2960221');
 INSERT INTO `IntStd` VALUES (31496,97,0,'3.1',NULL,'GTypeModule.html#id2914047');
-INSERT INTO `IntStd` VALUES (31497,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31497,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-INSTANCE:CAPS');
 INSERT INTO `IntStd` VALUES (31498,97,0,'3.1',NULL,'gobject-Value-arrays.html#id3041157');
 INSERT INTO `IntStd` VALUES (31499,97,0,'3.1',NULL,'gobject-Type-Information.html#id2891682');
 INSERT INTO `IntStd` VALUES (31500,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2992603');
-INSERT INTO `IntStd` VALUES (31501,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31501,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-CLASS-TYPE:CAPS');
 INSERT INTO `IntStd` VALUES (31502,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2992014');
 INSERT INTO `IntStd` VALUES (31503,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2953491');
 INSERT INTO `IntStd` VALUES (31504,97,0,'3.1',NULL,'gobject-GParamSpec.html#id2993621');
@@ -8577,7 +8577,7 @@ INSERT INTO `IntStd` VALUES (31513,97,0,'3.1',NULL,'gobject-Enumeration-and-Flag
 INSERT INTO `IntStd` VALUES (31514,97,0,'3.1',NULL,'gobject-Standard-Parameter-and-Value-Types.html#id2965577');
 INSERT INTO `IntStd` VALUES (31515,97,0,'3.1',NULL,'gobject-Type-Information.html#id2888632');
 INSERT INTO `IntStd` VALUES (31516,97,0,'3.1',NULL,'gobject-Signals.html#id3004849');
-INSERT INTO `IntStd` VALUES (31517,97,0,'3.1',NULL,NULL);
+INSERT INTO `IntStd` VALUES (31517,97,0,'3.1',NULL,'gobject-Type-Information.html#G-TYPE-CHECK-INSTANCE-TYPE:CAPS');
 INSERT INTO `IntStd` VALUES (31518,96,0,'3.1',NULL,'glib-Dynamic-Loading-of-Modules.html#id2967466');
 INSERT INTO `IntStd` VALUES (31519,96,0,'3.1',NULL,'glib-Dynamic-Loading-of-Modules.html#id2966812');
 INSERT INTO `IntStd` VALUES (31520,96,0,'3.1',NULL,'glib-Dynamic-Loading-of-Modules.html#id2967543');
