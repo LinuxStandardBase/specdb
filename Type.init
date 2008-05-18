@@ -14931,3 +14931,4 @@ INSERT INTO `Type` VALUES (1000032,'GtkIconViewDropPosition *','Pointer',629,'',
 INSERT INTO `Type` VALUES (1000033,'GtkMenuBar *','Pointer',629,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libgtk-x11-2.0',0);
 INSERT INTO `Type` VALUES (1000034,'anon-GtkPackDirection-enum','Enum',629,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libgtk-x11-2.0',0);
 INSERT INTO `Type` VALUES (1000035,'GtkPackDirection','Typedef',629,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libgtk-x11-2.0',0);
+INSERT INTO `Type` VALUES (1000036,'const gint','Const',609,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libglib-2.0',0);

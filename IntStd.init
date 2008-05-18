@@ -44684,3 +44684,13 @@ INSERT INTO `IntStd` VALUES (97553,143,0,'4.0',NULL,'gtk-GtkTextIter.html#id2999
 INSERT INTO `IntStd` VALUES (97554,143,0,'4.0',NULL,'gtk-GtkTextIter.html#id2999484');
 INSERT INTO `IntStd` VALUES (97555,149,0,'4.0',NULL,'pango-Miscellaneous-Utilities.html#pango-is-zero-width');
 INSERT INTO `IntStd` VALUES (97556,149,0,'4.0',NULL,'pango-Fonts.html#pango-font-get-font-map');
+INSERT INTO `IntStd` VALUES (97557,146,0,'4.0',NULL,'gdk-Cursors.html#id2797170');
+INSERT INTO `IntStd` VALUES (97558,146,0,'4.0',NULL,'gdk-Cursors.html#id2796435');
+INSERT INTO `IntStd` VALUES (97559,146,0,'4.0',NULL,'GdkDisplay.html#id2684317');
+INSERT INTO `IntStd` VALUES (97560,146,0,'4.0',NULL,'GdkScreen.html#id2695050');
+INSERT INTO `IntStd` VALUES (97561,146,0,'4.0',NULL,'GdkScreen.html#id2695177');
+INSERT INTO `IntStd` VALUES (97562,146,0,'4.0',NULL,'gdk-Windows.html#id2811366');
+INSERT INTO `IntStd` VALUES (97563,146,0,'4.0',NULL,'gdk-Windows.html#id2819933');
+INSERT INTO `IntStd` VALUES (97564,146,0,'4.0',NULL,'gdk-X-Window-System-Interaction.html#id2922537');
+INSERT INTO `IntStd` VALUES (97565,146,0,'4.0',NULL,'gdk-X-Window-System-Interaction.html#id2923526');
+INSERT INTO `IntStd` VALUES (97566,146,0,'4.0',NULL,'gdk-X-Window-System-Interaction.html#id2922448');
