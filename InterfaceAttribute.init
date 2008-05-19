@@ -979,3 +979,4 @@ INSERT INTO `InterfaceAttribute` VALUES (1482,'gdk_rgb_get_cmap','libgdk-x11-2.0
 INSERT INTO `InterfaceAttribute` VALUES (1483,'gtk_toolbar_unset_icon_size','libgtk-x11-2.0','Recommendation','gtk_toolbar_unset_icon_size is deprecated and should not be used in newly-written code.');
 INSERT INTO `InterfaceAttribute` VALUES (1484,'gtk_signal_compat_matched','libgtk-x11-2.0','Recommendation','gtk_signal_compat_matched is deprecated and should not be used in newly-written code. Use g_signal* functions instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1485,'pango_default_break','libpango-1.0','Rejection','pango_default_break is the default break algorithm, used if no language engine overrides it. Normally you should use pango_break() instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1486,'gtk_text_get_type','libgtk-x11-2.0','Recommendation','GtkText is\ndeprecated and unsupported. It is known to be buggy. Use GtkTextView\ninstead.');
