@@ -13730,3 +13730,5 @@ INSERT INTO `Constant` VALUES (15532,'XTestNumberErrors','int',1395,'',NULL,'Unk
 INSERT INTO `Constant` VALUES (15533,'XTestMajorVersion','int',1395,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15534,'XTestMinorVersion','int',1395,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15535,'XTestExtensionName','Unknown',1395,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15536,'g_access','Unknown',611,'',NULL,'No');
+INSERT INTO `Constant` VALUES (15537,'g_chdir','Unknown',611,'',NULL,'No');
