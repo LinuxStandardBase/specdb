@@ -14961,3 +14961,4 @@ INSERT INTO `Type` VALUES (1000062,'anon-X11/extensions/record.h-4','Struct',138
 INSERT INTO `Type` VALUES (1000063,'XRecordRange','Typedef',1389,'',NULL,'No','No','No',NULL,0,0,'libXtst',0);
 INSERT INTO `Type` VALUES (1000064,'XRecordRange *','Pointer',1389,'',NULL,'No','No','No',NULL,0,0,'libXtst',0);
 INSERT INTO `Type` VALUES (1000065,'XRecordRange **','Pointer',1389,'',NULL,'No','No','No',NULL,0,0,'libXtst',0);
+INSERT INTO `Type` VALUES (1000066,'const timeval[2]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
