@@ -120,8 +120,8 @@ INSERT INTO `ClassInfo` VALUES (170,'_ZNSaIwEE',0,0,0,1,0,'0',0,0,0,0,0,0,497,'1
 INSERT INTO `ClassInfo` VALUES (171,'_ZNSt12__basic_fileIcEE',0,0,0,1,0,'0',0,0,0,0,0,0,448,'1',0,0,'std::__basic_file<char>',0);
 INSERT INTO `ClassInfo` VALUES (172,'_ZNSt24__default_alloc_templateILb1ELi0EEE',0,0,0,1,0,'0',0,0,0,0,0,0,449,'1',0,0,'std::__default_alloc_template<true, 0>',0);
 INSERT INTO `ClassInfo` VALUES (173,'_ZNSt6gsliceE',0,0,0,1,0,'0',0,0,0,0,0,0,450,'1',0,0,'std::gslice',0);
-INSERT INTO `ClassInfo` VALUES (174,'_ZSt13basic_istreamIcSt11char_traitsIcEE',0,24303,2,2,0,'0',24003,1,8,4,0,23980,320,'2',0,0,'std::basic_istream<char, std::char_traits<char> >',0);
-INSERT INTO `ClassInfo` VALUES (175,'_ZSt13basic_ostreamIcSt11char_traitsIcEE',0,24253,2,2,0,'0',24003,1,8,8,0,23980,321,'2',0,0,'std::basic_ostream<char, std::char_traits<char> >',0);
+INSERT INTO `ClassInfo` VALUES (174,'_ZSt13basic_istreamIcSt11char_traitsIcEE',0,24254,2,2,0,'0',24003,1,8,4,0,23980,320,'2',0,0,'std::basic_istream<char, std::char_traits<char> >',0);
+INSERT INTO `ClassInfo` VALUES (175,'_ZSt13basic_ostreamIcSt11char_traitsIcEE',0,24303,2,2,0,'0',24003,1,8,8,0,23980,321,'2',0,0,'std::basic_ostream<char, std::char_traits<char> >',0);
 INSERT INTO `ClassInfo` VALUES (176,'_ZN5QListI10QByteArrayEE',15128,0,0,0,0,'0',0,0,0,0,0,0,485,'1',0,0,'QList<QByteArray>',0);
 INSERT INTO `ClassInfo` VALUES (177,'_ZN5QListI9QFileInfoEE',15129,0,0,0,0,'0',0,0,0,0,0,0,485,'1',0,0,'QList<QFileInfo>',0);
 INSERT INTO `ClassInfo` VALUES (178,'_ZN5QListI8QVariantEE',15130,0,0,0,0,'0',0,0,0,0,0,0,485,'1',0,0,'QList<QVariant>',0);
