@@ -24300,3 +24300,8 @@ INSERT INTO `TypeMember` VALUES (78755,'device_events',1000057,6,'all core and e
 INSERT INTO `TypeMember` VALUES (78756,'errors',1000057,7,'core X and ext errors',1000062,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (78757,'client_started',6,8,'connection setup reply',1000062,'',0,0,NULL,'',1,NULL,NULL);
 INSERT INTO `TypeMember` VALUES (78758,'client_died',6,9,'notice of client disconnect',1000062,'',0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (78759,'wd',6,0,'',1000067,NULL,0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (78760,'mask',9272,1,'',1000067,NULL,0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (78761,'cookie',9272,2,'',1000067,NULL,0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (78762,'len',9272,3,'',1000067,NULL,0,0,NULL,'',1,NULL,NULL);
+INSERT INTO `TypeMember` VALUES (78763,'name',26986,4,'',1000067,NULL,0,0,NULL,'',1,NULL,NULL);

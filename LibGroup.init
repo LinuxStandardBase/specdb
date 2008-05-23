@@ -398,3 +398,4 @@ INSERT INTO `LibGroup` VALUES (683,'Namespace std Functions',231,306,'');
 INSERT INTO `LibGroup` VALUES (684,'Class std::char_traits<char>',231,308,'');
 INSERT INTO `LibGroup` VALUES (685,'Class std::char_traits<wchar_t>',231,310,'');
 INSERT INTO `LibGroup` VALUES (686,'libXtst Interfaces',276,51,'X Test Interfaces');
+INSERT INTO `LibGroup` VALUES (687,'Inotify',131,19,'');

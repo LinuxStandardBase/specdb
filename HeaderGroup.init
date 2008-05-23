@@ -1321,3 +1321,4 @@ INSERT INTO `HeaderGroup` VALUES (1383,'Default Header Section for X11/ResourceI
 INSERT INTO `HeaderGroup` VALUES (1384,'Default Header Section for X11/IntrinsicI.h',889,0,'');
 INSERT INTO `HeaderGroup` VALUES (1395,'Default Header Section for X11/extensions/XTest.h',900,0,'');
 INSERT INTO `HeaderGroup` VALUES (1389,'Default Header Section for X11/extensions/record.h',894,0,'');
+INSERT INTO `HeaderGroup` VALUES (1396,'Default Header Section for inotify.h',901,0,'');
