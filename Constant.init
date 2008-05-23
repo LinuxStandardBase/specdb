@@ -13755,3 +13755,13 @@ INSERT INTO `Constant` VALUES (15557,'IN_MASK_ADD','int',1396,'',NULL,'Unknown')
 INSERT INTO `Constant` VALUES (15558,'IN_ISDIR','int',1396,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15559,'IN_ONESHOT','int',1396,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15560,'IN_ALL_EVENTS','Unknown',1396,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15561,'__CPU_SETSIZE','int',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15562,'__NCPUBITS','int',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15563,'__CPUELT(cpu)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15564,'__CPUMASK(cpu)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15565,'CPU_SETSIZE','Unknown',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15566,'CPU_ZERO(cpusetp)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15567,'CPU_COUNT(cpusetp)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15568,'CPU_ALLOC_SIZE(count)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15569,'CPU_ALLOC(count)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15570,'CPU_FREE(cpuset)','macro',37,'',NULL,'Unknown');
