@@ -11483,7 +11483,7 @@ INSERT INTO `Type` VALUES (26982,'char[58]','Array',0,'',NULL,'No','No','No',NUL
 INSERT INTO `Type` VALUES (26983,'char[59]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26984,'char[63]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26985,'char[80]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (26986,'char[]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
+INSERT INTO `Type` VALUES (26986,'char[]','Array',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (26987,'class_priv_t *','Pointer',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26988,'class_priv_t','Typedef',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26989,'const <FUN-PTR-420084 int (*)(snd_pcm_t *, snd_pcm_t **, snd_pcm_plug_params_t *, snd_pcm_plug_params_t *) > *[5]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
@@ -14962,3 +14962,10 @@ INSERT INTO `Type` VALUES (1000063,'XRecordRange','Typedef',1389,'',NULL,'No','N
 INSERT INTO `Type` VALUES (1000064,'XRecordRange *','Pointer',1389,'',NULL,'No','No','No',NULL,0,0,'libXtst',0);
 INSERT INTO `Type` VALUES (1000065,'XRecordRange **','Pointer',1389,'',NULL,'No','No','No',NULL,0,0,'libXtst',0);
 INSERT INTO `Type` VALUES (1000066,'const timeval[2]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000067,'inotify_event','Struct',1396,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000068,'__cpu_mask','Typedef',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000069,'__cpu_mask array','Array',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000070,'anon-cpu_set_struct','Struct',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000071,'cpu_set_t','Typedef',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000072,'cpu_set_t *','Pointer',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000073,'const cpu_set_t *','Const',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
