@@ -872,3 +872,4 @@ INSERT INTO `Header` VALUES (892,'netpacket/packet.h',0,'Yes',NULL,'',NULL);
 INSERT INTO `Header` VALUES (900,'X11/extensions/XTest.h',276,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (894,'X11/extensions/record.h',276,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (901,'sys/inotify.h',131,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (902,'X11/extensions/XInput.h',276,'Unknown',NULL,'4.0',NULL);
