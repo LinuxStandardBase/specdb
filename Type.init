@@ -14970,3 +14970,4 @@ INSERT INTO `Type` VALUES (1000071,'cpu_set_t','Typedef',37,'',NULL,'Unknown','U
 INSERT INTO `Type` VALUES (1000072,'cpu_set_t *','Pointer',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000073,'const cpu_set_t *','Const',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000074,'const pthread_mutexattr_t *','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpthread',0);
+INSERT INTO `Type` VALUES (1000075,'drand48_data *','Pointer',43,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
