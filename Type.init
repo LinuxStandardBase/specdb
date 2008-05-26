@@ -14969,3 +14969,4 @@ INSERT INTO `Type` VALUES (1000070,'anon-cpu_set_struct','Struct',37,'',NULL,'Un
 INSERT INTO `Type` VALUES (1000071,'cpu_set_t','Typedef',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000072,'cpu_set_t *','Pointer',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000073,'const cpu_set_t *','Const',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000074,'const pthread_mutexattr_t *','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpthread',0);
