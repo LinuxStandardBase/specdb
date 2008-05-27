@@ -5495,7 +5495,7 @@ INSERT INTO `ArchConst` VALUES (12,5853,'((gpointer) (gulong) (u))','3.1',NULL,0
 INSERT INTO `ArchConst` VALUES (1,5854,'(atexit (proc))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5855,' \\\n	G_STMT_START { memmove ((d), (s), (n)); } G_STMT_END','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5856,'2','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,5857,'6','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,5857,'6','3.1','4.0',0);
 INSERT INTO `ArchConst` VALUES (1,5858,'6','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5859,'','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5860,'va_copy','3.1',NULL,0);
@@ -6283,7 +6283,7 @@ INSERT INTO `ArchConst` VALUES (1,6612,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((obje
 INSERT INTO `ArchConst` VALUES (1,6613,'(2)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6614,'(6)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6615,'(10)','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,6616,'2.6.10','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6616,'2.6.10','3.1','4.0',0);
 INSERT INTO `ArchConst` VALUES (1,6617,'extern','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6618,'(gdk_pixbuf_get_type ())','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6619,' \\\n	(G_TYPE_CHECK_INSTANCE_CAST ((object), GDK_TYPE_PIXBUF, GdkPixbuf))','3.1',NULL,0);
@@ -8903,8 +8903,8 @@ INSERT INTO `ArchConst` VALUES (1,9285,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((obj)
 INSERT INTO `ArchConst` VALUES (1,9286,' \\\n	(G_TYPE_CHECK_CLASS_TYPE ((klass), GTK_TYPE_VBUTTON_BOX))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,9287,' \\\n	(G_TYPE_INSTANCE_GET_CLASS ((obj), GTK_TYPE_VBUTTON_BOX, \\\n	GtkVButtonBoxClass))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,9288,'(2)','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,9289,'(6)','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,9290,'(10)','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,9289,'(6)','3.1','4.0',0);
+INSERT INTO `ArchConst` VALUES (1,9290,'(10)','3.1','4.0',0);
 INSERT INTO `ArchConst` VALUES (1,9291,'(610)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,9292,'(10)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,9293,' \\\n	(GTK_MAJOR_VERSION > (major) || (GTK_MAJOR_VERSION == (major) && \\\n	GTK_MINOR_VERSION > (minor)) || (GTK_MAJOR_VERSION == (major) && \\\n	GTK_MINOR_VERSION == (minor) && GTK_MICRO_VERSION >= (micro)))','3.1',NULL,0);
@@ -14902,3 +14902,7 @@ INSERT INTO `ArchConst` VALUES (1,15567,'__CPU_COUNT_S (sizeof (cpu_set_t), cpus
 INSERT INTO `ArchConst` VALUES (1,15568,'__CPU_ALLOC_SIZE (count)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15569,'__CPU_ALLOC (count)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15570,'__CPU_FREE (cpuset)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6616,'2.8.11','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,9289,'8','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,9290,'11','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,5857,'8','4.0',NULL,0);
