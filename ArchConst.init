@@ -14903,8 +14903,8 @@ INSERT INTO `ArchConst` VALUES (1,15568,'__CPU_ALLOC_SIZE (count)','4.0',NULL,0)
 INSERT INTO `ArchConst` VALUES (1,15569,'__CPU_ALLOC (count)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15570,'__CPU_FREE (cpuset)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6616,'2.8.11','4.0',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,9289,'8','4.0',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,9290,'11','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,9289,'(8)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,9290,'(11)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5857,'8','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4327,'(*(xdrs)->x_ops->x_putbytes)(xdrs, addr, len)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4326,'(*(xdrs)->x_ops->x_putbytes)(xdrs, addr, len)','4.0',NULL,0);
