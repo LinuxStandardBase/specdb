@@ -13765,3 +13765,4 @@ INSERT INTO `Constant` VALUES (15567,'CPU_COUNT(cpusetp)','macro',37,'',NULL,'Un
 INSERT INTO `Constant` VALUES (15568,'CPU_ALLOC_SIZE(count)','macro',37,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15569,'CPU_ALLOC(count)','macro',37,'',NULL,'Unknown');
 INSERT INTO `Constant` VALUES (15570,'CPU_FREE(cpuset)','macro',37,'',NULL,'Unknown');
+INSERT INTO `Constant` VALUES (15571,'SMlib.h should include SM.h','header_depend',9,'',NULL,'Unknown');

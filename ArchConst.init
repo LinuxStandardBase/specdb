@@ -14926,3 +14926,4 @@ INSERT INTO `ArchConst` VALUES (1,4316,'(*(xdrs)->x_ops->x_getint32)(xdrs, int32
 INSERT INTO `ArchConst` VALUES (1,4317,'(*(xdrs)->x_ops->x_getint32)(xdrs, int32p)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4334,' \\\n   do { if ((xdrs)->x_ops->x_destroy) (*(xdrs)->x_ops->x_destroy)(xdrs); \\\n      } while (0)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4335,' \\\n   do { if ((xdrs)->x_ops->x_destroy) (*(xdrs)->x_ops->x_destroy)(xdrs); \\\n      } while (0)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15571,'876','1.0',NULL,0);
