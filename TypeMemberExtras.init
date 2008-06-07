@@ -29972,3 +29972,4 @@ INSERT INTO `TypeMemberExtras` VALUES (9,54285,8,32,'No');
 INSERT INTO `TypeMemberExtras` VALUES (9,54286,8,40,'No');
 INSERT INTO `TypeMemberExtras` VALUES (9,54287,8,48,'No');
 INSERT INTO `TypeMemberExtras` VALUES (1,53900,4,8,'No');
+INSERT INTO `TypeMemberExtras` VALUES (1,78763,0,0,'Yes');
