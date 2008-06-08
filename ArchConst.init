@@ -14943,3 +14943,6 @@ INSERT INTO `ArchConst` VALUES (1,15584,'1','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15585,'2','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15586,'3','3.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15587,'4','3.2',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15588,'gtk-fullscreen','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15589,'gtk-info','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15590,'gtk-leave-fullscreen','4.0',NULL,0);
