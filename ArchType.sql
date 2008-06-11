@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `ArchType`;
 CREATE TABLE `ArchType` (
   `ATaid` int(10) unsigned NOT NULL default '0',
   `ATtid` int(10) unsigned NOT NULL default '0',
-  `ATsize` int(10) unsigned NOT NULL default '0',
+  `ATsize` varchar(255) NOT NULL default '0',
   `ATappearedin` varchar(255) NOT NULL default '',
   `ATwithdrawnin` varchar(255) default NULL,
   `ATbasetype` int(10) unsigned NOT NULL default '0',
