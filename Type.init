@@ -855,7 +855,7 @@ INSERT INTO `Type` VALUES (9078,'__pid_t','Typedef',45,'','','No','No','No',NULL
 INSERT INTO `Type` VALUES (9079,'fptr-__compar_fn_t','FuncPtr',43,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9080,'anon-search.h-45','Enum',138,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9081,'ACTION','Typedef',138,'','','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9082,'_ENTRY','Struct',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (9082,'_ENTRY','Struct',138,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9083,'ENTRY *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9084,'anon-search.h-109','Enum',138,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9085,'VISIT','Typedef',138,'','','No','No','No',NULL,0,0,'libc',0);
@@ -14992,3 +14992,9 @@ INSERT INTO `Type` VALUES (1000093,'__pthread_internal_slist *','Pointer',0,'',N
 INSERT INTO `Type` VALUES (1000094,'__pthread_slist_t','Typedef',346,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000095,'anon-pthread_mutex_internal-union','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000096,'anon-pthread_mutex_t-union','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000097,'servent **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000098,'protoent **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000099,'ENTRY **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000100,'_ENTRY *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000101,'hsearch_data','Struct',138,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000102,'hsearch_data *','Pointer',138,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
