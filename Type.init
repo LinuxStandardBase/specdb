@@ -657,7 +657,7 @@ INSERT INTO `Type` VALUES (8674,'mmask_t *','Pointer',0,'','','No','No','No',NUL
 INSERT INTO `Type` VALUES (8722,'GLXFBConfigID','Typedef',2,'','','No','No','No',NULL,0,0,'libGL',0);
 INSERT INTO `Type` VALUES (10174,'__dirstream','Struct',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10177,'DIR *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (10182,'dirent * *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10182,'dirent **','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10179,'dirent64','Struct',219,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10178,'dirent','Struct',219,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (100248,'anon-X11/SM/SMlib.h-59','Struct',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
@@ -1875,7 +1875,7 @@ INSERT INTO `Type` VALUES (10180,'dirent *','Pointer',0,'','','No','No','No',NUL
 INSERT INTO `Type` VALUES (10172,'fptr-select','FuncPtr',15,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10173,'fptr-compar','FuncPtr',15,'','','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10175,'DIR','Typedef',218,'','','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (10183,'dirent ** *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10183,'dirent ***','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10184,'off_t *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10185,'loff_t *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10186,'__sysctl_args','Struct',0,'','','No','No','No',NULL,0,0,'',0);
@@ -14990,7 +14990,7 @@ INSERT INTO `Type` VALUES (1000091,'anon-pthread_rwlock_t-union','Union',0,'',NU
 INSERT INTO `Type` VALUES (1000092,'__pthread_internal_slist','Struct',33,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000093,'__pthread_internal_slist *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000094,'__pthread_slist_t','Typedef',346,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (1000095,'anon-pthread_mutex_internal-union','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000095,'anon-pthread_mutex_internal-union','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000096,'anon-pthread_mutex_t-union','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000097,'servent **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000098,'protoent **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
@@ -14998,3 +14998,16 @@ INSERT INTO `Type` VALUES (1000099,'ENTRY **','Pointer',0,'',NULL,'Unknown','Unk
 INSERT INTO `Type` VALUES (1000100,'_ENTRY *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000101,'hsearch_data','Struct',138,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000102,'hsearch_data *','Pointer',138,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000103,'const dirent','Const',219,'','','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000104,'const dirent64','Const',219,'','','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000105,'const dirent *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000106,'const dirent64 *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000107,'const dirent **','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000108,'const dirent64 **','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000109,'const dirent ***','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000110,'const dirent64 ***','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000111,'dirent64 ***','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000112,'fptr-select64','FuncPtr',15,'','','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000113,'fptr-compar64','FuncPtr',15,'','','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000114,'char[__SIZEOF_SEM_T]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000115,'anon-sem_t-union','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
