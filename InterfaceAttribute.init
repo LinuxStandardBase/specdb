@@ -16,7 +16,7 @@ INSERT INTO `InterfaceAttribute` VALUES (16,'gethostbyname_r','libc','Recommenda
 INSERT INTO `InterfaceAttribute` VALUES (17,'matherr','libm','Recommendation','Use IEEE 754 floating point exceptions instead');
 INSERT INTO `InterfaceAttribute` VALUES (18,'statfs','libc','Recommendation','Use statvfs instead');
 INSERT INTO `InterfaceAttribute` VALUES (19,'statfs64','libc','Recommendation','Use stavfs64 instead');
-INSERT INTO `InterfaceAttribute` VALUES (20,'getdomainname','libc','Recommendation','Use strncpy(name, len, \"(none)\" instead');
+INSERT INTO `InterfaceAttribute` VALUES (20,'getdomainname','libc','Recommendation','This function is essentially useless. The NIS domain name returned by it is not the same as the domain portion of a fully qualified domain name (for example, in DNS) and can be unspecified. In addition, even if the the value returned is not equal to \"(none)\", the application should not imply that NIS is in use.');
 INSERT INTO `InterfaceAttribute` VALUES (21,'gdkx_colormap_get','libgdk-x11-2.0','Recommendation','gdkx_colormap_get is deprecated and should not be used in newly-written code. Always use gdk_x11_colormap_foreign_new() instead.');
 INSERT INTO `InterfaceAttribute` VALUES (22,'gdk_char_height','libgdk-x11-2.0','Recommendation','gdk_char_height is deprecated and should not be used in newly-written code. The value returned by this function is not generally useful, because you cannot determine how this total height will be drawn in relation to the baseline.');
 INSERT INTO `InterfaceAttribute` VALUES (23,'gdk_char_measure','libgdk-x11-2.0','Recommendation','gdk_char_measure is deprecated and should not be used in newly-written code.');
@@ -610,7 +610,7 @@ INSERT INTO `InterfaceAttribute` VALUES (1107,'getwd','libc','Recommendation','T
 INSERT INTO `InterfaceAttribute` VALUES (1108,'gamma','libm','Recommendation','This name for the interface is obsolete. Use lgamma instead');
 INSERT INTO `InterfaceAttribute` VALUES (1109,'gammaf','libm','Recommendation','This name for the interface is obsolete. Use lgammaf instead');
 INSERT INTO `InterfaceAttribute` VALUES (1110,'gammal','libm','Recommendation','This name for the interface is obsolete. Use lgammal instead');
-INSERT INTO `InterfaceAttribute` VALUES (1111,'getdtablesize','libc','Recommendation','This interface is deprecated. Use getrlimit with the RLIMIT_NOFILE option instead');
+INSERT INTO `InterfaceAttribute` VALUES (1111,'getdtablesize','libc','Recommendation','This interface is deprecated. Use sysconf(_SC_PAGE_SIZE) instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1112,'getpagesize','libc','Recommendation','This interface is deprecated. Use sysconf(_SC_GET_PAGE_SIZE) instead');
 INSERT INTO `InterfaceAttribute` VALUES (1113,'get_nprocs_onln','libc','Recommendation','can use sysconf(_SC_NPROCESSORS_ONLN) for this');
 INSERT INTO `InterfaceAttribute` VALUES (1114,'bcmp','libc','Recommendation','no longer in POSIX, consider using memcmp');
@@ -1164,3 +1164,5 @@ INSERT INTO `InterfaceAttribute` VALUES (1667,'mcheck_pedantic','libc','Rejectio
 INSERT INTO `InterfaceAttribute` VALUES (1668,'mcheck','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
 INSERT INTO `InterfaceAttribute` VALUES (1669,'mcheck_check_all','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
 INSERT INTO `InterfaceAttribute` VALUES (1670,'mprobe','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
+INSERT INTO `InterfaceAttribute` VALUES (1671,'setdomainname','libc','Rejection','User-level application normally may not have enought privileges to change domain.');
+INSERT INTO `InterfaceAttribute` VALUES (1672,'settimeofday','libc','Rejection','User-level application normally may not have enought privileges to change system time.');
