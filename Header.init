@@ -148,7 +148,7 @@ INSERT INTO `Header` VALUES (152,'ctype',231,'No',NULL,'2.0',NULL);
 INSERT INTO `Header` VALUES (153,'rpc/auth_unix.h',131,'No',NULL,'2.0',NULL);
 INSERT INTO `Header` VALUES (154,'rpc/auth_des.h',131,'No',NULL,'2.0',NULL);
 INSERT INTO `Header` VALUES (155,'unctrl.h',128,'No',NULL,'2.0',NULL);
-INSERT INTO `Header` VALUES (156,'sys/sendfile.h',131,'Yes',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (156,'sys/sendfile.h',131,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (157,'iostream',231,'No',NULL,'2.1',NULL);
 INSERT INTO `Header` VALUES (158,'iosfwd',231,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (159,'netinet/ip.h',131,'No',NULL,'3.0',NULL);
