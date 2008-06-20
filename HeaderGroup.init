@@ -530,7 +530,7 @@ INSERT INTO `HeaderGroup` VALUES (541,'TERMINAL Type',140,1,'');
 INSERT INTO `HeaderGroup` VALUES (544,'misc non-standard',70,1,'Stuff needed to make other curses related headers happy');
 INSERT INTO `HeaderGroup` VALUES (547,'Multicast Support',117,13,'Multicast interfaces to setsockopt()');
 INSERT INTO `HeaderGroup` VALUES (546,'attributes',70,13,'attributes');
-INSERT INTO `HeaderGroup` VALUES (548,'Default HeadGroup',156,0,'Currently, sendfile() is not allowed in the LSB');
+INSERT INTO `HeaderGroup` VALUES (548,'Default Header Section for sys/sendfile',156,0,'');
 INSERT INTO `HeaderGroup` VALUES (549,'Standard well-defined IP protocols.',117,1,'Standard well-defined IP protocols.');
 INSERT INTO `HeaderGroup` VALUES (550,'Type to represent a port.',117,2,'Type to represent a port.');
 INSERT INTO `HeaderGroup` VALUES (551,'Standard well-known ports.',117,3,'Standard well-known ports.');
