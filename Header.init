@@ -731,7 +731,7 @@ INSERT INTO `Header` VALUES (745,'private/qthreadinstance_p.h',262,'No',NULL,'',
 INSERT INTO `Header` VALUES (746,'private/qlibrary_p.h',262,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (490,'X11/extensions/render.h',263,'No',NULL,'3.2',NULL);
 INSERT INTO `Header` VALUES (491,'X11/extensions/Xrender.h',263,'No',NULL,'3.2',NULL);
-INSERT INTO `Header` VALUES (492,'freetype/fterrdef.h',264,'No',NULL,'3.2',NULL);
+INSERT INTO `Header` VALUES (492,'freetype/fterrdef.h',264,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (493,'freetype/ftlist.h',264,'No',NULL,'3.2',NULL);
 INSERT INTO `Header` VALUES (494,'freetype/ftoutln.h',264,'No',NULL,'3.2',NULL);
 INSERT INTO `Header` VALUES (495,'freetype/ttnameid.h',264,'No',NULL,'3.2',NULL);
