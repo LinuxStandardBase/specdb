@@ -28,8 +28,8 @@ BEGIN
 	    EXECUTE stmt;
 	    
 	    SET @stmt_text = CONCAT( "CREATE TABLE ", @table_name,
-		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, ISsid FROM Interface
+		"(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`,`Itestable`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`), KEY `Idocumented` (`Idocumented`), KEY `AIdeprecatedsince`(`AIdeprecatedsince`) )
+		SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, ISsid, Itestable, Idocumented, AIdeprecatedsince FROM Interface
 		LEFT JOIN ArchInt ON AIint=Iid
 		LEFT JOIN IntStd ON ISiid=Iid
 		LEFT JOIN LGInt ON LGIint=Iid 
@@ -51,7 +51,7 @@ BEGIN
 	    SET @stmt_text = CONCAT( "CREATE TABLE ", @table_correspondance_name,
 		    " (PRIMARY KEY `Iid` (`Iid`,`RIid`,`AIarch`), KEY `RIid` (`RIid`), KEY `Ilibrary` (`Ilibrary`) )
 		      SELECT ", @table_name, ".Iid, RIid, AIarch, Ilibrary FROM ", @table_name,
-		    " LEFT JOIN cache_IntCorrespondance USING(Iid)"
+		    " LEFT JOIN cache_IntCorrespondance USING(Iid) GROUP BY ", @table_name, ".Iid, RIid, AIarch"
 		);
 	    PREPARE stmt FROM @stmt_text;
 	    EXECUTE stmt;
@@ -69,8 +69,8 @@ BEGIN
 		EXECUTE stmt;
 		
 		SET @stmt_text = CONCAT( "CREATE TABLE ", @table_arch_name,
-		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`))
-		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid, ISsid FROM ", @table_name,
+		    "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`,`Itestable`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`), KEY `Idocumented`(`Idocumented`), KEY `AIdeprecatedsince`(`AIdeprecatedsince`))
+		    SELECT Iid, max(AIarch) as AIarch, Itype, LGIlibg, Lid, ISsid, Itestable, Idocumented, AIdeprecatedsince FROM ", @table_name,
 		    " WHERE AIarch=1 OR AIarch=", arch,
 		    " GROUP BY Iid");
 		PREPARE stmt FROM @stmt_text;

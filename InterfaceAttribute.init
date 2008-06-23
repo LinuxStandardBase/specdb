@@ -1164,8 +1164,8 @@ INSERT INTO `InterfaceAttribute` VALUES (1667,'mcheck_pedantic','libc','Rejectio
 INSERT INTO `InterfaceAttribute` VALUES (1668,'mcheck','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
 INSERT INTO `InterfaceAttribute` VALUES (1669,'mcheck_check_all','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
 INSERT INTO `InterfaceAttribute` VALUES (1670,'mprobe','libc','Rejection','This function is useful for debugging only. Tracing makes no sense during normal execution and only leads to a speed penalty for all calls to the traced functions.');
-INSERT INTO `InterfaceAttribute` VALUES (1671,'setdomainname','libc','Rejection','User-level application normally may not have enought privileges to change domain.');
-INSERT INTO `InterfaceAttribute` VALUES (1672,'settimeofday','libc','Rejection','User-level application normally may not have enought privileges to change system time.');
+INSERT INTO `InterfaceAttribute` VALUES (1671,'setdomainname','libc','Rejection','User-level application normally may not have enough privileges to change domain.');
+INSERT INTO `InterfaceAttribute` VALUES (1672,'settimeofday','libc','Rejection','User-level application normally may not have enough privileges to change system time.');
 INSERT INTO `InterfaceAttribute` VALUES (1673,'gnu_dev_major','libc','Rejection','User-level application normally may not have enough privileges to manipulate devices.');
 INSERT INTO `InterfaceAttribute` VALUES (1674,'gnu_dev_minor','libc','Rejection','User-level application normally may not have enough privileges to manipulate devices.');
 INSERT INTO `InterfaceAttribute` VALUES (1675,'gnu_dev_makedev','libc','Rejection','User-level application normally may not have enough privileges to manipulate devices.');

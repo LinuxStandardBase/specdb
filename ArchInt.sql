@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -23,8 +23,9 @@ CREATE TABLE `ArchInt` (
   `AIarch` int(10) unsigned NOT NULL default '0',
   `AIint` int(10) unsigned NOT NULL default '0',
   `AIversion` int(10) unsigned NOT NULL default '0',
-  `AIappearedin` varchar(255) NOT NULL default '',
-  `AIwithdrawnin` varchar(255) default NULL,
+  `AIappearedin` varchar(5) NOT NULL,
+  `AIwithdrawnin` varchar(5) default NULL,
+  `AIdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`AIarch`,`AIint`,`AIappearedin`),
   KEY `AIversion` (`AIversion`),
   KEY `k_av` (`AIint`,`AIversion`),
@@ -43,3 +44,4 @@ CREATE TABLE `ArchInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-06-23  8:00:52

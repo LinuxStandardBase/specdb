@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -23,12 +23,12 @@ CREATE TABLE `SubModule` (
   `SMid` int(10) unsigned NOT NULL auto_increment,
   `SMname` varchar(255) NOT NULL,
   `SMcomment` varchar(255) default NULL,
-  `SMmandatorysince` varchar(255) NOT NULL,
-  `SMdeprecatedsince` varchar(255) default NULL,
+  `SMmandatorysince` varchar(5) NOT NULL,
+  `SMdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`SMid`),
   UNIQUE KEY `SMname` (`SMname`),
   KEY `SMdeprecatedsince` (`SMdeprecatedsince`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,3 +39,4 @@ CREATE TABLE `SubModule` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-06-23  8:00:54

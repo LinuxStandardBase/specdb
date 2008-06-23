@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -25,8 +25,8 @@ CREATE TABLE `InterpretedLanguage` (
   `ILversion` varchar(255) NOT NULL default '',
   `ILlocation` varchar(255) NOT NULL default '',
   `ILstandard` int(10) NOT NULL default '0',
-  `ILappearedin` varchar(255) NOT NULL default '',
-  `ILwithdrawnin` varchar(255) default NULL,
+  `ILappearedin` varchar(5) NOT NULL,
+  `ILwithdrawnin` varchar(5) default NULL,
   `ILsmid` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`ILid`),
   UNIQUE KEY `k_Iname` (`ILname`,`ILappearedin`),
@@ -34,7 +34,7 @@ CREATE TABLE `InterpretedLanguage` (
   KEY `k_appearedin` (`ILappearedin`,`ILwithdrawnin`),
   KEY `k_withdrawnin` (`ILwithdrawnin`),
   KEY `k_submodule` (`ILsmid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -45,3 +45,4 @@ CREATE TABLE `InterpretedLanguage` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-06-23  8:00:54

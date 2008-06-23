@@ -27,8 +27,8 @@ CREATE TABLE `TestSuite` (
   `TSstatus` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `TSpartof` varchar(255) NOT NULL default '',
   `TSversion` varchar(255) NOT NULL default '',
-  `TSappearedin` varchar(255) NOT NULL default '',
-  `TSwithdrawnin` varchar(255) default NULL,
+  `TSappearedin` varchar(5) NOT NULL,
+  `TSwithdrawnin` varchar(5) NOT NULL,
   PRIMARY KEY  (`TSid`),
   KEY `TSid` (`TSid`,`TSname`,`TSversion`),
   KEY `TSappearedin` (`TSappearedin`,`TSwithdrawnin`),
@@ -45,4 +45,4 @@ CREATE TABLE `TestSuite` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:33:42
+-- Dump completed on 2008-06-23  5:46:29

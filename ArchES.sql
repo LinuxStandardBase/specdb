@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -26,8 +26,8 @@ CREATE TABLE `ArchES` (
   `AESattributes` varchar(60) NOT NULL default '',
   `AEStype` int(10) unsigned NOT NULL default '0',
   `AESdescription` blob NOT NULL,
-  `AESappearedin` varchar(255) NOT NULL default '',
-  `AESwithdrawnin` varchar(255) default NULL,
+  `AESappearedin` varchar(5) NOT NULL,
+  `AESwithdrawnin` varchar(5) default NULL,
   `AESurl` varchar(255) default NULL,
   PRIMARY KEY  (`AESesid`,`AESaid`,`AESstd`,`AESappearedin`),
   KEY `k_aid` (`AESaid`),
@@ -44,3 +44,4 @@ CREATE TABLE `ArchES` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2008-06-23  8:00:52
