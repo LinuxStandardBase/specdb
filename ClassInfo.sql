@@ -1,6 +1,6 @@
--- MySQL dump 10.11
+-- MySQL dump 10.10
 --
--- Host: localhost    Database: lsb
+-- Host: db2.linux-foundation.org    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -44,7 +44,7 @@ CREATE TABLE `ClassInfo` (
   UNIQUE KEY `CIname` (`CIname`,`CIlibg`),
   KEY `CIlibg` (`CIlibg`),
   KEY `k_CIunmangled` (`CIunmangled`(1000))
-) ENGINE=MyISAM AUTO_INCREMENT=2503 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -55,4 +55,3 @@ CREATE TABLE `ClassInfo` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-06-23  8:00:52
