@@ -23,8 +23,8 @@ CREATE TABLE `AbiApi` (
   `AAbinint` int(10) unsigned NOT NULL default '0',
   `AAsrcint` int(10) unsigned NOT NULL default '0',
   `AAvalue` text NOT NULL,
-  `AAappearedin` varchar(255) NOT NULL,
-  `AAwithdrawnin` varchar(255) default NULL,
+  `AAappearedin` varchar(5) NOT NULL,
+  `AAwithdrawnin` varchar(5) default NULL,
   PRIMARY KEY  (`AAbinint`,`AAsrcint`,`AAvalue`(20)),
   KEY `k_src` (`AAsrcint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;

@@ -30,7 +30,7 @@ CREATE TABLE `Command` (
   `Ccandidatefor` varchar(255) default NULL,
   `Cbuiltin` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Curl` varchar(255) default NULL,
-  `Cdeprecatedsince` varchar(255) default NULL,
+  `Cdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `Cname` (`Cname`),
   KEY `Cdeprecatedsince` (`Cdeprecatedsince`),

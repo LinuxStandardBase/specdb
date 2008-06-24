@@ -22,8 +22,8 @@ DROP TABLE IF EXISTS `ModCmd`;
 CREATE TABLE `ModCmd` (
   `MCmid` int(10) unsigned NOT NULL default '0',
   `MCcid` int(10) unsigned NOT NULL default '0',
-  `MCappearedin` varchar(255) NOT NULL default '',
-  `MCwithdrawnin` varchar(255) default NULL,
+  `MCappearedin` varchar(5) NOT NULL,
+  `MCwithdrawnin` varchar(5) default NULL,
   PRIMARY KEY  (`MCmid`,`MCcid`,`MCappearedin`),
   KEY `k_appearedin` (`MCappearedin`),
   KEY `k_withdrawnin` (`MCwithdrawnin`)

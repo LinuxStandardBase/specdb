@@ -28,7 +28,6 @@ CREATE TABLE `Interface` (
   `Idocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Icomment` varchar(255) default NULL,
   `Icandidatefor` varchar(255) default NULL,
-  `Ideprecatedsince` varchar(255) default NULL,
   `Iunmangled` text,
   `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL default 'Both',
   `Ilibrary` varchar(200) character set latin1 collate latin1_bin default NULL,

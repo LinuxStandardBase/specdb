@@ -23,8 +23,8 @@ CREATE TABLE `SubModule` (
   `SMid` int(10) unsigned NOT NULL auto_increment,
   `SMname` varchar(255) NOT NULL,
   `SMcomment` varchar(255) default NULL,
-  `SMmandatorysince` varchar(255) NOT NULL,
-  `SMdeprecatedsince` varchar(255) default NULL,
+  `SMmandatorysince` varchar(5) NOT NULL,
+  `SMdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`SMid`),
   UNIQUE KEY `SMname` (`SMname`),
   KEY `SMdeprecatedsince` (`SMdeprecatedsince`)

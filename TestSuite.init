@@ -7,16 +7,16 @@
 23	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.1.1-6	3.1	3.2
 24	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.1.1-6	3.1	3.2
 25	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5	3.2	3.2
-26	Desktop-t2c	Desktop-t2c	Linux Foundation	Yes	Desktop Tests	0.1	3.2	\N
-27	Desktop-Freetype	Desktop-Freetype	Linux Foundation	Yes	Desktop Tests	1.0	3.2	\N
-28	Desktop_GtkVts	Desktop Gtk	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-29	Printing	Printing	Linux Foundation	Yes	Desktop Tests	3.2.0-1	3.2	\N
-30	Libstdcpp	libstdcpp	Linux Foundation	Yes	LibStdC++ Test	3.4.3.7	3.2	\N
-31	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	3.2.0-2	3.2	\N
-32	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5.7	3.2	\N
-33	Desktop_Xrenderer	Desktop Xrenderer	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-34	Desktop_Xft	Desktop Xft	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-35	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-36	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-37	Desktop_XML2	Desktop_XML2	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-38	Desktop_libpng	Desktop libpng	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
+26	Desktop-t2c	Desktop-t2c	Linux Foundation	Yes	Desktop Tests	0.1	3.2	
+27	Desktop-Freetype	Desktop-Freetype	Linux Foundation	Yes	Desktop Tests	1.0	3.2	
+28	Desktop_GtkVts	Desktop Gtk	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+29	Printing	Printing	Linux Foundation	Yes	Desktop Tests	3.2.0-1	3.2	
+30	Libstdcpp	libstdcpp	Linux Foundation	Yes	LibStdC++ Test	3.4.3.7	3.2	
+31	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	3.2.0-2	3.2	
+32	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5.7	3.2	
+33	Desktop_Xrenderer	Desktop Xrenderer	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+34	Desktop_Xft	Desktop Xft	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+35	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+36	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+37	Desktop_XML2	Desktop_XML2	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	
+38	Desktop_libpng	Desktop libpng	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	

@@ -26,7 +26,6 @@ CREATE TABLE `Constant` (
   `Cheadgroup` int(10) unsigned NOT NULL default '0',
   `Cdescription` varchar(255) NOT NULL default '',
   `Ccandidatefor` varchar(255) default NULL,
-  `Csrconly` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `k_c_name` (`Cname`),
   KEY `Cheadgroup` (`Cheadgroup`)

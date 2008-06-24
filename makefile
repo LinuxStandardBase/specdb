@@ -17,7 +17,7 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable
 	
-APP_TABLES=Application AppLib AppCategory AppRInt RawInterface RawClass AppRILM RawILModule
+APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
@@ -81,7 +81,6 @@ restoreall::
 		table=`basename $$table .sql`; \
 		mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
-	mysql $(DBOPTS) $$LSBDB <create_triggers.sql;
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
 # need a rule to populate the now external community tables,

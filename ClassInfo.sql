@@ -42,7 +42,8 @@ CREATE TABLE `ClassInfo` (
   `CIpurevirtual` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`CIid`),
   UNIQUE KEY `CIname` (`CIname`,`CIlibg`),
-  KEY `CIlibg` (`CIlibg`)
+  KEY `CIlibg` (`CIlibg`),
+  KEY `k_CIunmangled` (`CIunmangled`(1000))
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

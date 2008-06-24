@@ -25,8 +25,8 @@ CREATE TABLE `ArchClass` (
   `ACpos` int(11) NOT NULL default '0',
   `ACbaseoffset` int(11) NOT NULL default '0',
   `ACvoffset` int(11) NOT NULL default '0',
-  `ACappearedin` varchar(255) NOT NULL default '',
-  `ACwithdrawnin` varchar(255) default NULL,
+  `ACappearedin` varchar(5) NOT NULL,
+  `ACwithdrawnin` varchar(5) default NULL,
   PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
   KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`,`ACaid`),
   KEY `k_appeared_arch` (`ACappearedin`,`ACaid`)

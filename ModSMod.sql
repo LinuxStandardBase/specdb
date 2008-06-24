@@ -22,8 +22,8 @@ DROP TABLE IF EXISTS `ModSMod`;
 CREATE TABLE `ModSMod` (
   `MSMmid` int(10) unsigned NOT NULL default '0',
   `MSMsmid` int(10) unsigned NOT NULL default '0',
-  `MSMappearedin` varchar(255) NOT NULL default '',
-  `MSMwithdrawnin` varchar(255) default NULL,
+  `MSMappearedin` varchar(5) NOT NULL,
+  `MSMwithdrawnin` varchar(5) default NULL,
   PRIMARY KEY  (`MSMmid`,`MSMsmid`,`MSMappearedin`),
   KEY `k_appearedin` (`MSMappearedin`,`MSMwithdrawnin`),
   KEY `k_withdrawnin` (`MSMwithdrawnin`)

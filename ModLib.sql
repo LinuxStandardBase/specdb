@@ -22,8 +22,8 @@ DROP TABLE IF EXISTS `ModLib`;
 CREATE TABLE `ModLib` (
   `MLmid` int(10) unsigned NOT NULL default '0',
   `MLlid` int(10) unsigned NOT NULL default '0',
-  `MLappearedin` varchar(255) NOT NULL default '',
-  `MLwithdrawnin` varchar(255) default NULL,
+  `MLappearedin` varchar(5) NOT NULL,
+  `MLwithdrawnin` varchar(5) default NULL,
   PRIMARY KEY  (`MLmid`,`MLlid`),
   KEY `k_MLlid` (`MLlid`),
   KEY `k_appearedin` (`MLappearedin`),

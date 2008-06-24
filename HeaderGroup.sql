@@ -27,7 +27,9 @@ CREATE TABLE `HeaderGroup` (
   `HGdescription` text NOT NULL,
   PRIMARY KEY  (`HGid`),
   KEY `HGheader` (`HGheader`),
-  KEY `k_HGorder` (`HGorder`)
+  KEY `k_HGorder` (`HGorder`),
+  KEY `k_HGname` (`HGname`),
+  KEY `k_HGdescription` (`HGdescription`(400))
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
