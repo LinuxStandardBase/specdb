@@ -9,15 +9,17 @@ DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
-	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab Command CommandAttribute \
-	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
-	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote\
-	LGInt LibGroup Library LibraryAttribute LSBVersion ModCmd ModLib ModSMod Module SubModule \
-	Parameter RpmTag SectionTypes \
-	Standard Type TypeMember TemplateParameter TypeMemberExtras TypeType \
-	Version VMIBaseTypes Vtable
-	
-APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
+	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab \
+	Command CommandAttribute Constant ConstantAttribute \
+	DynamicEntries ElfSections Header HeaderGroup Interface \
+	InterfaceAttribute InterpretedLanguage InterpretedLanguageModule \
+	IntStd InterfaceComment InterfaceVote LGInt LibGroup Library \
+	LibraryAttribute LSBVersion ModCmd ModLib ModSMod Module SubModule \
+	Parameter RpmTag SectionTypes Standard Type TemplateParameter \
+	TypeMember TypeMemberExtras TypeType Version VMIBaseTypes Vtable
+
+APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt \
+	RawInterface RawClass AppRILM RawILModule
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"

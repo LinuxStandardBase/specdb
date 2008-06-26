@@ -1053,3 +1053,5 @@ INSERT INTO `Command` VALUES (1061,'xdg-icon-resource',NULL,138,0,'Yes','Unknown
 INSERT INTO `Command` VALUES (1062,'xdg-mime',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (1063,'xdg-open',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (1064,'xdg-screensaver',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
+INSERT INTO `Command` VALUES (1065,'command',NULL,67,0,'Yes','No',NULL,'Yes','command.html',NULL);
+INSERT INTO `Command` VALUES (1066,'type',NULL,67,0,'Yes','No',NULL,'Yes','type.html',NULL);
