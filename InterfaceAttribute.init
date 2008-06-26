@@ -1140,7 +1140,7 @@ INSERT INTO `InterfaceAttribute` VALUES (1657,'key_setsecret','libc','Rejection'
 INSERT INTO `InterfaceAttribute` VALUES (1658,'inet_network','libc','Rejection','The function works only with traditional IPv4 class A, B and C network types. It doesn\'t work with classless addresses and shouldn\'t be used anymore.');
 INSERT INTO `InterfaceAttribute` VALUES (1659,'inet_lnaof','libc','Rejection','The function works only with traditional IPv4 class A, B and C network types. It doesn\'t work with classless addresses and shouldn\'t be used anymore.');
 INSERT INTO `InterfaceAttribute` VALUES (1660,'inet_netof','libc','Rejection','The function works only with traditional IPv4 class A, B and C network types. It doesn\'t work with classless addresses and shouldn\'t be used anymore.');
-INSERT INTO `InterfaceAttribute` VALUES (1661,'inet_ntoa','libc','Recommendation','This interface is deprecated. Use inet_ntop instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1661,'inet_ntoa','libc','Recommendation','Use getnameinfo with NI_NUMERICHOST flag instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1662,'isfdtype','libc','Rejection','Use fstat or fstat64 instead. Note that fstat and fstat64 are usually implemented as inline functions and on binary level the application should depend on __fxstat or __fxstat64 respectively; you may also use __fxstat* functions directly.');
 INSERT INTO `InterfaceAttribute` VALUES (1663,'get_nprocs_conf','libc','Recommendation','Use\nsysconf(_SC_NPROCESSORS_CONF) instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1664,'get_nprocs','libc','Recommendation','Use\nsysconf(_SC_NPROCESSORS_ONLN) instead.');
@@ -1175,3 +1175,7 @@ INSERT INTO `InterfaceAttribute` VALUES (1699,'fts_read','libc','Recommendation'
 INSERT INTO `InterfaceAttribute` VALUES (1700,'fts_children','libc','Recommendation','Use nftw instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1701,'fts_set','libc','Recommendation','Use nftw instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1702,'fts_close','libc','Recommendation','Use nftw instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1703,'inet_nsap_addr','libc','Rejection','Use getaddrinfo with AI_NUMERICHOST flag instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1704,'inet_nsap_ntoa','libc','Rejection','Use getnameinfo with NI_NUMERICHOST flag instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1705,'inet_makeaddr','libc','Rejection','This function is obsolete and should not be used.');
+INSERT INTO `InterfaceAttribute` VALUES (1706,'setlinebuf','libc','Rejection','Use POSIX setvbuf instead - setlinebuf(stream) is equivalent to setvbuf(stream, (char *) NULL, _IOLBF, 0).');
