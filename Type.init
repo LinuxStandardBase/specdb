@@ -15070,3 +15070,5 @@ INSERT INTO `Type` VALUES (1000123,'_xEvent','Struct',0,'',NULL,'No','No','No',N
 INSERT INTO `Type` VALUES (1000124,'xEvent','Typedef',0,'',NULL,'No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1000125,'_xError','Struct',0,'',NULL,'No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1000126,'xError','Typedef',0,'',NULL,'No','No','No',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1000127,'const pthread_mutex_t','Const',343,'','','No','No','No',NULL,0,0,'libpthread',0);
+INSERT INTO `Type` VALUES (1000128,'const pthread_mutex_t *','Pointer',343,'','','No','No','No',NULL,0,0,'libpthread',0);
