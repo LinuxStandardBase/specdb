@@ -1179,3 +1179,5 @@ INSERT INTO `InterfaceAttribute` VALUES (1703,'inet_nsap_addr','libc','Rejection
 INSERT INTO `InterfaceAttribute` VALUES (1704,'inet_nsap_ntoa','libc','Rejection','Use getnameinfo with NI_NUMERICHOST flag instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1705,'inet_makeaddr','libc','Rejection','This function is obsolete and should not be used.');
 INSERT INTO `InterfaceAttribute` VALUES (1706,'setlinebuf','libc','Rejection','Use POSIX setvbuf instead - setlinebuf(stream) is equivalent to setvbuf(stream, (char *) NULL, _IOLBF, 0).');
+INSERT INTO `InterfaceAttribute` VALUES (1707,'btowc','libc','Recommendation','This function should never be used. It does not work for encodings which have state, and unnecessarily treats single bytes differently from multibyte sequences. Use the function mbrtowc() instead. ');
+INSERT INTO `InterfaceAttribute` VALUES (1708,'mbtowc','libc','Recommendation','This function is not multi-thread safe. The function mbrtowc() provides a better interface to the same functionality.');

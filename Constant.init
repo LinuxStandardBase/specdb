@@ -2478,7 +2478,7 @@ INSERT INTO `Constant` VALUES (2481,'__clockid_t_defined','int',60,'',NULL);
 INSERT INTO `Constant` VALUES (2482,'__timer_t_defined','int',60,'',NULL);
 INSERT INTO `Constant` VALUES (2483,'__timespec_defined','int',60,'',NULL);
 INSERT INTO `Constant` VALUES (2484,'__isleap(year)','macro',60,'',NULL);
-INSERT INTO `Constant` VALUES (2485,'__NCURSES_H','int',544,'',NULL);
+INSERT INTO `Constant` VALUES (2485,'__NCURSES_H','Unknown',544,'',NULL);
 INSERT INTO `Constant` VALUES (2486,'CURSES','int',70,'',NULL);
 INSERT INTO `Constant` VALUES (2487,'CURSES_H','int',70,'',NULL);
 INSERT INTO `Constant` VALUES (2488,'NCURSES_VERSION_MAJOR','int',70,'',NULL);

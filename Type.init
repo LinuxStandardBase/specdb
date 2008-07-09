@@ -14968,7 +14968,7 @@ INSERT INTO `Type` VALUES (1000069,'__cpu_mask array','Array',37,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1000070,'anon-cpu_set_struct','Struct',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000071,'cpu_set_t','Typedef',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000072,'cpu_set_t *','Pointer',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (1000073,'const cpu_set_t *','Const',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000073,'const cpu_set_t *','Pointer',37,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000074,'const pthread_mutexattr_t *','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (1000075,'drand48_data *','Pointer',43,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000076,'char[__SIZEOF_PTHREAD_MUTEXATTR_T]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -15072,3 +15072,5 @@ INSERT INTO `Type` VALUES (1000125,'_xError','Struct',0,'',NULL,'No','No','No',N
 INSERT INTO `Type` VALUES (1000126,'xError','Typedef',0,'',NULL,'No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1000127,'const pthread_mutex_t','Const',343,'','','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (1000128,'const pthread_mutex_t *','Pointer',343,'','','No','No','No',NULL,0,0,'libpthread',0);
+INSERT INTO `Type` VALUES (1000129,'const xdrproc_t','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1000130,'const cpu_set_t','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
