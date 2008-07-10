@@ -400,3 +400,4 @@ INSERT INTO `LibGroup` VALUES (685,'Class std::char_traits<wchar_t>',231,310,'')
 INSERT INTO `LibGroup` VALUES (686,'libXtst Interfaces',276,51,'X Test Interfaces');
 INSERT INTO `LibGroup` VALUES (687,'Inotify',131,19,'');
 INSERT INTO `LibGroup` VALUES (688,'Epoll',131,0,'');
+INSERT INTO `LibGroup` VALUES (689,'Cairo Vector Graphics Library',266,0,'Cairo Vector Graphics Library');

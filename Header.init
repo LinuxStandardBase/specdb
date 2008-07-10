@@ -874,3 +874,12 @@ INSERT INTO `Header` VALUES (894,'X11/extensions/record.h',276,'Unknown',NULL,''
 INSERT INTO `Header` VALUES (901,'sys/inotify.h',131,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (902,'X11/extensions/XInput.h',276,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (903,'sys/epoll.h',131,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (904,'cairo/cairo-ft.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (905,'cairo/cairo-pdf.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (906,'cairo/cairo.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (907,'cairo/cairo-glitz.h',266,'Unknown',NULL,'',NULL);
+INSERT INTO `Header` VALUES (908,'cairo/cairo-features.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (909,'cairo/cairo-xlib-xrender.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (910,'cairo/cairo-xlib.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (911,'cairo/cairo-ps.h',266,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (912,'cairo/cairo-svg.h',266,'Unknown',NULL,'4.0',NULL);

@@ -1324,3 +1324,12 @@ INSERT INTO `HeaderGroup` VALUES (1389,'Default Header Section for X11/extension
 INSERT INTO `HeaderGroup` VALUES (1396,'Default Header Section for inotify.h',901,0,'');
 INSERT INTO `HeaderGroup` VALUES (1397,'Default Header Section for X11/extensions/XInput.h',902,0,'');
 INSERT INTO `HeaderGroup` VALUES (1398,'Default Header Section for sys/epoll.h',903,0,'');
+INSERT INTO `HeaderGroup` VALUES (1399,'Default Header Section for cairo/cairo-ft.h',904,0,'');
+INSERT INTO `HeaderGroup` VALUES (1400,'Default Header Section for cairo/cairo-pdf.h',905,0,'');
+INSERT INTO `HeaderGroup` VALUES (1401,'Default Header Section for cairo/cairo.h',906,0,'');
+INSERT INTO `HeaderGroup` VALUES (1402,'Default Header Section for cairo/cairo-glitz.h',907,0,'');
+INSERT INTO `HeaderGroup` VALUES (1403,'Default Header Section for cairo/cairo-features.h',908,0,'');
+INSERT INTO `HeaderGroup` VALUES (1404,'Default Header Section for cairo/cairo-xlib-xrender.h',909,0,'');
+INSERT INTO `HeaderGroup` VALUES (1405,'Default Header Section for cairo/cairo-xlib.h',910,0,'');
+INSERT INTO `HeaderGroup` VALUES (1406,'Default Header Section for cairo/cairo-ps.h',911,0,'');
+INSERT INTO `HeaderGroup` VALUES (1407,'Default Header Section for cairo/cairo-svg.h',912,0,'');
