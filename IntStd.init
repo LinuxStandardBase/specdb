@@ -49821,3 +49821,8 @@ INSERT INTO `IntStd` VALUES (97910,153,0,'4.0',NULL,'cairo-XLib-Surfaces.html#ca
 INSERT INTO `IntStd` VALUES (97912,153,0,'4.0',NULL,'cairo-XLib-Surfaces.html#cairo-xlib-surface-get-width');
 INSERT INTO `IntStd` VALUES (97906,153,0,'4.0',NULL,'cairo-XLib-Surfaces.html#cairo-xlib-surface-set-drawable');
 INSERT INTO `IntStd` VALUES (97905,153,0,'4.0',NULL,'cairo-XLib-Surfaces.html#cairo-xlib-surface-set-size');
+INSERT INTO `IntStd` VALUES (97920,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-create');
+INSERT INTO `IntStd` VALUES (97921,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-set-source-color');
+INSERT INTO `IntStd` VALUES (97922,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-set-source-pixbuf');
+INSERT INTO `IntStd` VALUES (97923,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-rectangle');
+INSERT INTO `IntStd` VALUES (97924,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-region');
