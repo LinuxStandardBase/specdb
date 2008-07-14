@@ -15183,3 +15183,11 @@ INSERT INTO `Type` VALUES (1000236,'const double *','Pointer',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1000237,'cairo_matrix_t *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcairo',0);
 INSERT INTO `Type` VALUES (1000238,'const cairo_scaled_font_t','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcairo',0);
 INSERT INTO `Type` VALUES (1000239,'const cairo_matrix_t *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcairo',0);
+INSERT INTO `Type` VALUES (1000240,'_PangoCairoFont','Struct',1409,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000241,'PangoCairoFont','Typedef',1409,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000242,'_PangoCairoFontMap','Struct',1409,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000243,'PangoCairoFontMap','Typedef',1409,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000244,'PangoCairoShapeRendererFunc','Typedef',1409,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000245,'PangoCairoFontMap *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000246,'PangoCairoFont *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);
+INSERT INTO `Type` VALUES (1000247,'void (*)(cairo_t *, PangoAttrShape *, gboolean, gpointer)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'pangocairo',0);

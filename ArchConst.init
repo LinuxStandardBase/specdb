@@ -15070,3 +15070,6 @@ INSERT INTO `ArchConst` VALUES (1,15624,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15625,'1','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15626,'(\\\n  ((major) * 10000)   \\\n+ ((minor) *   100) \\\n+ ((micro) *     1))','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15627,' \\\n   CAIRO_VERSION_ENCODE( CAIRO_VERSION_MAJOR, CAIRO_VERSION_MINOR, \\\n    CAIRO_VERSION_MICRO)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15628,'(pango_cairo_font_map_get_type ())','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15629,' \\\n	(G_TYPE_CHECK_INSTANCE_CAST ((object), PANGO_TYPE_CAIRO_FONT_MAP, \\\n	PangoCairoFontMap))','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15630,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((object), PANGO_TYPE_CAIRO_FONT_MAP))','4.0',NULL,0);

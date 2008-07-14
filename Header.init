@@ -884,3 +884,4 @@ INSERT INTO `Header` VALUES (910,'cairo/cairo-xlib.h',266,'Unknown',NULL,'4.0',N
 INSERT INTO `Header` VALUES (911,'cairo/cairo-ps.h',266,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (912,'cairo/cairo-svg.h',266,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (913,'gtk-2.0/gdk/gdkcairo.h',252,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (914,'pango-1.0/pango/pangocairo.h',267,'Unknown',NULL,'4.0',NULL);

@@ -1334,3 +1334,4 @@ INSERT INTO `HeaderGroup` VALUES (1405,'Default Header Section for cairo/cairo-x
 INSERT INTO `HeaderGroup` VALUES (1406,'Default Header Section for cairo/cairo-ps.h',911,0,'');
 INSERT INTO `HeaderGroup` VALUES (1407,'Default Header Section for cairo/cairo-svg.h',912,0,'');
 INSERT INTO `HeaderGroup` VALUES (1408,'Default Header Section for gtk-2.0/gdk/gdkcairo.h',913,0,'');
+INSERT INTO `HeaderGroup` VALUES (1409,'Default Header Section for pango-1.0/pango/pangocairo.h',914,0,'');

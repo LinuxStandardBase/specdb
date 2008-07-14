@@ -269,3 +269,4 @@ INSERT INTO `ArchLib` VALUES (272,1,'libasound.so.2','3.2',NULL);
 INSERT INTO `ArchLib` VALUES (275,1,'libGLU.so.1','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (276,1,'libXtst.so.6','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (267,1,'libpangocairo-1.0.so.0','',NULL);
+INSERT INTO `ArchLib` VALUES (267,1,'libpangocairo-1.0.so.0','4.0',NULL);
