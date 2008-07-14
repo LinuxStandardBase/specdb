@@ -49826,3 +49826,5 @@ INSERT INTO `IntStd` VALUES (97921,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#
 INSERT INTO `IntStd` VALUES (97922,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-set-source-pixbuf');
 INSERT INTO `IntStd` VALUES (97923,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-rectangle');
 INSERT INTO `IntStd` VALUES (97924,146,0,'4.0',NULL,'gdk-Cairo-Interaction.html#gdk-cairo-region');
+INSERT INTO `IntStd` VALUES (97925,10,0,'4.0',NULL,NULL);
+INSERT INTO `IntStd` VALUES (97926,10,0,'4.0',NULL,NULL);
