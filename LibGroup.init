@@ -402,3 +402,5 @@ INSERT INTO `LibGroup` VALUES (687,'Inotify',131,19,'');
 INSERT INTO `LibGroup` VALUES (688,'Epoll',131,0,'');
 INSERT INTO `LibGroup` VALUES (689,'Cairo Vector Graphics Library',266,0,'Cairo Vector Graphics Library');
 INSERT INTO `LibGroup` VALUES (690,'Pango Cairo Rendering',267,0,'');
+INSERT INTO `LibGroup` VALUES (691,'NSS Utility',277,0,'');
+INSERT INTO `LibGroup` VALUES (692,'NSS SSL',278,0,'');
