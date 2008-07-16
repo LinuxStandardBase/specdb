@@ -13825,3 +13825,5 @@ INSERT INTO `Constant` VALUES (15627,'CAIRO_VERSION','Unknown',1401,'',NULL);
 INSERT INTO `Constant` VALUES (15628,'PANGO_TYPE_CAIRO_FONT_MAP','Unknown',1409,'',NULL);
 INSERT INTO `Constant` VALUES (15629,'PANGO_CAIRO_FONT_MAP(object)','macro',1409,'',NULL);
 INSERT INTO `Constant` VALUES (15630,'PANGO_IS_CAIRO_FONT_MAP(object)','macro',1409,'',NULL);
+INSERT INTO `Constant` VALUES (15631,'nss3/key.h depends on nss3/keyhi.h','header_depend',1474,'',NULL);
+INSERT INTO `Constant` VALUES (15632,'nss3/keyt.h depends on nss3/keythi.h','header_depend',1475,'',NULL);

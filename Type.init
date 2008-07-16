@@ -1,12 +1,12 @@
 INSERT INTO `Type` VALUES (1,'void','Intrinsic',0,'','','No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (2,'char','Intrinsic',1424,'','','No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (3,'unsigned char','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (2,'char','Intrinsic',0,'','','No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (3,'unsigned char','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (4,'short','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (5,'unsigned short','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (6,'int','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (7,'unsigned int','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (8,'long int','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (9,'unsigned long int','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (5,'unsigned short','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (6,'int','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (7,'unsigned int','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (8,'long int','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (9,'unsigned long int','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10,'long long int','Intrinsic',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11,'unsigned long long int','Intrinsic',0,'',NULL,'No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12,'float','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
@@ -27,7 +27,7 @@ INSERT INTO `Type` VALUES (8144,'GLboolean','Typedef',266,'','','No','No','No',N
 INSERT INTO `Type` VALUES (100297,'anon-X11/SM/SMlib.h-272','Struct',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (100296,'SmsCloseConnectionProc','Typedef',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (100295,'void (*)(SmsConn, SmPointer, int, char **)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (40,'void *','Pointer',1434,'','','No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40,'void *','Pointer',0,'','','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (41,'void * *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8718,'GLXPixmap','Typedef',2,'','','No','No','No',NULL,0,0,'libGL',0);
 INSERT INTO `Type` VALUES (8896,'XFontStruct * *','Pointer',0,'','','No','No','Yes',NULL,0,0,'',0);
@@ -2632,7 +2632,7 @@ INSERT INTO `Type` VALUES (11260,'JSAMPROW *','Pointer',608,'',NULL,'No','No','Y
 INSERT INTO `Type` VALUES (11261,'JSAMPARRAY','Typedef',608,'',NULL,'No','No','No',NULL,0,0,'libjpeg',0);
 INSERT INTO `Type` VALUES (11262,'JDIMENSION','Typedef',608,'',NULL,'No','No','No',NULL,0,0,'libjpeg',0);
 INSERT INTO `Type` VALUES (11263,'fptr_jpeglib_409','FuncPtr',608,'',NULL,'No','No','Yes',NULL,0,0,'libjpeg',0);
-INSERT INTO `Type` VALUES (11264,'short int','Intrinsic',1469,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (11264,'short int','Intrinsic',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11265,'JCOEF','Typedef',608,'',NULL,'No','No','No',NULL,0,0,'libjpeg',0);
 INSERT INTO `Type` VALUES (11266,'JCOEF[64]','Array',608,'',NULL,'No','No','Yes',NULL,0,0,'libjpeg',0);
 INSERT INTO `Type` VALUES (11267,'JBLOCK','Typedef',608,'',NULL,'No','No','No',NULL,0,0,'libjpeg',0);
@@ -12430,7 +12430,7 @@ INSERT INTO `Type` VALUES (27929,'unsigned char[147]','Array',0,'',NULL,'No','No
 INSERT INTO `Type` VALUES (27930,'unsigned char[16]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27931,'unsigned char[1]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27932,'unsigned char[24]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (27933,'unsigned char[2]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
+INSERT INTO `Type` VALUES (27933,'unsigned char[3]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27934,'unsigned char[31]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27935,'unsigned char[4]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27936,'unsigned char[43]','Array',0,'',NULL,'No','No','No',NULL,0,0,'libasound',0);
@@ -12578,7 +12578,7 @@ INSERT INTO `Type` VALUES (29609,'cups_mode_t','Typedef',1293,'',NULL,'Unknown',
 INSERT INTO `Type` VALUES (29610,'anon-cups/raster.h-44','Struct',1293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcupsimage',0);
 INSERT INTO `Type` VALUES (29611,'cups_raster_t','Typedef',1293,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libcupsimage',0);
 INSERT INTO `Type` VALUES (29612,'cups_raster_t *','Pointer',1293,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'libcupsimage',0);
-INSERT INTO `Type` VALUES (29613,'char[64]','Array',1293,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (29613,'char[64]','Array',0,'',NULL,'Unknown','Unknown','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29614,'anon-cups/raster.h-39','Enum',1293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcupsimage',0);
 INSERT INTO `Type` VALUES (29615,'cups_adv_t','Typedef',1293,'',NULL,'Unknown','Unknown','No',NULL,0,0,'libcupsimage',0);
 INSERT INTO `Type` VALUES (29616,'anon-cups/raster.h-35','Enum',1293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcupsimage',0);
@@ -15355,7 +15355,7 @@ INSERT INTO `Type` VALUES (1000408,'anon-enum-1488753','Enum',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1000409,'<FUN-PTR-414605 CK_RV (*)(CK_SESSION_HANDLE, CK_SESSION_INFO_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000410,'<FUN-PTR-100877 PRBool (*)(nssDecodedCert *, const NSSUsage *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000411,'<FUN-PTR-264916 CK_RV (*)(CK_SESSION_HANDLE, CK_MECHANISM_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1000412,'anon-struct-1cebc','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1000412,'CERTValInParam_struct','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000413,'<FUN-PTR-737704 CK_RV (*)(CK_SLOT_ID, CK_FLAGS, CK_VOID_PTR, CK_NOTIFY, CK_SESSION_HANDLE_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000414,'<FUN-PTR-291862 CK_RV (*)(CK_FUNCTION_LIST_PTR_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000415,'const short int[27]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -15391,7 +15391,7 @@ INSERT INTO `Type` VALUES (1000444,'const PRIntervalTime','Const',0,'',NULL,'Unk
 INSERT INTO `Type` VALUES (1000445,'<FUN-PTR-1383541 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_Object *, PKIX_Int32 *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000446,'anon-struct-8e789','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000447,'anon-enum-311741','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1000448,'PLHashFunction','Typedef',1455,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1004827,'PLHashFunction','Typedef',1455,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000449,'<FUN-PTR-188217 int (*)(pthread_attr_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000450,'PKIX_ERRORCLASS *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000451,'<FUN-PTR-619576 NSSItem * (*)(nssDecodedCert *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -15415,7 +15415,7 @@ INSERT INTO `Type` VALUES (1000468,'anon-union-96919','Union',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1000469,'<FUN-PTR-174967 int (*)(pthread_t, int, const sched_param *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000470,'<FUN-PTR-1215660 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_UInt32 *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000471,'anon-union-1658708','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1000472,'PRSendfileFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1004751,'PRSendfileFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000473,'PKIX_ValidateResult','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000474,'NSSOIDStr','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000475,'<FUN-PTR-430824 CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -15523,7 +15523,7 @@ INSERT INTO `Type` VALUES (1000576,'<FUN-PTR-1701218 PRInt32 (*)(PRFileDesc *, c
 INSERT INTO `Type` VALUES (1000577,'anon-struct-6f75c','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000578,'anon-enum-510266','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000579,'<FUN-PTR-24609 int (*)(__gconv_step *, __gconv_step_data *, void *, const unsigned char *, const unsigned char **, const unsigned char *, unsigned char **, size_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1000580,'PRGetsocketoptionFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1002725,'PRGetsocketoptionFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000581,'<FUN-PTR-49424 int (*)(pthread_condattr_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000582,'<FUN-PTR-1432486 PRInt32 (*)(PRFileDesc *, const PRIOVec *, PRInt32, PRIntervalTime) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000583,'anon-enum-1454787','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -15682,7 +15682,7 @@ INSERT INTO `Type` VALUES (1000735,'anon-struct-8e715','Struct',0,'',NULL,'Unkno
 INSERT INTO `Type` VALUES (1000736,'<FUN-PTR-49474 int (*)(pthread_cond_t *, const pthread_condattr_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000737,'<FUN-PTR-650287 nssCertIDMatch (*)(nssDecodedCert *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000738,'PRFileDesc','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1000739,'PRReadFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1002622,'PRReadFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000740,'CRLDPCache **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000741,'<FUN-PTR-453656 CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE_PTR, CK_ULONG, CK_ULONG_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1000742,'<FUN-PTR-2406 void (*)(_IO_codecvt *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -16287,7 +16287,7 @@ INSERT INTO `Type` VALUES (1001340,'<FUN-PTR-474719 CK_RV (*)(CK_SLOT_ID, CK_TOK
 INSERT INTO `Type` VALUES (1001341,'<FUN-PTR-109523 PRStatus (*)(PRFileDesc *, const PRNetAddr *) > *','FuncPtr',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001342,'<FUN-PTR-1659635 PRFileDesc * (*)(PRFileDesc *, PRNetAddr *, PRIntervalTime) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001343,'anon-enum-1527591','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1001344,'PRGetpeernameFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1006111,'PRGetpeernameFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001345,'<FUN-PTR-1242277 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_UInt32 *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001346,'PKIX_ValidateParams **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001347,'anon-union-10423','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -16507,7 +16507,7 @@ INSERT INTO `Type` VALUES (1001560,'anon-enum-244331','Enum',0,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (1001561,'anon-enum-1647294','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001562,'<FUN-PTR-1825705 PKIX_Error * (*)(PKIX_PL_Object *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001563,'gidx_t','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1001564,'PRWritevFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005429,'PRWritevFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001565,'<FUN-PTR-58456 void * (*)() > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001566,'anon-enum-1560127','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001567,'anon-enum-51199','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -16518,7 +16518,7 @@ INSERT INTO `Type` VALUES (1001571,'<FUN-PTR-1241847 PKIX_Error * (*)(PKIX_CertS
 INSERT INTO `Type` VALUES (1001572,'PK11DefaultArrayEntry *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001573,'PKIX_PL_InfoAccess *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001574,'<FUN-PTR-1813678 PRInt32 (*)(PRFileDesc *, PRFileDesc **, PRNetAddr **, void *, PRInt32, PRIntervalTime) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1001575,'PRSetsocketoptionFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1003934,'PRSetsocketoptionFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001576,'anon-enum-1368049','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001577,'anon-union-375964','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1001578,'<FUN-PTR-143564 void * (*)() > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -17565,7 +17565,7 @@ INSERT INTO `Type` VALUES (1002618,'<FUN-PTR-857293 PKIX_Error * (*)(PKIX_PL_Obj
 INSERT INTO `Type` VALUES (1002619,'<FUN-PTR-1339604 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_Object *, PKIX_Boolean *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002620,'<FUN-PTR-1877587 PKIX_Error * (*)(PKIX_PL_Socket *, PRErrorCode *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002621,'<FUN-PTR-430524 CK_RV (*)(CK_SESSION_HANDLE, CK_SESSION_INFO_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1002622,'PRMcastRequest','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1001344,'PRMcastRequest','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002623,'<FUN-PTR-431954 CK_RV (*)(CK_FLAGS, CK_SLOT_ID_PTR, CK_VOID_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002624,'nssTDCertificateCacheStr','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002625,'anon-union-686388','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -17641,7 +17641,7 @@ INSERT INTO `Type` VALUES (1002694,'<FUN-PTR-36449 void (*)(locale_data *) > *',
 INSERT INTO `Type` VALUES (1002695,'anon-struct-896d','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002696,'__gconv_trans_context_fct','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002697,'<FUN-PTR-264580 CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE, CK_ATTRIBUTE_PTR, CK_ULONG) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1002698,'PRFileInfo64FN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005209,'PRFileInfo64FN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002699,'<FUN-PTR-131980 PKIX_Error * (*)(PKIX_CertStore *, PKIX_CertSelector *, void **, PKIX_List **, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002700,'<FUN-PTR-220535 CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002701,'<FUN-PTR-30733 int (*)(__gconv_step *, __gconv_step_data *, void *, const unsigned char *, const unsigned char **, const unsigned char *, unsigned char **, size_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -17668,7 +17668,7 @@ INSERT INTO `Type` VALUES (1002721,'nssCryptokiInstance','Typedef',0,'',NULL,'Un
 INSERT INTO `Type` VALUES (1002722,'<FUN-PTR-839419 PROffset32 (*)(PRFileDesc *, PROffset32, PRSeekWhence) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002723,'loaded_l10nfile *[0]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002724,'const anon-struct-1e99e','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1002725,'PRSocketOptionData','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1001575,'PRSocketOptionData','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002726,'<FUN-PTR-90507 void (*)(void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002727,'<FUN-PTR-202462 void (*)(int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1002728,'<FUN-PTR-1749156 PRStatus (*)(PRFileDesc *, PRFileInfo64 *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -18780,7 +18780,7 @@ INSERT INTO `Type` VALUES (1003833,'anon-enum-1688549','Enum',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1003834,'<FUN-PTR-21657 void (*)(uintptr_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003835,'_IO_finish_t','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003836,'<FUN-PTR-803863 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_Object **, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1003837,'PRFileInfoFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005333,'PRFileInfoFN','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003838,'<FUN-PTR-687983 void (*)(nssPKIObject *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003839,'CK_C_GetMechanismList','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003840,'<FUN-PTR-1432262 PRInt64 (*)(PRFileDesc *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -18877,7 +18877,7 @@ INSERT INTO `Type` VALUES (1003930,'anon-enum-1220357','Enum',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1003931,'const char ***','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003932,'anon-enum-740654','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003933,'<FUN-PTR-166750 int (*)(pthread_mutex_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1003934,'PRLinger','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1000580,'PRLinger','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003935,'<FUN-PTR-1654723 PKIX_Error * (*)(PKIX_CertStore *, PKIX_PL_Cert *, PKIX_Boolean *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003936,'PK11RSAGenParams *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1003937,'<FUN-PTR-709205 CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE_PTR, CK_ULONG, CK_ULONG_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -19694,7 +19694,7 @@ INSERT INTO `Type` VALUES (1004747,'anon-enum-1751211','Enum',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1004748,'<FUN-PTR-1701975 PRStatus (*)(PRFileDesc *, const PRSocketOptionData *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004749,'anon-union-182288','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004750,'<FUN-PTR-65472 wint_t (*)(__gconv_step *, unsigned char) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1004751,'PRTransmitFileFlags','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1000472,'PRTransmitFileFlags','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004752,'const const char *[]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004753,'anon-union-649458','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004754,'<FUN-PTR-452323 void (*)(void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -19770,7 +19770,7 @@ INSERT INTO `Type` VALUES (1004823,'<FUN-PTR-1749913 PRStatus (*)(PRFileDesc *, 
 INSERT INTO `Type` VALUES (1004824,'PKIX_ComCRLSelParams','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004825,'<FUN-PTR-200258 CK_RV (*)(CK_BBOOL, CK_SLOT_ID_PTR, CK_ULONG_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004826,'anon-struct-8e6c6','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1004827,'PLHashNumber','Typedef',1455,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1000448,'PLHashNumber','Typedef',1455,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004828,'<FUN-PTR-130382 void (*)(locale_data *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004829,'<FUN-PTR-150194 int (*)(pthread_cond_2_0_t *, const pthread_condattr_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1004830,'<FUN-PTR-833018 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_String **, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20092,7 +20092,7 @@ INSERT INTO `Type` VALUES (1005145,'locale_data_value','Union',0,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1005146,'<FUN-PTR-20457 Elf64_Addr (*)(Elf64_Sym *, unsigned int, uintptr_t *, uintptr_t *, const La_sparc64_regs *, unsigned int *, const char *, long int *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005147,'<FUN-PTR-156280 int (*)(pthread_cond_2_0_t *, pthread_mutex_t *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005148,'<FUN-PTR-857436 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_Object *, PKIX_Int32 *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005149,'anon-struct-1cef0','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005149,'CERTValOutParam_struct','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005150,'anon-enum-1442505','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005151,'token_cert_dtor','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005152,'__codecvt_result','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20152,7 +20152,7 @@ INSERT INTO `Type` VALUES (1005205,'SECItem *','Pointer',0,'',NULL,'Unknown','Un
 INSERT INTO `Type` VALUES (1005206,'anon-enum-860315','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005207,'known_trans','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005208,'<FUN-PTR-320842 CK_RV (*)(CK_FLAGS, CK_SLOT_ID_PTR, CK_VOID_PTR) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005209,'PRFileInfo64','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1002698,'PRFileInfo64','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005210,'<FUN-PTR-1161809 PKIX_Error * (*)(PKIX_PL_Object *, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005211,'<FUN-PTR-1702119 PRIntn (*)(PRFileDesc *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005212,'<FUN-PTR-840199 PRInt32 (*)(PRFileDesc *, PRFileDesc *, const void *, PRInt32, PRTransmitFileFlags, PRIntervalTime) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20276,7 +20276,7 @@ INSERT INTO `Type` VALUES (1005329,'<FUN-PTR-356638 CK_RV (*)(CK_SESSION_HANDLE,
 INSERT INTO `Type` VALUES (1005330,'anon-struct-31c7d','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005331,'anon-enum-1000587','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005332,'<FUN-PTR-104176 void (*)(locale_data *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005333,'PRFileInfo','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1003837,'PRFileInfo','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005334,'<FUN-PTR-1875590 PRInt32 (*)(PRFileDesc *, void *, PRInt32) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005335,'CERTAuthInfoAccess **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005336,'const CK_ATTRIBUTE *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20372,7 +20372,7 @@ INSERT INTO `Type` VALUES (1005425,'<FUN-PTR-143713 void (*)(locale_data *) > *'
 INSERT INTO `Type` VALUES (1005426,'PRUint16 *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005427,'<FUN-PTR-641362 PRStatus (*)(NSSUTF8 *, PRUint32 *, void *, NSSUTF8 **) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005428,'<FUN-PTR-1187498 PKIX_Error * (*)(PKIX_PL_Object *, PKIX_PL_String **, void *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005429,'PRIOVec','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1001564,'PRIOVec','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005430,'CK_MECHANISM *','Pointer',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005431,'PLArenaPool *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005432,'anon-struct-1c9b99','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20722,10 +20722,10 @@ INSERT INTO `Type` VALUES (1005775,'CERTCertNicknames','Typedef',1414,'',NULL,'U
 INSERT INTO `Type` VALUES (1005776,'CK_BYTE','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005777,'CERTCertTrust','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005778,'SECMODModuleStr','Struct',1447,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005779,'CERTCertificate','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005829,'CERTCertificate','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005780,'CK_CHAR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005781,'CERTCertificateList','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005782,'CERTCertificateRequest','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005827,'CERTCertificateRequest','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005783,'SECHashObjectStr','Struct',1418,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005784,'CERTCrl','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005785,'CK_UTF8CHAR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20742,15 +20742,15 @@ INSERT INTO `Type` VALUES (1005795,'CERTDistNames','Typedef',1414,'',NULL,'Unkno
 INSERT INTO `Type` VALUES (1005796,'CK_ULONG','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005797,'SECItem','Typedef',1438,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005798,'SECKEYRSAPublicKey','Typedef',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005799,'CERTGeneralName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005807,'CERTGeneralName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005800,'CERTGeneralNameList','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005801,'SEC_HTTP_SERVER_SESSION','Typedef',1428,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005802,'SECItemStr','Struct',1438,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005803,'SEC_HTTP_REQUEST_SESSION','Typedef',1428,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005804,'CERTIssuerAndSN','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005805,'HASHContextStr','Struct',1418,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005806,'CERTName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005807,'CERTNameConstraint','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005782,'CERTName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1006008,'CERTNameConstraint','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005808,'CERTNameConstraints','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005809,'CERTOKDomainName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005810,'CK_FLAGS','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20760,7 +20760,7 @@ INSERT INTO `Type` VALUES (1005813,'SECKEYPQGParamsStr','Struct',1420,'',NULL,'U
 INSERT INTO `Type` VALUES (1005814,'CERTPublicKeyAndChallenge','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005815,'CERTRDN','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005816,'CERTSignedCrl','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005817,'CERTSignedData','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005779,'CERTSignedData','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005818,'NSSArena','Typedef',1424,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005819,'CERTStatusConfig','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005820,'CERTSubjectList','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20770,9 +20770,9 @@ INSERT INTO `Type` VALUES (1005823,'CK_BYTE_PTR','Typedef',1434,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1005824,'SEC_PKCS7RecipientInfo','Typedef',1435,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005825,'SEC_HttpServer_CreateSessionFcn','Typedef',1428,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005826,'CK_CHAR_PTR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005827,'CERTSubjectPublicKeyInfo','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005806,'CERTSubjectPublicKeyInfo','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005828,'CK_UTF8CHAR_PTR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005829,'CERTValidity','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005817,'CERTValidity','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005830,'SECKEYDSAPublicKeyStr','Struct',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005831,'CERTVerifyLog','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005832,'CK_ULONG_PTR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20818,7 +20818,7 @@ INSERT INTO `Type` VALUES (1005871,'CK_SLOT_ID','Typedef',1434,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (1005872,'SEC_HttpRequest_CreateFcn','Typedef',1428,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005873,'CK_SLOT_ID_PTR','Typedef',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005874,'SECKEYFortezzaPublicKeyStr','Struct',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005875,'CERTSignedDataStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005911,'CERTSignedDataStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005876,'NSSASCII7','Typedef',1424,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005877,'PK11CertListType','Typedef',1447,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005878,'SECKEYFortezzaPublicKey','Typedef',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20854,7 +20854,7 @@ INSERT INTO `Type` VALUES (1005907,'CK_TOKEN_INFO','Struct',1434,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1005908,'SECKEYPublicKey','Typedef',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005909,'CERTSubjectListStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005910,'CK_TRUST','Typedef',1433,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1005911,'CERTCertificateStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005875,'CERTCertificateStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005912,'SECErrorCodes','Typedef',1443,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005913,'SECKEYPrivateKeyStr','Struct',1420,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1005914,'NSS_ShutdownFunc','Typedef',1421,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -20951,7 +20951,7 @@ INSERT INTO `Type` VALUES (1006004,'CERTCRLEntryReasonCode','Typedef',1414,'',NU
 INSERT INTO `Type` VALUES (1006005,'CERTGeneralNameTypeEnum','Enum',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006006,'CERTGeneralNameType','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006007,'OtherNameStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1006008,'OtherName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1005799,'OtherName','Typedef',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006009,'CERTGeneralNameStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006010,'CERTGeneralNameListStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006011,'CERTNameConstraintStr','Struct',1414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -21054,7 +21054,7 @@ INSERT INTO `Type` VALUES (1006107,'PRLogModuleInfo','Struct',1463,'',NULL,'Unkn
 INSERT INTO `Type` VALUES (1006108,'PRLogModuleLevel','Enum',1463,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006109,'PRMcastRequest','Struct',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006110,'PRMonitor','Struct',1464,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (1006111,'PRNetAddr','Struct',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1000739,'PRNetAddr','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006112,'PRPollDesc','Struct',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006113,'PRRWLock','Struct',1466,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006114,'PRSeekWhence','Enum',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
@@ -22809,11 +22809,11 @@ INSERT INTO `Type` VALUES (1007862,'ssl3CipherSuiteCfg[28]','Array',0,'',NULL,'U
 INSERT INTO `Type` VALUES (1007863,'<FUN-PTR-276523 SECStatus (*)(void *, unsigned char *, int *, int, const unsigned char *, int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007864,'<FUN-PTR-333685 unsigned int (*)(SHA256Context *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007865,'SSL3StatisticsStr','Struct',1473,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
-INSERT INTO `Type` VALUES (1007866,'PEHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007870,'PEHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007867,'PEFortezzaHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007868,'PEFortezzaGeneratedHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007869,'PEFixedKeyHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
-INSERT INTO `Type` VALUES (1007870,'PERSAKeyHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007866,'PERSAKeyHeader','Typedef',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007871,'PEFortezzaHeaderStr','Struct',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007872,'PEFortezzaGeneratedHeaderStr','Struct',1471,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007873,'SSL3Statistics','Typedef',1473,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -22882,3 +22882,5 @@ INSERT INTO `Type` VALUES (1007935,'CK_SSL3_KEY_MAT_OUT','Struct',1434,'',NULL,'
 INSERT INTO `Type` VALUES (1007936,'CK_SSL3_KEY_MAT_PARAMS','Struct',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007937,'CK_SSL3_MASTER_KEY_DERIVE_PARAMS','Struct',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007938,'CK_SSL3_RANDOM_DATA','Struct',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007939,'unsigned char[2]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1007940,'unsigned char[128]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);

@@ -1399,3 +1399,5 @@ INSERT INTO `HeaderGroup` VALUES (1470,'Default Header Section for nss3/ecl-exp.
 INSERT INTO `HeaderGroup` VALUES (1471,'Default Header Section for nss3/preenc.h',976,0,'');
 INSERT INTO `HeaderGroup` VALUES (1472,'Default Header Section for nss3/ssl.h',977,0,'');
 INSERT INTO `HeaderGroup` VALUES (1473,'Default Header Section for nss3/sslt.h',978,0,'');
+INSERT INTO `HeaderGroup` VALUES (1474,'Default Header Section for nss3/key.h',979,0,'');
+INSERT INTO `HeaderGroup` VALUES (1475,'Default Header Section for nss3/keyt.h',980,0,'');
