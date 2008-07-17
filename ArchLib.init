@@ -271,4 +271,4 @@ INSERT INTO `ArchLib` VALUES (276,1,'libXtst.so.6','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (267,1,'libpangocairo-1.0.so.0','',NULL);
 INSERT INTO `ArchLib` VALUES (267,1,'libpangocairo-1.0.so.0','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (277,1,'libnss3.so','4.0',NULL);
-INSERT INTO `ArchLib` VALUES (278,1,'libssl.so','4.0',NULL);
+INSERT INTO `ArchLib` VALUES (278,1,'libssl3.so','4.0',NULL);
