@@ -15086,3 +15086,5 @@ INSERT INTO `ArchConst` VALUES (1,15640,'\\\nchar *proc (Display *dpy, int code,
 INSERT INTO `ArchConst` VALUES (1,15641,'\\\n        char *proc(Display *dpy, int code, XExtCodes *codes, char *buf, int n)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15642,'unknown','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15643,'missing','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15644,'','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15645,'','4.0',NULL,0);

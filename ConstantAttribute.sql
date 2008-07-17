@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `ConstantAttribute`;
 CREATE TABLE `ConstantAttribute` (
   `CAid` int(10) unsigned NOT NULL auto_increment,
   `CAcid` int(10) unsigned NOT NULL,
-  `CAtype` enum('Condition','Custom') NOT NULL default 'Custom',
+  `CAtype` enum('Condition','Declaration','Custom') NOT NULL default 'Custom',
   `CAvalue` text NOT NULL,
   PRIMARY KEY  (`CAid`),
   KEY `k_CAcid` (`CAcid`,`CAtype`),
