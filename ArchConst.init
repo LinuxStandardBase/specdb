@@ -15075,3 +15075,14 @@ INSERT INTO `ArchConst` VALUES (1,15629,' \\\n	(G_TYPE_CHECK_INSTANCE_CAST ((obj
 INSERT INTO `ArchConst` VALUES (1,15630,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((object), PANGO_TYPE_CAIRO_FONT_MAP))','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15631,'924','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15632,'925','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15633,'((i) && ((i)->codes))','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15634,'\\\n  if (!XextHasExtension(i)) { XMissingExtension (dpy, name); return val; }','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15635,'\\\n  if (!XextHasExtension(i)) { XMissingExtension (dpy, name); return; }','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15636,'\\\nXExtDisplayInfo *proc (Display *dpy) \\\n{ \\\nXExtDisplayInfo *dpyinfo; \\\n    if (!extinfo) { if (!(extinfo = XextCreateExtension())) return NULL; } \\\n    if (!(dpyinfo = XextFindDisplay (extinfo, dpy))) \\\n      dpyinfo = XextAddDisplay (extinfo,dpy,extname,hooks,nev,data); \\\n    return dpyinfo; \\\n}','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15637,'\\\n        XExtDisplayInfo *proc(Display *dpy)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15638,'\\\nint proc (Display *dpy, XExtCodes *codes) \\\n{ \\\n    return XextRemoveDisplay (extinfo, dpy); \\\n}','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15639,'\\\n        int proc(Display *dpy, XExtCodes *codes)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15640,'\\\nchar *proc (Display *dpy, int code, XExtCodes *codes, char *buf, int n) \\\n{ \\\n    code -= codes->first_error; \\\n    if (code >= 0 && code < nerr) { \\\n        char tmp[256]; \\\n        sprintf (tmp, \"%s.%d\", extname, code); \\\n        XGetErrorDatabaseText (dpy, \"XProtoError\", tmp, errl[code], buf, n); \\\n        return buf; \\\n    } \\\n    return (char *)0; \\\n}','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15641,'\\\n        char *proc(Display *dpy, int code, XExtCodes *codes, char *buf, int n)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15642,'unknown','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,15643,'missing','4.0',NULL,0);

@@ -1401,3 +1401,5 @@ INSERT INTO `HeaderGroup` VALUES (1472,'Default Header Section for nss3/ssl.h',9
 INSERT INTO `HeaderGroup` VALUES (1473,'Default Header Section for nss3/sslt.h',978,0,'');
 INSERT INTO `HeaderGroup` VALUES (1474,'Default Header Section for nss3/key.h',979,0,'');
 INSERT INTO `HeaderGroup` VALUES (1475,'Default Header Section for nss3/keyt.h',980,0,'');
+INSERT INTO `HeaderGroup` VALUES (1476,'Default Header Section for X11/extensions/extutil.h',981,0,'');
+INSERT INTO `HeaderGroup` VALUES (1477,'Default Header Section for X11/extensions/Xext.h',982,0,'');

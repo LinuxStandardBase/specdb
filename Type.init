@@ -19753,6 +19753,8 @@ INSERT INTO `Type` VALUES (1007378,'anon-union-220192','Union',0,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1007380,'anon-union-12746','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007382,'const const char *[9]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007384,'<FUN-PTR-62075 void (*)(PRFileDesc *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007941,'int (*)(Display *, char *, char *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007942,'Bool (*)(Display *, XEvent *, xEvent *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
 INSERT INTO `Type` VALUES (1007386,'<FUN-PTR-159386 SECStatus (*)(sslSocket *, PRUint16, SECItem *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007387,'anon-struct-4fc32','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007388,'SHA512ContextStr','Struct',1411,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -19833,6 +19835,10 @@ INSERT INTO `Type` VALUES (1007536,'ssl3SymWrapKey','Typedef',0,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (1007540,'<FUN-PTR-333583 void (*)(SHA256Context *, PRBool) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007541,'Cached','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007544,'<FUN-PTR-329066 void (*)(void *, const unsigned char *, unsigned int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007947,'XExtDisplayInfo *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007948,'_XExtensionInfo','Struct',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007949,'XExtensionInfo','Typedef',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007950,'_XExtensionHooks','Struct',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
 INSERT INTO `Type` VALUES (1007547,'anon-struct-59b6','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007548,'anon-enum-328186','Enum',1411,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007549,'<FUN-PTR-227452 void (*)(PRFileDesc *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -19842,6 +19848,10 @@ INSERT INTO `Type` VALUES (1007552,'<FUN-PTR-332739 MD5Context * (*)() > *','Fun
 INSERT INTO `Type` VALUES (1007554,'anon-struct-148ef','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007555,'PRUint64[259]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007560,'SHA1Context *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007943,'Status (*)(Display *, XEvent *, xEvent *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007944,'_XExtDisplayInfo *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007945,'_XExtDisplayInfo','Struct',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007946,'XExtDisplayInfo','Typedef',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
 INSERT INTO `Type` VALUES (1007565,'sidCacheSetStr','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007567,'<FUN-PTR-218012 int (*)(sslSocket *, unsigned char *, int, int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007575,'anon-struct-29d37','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -19956,6 +19966,9 @@ INSERT INTO `Type` VALUES (1007763,'SSL3Random','Typedef',0,'',NULL,'Unknown','U
 INSERT INTO `Type` VALUES (1007764,'sslOptionsStr','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007766,'ssl3CertNode *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007767,'<FUN-PTR-34940 int (*)(sslSocket *, const unsigned char *, int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1007951,'XExtensionHooks','Typedef',1476,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007952,'XExtensionInfo *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
+INSERT INTO `Type` VALUES (1007953,'XExtensionHooks *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXext',0);
 INSERT INTO `Type` VALUES (1007771,'anon-struct-2ca92','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007772,'const ssl3HelloExtensionSender[3]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007777,'anon-enum-68068','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);

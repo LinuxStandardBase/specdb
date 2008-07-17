@@ -951,3 +951,5 @@ INSERT INTO `Header` VALUES (977,'nss3/ssl.h',278,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (978,'nss3/sslt.h',278,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (980,'nss3/keyt.h',277,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (979,'nss3/key.h',277,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (981,'X11/extensions/extutil.h',18,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (982,'X11/extensions/Xext.h',18,'Unknown',NULL,'4.0',NULL);
