@@ -3,5 +3,5 @@ INSERT INTO `ConstantAttribute` VALUES (2,2508,'Condition','#ifndef FALSE');
 INSERT INTO `ConstantAttribute` VALUES (3,15512,'Condition','#if defined(PANGO_ENABLE_ENGINE) || defined(PANGO_ENABLE_BACKEND)');
 INSERT INTO `ConstantAttribute` VALUES (4,15513,'Condition','#if defined(PANGO_ENABLE_ENGINE) || defined(PANGO_ENABLE_BACKEND)');
 INSERT INTO `ConstantAttribute` VALUES (5,1093,'Condition','#ifdef NDEBUG\n#define assert(expr) ((void)0)\n#else');
-INSERT INTO `ConstantAttribute` VALUES (6,15644,'Declaration','#ifdef __cplusplus \n  #define G_BEGIN_DECLS  extern \"C\" { \n#else \n  #define G_BEGIN_DECLS \n#end');
-INSERT INTO `ConstantAttribute` VALUES (7,15645,'Declaration','#ifdef __cplusplus \n  #define G_END_DECLS  } \n#else \n  #define G_END_DECLS \n#end');
+INSERT INTO `ConstantAttribute` VALUES (6,15644,'Declaration','#ifdef __cplusplus \n# define G_BEGIN_DECLS  extern \"C\" { \n#else \n# define G_BEGIN_DECLS \n#endif');
+INSERT INTO `ConstantAttribute` VALUES (7,15645,'Declaration','#ifdef __cplusplus \n# define G_END_DECLS  } \n#else \n# define G_END_DECLS \n#endif');
