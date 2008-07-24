@@ -75,7 +75,7 @@ INSERT INTO `HeaderGroup` VALUES (75,'Default Header Section for linux/socket.h'
 INSERT INTO `HeaderGroup` VALUES (76,'Default Header Section for X11/extensions/dpms.h',76,0,'Default Header Section for X11/extensions/dpms.h');
 INSERT INTO `HeaderGroup` VALUES (77,'Default Header Section for X11/extensions/security.h',77,0,'Default Header Section for X11/extensions/security.h');
 INSERT INTO `HeaderGroup` VALUES (288,'Default Header Section for X11/extensions/XShm.h',85,0,'Default Header Section for X11/extensions/XShm.h');
-INSERT INTO `HeaderGroup` VALUES (79,'Default Header Section for X11/extensions/sync.h',79,0,'Default Header Section for X11/extensions/sync.h');
+INSERT INTO `HeaderGroup` VALUES (79,'Default Header Section for X11/extensions/sync.h',79,2,'Default Header Section for X11/extensions/sync.h');
 INSERT INTO `HeaderGroup` VALUES (81,'wchar derived types',64,1,'');
 INSERT INTO `HeaderGroup` VALUES (82,'Extension Support',5,2,'Extensions need a way to hang private data on some structures.');
 INSERT INTO `HeaderGroup` VALUES (83,'Pixmap Formats',5,3,'Data structure for retrieving info about pixmap formats.');
@@ -1403,3 +1403,7 @@ INSERT INTO `HeaderGroup` VALUES (1474,'Default Header Section for nss3/key.h',9
 INSERT INTO `HeaderGroup` VALUES (1475,'Default Header Section for nss3/keyt.h',980,0,'');
 INSERT INTO `HeaderGroup` VALUES (1476,'Default Header Section for X11/extensions/extutil.h',981,0,'');
 INSERT INTO `HeaderGroup` VALUES (1477,'Default Header Section for X11/extensions/Xext.h',982,0,'');
+INSERT INTO `HeaderGroup` VALUES (1478,'Default Header Section for X11/Xmd.h',983,0,'');
+INSERT INTO `HeaderGroup` VALUES (1479,'Default Header Section for X11/Core.h',126,0,'');
+INSERT INTO `HeaderGroup` VALUES (1480,'Default Header Section for X11/extensions/Xdbeproto.h',984,0,'');
+INSERT INTO `HeaderGroup` VALUES (1481,'Default Header Section for X11/extensions/XI.h',985,0,'');
