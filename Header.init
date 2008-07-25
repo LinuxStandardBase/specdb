@@ -945,8 +945,8 @@ INSERT INTO `Header` VALUES (971,'nspr4/prrwlock.h',277,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (972,'nspr4/prthread.h',277,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (973,'nspr4/prtime.h',277,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (974,'nspr4/prtypes.h',277,'Unknown',NULL,'4.0',NULL);
-INSERT INTO `Header` VALUES (975,'nss3/ecl-exp.h',278,'Unknown',NULL,'',NULL);
-INSERT INTO `Header` VALUES (976,'nss3/preenc.h',278,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (975,'nss3/ecl-exp.h',278,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (976,'nss3/preenc.h',278,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (977,'nss3/ssl.h',278,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (978,'nss3/sslt.h',278,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (980,'nss3/keyt.h',277,'Unknown',NULL,'4.0',NULL);
@@ -956,3 +956,5 @@ INSERT INTO `Header` VALUES (982,'X11/extensions/Xext.h',18,'Unknown',NULL,'4.0'
 INSERT INTO `Header` VALUES (983,'X11/Xmd.h',10,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (984,'X11/extensions/Xdbeproto.h',18,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (985,'X11/extensions/XI.h',238,'Unknown',NULL,'3.0',NULL);
+INSERT INTO `Header` VALUES (986,'nss3/sslproto.h',278,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (987,'nss3/sslerr.h',278,'Unknown',NULL,'4.0',NULL);

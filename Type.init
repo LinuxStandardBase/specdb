@@ -19562,6 +19562,8 @@ INSERT INTO `Type` VALUES (1006834,'<FUN-PTR-217936 PRFileDesc * (*)(sslSocket *
 INSERT INTO `Type` VALUES (1006835,'anon-union-312140','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1008207,'INT16','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008208,'INT8','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008209,'anon-ecl_exp-enum-0','Enum',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1008210,'ECField','Enum',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (1006839,'<FUN-PTR-318628 int (*)(sslSocket *, const PRNetAddr *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1006840,'anon-struct-3e447','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1006841,'anon-union-312370','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -19624,6 +19626,7 @@ INSERT INTO `Type` VALUES (1006923,'<FUN-PTR-102185 PRInt32 (*)(PRFileDesc *, PR
 INSERT INTO `Type` VALUES (1008130,'XKbdFeedbackControl','Typedef',1397,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXi',0);
 INSERT INTO `Type` VALUES (1008131,'anon-struct-XInput.h-8','Struct',1397,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXi',0);
 INSERT INTO `Type` VALUES (1006926,'anon-union-328220','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1008216,'SSLErrorCodes','Typedef',1483,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1006928,'<FUN-PTR-101430 PRInt64 (*)(PRFileDesc *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1006930,'uint8 *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1006932,'anon-union-194452','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
@@ -20006,6 +20009,11 @@ INSERT INTO `Type` VALUES (1007468,'<FUN-PTR-101609 PRStatus (*)(PRFileDesc *, P
 INSERT INTO `Type` VALUES (1007469,'<FUN-PTR-34812 int (*)(sslSocket *) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007476,'<FUN-PTR-86635 void (*)(void *, const unsigned char *, unsigned int) > *','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007477,'anon-enum-234683','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
+INSERT INTO `Type` VALUES (1008211,'ECCurveParamsStr','Struct',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1008212,'ECCurveParams','Typedef',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1008213,'anon-ecl_exp-enum-1','Enum',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1008214,'ECCurveName','Enum',1470,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnss3',0);
+INSERT INTO `Type` VALUES (1008215,'anon-sslerr-enum-0','Enum',1483,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007481,'anon-struct-166bb','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007483,'anon-struct-f371','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007485,'sslConnectInfo','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
