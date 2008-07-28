@@ -731,7 +731,7 @@ INSERT INTO `Type` VALUES (8954,'XKeyPressedEvent *','Pointer',0,'','','No','No'
 INSERT INTO `Type` VALUES (8955,'fptr-XConnectionWatchProc','FuncPtr',5,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (8956,'XConnectionWatchProc','Typedef',5,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (8957,'CARD16','Typedef',1478,'','','No','No','Yes',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (8958,'CARD16 *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1007957,'CARD16 *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8959,'BOOL','Typedef',1478,'','','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8960,'BOOL *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8961,'Xauth','Typedef',135,'','','No','No','No',NULL,0,0,'libX11',0);
@@ -19084,7 +19084,7 @@ INSERT INTO `Type` VALUES (1006162,'anon-union-297900','Union',0,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1007954,'CARD32','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1007955,'CARD64','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1007956,'BYTE','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (1007957,'CARD8','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (8958,'CARD8','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1007958,'BITS32','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1007959,'BITS16','Typedef',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1007960,'CARD8 [2]','Array',1478,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
