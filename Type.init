@@ -4165,8 +4165,8 @@ INSERT INTO `Type` VALUES (12793,'GdkEventOwnerChange','Typedef',626,'',NULL,'No
 INSERT INTO `Type` VALUES (12794,'_GdkEventProximity','Struct',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12795,'GdkEventProximity','Typedef',626,'',NULL,'No','No','No',NULL,0,0,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12796,'_GdkEventClient','Struct',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
-INSERT INTO `Type` VALUES (12797,'short int[10]','Array',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
-INSERT INTO `Type` VALUES (12798,'long int[5]','Array',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
+INSERT INTO `Type` VALUES (12797,'short int[10]','Array',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (12798,'long int[5]','Array',0,'',NULL,'No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (12799,'anon-gtk-2.0/gdk/gdk.h-510','Union',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12800,'GdkEventClient','Typedef',626,'',NULL,'No','No','No',NULL,0,0,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12801,'_GdkEventDND','Struct',626,'',NULL,'No','No','Yes',NULL,0,0,'libgdk-x11-2.0',0);
