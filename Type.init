@@ -20354,3 +20354,7 @@ INSERT INTO `Type` VALUES (1007937,'CK_SSL3_MASTER_KEY_DERIVE_PARAMS','Struct',1
 INSERT INTO `Type` VALUES (1007938,'CK_SSL3_RANDOM_DATA','Struct',1434,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (1007939,'unsigned char[2]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1007940,'unsigned char[128]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1008217,'fptr-XcmsDIConversionProc','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008218,'XcmsDIConversionProc','Typedef',131,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008219,'fptr-XcmsDDConversionProc','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008220,'XcmsDDConversionProc','Typedef',131,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
