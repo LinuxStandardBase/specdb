@@ -20358,3 +20358,7 @@ INSERT INTO `Type` VALUES (1008217,'fptr-XcmsDIConversionProc','FuncPtr',0,'',NU
 INSERT INTO `Type` VALUES (1008218,'XcmsDIConversionProc','Typedef',131,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008219,'fptr-XcmsDDConversionProc','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008220,'XcmsDDConversionProc','Typedef',131,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008221,'const stat','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1008222,'const stat *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1008223,'const stat64','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1008224,'const stat64 *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
