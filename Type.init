@@ -1358,7 +1358,7 @@ INSERT INTO `Type` VALUES (9594,'_XtAppStruct *','Pointer',0,'','','No','No','No
 INSERT INTO `Type` VALUES (100486,'XtCheckpointToken','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100485,'_XtCheckpointTokenRec *','Pointer',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100484,'_XtCheckpointTokenRec','Struct',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (100483,'XtGrabKind','Enum',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (100483,'XtGrabKind','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100482,'XtLanguageProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100481,'String (*)(Display *, String, XtPointer)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100480,'XtErrorMsgHandler','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
@@ -1424,7 +1424,7 @@ INSERT INTO `Type` VALUES (100436,'_XtCallbackRec','Struct',293,'',NULL,'Unknown
 INSERT INTO `Type` VALUES (9696,'_XtResource *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100435,'XtCallbackProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100434,'void (*)(Widget, XtPointer, XtPointer)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (100433,'XtListPosition','Enum',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (100433,'XtListPosition','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100432,'XtInputMask','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100431,'XtTimerCallbackProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100430,'void (*)(XtPointer, XtIntervalId *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -1432,7 +1432,7 @@ INSERT INTO `Type` VALUES (100429,'XtIntervalId *','Pointer',293,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (100428,'XtInputCallbackProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100427,'void (*)(XtPointer, int *, XtInputId *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100426,'XtInputId *','Pointer',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (100425,'XtCallbackStatus','Enum',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (100425,'XtCallbackStatus','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100424,'XtSignalCallbackProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (9713,'anon-X11/Intrinsic.h-733 *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100423,'void (*)(XtPointer, XtSignalId *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -1446,8 +1446,8 @@ INSERT INTO `Type` VALUES (100416,'XtConvertArgList','Typedef',293,'',NULL,'Unkn
 INSERT INTO `Type` VALUES (100415,'XtConvertArgRec *','Pointer',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100414,'XtConvertArgRec','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100413,'anon-X11/Intrinsic.h-209','Struct',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (100412,'XtAddressMode','Enum',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (100411,'XtGeometryResult','Enum',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (100412,'XtAddressMode','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (100411,'XtGeometryResult','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100410,'XtDoChangeProc','Typedef',294,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (9729,'XtRequestId *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100409,'void (*)(Widget, WidgetList, Cardinal *, WidgetList, Cardinal *, XtPointer)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -14618,7 +14618,7 @@ INSERT INTO `Type` VALUES (100201,'_XtransConnInfo *','Pointer',1365,'',NULL,'Un
 INSERT INTO `Type` VALUES (100200,'_XtransConnInfo','Struct',1365,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100198,'IceListenObj **','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100049,'int (*)(char *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (100199,'IceConnectStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (100199,'IceConnectStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100197,'IceListenObj *','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100052,'IcePaAuthStatus (*)(IceConn, IcePointer *, int, int, IcePointer, int *, IcePointer *, char **)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (100196,'IceListenObj','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
@@ -14626,7 +14626,7 @@ INSERT INTO `Type` VALUES (100055,'int (*)(IceConn, int, int, char *, char *, Ic
 INSERT INTO `Type` VALUES (100195,'_IceListenObj *','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100194,'_IceListenObj','Struct',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100193,'IceAcceptStatus *','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (100192,'IceAcceptStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (100192,'IceAcceptStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100191,'IcePaAuthProc *','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100190,'IcePaAuthProc','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100189,'IcePoAuthProc *','Pointer',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
@@ -14663,9 +14663,9 @@ INSERT INTO `Type` VALUES (100237,'_IceProtoSetupToMeInfo *','Pointer',1365,'',N
 INSERT INTO `Type` VALUES (100238,'_IceConn','Struct',1365,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100239,'_IceConn *','Pointer',1365,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100100,'IceConn','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (100241,'IceProcessMessagesStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (100242,'IceCloseStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (100243,'IceProtocolSetupStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (100241,'IceProcessMessagesStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (100242,'IceCloseStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (100243,'IceProtocolSetupStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100244,'IceWatchProc','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100245,'IceIOErrorHandler','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (100246,'IceErrorHandler','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
@@ -14685,7 +14685,7 @@ INSERT INTO `Type` VALUES (100310,'void (*)(SmcConn, SmPointer, int, SmProp **)'
 INSERT INTO `Type` VALUES (100311,'SmcPropReplyProc','Typedef',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (100312,'SmcInteractProc','Typedef',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (100313,'SmcSaveYourselfPhase2Proc','Typedef',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
-INSERT INTO `Type` VALUES (100314,'SmcCloseStatus','Enum',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
+INSERT INTO `Type` VALUES (100314,'SmcCloseStatus','Typedef',9,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (100490,'XtEventDispatchProc','Typedef',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100491,'XtRequestId *','Pointer',293,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (100492,'void (*)(Widget, Atom *, Atom *, XtRequestId *, XtPointer)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
@@ -20363,5 +20363,18 @@ INSERT INTO `Type` VALUES (1008222,'const stat *','Pointer',0,'',NULL,'Unknown',
 INSERT INTO `Type` VALUES (1008223,'const stat64','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1008224,'const stat64 *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1008225,'fptr-Xresources-1','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (1008226,'IcePoAuthStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (1008227,'IcePaAuthStatus','Enum',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008226,'IcePoAuthStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008227,'IcePaAuthStatus','Typedef',7,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008228,'anon-IceAcceptStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008229,'anon-IceCloseStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008230,'anon-IceConnectStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008231,'anon-IceProcessMessagesStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008232,'anon-IceProtocolSetupStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008233,'anon-IcePoAuthStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008234,'anon-IcePaAuthStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
+INSERT INTO `Type` VALUES (1008235,'anon-XtListPosition-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008236,'anon-XtGrabKind-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008237,'anon-XtCallbackStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008238,'anon-XtAddressMode-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008239,'anon-XtGeometryResult-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008240,'anon-SmcCloseStatus-enum','Enum',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libSM',0);
