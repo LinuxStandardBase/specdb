@@ -14416,3 +14416,5 @@ INSERT INTO `Constant` VALUES (16218,'alsa/asoundlib.h depends on alsa/seq.h','h
 INSERT INTO `Constant` VALUES (16219,'alsa/asoundlib.h depends on alsa/seqmid.h','header_depend',1282,'',NULL);
 INSERT INTO `Constant` VALUES (16220,'alsa/asoundlib.h depends on alsa/seq_midi_event.h','header_depend',1282,'',NULL);
 INSERT INTO `Constant` VALUES (16221,'NEXTPTR(p,t)','macro',1478,'',NULL);
+INSERT INTO `Constant` VALUES (16222,'_SIZEOF(x)','macro',1478,'',NULL);
+INSERT INTO `Constant` VALUES (16223,'SIZEOF(x)','macro',1478,'',NULL);
