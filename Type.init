@@ -14871,7 +14871,7 @@ INSERT INTO `Type` VALUES (6954,'png_unknown_chunk','Typedef',607,'',NULL,'Unkno
 INSERT INTO `Type` VALUES (1092,'png_unknown_chunk *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1093,'png_unknown_chunk **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1094,'png_unknown_chunkp','Typedef',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
-INSERT INTO `Type` VALUES (1095,'png_unknown_chunkpp','Typedef',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
+INSERT INTO `Type` VALUES (1095,'png_unknown_chunkpp','Typedef',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1096,'png_sPLT_struct','Struct',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1097,'png_sPLT_entry_struct','Struct',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
 INSERT INTO `Type` VALUES (1098,'png_sPLT_entry','Typedef',607,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libpng12',0);
