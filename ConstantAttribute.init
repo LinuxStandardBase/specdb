@@ -5,3 +5,4 @@ INSERT INTO `ConstantAttribute` VALUES (4,15513,'Condition','#if defined(PANGO_E
 INSERT INTO `ConstantAttribute` VALUES (5,1093,'Condition','#ifdef NDEBUG\n#define assert(expr) ((void)0)\n#else');
 INSERT INTO `ConstantAttribute` VALUES (6,15644,'Declaration','#ifdef __cplusplus \n# define G_BEGIN_DECLS  extern \"C\" { \n#else \n# define G_BEGIN_DECLS \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (7,15645,'Declaration','#ifdef __cplusplus \n# define G_END_DECLS  } \n#else \n# define G_END_DECLS \n#endif');
+INSERT INTO `ConstantAttribute` VALUES (8,13382,'Condition','#ifndef GL_ARB_multitexture');
