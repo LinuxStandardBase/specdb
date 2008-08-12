@@ -5129,7 +5129,7 @@ INSERT INTO `ArchConst` VALUES (1,5557,'','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5558,'PNG_IMPEXP type PNGAPI symbol','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5559,'extern PNG_IMPEXP type','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5560,'abort()','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,5561,'((png_ptr)->jmpbuf)','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,5561,'((png_ptr)->jmpbuf)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5562,'(ptr)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5563,'(ptr)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5564,'strcpy','3.1',NULL,0);
