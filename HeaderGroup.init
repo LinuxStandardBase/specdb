@@ -1409,3 +1409,5 @@ INSERT INTO `HeaderGroup` VALUES (1480,'Default Header Section for X11/extension
 INSERT INTO `HeaderGroup` VALUES (1481,'Default Header Section for X11/extensions/XI.h',985,0,'');
 INSERT INTO `HeaderGroup` VALUES (1482,'Default Header Section for nss3/sslproto.h',986,0,'');
 INSERT INTO `HeaderGroup` VALUES (1483,'Default Header Section for nss3/sslerr.h',987,0,'');
+INSERT INTO `HeaderGroup` VALUES (1484,'Default Header Section for X11/Xproto.h',988,0,'');
+INSERT INTO `HeaderGroup` VALUES (1485,'Default Header Section for X11/extensions/XIproto.h',989,0,'');
