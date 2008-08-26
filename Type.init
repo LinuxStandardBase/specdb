@@ -1310,7 +1310,6 @@ INSERT INTO `Type` VALUES (9541,'XkbExtensionDeviceNotifyEvent *','Pointer',0,''
 INSERT INTO `Type` VALUES (9542,'XrmQuark','Typedef',292,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9543,'XrmQuarkList','Typedef',292,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9544,'XrmString','Typedef',292,'','','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (9545,'anon-X11/Xresource.h-68','Enum',292,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9546,'XrmBinding','Typedef',292,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9547,'anon-X11/Xresource.h-79','Enum',292,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9548,'anon-X11/Xresource.h-79 *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
