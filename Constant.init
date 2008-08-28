@@ -906,7 +906,7 @@ INSERT INTO `Constant` VALUES (905,'__WINT_TYPE__','int',111,'',NULL);
 INSERT INTO `Constant` VALUES (906,'NULL','int',347,'(void *) would be better, but causes problems with C++.',NULL);
 INSERT INTO `Constant` VALUES (907,'offsetof(TYPE,MEMBER)','macro',347,'',NULL);
 INSERT INTO `Constant` VALUES (908,'X_HAVE_UTF8_STRING','int',111,'',NULL);
-INSERT INTO `Constant` VALUES (909,'Bool','int',111,'',NULL);
+INSERT INTO `Constant` VALUES (909,'Bool','Unknown',111,'',NULL);
 INSERT INTO `Constant` VALUES (910,'Status','int',111,'',NULL);
 INSERT INTO `Constant` VALUES (911,'True','int',111,'',NULL);
 INSERT INTO `Constant` VALUES (912,'False','int',111,'',NULL);
