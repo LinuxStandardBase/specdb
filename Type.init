@@ -21015,3 +21015,17 @@ INSERT INTO `Type` VALUES (1008877,'xSetCloseDownModeReq','Typedef',1484,'',NULL
 INSERT INTO `Type` VALUES (1008878,'xForceScreenSaverReq','Typedef',1484,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008879,'anon-struct-Xproto.h-154','Struct',1484,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008880,'xRotatePropertiesReq','Typedef',1484,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008881,'anon-struct-Xutil.h-1','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008882,'anon-struct-Xutil.h-0','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008883,'anon-struct-Xutil.h-2','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008884,'anon-struct-Xutil.h-3','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008885,'anon-enum-Xutil.h-0','Enum',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008886,'anon-struct-Xutil.h-4','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008887,'anon-struct-Xutil.h-5','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008888,'anon-struct-Xutil.h-6','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008889,'anon-struct-Xutil.h-7','Struct',69,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008890,'XIconSize **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008891,'XStandardColormap **','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008892,'const XTextProperty','Const',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008893,'const XTextProperty *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1008894,'wchar_t ***','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);

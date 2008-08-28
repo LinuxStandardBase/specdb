@@ -960,3 +960,4 @@ INSERT INTO `Header` VALUES (986,'nss3/sslproto.h',278,'Unknown',NULL,'4.0',NULL
 INSERT INTO `Header` VALUES (987,'nss3/sslerr.h',278,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (988,'X11/Xproto.h',10,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (989,'X11/extensions/XIproto.h',238,'Unknown',NULL,'1.0',NULL);
+INSERT INTO `Header` VALUES (990,'X11/Xfuncproto.h',10,'Unknown',NULL,'1.0',NULL);
