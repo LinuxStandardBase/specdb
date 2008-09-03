@@ -1,2 +1,3 @@
 INSERT INTO `InterpretedLanguage` VALUES (1,'Perl','5.8.X, with X >= 8','/usr/bin/perl',127,'3.2',NULL,12);
 INSERT INTO `InterpretedLanguage` VALUES (2,'Python','2.4.2 or greater','/usr/bin/python',133,'3.2',NULL,11);
+INSERT INTO `InterpretedLanguage` VALUES (3,'Java','Java Platform, Standard Edition 6','/usr/bin/java',155,'4.0',NULL,15);

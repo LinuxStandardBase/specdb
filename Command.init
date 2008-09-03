@@ -1055,3 +1055,4 @@ INSERT INTO `Command` VALUES (1063,'xdg-open',NULL,138,0,'Yes','Unknown',NULL,'N
 INSERT INTO `Command` VALUES (1064,'xdg-screensaver',NULL,138,0,'Yes','Unknown',NULL,'No',NULL,NULL);
 INSERT INTO `Command` VALUES (1065,'command',NULL,67,0,'Yes','No',NULL,'Yes','command.html',NULL);
 INSERT INTO `Command` VALUES (1066,'type',NULL,67,0,'Yes','No',NULL,'Yes','type.html',NULL);
+INSERT INTO `Command` VALUES (1067,'java','/usr/bin/java',10,156,'Yes','Unknown','4.0','No','http://java.sun.com/javase/6/docs/api/index.html',NULL);
