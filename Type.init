@@ -21170,3 +21170,10 @@ INSERT INTO `Type` VALUES (1009032,'anon-struct-ConstrainP.h-0','Struct',412,'',
 INSERT INTO `Type` VALUES (1009033,'ConstraintClassExtensionRec','Typedef',412,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009034,'ConstraintClassExtension','Typedef',412,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009035,'ConstraintClassExtensionRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009036,'PRShutdownHow','Typedef',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009037,'const PRPollDesc','Const',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009038,'const PRPollDesc *','Pointer',1460,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009039,'PRThread','Struct',1467,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009040,'PRHostEnt *','Pointer',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009041,'const PRHostEnt','Const',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);
+INSERT INTO `Type` VALUES (1009042,'const PRHostEnt *','Pointer',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr',0);

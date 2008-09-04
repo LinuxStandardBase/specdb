@@ -58,3 +58,4 @@ INSERT INTO `Library` VALUES (275,'libGLU','4.0',NULL);
 INSERT INTO `Library` VALUES (276,'libXtst','4.0',NULL);
 INSERT INTO `Library` VALUES (277,'libnss3',NULL,NULL);
 INSERT INTO `Library` VALUES (278,'libssl3',NULL,NULL);
+INSERT INTO `Library` VALUES (279,'libnspr4',NULL,NULL);
