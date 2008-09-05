@@ -1413,3 +1413,4 @@ INSERT INTO `HeaderGroup` VALUES (1484,'Default Header Section for X11/Xproto.h'
 INSERT INTO `HeaderGroup` VALUES (1485,'Default Header Section for X11/extensions/XIproto.h',989,0,'');
 INSERT INTO `HeaderGroup` VALUES (1486,'xEvent',988,2,'');
 INSERT INTO `HeaderGroup` VALUES (1487,'Default Header Section for X11/Xfuncproto.h',990,0,'');
+INSERT INTO `HeaderGroup` VALUES (1488,'Default Header Section for nspr4/nspr.h',991,0,'');
