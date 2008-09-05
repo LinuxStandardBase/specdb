@@ -49966,3 +49966,5 @@ INSERT INTO `IntStd` VALUES (98808,158,0,'4.0',NULL,'priofnc.html#19189');
 INSERT INTO `IntStd` VALUES (98809,158,0,'4.0',NULL,'prntdb.html#20553');
 INSERT INTO `IntStd` VALUES (98810,158,0,'4.0',NULL,'prntdb.html#20589');
 INSERT INTO `IntStd` VALUES (98811,158,0,'4.0',NULL,'prntdb.html#20630');
+INSERT INTO `IntStd` VALUES (97919,153,0,'4.0',NULL,'cairo-FreeType-Fonts.html#cairo-ft-font-face-create-for-ft-face');
+INSERT INTO `IntStd` VALUES (97678,153,0,'4.0',NULL,NULL);
