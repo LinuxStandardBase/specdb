@@ -14943,3 +14943,7 @@ INSERT INTO `Constant` VALUES (16745,'_XtShellPositionValid','Unknown',1491,'',N
 INSERT INTO `Constant` VALUES (16746,'_XtShellNotReparented','Unknown',1491,'',NULL);
 INSERT INTO `Constant` VALUES (16747,'_XtShellPPositionOK','Unknown',1491,'',NULL);
 INSERT INTO `Constant` VALUES (16748,'_XtShellGeometryParsed','Unknown',1491,'',NULL);
+INSERT INTO `Constant` VALUES (16749,'X11/Xlibint.h depends on stdlib.h','header_depend',1489,'',NULL);
+INSERT INTO `Constant` VALUES (16750,'X11/Xlib.h depends on stdlib.h','header_depend',5,'',NULL);
+INSERT INTO `Constant` VALUES (16751,'X11/Xlibint.h depends on errno.h','header_depend',1489,'',NULL);
+INSERT INTO `Constant` VALUES (16752,'X11/Xlibint.h depends on string.h','header_depend',1489,'',NULL);

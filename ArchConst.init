@@ -16664,3 +16664,7 @@ INSERT INTO `ArchConst` VALUES (1,4140,'((char*)&XtShellStrings[1233])','1.0',NU
 INSERT INTO `ArchConst` VALUES (1,4141,'((char*)&XtShellStrings[1243])','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4142,'((char*)&XtShellStrings[1259])','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,4143,'((char*)&XtShellStrings[1275])','1.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,16749,'43','1.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,16750,'43','1.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,16751,'17','1.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,16752,'44','1.0',NULL,0);
