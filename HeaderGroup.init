@@ -1414,3 +1414,6 @@ INSERT INTO `HeaderGroup` VALUES (1485,'Default Header Section for X11/extension
 INSERT INTO `HeaderGroup` VALUES (1486,'xEvent',988,2,'');
 INSERT INTO `HeaderGroup` VALUES (1487,'Default Header Section for X11/Xfuncproto.h',990,0,'');
 INSERT INTO `HeaderGroup` VALUES (1488,'Default Header Section for nspr4/nspr.h',991,0,'');
+INSERT INTO `HeaderGroup` VALUES (1489,'Default Header Section for X11/Xlibint.h',992,0,'');
+INSERT INTO `HeaderGroup` VALUES (1490,'Default Header Section for X11/VendorP.h',993,0,'');
+INSERT INTO `HeaderGroup` VALUES (1491,'Default Header Section for X11/ShellP.h',994,0,'');

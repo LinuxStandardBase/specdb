@@ -27,7 +27,7 @@ CREATE TABLE `Constant` (
   `Cdescription` varchar(255) NOT NULL default '',
   `Ccandidatefor` varchar(255) default NULL,
   PRIMARY KEY  (`Cid`),
-  UNIQUE KEY `k_c_name` (`Cname`),
+  UNIQUE KEY `k_Cname` (`Cname`,`Cheadgroup`),
   KEY `Cheadgroup` (`Cheadgroup`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

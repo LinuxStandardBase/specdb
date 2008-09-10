@@ -30034,7 +30034,7 @@ INSERT INTO `TypeMemberExtras` VALUES (9,78868,4,20,'No',NULL);
 INSERT INTO `TypeMemberExtras` VALUES (9,78872,16,24,'No',NULL);
 INSERT INTO `TypeMemberExtras` VALUES (9,78882,4,8,'No',NULL);
 INSERT INTO `TypeMemberExtras` VALUES (9,78883,4,12,'No',NULL);
-INSERT INTO `TypeMemberExtras` VALUES (1,212917,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n XID c_class; \n #else \n XID class; #endif');
+INSERT INTO `TypeMemberExtras` VALUES (1,212917,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n XID c_class; \n #else \n XID class; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,212912,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n XID c_class; \n #else \n XID class; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,212910,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n XID c_class; \n #else \n XID class; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,212902,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n XID c_class; \n #else \n XID class; \n #endif');
