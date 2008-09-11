@@ -10,7 +10,7 @@ DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab \
-	Command CommandAttribute Constant ConstantAttribute \
+	Command CmdStd CommandAttribute Constant ConstantAttribute \
 	DynamicEntries ElfSections Header HeaderGroup Interface \
 	InterfaceAttribute InterpretedLanguage InterpretedLanguageModule \
 	IntStd InterfaceComment InterfaceVote LGInt LibGroup Library \
