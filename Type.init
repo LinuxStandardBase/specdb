@@ -21310,3 +21310,4 @@ INSERT INTO `Type` VALUES (1009172,'SessionShellRec','Typedef',1491,'',NULL,'Unk
 INSERT INTO `Type` VALUES (1009173,'SessionShellWidget','Typedef',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009174,'SessionShellRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009175,'_XDisplay','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009176,'PROsfd','Typedef',1492,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);

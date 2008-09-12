@@ -965,3 +965,4 @@ INSERT INTO `Header` VALUES (991,'nspr4/nspr.h',279,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (992,'X11/Xlibint.h',10,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (993,'X11/VendorP.h',11,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (994,'X11/ShellP.h',11,'Unknown',NULL,'1.0',NULL);
+INSERT INTO `Header` VALUES (995,'nspr4/private/pprio.h',279,'Unknown',NULL,'4.0',NULL);

@@ -105,7 +105,7 @@ INSERT INTO `ClassInfo` VALUES (138,'_ZSt8time_putIwSt19ostreambuf_iteratorIwSt1
 INSERT INTO `ClassInfo` VALUES (150,'_ZNSt6locale5facetE',10625,24255,2,1,24005,'0',0,0,0,0,0,23981,317,'1',0,0,'std::locale::facet',0);
 INSERT INTO `ClassInfo` VALUES (152,'_ZSt10ctype_base',10677,0,0,1,24006,'0',0,0,0,0,0,23981,324,'1',0,0,'std::ctype_base',0);
 INSERT INTO `ClassInfo` VALUES (153,'_ZSt10money_base',10675,0,0,1,24010,'0',0,0,0,0,0,23981,326,'1',0,0,'std::money_base',0);
-INSERT INTO `ClassInfo` VALUES (154,'_ZSt10__num_base',10673,0,0,1,24015,'0',24015,0,0,0,0,23981,322,'1',0,0,'std::__num_base',0);
+INSERT INTO `ClassInfo` VALUES (154,'_ZSt10__num_base',10673,0,0,1,0,'0',24015,0,0,0,0,23981,322,'1',0,0,'std::__num_base',0);
 INSERT INTO `ClassInfo` VALUES (155,'_ZSt12codecvt_base',10676,0,0,1,24009,'0',24009,0,0,0,0,23981,336,'1',0,0,'std::codecvt_base',0);
 INSERT INTO `ClassInfo` VALUES (156,'_ZSt13messages_base',10674,0,0,1,24011,'0',24011,0,0,0,0,23981,350,'1',0,0,'std::messages_base',0);
 INSERT INTO `ClassInfo` VALUES (157,'_ZSt15basic_streambufIcSt11char_traitsIcEE',10690,24315,14,1,23990,'0',0,0,0,0,0,23981,362,'1',0,0,'std::basic_streambuf<char, std::char_traits<char> >',0);
@@ -1522,7 +1522,7 @@ INSERT INTO `ClassInfo` VALUES (2353,'_Z17QGraphicsPathItem',30480,92130,37,1,0,
 INSERT INTO `ClassInfo` VALUES (2354,'_Z19QGraphicsPixmapItem',30481,92131,37,1,0,'1',92168,0,0,0,0,23980,651,'1',0,0,'QGraphicsPixmapItem',0);
 INSERT INTO `ClassInfo` VALUES (2355,'_Z20QGraphicsPolygonItem',30482,92132,37,1,0,'1',92154,0,0,0,0,23980,651,'1',0,0,'QGraphicsPolygonItem',0);
 INSERT INTO `ClassInfo` VALUES (2356,'_Z17QGraphicsRectItem',30483,92133,37,1,0,'1',92154,0,0,0,0,23980,651,'1',0,0,'QGraphicsRectItem',0);
-INSERT INTO `ClassInfo` VALUES (2357,'_Z14QGraphicsScene',30331,92134,32,1,0,'1',36391,0,0,0,0,23980,651,'1',0,0,'QGraphicsScene',0);
+INSERT INTO `ClassInfo` VALUES (2357,'_Z14QGraphicsScene',30331,92134,32,1,92176,'1',36391,0,0,0,0,23979,651,'1',0,0,'QGraphicsScene',0);
 INSERT INTO `ClassInfo` VALUES (2358,'_Z30QGraphicsSceneContextMenuEvent',30327,92135,2,1,0,'1',92179,0,0,0,0,23980,651,'1',0,0,'QGraphicsSceneContextMenuEvent',0);
 INSERT INTO `ClassInfo` VALUES (2359,'_Z27QGraphicsSceneDragDropEvent',30329,92136,2,1,0,'1',92179,0,0,0,0,23980,651,'1',0,0,'QGraphicsSceneDragDropEvent',0);
 INSERT INTO `ClassInfo` VALUES (2360,'_Z19QGraphicsSceneEvent',30532,92137,2,1,0,'1',36388,0,0,0,0,23980,651,'1',0,0,'QGraphicsSceneEvent',0);
@@ -1551,7 +1551,7 @@ INSERT INTO `ClassInfo` VALUES (2382,'_Z12QUndoCommand',30303,92149,6,1,0,'1',0,
 INSERT INTO `ClassInfo` VALUES (2383,'_Z10QUndoGroup',30301,92150,3,1,0,'1',36391,0,0,0,0,23980,641,'1',0,0,'QUndoGroup',0);
 INSERT INTO `ClassInfo` VALUES (2384,'_Z10QUndoStack',30299,92151,12,1,0,'1',36391,0,0,0,0,23980,641,'1',0,0,'QUndoStack',0);
 INSERT INTO `ClassInfo` VALUES (2385,'_Z9QUndoView',30542,92152,99,1,0,'1',38875,0,0,0,0,23980,641,'1',0,0,'QUndoView',0);
-INSERT INTO `ClassInfo` VALUES (2386,'_Z13QWidgetAction',30543,92153,14,1,0,'1',38852,0,0,0,0,23980,647,'1',0,0,'QWidgetAction',0);
+INSERT INTO `ClassInfo` VALUES (2386,'_Z13QWidgetAction',30543,92153,14,1,92195,'1',38852,0,0,0,0,23979,647,'1',0,0,'QWidgetAction',0);
 INSERT INTO `ClassInfo` VALUES (2387,'_Z14QWidgetPrivate',30544,38977,2,1,0,'1',36365,0,0,0,0,23980,649,'1',0,0,'QWidgetPrivate',0);
 INSERT INTO `ClassInfo` VALUES (2388,'_Z20QWidgetResizeHandler',30545,39030,3,1,0,'1',36391,0,0,0,0,23980,649,'1',0,0,'QWidgetResizeHandler',0);
 INSERT INTO `ClassInfo` VALUES (2389,'_Z18QX11EmbedContainer',30546,39016,59,1,0,'1',38859,0,0,0,0,23980,649,'1',0,0,'QX11EmbedContainer',0);
