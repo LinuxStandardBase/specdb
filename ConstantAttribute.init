@@ -6,6 +6,8 @@ INSERT INTO `ConstantAttribute` VALUES (5,1093,'Condition','#ifdef NDEBUG\n#defi
 INSERT INTO `ConstantAttribute` VALUES (6,15644,'Declaration','#ifdef __cplusplus \n# define G_BEGIN_DECLS  extern \"C\" { \n#else \n# define G_BEGIN_DECLS \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (7,15645,'Declaration','#ifdef __cplusplus \n# define G_END_DECLS  } \n#else \n# define G_END_DECLS \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (8,13382,'Condition','#ifndef GL_ARB_multitexture');
+INSERT INTO `ConstantAttribute` VALUES (14,16754,'Condition','#ifndef PATH_MAX');
 INSERT INTO `ConstantAttribute` VALUES (13,906,'Declaration','#ifndef NULL\n#  ifdef __cplusplus \n#    define NULL        (0L) \n#  else \n#    define NULL        ((void*) 0) \n#  endif \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (9,16603,'Declaration','#ifdef __cplusplus \n#define _XFUNCPROTOEND }\n#else \n#define _XFUNCPROTOEND \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (10,16602,'Declaration','#ifdef __cplusplus \n#define _XFUNCPROTOBEGIN extern \"C\" { \n#else \n#define _XFUNCPROTOBEGIN \n#endif');
+INSERT INTO `ConstantAttribute` VALUES (15,16755,'Condition','#ifndef MAXPATHLEN');

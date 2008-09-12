@@ -14947,3 +14947,7 @@ INSERT INTO `Constant` VALUES (16749,'X11/Xlibint.h depends on stdlib.h','header
 INSERT INTO `Constant` VALUES (16750,'X11/Xlib.h depends on stdlib.h','header_depend',5,'',NULL);
 INSERT INTO `Constant` VALUES (16751,'X11/Xlibint.h depends on errno.h','header_depend',1489,'',NULL);
 INSERT INTO `Constant` VALUES (16752,'X11/Xlibint.h depends on string.h','header_depend',1489,'',NULL);
+INSERT INTO `Constant` VALUES (16753,'X11/Xproto.h depends on X11/Xprotostr.h','header_depend',1484,'',NULL);
+INSERT INTO `Constant` VALUES (16754,'PATH_MAX','int',1495,'',NULL);
+INSERT INTO `Constant` VALUES (16755,'MAXPATHLEN','int',1495,'',NULL);
+INSERT INTO `Constant` VALUES (16756,'X11/Xlib.h depends on X11/Xosdefs.h','header_depend',5,'',NULL);

@@ -966,3 +966,5 @@ INSERT INTO `Header` VALUES (992,'X11/Xlibint.h',10,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (993,'X11/VendorP.h',11,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (994,'X11/ShellP.h',11,'Unknown',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (995,'nspr4/private/pprio.h',279,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (996,'X11/Xprotostr.h',10,'Unknown',NULL,'1.0',NULL);
+INSERT INTO `Header` VALUES (997,'X11/Xosdefs.h',10,'Unknown',NULL,'1.0',NULL);

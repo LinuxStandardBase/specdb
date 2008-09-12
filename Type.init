@@ -161,7 +161,7 @@ INSERT INTO `Type` VALUES (8773,'IcePoVersionRec *','Pointer',0,'','','No','No',
 INSERT INTO `Type` VALUES (8864,'fptr-XcmsConversionProc','FuncPtr',6,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (100034,'IcePoAuthStatus (*)(IceConn, IcePointer *, int, int, int, IcePointer, int *, IcePointer *, char **)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8553,'XIMStringConversionFeedback','Typedef',5,'','','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (7053,'_XDisplay','Struct',5,'','','No','No','No',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (7053,'_XDisplay','Struct',1494,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (8552,'XIMResetState','Typedef',5,'','','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (100225,'_IcePingWait *','Pointer',1365,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libICE',0);
 INSERT INTO `Type` VALUES (8863,'XcmsScreenFreeProc','Typedef',6,'','','No','No','No',NULL,0,0,'libX11',0);
@@ -21311,3 +21311,11 @@ INSERT INTO `Type` VALUES (1009173,'SessionShellWidget','Typedef',1491,'',NULL,'
 INSERT INTO `Type` VALUES (1009174,'SessionShellRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009175,'_XDisplay','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009176,'PROsfd','Typedef',1492,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (1009177,'_xSegment','Struct',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009178,'xSegment','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009179,'_xPoint','Struct',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009180,'xPoint','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009181,'_xRectangle','Struct',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009182,'xRectangle','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009183,'_xArc','Struct',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009184,'xArc','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
