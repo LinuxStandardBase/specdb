@@ -21188,7 +21188,7 @@ INSERT INTO `Type` VALUES (1009050,'ObjectClassExtensionRec','Typedef',414,'',NU
 INSERT INTO `Type` VALUES (1009051,'ObjectClassExtension','Typedef',414,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009052,'ObjectClassExtensionRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009053,'int (*[128])(Display *, XEvent *, xEvent *)','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (1009054,'int (**)(Display *, XErrorEvent *, xError *)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009054,'int (**)(Display *, XErrorEvent *, xError *)','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009055,'anon-struct-Xlibint.h-0','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009056,'_XLockInfo','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009057,'_XKeytrans','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);

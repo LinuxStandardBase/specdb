@@ -4140,7 +4140,7 @@ INSERT INTO `Constant` VALUES (4143,'XtNerrorCallback','int',296,'',NULL);
 INSERT INTO `Constant` VALUES (4144,'_XtintrinsicP_h','Unknown',297,'',NULL);
 INSERT INTO `Constant` VALUES (4145,'XT_VERSION','int',297,'',NULL);
 INSERT INTO `Constant` VALUES (4146,'XT_REVISION','int',297,'',NULL);
-INSERT INTO `Constant` VALUES (4147,'XtVersion','int',297,'',NULL);
+INSERT INTO `Constant` VALUES (4147,'XtVersion','macro',297,'',NULL);
 INSERT INTO `Constant` VALUES (4148,'XtVersionDontCheck','int',297,'',NULL);
 INSERT INTO `Constant` VALUES (4149,'XtExposeNoCompress','int',297,'',NULL);
 INSERT INTO `Constant` VALUES (4150,'XtExposeCompressSeries','int',297,'',NULL);
@@ -14951,3 +14951,7 @@ INSERT INTO `Constant` VALUES (16753,'X11/Xproto.h depends on X11/Xprotostr.h','
 INSERT INTO `Constant` VALUES (16754,'PATH_MAX','int',1495,'',NULL);
 INSERT INTO `Constant` VALUES (16755,'MAXPATHLEN','int',1495,'',NULL);
 INSERT INTO `Constant` VALUES (16756,'X11/Xlib.h depends on X11/Xosdefs.h','header_depend',5,'',NULL);
+INSERT INTO `Constant` VALUES (16757,'XtInheritRealize','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (16758,'XtInheritResize','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (16759,'XtInheritSetValuesAlmost','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (16760,'X11/Intrinsic.h depends on string.h','header_depend',293,'',NULL);
