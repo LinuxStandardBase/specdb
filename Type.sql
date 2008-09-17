@@ -22,7 +22,7 @@ DROP TABLE IF EXISTS `Type`;
 CREATE TABLE `Type` (
   `Tid` int(10) unsigned NOT NULL auto_increment,
   `Tname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','TypeInfo','Volatile','Function','Ref','Namespace','Template','TemplateInstance','Macro','MemberPtr','MethodPtr') default NULL,
+  `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','BinVariable','Volatile','Function','Ref','Namespace','Template','TemplateInstance','Macro','MemberPtr','MethodPtr') NOT NULL default 'Unknown',
   `Theadgroup` int(10) unsigned NOT NULL default '0',
   `Tdescription` varchar(255) NOT NULL default '',
   `Tarray` varchar(16) default NULL,
