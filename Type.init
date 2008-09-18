@@ -21319,3 +21319,4 @@ INSERT INTO `Type` VALUES (1009181,'_xRectangle','Struct',1493,'',NULL,'Unknown'
 INSERT INTO `Type` VALUES (1009182,'xRectangle','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009183,'_xArc','Struct',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1009184,'xArc','Typedef',1493,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
+INSERT INTO `Type` VALUES (1009185,'_XGC','Struct',1489,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
