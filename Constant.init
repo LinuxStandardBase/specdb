@@ -14955,3 +14955,4 @@ INSERT INTO `Constant` VALUES (16757,'XtInheritRealize','macro',1381,'',NULL);
 INSERT INTO `Constant` VALUES (16758,'XtInheritResize','macro',1381,'',NULL);
 INSERT INTO `Constant` VALUES (16759,'XtInheritSetValuesAlmost','macro',1381,'',NULL);
 INSERT INTO `Constant` VALUES (16760,'X11/Intrinsic.h depends on string.h','header_depend',293,'',NULL);
+INSERT INTO `Constant` VALUES (16761,'PNG_iTXt_SUPPORTED','Unknown',607,'',NULL);
