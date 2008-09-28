@@ -23,18 +23,14 @@ CREATE TABLE `Command` (
   `Cid` int(10) unsigned NOT NULL auto_increment,
   `Cname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
   `Cpath` varchar(255) default NULL,
-  `Cstandard` int(10) unsigned NOT NULL default '0',
-  `Crefspec` int(10) unsigned NOT NULL default '0',
   `Cdocumented` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Ctested` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
   `Ccandidatefor` varchar(255) default NULL,
   `Cbuiltin` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `Curl` varchar(255) default NULL,
   `Cdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `Cname` (`Cname`),
-  KEY `Cdeprecatedsince` (`Cdeprecatedsince`),
-  KEY `Cstandard` (`Cstandard`)
+  KEY `Cdeprecatedsince` (`Cdeprecatedsince`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
