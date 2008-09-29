@@ -11,7 +11,7 @@ INSERT INTO `CmdStd` VALUES (234,10,5,'1.0',NULL,'LSB-Core-generic/LSB-Core-gene
 INSERT INTO `CmdStd` VALUES (238,67,0,'1.0',NULL,'comm.html');
 INSERT INTO `CmdStd` VALUES (244,10,67,'1.0',NULL,'LSB-Core-generic/LSB-Core-generic/crontab.html');
 INSERT INTO `CmdStd` VALUES (245,67,0,'1.0',NULL,'csplit.html');
-INSERT INTO `CmdStd` VALUES (249,10,67,'1.0',NULL,'LSB-Core-generic/LSB-Core-generic/cut.html');
+INSERT INTO `CmdStd` VALUES (249,10,67,'1.0','4.0','LSB-Core-generic/LSB-Core-generic/cut.html');
 INSERT INTO `CmdStd` VALUES (266,67,0,'1.0',NULL,'diff.html');
 INSERT INTO `CmdStd` VALUES (271,67,0,'1.0',NULL,'dirname.html');
 INSERT INTO `CmdStd` VALUES (281,10,67,'1.0',NULL,'LSB-Core-generic/LSB-Core-generic/du.html');
@@ -19,7 +19,7 @@ INSERT INTO `CmdStd` VALUES (303,67,0,'1.0',NULL,'env.html');
 INSERT INTO `CmdStd` VALUES (312,67,0,'1.0',NULL,'expand.html');
 INSERT INTO `CmdStd` VALUES (315,67,0,'1.0',NULL,'expr.html');
 INSERT INTO `CmdStd` VALUES (325,10,67,'1.0',NULL,'LSB-Core-generic/LSB-Core-generic/file.html');
-INSERT INTO `CmdStd` VALUES (327,10,67,'1.0',NULL,'LSB-Core-generic/LSB-Core-generic/find.html');
+INSERT INTO `CmdStd` VALUES (327,10,67,'1.0','4.0','LSB-Core-generic/LSB-Core-generic/find.html');
 INSERT INTO `CmdStd` VALUES (334,67,0,'1.0',NULL,'fold.html');
 INSERT INTO `CmdStd` VALUES (370,67,0,'1.0',NULL,'gencat.html');
 INSERT INTO `CmdStd` VALUES (371,67,0,'1.0',NULL,'getconf.html');
@@ -155,3 +155,5 @@ INSERT INTO `CmdStd` VALUES (798,10,0,'4.0',NULL,'LSB-Core-generic/LSB-Core-gene
 INSERT INTO `CmdStd` VALUES (1065,67,0,'4.0',NULL,'command.html');
 INSERT INTO `CmdStd` VALUES (1066,67,0,'4.0',NULL,'type.html');
 INSERT INTO `CmdStd` VALUES (1067,10,156,'4.0',NULL,'http://java.sun.com/javase/6/docs/api/index.html');
+INSERT INTO `CmdStd` VALUES (249,67,0,'4.0',NULL,'cut.html');
+INSERT INTO `CmdStd` VALUES (327,67,0,'4.0',NULL,'find.html');
