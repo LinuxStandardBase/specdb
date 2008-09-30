@@ -4,3 +4,4 @@ INSERT INTO `LibraryAttribute` VALUES (3,'libgdk-1.2.so.0','libgdk','Rejection',
 INSERT INTO `LibraryAttribute` VALUES (4,'libgdkmm-1.2.so.0','libgdkmm','Rejection','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
 INSERT INTO `LibraryAttribute` VALUES (5,'libglib-1.2.so.0','libglib','Rejection','GTK 1.2 is old and not supported. Use GTK 2 instead.');
 INSERT INTO `LibraryAttribute` VALUES (6,'libstdc++.so.5','libstdcxx','Rejection','Use libstdc++.so.6 instead.');
+INSERT INTO `LibraryAttribute` VALUES (7,'libtermcap.so.2','libtermcap','Rejection','libtermcap is obsolete. Use ncurses instead.');
