@@ -1421,3 +1421,4 @@ INSERT INTO `HeaderGroup` VALUES (1492,'Default Header Section for nspr4/private
 INSERT INTO `HeaderGroup` VALUES (1493,'Default Header Section for X11/Xprotostr.h',996,0,'');
 INSERT INTO `HeaderGroup` VALUES (1494,'_XDisplay Forward Declaration',5,-1,'');
 INSERT INTO `HeaderGroup` VALUES (1495,'Default Header Section for X11/Xosdefs.h',997,0,'');
+INSERT INTO `HeaderGroup` VALUES (1496,'Default Header Section for netinet/ip6.h',998,0,'');
