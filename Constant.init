@@ -3761,10 +3761,10 @@ INSERT INTO `Constant` VALUES (3764,'XtOffsetOf(s_type,field)','macro',293,'',NU
 INSERT INTO `Constant` VALUES (3765,'XtNew(type)','macro',293,'',NULL);
 INSERT INTO `Constant` VALUES (3766,'XtNewString(str)','macro',293,'',NULL);
 INSERT INTO `Constant` VALUES (3767,'XT_CONVERT_FAIL','int',293,'',NULL);
-INSERT INTO `Constant` VALUES (3768,'XtCvtStringToPosition','string',293,'',NULL);
-INSERT INTO `Constant` VALUES (3769,'XtCvtIntToDimension','string',293,'',NULL);
-INSERT INTO `Constant` VALUES (3770,'XtCvtIntToPosition','string',293,'',NULL);
-INSERT INTO `Constant` VALUES (3771,'XtCvtPixelToColor','string',293,'',NULL);
+INSERT INTO `Constant` VALUES (3768,'XtCvtStringToPosition','Unknown',293,'',NULL);
+INSERT INTO `Constant` VALUES (3769,'XtCvtIntToDimension','Unknown',293,'',NULL);
+INSERT INTO `Constant` VALUES (3770,'XtCvtIntToPosition','Unknown',293,'',NULL);
+INSERT INTO `Constant` VALUES (3771,'XtCvtPixelToColor','Unknown',293,'',NULL);
 INSERT INTO `Constant` VALUES (3772,'_XtStringDefs_h_','Unknown',295,'',NULL);
 INSERT INTO `Constant` VALUES (3773,'_XtStringDefs_h_Const','int',295,'',NULL);
 INSERT INTO `Constant` VALUES (3774,'XtNaccelerators','int',295,'',NULL);
