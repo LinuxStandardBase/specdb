@@ -21263,7 +21263,7 @@ INSERT INTO `Type` VALUES (1009125,'anon-struct-ShellP.h-7','Struct',1491,'',NUL
 INSERT INTO `Type` VALUES (1009126,'WMShellClassPart','Typedef',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009127,'WMShellClassRec','Typedef',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009128,'anon-struct-ShellP.h-9','Struct',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (1009129,'_OldXSizeHints','Struct',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1009129,'_OldXSizeHints','Struct',1497,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009130,'anon-struct-ShellP.h-8','Struct',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009131,'WMShellPart','Typedef',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1009132,'anon-struct-ShellP.h-10','Struct',1491,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);

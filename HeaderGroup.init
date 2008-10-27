@@ -1422,3 +1422,4 @@ INSERT INTO `HeaderGroup` VALUES (1493,'Default Header Section for X11/Xprotostr
 INSERT INTO `HeaderGroup` VALUES (1494,'_XDisplay Forward Declaration',5,-1,'');
 INSERT INTO `HeaderGroup` VALUES (1495,'Default Header Section for X11/Xosdefs.h',997,0,'');
 INSERT INTO `HeaderGroup` VALUES (1496,'Default Header Section for netinet/ip6.h',998,0,'');
+INSERT INTO `HeaderGroup` VALUES (1497,'_OldXSizeHints structure',994,-1,'');
