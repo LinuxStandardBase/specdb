@@ -21030,7 +21030,7 @@ INSERT INTO `Type` VALUES (1008892,'const XTextProperty','Const',0,'',NULL,'Unkn
 INSERT INTO `Type` VALUES (1008893,'const XTextProperty *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008894,'wchar_t ***','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (1008895,'CompositeWidgetClass','Typedef',294,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (1008896,'_CompositeClassRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (1008896,'_CompositeClassRec *','Pointer',310,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1008897,'XtOrderProc','Typedef',294,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1008898,'Cardinal (*)(Widget)','FuncPtr',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (1008899,'TMByteCard','Typedef',1377,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
@@ -21373,3 +21373,5 @@ INSERT INTO `Type` VALUES (1009235,'TT_PCLT','Typedef',941,'',NULL,'Unknown','Un
 INSERT INTO `Type` VALUES (1009236,'TT_MaxProfile_','Struct',941,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (1009237,'TT_MaxProfile','Typedef',941,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (1009238,'anon-enum-tttables.h-0','Enum',941,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (1009239,'_CompositeClassRec','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1009240,'_CompositeClassRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
