@@ -21375,3 +21375,6 @@ INSERT INTO `Type` VALUES (1009237,'TT_MaxProfile','Typedef',941,'',NULL,'Unknow
 INSERT INTO `Type` VALUES (1009238,'anon-enum-tttables.h-0','Enum',941,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (1009239,'_CompositeClassRec','Struct',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1009240,'_CompositeClassRec *','Pointer',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1009241,'anon-t1taqbles-enum','Enum',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1009242,'T1_Blend_Flags','Typedef',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1009243,'char[1]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);

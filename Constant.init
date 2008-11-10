@@ -15041,3 +15041,13 @@ INSERT INTO `Constant` VALUES (16843,'libxml2/libxml/threads.h depends on libxml
 INSERT INTO `Constant` VALUES (16844,'libxml2/libxml/xmlmodule.h depends on libxml2/libxml/xmlversion.h','header_depend',632,'',NULL);
 INSERT INTO `Constant` VALUES (16845,'libxml2/libxml/xmlmodule.h depends on libxml2/libxml/xmlversion.h','header_depend',636,'',NULL);
 INSERT INTO `Constant` VALUES (16846,'libxml2/libxml/SAX2.h depends on stdlib.h','header_depend',647,'',NULL);
+INSERT INTO `Constant` VALUES (16847,'png.h depends on string.h','header_depend',607,'',NULL);
+INSERT INTO `Constant` VALUES (16848,'freetype/config/ftstdlib.h depends on string.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16849,'freetype/config/ftstdlib.h depends on stdio.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16850,'freetype/config/ftstdlib.h depends on ctype.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16851,'freetype/config/ftstdlib.h depends on stdlib.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16852,'freetype/config/ftstdlib.h depends on setjmp.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16853,'freetype/config/ftstdlib.h depends on limits.h','header_depend',965,'',NULL);
+INSERT INTO `Constant` VALUES (16854,'freetype/tttags.h depends on freetype.h','header_depend',946,'',NULL);
+INSERT INTO `Constant` VALUES (16855,'freetype/ttunpat.h depends on freetype.h','header_depend',950,'',NULL);
+INSERT INTO `Constant` VALUES (16856,'freetype/ftincrem.h depends on freetype.h','header_depend',958,'',NULL);
