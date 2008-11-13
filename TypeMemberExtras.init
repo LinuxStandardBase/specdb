@@ -30091,6 +30091,3 @@ INSERT INTO `TypeMemberExtras` VALUES (1,216315,0,0,'Yes','#if defined(__cpluspl
 INSERT INTO `TypeMemberExtras` VALUES (1,215825,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n BOOL c_delete; \n #else \n BOOL delete; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,214795,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n int c_new; \n #else \n int new; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,215659,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n BOOL c_new; \n #else \n BOOL new; \n #endif');
-INSERT INTO `TypeMemberExtras` VALUES (1,216901,0,0,'No','#ifdef PNG_iTXt_SUPPORTED\n png_size_t itxt_length; \n #endif');
-INSERT INTO `TypeMemberExtras` VALUES (1,216902,0,0,'No','#ifdef PNG_iTXt_SUPPORTED\n png_charp lang; \n #endif');
-INSERT INTO `TypeMemberExtras` VALUES (1,216903,0,0,'No','#ifdef PNG_iTXt_SUPPORTED\n png_charp lang_key; \n #endif');
