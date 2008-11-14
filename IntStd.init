@@ -49694,3 +49694,5 @@ INSERT INTO `IntStd` VALUES (95125,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc'
 INSERT INTO `IntStd` VALUES (95126,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc');
 INSERT INTO `IntStd` VALUES (95127,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc');
 INSERT INTO `IntStd` VALUES (95128,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc');
+INSERT INTO `IntStd` VALUES (98886,158,0,'4.0',NULL,'PR_OpenTCPSocket');
+INSERT INTO `IntStd` VALUES (98887,158,0,'4.0',NULL,'PR_OpenTCPSocket');
