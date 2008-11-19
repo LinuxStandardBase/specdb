@@ -21378,3 +21378,8 @@ INSERT INTO `Type` VALUES (1009240,'_CompositeClassRec *','Pointer',0,'',NULL,'U
 INSERT INTO `Type` VALUES (1009241,'anon-t1taqbles-enum','Enum',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1009242,'T1_Blend_Flags','Typedef',961,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1009243,'char[1]','Array',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (1009244,'PRAddrInfo','Struct',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (1009245,'PRAddrInfo','Typedef',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (1009246,'PRAddrInfo *','Pointer',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (1009247,'const PRAddrInfo','Const',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (1009248,'const PRAddrInfo *','Pointer',1465,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libnspr4',0);

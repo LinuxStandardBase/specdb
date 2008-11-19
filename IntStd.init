@@ -49696,3 +49696,10 @@ INSERT INTO `IntStd` VALUES (95127,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc'
 INSERT INTO `IntStd` VALUES (95128,87,0,'3.2',NULL,'cxxabi-1.83.html#thunk-desc');
 INSERT INTO `IntStd` VALUES (98886,158,0,'4.0',NULL,'PR_OpenTCPSocket');
 INSERT INTO `IntStd` VALUES (98887,158,0,'4.0',NULL,'PR_OpenTCPSocket');
+INSERT INTO `IntStd` VALUES (98951,158,0,'4.0',NULL,'PR_GetAddrInfoByName');
+INSERT INTO `IntStd` VALUES (98952,158,0,'4.0',NULL,'PR_EnumerateAddrInfo');
+INSERT INTO `IntStd` VALUES (98953,158,0,'4.0',NULL,'PR_FreeAddrInfo');
+INSERT INTO `IntStd` VALUES (98954,158,0,'4.0',NULL,'PR_StringToNetAddr');
+INSERT INTO `IntStd` VALUES (98955,158,0,'4.0',NULL,'PR_NetAddrToString');
+INSERT INTO `IntStd` VALUES (98956,158,0,'',NULL,'PR_ConnectContinue');
+INSERT INTO `IntStd` VALUES (98957,158,0,'4.0',NULL,'PR_Read');
