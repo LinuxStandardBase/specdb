@@ -15051,3 +15051,4 @@ INSERT INTO `Constant` VALUES (16853,'freetype/config/ftstdlib.h depends on limi
 INSERT INTO `Constant` VALUES (16854,'freetype/tttags.h depends on freetype.h','header_depend',946,'',NULL);
 INSERT INTO `Constant` VALUES (16855,'freetype/ttunpat.h depends on freetype.h','header_depend',950,'',NULL);
 INSERT INTO `Constant` VALUES (16856,'freetype/ftincrem.h depends on freetype.h','header_depend',958,'',NULL);
+INSERT INTO `Constant` VALUES (16857,'_MKNOD_VER','int',52,'',NULL);
