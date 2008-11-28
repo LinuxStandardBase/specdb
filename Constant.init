@@ -15039,7 +15039,7 @@ INSERT INTO `Constant` VALUES (16841,'libxml2/libxml/xmlstring.h depends on libx
 INSERT INTO `Constant` VALUES (16842,'libxml2/libxml/list.h depends on libxml2/libxml/xmlversion.h','header_depend',634,'',NULL);
 INSERT INTO `Constant` VALUES (16843,'libxml2/libxml/threads.h depends on libxml2/libxml/xmlversion.h','header_depend',660,'',NULL);
 INSERT INTO `Constant` VALUES (16844,'libxml2/libxml/xmlmodule.h depends on libxml2/libxml/xmlversion.h','header_depend',632,'',NULL);
-INSERT INTO `Constant` VALUES (16845,'libxml2/libxml/xmlmodule.h depends on libxml2/libxml/xmlversion.h','header_depend',636,'',NULL);
+INSERT INTO `Constant` VALUES (16845,'libxml2/libxml/xmlmemory.h depends on libxml2/libxml/xmlversion.h','header_depend',636,'',NULL);
 INSERT INTO `Constant` VALUES (16846,'libxml2/libxml/SAX2.h depends on stdlib.h','header_depend',647,'',NULL);
 INSERT INTO `Constant` VALUES (16847,'png.h depends on string.h','header_depend',607,'',NULL);
 INSERT INTO `Constant` VALUES (16848,'freetype/config/ftstdlib.h depends on string.h','header_depend',965,'',NULL);
