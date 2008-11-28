@@ -106,8 +106,8 @@ INSERT INTO `ClassInfo` VALUES (150,'_ZNSt6locale5facetE',10625,24255,2,1,24005,
 INSERT INTO `ClassInfo` VALUES (152,'_ZSt10ctype_base',10677,0,0,1,24006,'0',0,0,0,0,0,23981,324,'1',0,0,'std::ctype_base',0);
 INSERT INTO `ClassInfo` VALUES (153,'_ZSt10money_base',10675,0,0,1,24010,'0',0,0,0,0,0,23981,326,'1',0,0,'std::money_base',0);
 INSERT INTO `ClassInfo` VALUES (154,'_ZSt10__num_base',10673,0,0,1,0,'0',24015,0,0,0,0,23981,322,'1',0,0,'std::__num_base',0);
-INSERT INTO `ClassInfo` VALUES (155,'_ZSt12codecvt_base',10676,0,0,1,24009,'0',24009,0,0,0,0,23981,336,'1',0,0,'std::codecvt_base',0);
-INSERT INTO `ClassInfo` VALUES (156,'_ZSt13messages_base',10674,0,0,1,24011,'0',24011,0,0,0,0,23981,350,'1',0,0,'std::messages_base',0);
+INSERT INTO `ClassInfo` VALUES (155,'_ZSt12codecvt_base',10676,0,0,1,24009,'0',0,0,0,0,0,23981,336,'1',0,0,'std::codecvt_base',0);
+INSERT INTO `ClassInfo` VALUES (156,'_ZSt13messages_base',10674,0,0,1,24011,'0',0,0,0,0,0,23981,350,'1',0,0,'std::messages_base',0);
 INSERT INTO `ClassInfo` VALUES (157,'_ZSt15basic_streambufIcSt11char_traitsIcEE',10690,24315,14,1,23990,'0',0,0,0,0,0,23981,362,'1',0,0,'std::basic_streambuf<char, std::char_traits<char> >',0);
 INSERT INTO `ClassInfo` VALUES (158,'_ZSt15basic_streambufIwSt11char_traitsIwEE',10607,24314,14,1,23991,'0',0,0,0,0,0,23981,363,'1',0,0,'std::basic_streambuf<wchar_t, std::char_traits<wchar_t> >',0);
 INSERT INTO `ClassInfo` VALUES (159,'_ZSt8ios_base',10621,29891,2,1,24001,'0',0,0,0,0,0,23981,401,'1',0,0,'std::ios_base',0);
