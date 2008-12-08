@@ -15013,7 +15013,7 @@ INSERT INTO `Type` VALUES (1000114,'char[__SIZEOF_SEM_T]','Array',0,'',NULL,'Unk
 INSERT INTO `Type` VALUES (1000115,'anon-sem_t-union','Union',0,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000116,'epoll_data','Union',1398,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000117,'epoll_data_t','Typedef',1398,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (1000118,'epoll_event','Struct',1398,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (1000118,'epoll_event','Struct',1498,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000119,'epoll_event *','Pointer',1398,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (1000120,'off64_t *','Pointer',0,'','','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (1000121,'_http_s','Struct',1291,'',NULL,'Unknown','Unknown','Unknown',NULL,0,0,'libcups',0);

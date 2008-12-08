@@ -13805,9 +13805,9 @@ INSERT INTO `Constant` VALUES (15607,'EPOLLERR','int',1398,'',NULL);
 INSERT INTO `Constant` VALUES (15608,'EPOLLHUP','int',1398,'',NULL);
 INSERT INTO `Constant` VALUES (15609,'EPOLLONESHOT','macro',1398,'',NULL);
 INSERT INTO `Constant` VALUES (15610,'EPOLLET','macro',1398,'',NULL);
-INSERT INTO `Constant` VALUES (15611,'EPOLL_CTL_ADD','int',1398,'',NULL);
-INSERT INTO `Constant` VALUES (15612,'EPOLL_CTL_DEL','int',1398,'',NULL);
-INSERT INTO `Constant` VALUES (15613,'EPOLL_CTL_MOD','int',1398,'',NULL);
+INSERT INTO `Constant` VALUES (15611,'EPOLL_CTL_ADD','int',1398,'Add a file decriptor to the interface.',NULL);
+INSERT INTO `Constant` VALUES (15612,'EPOLL_CTL_DEL','int',1398,'Remove a file decriptor from the interface.',NULL);
+INSERT INTO `Constant` VALUES (15613,'EPOLL_CTL_MOD','int',1398,'Change file decriptor epoll_event structure.',NULL);
 INSERT INTO `Constant` VALUES (15614,'CAIRO_VERSION_MAJOR','int',1403,'',NULL);
 INSERT INTO `Constant` VALUES (15615,'CAIRO_VERSION_MINOR','int',1403,'',NULL);
 INSERT INTO `Constant` VALUES (15616,'CAIRO_VERSION_MICRO','int',1403,'',NULL);
@@ -15052,3 +15052,4 @@ INSERT INTO `Constant` VALUES (16854,'freetype/tttags.h depends on freetype.h','
 INSERT INTO `Constant` VALUES (16855,'freetype/ttunpat.h depends on freetype.h','header_depend',950,'',NULL);
 INSERT INTO `Constant` VALUES (16856,'freetype/ftincrem.h depends on freetype.h','header_depend',958,'',NULL);
 INSERT INTO `Constant` VALUES (16857,'_MKNOD_VER','int',52,'',NULL);
+INSERT INTO `Constant` VALUES (16858,'EPOLLRDHUP','int',1398,'',NULL);
