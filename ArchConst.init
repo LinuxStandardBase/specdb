@@ -843,7 +843,7 @@ INSERT INTO `ArchConst` VALUES (1,904,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,905,'unsignedint','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,906,'(0L)','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,907,'((size_t)&((TYPE*)0)->MEMBER)','1.2',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,908,'1','1.2',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,908,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,909,'int','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,910,'int','1.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,911,'1','1.2',NULL,0);
