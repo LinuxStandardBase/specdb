@@ -44982,7 +44982,7 @@ INSERT INTO `IntStd` VALUES (31172,145,0,'4.0',NULL,'glib-Caches.html#g-cache-in
 INSERT INTO `IntStd` VALUES (30447,145,0,'4.0',NULL,'glib-Caches.html#g-cache-key-foreach');
 INSERT INTO `IntStd` VALUES (30953,145,0,'4.0',NULL,'glib-Caches.html#g-cache-new');
 INSERT INTO `IntStd` VALUES (30489,145,0,'4.0',NULL,'glib-Caches.html#g-cache-remove');
-INSERT INTO `IntStd` VALUES (30563,145,0,'4.0',NULL,'glib-Caches.html#g-cache-value-foreach');
+INSERT INTO `IntStd` VALUES (30563,10,0,'4.0',NULL,'LSB-Desktop-generic/LSB-Desktop-generic/glib-g.cache.value.foreach.html');
 INSERT INTO `IntStd` VALUES (31352,144,0,'4.0',NULL,'gobject-Closures.html#g-cclosure-marshal-BOOLEAN--FLAGS');
 INSERT INTO `IntStd` VALUES (31330,144,0,'4.0',NULL,'gobject-Closures.html#g-cclosure-marshal-STRING--OBJECT-POINTER');
 INSERT INTO `IntStd` VALUES (31371,144,0,'4.0',NULL,'gobject-Closures.html#g-cclosure-marshal-VOID--BOOLEAN');

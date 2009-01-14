@@ -80,7 +80,7 @@ INSERT INTO `Header` VALUES (83,'bits/dirent.h',0,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (84,'X11/extensions/shape.h',18,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (85,'X11/extensions/XShm.h',18,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (86,'X11/extensions/Xdbe.h',18,'No',NULL,'1.1',NULL);
-INSERT INTO `Header` VALUES (87,'X11/extensions/XKBgeom.h',18,'No',NULL,'1.1',NULL);
+INSERT INTO `Header` VALUES (87,'X11/extensions/XKBgeom.h',10,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (88,'X11/XKBlib.h',10,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (89,'X11/Xresource.h',10,'No',NULL,'1.1',NULL);
 INSERT INTO `Header` VALUES (90,'X11/Intrinsic.h',11,'No',NULL,'1.1',NULL);
