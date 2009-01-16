@@ -1056,3 +1056,4 @@ INSERT INTO `Command` VALUES (1064,'xdg-screensaver',NULL,'Yes','Unknown',NULL,'
 INSERT INTO `Command` VALUES (1065,'command',NULL,'Yes','No',NULL,'Yes',NULL);
 INSERT INTO `Command` VALUES (1066,'type',NULL,'Yes','No',NULL,'Yes',NULL);
 INSERT INTO `Command` VALUES (1067,'java','/usr/bin/java','Yes','Unknown',NULL,'No',NULL);
+INSERT INTO `Command` VALUES (1068,'ulimit',NULL,'Yes','No',NULL,'Yes',NULL);
