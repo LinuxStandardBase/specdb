@@ -2992,7 +2992,7 @@ INSERT INTO `IntStd` VALUES (4009,28,0,'1.0',NULL,'mvaddchstr.html');
 INSERT INTO `IntStd` VALUES (4010,28,0,'1.0',NULL,'mvaddnstr.html');
 INSERT INTO `IntStd` VALUES (4011,28,0,'1.0',NULL,'mvaddstr.html');
 INSERT INTO `IntStd` VALUES (4012,28,0,'1.0',NULL,'mvchgat.html');
-INSERT INTO `IntStd` VALUES (4013,28,0,'1.0',NULL,'mvcur.html');
+INSERT INTO `IntStd` VALUES (4013,28,0,'1.0','4.0','mvcur.html');
 INSERT INTO `IntStd` VALUES (4014,28,0,'1.0',NULL,'mvdelch.html');
 INSERT INTO `IntStd` VALUES (4015,28,0,'1.0',NULL,'mvderwin.html');
 INSERT INTO `IntStd` VALUES (4016,28,0,'1.0',NULL,'mvgetch.html');
@@ -49723,3 +49723,4 @@ INSERT INTO `IntStd` VALUES (4085,10,28,'4.0',NULL,'LSB-Core-generic/LSB-Core-ge
 INSERT INTO `IntStd` VALUES (4181,10,28,'4.0',NULL,'LSB-Core-generic/LSB-Core-generic/curses-wscanw-1.html');
 INSERT INTO `IntStd` VALUES (4136,10,28,'4.0',NULL,'LSB-Core-generic/LSB-Core-generic/curses-vw_scanw-1.html');
 INSERT INTO `IntStd` VALUES (4135,10,28,'4.0',NULL,'LSB-Core-generic/LSB-Core-generic/curses-vwscanw-1.html');
+INSERT INTO `IntStd` VALUES (4013,10,28,'4.0',NULL,'LSB-Core-generic/LSB-Core-generic/curses-mvcur-1.html');
