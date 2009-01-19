@@ -157,3 +157,4 @@ INSERT INTO `CmdStd` VALUES (1066,67,0,'4.0',NULL,'type.html');
 INSERT INTO `CmdStd` VALUES (1067,10,156,'4.0',NULL,'http://java.sun.com/javase/6/docs/api/index.html');
 INSERT INTO `CmdStd` VALUES (249,67,0,'4.0',NULL,'cut.html');
 INSERT INTO `CmdStd` VALUES (327,67,0,'4.0',NULL,'find.html');
+INSERT INTO `CmdStd` VALUES (1068,67,0,'4.0',NULL,'ulimit.html');
