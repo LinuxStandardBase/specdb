@@ -23,7 +23,7 @@ INSERT INTO `LibGroup` VALUES (123,'Math',13,4,'desc');
 INSERT INTO `LibGroup` VALUES (124,'Posix Threads',132,5,'desc');
 INSERT INTO `LibGroup` VALUES (125,'Resolver Functions',129,1,'desc');
 INSERT INTO `LibGroup` VALUES (126,'Session Management Functions',20,1,'desc');
-INSERT INTO `LibGroup` VALUES (127,'X Windows System Interface',10,1,'desc');
+INSERT INTO `LibGroup` VALUES (127,'X Window System Interface',10,1,'desc');
 INSERT INTO `LibGroup` VALUES (128,'X Shape Extension',18,1,'');
 INSERT INTO `LibGroup` VALUES (129,'X Shared Memory Extensions',18,3,'');
 INSERT INTO `LibGroup` VALUES (130,'MIT-MISC Extension',18,4,'');
