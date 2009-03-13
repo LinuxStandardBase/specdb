@@ -413,7 +413,7 @@ INSERT INTO `Command` VALUES (415,'grolj4',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (416,'grops',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (417,'grotty',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (418,'grun',NULL,'No','No',NULL,'No',NULL);
-INSERT INTO `Command` VALUES (419,'gs','/usr/bin','Yes','No',NULL,'No',NULL);
+INSERT INTO `Command` VALUES (419,'gs','/usr/bin/gs','Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (420,'gsearchtool',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (421,'gsftopk',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (422,'gstripchart',NULL,'No','No',NULL,'No',NULL);
@@ -1045,7 +1045,7 @@ INSERT INTO `Command` VALUES (1053,'zcat','/bin/zcat','Yes','No',NULL,'No',NULL)
 INSERT INTO `Command` VALUES (1054,'fc-cache',NULL,'Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (1055,'fc-list',NULL,'Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (1056,'fc-match',NULL,'Yes','No',NULL,'No',NULL);
-INSERT INTO `Command` VALUES (1057,'foomatic-rip','/usr/bin','Yes','No',NULL,'No',NULL);
+INSERT INTO `Command` VALUES (1057,'foomatic-rip','/usr/bin/foomatic-rip','Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (1058,'xdg-desktop-icon',NULL,'Yes','Unknown',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (1059,'xdg-desktop-menu',NULL,'Yes','Unknown',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (1060,'xdg-email',NULL,'Yes','Unknown',NULL,'No',NULL);

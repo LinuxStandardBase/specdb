@@ -9,17 +9,15 @@ DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
-	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab \
-	Command CmdStd CommandAttribute Constant ConstantAttribute \
-	DynamicEntries ElfSections Header HeaderGroup Interface \
-	InterfaceAttribute InterpretedLanguage InterpretedLanguageModule \
-	IntStd InterfaceComment InterfaceVote LGInt LibGroup Library \
-	LibraryAttribute LSBVersion ModCmd ModLib ModSMod Module SubModule \
-	Parameter RpmTag SectionTypes Standard Type TemplateParameter \
-	TypeMember TypeMemberExtras TypeType Version VMIBaseTypes Vtable
-
-APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt \
-	RawInterface RawClass AppRILM RawILModule
+	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab CmdStd Command CommandAttribute \
+	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
+	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote\
+	LGInt LibGroup Library LibraryAttribute LSBVersion SModCmd SModLib SModStd ModSMod Module SubModule \
+	Parameter RpmTag SectionTypes \
+	Standard Type TypeMember TypeMemberExtras TypeType \
+	Version VMIBaseTypes Vtable
+	
+APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
@@ -41,7 +39,7 @@ dumpall::
 	do \
 		set +e; \
 		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
+		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' |grep -v 'character_set_client' >$$table.sql;\
 		case "$(ELEMENTS)" in \
 			*"$$table"*) mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init ;; \
 			*) rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'" ;; \
@@ -93,6 +91,11 @@ cache::
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 	rm -f cache*.init
+	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
+	do \
+	    table=`basename $$table .sql`; \
+	    mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
+	done'
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 
 

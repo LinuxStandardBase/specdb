@@ -12,7 +12,7 @@ using these files:
 
 make restore
 	This will create a new database copy using the environment
-	variables LSBUSER, LSBDBPASSWORD, LSBDBHOST and LSBDB.
+	variables LSBUSER, LSBDBPASSWD, LSBDBHOST and LSBDB.
 	*** NEVER use "make restore" on the central database
 	(base1.freestandards.org) unless that database has been hoplessly
 	lost!  "make restore" is ONLY intended for users requiring to
@@ -37,10 +37,10 @@ How to update the database:
 		This will get you a copy that is perfect ONLY if 
 		everyone is playing by the rules!
 	b. set LSBDBHOST to "base1.freestandards.org", and LSBUSER/
-	   LSBDBPASSWORD to appropriate values for that database.
+	   LSBDBPASSWD to appropriate values for that database.
 	   Then run make dump.
 	   Then reset LSBDBHOST to localhost (i.e. your system), 
-	   LSBUSER/LSBDBPASSWORD to appropriate values, and finally:
+	   LSBUSER/LSBDBPASSWD to appropriate values, and finally:
 	   run make restore.
 3. Test your change. If the change is direct SQL, write a script file
    with your change in it. Test it. Make restore and test it again. 
@@ -54,7 +54,7 @@ How to update the database:
 5. Once the change has been applied to the central database, login to
    base1.freestandards.org.
 6. On base1, get an up to date copy of the CVS files in this directory.
-7. On base1, set LSBDBHOST=localhost. Set LSBUSER/LSBDBPASSWORD appropriately.
+7. On base1, set LSBDBHOST=localhost. Set LSBUSER/LSBDBPASSWD appropriately.
    Set LSBDB=lsb.
 8. make dump
 9. cvs commit .

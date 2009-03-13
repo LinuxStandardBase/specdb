@@ -34,14 +34,10 @@ BEGIN
 		LEFT JOIN IntStd ON ISiid=Iid
 		LEFT JOIN LGInt ON LGIint=Iid 
 		LEFT JOIN LibGroup ON LGIlibg=LGid
-		WHERE AIappearedin <> '' AND AIappearedin <= '", version, "' AND AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "'
+		WHERE AIappearedin <> '' AND AIappearedin <= '", version, "' AND (AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "')
 		AND ( ISsid IS NULL OR (ISappearedin <> '' AND ISappearedin <= '", version, "' AND ISwithdrawnin IS NULL OR ISwithdrawnin > '", version, "') )");
 	    PREPARE stmt FROM @stmt_text;
     	    EXECUTE stmt;
-	    
---	    SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_name );
---	    PREPARE stmt FROM @stmt_text;
---	    EXECUTE stmt;
 	    
 	    SET @table_correspondance_name = CONCAT( @table_name, "_correspondance" );
             SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
@@ -56,10 +52,6 @@ BEGIN
 	    PREPARE stmt FROM @stmt_text;
 	    EXECUTE stmt;
 
---            SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_correspondance_name );
---	    PREPARE stmt FROM @stmt_text;
---	    EXECUTE stmt;
-				                
 	    OPEN arch_cur;
 	    REPEAT
 		FETCH arch_cur INTO arch;
@@ -76,10 +68,6 @@ BEGIN
 		PREPARE stmt FROM @stmt_text;
 		EXECUTE stmt;
 
---                SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_arch_name );
---	        PREPARE stmt FROM @stmt_text;
---		EXECUTE stmt;
-				    		
 		SET @table_correspondance_name = CONCAT( @table_arch_name, "_correspondance" );
 	        SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
                 PREPARE stmt FROM @stmt_text;
@@ -93,9 +81,6 @@ BEGIN
 		PREPARE stmt FROM @stmt_text;
 		EXECUTE stmt;
 		
---                SET @stmt_text = CONCAT( "OPTIMIZE TABLE ", @table_correspondance_name );
---	        PREPARE stmt FROM @stmt_text;
---		EXECUTE stmt;		
 	    UNTIL done END REPEAT;
 	    SET done = 0;
 	    CLOSE arch_cur;
@@ -131,6 +116,39 @@ BEGIN
     UNTIL done END REPEAT;
     
     CLOSE records_cur;
+END
+//
+
+-- Procedure used in consistency check
+DROP PROCEDURE IF EXISTS count_libs_presence //
+
+CREATE PROCEDURE count_libs_presence ()
+BEGIN
+    DECLARE libname varchar(750);
+    DECLARE alname varchar(750);
+    DECLARE done INT DEFAULT 0;
+    DECLARE cur_1 cursor for SELECT ALsoname, CONCAT(ALsoname,'%') FROM ApprovedLibrary;
+    DECLARE continue handler for sqlstate '02000' set done = 1;
+
+    OPEN cur_1;
+
+    REPEAT
+    fetch cur_1 into alname, libname;
+        IF NOT done THEN
+        SET @stmt_text = CONCAT("INSERT INTO tmp_Result
+            SELECT ALsoname, ALlibname, count(distinct Cdistr) AS distr_cnt FROM ApprovedLibrary, RawLibrary
+            LEFT JOIN Component ON Cid=RLcomponent
+            WHERE ALsoname='", alname ,"'
+            AND RLsoname LIKE '", libname, "'
+            GROUP BY ALsoname ORDER BY distr_cnt DESC, ALlibname, ALsoname" );
+        PREPARE stmt FROM @stmt_text;
+        EXECUTE stmt;
+    END IF;
+
+    until done end REPEAT;
+
+    close cur_1;
+
 END
 //
 

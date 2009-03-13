@@ -1424,3 +1424,11 @@ INSERT INTO `HeaderGroup` VALUES (1495,'Default Header Section for X11/Xosdefs.h
 INSERT INTO `HeaderGroup` VALUES (1496,'Default Header Section for netinet/ip6.h',998,0,'');
 INSERT INTO `HeaderGroup` VALUES (1497,'_OldXSizeHints structure',994,-1,'');
 INSERT INTO `HeaderGroup` VALUES (1498,'epoll_data structure',903,1,'');
+INSERT INTO `HeaderGroup` VALUES (1499,'RectObjPart',999,1,'RectObjPart');
+INSERT INTO `HeaderGroup` VALUES (1500,'RectObjRec',999,2,'RectObjRec');
+INSERT INTO `HeaderGroup` VALUES (1501,'RectObjClassPart',999,3,'RectObjClassPart');
+INSERT INTO `HeaderGroup` VALUES (1502,'RectObjClassRec',999,4,'RectObjClassRec');
+INSERT INTO `HeaderGroup` VALUES (1504,'XtStringProc',94,1,'');
+INSERT INTO `HeaderGroup` VALUES (1505,'Default Header Section for X11/extensions/XKBstr.h',1000,0,'');
+INSERT INTO `HeaderGroup` VALUES (1506,'Default Header Section for X11/extensions/XKB.h',1001,0,'');
+INSERT INTO `HeaderGroup` VALUES (1507,'Default Header Section for X11/extensions/XKBbells.h',1002,0,'');

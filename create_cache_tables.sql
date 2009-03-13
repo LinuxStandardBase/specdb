@@ -1,17 +1,40 @@
--- Temporary table used to create the next one
+-- First, create three temporary tables which used to create cache_IntCorrespondance 
+--   They will be dropped if everything goes well
+-- Soname <-> libname correspondance
+DROP TABLE IF EXISTS `cache_SonameRLname`;
+CREATE TABLE `cache_SonameRLname`
+    (KEY `k_RLSid`(`RLSid`))
+    SELECT DISTINCT RLSid,RLname FROM RawLibSoname, RawLibrary
+    WHERE RLsoname=RLSsoname;
+
+-- Table with list of dependancy names for every library
+DROP TABLE IF EXISTS `cache_RLibDepsNames`;
+CREATE TABLE `cache_RLibDepsNames`
+    (KEY `k_RLname`(`RLname`))
+    SELECT DISTINCT RawLibrary.RLname, cache_SonameRLname.RLname AS RLdepname FROM RawLibrary 
+    LEFT JOIN RLibDeps ON RLDrlid=RLid
+    LEFT JOIN cache_SonameRLname ON RLDrlsid=RLSid;
+
+-- Table with RInt<->Int correspondance by name only (libraries are not taken into account)
 DROP TABLE IF EXISTS `cache_IntRoughCorrespondance`;
 CREATE TABLE `cache_IntRoughCorrespondance` 
-    SELECT Iid, RIid, Ilibrary, RIlibrary FROM Interface LEFT JOIN RawInterface ON Iname=RIname;
+    (KEY `k_Ilibrary`(`Ilibrary`,`RIlibrary`))
+    SELECT Iid, RIid, Ilibrary, RIlibrary FROM Interface
+    LEFT JOIN RawInterface ON Iname=RIname;
 DELETE FROM cache_IntRoughCorrespondance WHERE RIid IS NULL;
 
--- Correspondance between RawInterface and Interface tables    
+-- Correspondance between RawInterface and Interface tables
 DROP TABLE IF EXISTS `cache_IntCorrespondance`;
 CREATE TABLE `cache_IntCorrespondance`
     (PRIMARY KEY `Iid` (`Iid`,`RIid`), KEY `RIid` (`RIid`), KEY `Ilibrary` (`Ilibrary`) )
-    SELECT Iid, RIid, Ilibrary FROM cache_IntRoughCorrespondance
-    WHERE RIlibrary=Ilibrary;
+    SELECT DISTINCT  Iid, RIid, Ilibrary FROM cache_IntRoughCorrespondance
+    LEFT JOIN cache_RLibDepsNames ON Ilibrary=RLname
+    WHERE RIlibrary=Ilibrary
+    OR cache_RLibDepsNames.RLdepname=RIlibrary;
 
 DROP TABLE cache_IntRoughCorrespondance;
+DROP TABLE cache_SonameRLname;
+DROP TABLE cache_RLibDepsNames;
 
 -- Temporary table used to create the next one
 DROP TABLE IF EXISTS `cache_AppRoughLibs`;
@@ -19,7 +42,7 @@ CREATE TABLE `cache_AppRoughLibs`
     (KEY `Aid` (`Aid`))
     SELECT DISTINCT AppRInt.ARIaid AS Aid, RIlibrary FROM AppRInt
     LEFT JOIN RawInterface ON RIid=ARIriid
-    WHERE RIlibrary<>'';
+    WHERE RIlibrary>'';
 
 -- Libraries whose interfaces are actually used by applications
 DROP TABLE IF EXISTS `cache_AppLibUsage`;
@@ -86,14 +109,14 @@ FROM Interface
 LEFT JOIN LGInt ON LGIint=Iid
 LEFT JOIN LibGroup ON LGid=LGIlibg
 LEFT JOIN Library ON Lid=LGlib
-LEFT JOIN ModLib ON LGlib=MLlid
-LEFT JOIN SubModule ON SMid=MLmid
+LEFT JOIN SModLib ON LGlib=SMLlid
+LEFT JOIN SubModule ON SMid=SMLsmid
 LEFT JOIN ArchInt ON AIint=Iid
 LEFT JOIN Version ON Vid=AIversion 
 WHERE AIappearedin > ''
 GROUP BY Iid,AIarch,Vid;
 
-ALTER TABLE cache_IntStatus ADD `ISstatus` enum('Included','Withdrawn','Deprecated','Optional') NOT NULL DEFAULT 'Included';
+ALTER TABLE cache_IntStatus ADD `ISstatus` enum('Included','Deprecated','Optional','Withdrawn') NOT NULL DEFAULT 'Included';
 ALTER TABLE cache_IntStatus ADD `ISstatustext` VARCHAR(255) NOT NULL DEFAULT '';
 
 -- For symbols which were included, then withdrawn and then included again
@@ -125,6 +148,7 @@ ALTER TABLE cache_IntStatus ADD KEY `k_ArchStatus`(`AIarch`,`ISstatus`);
 
 -- Some included interfaces can have generic and 7 arch-specific records
 -- (due to symbol versions); let's remove the generic one for such cases
+-- from the cache_IntStatus, but save them in the cache_ExtraGenericRecords
 -- (the case when the number of arch-specific records ge 1 but lesser than 7 
 -- shouldbe considered as db inconsistency)
 CREATE TEMPORARY TABLE tmp_ArchSpecificInts
@@ -132,14 +156,15 @@ CREATE TEMPORARY TABLE tmp_ArchSpecificInts
 SELECT Iid FROM cache_IntStatus 
 WHERE AIarch>1 AND ISstatus <>'Withdrawn';
 
-CREATE TEMPORARY TABLE tmp_ExtraGenericRecords
+DROP TABLE IF EXISTS cache_ExtraGenericRecords;
+CREATE TABLE cache_ExtraGenericRecords
 (KEY `k_Iid`(`Iid`))
-SELECT Iid FROM cache_IntStatus 
+SELECT Iid, Iname, Ilibrary, AIversion, ISstatus, ISstatustext FROM cache_IntStatus 
 JOIN tmp_ArchSpecificInts USING(Iid)
 WHERE AIarch=1 AND ISstatus <>'Withdrawn';
 
 DELETE FROM cache_IntStatus WHERE Iid IN (
-  SELECT Iid FROM tmp_ExtraGenericRecords
+  SELECT Iid FROM cache_ExtraGenericRecords
 ) AND AIarch=1 AND ISstatus <> 'Withdrawn';
 
 CREATE TEMPORARY TABLE tmp_ExtraWithdrawnGenericRecords
@@ -163,4 +188,4 @@ ALTER TABLE cache_IntStatus DROP SMdeprecatedsince;
 ALTER TABLE cache_IntStatus DROP SMmandatorysince;
 ALTER TABLE cache_IntStatus DROP Iid;
 
---- // Finished with cache_IntStatus
+-- // Finished with cache_IntStatus

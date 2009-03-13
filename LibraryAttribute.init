@@ -3,5 +3,10 @@ INSERT INTO `LibraryAttribute` VALUES (2,'libgtkmm-1.2.so.0','libgtkmm','Rejecti
 INSERT INTO `LibraryAttribute` VALUES (3,'libgdk-1.2.so.0','libgdk','Rejection','GTK 1.2 is old and not supported. Use GTK 2 instead.');
 INSERT INTO `LibraryAttribute` VALUES (4,'libgdkmm-1.2.so.0','libgdkmm','Rejection','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
 INSERT INTO `LibraryAttribute` VALUES (5,'libglib-1.2.so.0','libglib','Rejection','GTK 1.2 is old and not supported. Use GTK 2 instead.');
-INSERT INTO `LibraryAttribute` VALUES (6,'libstdc++.so.5','libstdcxx','Rejection','Use libstdc++.so.6 instead.');
+INSERT INTO `LibraryAttribute` VALUES (6,'libmp3lame.so.0','libmp3lame','Recommendation','mp3 libraries are not provided by default installations of most distributions due to licensing issues. Alternatives such as Ogg Vorbis are provided instead.');
 INSERT INTO `LibraryAttribute` VALUES (7,'libtermcap.so.2','libtermcap','Rejection','libtermcap is obsolete. Use ncurses instead.');
+INSERT INTO `LibraryAttribute` VALUES (8,'libfltk_gl.so.1.1','libfltk_gl','Recommendation','FLTK was designed to be statically linked, and its license allows to distribute a closed-source program statically linked with FLTK provided that FLTK itself is not modified.');
+INSERT INTO `LibraryAttribute` VALUES (9,'libfltk_images.so.1.1','libfltk_images','Recommendation','FLTK was designed to be statically linked, and its license allows to distribute a closed-source program statically linked with FLTK provided that FLTK itself is not modified.');
+INSERT INTO `LibraryAttribute` VALUES (10,'libfltk.so.1.1','libfltk','Recommendation','FLTK was designed to be statically linked, and its license allows to distribute a closed-source program statically linked with FLTK provided that FLTK itself is not modified.');
+INSERT INTO `LibraryAttribute` VALUES (11,'libfltk_forms.so.1.1','libfltk_forms','Recommendation','FLTK was designed to be statically linked, and its license allows to distribute a closed-source program statically linked with FLTK provided that FLTK itself is not modified.');
+INSERT INTO `LibraryAttribute` VALUES (12,'libcurses.so.1.0.0','libcurses','Recommendation','Note that many Linux distributions provide libcurses as a linker script which pulls in libncurses.');

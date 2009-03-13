@@ -624,7 +624,7 @@ INSERT INTO `InterfaceAttribute` VALUES (1124,'swapcontext','libc','Recommendati
 INSERT INTO `InterfaceAttribute` VALUES (1125,'index','libc','Recommendation','no longer in POSIX, consider using strchr');
 INSERT INTO `InterfaceAttribute` VALUES (1126,'mktemp','libc','Recommendation','no longer in POSIX, consider using mkstemp');
 INSERT INTO `InterfaceAttribute` VALUES (1127,'rindex','libc','Recommendation','no longer in POSIX, consider using strrchr');
-INSERT INTO `InterfaceAttribute` VALUES (1128,'scalb','libc','Recommendation','no longer in POSIX, consider using scalbln, sclablnf or scalblnl');
+INSERT INTO `InterfaceAttribute` VALUES (1128,'scalb','libm','Recommendation','no longer in POSIX, consider using scalbln, sclablnf or scalblnl');
 INSERT INTO `InterfaceAttribute` VALUES (1129,'usleep','libc','Recommendation','no longer in POSIX, consider using nanosleep');
 INSERT INTO `InterfaceAttribute` VALUES (1130,'vfork','libc','Recommendation','no longer in POSIX, consider using fork');
 INSERT INTO `InterfaceAttribute` VALUES (1131,'wcswcs','libc','Recommendation','no longer in POSIX, consider using wcsstr');
@@ -1199,3 +1199,18 @@ INSERT INTO `InterfaceAttribute` VALUES (1725,'malloc_usable_size','libc','Rejec
 INSERT INTO `InterfaceAttribute` VALUES (1726,'reboot','libc','Rejection','User-level application normally may not have enough privileges to reboot the system.');
 INSERT INTO `InterfaceAttribute` VALUES (1727,'swapon','libc','Rejection','User-level application normally may not have enough privileges to manipulate the swap.');
 INSERT INTO `InterfaceAttribute` VALUES (1728,'swapoff','libc','Rejection','User-level application normally may not have enough privileges to manipulate the swap.');
+INSERT INTO `InterfaceAttribute` VALUES (1729,'__malloc_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1730,'__after_morecore_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1731,'__free_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1732,'__malloc_initialize_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1733,'__memalign_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1734,'__realloc_hook','libc','Rejection','malloc hooks cannot work reliably. They are obsolete and can even not working completely in modern systems.');
+INSERT INTO `InterfaceAttribute` VALUES (1735,'gtk_toolbar_get_tooltips','libgtk-x11-2.0','Recommendation','gtk_toolbar_get_tooltips is deprecated in modern GTK and should not be used in newly-written code. The toolkit-wide \"gtk-enable-tooltips\" property is now used instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1736,'gtk_toolbar_set_tooltips','libgtk-x11-2.0','Recommendation','gtk_toolbar_set_tooltips is deprecated in modern GTK and should not be used in newly-written code. The toolkit-wide \"gtk-enable-tooltips\" property is now used instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1737,'pthread_atfork','libc','Rejection','pthread_atfork should be resolved at link-edit time against libpthread_nonshared.a. It is fine appearing in source code, but should not appear in an executable binary as a symbol to be resolved by dynamic linking. libpthread.so provides this symbol only for backwards compatibility reasons.');
+INSERT INTO `InterfaceAttribute` VALUES (1738,'__pthread_atfork','libc','Rejection','__pthread_atfork should be resolved at link-edit time against libpthread_nonshared.a. It should not appear in an executable binary as a symbol to be resolved by dynamic linking. libpthread.so provides this symbol only for backwards compatibility reasons.');
+INSERT INTO `InterfaceAttribute` VALUES (1739,'pthread_kill_other_threads_np','libc','Rejection','This non-portable LinuxThreads extension is a stub in the current NPTL implementation.');
+INSERT INTO `InterfaceAttribute` VALUES (1740,'mknod','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __xmknod at compilation time.');
+INSERT INTO `InterfaceAttribute` VALUES (1741,'stat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __xstat at compilation time.');
+INSERT INTO `InterfaceAttribute` VALUES (1742,'fstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __lxstat at compilation time.');
+INSERT INTO `InterfaceAttribute` VALUES (1743,'lstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __fxstat at compilation time.');

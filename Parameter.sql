@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.11
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,6 +19,8 @@
 --
 
 DROP TABLE IF EXISTS `Parameter`;
+SET @saved_cs_client     = @@character_set_client;
+SET character_set_client = utf8;
 CREATE TABLE `Parameter` (
   `Pint` int(10) unsigned NOT NULL default '0',
   `Ppos` int(11) NOT NULL default '0',
@@ -27,11 +29,13 @@ CREATE TABLE `Parameter` (
   `Pvalue` varchar(255) default NULL,
   `Pttid` int(10) unsigned NOT NULL default '0',
   `Pnull` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
+  `Pname` varchar(255) default NULL,
   PRIMARY KEY  (`Pint`,`Ppos`),
   KEY `k_Ppos` (`Ppos`),
   KEY `k_Ptype` (`Ptype`),
   KEY `k_Pnull` (`Pnull`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+SET character_set_client = @saved_cs_client;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,3 +46,4 @@ CREATE TABLE `Parameter` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2009-03-13  8:09:30

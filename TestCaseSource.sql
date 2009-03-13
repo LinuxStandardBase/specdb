@@ -26,8 +26,9 @@ CREATE TABLE `TestCaseSource` (
   `TCSsourcename` varchar(255) NOT NULL default '',
   `TCScomment` varchar(255) default NULL,
   PRIMARY KEY  (`TCSid`),
-  KEY `k_TSItest` (`TCStsid`)
-) ENGINE=MyISAM AUTO_INCREMENT=17202 DEFAULT CHARSET=latin1;
+  KEY `k_TSItest` (`TCStsid`),
+  KEY `k_TCStestcasename` (`TCStestcasename`,`TCStsid`)
+) ENGINE=MyISAM AUTO_INCREMENT=61796 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -38,4 +39,4 @@ CREATE TABLE `TestCaseSource` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-06-23  5:46:26
+-- Dump completed on 2009-03-12 14:13:09

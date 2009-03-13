@@ -6,16 +6,36 @@
 22	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	3.1.1-4	3.1	3.2
 23	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.1.1-6	3.1	3.2
 24	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.1.1-6	3.1	3.2
-26	Desktop-t2c	Desktop-t2c	Linux Foundation	Yes	Desktop Tests	0.1	3.2	\N
-27	Desktop-Freetype	Desktop-Freetype	Linux Foundation	Yes	Desktop Tests	1.0	3.2	\N
-28	Desktop_GtkVts	Desktop Gtk	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-29	Printing	Printing	Linux Foundation	Yes	Desktop Tests	3.2.0-1	3.2	\N
-30	Libstdcpp	libstdcpp	Linux Foundation	Yes	LibStdC++ Test	3.4.3.7	3.2	\N
-31	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	3.2.0-2	3.2	\N
-32	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5.7	3.2	\N
-33	Desktop_Xrenderer	Desktop Xrenderer	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-34	Desktop_Xft	Desktop Xft	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-35	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-36	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-37	Desktop_XML2	Desktop_XML2	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
-38	Desktop_libpng	Desktop libpng	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	\N
+26	Desktop-t2c	Desktop-t2c	Linux Foundation	Yes	Desktop Tests	0.1	3.2	4.0
+27	Desktop-Freetype	Desktop-Freetype	Linux Foundation	Yes	Desktop Tests	1.0	3.2	4.0
+28	Desktop_GtkVts	Desktop Gtk	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+29	Printing	Printing	Linux Foundation	Yes	Desktop Tests	3.2.0-1	3.2	4.0
+30	Libstdcpp	libstdcpp	Linux Foundation	Yes	LibStdC++ Test	3.4.3.7	3.2	4.0
+31	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	3.2.0-2	3.2	4.0
+32	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5.7	3.2	4.0
+33	Desktop_Xrenderer	Desktop Xrenderer	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+34	Desktop_Xft	Desktop Xft	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+35	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+36	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+37	Desktop_XML2	Desktop_XML2	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+38	Desktop_libpng	Desktop libpng	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+39	Desktop-t2c	Desktop-t2c	Linux Foundation	Yes	Desktop Tests	4.0	4.0	\N
+40	cpp-t2c	cpp-t2c	Linux Foundation	Yes	Desktop Tests	4.0	4.0	\N
+41	Qt3-azov	Qt3-azov	Linux Foundation	Yes	Desktop Tests	4.0	4.0	\N
+42	Qt4-azov	Qt4-azov	Linux Foundation	Yes	Desktop Tests	4.0	4.0	\N
+43	Printing	Printing	Linux Foundation	Yes	Desktop Tests	4.0.0-1	4.0	\N
+44	Desktop-Fontconfig	Desktop-Fontconfig	Linux Foundation	Yes	Desktop Tests	4.0.0-1	4.0	\N
+45	Desktop-Fontconfig	Desktop-Fontconfig	Linux Foundation	Yes	Desktop Tests	3.2.0-2	3.2	4.0
+46	Libstdcpp	libstdcpp	Linux Foundation	Yes	LibStdC++ Test	4.1.0-3	4.0	\N
+47	OLVER	Open Linux VERification	Linux Foundation	Yes	OLVER	4.0.0-3	4.0	\N
+48	Desktop_Qt3	Desktop_Qt3	Linux Foundation	Yes	Desktop Tests	4.0.0-1	4.0	\N
+49	RuntimeTests	Runtime Tests	Linux Foundation	Yes	Core Test	4.0.3-1	4.0	\N
+51	Desktop_libpng	Desktop libpng	Linux Foundation	Yes	Desktop Tests	4.0.3	4.0	\N
+52	Desktop_XML2	Desktop_XML2	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+53	Desktop_Xft	Desktop Xft	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+54	Desktop_Xrenderer	Desktop Xrenderer	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+55	Desktop_Freetype	Desktop Freetype	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+56	Desktop_Qt	Desktop_Qt	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+57	Desktop_GtkVts	Desktop Gtk	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
+58	Xts5	Xts5	Linux Foundation	Yes	X11 Test (Xts5)	5.1.5-16	4.0	\N
+59	Desktop_Cairo	Desktop Cairo	Linux Foundation	Yes	Desktop Tests	4.0.0	4.0	\N
