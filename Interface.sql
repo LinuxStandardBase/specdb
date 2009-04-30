@@ -39,6 +39,7 @@ CREATE TABLE `Interface` (
   `Iclass` int(10) unsigned NOT NULL default '0',
   `Ishortname` varchar(255) character set latin1 collate latin1_bin default NULL,
   `Itestable` enum('Yes','No','Unknown') NOT NULL default 'Yes',
+  `Ithrow` enum('Yes','No') NOT NULL default 'No',
   PRIMARY KEY  (`Iid`),
   UNIQUE KEY `k_Iname` (`Iname`,`Ilibrary`),
   KEY `Itype` (`Itype`),
