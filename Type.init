@@ -21222,3 +21222,4 @@ INSERT INTO `Type` VALUES (39530,'const unsigned int[1024]','Array',0,'','Unknow
 INSERT INTO `Type` VALUES (39531,'char[1289]','Array',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39532,'const xmlChar[8]','Array',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39533,'const const xmlChar[8]','Const',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39534,'XtEventRec','Typedef',1379,'','Unknown','Unknown','Unknown',NULL,0,0,'libXt',0);
