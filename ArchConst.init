@@ -7251,7 +7251,7 @@ INSERT INTO `ArchConst` VALUES (1,8261,' \\\n	(gtk_ui_manager_item_type_get_type
 INSERT INTO `ArchConst` VALUES (1,8262,'(gtk_widget_flags_get_type())','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,8263,'(gtk_widget_help_type_get_type())','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,8264,'(gtk_identifier_get_type ())','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,8265,'((GCallback) (f))','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,8265,'G_CALLBACK(f)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,8266,'','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,8267,'extern','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,8268,'(gtk_object_get_type ())','3.1',NULL,0);
