@@ -1440,3 +1440,7 @@ INSERT INTO `HeaderGroup` VALUES (1512,'Default Header Section for X11/keysymdef
 INSERT INTO `HeaderGroup` VALUES (1513,'Default Header Section for X11/keysym.h',1008,0,'');
 INSERT INTO `HeaderGroup` VALUES (1514,'Default Header Section for X11/extensions/securstr.h',1009,0,'');
 INSERT INTO `HeaderGroup` VALUES (1515,'Default Header Section for X11/extensions/syncstr.h',1010,0,'');
+INSERT INTO `HeaderGroup` VALUES (1516,'Default Header Section for netinet/icmp6.h',1011,0,'');
+INSERT INTO `HeaderGroup` VALUES (1517,'Default Header Section for netinet/igmp.h',1012,0,'');
+INSERT INTO `HeaderGroup` VALUES (1518,'Default Header Section for netinet/in_systm.h',1013,0,'');
+INSERT INTO `HeaderGroup` VALUES (1519,'Default Header Section for netinet/ip_icmp.h',1014,0,'');

@@ -981,3 +981,7 @@ INSERT INTO `Header` VALUES (1007,'X11/keysymdef.h',10,'Unknown',NULL,'4.0',NULL
 INSERT INTO `Header` VALUES (1008,'X11/keysym.h',10,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (1009,'X11/extensions/securstr.h',10,'Unknown',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (1010,'X11/extensions/syncstr.h',18,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (1011,'netinet/icmp6.h',131,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (1012,'netinet/igmp.h',131,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (1013,'netinet/in_systm.h',131,'Unknown',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (1014,'netinet/ip_icmp.h',131,'Unknown',NULL,'4.0',NULL);
