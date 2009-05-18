@@ -40,20 +40,23 @@ DROP TABLE cache_RLibDepsNames;
 DROP TABLE IF EXISTS `cache_AppRoughLibs`;
 CREATE TABLE `cache_AppRoughLibs`
     (KEY `Aid` (`Aid`))
-    SELECT DISTINCT AppRInt.ARIaid AS Aid, RIlibrary FROM AppRInt
+    SELECT AppRInt.ARIaid AS Aid, RIlibrary, COUNT(ARIriid) AS int_cnt FROM AppRInt
     LEFT JOIN RawInterface ON RIid=ARIriid
-    WHERE RIlibrary>'';
+    WHERE RIlibrary > ''
+    GROUP BY Aid, RIlibrary;
 
 -- Libraries whose interfaces are actually used by applications
 DROP TABLE IF EXISTS `cache_AppLibUsage`;
 CREATE TABLE `cache_AppLibUsage`
     (PRIMARY KEY `Aid` (`Aid`,`ALrunname`,`RLname`), KEY `ALrunname` (`ALrunname`), KEY `RLname` (`RLname`), KEY `Aarch`(`Aarch`) )
-    SELECT DISTINCT Application.Aid, ALrunname, RLname, Aarch FROM cache_AppRoughLibs
+    SELECT DISTINCT Application.Aid, ALrunname, RLname, Aarch, int_cnt FROM cache_AppRoughLibs
     LEFT JOIN Application ON Application.Aid = cache_AppRoughLibs.Aid
     JOIN AppLib ON ALaid=Application.Aid
     JOIN RawLibrary ON RLname=RIlibrary AND (RLsoname=ALrunname OR RLrunname=ALrunname);
     
 DROP TABLE cache_AppRoughLibs;
+-- By default, this will be 'big int'; we don't need such a large range
+ALTER TABLE cache_AppLibUsage CHANGE int_cnt int_cnt int(10) unsigned NOT NULL default 0;
 
 ALTER TABLE cache_RLibRIntMapping ADD RLibRIntId int(10) unsigned NOT NULL auto_increment, ADD KEY `RLibRIntId`(`RLibRIntId`);
 
@@ -69,7 +72,7 @@ SELECT Aname, Aversion, Aarch, ARIaid, RawInterface.RIid, RawInterface.RIlibrary
     LEFT JOIN cache_RLibRIntMapping ON cache_RLibRIntMapping.RIname=RawInterface.RIname AND cache_RLibRIntMapping.RIlibrary=RawInterface.RIlibrary
     LEFT JOIN Application ON Aid=ARIaid;
 
--- Two temporary tables to create the third one with distributions content
+-- Three temporary tables to create the fourth one with distributions content
 CREATE TEMPORARY TABLE `tmp_DistrCmds`
     (KEY `Did`(`Did`))
     SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM Component
@@ -83,12 +86,17 @@ CREATE TEMPORARY TABLE `tmp_DistrClasses`
     LEFT JOIN RLibRClass ON RLRCrlid=RLid
     GROUP BY Cdistr;
 
+CREATE TEMPORARY TABLE `tmp_RLibContent`
+    (KEY `RLid`(`RLid`))
+    SELECT RLRIrlid AS RLid, COUNT(RLRIriid) AS int_cnt FROM RLibRInt 
+    GROUP BY RLRIrlid;
+
 DROP TABLE IF EXISTS `cache_DistrContent`;
 CREATE TABLE `cache_DistrContent`
     (PRIMARY KEY `Did` (`Did`) )
-    SELECT Cdistr AS Did, COUNT(distinct Cid) AS comp_cnt, COUNT(distinct RLid) AS lib_cnt, COUNT(distinct RLRIriid) AS int_cnt, cmd_cnt, class_cnt FROM Component
+    SELECT Cdistr AS Did, COUNT(distinct Cid) AS comp_cnt, COUNT(distinct RLid) AS lib_cnt, SUM(int_cnt) AS int_cnt, cmd_cnt, class_cnt FROM Component
     LEFT JOIN RawLibrary ON RLcomponent=Cid
-    LEFT JOIN RLibRInt ON RLRIrlid=RLid
+    LEFT JOIN tmp_RLibContent USING(RLid)
     LEFT JOIN tmp_DistrCmds ON Cdistr=Did
     LEFT JOIN tmp_DistrClasses USING(Did)
     GROUP BY Cdistr;
