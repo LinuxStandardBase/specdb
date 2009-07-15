@@ -25,14 +25,16 @@ CREATE TABLE `Component` (
   `Cpackages` text,
   `Cversion` varchar(255) NOT NULL default '',
   `Ccomment` varchar(255) default NULL,
-  `Carch` int(10) unsigned default '0',
+  `Carch` int(2) unsigned default '0',
   `Cdistr` int(10) unsigned NOT NULL default '0',
   `Ccompany` varchar(255) NOT NULL default '',
+  `Calias` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`Cid`),
   UNIQUE KEY `k_Cname` (`Cname`,`Cversion`,`Cdistr`,`Carch`),
   KEY `k_Cdistr` (`Cdistr`),
-  KEY `k_Carch` (`Carch`)
-) ENGINE=MyISAM AUTO_INCREMENT=12343 DEFAULT CHARSET=latin1;
+  KEY `k_Carch` (`Carch`),
+  KEY `k_Calias` (`Calias`)
+) ENGINE=MyISAM AUTO_INCREMENT=119483 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -43,4 +45,4 @@ CREATE TABLE `Component` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:32:00
+-- Dump completed on 2009-07-14  9:30:18

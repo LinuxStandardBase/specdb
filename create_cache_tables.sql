@@ -78,7 +78,7 @@ CREATE TEMPORARY TABLE `tmp_DistrCmds`
     SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM Component
     LEFT JOIN RawCommand ON RCcomponent=Cid
     GROUP BY Cdistr;
-    
+
 CREATE TEMPORARY TABLE `tmp_DistrClasses`
     (KEY `Did`(`Did`))
     SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM Component
@@ -88,7 +88,7 @@ CREATE TEMPORARY TABLE `tmp_DistrClasses`
 
 CREATE TEMPORARY TABLE `tmp_RLibContent`
     (KEY `RLid`(`RLid`))
-    SELECT RLRIrlid AS RLid, COUNT(RLRIriid) AS int_cnt FROM RLibRInt 
+    SELECT RLRIrlid AS RLid, COUNT(RLRIriid) AS int_cnt FROM RLibRInt
     GROUP BY RLRIrlid;
 
 DROP TABLE IF EXISTS `cache_DistrContent`;
@@ -100,7 +100,6 @@ CREATE TABLE `cache_DistrContent`
     LEFT JOIN tmp_DistrCmds ON Cdistr=Did
     LEFT JOIN tmp_DistrClasses USING(Did)
     GROUP BY Cdistr;
-
 
 -- // Start cache_IntStatus
 

@@ -130,6 +130,13 @@ BEGIN
     DECLARE cur_1 cursor for SELECT ALsoname, CONCAT(ALsoname,'%') FROM ApprovedLibrary;
     DECLARE continue handler for sqlstate '02000' set done = 1;
 
+    SET @stmt_text = "CREATE TEMPORARY TABLE IF NOT EXISTS tmp_Component
+                        (KEY `Cid` (`Cid`))
+                        SELECT IFNULL(C2.Cid,C1.Cid) AS Cid, C1.Cdistr AS Cdistr FROM Component C1
+                        LEFT JOIN Component C2 ON C1.Calias=C2.Cid";
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
+
     OPEN cur_1;
 
     REPEAT
@@ -137,7 +144,7 @@ BEGIN
         IF NOT done THEN
         SET @stmt_text = CONCAT("INSERT INTO tmp_Result
             SELECT ALsoname, ALlibname, count(distinct Cdistr) AS distr_cnt FROM ApprovedLibrary, RawLibrary
-            LEFT JOIN Component ON Cid=RLcomponent
+            LEFT JOIN tmp_Component ON Cid=RLcomponent
             WHERE ALsoname='", alname ,"'
             AND RLsoname LIKE '", libname, "'
             GROUP BY ALsoname ORDER BY distr_cnt DESC, ALlibname, ALsoname" );
