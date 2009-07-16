@@ -23,16 +23,15 @@ CREATE TABLE `RawInterface` (
   `RIid` int(10) unsigned NOT NULL auto_increment,
   `RIname` varchar(750) character set latin1 collate latin1_bin NOT NULL default '',
   `RIunmangled` text,
-  `RIversion` varchar(40) character set latin1 collate latin1_bin NOT NULL default '',
+  `RIversion` varchar(50) character set latin1 collate latin1_bin NOT NULL default '',
   `RIlibrary` varchar(200) character set latin1 collate latin1_bin NOT NULL default '',
-  `RIcomment` varchar(255) default NULL,
   `RIrcid` int(10) unsigned NOT NULL default '0',
   PRIMARY KEY  (`RIid`),
-  UNIQUE KEY `k_RIname` (`RIname`,`RIlibrary`,`RIversion`,`RIrcid`),
-  KEY `k_Class` (`RIrcid`),
+  UNIQUE KEY `k_RIname` (`RIname`,`RIlibrary`,`RIversion`),
+  KEY `k_Class` (`RIrcid`,`RIname`),
   KEY `k_Library` (`RIlibrary`),
   KEY `k_RIunmangled` (`RIunmangled`(1000))
-) ENGINE=MyISAM AUTO_INCREMENT=2410325 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4046131 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -43,4 +42,4 @@ CREATE TABLE `RawInterface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:33:21
+-- Dump completed on 2009-07-14  9:36:48

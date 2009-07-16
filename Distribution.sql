@@ -24,14 +24,15 @@ CREATE TABLE `Distribution` (
   `Dname` varchar(255) character set latin1 collate latin1_bin NOT NULL,
   `Dversion` varchar(255) NOT NULL default '',
   `Dcomment` varchar(255) default NULL,
-  `Darch` int(10) unsigned NOT NULL default '0',
-  `Dcompany` varchar(255) NOT NULL default '',
+  `Darch` int(2) unsigned NOT NULL default '0',
+  `Dcompany` int(10) unsigned NOT NULL default '0',
   `Durl` varchar(255) default NULL,
   `Dreleasedate` date NOT NULL,
+  `Dbasereleasedate` date NOT NULL,
   PRIMARY KEY  (`Did`),
   UNIQUE KEY `k_Dname` (`Dname`,`Dversion`,`Darch`),
   KEY `k_Darch` (`Darch`)
-) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=212 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,4 +43,4 @@ CREATE TABLE `Distribution` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:32:00
+-- Dump completed on 2009-07-14  9:30:21

@@ -25,15 +25,17 @@ CREATE TABLE `RawLibrary` (
   `RLrunname` varchar(255) NOT NULL default '',
   `RLpath` varchar(255) NOT NULL default '',
   `RLversion` varchar(255) NOT NULL default '',
-  `RLcomment` varchar(255) default NULL,
   `RLcomponent` int(10) unsigned NOT NULL default '0',
   `RLsoname` varchar(255) NOT NULL default '',
   `RLabitag` varchar(255) NOT NULL default '',
+  `RLarch` int(2) unsigned NOT NULL default '0',
   PRIMARY KEY  (`RLid`),
-  UNIQUE KEY `k_RLrunname` (`RLrunname`,`RLpath`,`RLcomponent`),
+  UNIQUE KEY `k_RLrunname` (`RLrunname`,`RLpath`,`RLcomponent`,`RLarch`),
   KEY `k_RLname` (`RLname`,`RLsoname`),
-  KEY `k_RLcomponent` (`RLcomponent`)
-) ENGINE=MyISAM AUTO_INCREMENT=66414 DEFAULT CHARSET=latin1;
+  KEY `k_RLcomponent` (`RLcomponent`),
+  KEY `k_RLsoname` (`RLsoname`),
+  KEY `k_RLarch` (`RLarch`)
+) ENGINE=MyISAM AUTO_INCREMENT=545138 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -44,4 +46,4 @@ CREATE TABLE `RawLibrary` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:33:38
+-- Dump completed on 2009-07-14  9:37:13

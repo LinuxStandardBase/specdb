@@ -22,10 +22,9 @@ DROP TABLE IF EXISTS `RawClass`;
 CREATE TABLE `RawClass` (
   `RCid` int(10) unsigned NOT NULL auto_increment,
   `RCname` text character set latin1 collate latin1_bin NOT NULL,
-  `RCcomment` varchar(255) default NULL,
   PRIMARY KEY  (`RCid`),
-  KEY `k_RCname` (`RCname`(255))
-) ENGINE=MyISAM AUTO_INCREMENT=71121 DEFAULT CHARSET=latin1;
+  KEY `k_RCname` (`RCname`(1000))
+) ENGINE=MyISAM AUTO_INCREMENT=120274 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -36,4 +35,4 @@ CREATE TABLE `RawClass` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:33:19
+-- Dump completed on 2009-07-14  9:36:43
