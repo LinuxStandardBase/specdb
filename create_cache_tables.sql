@@ -24,6 +24,11 @@ CREATE TABLE `cache_IntRoughCorrespondance`
 DELETE FROM cache_IntRoughCorrespondance WHERE RIid IS NULL;
 
 -- Correspondance between RawInterface and Interface tables
+-- NOTE: Joining with cache_RLibDepsNames is for 'incorrect' apps
+-- that uses interfaces not from DT_NEEDED libs (but from libs loaded as
+-- dependencies of the NEEDED ones).
+-- This tirck currently works for LSB, but theoretically can cause problems
+-- with key duplication in the cache_AppRIntLib table below.
 DROP TABLE IF EXISTS `cache_IntCorrespondance`;
 CREATE TABLE `cache_IntCorrespondance`
     (PRIMARY KEY `Iid` (`Iid`,`RIid`), KEY `RIid` (`RIid`), KEY `Ilibrary` (`Ilibrary`) )
@@ -72,16 +77,22 @@ SELECT Aname, Aversion, Aarch, ARIaid, RawInterface.RIid, RawInterface.RIlibrary
     LEFT JOIN cache_RLibRIntMapping ON cache_RLibRIntMapping.RIname=RawInterface.RIname AND cache_RLibRIntMapping.RIlibrary=RawInterface.RIlibrary
     LEFT JOIN Application ON Aid=ARIaid;
 
--- Three temporary tables to create the fourth one with distributions content
+-- Temporary tables to create the one with distributions content
+CREATE TEMPORARY TABLE tmp_Component
+    (KEY `Cid` (`Cid`), KEY `Cidstr`(`Cdistr`))
+    SELECT IFNULL(C2.Cid,C1.Cid) AS Cid, C1.Cdistr AS Cdistr
+    FROM Component C1
+    LEFT JOIN Component C2 ON C1.Calias=C2.Cid;
+
 CREATE TEMPORARY TABLE `tmp_DistrCmds`
     (KEY `Did`(`Did`))
-    SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM Component
+    SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM tmp_Component
     LEFT JOIN RawCommand ON RCcomponent=Cid
     GROUP BY Cdistr;
 
 CREATE TEMPORARY TABLE `tmp_DistrClasses`
     (KEY `Did`(`Did`))
-    SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM Component
+    SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM tmp_Component
     LEFT JOIN RawLibrary ON RLcomponent=Cid
     LEFT JOIN RLibRClass ON RLRCrlid=RLid
     GROUP BY Cdistr;
@@ -94,7 +105,7 @@ CREATE TEMPORARY TABLE `tmp_RLibContent`
 DROP TABLE IF EXISTS `cache_DistrContent`;
 CREATE TABLE `cache_DistrContent`
     (PRIMARY KEY `Did` (`Did`) )
-    SELECT Cdistr AS Did, COUNT(distinct Cid) AS comp_cnt, COUNT(distinct RLid) AS lib_cnt, SUM(int_cnt) AS int_cnt, cmd_cnt, class_cnt FROM Component
+    SELECT Cdistr AS Did, COUNT(distinct Cid) AS comp_cnt, COUNT(distinct RLid) AS lib_cnt, SUM(int_cnt) AS int_cnt, cmd_cnt, class_cnt FROM tmp_Component
     LEFT JOIN RawLibrary ON RLcomponent=Cid
     LEFT JOIN tmp_RLibContent USING(RLid)
     LEFT JOIN tmp_DistrCmds ON Cdistr=Did
