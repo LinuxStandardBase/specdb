@@ -18159,3 +18159,4 @@ INSERT INTO `Constant` VALUES (19978,'ICMP_PARAMPROB_OPTABSENT','int',1519,'',NU
 INSERT INTO `Constant` VALUES (19979,'ICMP_INFOTYPE(type)','macro',1519,'',NULL);
 INSERT INTO `Constant` VALUES (19980,'netinet/ip_icmp.h depends on netinet/ip.h','header_depend',1519,'',NULL);
 INSERT INTO `Constant` VALUES (19981,'XK_VoidSymbol','int',1512,'Void symbol',NULL);
+INSERT INTO `Constant` VALUES (19982,'CLOCK_MONOTONIC','int',60,'0',NULL);
