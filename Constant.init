@@ -18160,3 +18160,18 @@ INSERT INTO `Constant` VALUES (19979,'ICMP_INFOTYPE(type)','macro',1519,'',NULL)
 INSERT INTO `Constant` VALUES (19980,'netinet/ip_icmp.h depends on netinet/ip.h','header_depend',1519,'',NULL);
 INSERT INTO `Constant` VALUES (19981,'XK_VoidSymbol','int',1512,'Void symbol',NULL);
 INSERT INTO `Constant` VALUES (19982,'CLOCK_MONOTONIC','int',60,'0',NULL);
+INSERT INTO `Constant` VALUES (19983,'__CPU_ALLOC_SIZE(count)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19984,'__CPU_ZERO_S(setsize, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19985,'__CPU_SET_S(cpu, setsize, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19986,'__CPU_CLR_S(cpu, setsize, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19987,'__CPU_ISSET_S(cpu, setsize, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19988,'CPU_SET(cpu, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19989,'CPU_CLR(cpu, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19990,'CPU_ISSET(cpu, cpusetp)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19991,'__CPU_OP_S(setsize, destset, srcset1, srcset2, op) ','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19992,'CPU_AND(destset, srcset1, srcset2)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19993,'CPU_OR(destset, srcset1, srcset2)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19994,'CPU_XOR(destset, srcset1, srcset2)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19995,'CPU_AND_S(setsize, destset, srcset1, srcset2)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19996,'CPU_OR_S(setsize, destset, srcset1, srcset2)','macro',37,'',NULL);
+INSERT INTO `Constant` VALUES (19997,'CPU_XOR_S(setsize, destset, srcset1, srcset2)','macro',37,'',NULL);
