@@ -1023,3 +1023,4 @@ INSERT INTO `Header` VALUES (1049,'stdexcept',231,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1050,'streambuf',231,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1051,'typeinfo',231,'Unknown',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1052,'valarray',231,'Unknown',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1053,'jerror.h',241,'Unknown',NULL,'4.0',NULL);

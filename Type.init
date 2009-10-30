@@ -21517,3 +21517,5 @@ INSERT INTO `Type` VALUES (39825,'anon-struct-ip_icmp.h-3','Struct',1519,'','Unk
 INSERT INTO `Type` VALUES (39826,'u_int8_t[1]','Array',0,'','Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (39827,'anon-union-ip_icmp.h-2','Union',1519,'','Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (39828,'icmp','Struct',1519,'','Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (39829,'anon-enum-jerror.h-0','Enum',1520,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39830,'J_MESSAGE_CODE','Typedef',1520,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
