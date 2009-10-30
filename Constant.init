@@ -4164,7 +4164,6 @@ INSERT INTO `Constant` VALUES (4167,'XtIsConstraint(obj)','macro',297,'',NULL);
 INSERT INTO `Constant` VALUES (4168,'XtIsShell(obj)','macro',297,'',NULL);
 INSERT INTO `Constant` VALUES (4169,'XtIsWMShell(obj)','macro',297,'',NULL);
 INSERT INTO `Constant` VALUES (4170,'XtIsTopLevelShell(obj)','macro',297,'',NULL);
-INSERT INTO `Constant` VALUES (4171,'XtCheckSubclass(w,widget_class_ptr,message)','macro',297,'',NULL);
 INSERT INTO `Constant` VALUES (4172,'_SYS_TIMEX_H','int',299,'',NULL);
 INSERT INTO `Constant` VALUES (4173,'ADJ_OFFSET','int',299,'',NULL);
 INSERT INTO `Constant` VALUES (4174,'ADJ_FREQUENCY','int',299,'',NULL);
