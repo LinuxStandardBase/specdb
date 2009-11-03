@@ -18195,3 +18195,7 @@ INSERT INTO `Constant` VALUES (20015,'TRACEMS5(cinfo,lvl,code,p1,p2,p3,p4,p5)','
 INSERT INTO `Constant` VALUES (20016,'TRACEMS8(cinfo,lvl,code,p1,p2,p3,p4,p5,p6,p7,p8)','macro',1520,'',NULL);
 INSERT INTO `Constant` VALUES (20017,'TRACEMSS(cinfo,lvl,code,str)','macro',1520,'',NULL);
 INSERT INTO `Constant` VALUES (20018,'X11/Xlib.h depends on sys/types.h','header_depend',5,'',NULL);
+INSERT INTO `Constant` VALUES (20019,'XtInheritTranslations','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (20020,'XtInheritExpose','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (20021,'XtInheritAcceptFocus','macro',1381,'',NULL);
+INSERT INTO `Constant` VALUES (20022,'XtInheritQueryGeometry','macro',1381,'',NULL);
