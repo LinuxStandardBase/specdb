@@ -874,7 +874,7 @@ INSERT INTO `Constant` VALUES (873,'_GRP_H','int',4,'',NULL);
 INSERT INTO `Constant` VALUES (874,'__need_size_t','int',4,'',NULL);
 INSERT INTO `Constant` VALUES (875,'__need_FILE','int',4,'',NULL);
 INSERT INTO `Constant` VALUES (876,'NSS_BUFLEN_GROUP','int',4,'',NULL);
-INSERT INTO `Constant` VALUES (877,'_XLIB_H_','int',111,'',NULL);
+INSERT INTO `Constant` VALUES (877,'_XLIB_H_','flag',111,'',NULL);
 INSERT INTO `Constant` VALUES (878,'XlibSpecificationRelease','int',111,'',NULL);
 INSERT INTO `Constant` VALUES (879,'_STDDEF_H','int',111,'',NULL);
 INSERT INTO `Constant` VALUES (880,'_STDDEF_H_','int',111,'',NULL);
