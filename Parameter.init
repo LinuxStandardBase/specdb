@@ -56218,3 +56218,6 @@ INSERT INTO `Parameter` VALUES (98956,1,33300,NULL,NULL,0,'Unknown','out_flags')
 INSERT INTO `Parameter` VALUES (98957,0,33478,NULL,NULL,0,'Unknown','fd');
 INSERT INTO `Parameter` VALUES (98957,1,40,NULL,NULL,0,'Unknown','buf');
 INSERT INTO `Parameter` VALUES (98957,2,32528,NULL,NULL,0,'Unknown','amount');
+INSERT INTO `Parameter` VALUES (98958,0,39905,NULL,NULL,0,'Unknown','pat');
+INSERT INTO `Parameter` VALUES (98958,1,63,NULL,NULL,0,'Unknown','dest');
+INSERT INTO `Parameter` VALUES (98958,2,6,NULL,NULL,0,'Unknown','len');

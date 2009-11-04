@@ -21583,3 +21583,14 @@ INSERT INTO `Type` VALUES (39891,'dummy type for _ZNSt17moneypunct_bynameIcLb0EE
 INSERT INTO `Type` VALUES (39892,'dummy type for _ZN11QPointArray2spE of library libqt-mt','BinVariable',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39893,'dummy type for _ZN12QPaintDevice11x_appvisualE of library libqt-mt','BinVariable',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39894,'char array 2','Array',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39895,'XftChar8','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39896,'XftChar16','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39897,'XftChar32','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39898,'XftType','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39899,'XftMatrix','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39900,'XftResult','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39901,'XftValue','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39902,'XftPattern','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39903,'XftFontSet','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39904,'XftObjectSet','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39905,'XftPattern *','Pointer',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
