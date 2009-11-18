@@ -18286,3 +18286,4 @@ INSERT INTO `Constant` VALUES (20106,'XftTypeString','accessor',1521,'',NULL);
 INSERT INTO `Constant` VALUES (20107,'XftTypeBool','accessor',1521,'',NULL);
 INSERT INTO `Constant` VALUES (20108,'XftTypeMatrix','accessor',1521,'',NULL);
 INSERT INTO `Constant` VALUES (20109,'XftConfigSubstitute(p)','macro',1521,'',NULL);
+INSERT INTO `Constant` VALUES (20110,'X11/Xft/Xft.h depends on X11/Xft/XftCompat.h','header_depend',966,'',NULL);

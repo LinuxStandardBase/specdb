@@ -18902,3 +18902,4 @@ INSERT INTO `ArchConst` VALUES (1,20106,'FcTypeString','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,20107,'FcTypeBool','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,20108,'FcTypeMatrix','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,20109,'FcConfigSubstitute (0, p, FcMatchPattern)','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20110,'1054','4.0',NULL,0);
