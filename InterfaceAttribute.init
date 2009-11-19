@@ -1212,3 +1212,4 @@ INSERT INTO `InterfaceAttribute` VALUES (1740,'mknod','libc','Recommendation','T
 INSERT INTO `InterfaceAttribute` VALUES (1741,'stat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __xstat at compilation time.');
 INSERT INTO `InterfaceAttribute` VALUES (1742,'fstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __lxstat at compilation time.');
 INSERT INTO `InterfaceAttribute` VALUES (1743,'lstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __fxstat at compilation time.');
+INSERT INTO `InterfaceAttribute` VALUES (1745,'pthread_kill_other_threads_np','libpthread','Rejection','This non-portable LinuxThreads extension is a stub in the current NPTL implementation.');
