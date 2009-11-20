@@ -1593,7 +1593,7 @@ INSERT INTO `Type` VALUES (10168,'intf','Typedef',300,'','No','No','No',NULL,0,0
 INSERT INTO `Type` VALUES (10169,'uIntf','Typedef',428,'','No','No','No',NULL,0,0,'libz',0);
 INSERT INTO `Type` VALUES (10180,'dirent *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10172,'int (*)(const dirent *)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (10173,'int (*)(const dirent *, const dirent *)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (10173,'int (*)(const dirent **, const dirent **)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10175,'DIR','Typedef',218,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10183,'dirent ***','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10184,'off_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
@@ -14015,7 +14015,7 @@ INSERT INTO `Type` VALUES (32369,'const dirent ***','Pointer',0,'','No','No','No
 INSERT INTO `Type` VALUES (32370,'const dirent64 ***','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (32371,'dirent64 ***','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (32372,'int (*)(const dirent64 *)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (32373,'int (*)(const dirent64 *, const dirent64 *)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (32373,'int (*)(const dirent64 **, const dirent64 **)','FuncPtr',15,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (32374,'char[__SIZEOF_SEM_T]','Array',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (32375,'anon-sem_t-union','Union',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (32376,'epoll_data','Union',1398,'','Unknown','Unknown','Unknown',NULL,0,0,'libc',0);
