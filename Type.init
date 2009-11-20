@@ -21594,3 +21594,5 @@ INSERT INTO `Type` VALUES (39902,'XftPattern','Typedef',1521,'','Unknown','Unkno
 INSERT INTO `Type` VALUES (39903,'XftFontSet','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39904,'XftObjectSet','Typedef',1521,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39905,'XftPattern *','Pointer',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39906,'const winsize','Const',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39907,'const winsize *','Pointer',0,'','Unknown','Unknown','Unknown',NULL,0,0,'',0);
