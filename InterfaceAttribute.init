@@ -1213,3 +1213,9 @@ INSERT INTO `InterfaceAttribute` VALUES (1741,'stat','libc','Recommendation','Th
 INSERT INTO `InterfaceAttribute` VALUES (1742,'fstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __lxstat at compilation time.');
 INSERT INTO `InterfaceAttribute` VALUES (1743,'lstat','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to call to __fxstat at compilation time.');
 INSERT INTO `InterfaceAttribute` VALUES (1745,'pthread_kill_other_threads_np','libpthread','Rejection','This non-portable LinuxThreads extension is a stub in the current NPTL implementation.');
+INSERT INTO `InterfaceAttribute` VALUES (1746,'png_get_mmx_flagmask','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
+INSERT INTO `InterfaceAttribute` VALUES (1747,'png_set_mmx_thresholds','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and does nothing.');
+INSERT INTO `InterfaceAttribute` VALUES (1748,'png_get_asm_flags','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
+INSERT INTO `InterfaceAttribute` VALUES (1749,'png_get_mmx_bitdepth_threshold','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
+INSERT INTO `InterfaceAttribute` VALUES (1750,'png_get_mmx_rowbytes_threshold','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
+INSERT INTO `InterfaceAttribute` VALUES (1751,'png_set_asm_flags','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and does nothing.');
