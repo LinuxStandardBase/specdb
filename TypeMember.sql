@@ -31,7 +31,7 @@ CREATE TABLE `TypeMember` (
   `TMtypetype` int(10) unsigned NOT NULL default '0',
   `TMwithdrawnin` varchar(5) default NULL,
   `TMappearedin` varchar(5) NOT NULL,
-  `TMaid` int(10) unsigned NOT NULL default '0',
+  `TMaid` int(10) unsigned NOT NULL default '1',
   `TMaccess` enum('public','private','protected') default NULL,
   `TMvalue` varchar(255) default NULL,
   PRIMARY KEY  (`TMid`),
