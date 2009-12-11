@@ -1219,3 +1219,4 @@ INSERT INTO `InterfaceAttribute` VALUES (1748,'png_get_asm_flags','libpng12','Re
 INSERT INTO `InterfaceAttribute` VALUES (1749,'png_get_mmx_bitdepth_threshold','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
 INSERT INTO `InterfaceAttribute` VALUES (1750,'png_get_mmx_rowbytes_threshold','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and always returns 0.');
 INSERT INTO `InterfaceAttribute` VALUES (1751,'png_set_asm_flags','libpng12','Rejection','Assembler code was removed in libpng 1.2.20. This function is a stub and does nothing.');
+INSERT INTO `InterfaceAttribute` VALUES (1752,'snd_pcm_sw_params_set_xfer_align','libasound','Recommendation','This function is deprecated and should not be used. The function is superfluous and can be safely dropped, since the transfer alignment always is one frame (i.e., there is none).');
