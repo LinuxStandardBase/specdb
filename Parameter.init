@@ -52853,7 +52853,7 @@ INSERT INTO `Parameter` VALUES (97614,0,6,NULL,NULL,0,'Unknown','__fd');
 INSERT INTO `Parameter` VALUES (97614,1,10295,NULL,NULL,0,'Unknown','__name');
 INSERT INTO `Parameter` VALUES (97614,2,9272,NULL,NULL,0,'Unknown','__mask');
 INSERT INTO `Parameter` VALUES (97616,0,6,NULL,NULL,0,'Unknown','__fd');
-INSERT INTO `Parameter` VALUES (97616,1,9272,NULL,NULL,0,'Unknown','__wd');
+INSERT INTO `Parameter` VALUES (97616,1,6,NULL,NULL,0,'Unknown','__wd');
 INSERT INTO `Parameter` VALUES (97617,0,9094,NULL,NULL,0,'Unknown','__pid');
 INSERT INTO `Parameter` VALUES (97617,1,8969,NULL,NULL,0,'Unknown','__cpusetsize');
 INSERT INTO `Parameter` VALUES (97617,2,32332,NULL,NULL,0,'Unknown','__cpuset');
