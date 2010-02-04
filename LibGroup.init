@@ -406,3 +406,4 @@ INSERT INTO `LibGroup` VALUES (691,'NSS Utility',277,0,'');
 INSERT INTO `LibGroup` VALUES (692,'NSS SSL',278,0,'');
 INSERT INTO `LibGroup` VALUES (693,'libXext interfaces',18,0,'');
 INSERT INTO `LibGroup` VALUES (694,'Netscape Portable Runtime',279,0,'');
+INSERT INTO `LibGroup` VALUES (695,'struct numeric_limits<__float128>',231,22,'');
