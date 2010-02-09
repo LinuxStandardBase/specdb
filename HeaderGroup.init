@@ -1446,3 +1446,4 @@ INSERT INTO `HeaderGroup` VALUES (1518,'Default Header Section for netinet/in_sy
 INSERT INTO `HeaderGroup` VALUES (1519,'Default Header Section for netinet/ip_icmp.h',1014,0,'');
 INSERT INTO `HeaderGroup` VALUES (1520,'Default Header Section for jerror.h',1053,0,'');
 INSERT INTO `HeaderGroup` VALUES (1521,'Default Header Section for X11/Xft/XftCompat.h',1054,0,'');
+INSERT INTO `HeaderGroup` VALUES (1522,'Default Header Section for X11/cursorfont.h',1055,0,'');
