@@ -18370,3 +18370,4 @@ INSERT INTO `Constant` VALUES (20190,'_XtresourceI_h','protector',1383,'',NULL);
 INSERT INTO `Constant` VALUES (20191,'StringToQuark(string)','macro',1383,'',NULL);
 INSERT INTO `Constant` VALUES (20192,'StringToName(string)','macro',1383,'',NULL);
 INSERT INTO `Constant` VALUES (20193,'StringToClass(string)','macro',1383,'',NULL);
+INSERT INTO `Constant` VALUES (20194,'_POSIX_THREAD_PROCESS_SHARED','int',366,'',NULL);
