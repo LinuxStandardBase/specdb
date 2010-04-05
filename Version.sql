@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,11 +19,15 @@
 --
 
 DROP TABLE IF EXISTS `Version`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Version` (
-  `Vid` int(10) unsigned NOT NULL auto_increment,
-  `Vname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  PRIMARY KEY  (`Vid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `Vid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Vname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
+  PRIMARY KEY (`Vid`),
+  UNIQUE KEY `k_Vname` (`Vname`)
+) ENGINE=MyISAM AUTO_INCREMENT=70 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -34,3 +38,4 @@ CREATE TABLE `Version` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2010-04-05 11:07:27

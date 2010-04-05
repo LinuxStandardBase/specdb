@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,9 +20,9 @@
 
 DROP TABLE IF EXISTS `FTRLib`;
 CREATE TABLE `FTRLib` (
-  `FTRLftid` int(10) unsigned NOT NULL default '0',
-  `FTRLrlname` varchar(255) NOT NULL default '',
-  PRIMARY KEY  (`FTRLftid`,`FTRLrlname`),
+  `FTRLftid` int(10) unsigned NOT NULL DEFAULT '0',
+  `FTRLrlname` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`FTRLftid`,`FTRLrlname`),
   KEY `k_FTRLrlid` (`FTRLrlname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -35,4 +35,4 @@ CREATE TABLE `FTRLib` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:05:36
+-- Dump completed on 2010-04-02  8:57:23

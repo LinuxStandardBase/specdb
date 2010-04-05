@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,11 +20,11 @@
 
 DROP TABLE IF EXISTS `TestInt`;
 CREATE TABLE `TestInt` (
-  `TSIint` int(10) unsigned NOT NULL default '0',
-  `TSItest` int(10) unsigned NOT NULL default '0',
-  `TSIquality` enum('Deep','Normal','Shallow') NOT NULL default 'Shallow',
-  `TSIcomment` varchar(255) default NULL,
-  PRIMARY KEY  (`TSIint`,`TSItest`),
+  `TSIint` int(10) unsigned NOT NULL DEFAULT '0',
+  `TSItest` int(10) unsigned NOT NULL DEFAULT '0',
+  `TSIquality` enum('Deep','Normal','Shallow') NOT NULL DEFAULT 'Shallow',
+  `TSIcomment` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`TSIint`,`TSItest`),
   KEY `k_IntQuality` (`TSItest`,`TSIint`,`TSIquality`),
   KEY `k_TSIquality` (`TSIquality`,`TSIint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -38,4 +38,4 @@ CREATE TABLE `TestInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:10
+-- Dump completed on 2010-04-02  8:59:47

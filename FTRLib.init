@@ -45,3 +45,4 @@
 31	libpam.so.0
 32	libstdc++.so.6
 38	libxml2.so.2
+46	libdbus-1.so.3

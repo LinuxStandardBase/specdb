@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,12 +20,12 @@
 
 DROP TABLE IF EXISTS `TestCaseSource`;
 CREATE TABLE `TestCaseSource` (
-  `TCSid` int(10) unsigned NOT NULL auto_increment,
-  `TCStsid` int(10) unsigned NOT NULL default '0',
-  `TCStestcasename` varchar(255) NOT NULL default '',
-  `TCSsourcename` varchar(255) NOT NULL default '',
-  `TCScomment` varchar(255) default NULL,
-  PRIMARY KEY  (`TCSid`),
+  `TCSid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `TCStsid` int(10) unsigned NOT NULL DEFAULT '0',
+  `TCStestcasename` varchar(255) NOT NULL DEFAULT '',
+  `TCSsourcename` varchar(255) NOT NULL DEFAULT '',
+  `TCScomment` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`TCSid`),
   KEY `k_TSItest` (`TCStsid`),
   KEY `k_TCStestcasename` (`TCStestcasename`,`TCStsid`)
 ) ENGINE=MyISAM AUTO_INCREMENT=61796 DEFAULT CHARSET=latin1;
@@ -39,4 +39,4 @@ CREATE TABLE `TestCaseSource` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:09
+-- Dump completed on 2010-04-02  8:59:43

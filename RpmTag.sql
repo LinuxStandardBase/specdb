@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,25 +19,28 @@
 --
 
 DROP TABLE IF EXISTS `RpmTag`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `RpmTag` (
-  `Rid` int(10) unsigned NOT NULL auto_increment,
-  `Rname` varchar(255) NOT NULL default '',
-  `Rtag` int(11) NOT NULL default '0',
-  `Rtype` enum('NULL_TYPE','CHAR_TYPE','INT8','INT16','INT32','INT64','STRING','BIN','STRING_ARRAY','I18NSTRING') NOT NULL default 'BIN',
-  `Rcount` int(11) NOT NULL default '0',
-  `Rgroup` enum('Private','Signature','SigDigest','SigSigning','Header','Other','Ignore','PackageInfo','InstallInfo','FileDetails','Dependencies') NOT NULL default 'Private',
-  `Rstatus` enum('Required','Optional','Informational','Deprecated','Obsolete','Reserved') NOT NULL default 'Required',
+  `Rid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Rname` varchar(255) NOT NULL DEFAULT '',
+  `Rtag` int(11) NOT NULL DEFAULT '0',
+  `Rtype` enum('NULL_TYPE','CHAR_TYPE','INT8','INT16','INT32','INT64','STRING','BIN','STRING_ARRAY','I18NSTRING') NOT NULL DEFAULT 'BIN',
+  `Rcount` int(11) NOT NULL DEFAULT '0',
+  `Rgroup` enum('Private','Signature','SigDigest','SigSigning','Header','Other','Ignore','PackageInfo','InstallInfo','FileDetails','Dependencies') NOT NULL DEFAULT 'Private',
+  `Rstatus` enum('Required','Optional','Informational','Deprecated','Obsolete','Reserved') NOT NULL DEFAULT 'Required',
   `Rdescription` text NOT NULL,
   `Rappearedin` varchar(5) NOT NULL,
-  `Rwithdrawnin` varchar(5) default NULL,
-  PRIMARY KEY  (`Rid`),
+  `Rwithdrawnin` varchar(5) DEFAULT NULL,
+  PRIMARY KEY (`Rid`),
   UNIQUE KEY `Rname` (`Rname`,`Rstatus`),
   KEY `Rtag` (`Rtag`),
   KEY `Rgroup` (`Rgroup`),
   KEY `Rstatus` (`Rstatus`),
   KEY `k_appearedin` (`Rappearedin`),
   KEY `k_withdrawnin` (`Rwithdrawnin`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=102 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -48,3 +51,4 @@ CREATE TABLE `RpmTag` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2010-04-05 11:07:26

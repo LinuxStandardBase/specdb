@@ -11,3 +11,5 @@ INSERT INTO `ConstantAttribute` VALUES (13,906,'Declaration','#ifndef NULL\n#  i
 INSERT INTO `ConstantAttribute` VALUES (9,16603,'Declaration','#ifdef __cplusplus \n#define _XFUNCPROTOEND }\n#else \n#define _XFUNCPROTOEND \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (10,16602,'Declaration','#ifdef __cplusplus \n#define _XFUNCPROTOBEGIN extern \"C\" { \n#else \n#define _XFUNCPROTOBEGIN \n#endif');
 INSERT INTO `ConstantAttribute` VALUES (15,16755,'Condition','#ifndef MAXPATHLEN');
+INSERT INTO `ConstantAttribute` VALUES (16,20195,'Condition','#ifndef FALSE');
+INSERT INTO `ConstantAttribute` VALUES (17,20196,'Condition','#ifndef TRUE');

@@ -29703,3 +29703,4 @@ INSERT INTO `TypeMemberExtras` VALUES (1,214795,0,0,'Yes','#if defined(__cpluspl
 INSERT INTO `TypeMemberExtras` VALUES (1,215659,0,0,'Yes','#if defined(__cplusplus) || defined(c_plusplus) \n BOOL c_new; \n #else \n BOOL new; \n #endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,217632,0,0,'No','#if defined(__cplusplus) || defined(c_plusplus)\nunsigned char *c_explicit;\n#else\nunsigned char *explicit;\n#endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,86464,0,0,'Yes',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,216804,0,0,'No','#if defined(__cplusplus) || defined(c_plusplus)\n char *c_class;\n#else\nchar *class;\n#endif');

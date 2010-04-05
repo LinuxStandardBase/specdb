@@ -7,6 +7,8 @@
 
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
+# Add '--local-infile' here if there are any problems with direct access to files
+FILEOPTS=
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab CmdStd Command CommandAttribute \
@@ -69,11 +71,12 @@ restoreall::
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		case "$(ELEMENTS)" in \
 		        *"$$table"*) mysql $(DBOPTS) $$LSBDB <$$table.init ;; \
-		        *) mysql $(DBOPTS) $$LSBDB -e "load data infile \"$${PWD}/$${table}.init\" into table $$table" ;; \
+		        *) mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile \"$${PWD}/$${table}.init\" into table $$table" ;; \
 		esac;\
 	done'
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
+	mysql $(DBOPTS) $$LSBDB <create_alias_detector.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 	rm -f cache*.init
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
@@ -87,7 +90,7 @@ restoreall::
 # then call the 'cache' rule
 
 cache::
-	./create_cache_tables_inits.sh
+#	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 	rm -f cache*.init
@@ -107,7 +110,7 @@ restore_apps::
 		set +e; \
 		echo $$table; \
 	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-		mysql $(DBOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
+		mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
 	done
 	./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;

@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,16 +20,16 @@
 
 DROP TABLE IF EXISTS `TestSuite`;
 CREATE TABLE `TestSuite` (
-  `TSid` int(10) unsigned NOT NULL auto_increment,
-  `TSname` varchar(255) NOT NULL default '',
-  `TSfullname` varchar(255) NOT NULL default '',
-  `TSvendor` varchar(255) NOT NULL default '',
-  `TSstatus` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `TSpartof` varchar(255) NOT NULL default '',
-  `TSversion` varchar(255) NOT NULL default '',
+  `TSid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `TSname` varchar(255) NOT NULL DEFAULT '',
+  `TSfullname` varchar(255) NOT NULL DEFAULT '',
+  `TSvendor` varchar(255) NOT NULL DEFAULT '',
+  `TSstatus` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  `TSpartof` varchar(255) NOT NULL DEFAULT '',
+  `TSversion` varchar(255) NOT NULL DEFAULT '',
   `TSappearedin` varchar(5) NOT NULL,
-  `TSwithdrawnin` varchar(5) default NULL,
-  PRIMARY KEY  (`TSid`),
+  `TSwithdrawnin` varchar(5) DEFAULT NULL,
+  PRIMARY KEY (`TSid`),
   KEY `TSid` (`TSid`,`TSname`,`TSversion`),
   KEY `TSappearedin` (`TSappearedin`,`TSwithdrawnin`),
   KEY `TSwithdrawnin` (`TSwithdrawnin`),
@@ -45,4 +45,4 @@ CREATE TABLE `TestSuite` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:13
+-- Dump completed on 2010-04-02  8:59:48

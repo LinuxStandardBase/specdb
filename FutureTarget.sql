@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,31 +20,31 @@
 
 DROP TABLE IF EXISTS `FutureTarget`;
 CREATE TABLE `FutureTarget` (
-  `FTid` int(10) unsigned NOT NULL auto_increment,
-  `FTname` varchar(255) NOT NULL default '',
-  `FTgroup` enum('LSB','Desktop','XML','Security','Runtimes','Manageability') NOT NULL default 'LSB',
-  `FTstatus` enum('Active','Completed','Blocked','Rejected','Inactive','Unknown') NOT NULL default 'Unknown',
-  `FTlicense` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTstable` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `FTbestpractice` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `FTrationale` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `FTsample` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTappbat` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTdemand` enum('Yes','No','Unknown') NOT NULL default 'Unknown',
-  `FTdepends` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTupstream` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTdistros` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTversions` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTpatches` enum('Unknown','Ok','Issues') NOT NULL default 'Unknown',
-  `FTdb` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTspec` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTtest` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTdevel` enum('Yes','No','In progress') NOT NULL default 'No',
-  `FTlsbversion` varchar(5) default NULL,
+  `FTid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `FTname` varchar(255) NOT NULL DEFAULT '',
+  `FTgroup` enum('LSB','Desktop','XML','Security','Runtimes','Manageability') NOT NULL DEFAULT 'LSB',
+  `FTstatus` enum('Active','Completed','Blocked','Rejected','Inactive','Unknown') NOT NULL DEFAULT 'Unknown',
+  `FTlicense` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTstable` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  `FTbestpractice` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  `FTrationale` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  `FTsample` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTappbat` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTdemand` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  `FTdepends` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTupstream` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTdistros` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTversions` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTpatches` enum('Unknown','Ok','Issues') NOT NULL DEFAULT 'Unknown',
+  `FTdb` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTspec` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTtest` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTdevel` enum('Yes','No','In progress') NOT NULL DEFAULT 'No',
+  `FTlsbversion` varchar(5) DEFAULT NULL,
   `FTurl` text,
-  PRIMARY KEY  (`FTid`),
+  PRIMARY KEY (`FTid`),
   UNIQUE KEY `k_FTname` (`FTname`)
-) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -55,4 +55,4 @@ CREATE TABLE `FutureTarget` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:05:36
+-- Dump completed on 2010-04-02  8:57:23

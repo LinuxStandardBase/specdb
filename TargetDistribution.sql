@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,10 +20,11 @@
 
 DROP TABLE IF EXISTS `TargetDistribution`;
 CREATE TABLE `TargetDistribution` (
-  `TDlsbversion` varchar(5) NOT NULL default '',
-  `TDdname` varchar(255) NOT NULL default '',
-  `TDmindversion` varchar(255) NOT NULL default '',
-  KEY `k_TDlsbver` (`TDlsbversion`)
+  `TDlsbversion` varchar(5) NOT NULL DEFAULT '',
+  `TDdname` varchar(255) NOT NULL DEFAULT '',
+  `TDmindversion` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`TDlsbversion`,`TDdname`),
+  KEY `TDdname` (`TDdname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -35,4 +36,4 @@ CREATE TABLE `TargetDistribution` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:08
+-- Dump completed on 2010-04-02  8:59:43

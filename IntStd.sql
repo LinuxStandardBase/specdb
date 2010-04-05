@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,18 +19,21 @@
 --
 
 DROP TABLE IF EXISTS `IntStd`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `IntStd` (
-  `ISiid` int(10) unsigned NOT NULL default '0',
-  `ISsid` int(10) unsigned NOT NULL default '0',
-  `ISrefspec` int(10) unsigned NOT NULL default '0',
+  `ISiid` int(10) unsigned NOT NULL DEFAULT '0',
+  `ISsid` int(10) unsigned NOT NULL DEFAULT '0',
+  `ISrefspec` int(10) unsigned NOT NULL DEFAULT '0',
   `ISappearedin` varchar(5) NOT NULL,
-  `ISwithdrawnin` varchar(5) default NULL,
-  `ISurl` varchar(255) default NULL,
-  PRIMARY KEY  (`ISiid`,`ISsid`,`ISappearedin`),
+  `ISwithdrawnin` varchar(5) DEFAULT NULL,
+  `ISurl` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ISiid`,`ISsid`,`ISappearedin`),
   KEY `k_appearedin` (`ISappearedin`,`ISwithdrawnin`),
   KEY `k_withdrawnin` (`ISwithdrawnin`),
   KEY `k_ISsid` (`ISsid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -41,3 +44,4 @@ CREATE TABLE `IntStd` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2010-04-05 11:07:25

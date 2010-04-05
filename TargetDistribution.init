@@ -6,3 +6,11 @@
 4.0	SLES	10 SP2
 4.0	Ubuntu	7.04
 4.0	openSUSE	10.2
+4.1	RHEL	5.4
+4.1	SLES	11
+4.1	Ubuntu	9.10
+4.1	openSUSE	11.2
+4.1	Mandriva	2010.0
+4.1	Fedora	12
+4.1	Oracle Enterprise Linux	5.3
+4.1	Debian	5.0

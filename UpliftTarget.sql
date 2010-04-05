@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,9 +20,9 @@
 
 DROP TABLE IF EXISTS `UpliftTarget`;
 CREATE TABLE `UpliftTarget` (
-  `UTlibname` varchar(255) NOT NULL default '',
-  `UTstatus` enum('Yes','No','Unknown') default NULL,
-  PRIMARY KEY  (`UTlibname`)
+  `UTlibname` varchar(255) NOT NULL DEFAULT '',
+  `UTstatus` enum('Yes','No','Unknown') NOT NULL DEFAULT 'Unknown',
+  PRIMARY KEY (`UTlibname`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -34,4 +34,4 @@ CREATE TABLE `UpliftTarget` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:17
+-- Dump completed on 2010-04-02  8:59:49

@@ -1,6 +1,6 @@
--- MySQL dump 10.10
+-- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
 --
--- Host: db2.linux-foundation.org    Database: lsb
+-- Host: localhost    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -19,17 +19,20 @@
 --
 
 DROP TABLE IF EXISTS `LibGroup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `LibGroup` (
-  `LGid` int(10) unsigned NOT NULL auto_increment,
-  `LGname` varchar(255) NOT NULL default '',
-  `LGlib` int(10) unsigned NOT NULL default '0',
-  `LGorder` int(11) NOT NULL default '0',
+  `LGid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `LGname` varchar(255) NOT NULL DEFAULT '',
+  `LGlib` int(10) unsigned NOT NULL DEFAULT '0',
+  `LGorder` int(11) NOT NULL DEFAULT '0',
   `LGdescription` text NOT NULL,
-  PRIMARY KEY  (`LGid`),
+  PRIMARY KEY (`LGid`),
   UNIQUE KEY `k_LG` (`LGname`,`LGlib`),
   KEY `k_LGlib` (`LGlib`),
   KEY `k_LGorder` (`LGorder`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=696 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -40,3 +43,4 @@ CREATE TABLE `LibGroup` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
+-- Dump completed on 2010-04-05 11:07:25

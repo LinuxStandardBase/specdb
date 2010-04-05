@@ -38,3 +38,4 @@
 38	xml2	XML	Completed	Ok	Yes	Yes	Yes	Yes	Yes	Yes	Ok	Ok	Ok	Ok	Ok	Yes	Yes	Yes	Yes	3.1	\N
 39	FORTRAN	Runtimes	Blocked	Unknown	Unknown	Yes	Yes	No	No	Yes	Ok	Unknown	Unknown	Unknown	Unknown	No	No	No	No	\N	http://www.linuxbase.org/futures/candidates/FORTRAN/index.html
 40	shadow	LSB	Rejected	Ok	Unknown	No	Unknown	No	No	Yes	Unknown	Unknown	Unknown	Unknown	Unknown	No	No	No	No	\N	http://www.linuxbase.org/futures/candidates/shadow/index.html
+46	D-Bus	LSB	Unknown	Unknown	Unknown	Unknown	Unknown	No	No	Unknown	Unknown	Unknown	Unknown	Unknown	Unknown	No	No	No	No	\N	\N
