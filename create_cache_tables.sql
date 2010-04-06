@@ -332,5 +332,5 @@ END
 
 delimiter ;
 
-CALL split_cache_RIntCaseInsensitiveNames();
+-- CALL split_cache_RIntCaseInsensitiveNames();
 DROP PROCEDURE IF EXISTS split_cache_RIntCaseInsensitiveNames;
