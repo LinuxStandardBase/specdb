@@ -50,6 +50,15 @@ CREATE TEMPORARY TABLE `tmp_cache_IntRoughCorrespondance`
     LEFT JOIN RawInterface ON Iname=RIname;
 DELETE FROM tmp_cache_IntRoughCorrespondance WHERE RIid IS NULL;
 
+-- A table with RawClass.RCname<->RawLibraryRLname mapping
+DROP TABLE cache_RCnameRLnameMapping;
+CREATE TABLE cache_RCnameRLnameMapping
+(KEY k_RCname(RCname(1000)), KEY k_RLname(RLname,RCname(740)))
+SELECT DISTINCT RCname, RLname
+FROM RawClass
+JOIN RLibRClass ON RLRCrcid=RCid
+JOIN RawLibrary ON RLid=RLRCrlid;
+
 -- Correspondance between RawInterface and Interface tables
 -- NOTE: Joining with tmp_cache_RLibDepsNames is for 'incorrect' apps
 -- that uses interfaces not from DT_NEEDED libs (but from libs loaded as
