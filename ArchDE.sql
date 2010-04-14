@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,21 +19,18 @@
 --
 
 DROP TABLE IF EXISTS `ArchDE`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ArchDE` (
-  `ADEdeid` int(10) unsigned NOT NULL DEFAULT '0',
-  `ADEaid` int(10) unsigned NOT NULL DEFAULT '0',
-  `ADEstd` int(10) unsigned NOT NULL DEFAULT '0',
+  `ADEdeid` int(10) unsigned NOT NULL default '0',
+  `ADEaid` int(10) unsigned NOT NULL default '0',
+  `ADEstd` int(10) unsigned NOT NULL default '0',
   `ADEdescription` blob NOT NULL,
   `ADEappearedin` varchar(5) NOT NULL,
-  `ADEwithdrawnin` varchar(5) DEFAULT NULL,
-  PRIMARY KEY (`ADEdeid`,`ADEaid`,`ADEstd`,`ADEappearedin`),
+  `ADEwithdrawnin` varchar(5) default NULL,
+  PRIMARY KEY  (`ADEdeid`,`ADEaid`,`ADEstd`,`ADEappearedin`),
   KEY `k_aid` (`ADEaid`),
   KEY `k_appearedin` (`ADEappearedin`,`ADEwithdrawnin`),
   KEY `k_withdrawnin` (`ADEwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -44,4 +41,3 @@ CREATE TABLE `ArchDE` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:21

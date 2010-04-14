@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,18 +19,15 @@
 --
 
 DROP TABLE IF EXISTS `AbiApi`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `AbiApi` (
-  `AAbinint` int(10) unsigned NOT NULL DEFAULT '0',
-  `AAsrcint` int(10) unsigned NOT NULL DEFAULT '0',
+  `AAbinint` int(10) unsigned NOT NULL default '0',
+  `AAsrcint` int(10) unsigned NOT NULL default '0',
   `AAvalue` text NOT NULL,
   `AAappearedin` varchar(5) NOT NULL,
-  `AAwithdrawnin` varchar(5) DEFAULT NULL,
-  PRIMARY KEY (`AAbinint`,`AAsrcint`,`AAvalue`(20)),
+  `AAwithdrawnin` varchar(5) default NULL,
+  PRIMARY KEY  (`AAbinint`,`AAsrcint`,`AAvalue`(20)),
   KEY `k_src` (`AAsrcint`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -41,4 +38,3 @@ CREATE TABLE `AbiApi` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:21

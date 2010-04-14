@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,16 +19,13 @@
 --
 
 DROP TABLE IF EXISTS `TypeType`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TypeType` (
-  `TTid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `TTname` varchar(255) NOT NULL DEFAULT '',
-  `TTcomment` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`TTid`),
+  `TTid` int(10) unsigned NOT NULL auto_increment,
+  `TTname` varchar(255) NOT NULL default '',
+  `TTcomment` varchar(255) default NULL,
+  PRIMARY KEY  (`TTid`),
   KEY `TTid` (`TTid`,`TTname`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,4 +36,3 @@ CREATE TABLE `TypeType` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:27

@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,21 +19,18 @@
 --
 
 DROP TABLE IF EXISTS `ArchClass`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ArchClass` (
-  `ACcid` int(10) unsigned NOT NULL DEFAULT '0',
-  `ACaid` int(10) unsigned NOT NULL DEFAULT '1',
-  `ACpos` int(11) NOT NULL DEFAULT '0',
-  `ACbaseoffset` int(11) NOT NULL DEFAULT '0',
-  `ACvoffset` int(11) NOT NULL DEFAULT '0',
+  `ACcid` int(10) unsigned NOT NULL default '0',
+  `ACaid` int(10) unsigned NOT NULL default '1',
+  `ACpos` int(11) NOT NULL default '0',
+  `ACbaseoffset` int(11) NOT NULL default '0',
+  `ACvoffset` int(11) NOT NULL default '0',
   `ACappearedin` varchar(5) NOT NULL,
-  `ACwithdrawnin` varchar(5) DEFAULT NULL,
-  PRIMARY KEY (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
+  `ACwithdrawnin` varchar(5) default NULL,
+  PRIMARY KEY  (`ACcid`,`ACaid`,`ACpos`,`ACappearedin`),
   KEY `k_appearedin` (`ACappearedin`,`ACwithdrawnin`,`ACaid`),
   KEY `k_appeared_arch` (`ACappearedin`,`ACaid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -44,4 +41,3 @@ CREATE TABLE `ArchClass` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:21

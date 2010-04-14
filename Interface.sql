@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,30 +19,28 @@
 --
 
 DROP TABLE IF EXISTS `Interface`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Interface` (
-  `Iid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Iname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `Itype` enum('Function','Data','Alias','Common') NOT NULL DEFAULT 'Function',
-  `Iheader` int(10) unsigned NOT NULL DEFAULT '0',
-  `Ireturn` int(10) unsigned NOT NULL DEFAULT '0',
-  `Idocumented` enum('Yes','No') NOT NULL DEFAULT 'No',
-  `Icomment` varchar(255) DEFAULT NULL,
-  `Icandidatefor` varchar(255) DEFAULT NULL,
+  `Iid` int(10) unsigned NOT NULL auto_increment,
+  `Iname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
+  `Itype` enum('Function','Data','Alias','Common') NOT NULL default 'Function',
+  `Iheader` int(10) unsigned NOT NULL default '0',
+  `Ireturn` int(10) unsigned NOT NULL default '0',
+  `Idocumented` enum('Yes','No') NOT NULL default 'No',
+  `Icomment` varchar(255) default NULL,
+  `Icandidatefor` varchar(255) default NULL,
   `Iunmangled` text,
-  `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL DEFAULT 'Both',
-  `Ilibrary` varchar(200) CHARACTER SET latin1 COLLATE latin1_bin DEFAULT NULL,
-  `Istatic` enum('Yes','No') DEFAULT NULL,
-  `Ivirtual` enum('Yes','No') DEFAULT NULL,
-  `Iaccess` enum('public','private','protected') DEFAULT NULL,
-  `Ifkind` enum('Normal','Observer','Constructor','Destructor') DEFAULT NULL,
-  `Icharge` enum('in-charge','not-in-charge','in-charge-deleting') DEFAULT NULL,
-  `Iclass` int(10) unsigned NOT NULL DEFAULT '0',
-  `Ishortname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin DEFAULT NULL,
-  `Itestable` enum('Yes','No') DEFAULT 'Yes',
-  `Ithrow` enum('Yes','No') NOT NULL DEFAULT 'No',
-  PRIMARY KEY (`Iid`),
+  `Isrcbin` enum('Both','SrcOnly','BinOnly') NOT NULL default 'Both',
+  `Ilibrary` varchar(200) character set latin1 collate latin1_bin default NULL,
+  `Istatic` enum('Yes','No') default NULL,
+  `Ivirtual` enum('Yes','No') default NULL,
+  `Iaccess` enum('public','private','protected') default NULL,
+  `Ifkind` enum('Normal','Observer','Constructor','Destructor') default NULL,
+  `Icharge` enum('in-charge','not-in-charge','in-charge-deleting') default NULL,
+  `Iclass` int(10) unsigned NOT NULL default '0',
+  `Ishortname` varchar(255) character set latin1 collate latin1_bin default NULL,
+  `Itestable` enum('Yes','No') default 'Yes',
+  `Ithrow` enum('Yes','No') NOT NULL default 'No',
+  PRIMARY KEY  (`Iid`),
   UNIQUE KEY `k_Iname` (`Iname`,`Ilibrary`),
   KEY `Itype` (`Itype`),
   KEY `k_Idocumented` (`Idocumented`),
@@ -51,8 +49,7 @@ CREATE TABLE `Interface` (
   KEY `k_Itestable` (`Itestable`),
   KEY `k_Iunmangled` (`Iunmangled`(1000)),
   KEY `k_Ireturn` (`Ireturn`)
-) ENGINE=MyISAM AUTO_INCREMENT=99124 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -63,4 +60,3 @@ CREATE TABLE `Interface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:23

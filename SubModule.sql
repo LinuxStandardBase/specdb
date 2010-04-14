@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,19 +19,16 @@
 --
 
 DROP TABLE IF EXISTS `SubModule`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `SubModule` (
-  `SMid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `SMid` int(10) unsigned NOT NULL auto_increment,
   `SMname` varchar(255) NOT NULL,
-  `SMcomment` varchar(255) DEFAULT NULL,
+  `SMcomment` varchar(255) default NULL,
   `SMmandatorysince` varchar(5) NOT NULL,
-  `SMdeprecatedsince` varchar(5) DEFAULT NULL,
-  PRIMARY KEY (`SMid`),
+  `SMdeprecatedsince` varchar(5) default NULL,
+  PRIMARY KEY  (`SMid`),
   UNIQUE KEY `SMname` (`SMname`),
   KEY `SMdeprecatedsince` (`SMdeprecatedsince`)
-) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,4 +39,3 @@ CREATE TABLE `SubModule` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:26

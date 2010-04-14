@@ -1,4 +1,4 @@
--- MySQL dump 10.13  Distrib 5.1.36, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -19,35 +19,32 @@
 --
 
 DROP TABLE IF EXISTS `ClassInfo`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ClassInfo` (
-  `CIid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `CIname` varchar(255) NOT NULL DEFAULT '',
-  `CItid` int(10) unsigned NOT NULL DEFAULT '0',
-  `CIvtable` int(10) unsigned NOT NULL DEFAULT '0',
-  `CInumvfunc` int(10) unsigned NOT NULL DEFAULT '0',
-  `CInumvtab` int(10) unsigned NOT NULL DEFAULT '1',
-  `CIrtti` int(10) unsigned NOT NULL DEFAULT '0',
-  `CInumbasetype` enum('0','1') NOT NULL DEFAULT '0',
-  `CIbase` int(10) unsigned NOT NULL DEFAULT '0',
-  `CInumvmitypes` int(10) unsigned NOT NULL DEFAULT '0',
-  `CIflags` int(11) NOT NULL DEFAULT '0',
-  `CIvcalloffset` int(11) NOT NULL DEFAULT '0',
-  `CIbaseoffset` int(11) NOT NULL DEFAULT '0',
-  `CIbasevtable` int(10) unsigned NOT NULL DEFAULT '0',
-  `CIlibg` int(10) unsigned NOT NULL DEFAULT '0',
-  `CIvtclass` enum('1','2') NOT NULL DEFAULT '1',
-  `CIvtt` int(10) unsigned NOT NULL DEFAULT '0',
-  `CInumvtt` int(10) unsigned NOT NULL DEFAULT '0',
+  `CIid` int(10) unsigned NOT NULL auto_increment,
+  `CIname` varchar(255) NOT NULL default '',
+  `CItid` int(10) unsigned NOT NULL default '0',
+  `CIvtable` int(10) unsigned NOT NULL default '0',
+  `CInumvfunc` int(10) unsigned NOT NULL default '0',
+  `CInumvtab` int(10) unsigned NOT NULL default '1',
+  `CIrtti` int(10) unsigned NOT NULL default '0',
+  `CInumbasetype` enum('0','1') NOT NULL default '0',
+  `CIbase` int(10) unsigned NOT NULL default '0',
+  `CInumvmitypes` int(10) unsigned NOT NULL default '0',
+  `CIflags` int(11) NOT NULL default '0',
+  `CIvcalloffset` int(11) NOT NULL default '0',
+  `CIbaseoffset` int(11) NOT NULL default '0',
+  `CIbasevtable` int(10) unsigned NOT NULL default '0',
+  `CIlibg` int(10) unsigned NOT NULL default '0',
+  `CIvtclass` enum('1','2') NOT NULL default '1',
+  `CIvtt` int(10) unsigned NOT NULL default '0',
+  `CInumvtt` int(10) unsigned NOT NULL default '0',
   `CIunmangled` text,
-  `CIpurevirtual` int(10) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`CIid`),
+  `CIpurevirtual` int(10) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`CIid`),
   UNIQUE KEY `CIname` (`CIname`,`CIlibg`),
   KEY `CIlibg` (`CIlibg`),
   KEY `k_CIunmangled` (`CIunmangled`(1000))
-) ENGINE=MyISAM AUTO_INCREMENT=2503 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -58,4 +55,3 @@ CREATE TABLE `ClassInfo` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-04-05 11:07:22
