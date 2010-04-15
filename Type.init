@@ -21644,3 +21644,6 @@ INSERT INTO `Type` VALUES (39953,'dummy type for _ZNSt14numeric_limitsIgE5radixE
 INSERT INTO `Type` VALUES (39954,'dummy type for _ZNSt14numeric_limitsIgE11round_styleE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (39955,'dummy type for _ZNSt14numeric_limitsIgE15tinyness_beforeE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (39956,'dummy type for _ZNSt14numeric_limitsIgE5trapsE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (39957,'snd_seq_event_type','Enum',1263,'','No','No','No',NULL,0,0,'libasound',0);
+INSERT INTO `Type` VALUES (39958,'_snd_timer_class','Enum',1261,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (39959,'snd_timer_class_t','Typedef',1261,'','No','No','No',NULL,0,0,'',0);
