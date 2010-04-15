@@ -1252,3 +1252,5 @@ INSERT INTO `InterfaceAttribute` VALUES (1781,'FcConfigGetCache','libfontconfig'
 INSERT INTO `InterfaceAttribute` VALUES (1782,'FcDirScan','libfontconfig','Recommendation','This function is obsolete. In modern fontconfig, it does nothing aside from returning FcFalse.');
 INSERT INTO `InterfaceAttribute` VALUES (1783,'FcDirSave','libfontconfig','Recommendation','This function is obsolete. In modern fontconfig, it does nothing aside from returning FcFalse.');
 INSERT INTO `InterfaceAttribute` VALUES (1784,'FcCharSetCoverage','libfontconfig','Recommendation','This function is deprecated in the modern fontconfig. It was found rather hard to use it correctly.');
+INSERT INTO `InterfaceAttribute` VALUES (1785,'httpEncode64','libcups','Rejection','This function is deprecated. Use the <int libcups;httpEncode64_2>httpEncode64_2</int> function instead which provides buffer length arguments.');
+INSERT INTO `InterfaceAttribute` VALUES (1786,'httpDecode64','libcups','Rejection','This function is deprecated. Use the <int libcups;httpDecode64_2>httpDecode64_2</int> function instead which provides buffer length arguments.');

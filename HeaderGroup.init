@@ -1447,3 +1447,5 @@ INSERT INTO `HeaderGroup` VALUES (1519,'Default Header Section for netinet/ip_ic
 INSERT INTO `HeaderGroup` VALUES (1520,'Default Header Section for jerror.h',1053,0,'');
 INSERT INTO `HeaderGroup` VALUES (1521,'Default Header Section for X11/Xft/XftCompat.h',1054,0,'');
 INSERT INTO `HeaderGroup` VALUES (1522,'Default Header Section for X11/cursorfont.h',1421,0,'');
+INSERT INTO `HeaderGroup` VALUES (1523,'Default Header Section for cups/ipp.h',1422,0,'');
+INSERT INTO `HeaderGroup` VALUES (1524,'Default Header Section for cups/http.h',1423,0,'');

@@ -19005,3 +19005,17 @@ INSERT INTO `ArchConst` VALUES (12,16718,'{ CARD64 _BRdat; CARD32 _BRlen = req->
 INSERT INTO `ArchConst` VALUES (2,16718,'{ \\\n    CARD32 _BRdat; \\\n    CARD32 _BRlen = req->length - 1; \\\n    req->length = 0; \\\n    _BRdat = ((CARD32 *)req)[_BRlen]; \\\n    memmove(((char *)req) + 8, ((char *)req) + 4, _BRlen << 2); \\\n    ((CARD32 *)req)[1] = _BRlen + n + 2; \\\n    Data32(dpy, &_BRdat, 4); \\\n    }','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (6,16718,'{ \\\n    CARD32 _BRdat; \\\n    CARD32 _BRlen = req->length - 1; \\\n    req->length = 0; \\\n    _BRdat = ((CARD32 *)req)[_BRlen]; \\\n    memmove(((char *)req) + 8, ((char *)req) + 4, _BRlen << 2); \\\n    ((CARD32 *)req)[1] = _BRlen + n + 2; \\\n    Data32(dpy, &_BRdat, 4); \\\n    }','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (10,16718,'{ \\\n    CARD32 _BRdat; \\\n    CARD32 _BRlen = req->length - 1; \\\n    req->length = 0; \\\n    _BRdat = ((CARD32 *)req)[_BRlen]; \\\n    memmove(((char *)req) + 8, ((char *)req) + 4, _BRlen << 2); \\\n    ((CARD32 *)req)[1] = _BRlen + n + 2; \\\n    Data32(dpy, &_BRdat, 4); \\\n    }','1.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20197,'\\001\\001','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20198,'631','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20199,'32767','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20200,'256','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20201,'8','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20202,'IPP_JOB_CANCELED','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20203,'CUPS_ADD_MODIFY_PRINTER','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20204,'CUPS_ADD_MODIFY_CLASS','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20205,'IPP_ERROR_JOB_CANCELED','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20206,'__attribute__ ((__deprecated__))','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20207,'1024','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20208,'256','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20209,'2048','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20210,'256','4.1',NULL,0);

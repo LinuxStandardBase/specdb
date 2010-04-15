@@ -1392,3 +1392,5 @@ INSERT INTO `Header` VALUES (1418,'pango-1.0/pango/pango-types.h',247,'No',NULL,
 INSERT INTO `Header` VALUES (1419,'pango-1.0/pango/pangofc-font.h',249,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1420,'pango-1.0/pango/pangoxft-render.h',248,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1421,'X11/cursorfont.h',10,'No',NULL,'4.0',NULL);
+INSERT INTO `Header` VALUES (1422,'cups/ipp.h',269,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1423,'cups/http.h',269,'No',NULL,'4.1',NULL);
