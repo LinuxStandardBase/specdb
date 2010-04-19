@@ -882,7 +882,7 @@ INSERT INTO `Header` VALUES (908,'cairo/cairo-features.h',266,'No',NULL,'4.0',NU
 INSERT INTO `Header` VALUES (909,'cairo/cairo-xlib-xrender.h',266,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (910,'cairo/cairo-xlib.h',266,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (911,'cairo/cairo-ps.h',266,'No',NULL,'4.0',NULL);
-INSERT INTO `Header` VALUES (912,'cairo/cairo-svg.h',266,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (912,'cairo/cairo-svg.h',266,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (913,'gtk-2.0/gdk/gdkcairo.h',252,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (914,'pango-1.0/pango/pangocairo.h',267,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (915,'nss3/base64.h',277,'No',NULL,'',NULL);
