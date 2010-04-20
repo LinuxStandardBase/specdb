@@ -21718,3 +21718,8 @@ INSERT INTO `Type` VALUES (40027,'http_addrlist_t','Typedef',1524,'','No','No','
 INSERT INTO `Type` VALUES (40028,'const http_addr_t','Const',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40029,'const http_addr_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40030,'http_addrlist_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40031,'_cups_array_s','Struct',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40032,'cups_array_t','Typedef',1291,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40033,'cups_array_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40034,'cups_lang_s','Struct',1291,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40035,'cups_lang_s *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
