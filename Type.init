@@ -21723,3 +21723,4 @@ INSERT INTO `Type` VALUES (40032,'cups_array_t','Typedef',1291,'','No','No','No'
 INSERT INTO `Type` VALUES (40033,'cups_array_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40034,'cups_lang_s','Struct',1291,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40035,'cups_lang_s *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40036,'htmlSAXHandler','Typedef',661,'','No','No','No',NULL,0,0,'libxml2',0);
