@@ -1450,3 +1450,4 @@ INSERT INTO `HeaderGroup` VALUES (1522,'Default Header Section for X11/cursorfon
 INSERT INTO `HeaderGroup` VALUES (1523,'Default Header Section for cups/ipp.h',1422,0,'');
 INSERT INTO `HeaderGroup` VALUES (1524,'Default Header Section for cups/http.h',1423,0,'');
 INSERT INTO `HeaderGroup` VALUES (1525,'Default Header Section for zconf.h',1424,0,'');
+INSERT INTO `HeaderGroup` VALUES (1526,'Default Header Section for glib-2.0/glib/gi18n.h',1139,0,'');
