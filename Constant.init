@@ -18387,3 +18387,8 @@ INSERT INTO `Constant` VALUES (20207,'HTTP_MAX_URI','int',1524,'',NULL);
 INSERT INTO `Constant` VALUES (20208,'HTTP_MAX_HOST','int',1524,'',NULL);
 INSERT INTO `Constant` VALUES (20209,'HTTP_MAX_BUFFER','int',1524,'',NULL);
 INSERT INTO `Constant` VALUES (20210,'HTTP_MAX_VALUE','int',1524,'',NULL);
+INSERT INTO `Constant` VALUES (20211,'OF(args)','macro',1525,'',NULL);
+INSERT INTO `Constant` VALUES (20212,'ZEXTERN','literal',1525,'',NULL);
+INSERT INTO `Constant` VALUES (20213,'ZEXPORT','literal',1525,'',NULL);
+INSERT INTO `Constant` VALUES (20214,'ZEXPORTVA','literal',1525,'',NULL);
+INSERT INTO `Constant` VALUES (20215,'zlib.h depends on zconf.h','header_depend',300,'',NULL);

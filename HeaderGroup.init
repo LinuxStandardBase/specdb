@@ -1449,3 +1449,4 @@ INSERT INTO `HeaderGroup` VALUES (1521,'Default Header Section for X11/Xft/XftCo
 INSERT INTO `HeaderGroup` VALUES (1522,'Default Header Section for X11/cursorfont.h',1421,0,'');
 INSERT INTO `HeaderGroup` VALUES (1523,'Default Header Section for cups/ipp.h',1422,0,'');
 INSERT INTO `HeaderGroup` VALUES (1524,'Default Header Section for cups/http.h',1423,0,'');
+INSERT INTO `HeaderGroup` VALUES (1525,'Default Header Section for zconf.h',1424,0,'');
