@@ -407,3 +407,6 @@ INSERT INTO `LibGroup` VALUES (692,'NSS SSL',278,0,'');
 INSERT INTO `LibGroup` VALUES (693,'libXext interfaces',18,0,'');
 INSERT INTO `LibGroup` VALUES (694,'Netscape Portable Runtime',279,0,'');
 INSERT INTO `LibGroup` VALUES (695,'struct numeric_limits<__float128>',231,22,'');
+INSERT INTO `LibGroup` VALUES (696,'Glib Bookmark File Parser',242,298,'Glib Bookmark File Parser');
+INSERT INTO `LibGroup` VALUES (697,'Glib Memory Slices',242,299,'Glib Memory Slices');
+INSERT INTO `LibGroup` VALUES (698,'Glib Base64 Encoding',242,299,'Glib Base64 Encoding');

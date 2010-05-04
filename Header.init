@@ -1212,7 +1212,7 @@ INSERT INTO `Header` VALUES (1238,'gtk-2.0/gtk/gtkdrawingarea.h',253,'No',NULL,'
 INSERT INTO `Header` VALUES (1239,'gtk-2.0/gtk/gtkeditable.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1240,'gtk-2.0/gtk/gtkentry.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1241,'gtk-2.0/gtk/gtkentrycompletion.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1242,'gtk-2.0/gtk/gtkenums.h',253,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1242,'gtk-2.0/gtk/gtkenums.h',253,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (1243,'gtk-2.0/gtk/gtkeventbox.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1244,'gtk-2.0/gtk/gtkexpander.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1245,'gtk-2.0/gtk/gtkfilechooser.h',253,'No',NULL,'',NULL);
@@ -1278,7 +1278,7 @@ INSERT INTO `Header` VALUES (1304,'gtk-2.0/gtk/gtkplug.h',253,'No',NULL,'',NULL)
 INSERT INTO `Header` VALUES (1305,'gtk-2.0/gtk/gtkpreview.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1306,'gtk-2.0/gtk/gtkprintcontext.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1307,'gtk-2.0/gtk/gtkprintoperation.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1308,'gtk-2.0/gtk/gtkprintoperationpreview.h',253,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1308,'gtk-2.0/gtk/gtkprintoperationpreview.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1309,'gtk-2.0/gtk/gtkprintsettings.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1310,'gtk-2.0/gtk/gtkprivate.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1311,'gtk-2.0/gtk/gtkprogress.h',253,'No',NULL,'',NULL);
@@ -1294,8 +1294,8 @@ INSERT INTO `Header` VALUES (1320,'gtk-2.0/gtk/gtkrecentchooser.h',253,'No',NULL
 INSERT INTO `Header` VALUES (1321,'gtk-2.0/gtk/gtkrecentchooserdialog.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1322,'gtk-2.0/gtk/gtkrecentchoosermenu.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1323,'gtk-2.0/gtk/gtkrecentchooserwidget.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1324,'gtk-2.0/gtk/gtkrecentfilter.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1325,'gtk-2.0/gtk/gtkrecentmanager.h',253,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1324,'gtk-2.0/gtk/gtkrecentfilter.h',253,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1325,'gtk-2.0/gtk/gtkrecentmanager.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1326,'gtk-2.0/gtk/gtkruler.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1327,'gtk-2.0/gtk/gtkscale.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1328,'gtk-2.0/gtk/gtkscalebutton.h',253,'No',NULL,'',NULL);
@@ -1312,7 +1312,7 @@ INSERT INTO `Header` VALUES (1338,'gtk-2.0/gtk/gtksizegroup.h',253,'No',NULL,'',
 INSERT INTO `Header` VALUES (1339,'gtk-2.0/gtk/gtksocket.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1340,'gtk-2.0/gtk/gtkspinbutton.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1341,'gtk-2.0/gtk/gtkstatusbar.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1342,'gtk-2.0/gtk/gtkstatusicon.h',253,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1342,'gtk-2.0/gtk/gtkstatusicon.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1343,'gtk-2.0/gtk/gtkstock.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1344,'gtk-2.0/gtk/gtkstyle.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1345,'gtk-2.0/gtk/gtktable.h',253,'No',NULL,'',NULL);
@@ -1320,7 +1320,7 @@ INSERT INTO `Header` VALUES (1346,'gtk-2.0/gtk/gtktearoffmenuitem.h',253,'No',NU
 INSERT INTO `Header` VALUES (1347,'gtk-2.0/gtk/gtktestutils.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1348,'gtk-2.0/gtk/gtktext.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1349,'gtk-2.0/gtk/gtktextbuffer.h',253,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1350,'gtk-2.0/gtk/gtktextbufferrichtext.h',253,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1350,'gtk-2.0/gtk/gtktextbufferrichtext.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1351,'gtk-2.0/gtk/gtktextchild.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1352,'gtk-2.0/gtk/gtktextdisplay.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1353,'gtk-2.0/gtk/gtktextiter.h',253,'No',NULL,'',NULL);
@@ -1395,3 +1395,8 @@ INSERT INTO `Header` VALUES (1421,'X11/cursorfont.h',10,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (1422,'cups/ipp.h',269,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1423,'cups/http.h',269,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1424,'zconf.h',127,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1425,'gtk-unix-print-2.0/gtk/gtkpagesetupunixdialog.h',253,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1426,'gtk-unix-print-2.0/gtk/gtkprintjob.h',253,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1427,'gtk-unix-print-2.0/gtk/gtkprintunixdialog.h',253,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1428,'gtk-unix-print-2.0/gtk/gtkprinter.h',253,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1429,'gtk-unix-print-2.0/gtk/gtkunixprint.h',253,'No',NULL,'4.1',NULL);
