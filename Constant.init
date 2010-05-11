@@ -18623,3 +18623,4 @@ INSERT INTO `Constant` VALUES (20443,'g_slice_free(type,mem)','macro',609,'',NUL
 INSERT INTO `Constant` VALUES (20444,'g_slice_free_chain(type,mem_chain,next)','macro',609,'',NULL);
 INSERT INTO `Constant` VALUES (20445,'g_atomic_int_set(atomic, newval)','macro',927,'',NULL);
 INSERT INTO `Constant` VALUES (20446,'g_atomic_pointer_set(atomic, newval)','macro',927,'',NULL);
+INSERT INTO `Constant` VALUES (20447,'GTK_STOCK_SELECT_ALL','string',629,'',NULL);

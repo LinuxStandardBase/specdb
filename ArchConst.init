@@ -19264,3 +19264,4 @@ INSERT INTO `ArchConst` VALUES (1,20445,'((void) (*(atomic) = (newval)))','4.1',
 INSERT INTO `ArchConst` VALUES (1,20446,'((void) (*(atomic) = (newval)))','4.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5857,'12','4.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,5858,'3','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,20447,'gtk-select-all','4.1',NULL,0);
