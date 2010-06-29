@@ -158,3 +158,11 @@ INSERT INTO `CmdStd` VALUES (1067,10,156,'4.0',NULL,'http://java.sun.com/javase/
 INSERT INTO `CmdStd` VALUES (249,67,0,'4.0',NULL,'cut.html');
 INSERT INTO `CmdStd` VALUES (327,67,0,'4.0',NULL,'find.html');
 INSERT INTO `CmdStd` VALUES (1068,67,0,'4.0',NULL,'ulimit.html');
+INSERT INTO `CmdStd` VALUES (1069,67,0,'4.1',NULL,'alias.html');
+INSERT INTO `CmdStd` VALUES (1070,67,0,'4.1',NULL,'bg.html');
+INSERT INTO `CmdStd` VALUES (1071,67,0,'4.1',NULL,'fc.html');
+INSERT INTO `CmdStd` VALUES (1072,67,0,'4.1',NULL,'fg.html');
+INSERT INTO `CmdStd` VALUES (1073,67,0,'4.1',NULL,'hash.html');
+INSERT INTO `CmdStd` VALUES (1074,67,0,'4.1',NULL,'jobs.html');
+INSERT INTO `CmdStd` VALUES (1075,67,0,'4.1',NULL,'unalias.html');
+INSERT INTO `CmdStd` VALUES (844,67,0,'4.1',NULL,'strings.html');
