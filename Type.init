@@ -22008,3 +22008,4 @@ INSERT INTO `Type` VALUES (40317,'dummy type for _ZTINSt17__gnu_cxx_ldbl1287num_
 INSERT INTO `Type` VALUES (40318,'dummy type for _ZTINSt17__gnu_cxx_ldbl1287num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (40319,'dummy type for _ZTINSt17__gnu_cxx_ldbl1287num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (40320,'dummy type for _ZTINSt17__gnu_cxx_ldbl1287num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40321,'_Unwind_Exception','Struct',483,'','No','No','No',NULL,0,0,'',0);
