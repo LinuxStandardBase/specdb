@@ -51,7 +51,7 @@ CREATE TEMPORARY TABLE `tmp_cache_IntRoughCorrespondance`
 DELETE FROM tmp_cache_IntRoughCorrespondance WHERE RIid IS NULL;
 
 -- A table with RawClass.RCname<->RawLibraryRLname mapping
-DROP TABLE cache_RCnameRLnameMapping;
+DROP TABLE IF EXISTS cache_RCnameRLnameMapping;
 CREATE TABLE cache_RCnameRLnameMapping
 (KEY k_RCname(RCname(1000)), KEY k_RLname(RLname,RCname(740)))
 SELECT DISTINCT RCname, RLname
