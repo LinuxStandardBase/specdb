@@ -22077,8 +22077,8 @@ INSERT INTO `Type` VALUES (40386,'anon_Elf32_Shdr_struct','Struct',1556,'','No',
 INSERT INTO `Type` VALUES (40387,'Elf32_Shdr','Typedef',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40388,'anon_Elf64_Shdr_struct','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40389,'Elf64_Shdr','Typedef',1556,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (40390,'anon_Elf32_Dyn_union','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (40391,'anon_Elf64_Dyn_union','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (40390,'anon_Elf32_Dyn_union','Union',1556,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (40391,'anon_Elf64_Dyn_union','Union',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40392,'anon_Elf32_Dyn_struct','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40393,'Elf32_Dyn','Typedef',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40394,'anon_Elf64_Dyn_struct','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
