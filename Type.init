@@ -22083,3 +22083,16 @@ INSERT INTO `Type` VALUES (40392,'anon_Elf32_Dyn_struct','Struct',1556,'','No','
 INSERT INTO `Type` VALUES (40393,'Elf32_Dyn','Typedef',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40394,'anon_Elf64_Dyn_struct','Struct',1556,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40395,'Elf64_Dyn','Typedef',1556,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (40396,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1289money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40397,'dummy type for _ZNSt17__gnu_cxx_ldbl1289money_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40398,'dummy type for _ZNSt17__gnu_cxx_ldbl1289money_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40399,'dummy type for _ZNSt17__gnu_cxx_ldbl1289money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40400,'dummy type for _ZNSt17__gnu_cxx_ldbl1289money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40401,'dummy type for _ZNSt17__gnu_cxx_ldbl1287num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40402,'dummy type for _ZNSt17__gnu_cxx_ldbl1287num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40403,'dummy type for _ZNSt17__gnu_cxx_ldbl1287num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40404,'dummy type for _ZNSt17__gnu_cxx_ldbl1287num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEE2idE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40405,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1289money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40406,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40407,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40408,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
