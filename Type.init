@@ -22096,3 +22096,4 @@ INSERT INTO `Type` VALUES (40405,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1289mone
 INSERT INTO `Type` VALUES (40406,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (40407,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (40408,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
+INSERT INTO `Type` VALUES (40409,'dummy type for _ZTVNSt17__gnu_cxx_ldbl1287num_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEE of library libstdcxx','BinVariable',0,'','No','No','No',NULL,0,0,'libstdcxx',0);
