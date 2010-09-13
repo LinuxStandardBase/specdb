@@ -17,7 +17,7 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	LGInt LibGroup Library LibraryAttribute LSBVersion SModCmd SModLib SModStd ModSMod Module SubModule \
 	Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TypeMemberExtras TypeType \
-	Version VMIBaseTypes Vtable
+	Version VMIBaseTypes Vtable RawDynamicEntries
 	
 APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
 
