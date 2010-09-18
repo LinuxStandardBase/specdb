@@ -22,7 +22,6 @@ DROP TABLE IF EXISTS `DynamicEntries`;
 CREATE TABLE `DynamicEntries` (
   `DEid` int(10) unsigned NOT NULL auto_increment,
   `DEname` varchar(255) NOT NULL default '',
-  `DEvalue` varchar(11) NOT NULL default '0',
   PRIMARY KEY  (`DEid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
