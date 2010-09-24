@@ -1345,3 +1345,4 @@ INSERT INTO `InterfaceAttribute` VALUES (1874,'g_relation_destroy','libglib-2.0'
 INSERT INTO `InterfaceAttribute` VALUES (1875,'g_relation_print','libglib-2.0','Recommendation','This interface is deprecated in modern Glib and should not be used in newly-written code.');
 INSERT INTO `InterfaceAttribute` VALUES (1876,'g_tuples_destroy','libglib-2.0','Recommendation','This interface is deprecated in modern Glib and should not be used in newly-written code.');
 INSERT INTO `InterfaceAttribute` VALUES (1877,'g_tuples_index','libglib-2.0','Recommendation','This interface is deprecated in modern Glib and should not be used in newly-written code.');
+INSERT INTO `InterfaceAttribute` VALUES (1878,'FT_Stroker_New','libfreetype','Recommendation','This function was modified in incompatible way in freetype 2.2. If you want your application to run on both freetype < 2.2 and freetype >= 2.2, you should provide two separate binaries.');
