@@ -11581,7 +11581,7 @@ INSERT INTO `Type` VALUES (29597,'cups_option_t **','Pointer',1291,'','No','No',
 INSERT INTO `Type` VALUES (29598,'cups_dest_t **','Pointer',1291,'','No','No','Yes',NULL,0,0,'libcups',0);
 INSERT INTO `Type` VALUES (29599,'const char * (*)(const char *)','FuncPtr',1291,'','No','No','Yes',NULL,0,0,'libcups',0);
 INSERT INTO `Type` VALUES (29600,'anon-cups/cups.h-194','Enum',1291,'','No','No','No',NULL,0,0,'libcups',0);
-INSERT INTO `Type` VALUES (29601,'ipp_status_t','Typedef',1291,'','No','No','No',NULL,0,0,'libcups',0);
+INSERT INTO `Type` VALUES (29601,'ipp_status_t','Typedef',1523,'','No','No','No',NULL,0,0,'libcups',0);
 INSERT INTO `Type` VALUES (29602,'anon-cups/ppd.h-169','Enum',1292,'','No','No','No',NULL,0,0,'libcups',0);
 INSERT INTO `Type` VALUES (29603,'ppd_status_t','Typedef',1292,'','No','No','No',NULL,0,0,'libcups',0);
 INSERT INTO `Type` VALUES (29604,'ppd_choice_t **','Pointer',1292,'','No','No','Yes',NULL,0,0,'libcups',0);
