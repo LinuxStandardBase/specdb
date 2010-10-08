@@ -1395,6 +1395,7 @@ INSERT INTO `Header` VALUES (1421,'X11/cursorfont.h',10,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (1422,'cups/ipp.h',269,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1423,'cups/http.h',269,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1424,'zconf.h',127,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1432,'sys/sysinfo.h',131,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1431,'elf.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (1430,'link.h',131,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1425,'gtk-unix-print-2.0/gtk/gtkpagesetupunixdialog.h',253,'No',NULL,'4.1',NULL);
