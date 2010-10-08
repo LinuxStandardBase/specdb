@@ -22117,3 +22117,4 @@ INSERT INTO `Type` VALUES (40426,'dummy type for _ZTSN9__gnu_cxx18stdio_sync_fil
 INSERT INTO `Type` VALUES (40427,'sysinfo','Struct',1557,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40428,'sysinfo *','Pointer',1557,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40429,'char[20-2*sizeof(long)-sizeof(int)]','Array',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40430,'__ptrace_request','Enum',1558,'','No','No','No',NULL,0,0,'libc',0);

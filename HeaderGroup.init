@@ -1482,3 +1482,4 @@ INSERT INTO `HeaderGroup` VALUES (1554,'Default Header Section for gtk-2.0/gdk/g
 INSERT INTO `HeaderGroup` VALUES (1555,'Default Header Section for link.h',1430,0,'');
 INSERT INTO `HeaderGroup` VALUES (1556,'Default Header Section for elf.h',1431,0,'');
 INSERT INTO `HeaderGroup` VALUES (1557,'Default Header Section for sys/sysinfo.h',1432,0,'');
+INSERT INTO `HeaderGroup` VALUES (1558,'Default Header Section for sys/ptrace.h',1433,0,'');
