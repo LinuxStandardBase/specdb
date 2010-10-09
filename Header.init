@@ -1404,3 +1404,4 @@ INSERT INTO `Header` VALUES (1427,'gtk-unix-print-2.0/gtk/gtkprintunixdialog.h',
 INSERT INTO `Header` VALUES (1428,'gtk-unix-print-2.0/gtk/gtkprinter.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1429,'gtk-unix-print-2.0/gtk/gtkunixprint.h',253,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1433,'sys/ptrace.h',131,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1434,'execinfo.h',131,'No',NULL,'4.1',NULL);
