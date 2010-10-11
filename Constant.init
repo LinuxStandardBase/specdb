@@ -18834,3 +18834,4 @@ INSERT INTO `Constant` VALUES (20654,'PTRACE_EVENT_CLONE','long',1558,'',NULL);
 INSERT INTO `Constant` VALUES (20655,'PTRACE_EVENT_EXEC','long',1558,'',NULL);
 INSERT INTO `Constant` VALUES (20656,'PTRACE_EVENT_VFORK_DONE','long',1558,'',NULL);
 INSERT INTO `Constant` VALUES (20657,'PTRACE_EVENT_EXIT','long',1558,'',NULL);
+INSERT INTO `Constant` VALUES (20658,'cairo/cairo.h depends on cairo/cairo-features.h','header_depend',1401,'',NULL);
