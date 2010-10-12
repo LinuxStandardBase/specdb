@@ -1148,7 +1148,6 @@ INSERT INTO `Type` VALUES (9553,'XrmClassList','Typedef',292,'','No','No','No',N
 INSERT INTO `Type` VALUES (9554,'XrmRepresentation','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9555,'anon-X11/Xresource.h-134','Struct',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9556,'XrmValue','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (9557,'anon-X11/Xresource.h-148','Struct',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9558,'anon-X11/Xresource.h-148 *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9559,'XrmValuePtr','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9560,'XrmHashBucket','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
@@ -1163,7 +1162,6 @@ INSERT INTO `Type` VALUES (9568,'anon-X11/Xresource.h-457','Enum',292,'','No','N
 INSERT INTO `Type` VALUES (9569,'XrmOptionKind','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9570,'anon-X11/Xresource.h-479','Struct',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9571,'XrmOptionDescRec','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (9572,'anon-X11/Xresource.h-499','Struct',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9573,'anon-X11/Xresource.h-499 *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9574,'XrmOptionDescList','Typedef',292,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (9576,'_WidgetRec','Struct',1381,'','No','No','No',NULL,0,0,'',0);

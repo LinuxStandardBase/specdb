@@ -838,7 +838,7 @@ INSERT INTO `Command` VALUES (840,'sputoppm',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (841,'sq',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (842,'stat',NULL,'No','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (843,'strace',NULL,'No','No',NULL,'No',NULL);
-INSERT INTO `Command` VALUES (844,'strings',NULL,'No','No',NULL,'No',NULL);
+INSERT INTO `Command` VALUES (844,'strings',NULL,'Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (845,'strip',NULL,'Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (846,'sum',NULL,'Yes','No',NULL,'No',NULL);
 INSERT INTO `Command` VALUES (847,'switchdesk-gnome',NULL,'No','No',NULL,'No',NULL);
