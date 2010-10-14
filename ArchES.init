@@ -1,5 +1,5 @@
 INSERT INTO `ArchES` VALUES (1,1,31,'SHF_ALLOC+SHF_WRITE',9,'This section holds data that contributes to the program\'s memory image. The \r\nprogram may treat this data as uninitialized. However, the system shall \r\ninitialize this data with zeroes when the program begins to run.\r\nThe section occupies no file space, as indicated by the section type, SHT_NOBITS.','1.0',NULL,NULL);
-INSERT INTO `ArchES` VALUES (2,1,31,'0',2,'This section holds version control information.','1.0',NULL,NULL);
+INSERT INTO `ArchES` VALUES (2,1,31,'SHF_MERGE+SHF_STRINGS',2,'This section holds version control information.','1.0',NULL,NULL);
 INSERT INTO `ArchES` VALUES (3,1,31,'SHF_ALLOC+SHF_WRITE',2,'This section holds initialized data that contribute to the program\'s memory image.','1.0',NULL,NULL);
 INSERT INTO `ArchES` VALUES (4,1,31,'SHF_ALLOC+SHF_WRITE',2,'This section holds initialized data that contribute to the program\'s memory image.','1.0',NULL,NULL);
 INSERT INTO `ArchES` VALUES (5,1,31,'0',2,'This section holds information for symbolic debugging. The contents are unspecified. All section names with the prefix .debug hold information for symbolic debugging. The contents of these sections are unspecified.','1.0',NULL,NULL);
