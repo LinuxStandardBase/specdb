@@ -1484,3 +1484,4 @@ INSERT INTO `HeaderGroup` VALUES (1556,'Default Header Section for elf.h',1431,0
 INSERT INTO `HeaderGroup` VALUES (1557,'Default Header Section for sys/sysinfo.h',1432,0,'');
 INSERT INTO `HeaderGroup` VALUES (1558,'Default Header Section for sys/ptrace.h',1433,0,'');
 INSERT INTO `HeaderGroup` VALUES (1559,'Default Header Section for execinfo.h',1434,0,'');
+INSERT INTO `HeaderGroup` VALUES (1560,'Default Header Section for gnu/libc-version.h',1435,0,'');

@@ -411,3 +411,4 @@ INSERT INTO `LibGroup` VALUES (696,'Glib Bookmark File Parser',242,298,'Glib Boo
 INSERT INTO `LibGroup` VALUES (697,'Glib Memory Slices',242,299,'Glib Memory Slices');
 INSERT INTO `LibGroup` VALUES (698,'Glib Base64 Encoding',242,299,'Glib Base64 Encoding');
 INSERT INTO `LibGroup` VALUES (699,'GNU Extensions for libpthread',132,8,'');
+INSERT INTO `LibGroup` VALUES (700,'GNU Extensions for libc',131,25,'');
