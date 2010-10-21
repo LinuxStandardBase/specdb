@@ -10,6 +10,6 @@ INSERT INTO `SubModule` VALUES (9,'LSB_Printing','LSB Printing module','3.2',NUL
 INSERT INTO `SubModule` VALUES (10,'LSB_TUM','LSB Trial Use module','',NULL);
 INSERT INTO `SubModule` VALUES (11,'LSB_Python','LSB Python Module','3.2',NULL);
 INSERT INTO `SubModule` VALUES (12,'LSB_Perl','LSB Perl Module','3.2',NULL);
-INSERT INTO `SubModule` VALUES (13,'LSB_Multimedia','LSB Multimedia Module','',NULL);
+INSERT INTO `SubModule` VALUES (13,'LSB_Multimedia','LSB Multimedia Module','4.1',NULL);
 INSERT INTO `SubModule` VALUES (14,'LSB_Security','LSB Security Module','4.0',NULL);
 INSERT INTO `SubModule` VALUES (15,'LSB_Java','LSB Java Module','',NULL);
