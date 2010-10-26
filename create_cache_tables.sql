@@ -17,6 +17,14 @@ CREATE TABLE `cache_RLidRLSoname`
     JOIN RawLibrary ON RLSsoname=RLsoname
     JOIN cache_Component ON RLcomponent=Cid;
 
+-- Similar to AppLib, but map to RLname instead of soname
+DROP TABLE IF EXISTS `cache_AppLibName`;
+CREATE TABLE `cache_AppLibName`
+    (PRIMARY KEY RLname(RLname,ALaid))
+    SELECT DISTINCT RLname,ALaid
+    FROM RawLibrary 
+    JOIN AppLib ON ALrunname=RLsoname;
+
 -- First, create three temporary tables which used to create cache_IntCorrespondance
 --   They will be dropped if everything goes well
 -- Soname <-> libname correspondance
@@ -36,7 +44,7 @@ CREATE TEMPORARY TABLE `tmp_cache_RLibDepsNames`
 --    JOIN RLibLink ON RLid=RLLrlid;
 -- DELETE FROM tmp_cache_RLibDepsNames WHERE RLname=RLdepname;
 
--- We'll build 'correspondance' table for interfaces ever included in the spec
+-- We'll build 'correspondance' table only for interfaces ever included in the spec
 CREATE TEMPORARY TABLE `tmp_IntsIncludedEver`
     (KEY `k_Iname`(`Iname`))
     SELECT Iid, Iname, Ilibrary FROM Interface
@@ -49,15 +57,6 @@ CREATE TEMPORARY TABLE `tmp_cache_IntRoughCorrespondance`
     SELECT Iid, RIid, Ilibrary, RIlibrary FROM tmp_IntsIncludedEver
     LEFT JOIN RawInterface ON Iname=RIname;
 DELETE FROM tmp_cache_IntRoughCorrespondance WHERE RIid IS NULL;
-
--- A table with RawClass.RCname<->RawLibraryRLname mapping
-DROP TABLE IF EXISTS cache_RCnameRLnameMapping;
-CREATE TABLE cache_RCnameRLnameMapping
-(KEY k_RCname(RCname(1000)), KEY k_RLname(RLname,RCname(740)))
-SELECT DISTINCT RCname, RLname
-FROM RawClass
-JOIN RLibRClass ON RLRCrcid=RCid
-JOIN RawLibrary ON RLid=RLRCrlid;
 
 -- Correspondance between RawInterface and Interface tables
 -- NOTE: Joining with tmp_cache_RLibDepsNames is for 'incorrect' apps
@@ -72,6 +71,15 @@ CREATE TABLE `cache_IntCorrespondance`
     LEFT JOIN tmp_cache_RLibDepsNames ON Ilibrary=RLname
     WHERE RIlibrary=Ilibrary
     OR tmp_cache_RLibDepsNames.RLdepname=RIlibrary;
+
+-- A table with RawClass.RCname<->RawLibraryRLname mapping
+DROP TABLE IF EXISTS cache_RCnameRLnameMapping;
+CREATE TABLE cache_RCnameRLnameMapping
+(KEY k_RCname(RCname(1000)), KEY k_RLname(RLname,RCname(740)))
+SELECT DISTINCT RCname, RLname
+FROM RawClass
+JOIN RLibRClass ON RLRCrcid=RCid
+JOIN RawLibrary ON RLid=RLRCrlid;
 
 -- Temporary table used to create the next one
 CREATE TEMPORARY TABLE `tmp_cache_AppRoughLibs`
@@ -149,127 +157,152 @@ SELECT 1 FROM tmp_superfluous_ints
 );
 -- cache_AppRIntLib cleanup finished --
 
-CREATE TEMPORARY TABLE `tmp_DistrCmds`
-    (KEY `Did`(`Did`))
-    SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM cache_Component
-    LEFT JOIN RawCommand ON RCcomponent=Cid
-    GROUP BY Cdistr;
+delimiter //
 
-CREATE TEMPORARY TABLE `tmp_DistrClasses`
-    (KEY `Did`(`Did`))
-    SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM cache_Component
-    LEFT JOIN RawLibrary ON RLcomponent=Cid
-    LEFT JOIN RLibRClass ON RLRCrlid=RLid
-    GROUP BY Cdistr;
+DROP PROCEDURE IF EXISTS regen_cache_DistrContent //
 
-CREATE TEMPORARY TABLE `tmp_RLibContent`
-    (KEY `RLid`(`RLid`))
-    SELECT RLRIrlid AS RLid, COUNT(RLRIriid) AS int_cnt FROM RLibRInt
-    GROUP BY RLRIrlid;
+CREATE PROCEDURE regen_cache_DistrContent ()
+BEGIN
+        CREATE TEMPORARY TABLE `tmp_DistrCmds`
+            (KEY `Did`(`Did`))
+            SELECT Cdistr AS Did, COUNT(distinct RCid) AS cmd_cnt FROM cache_Component
+            LEFT JOIN RawCommand ON RCcomponent=Cid
+            GROUP BY Cdistr;
+
+        CREATE TEMPORARY TABLE `tmp_DistrClasses`
+            (KEY `Did`(`Did`))
+            SELECT Cdistr AS Did, COUNT(distinct RLRCrcid) AS class_cnt FROM cache_Component
+            LEFT JOIN RawLibrary ON RLcomponent=Cid
+            LEFT JOIN RLibRClass ON RLRCrlid=RLid
+            GROUP BY Cdistr;
+
+        CREATE TEMPORARY TABLE `tmp_RLibContent`
+            (KEY `RLid`(`RLid`))
+            SELECT RLRIrlid AS RLid, COUNT(RLRIriid) AS int_cnt FROM RLibRInt
+            GROUP BY RLRIrlid;
+
+        CREATE TABLE `cache_DistrContent`
+            (PRIMARY KEY `Did` (`Did`) )
+            SELECT cache_Component.Cdistr AS Did, COUNT(distinct cache_Component.Cid) AS comp_cnt, COUNT(distinct RawLibrary.RLid) AS lib_cnt, SUM(tmp_RLibContent.int_cnt) AS int_cnt, cmd_cnt, class_cnt FROM cache_Component
+            LEFT JOIN RawLibrary ON RLcomponent=Cid
+            LEFT JOIN tmp_RLibContent USING(RLid)
+            LEFT JOIN tmp_DistrCmds ON Cdistr=Did
+            LEFT JOIN tmp_DistrClasses USING(Did)
+            GROUP BY cache_Component.Cdistr;
+END
+//
+
+delimiter ;
 
 DROP TABLE IF EXISTS `cache_DistrContent`;
-CREATE TABLE `cache_DistrContent`
-    (PRIMARY KEY `Did` (`Did`) )
-    SELECT cache_Component.Cdistr AS Did, COUNT(distinct cache_Component.Cid) AS comp_cnt, COUNT(distinct RawLibrary.RLid) AS lib_cnt, SUM(tmp_RLibContent.int_cnt) AS int_cnt, cmd_cnt, class_cnt FROM cache_Component
-    LEFT JOIN RawLibrary ON RLcomponent=Cid
-    LEFT JOIN tmp_RLibContent USING(RLid)
-    LEFT JOIN tmp_DistrCmds ON Cdistr=Did
-    LEFT JOIN tmp_DistrClasses USING(Did)
-    GROUP BY cache_Component.Cdistr;
+CALL regen_cache_DistrContent();
 
 -- // Start cache_IntStatus
 
 -- Create table with short interface status (for every version on every arch)
 -- 'Short' means that for cases when interface was included, then withdrawn and
 --    then included again, we take into account only its last period of being in LSB
-DROP TABLE IF EXISTS cache_IntStatus;
+delimiter //
 
-CREATE TABLE cache_IntStatus
-(PRIMARY KEY (`Iname`,`Ilibrary`,`AIarch`,`AIversion`))
-SELECT Iid,Iname,Ilibrary,AIarch, MAX(AIappearedin) AS AIappearedin, MAX(AIwithdrawnin) AS AIwithdrawnin,
-        Vname AS AIversion, MAX(AIdeprecatedsince) AS AIdeprecatedsince, SMmandatorysince, SMdeprecatedsince, Ldeprecatedsince
-FROM Interface
-LEFT JOIN LGInt ON LGIint=Iid
-LEFT JOIN LibGroup ON LGid=LGIlibg
-LEFT JOIN Library ON Lid=LGlib
-LEFT JOIN SModLib ON LGlib=SMLlid
-LEFT JOIN SubModule ON SMid=SMLsmid
-LEFT JOIN ArchInt ON AIint=Iid
-LEFT JOIN Version ON Vid=AIversion
-WHERE AIappearedin > ''
-GROUP BY Iid,AIarch,Vid;
+DROP PROCEDURE IF EXISTS regen_cache_IntStatus //
 
-ALTER TABLE cache_IntStatus ADD `ISstatus` enum('Included','Deprecated','Optional','Withdrawn') NOT NULL DEFAULT 'Included';
-ALTER TABLE cache_IntStatus ADD `ISstatustext` VARCHAR(255) NOT NULL DEFAULT '';
+CREATE PROCEDURE regen_cache_IntStatus ()
+BEGIN
+        CREATE TABLE cache_IntStatus
+        (PRIMARY KEY (`Iname`,`Ilibrary`,`AIarch`,`AIversion`))
+        SELECT Iid,Iname,Ilibrary,AIarch, MAX(AIappearedin) AS AIappearedin, MAX(AIwithdrawnin) AS AIwithdrawnin,
+                Vname AS AIversion, MAX(AIdeprecatedsince) AS AIdeprecatedsince, SMmandatorysince, SMdeprecatedsince, Ldeprecatedsince
+        FROM Interface
+        LEFT JOIN LGInt ON LGIint=Iid
+        LEFT JOIN LibGroup ON LGid=LGIlibg
+        LEFT JOIN Library ON Lid=LGlib
+        LEFT JOIN SModLib ON LGlib=SMLlid
+        LEFT JOIN SubModule ON SMid=SMLsmid
+        LEFT JOIN ArchInt ON AIint=Iid
+        LEFT JOIN Version ON Vid=AIversion
+        WHERE AIappearedin > ''
+        GROUP BY Iid,AIarch,Vid;
+
+        ALTER TABLE cache_IntStatus ADD `ISstatus` enum('Included','Deprecated','Optional','Withdrawn') NOT NULL DEFAULT 'Included';
+        ALTER TABLE cache_IntStatus ADD `ISstatustext` VARCHAR(255) NOT NULL DEFAULT '';
 
 -- For symbols which were included, then withdrawn and then included again
-UPDATE cache_IntStatus SET AIwithdrawnin=NULL WHERE AIwithdrawnin < AIappearedin;
+        UPDATE cache_IntStatus SET AIwithdrawnin=NULL WHERE AIwithdrawnin < AIappearedin;
 
 -- No sense in 'mandatorysince' for excluded symbols
-UPDATE cache_IntStatus SET SMmandatorysince='' WHERE AIwithdrawnin IS NOT NULL;
+        UPDATE cache_IntStatus SET SMmandatorysince='' WHERE AIwithdrawnin IS NOT NULL;
 
 -- Deprecation doesn't matter for withdrawn symbols
-UPDATE cache_IntStatus SET AIdeprecatedsince=NULL WHERE AIdeprecatedsince < AIwithdrawnin;
-UPDATE cache_IntStatus SET SMdeprecatedsince=NULL WHERE SMdeprecatedsince < AIwithdrawnin;
-UPDATE cache_IntStatus SET Ldeprecatedsince=NULL WHERE Ldeprecatedsince < AIwithdrawnin;
+        UPDATE cache_IntStatus SET AIdeprecatedsince=NULL WHERE AIdeprecatedsince < AIwithdrawnin;
+        UPDATE cache_IntStatus SET SMdeprecatedsince=NULL WHERE SMdeprecatedsince < AIwithdrawnin;
+        UPDATE cache_IntStatus SET Ldeprecatedsince=NULL WHERE Ldeprecatedsince < AIwithdrawnin;
 
 -- Though this could be considered as db inconsistency, this actually doesn't break anything else,
 -- so let's handle this here
-UPDATE cache_IntStatus SET AIdeprecatedsince=Ldeprecatedsince WHERE AIdeprecatedsince > Ldeprecatedsince OR AIdeprecatedsince IS NULL;
-UPDATE cache_IntStatus SET AIdeprecatedsince=SMdeprecatedsince WHERE AIdeprecatedsince > SMdeprecatedsince OR AIdeprecatedsince IS NULL;
+        UPDATE cache_IntStatus SET AIdeprecatedsince=Ldeprecatedsince WHERE AIdeprecatedsince > Ldeprecatedsince OR AIdeprecatedsince IS NULL;
+        UPDATE cache_IntStatus SET AIdeprecatedsince=SMdeprecatedsince WHERE AIdeprecatedsince > SMdeprecatedsince OR AIdeprecatedsince IS NULL;
 
-UPDATE cache_IntStatus SET AIappearedin='' WHERE AIdeprecatedsince IS NOT NULL OR SMdeprecatedsince IS NOT NULL OR Ldeprecatedsince IS NOT NULL;
-UPDATE cache_IntStatus SET ISstatus='Deprecated', ISstatustext=concat("Deprecated since ",AIdeprecatedsince) WHERE AIdeprecatedsince IS NOT NULL;
-UPDATE cache_IntStatus SET ISstatus='Withdrawn', ISstatustext=concat("Withdrawn in ",AIwithdrawnin) WHERE AIwithdrawnin IS NOT NULL;
-UPDATE cache_IntStatus SET ISstatus='Included', ISstatustext=concat("Included since ",AIappearedin) WHERE AIappearedin > '' AND SMmandatorysince > '';
-UPDATE cache_IntStatus SET ISstatus='Optional', ISstatustext=concat("Trial since ",AIappearedin) WHERE AIappearedin > '' AND SMmandatorysince='' AND AIwithdrawnin IS NULL;
+        UPDATE cache_IntStatus SET AIappearedin='' WHERE AIdeprecatedsince IS NOT NULL OR SMdeprecatedsince IS NOT NULL OR Ldeprecatedsince IS NOT NULL;
+        UPDATE cache_IntStatus SET ISstatus='Deprecated', ISstatustext=concat("Deprecated since ",AIdeprecatedsince) WHERE AIdeprecatedsince IS NOT NULL;
+        UPDATE cache_IntStatus SET ISstatus='Withdrawn', ISstatustext=concat("Withdrawn in ",AIwithdrawnin) WHERE AIwithdrawnin IS NOT NULL;
+        UPDATE cache_IntStatus SET ISstatus='Included', ISstatustext=concat("Included since ",AIappearedin) WHERE AIappearedin > '' AND SMmandatorysince > '';
+        UPDATE cache_IntStatus SET ISstatus='Optional', ISstatustext=concat("Trial since ",AIappearedin) WHERE AIappearedin > '' AND SMmandatorysince='' AND AIwithdrawnin IS NULL;
 
 -- Update those records that don't have ArchInt entries
-UPDATE cache_IntStatus SET ISstatus='Withdrawn', ISstatustext="Not in LSB" WHERE ISstatus<>'Withdrawn' AND (AIappearedin='' OR AIappearedin IS NULL) AND AIdeprecatedsince IS NULL;
+        UPDATE cache_IntStatus SET ISstatus='Withdrawn', ISstatustext="Not in LSB" WHERE ISstatus<>'Withdrawn' AND (AIappearedin='' OR AIappearedin IS NULL) AND AIdeprecatedsince IS NULL;
 
-ALTER TABLE cache_IntStatus ADD KEY `k_ArchStatus`(`AIarch`,`ISstatus`);
+        ALTER TABLE cache_IntStatus ADD KEY `k_ArchStatus`(`AIarch`,`ISstatus`);
 
 -- Some included interfaces can have generic and 7 arch-specific records
 -- (due to symbol versions); let's remove the generic one for such cases
 -- from the cache_IntStatus, but save them in the cache_ExtraGenericRecords
 -- (the case when the number of arch-specific records ge 1 but lesser than 7
 -- shouldbe considered as db inconsistency)
-CREATE TEMPORARY TABLE tmp_ArchSpecificInts
-(KEY `k_Iid`(`Iid`))
-SELECT Iid FROM cache_IntStatus
-WHERE AIarch>1 AND ISstatus <>'Withdrawn';
+        CREATE TEMPORARY TABLE tmp_ArchSpecificInts
+        (KEY `k_Iid`(`Iid`))
+        SELECT Iid FROM cache_IntStatus
+        WHERE AIarch>1 AND ISstatus <>'Withdrawn';
 
-DROP TABLE IF EXISTS cache_ExtraGenericRecords;
-CREATE TABLE cache_ExtraGenericRecords
-(KEY `k_Iid`(`Iid`))
-SELECT Iid, Iname, Ilibrary, AIversion, ISstatus, ISstatustext FROM cache_IntStatus
-JOIN tmp_ArchSpecificInts USING(Iid)
-WHERE AIarch=1 AND ISstatus <>'Withdrawn';
+        CREATE TABLE cache_ExtraGenericRecords
+        (KEY `k_Iid`(`Iid`))
+        SELECT Iid, Iname, Ilibrary, AIversion, ISstatus, ISstatustext FROM cache_IntStatus
+        JOIN tmp_ArchSpecificInts USING(Iid)
+        WHERE AIarch=1 AND ISstatus <>'Withdrawn';
 
-DELETE FROM cache_IntStatus WHERE Iid IN (
-  SELECT Iid FROM cache_ExtraGenericRecords
-) AND AIarch=1 AND ISstatus <> 'Withdrawn';
+        DELETE FROM cache_IntStatus WHERE Iid IN (
+          SELECT Iid FROM cache_ExtraGenericRecords
+        ) AND AIarch=1 AND ISstatus <> 'Withdrawn';
 
-CREATE TEMPORARY TABLE tmp_ExtraWithdrawnGenericRecords
-(KEY `k_Iid`(`Iid`))
-SELECT T1.Iid FROM cache_IntStatus T1, cache_IntStatus T2
-WHERE T1.AIarch=1 AND T2.AIarch>1
-AND T1.Iname=T2.Iname
-AND T1.Ilibrary=T2.Ilibrary
-AND T1.AIversion=T2.AIversion;
+        CREATE TEMPORARY TABLE tmp_ExtraWithdrawnGenericRecords
+        (KEY `k_Iid`(`Iid`))
+        SELECT T1.Iid FROM cache_IntStatus T1, cache_IntStatus T2
+        WHERE T1.AIarch=1 AND T2.AIarch>1
+        AND T1.Iname=T2.Iname
+        AND T1.Ilibrary=T2.Ilibrary
+        AND T1.AIversion=T2.AIversion;
 
-DELETE FROM cache_IntStatus WHERE Iid IN (
-  SELECT Iid FROM tmp_ExtraWithdrawnGenericRecords
-) AND AIarch=1;
+        DELETE FROM cache_IntStatus WHERE Iid IN (
+          SELECT Iid FROM tmp_ExtraWithdrawnGenericRecords
+        ) AND AIarch=1;
 
 -- These fields are not required during table usage
-ALTER TABLE cache_IntStatus DROP AIappearedin;
-ALTER TABLE cache_IntStatus DROP AIwithdrawnin;
-ALTER TABLE cache_IntStatus DROP AIdeprecatedsince;
-ALTER TABLE cache_IntStatus DROP Ldeprecatedsince;
-ALTER TABLE cache_IntStatus DROP SMdeprecatedsince;
-ALTER TABLE cache_IntStatus DROP SMmandatorysince;
-ALTER TABLE cache_IntStatus DROP Iid;
+        ALTER TABLE cache_IntStatus DROP AIappearedin;
+        ALTER TABLE cache_IntStatus DROP AIwithdrawnin;
+        ALTER TABLE cache_IntStatus DROP AIdeprecatedsince;
+        ALTER TABLE cache_IntStatus DROP Ldeprecatedsince;
+        ALTER TABLE cache_IntStatus DROP SMdeprecatedsince;
+        ALTER TABLE cache_IntStatus DROP SMmandatorysince;
+        ALTER TABLE cache_IntStatus DROP Iid;
+END
+//
+
+delimiter ;
+
+-- We should drop tables here, since some MySQL versions fail 
+-- to drop them inside stored procedure
+DROP TABLE IF EXISTS cache_IntStatus;
+DROP TABLE IF EXISTS cache_ExtraGenericRecords;
+CALL regen_cache_IntStatus ();
 
 -- // Finished with cache_IntStatus
 
@@ -342,4 +375,4 @@ END
 delimiter ;
 
 -- CALL split_cache_RIntCaseInsensitiveNames();
-DROP PROCEDURE IF EXISTS split_cache_RIntCaseInsensitiveNames;
+-- DROP PROCEDURE IF EXISTS split_cache_RIntCaseInsensitiveNames;

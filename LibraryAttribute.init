@@ -1,8 +1,8 @@
-INSERT INTO `LibraryAttribute` VALUES (1,'libgtk-1.2.so.0','libgtk','Rejection','GTK 1.2 is old and not supported. Use <lib libgtk-x11-2.0>GTK 2</lib> instead.');
-INSERT INTO `LibraryAttribute` VALUES (2,'libgtkmm-1.2.so.0','libgtkmm','Rejection','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
-INSERT INTO `LibraryAttribute` VALUES (3,'libgdk-1.2.so.0','libgdk','Rejection','GTK 1.2 is old and not supported. Use <lib libgdk-x11-2.0>GTK 2</lib> instead.');
-INSERT INTO `LibraryAttribute` VALUES (4,'libgdkmm-1.2.so.0','libgdkmm','Rejection','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
-INSERT INTO `LibraryAttribute` VALUES (5,'libglib-1.2.so.0','libglib','Rejection','GTK 1.2 is old and not supported. Use <lib libglib-2.0>GTK 2</lib> instead.');
+INSERT INTO `LibraryAttribute` VALUES (1,'libgtk-1.2.so.0','libgtk','Rejection_soname','GTK 1.2 is old and not supported. Use <lib libgtk-x11-2.0>GTK 2</lib> instead.');
+INSERT INTO `LibraryAttribute` VALUES (2,'libgtkmm-1.2.so.0','libgtkmm','Rejection_soname','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
+INSERT INTO `LibraryAttribute` VALUES (3,'libgdk-1.2.so.0','libgdk','Rejection_soname','GTK 1.2 is old and not supported. Use <lib libgdk-x11-2.0>GTK 2</lib> instead.');
+INSERT INTO `LibraryAttribute` VALUES (4,'libgdkmm-1.2.so.0','libgdkmm','Rejection_soname','GTK 1.2 is old and not supported. This library is not a candidate for LSB.');
+INSERT INTO `LibraryAttribute` VALUES (5,'libglib-1.2.so.0','libglib','Rejection_soname','GTK 1.2 is old and not supported. Use <lib libglib-2.0>GTK 2</lib> instead.');
 INSERT INTO `LibraryAttribute` VALUES (6,'libmp3lame.so.0','libmp3lame','Recommendation','mp3 libraries are not provided by default installations of most distributions due to licensing issues. Alternatives such as Ogg Vorbis are provided instead.');
 INSERT INTO `LibraryAttribute` VALUES (7,'libtermcap.so.2','libtermcap','Rejection','libtermcap is obsolete. Use <lib libncurses>ncurses</lib> instead.');
 INSERT INTO `LibraryAttribute` VALUES (8,'libfltk_gl.so.1.1','libfltk_gl','Recommendation','FLTK was designed to be statically linked, and its license allows to distribute a closed-source program statically linked with FLTK provided that FLTK itself is not modified.');
@@ -28,3 +28,4 @@ INSERT INTO `LibraryAttribute` VALUES (27,'libcrypto.so.0.9.7','libcrypto','Reco
 INSERT INTO `LibraryAttribute` VALUES (28,'libcrypto.so.0.9.6','libcrypto','Recommendation','ABI of the OpenSSL libraries is not stable. To achieve portable application, please consider using stable SSL/TLS implementation, such as Mozilla NSS. If you only need libcrypto functionality, you can consider shipping this library with your application.');
 INSERT INTO `LibraryAttribute` VALUES (29,'libcrypto.so.8','libcrypto','Recommendation','ABI of the OpenSSL libraries is not stable. To achieve portable application, please consider using stable SSL/TLS implementation, such as Mozilla NSS. If you only need libcrypto functionality, you can consider shipping this library with your application.');
 INSERT INTO `LibraryAttribute` VALUES (30,'libart_lgpl_2.so.2','libart_lgpl_2','Recommendation','This library is obsolete. Modern applications are supposed to use <lib libcairo>Cairo</lib> instead.');
+INSERT INTO `LibraryAttribute` VALUES (31,'libstdc++.so.5','libstdcxx','Rejection_soname','libstdc++.so 5 is obsolete, applications should use <lib libstdcxx>libstdc++.so.6</lib> instead.');
