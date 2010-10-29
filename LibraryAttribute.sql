@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
+-- MySQL dump 10.10
 --
--- Host: localhost    Database: lsb
+-- Host: db2.linux-foundation.org    Database: lsb
 -- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -20,16 +20,16 @@
 
 DROP TABLE IF EXISTS `LibraryAttribute`;
 CREATE TABLE `LibraryAttribute` (
-  `LAid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `LAid` int(10) unsigned NOT NULL auto_increment,
   `LAsoname` varchar(750) NOT NULL,
-  `LAlibname` varchar(200) NOT NULL DEFAULT '',
-  `LAtype` enum('Recommendation','StaticLinkage','Rejection','Rejection_soname','Custom') NOT NULL DEFAULT 'Custom',
+  `LAlibname` varchar(200) NOT NULL default '',
+  `LAtype` enum('Recommendation','StaticLinkage','Rejection','Rejection_soname','Custom') NOT NULL default 'Custom',
   `LAvalue` text NOT NULL,
-  PRIMARY KEY (`LAid`),
+  PRIMARY KEY  (`LAid`),
   KEY `k_LAsoname` (`LAsoname`,`LAtype`),
   KEY `k_LAlibname` (`LAlibname`,`LAtype`),
   KEY `k_IAtype` (`LAtype`)
-) ENGINE=MyISAM AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -40,4 +40,3 @@ CREATE TABLE `LibraryAttribute` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-09-28 16:29:18
