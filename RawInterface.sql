@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,18 +20,18 @@
 
 DROP TABLE IF EXISTS `RawInterface`;
 CREATE TABLE `RawInterface` (
-  `RIid` int(10) unsigned NOT NULL auto_increment,
-  `RIname` varchar(750) character set latin1 collate latin1_bin NOT NULL default '',
+  `RIid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `RIname` varchar(750) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
   `RIunmangled` text,
-  `RIversion` varchar(50) character set latin1 collate latin1_bin NOT NULL default '',
-  `RIlibrary` varchar(200) character set latin1 collate latin1_bin NOT NULL default '',
-  `RIrcid` int(10) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`RIid`),
+  `RIversion` varchar(50) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
+  `RIlibrary` varchar(200) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
+  `RIrcid` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`RIid`),
   UNIQUE KEY `k_RIname` (`RIname`,`RIlibrary`,`RIversion`),
-  KEY `k_Class` (`RIrcid`,`RIname`),
   KEY `k_Library` (`RIlibrary`),
-  KEY `k_RIunmangled` (`RIunmangled`(1000))
-) ENGINE=MyISAM AUTO_INCREMENT=4046131 DEFAULT CHARSET=latin1;
+  KEY `k_RIunmangled` (`RIunmangled`(1000)),
+  KEY `k_Class` (`RIrcid`)
+) ENGINE=MyISAM AUTO_INCREMENT=4081648 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,4 +42,4 @@ CREATE TABLE `RawInterface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:36:48
+-- Dump completed on 2010-10-26 17:31:17

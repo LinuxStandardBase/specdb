@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -20,12 +20,10 @@
 
 DROP TABLE IF EXISTS `AppJInt`;
 CREATE TABLE `AppJInt` (
-  `AJIaid` int(10) unsigned NOT NULL default '0',
-  `AJIjiid` int(10) unsigned NOT NULL default '0',
-  `AJIcomment` text,
-  PRIMARY KEY  (`AJIaid`,`AJIjiid`),
-  KEY `k_JIid` (`AJIjiid`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+  `AJIjcompid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `AJIjiid` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`AJIjcompid`,`AJIjiid`)
+) ENGINE=MyISAM AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -36,4 +34,4 @@ CREATE TABLE `AppJInt` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:28:44
+-- Dump completed on 2010-10-26 17:28:45

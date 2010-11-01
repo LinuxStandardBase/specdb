@@ -15,27 +15,16 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `RawLibrary`
+-- Table structure for table `RawLibSoname`
 --
 
-DROP TABLE IF EXISTS `RawLibrary`;
-CREATE TABLE `RawLibrary` (
-  `RLid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `RLname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL,
-  `RLrunname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `RLpath` varchar(255) NOT NULL DEFAULT '',
-  `RLversion` varchar(255) NOT NULL DEFAULT '',
-  `RLcomponent` int(10) unsigned NOT NULL DEFAULT '0',
-  `RLsoname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `RLabitag` varchar(255) NOT NULL DEFAULT '',
-  `RLarch` int(2) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`RLid`),
-  UNIQUE KEY `k_RLrunname` (`RLrunname`,`RLpath`,`RLcomponent`,`RLarch`),
-  KEY `k_RLname` (`RLname`,`RLsoname`),
-  KEY `k_RLcomponent` (`RLcomponent`),
-  KEY `k_RLsoname` (`RLsoname`),
-  KEY `k_RLarch` (`RLarch`)
-) ENGINE=MyISAM AUTO_INCREMENT=660904 DEFAULT CHARSET=latin1;
+DROP TABLE IF EXISTS `RawLibSoname`;
+CREATE TABLE `RawLibSoname` (
+  `RLSid` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `RLSsoname` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`RLSid`),
+  UNIQUE KEY `k_RLSsoname` (`RLSsoname`)
+) ENGINE=MyISAM AUTO_INCREMENT=13980 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

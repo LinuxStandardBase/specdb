@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -15,16 +15,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `AppCertification`
+-- Table structure for table `JClassToJInterface`
 --
 
-DROP TABLE IF EXISTS `AppCertification`;
-CREATE TABLE `AppCertification` (
-  `ACaid` int(10) unsigned NOT NULL default '0',
-  `AClsbversion` varchar(255) NOT NULL default '',
-  `ACdate` date NOT NULL,
-  `ACstatus` enum('Certified','Compliant','Unknown') default 'Unknown',
-  PRIMARY KEY  (`ACaid`,`AClsbversion`)
+DROP TABLE IF EXISTS `JClassToJInterface`;
+CREATE TABLE `JClassToJInterface` (
+  `JCid` int(10) unsigned NOT NULL,
+  `JIid` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`JCid`,`JIid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -36,4 +34,4 @@ CREATE TABLE `AppCertification` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-04-03 10:31:52
+-- Dump completed on 2010-10-26 17:29:02

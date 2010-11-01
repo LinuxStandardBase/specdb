@@ -15,27 +15,15 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `RawLibrary`
+-- Table structure for table `CompatSymbol`
 --
 
-DROP TABLE IF EXISTS `RawLibrary`;
-CREATE TABLE `RawLibrary` (
-  `RLid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `RLname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL,
-  `RLrunname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `RLpath` varchar(255) NOT NULL DEFAULT '',
-  `RLversion` varchar(255) NOT NULL DEFAULT '',
-  `RLcomponent` int(10) unsigned NOT NULL DEFAULT '0',
-  `RLsoname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `RLabitag` varchar(255) NOT NULL DEFAULT '',
-  `RLarch` int(2) unsigned NOT NULL DEFAULT '0',
-  PRIMARY KEY (`RLid`),
-  UNIQUE KEY `k_RLrunname` (`RLrunname`,`RLpath`,`RLcomponent`,`RLarch`),
-  KEY `k_RLname` (`RLname`,`RLsoname`),
-  KEY `k_RLcomponent` (`RLcomponent`),
-  KEY `k_RLsoname` (`RLsoname`),
-  KEY `k_RLarch` (`RLarch`)
-) ENGINE=MyISAM AUTO_INCREMENT=660904 DEFAULT CHARSET=latin1;
+DROP TABLE IF EXISTS `CompatSymbol`;
+CREATE TABLE `CompatSymbol` (
+  `CSrlid` int(10) unsigned NOT NULL DEFAULT '0',
+  `CSriid` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`CSrlid`,`CSriid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -46,4 +34,4 @@ CREATE TABLE `RawLibrary` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-10-26 17:31:32
+-- Dump completed on 2010-10-26 17:28:54

@@ -1,4 +1,4 @@
--- MySQL dump 10.11
+-- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: lsb
 -- ------------------------------------------------------
@@ -15,18 +15,15 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `Journal`
+-- Table structure for table `CompRequires`
 --
 
-DROP TABLE IF EXISTS `Journal`;
-CREATE TABLE `Journal` (
-  `Jid` int(10) unsigned NOT NULL auto_increment,
-  `Jdistr` varchar(255) NOT NULL default '',
-  `Jdate` date NOT NULL default '0000-00-00',
-  `Jdescription` varchar(255) default NULL,
-  `Jjournal` longtext NOT NULL,
-  PRIMARY KEY  (`Jid`),
-  UNIQUE KEY `k_Dname` (`Jdistr`,`Jdate`)
+DROP TABLE IF EXISTS `CompRequires`;
+CREATE TABLE `CompRequires` (
+  `CRcid` int(10) unsigned NOT NULL DEFAULT '0',
+  `CRdependency` varchar(990) NOT NULL DEFAULT '',
+  PRIMARY KEY (`CRcid`,`CRdependency`),
+  KEY `k_Dep` (`CRdependency`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -38,4 +35,4 @@ CREATE TABLE `Journal` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2008-06-23  5:44:23
+-- Dump completed on 2010-10-26 17:28:54
