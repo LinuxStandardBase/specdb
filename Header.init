@@ -1109,7 +1109,7 @@ INSERT INTO `Header` VALUES (1135,'glib-2.0/glib/gfileutils.h',242,'No',NULL,'',
 INSERT INTO `Header` VALUES (1136,'glib-2.0/glib/ghash.h',242,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1137,'glib-2.0/glib/ghook.h',242,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1138,'glib-2.0/glib/gi18n-lib.h',242,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1139,'glib-2.0/glib/gi18n.h',242,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1139,'glib-2.0/glib/gi18n.h',242,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (1140,'glib-2.0/glib/giochannel.h',242,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1141,'glib-2.0/glib/gkeyfile.h',242,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1142,'glib-2.0/glib/glist.h',242,'No',NULL,'',NULL);
@@ -1394,7 +1394,7 @@ INSERT INTO `Header` VALUES (1420,'pango-1.0/pango/pangoxft-render.h',248,'No',N
 INSERT INTO `Header` VALUES (1421,'X11/cursorfont.h',10,'No',NULL,'4.0',NULL);
 INSERT INTO `Header` VALUES (1422,'cups/ipp.h',269,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1423,'cups/http.h',269,'No',NULL,'4.1',NULL);
-INSERT INTO `Header` VALUES (1424,'zconf.h',127,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1424,'zconf.h',127,'No',NULL,'3.0',NULL);
 INSERT INTO `Header` VALUES (1432,'sys/sysinfo.h',131,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1431,'elf.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (1430,'link.h',131,'No',NULL,'4.1',NULL);
