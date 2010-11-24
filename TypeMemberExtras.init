@@ -29704,3 +29704,16 @@ INSERT INTO `TypeMemberExtras` VALUES (1,215659,0,0,'Yes','#if defined(__cpluspl
 INSERT INTO `TypeMemberExtras` VALUES (1,217632,0,0,'No','#if defined(__cplusplus) || defined(c_plusplus)\nunsigned char *c_explicit;\n#else\nunsigned char *explicit;\n#endif');
 INSERT INTO `TypeMemberExtras` VALUES (1,86464,0,0,'Yes',NULL);
 INSERT INTO `TypeMemberExtras` VALUES (1,216804,0,0,'No','#if defined(__cplusplus) || defined(c_plusplus)\n char *c_class;\n#else\nchar *class;\n#endif');
+INSERT INTO `TypeMemberExtras` VALUES (1,220385,24,8,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220386,8,32,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220387,8,40,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220388,8,48,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220389,8,56,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220390,8,64,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220391,8,72,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220392,2,80,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220393,2,82,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220394,8,88,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220395,8,96,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220396,4,104,'No',NULL);
+INSERT INTO `TypeMemberExtras` VALUES (1,220397,0,108,'No',NULL);
