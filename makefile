@@ -6,7 +6,7 @@
 #
 
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
-DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE
+DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE --skip-dump-date
 # Add '--local-infile' here if there are any problems with direct access to files
 FILEOPTS=
 
