@@ -34,6 +34,7 @@ CREATE TABLE `InterpretedLanguageModule` (
   `ILMappearedin` varchar(5) NOT NULL,
   `ILMwithdrawnin` varchar(5) default NULL,
   `ILMurl` varchar(255) default NULL,
+  `ILMdeprecatedsince` varchar(5) default NULL,
   PRIMARY KEY  (`ILMid`),
   UNIQUE KEY `k_ILMname` (`ILMlanguage`,`ILMname`,`ILMappearedin`),
   KEY `k_ILMstandard` (`ILMstandard`),
