@@ -26,7 +26,7 @@ INSERT INTO `InterpretedLanguageModule` VALUES (25,'CGI::Cookie','',1,127,'3.2',
 INSERT INTO `InterpretedLanguageModule` VALUES (26,'CGI::Fast','',1,127,'',NULL,'CGI/Fast.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (27,'CGI::Pretty','',1,127,'3.2',NULL,'CGI/Pretty.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (28,'CGI::Push','',1,127,'3.2',NULL,'CGI/Push.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (29,'CGI::Switch','',1,127,'3.2',NULL,'CGI/Switch.html',NULL);
+INSERT INTO `InterpretedLanguageModule` VALUES (29,'CGI::Switch','',1,127,'3.2',NULL,'CGI/Switch.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (30,'CGI::Util','',1,127,'3.2',NULL,'CGI/Util.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (31,'CPAN','',1,127,'3.2',NULL,'CPAN.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (32,'CPAN::FirstTime','',1,127,'3.2',NULL,'CPAN/FirstTime.html',NULL);
