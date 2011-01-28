@@ -4939,10 +4939,7 @@ INSERT INTO `Constant` VALUES (4950,'POLLOUT','int',430,'Writing now will not bl
 INSERT INTO `Constant` VALUES (4951,'POLLERR','int',430,'Error condition',NULL);
 INSERT INTO `Constant` VALUES (4952,'POLLHUP','int',430,'Hung up',NULL);
 INSERT INTO `Constant` VALUES (4953,'POLLNVAL','int',430,'Invalid request: fd not open',NULL);
-INSERT INTO `Constant` VALUES (4954,'lstat(path,buf)','macro',52,'',NULL);
 INSERT INTO `Constant` VALUES (4955,'_STAT_VER','int',52,'',NULL);
-INSERT INTO `Constant` VALUES (4956,'fstat(fd,buf)','macro',52,'',NULL);
-INSERT INTO `Constant` VALUES (4957,'stat(path,buf)','macro',52,'',NULL);
 INSERT INTO `Constant` VALUES (4958,'PTHREAD_MUTEX_TIMED_NP','int',33,'',NULL);
 INSERT INTO `Constant` VALUES (4959,'__LOCK_INITIALIZER','literal',33,'',NULL);
 INSERT INTO `Constant` VALUES (4960,'UT_LINESIZE','int',433,'',NULL);
