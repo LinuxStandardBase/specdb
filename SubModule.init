@@ -13,3 +13,4 @@ INSERT INTO `SubModule` VALUES (12,'LSB_Perl','LSB Perl Module','3.2',NULL);
 INSERT INTO `SubModule` VALUES (13,'LSB_Multimedia','LSB Multimedia Module','4.1',NULL);
 INSERT INTO `SubModule` VALUES (14,'LSB_Security','LSB Security Module','4.1',NULL);
 INSERT INTO `SubModule` VALUES (15,'LSB_Java','LSB Java Module','',NULL);
+INSERT INTO `SubModule` VALUES (16,'LSB_Desktop_Misc','LSB Desktop Miscellaeous','4.1',NULL);
