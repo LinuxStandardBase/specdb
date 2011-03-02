@@ -18821,3 +18821,12 @@ INSERT INTO `Constant` VALUES (20658,'cairo/cairo.h depends on cairo/cairo-featu
 INSERT INTO `Constant` VALUES (20659,'EOWNERDEAD','int',144,'',NULL);
 INSERT INTO `Constant` VALUES (20660,'ENOTRECOVERABLE','int',144,'',NULL);
 INSERT INTO `Constant` VALUES (20661,'X11/extensions/XKBstr.h depends on X11/extensions/XKB.h','header_depend',1505,'',NULL);
+INSERT INTO `Constant` VALUES (20662,'DT_FLAGS','int',1556,'',NULL);
+INSERT INTO `Constant` VALUES (20663,'DT_ENCODING','int',1556,'',NULL);
+INSERT INTO `Constant` VALUES (20664,'DT_PREINIT_ARRAY','int',1556,'',NULL);
+INSERT INTO `Constant` VALUES (20665,'DT_PREINIT_ARRAYSZ','int',1556,'',NULL);
+INSERT INTO `Constant` VALUES (20666,'DF_ORIGIN','int',1556,'Object may use DF_ORIGIN',NULL);
+INSERT INTO `Constant` VALUES (20667,'DF_SYMBOLIC','int',1556,'Symbol resolutions start with this object',NULL);
+INSERT INTO `Constant` VALUES (20668,'DF_TEXTREL','int',1556,'Object contains text relocations',NULL);
+INSERT INTO `Constant` VALUES (20669,'DF_BIND_NOW','int',1556,'No lazy binding for this object',NULL);
+INSERT INTO `Constant` VALUES (20670,'DF_STATIC_TLS','int',1556,'Module uses the static TLS model',NULL);
