@@ -30,8 +30,8 @@ BEGIN
 	AND tmp_DistrCompContent.class_cnt=tmp_OtherCompContent.class_cnt
 	AND tmp_DistrCompContent.int_cnt=tmp_OtherCompContent.int_cnt
 	AND tmp_DistrCompContent.rilm_cnt=tmp_OtherCompContent.rilm_cnt
-	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt
-	AND tmp_DistrCompContent.jint_cnt=tmp_OtherCompContent.jint_cnt;
+	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt;
+--	AND tmp_DistrCompContent.jint_cnt=tmp_OtherCompContent.jint_cnt;
 
     DECLARE result_cur CURSOR FOR SELECT tmp_FoundAlias.Cid1, tmp_FoundAlias.Cid2 FROM tmp_FoundAlias;
 
@@ -84,22 +84,21 @@ BEGIN
         SELECT CRMcid AS Cid, COUNT(CRMrilmid) AS rilm_cnt FROM CompRILM
         GROUP BY Cid;
 
-    DROP TABLE IF EXISTS tmp_Jints;
-    CREATE TEMPORARY TABLE tmp_Jints 
-        (KEY Cid(Cid))
-        SELECT CJIcid AS Cid, COUNT(CJIjiid) AS jint_cnt FROM CompJInt
-        GROUP BY Cid;
+--    DROP TABLE IF EXISTS tmp_Jints;
+--    CREATE TEMPORARY TABLE tmp_Jints 
+--        (KEY Cid(Cid))
+--        SELECT CJIcid AS Cid, COUNT(CJIjiid) AS jint_cnt FROM CompJInt
+--        GROUP BY Cid;
 
 -- Components from the distribution being processd
     DROP TABLE IF EXISTS tmp_DistrCompContent;
     SET @stmt_text = CONCAT("CREATE TEMPORARY TABLE tmp_DistrCompContent 
-        (KEY Cid(lib_cnt,class_cnt,int_cnt,rilm_cnt,cmd_cnt, jint_cnt, Cid))
-        SELECT lib_cnt, class_cnt, int_cnt, rilm_cnt, cmd_cnt, jint_cnt, Cid FROM Component
+        (KEY Cid(lib_cnt,class_cnt,int_cnt,rilm_cnt,cmd_cnt, Cid))
+        SELECT lib_cnt, class_cnt, int_cnt, rilm_cnt, cmd_cnt, Cid FROM Component
         LEFT JOIN tmp_Cmds USING(Cid)
         LEFT JOIN tmp_Classes USING(Cid)
         LEFT JOIN tmp_Ints USING(Cid)
         LEFT JOIN tmp_RILMs USING(Cid)
-        LEFT JOIN tmp_Jints USING(Cid)
         WHERE Cdistr=", Did,
         " AND Calias=0
         ");
@@ -109,13 +108,12 @@ BEGIN
 -- Components from the other distributions
     DROP TABLE IF EXISTS tmp_OtherCompContent;
     SET @stmt_text = CONCAT("CREATE TEMPORARY TABLE tmp_OtherCompContent 
-        (KEY Cid(lib_cnt,class_cnt,int_cnt,rilm_cnt,cmd_cnt, jint_cnt, Cid))
-        SELECT lib_cnt, class_cnt, int_cnt, rilm_cnt, cmd_cnt, jint_cnt, Cid FROM Component
+        (KEY Cid(lib_cnt,class_cnt,int_cnt,rilm_cnt,cmd_cnt, Cid))
+        SELECT lib_cnt, class_cnt, int_cnt, rilm_cnt, cmd_cnt, Cid FROM Component
         LEFT JOIN tmp_Cmds USING(Cid)
         LEFT JOIN tmp_Classes USING(Cid)
         LEFT JOIN tmp_Ints USING(Cid)
         LEFT JOIN tmp_RILMs USING(Cid)
-        LEFT JOIN tmp_Jints USING(Cid)
         WHERE Cdistr!=", Did,
         " AND Calias=0
         ");
@@ -131,12 +129,12 @@ BEGIN
     UPDATE tmp_OtherCompContent SET class_cnt=0 WHERE class_cnt IS NULL;
     UPDATE tmp_OtherCompContent SET int_cnt=0 WHERE int_cnt IS NULL;
     UPDATE tmp_OtherCompContent SET rilm_cnt=0 WHERE rilm_cnt IS NULL;
-    UPDATE tmp_OtherCompContent SET jint_cnt=0 WHERE jint_cnt IS NULL;
+--    UPDATE tmp_OtherCompContent SET jint_cnt=0 WHERE jint_cnt IS NULL;
     UPDATE tmp_DistrCompContent SET lib_cnt=0 WHERE lib_cnt IS NULL;
     UPDATE tmp_DistrCompContent SET cmd_cnt=0 WHERE cmd_cnt IS NULL;
     UPDATE tmp_DistrCompContent SET class_cnt=0 WHERE class_cnt IS NULL;
     UPDATE tmp_DistrCompContent SET int_cnt=0 WHERE int_cnt IS NULL;
-    UPDATE tmp_DistrCompContent SET jint_cnt=0 WHERE jint_cnt IS NULL;
+--    UPDATE tmp_DistrCompContent SET jint_cnt=0 WHERE jint_cnt IS NULL;
     UPDATE tmp_DistrCompContent SET rilm_cnt=0 WHERE rilm_cnt IS NULL;
 
 -- tmp_AliasCandidates will contain pairs of alias candidates Cids.
@@ -152,8 +150,8 @@ BEGIN
 	AND tmp_DistrCompContent.class_cnt=tmp_OtherCompContent.class_cnt
 	AND tmp_DistrCompContent.int_cnt=tmp_OtherCompContent.int_cnt
 	AND tmp_DistrCompContent.rilm_cnt=tmp_OtherCompContent.rilm_cnt
-	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt
-	AND tmp_DistrCompContent.jint_cnt=tmp_OtherCompContent.jint_cnt;
+	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt;
+--	AND tmp_DistrCompContent.jint_cnt=tmp_OtherCompContent.jint_cnt;
     
 -- tmp_BrokenAlias will contain (Cid1, Cid2) pairs that are proved
 -- not to be aliases.
@@ -315,29 +313,29 @@ main_loop:
 	EXECUTE stmt;
 
 -- 4) Check if components have the same set of JInts
-	SET @stmt_text = CONCAT("INSERT IGNORE INTO tmp_BrokenAlias
-		SELECT ", Cid1, ",", Cid2, "
-		FROM CompJInt C1 WHERE C1.CJIcid = ", Cid1, "
-		AND NOT EXISTS (
-		    SELECT 1 FROM CompJInt C2 
-		    WHERE C2.CJIcid = ", Cid2, "
-		    AND C2.CJIjiid=C1.CJIjiid
-		)
-		LIMIT 1");
-        PREPARE stmt FROM @stmt_text;
-	EXECUTE stmt;
+--	SET @stmt_text = CONCAT("INSERT IGNORE INTO tmp_BrokenAlias
+--			SELECT ", Cid1, ",", Cid2, "
+--			FROM CompJInt C1 WHERE C1.CJIcid = ", Cid1, "
+--			AND NOT EXISTS (
+--			    SELECT 1 FROM CompJInt C2 
+--			    WHERE C2.CJIcid = ", Cid2, "
+--			    AND C2.CJIjiid=C1.CJIjiid
+--			)
+--			LIMIT 1");
+--	        PREPARE stmt FROM @stmt_text;
+--		EXECUTE stmt;
 
-	SET @stmt_text = CONCAT("INSERT IGNORE INTO tmp_BrokenAlias
-		SELECT ", Cid1, ",", Cid2, "
-		FROM CompJInt C1 WHERE C1.CJIcid = ", Cid2, "
-		AND NOT EXISTS (
-		    SELECT 1 FROM CompJInt C2 
-		    WHERE C2.CJIcid = ", Cid1, "
-		    AND C2.CJIjiid=C1.CJIjiid
-		)
-		LIMIT 1");
-        PREPARE stmt FROM @stmt_text;
-	EXECUTE stmt;
+--		SET @stmt_text = CONCAT("INSERT IGNORE INTO tmp_BrokenAlias
+--			SELECT ", Cid1, ",", Cid2, "
+--			FROM CompJInt C1 WHERE C1.CJIcid = ", Cid2, "
+--			AND NOT EXISTS (
+--			    SELECT 1 FROM CompJInt C2 
+--			    WHERE C2.CJIcid = ", Cid1, "
+--			    AND C2.CJIjiid=C1.CJIjiid
+--			)
+--			LIMIT 1");
+--	        PREPARE stmt FROM @stmt_text;
+--		EXECUTE stmt;
 
 -- INSERT INTO tmp_ProcStatus (status) VALUES ("All comparisons are finished, proceed with the next pair");
 
@@ -522,7 +520,7 @@ lib_loop:
     	    DELETE FROM RawLibrary WHERE RLcomponent = Cid1;
     	    DELETE FROM RawCommand WHERE RCcomponent = Cid1;
     	    DELETE FROM CompRILM WHERE CRMcid = Cid1;
-	    DELETE FROM CompJInt WHERE CJIcid = Cid1;
+--		    DELETE FROM CompJInt WHERE CJIcid = Cid1;
 	END IF;
     UNTIL done END REPEAT;
     CLOSE result_cur;
