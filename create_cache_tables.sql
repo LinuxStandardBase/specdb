@@ -4,8 +4,7 @@ DROP TABLE IF EXISTS `cache_Component`;
 CREATE TABLE `cache_Component`
     (KEY `k_Cid` (`Cid`), KEY `k_Carch` (`Carch`), KEY `k_Cdistr` (`Cdistr`,`Carch`))
     SELECT IF(Calias > 0, Calias, Cid) AS Cid, Cid AS Crealcid, Carch, Cname, Cversion, Cdistr, Cpackages
-    FROM Component
-    LEFT JOIN Distribution ON Did=Cdistr;
+    FROM Component;
 
 -- Table with RLid, RLsoname and Cdistr for every RLSid
 -- (that is, this table says us how every soname is satisfied in distributions)
