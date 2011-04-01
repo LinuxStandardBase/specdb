@@ -14,3 +14,10 @@
 4.1	Fedora	12
 4.1	Oracle Enterprise Linux	5.3
 4.1	Debian	5.0
+5.0	SLES	11 SP1
+5.0	RHEL	6
+5.0	Oracle Linux	6
+5.0	Ubuntu	10.04
+5.0	Debian	6.0
+5.0	openSUSE	11.4
+5.0	Fedora	14
