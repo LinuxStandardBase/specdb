@@ -22119,3 +22119,4 @@ INSERT INTO `Type` VALUES (40429,'char[20-2*sizeof(long)-sizeof(int)]','Array',0
 INSERT INTO `Type` VALUES (40430,'__ptrace_request','Enum',1558,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40432,'__ptrace_setoptions','Enum',1558,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (40433,'__ptrace_eventcodes','Enum',1558,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (40434,'ipp_status_t','Typedef',1291,'','No','No','No',NULL,0,0,'libcups',0);
