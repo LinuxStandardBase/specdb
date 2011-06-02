@@ -516,6 +516,7 @@ lib_loop:
     	    DELETE FROM RawLibrary WHERE RLcomponent = Cid1;
     	    DELETE FROM RawCommand WHERE RCcomponent = Cid1;
     	    DELETE FROM CompRILM WHERE CRMcid = Cid1;
+    	    DELETE FROM CompLDpath WHERE CLDcid = Cid1;
 --		    DELETE FROM CompJInt WHERE CJIcid = Cid1;
 	END IF;
     UNTIL done END REPEAT;
