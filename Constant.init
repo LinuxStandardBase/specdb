@@ -18830,3 +18830,4 @@ INSERT INTO `Constant` VALUES (20667,'DF_SYMBOLIC','int',1556,'Symbol resolution
 INSERT INTO `Constant` VALUES (20668,'DF_TEXTREL','int',1556,'Object contains text relocations',NULL);
 INSERT INTO `Constant` VALUES (20669,'DF_BIND_NOW','int',1556,'No lazy binding for this object',NULL);
 INSERT INTO `Constant` VALUES (20670,'DF_STATIC_TLS','int',1556,'Module uses the static TLS model',NULL);
+INSERT INTO `Constant` VALUES (20671,'IOV_MAX','int',26,'',NULL);
