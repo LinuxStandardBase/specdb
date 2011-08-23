@@ -28,7 +28,7 @@ DROP TABLE IF EXISTS `Constant`;
 CREATE TABLE `Constant` (
   `Cid` int(10) unsigned NOT NULL auto_increment,
   `Cname` varchar(255) character set latin1 collate latin1_bin NOT NULL default '',
-  `Ctype` enum('int','long','float','double','longdouble','string','macro','accessor','protector','flag','literal','Unknown','header_depend') NOT NULL default 'Unknown',
+  `Ctype` enum('int','long','float','double','longdouble','string','macro','accessor','protector','flag','literal','Unknown','header_depend','version') NOT NULL default 'Unknown',
   `Cheadgroup` int(10) unsigned NOT NULL default '0',
   `Cdescription` varchar(255) NOT NULL default '',
   `Ccandidatefor` varchar(255) default NULL,

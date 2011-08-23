@@ -14241,17 +14241,14 @@ INSERT INTO `Type` VALUES (32549,'fake_PKIX_PL_CertStruct','Struct',0,'','No','N
 INSERT INTO `Type` VALUES (32550,'anon-enum-117601','Enum',1414,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32551,'PKIX_PL_LdapDefaultClient','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32552,'anon-union-118184','Union',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32553,'void (*)(link_map *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32554,'NSSToken **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32555,'nssHashStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32556,'allowmask','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32557,'PK11PreSlotInfo *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32558,'ScopeType','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32559,'int (*)(pthread_cond_t *, pthread_mutex_t *, const timespec *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32560,'const Elf_Symndx','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (39337,'const XtConvertArgRec','Const',293,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (32561,'CERTSubjectNode *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32562,'void (*)(int, const char *, const char *, const char *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32563,'La_s390_64_regs *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32564,'CK_C_Verify','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32565,'NSSUTF8 **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14398,10 +14395,8 @@ INSERT INTO `Type` VALUES (32705,'CK_RV (*)(CK_SLOT_ID, CK_TOKEN_INFO_PTR)','Fun
 INSERT INTO `Type` VALUES (32706,'PKIX_PL_CertNameConstraints *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32707,'const La_sparc32_regs','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32708,'PKIX_PL_CertPolicyMap','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32709,'int (*)(pthread_attr_t *, const sched_param *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32710,'anon-enum-558119','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32711,'NSSTime','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32712,'int (*)(const void *, allowmask)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32713,'const hash_entry *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32714,'PKIX_PL_Object','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32715,'PK11GenericObject *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14483,7 +14478,6 @@ INSERT INTO `Type` VALUES (32790,'anon-struct-15d69c','Struct',0,'','No','No','N
 INSERT INTO `Type` VALUES (32791,'unsigned int (*)(link_map *, Lmid_t, uintptr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32792,'NSSSlot *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32793,'CK_C_GetSlotList','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32794,'int (*)(pthread_t, int *, sched_param *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32795,'PKIX_ComCertSelParamsStruct','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32796,'converted_domain','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32797,'const alias_map','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14575,7 +14569,6 @@ INSERT INTO `Type` VALUES (32882,'CK_RV (*)(CK_SESSION_HANDLE)','FuncPtr',0,'','
 INSERT INTO `Type` VALUES (32883,'La_ppc32_regs *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32884,'NSSUsage *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32885,'CK_BYTE[7]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32886,'int (*)(pthread_rwlock_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32887,'PKIX_PL_CRLEntryStruct','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32888,'PKIX_DefaultRevocationCheckerStruct','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32889,'__ssize_t (*)(_IO_FILE *, void *, __ssize_t)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14623,7 +14616,6 @@ INSERT INTO `Type` VALUES (32930,'r_scope_elem **[49]','Array',0,'','No','No','N
 INSERT INTO `Type` VALUES (32931,'const _IO_jump_t *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32932,'pthread','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32933,'ocspResponseStatus','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32934,'pthread_t (*)()','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32935,'anon-union-20531','Union',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32936,'PKIX_StdVars','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32937,'CK_RV (*)(CK_SLOT_ID, CK_SLOT_INFO_PTR)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14686,7 +14678,6 @@ INSERT INTO `Type` VALUES (32993,'PRNetAddr','Union',1460,'','No','No','No',NULL
 INSERT INTO `Type` VALUES (32994,'nssSession','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32995,'La_s390_64_regs','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32996,'PRInt32 (*)(PRFileDesc *, void *, PRInt32)','FuncPtr',1460,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (32997,'void (*)(Elf32_Addr, Elf32_Addr)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32998,'OpaqueCRLFields','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32999,'xid_command *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33000,'ocspSingleRequest *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14813,7 +14804,6 @@ INSERT INTO `Type` VALUES (33120,'LDAPResultStruct','Struct',0,'','No','No','No'
 INSERT INTO `Type` VALUES (33121,'PKIX_PL_PublicKey **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33122,'NSSSlot **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (39338,'const XtCovertArgRec[]','Array',293,'','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (33123,'int (*)(pthread_mutex_t *, const pthread_mutexattr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33124,'anon-struct-1ec76','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33125,'nssTrustLevel','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33126,'unsigned char[143]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14827,7 +14817,6 @@ INSERT INTO `Type` VALUES (33133,'startup_info','Struct',0,'','No','No','No',NUL
 INSERT INTO `Type` VALUES (33134,'const SECCertUsageToEku[11]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33135,'PKIX_PL_HttpCertStoreContext *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33136,'link_map','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33137,'int (*)(const pthread_attr_t *, sched_param *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33138,'CRLOrigin','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33139,'char[10]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33140,'const La_alpha_regs','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14922,7 +14911,6 @@ INSERT INTO `Type` VALUES (33228,'nssListIterator','Typedef',0,'','No','No','No'
 INSERT INTO `Type` VALUES (33229,'PKIX_PL_ToStringCallback','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33230,'pk11TraverseSlot','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33231,'nssTokenSearchType','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33232,'int (*)(pthread_cond_2_0_t *, pthread_mutex_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33233,'crlOptions *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33234,'CERTCertList *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33235,'const La_s390_64_regs','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14933,7 +14921,6 @@ INSERT INTO `Type` VALUES (33239,'CERTOKDomainName *','Pointer',0,'','No','No','
 INSERT INTO `Type` VALUES (33240,'pthread_key_data *[31]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33241,'PKIX_PL_LdapClient_ResumeFcn','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33242,'nssListIteratorStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33243,'int (*)(pthread_once_t *, void (*)())','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33244,'const SECHashObject','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33245,'PKIX_RevocationChecker *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33246,'const const locale_data_value * ','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -14947,7 +14934,6 @@ INSERT INTO `Type` VALUES (33253,'const PRUnichar *','Pointer',0,'','No','No','N
 INSERT INTO `Type` VALUES (33254,'catnamestr_t','Union',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33255,'CK_C_WrapKey','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33256,'OpaqueCRLFields *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33257,'int (*)(pthread_cond_2_0_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33258,'PKIX_PL_LdapClient *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33259,'anon-union-14694','Union',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33260,'anon-struct-1eccb','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15016,7 +15002,6 @@ INSERT INTO `Type` VALUES (33322,'unsigned int (*)(Elf32_Sym *, unsigned int, ui
 INSERT INTO `Type` VALUES (33323,'ocspCheckingContext *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33324,'LDAPEqualFilter','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33325,'sec_rc5cbcParameter','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33326,'void (*)(_pthread_cleanup_buffer *, int)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33327,'LDAPNameComponent *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33328,'CERTOCSPRequestStr','Struct',1428,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33329,'__gconv_loaded_object','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15051,7 +15036,6 @@ INSERT INTO `Type` VALUES (33357,'PRMonitor *','Pointer',0,'','No','No','No',NUL
 INSERT INTO `Type` VALUES (33358,'CERTNameConstraint **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33359,'nssPKIObjectStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33360,'nickname_template_str *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33361,'void (*)(long int *, char *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33362,'alias_map','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33363,'PKIX_CertChainChecker *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33364,'NSSTrustDomain *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15184,7 +15168,6 @@ INSERT INTO `Type` VALUES (33490,'SEC_PKCS5PBEParameter *','Pointer',0,'','No','
 INSERT INTO `Type` VALUES (33491,'pkix_NameConstraintsCheckerState *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33492,'const value_type[5]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33493,'PRUint32','Typedef',1469,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33494,'int (*)(pthread_cond_2_0_t *, pthread_mutex_t *, const timespec *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33495,'anon-struct-1c808','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33496,'nssDecodedCert *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33497,'_IO_codecvt','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15421,7 +15404,6 @@ INSERT INTO `Type` VALUES (33727,'CERTCrlEntry **','Pointer',0,'','No','No','No'
 INSERT INTO `Type` VALUES (33728,'NSSTrustDomainStr','Struct',1414,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33729,'SECStatus (*)(SEC_HTTP_SERVER_SESSION)','FuncPtr',1428,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33730,'PKIX_PL_RWLock','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33731,'int (*)(pthread_condattr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33732,'nssListElement','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33733,'LDAPSearchResponseResult *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33734,'CERTOCSPResponseStr','Struct',1428,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15495,7 +15477,6 @@ INSERT INTO `Type` VALUES (33801,'PRUintn','Typedef',1469,'','No','No','No',NULL
 INSERT INTO `Type` VALUES (33802,'const short int[53]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33803,'fake_PKIX_PL_CertStruct *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33804,'NSSTrustStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33805,'int (*)(pthread_cond_t *, const pthread_condattr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33806,'PKIX_ValidateParams *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33807,'PKIX_PL_Mutex *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33808,'pk11MechanismData','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15643,10 +15624,8 @@ INSERT INTO `Type` VALUES (33949,'CK_C_GetTokenInfo','Typedef',0,'','No','No','N
 INSERT INTO `Type` VALUES (33950,'uint16','Typedef',1452,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33951,'PKIX_BuildResult *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33952,'anon-enum-168389','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33953,'int (*)(pthread_t, pthread_t)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33954,'LDAPProtocolOp','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33955,'SECStatus (*)(CERTCertificate *, SECItem *, void *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33956,'int (*)(const pthread_attr_t *, int *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33957,'anon-struct-1edca','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33958,'PKIX_PL_OID *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33959,'PKIX_PL_SocketStruct','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15657,7 +15636,6 @@ INSERT INTO `Type` VALUES (33963,'char[17]','Array',0,'','No','No','No',NULL,0,0
 INSERT INTO `Type` VALUES (33964,'const PRUint32 *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33965,'PKIX_PL_HttpDefaultClient **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33966,'anon-union-107906','Union',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (33967,'int (*)(int, int *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33968,'anon-struct-a7f07','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33969,'void (*)(void *, unsigned char *, unsigned int *, unsigned int)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (33970,'ocspResponderID *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15807,7 +15785,6 @@ INSERT INTO `Type` VALUES (34113,'PKIX_PL_HttpClient *','Pointer',0,'','No','No'
 INSERT INTO `Type` VALUES (34114,'anon-enum-225237','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34115,'anon-enum-526293','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34116,'PKIX_PL_LdapClient','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34117,'int (*)(pthread_cond_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34118,'__gconv_trans_init_fct','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34119,'pkix_BasicConstraintsCheckerState *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34120,'CK_INFO *','Pointer',1434,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15827,7 +15804,6 @@ INSERT INTO `Type` VALUES (34133,'pkix_ClassTable_Entry','Typedef',0,'','No','No
 INSERT INTO `Type` VALUES (34134,'CK_TOKEN_INFO *','Pointer',1434,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34135,'PKIX_PL_LdapRequest','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34136,'const value_type[1]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34137,'int (*)(pthread_attr_t *, int)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34138,'PKIX_CertStore_CRLCallback','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34139,'nssSMIMEProfile','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34140,'anon-enum-13741','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15839,7 +15815,6 @@ INSERT INTO `Type` VALUES (34145,'Elf64_Sym *','Pointer',0,'','No','No','No',NUL
 INSERT INTO `Type` VALUES (34146,'long int[111]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34147,'PKIX_PL_X500Name *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34148,'const sysdep_segment *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34149,'void * (*)(pthread_key_t)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34150,'const CERTCertList *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34151,'PKIX_PL_Date **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34152,'CRLCache *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15884,10 +15859,8 @@ INSERT INTO `Type` VALUES (34190,'NSSSymmetricKey *','Pointer',0,'','No','No','N
 INSERT INTO `Type` VALUES (34191,'La_ppc64_regs','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34192,'Elf32_Ehdr','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34193,'PROffset32','Typedef',1469,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34194,'void * (*)(const char *, int, const void *, Lmid_t, int, char **, char **)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34195,'PRInt32 (*)(PRFileDesc *, PRFileDesc **, PRNetAddr **, void *, PRInt32, PRIntervalTime)','FuncPtr',1460,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34196,'SECStatus (*)(void *, SECItem **, int)','FuncPtr',1412,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34197,'lookup_t (*)(const char *, link_map *, const Elf32_Sym **, r_scope_elem **, const r_found_version *, int, int, link_map *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34198,'CK_C_CopyObject','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34199,'__gconv_info *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34200,'LDAPSearchResponseEntry','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -15994,7 +15967,6 @@ INSERT INTO `Type` VALUES (34300,'pk11KeyCallbackStr','Struct',0,'','No','No','N
 INSERT INTO `Type` VALUES (34301,'SECMODModule *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34302,'const PKIX_StdVars','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34303,'anon-enum-730272','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34304,'int (*)(pthread_t, int, const sched_param *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34305,'ocspResponseDataStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34306,'NSSCRL **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34307,'anon-enum-1104638','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16082,7 +16054,6 @@ INSERT INTO `Type` VALUES (34388,'const PKIX_PL_Cert *','Pointer',0,'','No','No'
 INSERT INTO `Type` VALUES (34389,'anon-enum-1317498','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34390,'loaded_l10nfile **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34391,'PQGVerify *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34392,'int (*)(pthread_attr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34393,'ocspResponseBytes','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34394,'PRIOMethods','Typedef',1460,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34395,'const PKIX_PL_OcspRequest *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16111,7 +16082,6 @@ INSERT INTO `Type` VALUES (34417,'link_namespaces','Struct',0,'','No','No','No',
 INSERT INTO `Type` VALUES (34418,'_IO_FILE * (*)(_IO_FILE *, char *, __ssize_t)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34419,'CERTPolicyInfo **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34420,'PRUint8 *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34421,'int (*)(xid_command *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34422,'NSSCryptoContext *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34423,'const module_entry','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34424,'SECItem **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16127,7 +16097,6 @@ INSERT INTO `Type` VALUES (34433,'CK_C_GetFunctionStatus','Typedef',0,'','No','N
 INSERT INTO `Type` VALUES (34434,'PKIX_ComCRLSelParams','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34435,'CK_RV (*)(CK_BBOOL, CK_SLOT_ID_PTR, CK_ULONG_PTR)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (32594,'PLHashNumber','Typedef',1455,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34437,'int (*)(pthread_cond_2_0_t *, const pthread_condattr_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34438,'LDAPFilter','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34439,'NSSBase64EncoderStr','Struct',1423,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34440,'anon-enum-103942','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16223,7 +16192,6 @@ INSERT INTO `Type` VALUES (34529,'const CK_ATTRIBUTE_TYPE[9]','Array',0,'','No',
 INSERT INTO `Type` VALUES (34530,'const anon-struct-1ee20','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34531,'Lmid_t','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34532,'PK11SlotInfoStr','Struct',1447,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34533,'int (*)(void **)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34534,'PRHostEnt','Typedef',1465,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34535,'const value_type[4]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34536,'nssSlotAskPasswordTimes','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16262,7 +16230,6 @@ INSERT INTO `Type` VALUES (34568,'NSSTime *','Pointer',0,'','No','No','No',NULL,
 INSERT INTO `Type` VALUES (34569,'const anon-struct-18b0a *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34570,'anon-enum-93030','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34571,'void * (*)(void *, PRSize)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34572,'int (*)(const char **, const char **, _Bool *, void (*)(void *), void *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34573,'CK_FUNCTION_LIST_PTR *','Pointer',1434,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34574,'const CERTOCSPSingleResponse','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34575,'anon-struct-1ee20','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16365,7 +16332,6 @@ INSERT INTO `Type` VALUES (34671,'Elf64_Section','Typedef',0,'','No','No','No',N
 INSERT INTO `Type` VALUES (34672,'pkix_TargetCertCheckerState','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34673,'nssListStr','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34674,'anon-struct-15d75f','Struct',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34675,'int (*)(pthread_mutex_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34676,'lookup_t','Typedef',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34677,'PRInt32 (*)(PRFileDesc *, const void *, PRInt32, PRIntn, const PRNetAddr *, PRIntervalTime)','FuncPtr',1460,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34678,'_IO_codecvt *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16374,7 +16340,6 @@ INSERT INTO `Type` VALUES (34680,'PKIX_PL_HttpDefaultClientStruct','Struct',0,''
 INSERT INTO `Type` VALUES (34681,'PKIX_PL_LdapCertStoreContext *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34682,'const locale_t','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34683,'const sysdep_string_desc','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34684,'int (*)(pthread_key_t, const void *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34685,'const La_sh_regs','Const',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34686,'const path_elem *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34687,'pkix_SignatureCheckerState *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -16503,7 +16468,6 @@ INSERT INTO `Type` VALUES (34809,'const r_found_version *','Pointer',0,'','No','
 INSERT INTO `Type` VALUES (34810,'const extra_entry *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34811,'anon-enum-597097','Enum',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34812,'char *[6]','Array',0,'','No','No','No',NULL,0,0,'libnss3',0);
-INSERT INTO `Type` VALUES (34813,'int (*)(pthread_cond_t *, pthread_mutex_t *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34814,'CERTSubjectList *','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34815,'CK_RV (*)(CK_SESSION_HANDLE, CK_OBJECT_HANDLE, CK_ATTRIBUTE_PTR, CK_ULONG, CK_OBJECT_HANDLE_PTR)','FuncPtr',0,'','No','No','No',NULL,0,0,'libnss3',0);
 INSERT INTO `Type` VALUES (34816,'SECKEYPrivateKey **','Pointer',0,'','No','No','No',NULL,0,0,'libnss3',0);
@@ -17729,7 +17693,6 @@ INSERT INTO `Type` VALUES (35763,'SSLWrappedSymWrappingKey *','Pointer',0,'','No
 INSERT INTO `Type` VALUES (35764,'anon-enum-233745','Enum',0,'','No','No','No',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (36101,'XFeedbackControl *','Pointer',0,'','No','No','No',NULL,0,0,'libXi',0);
 INSERT INTO `Type` VALUES (35765,'SECStatus (*)(unsigned char *, const unsigned char *, PRUint32)','FuncPtr',0,'','No','No','No',NULL,0,0,'libssl3',0);
-INSERT INTO `Type` VALUES (35766,'void (*)(const char *, ...)','FuncPtr',0,'','No','No','No',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (35767,'void (*)(AESContext *, PRBool)','FuncPtr',0,'','No','No','No',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (35768,'PRUint64[49]','Array',0,'','No','No','No',NULL,0,0,'libssl3',0);
 INSERT INTO `Type` VALUES (35769,'SECStatus (*)(ECParams *, SECItem *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libssl3',0);
@@ -21834,10 +21797,7 @@ INSERT INTO `Type` VALUES (40144,'GtkStatusIcon *','Pointer',0,'','No','No','No'
 INSERT INTO `Type` VALUES (40145,'void (*)(GtkStatusIcon *)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40146,'void (*)(GtkStatusIcon *, guint, guint32)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40147,'gboolean (*)(GtkStatusIcon *, gint)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (40148,'gboolean (*)(GtkStatusIcon *, GdkEventButton *)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (40149,'gboolean (*)(GtkStatusIcon *, GdkEventScroll *)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40150,'GtkTooltip *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (40151,'gboolean (*)(GtkStatusIcon *, gint, gint, gboolean, GtkTooltip *)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40152,'_GtkStatusIconClass','Struct',1535,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40153,'GIcon *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40154,'GtkOrientation *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
