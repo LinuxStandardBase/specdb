@@ -60,7 +60,9 @@ restore::
 
 restoreall::
 	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
+	mysql $(DBOPTS) -e "drop database if exists $${LSBDB}_tmp"
 	@mysqladmin $(DBOPTS) create $$LSBDB
+	@mysqladmin $(DBOPTS) create $${LSBDB}_tmp
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 #	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
