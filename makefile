@@ -76,7 +76,7 @@ restoreall::
 		        *) mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile \"$${PWD}/$${table}.init\" into table $$table" ;; \
 		esac;\
 	done'
-	./create_cache_tables_inits.sh
+	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_alias_detector.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
@@ -92,7 +92,7 @@ restoreall::
 # then call the 'cache' rule
 
 cache::
-#	./create_cache_tables_inits.sh
+#	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 	rm -f cache*.init
@@ -114,7 +114,7 @@ restore_apps::
 	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
 	done
-	./create_cache_tables_inits.sh
+	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
 	rm -f cache*.init
