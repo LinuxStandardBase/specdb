@@ -9,6 +9,9 @@ DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE --skip-dump-date
 # Add '--local-infile' here if there are any problems with direct access to files
 FILEOPTS=
+# If TMPLSBDB environment variable is set, it will be used for temp database name;
+# otherwise we'll use "${LSBDB}_tmp"
+TMPLSBDB=$${TMPLSBDB=${LSBDB}}_tmp
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab CmdStd Command CommandAttribute \
@@ -60,9 +63,9 @@ restore::
 
 restoreall::
 	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
-	mysql $(DBOPTS) -e "drop database if exists $${LSBDB}_tmp"
+	mysql $(DBOPTS) -e "drop database if exists $(TMPLSBDB)"
 	@mysqladmin $(DBOPTS) create $$LSBDB
-	@mysqladmin $(DBOPTS) create $${LSBDB}_tmp
+	@mysqladmin $(DBOPTS) create $(TMPLSBDB)
 	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
 #	sleep 5
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
@@ -87,6 +90,7 @@ restoreall::
 		mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
+	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
 
 # need a rule to populate the now external community tables,
 # then call the 'cache' rule
@@ -102,6 +106,7 @@ cache::
 	    mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
+	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
 
 
 # rules to process application data only
@@ -119,6 +124,7 @@ restore_apps::
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql
+	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
 
 dump_apps::
 	for table in $(APP_TABLES) ; \
