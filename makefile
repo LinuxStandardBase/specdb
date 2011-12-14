@@ -90,7 +90,7 @@ restoreall::
 		mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
-	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
+	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
 
 # need a rule to populate the now external community tables,
 # then call the 'cache' rule
@@ -106,7 +106,7 @@ cache::
 	    mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
-	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
+	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
 
 
 # rules to process application data only
@@ -124,7 +124,7 @@ restore_apps::
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
 	rm -f cache*.init
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql
-	mysql $(DBOPTS) $$TMPLSBDB <tmpdbperms.sql;
+	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
 
 dump_apps::
 	for table in $(APP_TABLES) ; \
