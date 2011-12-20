@@ -50,6 +50,7 @@ GRANT INSERT,UPDATE,DELETE ON Vtable TO lsbadmin@localhost;
 #
 GRANT SELECT ON * TO lsbuser@localhost;
 GRANT SELECT ON * TO lsbadmin@localhost;
+GRANT EXECUTE ON * TO lsbuser@localhost;
 
 # Allow lsbuser to add interface comments; authentication here will go
 # through the linux-foundation wiki

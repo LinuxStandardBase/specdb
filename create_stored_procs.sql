@@ -28,21 +28,21 @@ BEGIN
         EXECUTE stmt;
 
         SET @stmt_text = CONCAT( "CREATE TABLE ", @table_name,
-        "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`,`Itestable`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`), KEY `Idocumented` (`Idocumented`), KEY `AIdeprecatedsince`(`AIdeprecatedsince`) )
-        SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, ISsid, Itestable, Idocumented, AIdeprecatedsince FROM Interface
-        LEFT JOIN ArchInt ON AIint=Iid
-        LEFT JOIN IntStd ON ISiid=Iid
-        LEFT JOIN LGInt ON LGIint=Iid
-        LEFT JOIN LibGroup ON LGIlibg=LGid
-        WHERE AIappearedin > '' AND AIappearedin <= '", version, "' AND (AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "')
-        AND ( ISsid IS NULL OR (ISappearedin > '' AND ISappearedin <= '", version, "' AND ISwithdrawnin IS NULL OR ISwithdrawnin > '", version, "') )");
+            "(KEY `Iid` (`Iid`), KEY `Itype` (`Itype`,`Itestable`), KEY `AIarch` (`AIarch`,`Iid`), KEY `ISsid`(`ISsid`), KEY `LGIlibg` (`LGIlibg`), KEY `Lid` (`Lid`,`AIarch`), KEY `Idocumented` (`Idocumented`), KEY `AIdeprecatedsince`(`AIdeprecatedsince`) )
+            SELECT Iid, AIarch, Itype, LGIlibg, LGlib AS Lid, ISsid, Itestable, Idocumented, AIdeprecatedsince FROM Interface
+            LEFT JOIN ArchInt ON AIint=Iid
+            LEFT JOIN IntStd ON ISiid=Iid
+            LEFT JOIN LGInt ON LGIint=Iid
+            LEFT JOIN LibGroup ON LGIlibg=LGid
+            WHERE AIappearedin > '' AND AIappearedin <= '", version, "' AND (AIwithdrawnin IS NULL OR AIwithdrawnin > '", version, "')
+            AND ( ISsid IS NULL OR (ISappearedin > '' AND ISappearedin <= '", version, "' AND ISwithdrawnin IS NULL OR ISwithdrawnin > '", version, "') )");
         PREPARE stmt FROM @stmt_text;
-            EXECUTE stmt;
+        EXECUTE stmt;
 
         SET @table_correspondance_name = CONCAT( @table_name, "_correspondance" );
-            SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
-            PREPARE stmt FROM @stmt_text;
-            EXECUTE stmt;
+        SET @stmt_text = CONCAT( "DROP TABLE IF EXISTS ", @table_correspondance_name);
+        PREPARE stmt FROM @stmt_text;
+        EXECUTE stmt;
 
         SET @stmt_text = CONCAT( "CREATE TABLE ", @table_correspondance_name,
             " (PRIMARY KEY `Iid` (`Iid`,`RIid`,`AIarch`), KEY `RIid` (`RIid`), KEY `Ilibrary` (`Ilibrary`) )
@@ -138,7 +138,7 @@ BEGIN
     DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET done = 1;
 
 -- cache_Component_on_<arch> for all supported architectures
--- Note that simple cache_Component itself is created by the create_cache_tables.sql 
+-- Note that simple cache_Component itself is created by the create_cache_tables.sql
     OPEN arch_cur;
     SET done = 0;
     REPEAT
@@ -226,26 +226,29 @@ END
 -- in every distribution
 DROP PROCEDURE IF EXISTS fill_lib_loaded_deps_full //
 
-CREATE PROCEDURE fill_lib_loaded_deps_full (IN par_LibName VARCHAR(255) )
+CREATE PROCEDURE fill_lib_loaded_deps_full (IN LSBTMPDB VARCHAR(255), IN par_LibName VARCHAR(255) )
 BEGIN
     DECLARE done INT DEFAULT 0;
 
 -- Init tmp_LibDeps with direct library dependencies
-    INSERT INTO tmp_LibDeps
-    SELECT RL1.RLid AS RLid, C2.RLid AS DepId
-    FROM RawLibrary RL1
-    JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
-    JOIN RLibDeps ON RLDrlid=RL1.RLid
-    JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
-    WHERE RL1.RLname=par_LibName
-    AND C1.Cdistr=C2.Cdistr
-    AND C1.Carch=C2.Carch;
+    SET @stmt_text = CONCAT("INSERT INTO ", LSBTMPDB, ".tmp_LibDeps
+        SELECT RL1.RLid AS RLid, C2.RLid AS DepId
+        FROM RawLibrary RL1
+        JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
+        JOIN RLibDeps ON RLDrlid=RL1.RLid
+        JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
+        WHERE RL1.RLname='", par_LibName, "' AND C1.Cdistr=C2.Cdistr
+        AND C1.Carch=C2.Carch;");
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
 
 -- This table will store a list of dependencies added during the last iteration.
 -- At the first step, these were direct dependencies.
-    CREATE TEMPORARY TABLE tmp_LastDeps
-    (KEY k_RLid(RLid), KEY k_DepId(DepId))
-    SELECT RLid, DepId FROM tmp_LibDeps;
+    SET @stmt_text = CONCAT("CREATE TEMPORARY TABLE tmp_LastDeps
+        (KEY k_RLid(RLid), KEY k_DepId(DepId))
+        SELECT RLid, DepId FROM ", LSBTMPDB, ".tmp_LibDeps;");
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
 
 -- This will be a list of newly selected dependencies
     CREATE TEMPORARY TABLE tmp_NewDeps (
@@ -259,24 +262,28 @@ BEGIN
 -- On every step, we'll take dependencies of libraries added during the previous step
 -- and select only those that are not added to tmp_LibDeps yet.
     REPEAT
-        INSERT INTO tmp_NewDeps
-        SELECT DISTINCT tmp_LastDeps.RLid AS RLid, C2.RLid AS DepId
-        FROM tmp_LastDeps
-        JOIN RawLibrary RL1 ON tmp_LastDeps.DepId=RL1.RLid
-        JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
-        JOIN RLibDeps ON RLDrlid=RL1.RLid
-        JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
-        WHERE C1.Cdistr=C2.Cdistr
-        AND C1.Carch=C2.Carch
-        AND NOT EXISTS (
-         SELECT 1 FROM tmp_LibDeps
-         WHERE tmp_LibDeps.RLid=tmp_LastDeps.RLid
-         AND tmp_LibDeps.DepId = C2.RLid
-        );
+        SET @stmt_text = CONCAT("INSERT INTO tmp_NewDeps
+            SELECT DISTINCT tmp_LastDeps.RLid AS RLid, C2.RLid AS DepId
+            FROM tmp_LastDeps
+            JOIN RawLibrary RL1 ON tmp_LastDeps.DepId=RL1.RLid
+            JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
+            JOIN RLibDeps ON RLDrlid=RL1.RLid
+            JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
+            WHERE C1.Cdistr=C2.Cdistr
+            AND C1.Carch=C2.Carch
+            AND NOT EXISTS (
+             SELECT 1 FROM ", LSBTMPDB, ".tmp_LibDeps
+             WHERE tmp_LibDeps.RLid=tmp_LastDeps.RLid
+             AND tmp_LibDeps.DepId = C2.RLid
+            );");
+        PREPARE stmt FROM @stmt_text;
+        EXECUTE stmt;
 
         SET @found=(SELECT 1 FROM tmp_NewDeps LIMIT 1);
         IF @found IS NOT NULL THEN
-            INSERT INTO tmp_LibDeps SELECT * FROM tmp_NewDeps;
+            SET @stmt_text = CONCAT("INSERT INTO ", LSBTMPDB, ".tmp_LibDeps SELECT * FROM tmp_NewDeps;");
+            PREPARE stmt FROM @stmt_text;
+            EXECUTE stmt;
             DELETE FROM tmp_LastDeps;
             INSERT INTO tmp_LastDeps SELECT * FROM tmp_NewDeps;
             DELETE FROM tmp_NewDeps;
@@ -294,26 +301,29 @@ END
 -- not the full chain
 DROP PROCEDURE IF EXISTS fill_lib_loaded_deps_limited //
 
-CREATE PROCEDURE fill_lib_loaded_deps_limited (IN par_LibName VARCHAR(255) )
+CREATE PROCEDURE fill_lib_loaded_deps_limited (IN LSBTMPDB VARCHAR(255), IN par_LibName VARCHAR(255) )
 BEGIN
     DECLARE done INT DEFAULT 0;
 
 -- Init tmp_LibDeps with direct library dependencies
-    INSERT INTO tmp_LibDeps
-    SELECT RL1.RLid AS RLid, C2.RLid AS DepId
-    FROM RawLibrary RL1
-    JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
-    JOIN RLibDeps ON RLDrlid=RL1.RLid
-    JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
-    WHERE RL1.RLname=par_LibName
-    AND C1.Cdistr=C2.Cdistr
-    AND C1.Carch=C2.Carch;
+    SET @stmt_text = CONCAT("INSERT INTO ", LSBTMPDB, ".tmp_LibDeps
+        SELECT RL1.RLid AS RLid, C2.RLid AS DepId
+        FROM RawLibrary RL1
+        JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
+        JOIN RLibDeps ON RLDrlid=RL1.RLid
+        JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
+        WHERE RL1.RLname='", par_LibName, "' AND C1.Cdistr=C2.Cdistr
+        AND C1.Carch=C2.Carch;");
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
 
 -- This table will store a list of dependencies added during the last iteration.
 -- At the first step, these were direct dependencies.
-    CREATE TEMPORARY TABLE tmp_LastDeps
-    (KEY k_RLid(RLid), KEY k_DepId(DepId))
-    SELECT RLid, DepId FROM tmp_LibDeps;
+    SET @stmt_text = CONCAT("CREATE TEMPORARY TABLE tmp_LastDeps
+        (KEY k_RLid(RLid), KEY k_DepId(DepId))
+        SELECT RLid, DepId FROM ", LSBTMPDB, ".tmp_LibDeps;");
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
 
 -- This will be a list of newly selected dependencies
     CREATE TEMPORARY TABLE tmp_NewDeps (
@@ -324,24 +334,28 @@ BEGIN
     );
 
 -- No cycles here - only add dependecies of library direct dependencies
-    INSERT INTO tmp_NewDeps
-    SELECT DISTINCT tmp_LastDeps.RLid AS RLid, C2.RLid AS DepId
-    FROM tmp_LastDeps
-    JOIN RawLibrary RL1 ON tmp_LastDeps.DepId=RL1.RLid
-    JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
-    JOIN RLibDeps ON RLDrlid=RL1.RLid
-    JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
-    WHERE C1.Cdistr=C2.Cdistr
-    AND C1.Carch=C2.Carch
-    AND NOT EXISTS (
-     SELECT 1 FROM tmp_LibDeps
-     WHERE tmp_LibDeps.RLid=tmp_LastDeps.RLid
-     AND tmp_LibDeps.DepId = C2.RLid
-    );
+    SET @stmt_text = CONCAT("INSERT INTO tmp_NewDeps
+        SELECT DISTINCT tmp_LastDeps.RLid AS RLid, C2.RLid AS DepId
+        FROM tmp_LastDeps
+        JOIN RawLibrary RL1 ON tmp_LastDeps.DepId=RL1.RLid
+        JOIN cache_Component C1 ON C1.Cid=RL1.RLcomponent
+        JOIN RLibDeps ON RLDrlid=RL1.RLid
+        JOIN cache_RLidRLSoname C2 ON RLDrlsid=RLSid
+        WHERE C1.Cdistr=C2.Cdistr
+        AND C1.Carch=C2.Carch
+        AND NOT EXISTS (
+         SELECT 1 FROM ", LSBTMPDB, ".tmp_LibDeps
+         WHERE tmp_LibDeps.RLid=tmp_LastDeps.RLid
+         AND tmp_LibDeps.DepId = C2.RLid
+        );");
+    PREPARE stmt FROM @stmt_text;
+    EXECUTE stmt;
 
     SET @found=(SELECT 1 FROM tmp_NewDeps LIMIT 1);
     IF @found IS NOT NULL THEN
-        INSERT INTO tmp_LibDeps SELECT * FROM tmp_NewDeps;
+        SET @stmt_text = CONCAT("INSERT INTO ", LSBTMPDB, ".tmp_LibDeps SELECT * FROM tmp_NewDeps;");
+        PREPARE stmt FROM @stmt_text;
+        EXECUTE stmt;
     END IF;
 
     DROP TABLE tmp_NewDeps;
