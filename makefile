@@ -6,7 +6,7 @@
 #
 
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
-DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE --skip-dump-date
+DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE --skip-dump-date --skip-comments
 # Add '--local-infile' here if there are any problems with direct access to files
 FILEOPTS=
 # If TMPLSBDB environment variable is set, it will be used for temp database name;
@@ -16,13 +16,18 @@ TMPLSBDB=$${TMPLSBDB=${LSBDB}}_tmp
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab CmdStd Command CommandAttribute \
 	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
-	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote\
+	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote \
 	LGInt LibGroup Library LibraryAttribute LSBVersion SModCmd SModLib SModStd ModSMod Module SubModule \
 	Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable RawDynamicEntries
-	
 APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
+
+COMMUNITY=AppCategory AppInfo AppInterpreter AppJInt AppLib AppRequires AppRILM AppRInt AppShippedLib \
+	Application ApprovedCommand ApprovedLibrary CompatSymbol CompFile CompInfo CompJInt CompLDpath \
+	Component CompProvides CompRequires CompRILM Distribution DistrVendor JavaBaseClass JavaClass \
+	JavaInterface RILMBuiltin RLibDeps RLibLink RLibRClass RLibRInt RawClass RawCommand RawILModule \
+	RawInterface RawLibSoname RawLibrary WeakSymbol
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
@@ -61,7 +66,23 @@ restore::
 		mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
 	done
 
-restoreall::
+community_check::
+	ret_code=0; \
+	for table in $(COMMUNITY); \
+	do \
+		if [[ ! -e $$table.init ]]; \
+		then \
+			echo "Missing community table init file: $$table.init"; \
+			ret_code=1; \
+		fi; \
+	done; \
+	if [[ $$ret_code == "1" ]]; \
+	then \
+		echo "!!!Make sure you have the latest community data files unpacked to this folder"; \
+	fi; \
+	exit $$ret_code
+
+restoreall:: community_check
 	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
 	mysql $(DBOPTS) -e "drop database if exists $(TMPLSBDB)"
 	@mysqladmin $(DBOPTS) create $$LSBDB
