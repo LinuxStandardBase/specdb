@@ -1,7 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.41, for debian-linux-gnu (x86_64)
---
--- Host: db2.linux-foundation.org    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,34 +9,22 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Not dumping tablespaces as no INFORMATION_SCHEMA.FILES table on this server
---
-
---
--- Table structure for table `ArchES`
---
-
 DROP TABLE IF EXISTS `ArchES`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ArchES` (
-  `AESesid` int(10) unsigned NOT NULL default '0',
-  `AESaid` int(10) unsigned NOT NULL default '0',
-  `AESstd` int(10) unsigned NOT NULL default '0',
-  `AESattributes` varchar(60) NOT NULL default '',
-  `AEStype` int(10) unsigned NOT NULL default '0',
+  `AESesid` int(10) unsigned NOT NULL DEFAULT '0',
+  `AESaid` int(10) unsigned NOT NULL DEFAULT '0',
+  `AESstd` int(10) unsigned NOT NULL DEFAULT '0',
+  `AESattributes` varchar(60) NOT NULL DEFAULT '',
+  `AEStype` int(10) unsigned NOT NULL DEFAULT '0',
   `AESdescription` blob NOT NULL,
   `AESappearedin` varchar(5) NOT NULL,
-  `AESwithdrawnin` varchar(5) default NULL,
-  `AESurl` varchar(255) default NULL,
-  PRIMARY KEY  (`AESesid`,`AESaid`,`AESstd`,`AESappearedin`),
+  `AESwithdrawnin` varchar(5) DEFAULT NULL,
+  `AESurl` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`AESesid`,`AESaid`,`AESstd`,`AESappearedin`),
   KEY `k_aid` (`AESaid`),
   KEY `k_appearedin` (`AESappearedin`,`AESwithdrawnin`),
   KEY `k_withdrawnin` (`AESwithdrawnin`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -51,4 +35,3 @@ CREATE TABLE `ArchES` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed

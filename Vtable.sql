@@ -1,7 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.41, for debian-linux-gnu (x86_64)
---
--- Host: db2.linux-foundation.org    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,29 +9,17 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Not dumping tablespaces as no INFORMATION_SCHEMA.FILES table on this server
---
-
---
--- Table structure for table `Vtable`
---
-
 DROP TABLE IF EXISTS `Vtable`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `Vtable` (
-  `VTcid` int(10) unsigned NOT NULL default '0',
-  `VTvtpos` int(11) NOT NULL default '0',
-  `VTpos` int(11) NOT NULL default '0',
-  `VTviid` int(10) unsigned NOT NULL default '0',
-  `VTarch` int(10) unsigned NOT NULL default '2',
-  PRIMARY KEY  (`VTcid`,`VTpos`,`VTarch`,`VTvtpos`),
+  `VTcid` int(10) unsigned NOT NULL DEFAULT '0',
+  `VTvtpos` int(11) NOT NULL DEFAULT '0',
+  `VTpos` int(11) NOT NULL DEFAULT '0',
+  `VTviid` int(10) unsigned NOT NULL DEFAULT '0',
+  `VTarch` int(10) unsigned NOT NULL DEFAULT '2',
+  PRIMARY KEY (`VTcid`,`VTpos`,`VTarch`,`VTvtpos`),
   KEY `VTcid_2` (`VTcid`,`VTvtpos`),
   KEY `VTviid` (`VTviid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -46,4 +30,3 @@ CREATE TABLE `Vtable` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed

@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,16 +9,11 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `RLibRClass`
---
-
 DROP TABLE IF EXISTS `RLibRClass`;
 CREATE TABLE `RLibRClass` (
-  `RLRCrlid` int(10) unsigned NOT NULL default '0',
-  `RLRCrcid` int(10) unsigned NOT NULL default '0',
-  PRIMARY KEY  (`RLRCrlid`,`RLRCrcid`),
+  `RLRCrlid` int(10) unsigned NOT NULL DEFAULT '0',
+  `RLRCrcid` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`RLRCrlid`,`RLRCrcid`),
   KEY `k_RCid` (`RLRCrcid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -35,4 +26,3 @@ CREATE TABLE `RLibRClass` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:30:38

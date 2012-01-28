@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,18 +9,13 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `StandardSource`
---
-
 DROP TABLE IF EXISTS `StandardSource`;
 CREATE TABLE `StandardSource` (
-  `StSappearedin` varchar(255) NOT NULL default '',
-  `StSwithdrawnin` varchar(255) default NULL,
+  `StSappearedin` varchar(255) NOT NULL DEFAULT '',
+  `StSwithdrawnin` varchar(255) DEFAULT NULL,
   `StStable` enum('entity','shadow','code','header') NOT NULL,
-  `StSkey` int(12) NOT NULL default '0',
-  PRIMARY KEY  (`StSappearedin`,`StStable`,`StSkey`),
+  `StSkey` int(12) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`StSappearedin`,`StStable`,`StSkey`),
   KEY `StStable` (`StStable`,`StSkey`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -37,4 +28,3 @@ CREATE TABLE `StandardSource` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:07

@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,22 +9,17 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `SourceShadow`
---
-
 DROP TABLE IF EXISTS `SourceShadow`;
 CREATE TABLE `SourceShadow` (
-  `SSid` int(12) NOT NULL auto_increment,
-  `SSvalue` varchar(999) default NULL,
-  `SStype` enum('shadow','indirect','unnamed_type','formal','primitive','identifier','fake','config') NOT NULL default 'formal',
-  `SSkind` enum('namespace','linkage','using-declaration','using-directive','class','struct','union','enum','typedef','variable','function','friend','macro','include','include_local','simple-declaration','comment') default NULL,
-  `SSent` int(12) default NULL,
-  PRIMARY KEY  (`SSid`),
+  `SSid` int(12) NOT NULL AUTO_INCREMENT,
+  `SSvalue` varchar(999) DEFAULT NULL,
+  `SStype` enum('shadow','indirect','unnamed_type','formal','primitive','identifier','fake','config') NOT NULL DEFAULT 'formal',
+  `SSkind` enum('namespace','linkage','using-declaration','using-directive','class','struct','union','enum','typedef','variable','function','friend','macro','include','include_local','simple-declaration','comment') DEFAULT NULL,
+  `SSent` int(12) DEFAULT NULL,
+  PRIMARY KEY (`SSid`),
   KEY `k_SSvalue` (`SSvalue`),
   KEY `k_SStype` (`SStype`)
-) ENGINE=MyISAM AUTO_INCREMENT=77495 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=77496 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,4 +30,3 @@ CREATE TABLE `SourceShadow` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:06

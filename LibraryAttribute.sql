@@ -1,7 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.41, for debian-linux-gnu (x86_64)
---
--- Host: db2.linux-foundation.org    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,30 +9,18 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Not dumping tablespaces as no INFORMATION_SCHEMA.FILES table on this server
---
-
---
--- Table structure for table `LibraryAttribute`
---
-
 DROP TABLE IF EXISTS `LibraryAttribute`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `LibraryAttribute` (
-  `LAid` int(10) unsigned NOT NULL auto_increment,
+  `LAid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `LAsoname` varchar(750) NOT NULL,
-  `LAlibname` varchar(200) NOT NULL default '',
-  `LAtype` enum('Recommendation','StaticLinkage','Rejection','Rejection_soname','Custom') NOT NULL default 'Custom',
+  `LAlibname` varchar(200) NOT NULL DEFAULT '',
+  `LAtype` enum('Recommendation','StaticLinkage','Rejection','Rejection_soname','Custom') NOT NULL DEFAULT 'Custom',
   `LAvalue` text NOT NULL,
-  PRIMARY KEY  (`LAid`),
+  PRIMARY KEY (`LAid`),
   KEY `k_LAsoname` (`LAsoname`,`LAtype`),
   KEY `k_LAlibname` (`LAlibname`,`LAtype`),
   KEY `k_IAtype` (`LAtype`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
+) ENGINE=MyISAM AUTO_INCREMENT=32 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -47,4 +31,3 @@ CREATE TABLE `LibraryAttribute` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed

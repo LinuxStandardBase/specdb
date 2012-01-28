@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,26 +9,21 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `Distribution`
---
-
 DROP TABLE IF EXISTS `Distribution`;
 CREATE TABLE `Distribution` (
-  `Did` int(10) unsigned NOT NULL auto_increment,
-  `Dname` varchar(255) character set latin1 collate latin1_bin NOT NULL,
-  `Dversion` varchar(255) NOT NULL default '',
-  `Dcomment` varchar(255) default NULL,
-  `Darch` int(2) unsigned NOT NULL default '0',
-  `Dcompany` int(10) unsigned NOT NULL default '0',
-  `Durl` varchar(255) default NULL,
+  `Did` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Dname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL,
+  `Dversion` varchar(255) NOT NULL DEFAULT '',
+  `Dcomment` varchar(255) DEFAULT NULL,
+  `Darch` int(2) unsigned NOT NULL DEFAULT '0',
+  `Dcompany` int(10) unsigned NOT NULL DEFAULT '0',
+  `Durl` varchar(255) DEFAULT NULL,
   `Dreleasedate` date NOT NULL,
   `Dbasereleasedate` date NOT NULL,
-  PRIMARY KEY  (`Did`),
+  PRIMARY KEY (`Did`),
   UNIQUE KEY `k_Dname` (`Dname`,`Dversion`,`Darch`),
   KEY `k_Darch` (`Darch`)
-) ENGINE=MyISAM AUTO_INCREMENT=212 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=379 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -43,4 +34,3 @@ CREATE TABLE `Distribution` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:30:21

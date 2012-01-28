@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,21 +9,16 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `AppCategory`
---
-
 DROP TABLE IF EXISTS `AppCategory`;
 CREATE TABLE `AppCategory` (
-  `ACaid` int(10) unsigned NOT NULL default '0',
-  `AClicense` enum('Open Source','Proprietary','Mixed','Unknown') NOT NULL default 'Unknown',
-  `ACui` enum('non-GUI','GUI','Unknown') NOT NULL default 'Unknown',
-  `ACsize` enum('Large','Medium','Small','Unknown') NOT NULL default 'Unknown',
-  `ACvendor` varchar(255) NOT NULL default '',
-  `ACcategory` enum('Accessibility and i18n','Antivirus and Security','Emulators','Office and Desktop','Data Management','Development','Games','Multimedia and Graphics','Network','Science and Education','System Tools','X11 Utilities','Unknown') NOT NULL default 'Unknown',
-  `ACdisplayvendor` varchar(255) NOT NULL default '',
-  PRIMARY KEY  (`ACaid`),
+  `ACaid` int(10) unsigned NOT NULL DEFAULT '0',
+  `AClicense` enum('Open Source','Proprietary','Mixed','Unknown') NOT NULL DEFAULT 'Unknown',
+  `ACui` enum('non-GUI','GUI','Unknown') NOT NULL DEFAULT 'Unknown',
+  `ACsize` enum('Large','Medium','Small','Unknown') NOT NULL DEFAULT 'Unknown',
+  `ACvendor` varchar(255) NOT NULL DEFAULT '',
+  `ACcategory` enum('Accessibility and i18n','Antivirus and Security','Emulators','Office and Desktop','Data Management','Development','Games','Multimedia and Graphics','Network','Science and Education','System Tools','X11 Utilities','Unknown') NOT NULL DEFAULT 'Unknown',
+  `ACdisplayvendor` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`ACaid`),
   KEY `k_ACcategories` (`AClicense`,`ACui`,`ACsize`,`ACvendor`),
   KEY `k_ACui_size_vendor` (`ACui`,`ACsize`,`ACvendor`),
   KEY `k_AClicense_size_vendor` (`AClicense`,`ACsize`,`ACvendor`),
@@ -46,4 +37,3 @@ CREATE TABLE `AppCategory` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:28:44

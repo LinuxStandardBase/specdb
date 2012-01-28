@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,22 +9,17 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `CxxApi`
---
-
 DROP TABLE IF EXISTS `CxxApi`;
 CREATE TABLE `CxxApi` (
-  `CAid` int(12) unsigned NOT NULL auto_increment,
+  `CAid` int(12) unsigned NOT NULL AUTO_INCREMENT,
   `CAname` varchar(100) NOT NULL,
-  `CAtype` enum('interface','constant','macro','type') default NULL,
+  `CAtype` enum('interface','constant','macro','type') DEFAULT NULL,
   `CAfqn` varchar(999) NOT NULL,
-  `CAorigin` int(10) unsigned default NULL,
-  `CAprovidedby` int(10) unsigned default NULL,
-  PRIMARY KEY  (`CAid`),
+  `CAorigin` int(10) unsigned DEFAULT NULL,
+  `CAprovidedby` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`CAid`),
   KEY `k_header` (`CAorigin`)
-) ENGINE=MyISAM AUTO_INCREMENT=35454 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=51553 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -39,4 +30,3 @@ CREATE TABLE `CxxApi` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:05:35

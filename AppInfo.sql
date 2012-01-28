@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,18 +9,13 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `AppInfo`
---
-
 DROP TABLE IF EXISTS `AppInfo`;
 CREATE TABLE `AppInfo` (
-  `AIname` varchar(255) character set latin1 collate latin1_bin NOT NULL,
-  `AIsummary` varchar(255) NOT NULL default '',
-  `AIurl` varchar(255) NOT NULL default '',
-  `AIcompany` varchar(255) default NULL,
-  PRIMARY KEY  (`AIname`),
+  `AIname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL,
+  `AIsummary` varchar(255) NOT NULL DEFAULT '',
+  `AIurl` varchar(255) NOT NULL DEFAULT '',
+  `AIcompany` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`AIname`),
   KEY `k_AIsummary` (`AIsummary`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -37,4 +28,3 @@ CREATE TABLE `AppInfo` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-07-14  9:28:44

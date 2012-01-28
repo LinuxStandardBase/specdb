@@ -1,7 +1,3 @@
--- MySQL dump 10.13  Distrib 5.1.46, for suse-linux-gnu (x86_64)
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,11 +9,6 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `RawInterface`
---
-
 DROP TABLE IF EXISTS `RawInterface`;
 CREATE TABLE `RawInterface` (
   `RIid` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -31,7 +22,7 @@ CREATE TABLE `RawInterface` (
   KEY `k_Library` (`RIlibrary`),
   KEY `k_RIunmangled` (`RIunmangled`(1000)),
   KEY `k_Class` (`RIrcid`)
-) ENGINE=MyISAM AUTO_INCREMENT=4081648 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4128444 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -42,4 +33,3 @@ CREATE TABLE `RawInterface` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2010-10-26 17:31:17

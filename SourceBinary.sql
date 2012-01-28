@@ -1,7 +1,3 @@
--- MySQL dump 10.11
---
--- Host: localhost    Database: lsb
--- ------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -13,18 +9,13 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `SourceBinary`
---
-
 DROP TABLE IF EXISTS `SourceBinary`;
 CREATE TABLE `SourceBinary` (
   `SBssid` int(12) unsigned NOT NULL,
   `SBlname` varchar(200) NOT NULL,
-  `SBtype` enum('interface','constant','macro','type') default NULL,
+  `SBtype` enum('interface','constant','macro','type') DEFAULT NULL,
   `SBnormalized` varchar(999) NOT NULL,
-  PRIMARY KEY  (`SBssid`),
+  PRIMARY KEY (`SBssid`),
   KEY `k_norm` (`SBnormalized`),
   KEY `k_navig` (`SBtype`,`SBnormalized`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -38,4 +29,3 @@ CREATE TABLE `SourceBinary` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-03-12 14:13:03
