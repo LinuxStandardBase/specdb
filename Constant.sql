@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS `Constant`;
 CREATE TABLE `Constant` (
   `Cid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Cname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `Ctype` enum('int','long','float','double','longdouble','string','macro','accessor','protector','flag','literal','Unknown','header_depend','version') NOT NULL DEFAULT 'Unknown',
+  `Ctype` enum('int','long','float','double','longdouble','string','macro','accessor','protector','flag','literal','Unknown','header_depend','version','limit') NOT NULL DEFAULT 'Unknown',
   `Cheadgroup` int(10) unsigned NOT NULL DEFAULT '0',
   `Cdescription` varchar(255) NOT NULL DEFAULT '',
   `Ccandidatefor` varchar(255) DEFAULT NULL,
