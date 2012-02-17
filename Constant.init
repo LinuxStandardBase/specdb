@@ -18831,3 +18831,8 @@ INSERT INTO `Constant` VALUES (20668,'DF_TEXTREL','int',1556,'Object contains te
 INSERT INTO `Constant` VALUES (20669,'DF_BIND_NOW','int',1556,'No lazy binding for this object',NULL);
 INSERT INTO `Constant` VALUES (20670,'DF_STATIC_TLS','int',1556,'Module uses the static TLS model',NULL);
 INSERT INTO `Constant` VALUES (20671,'IOV_MAX','int',26,'',NULL);
+INSERT INTO `Constant` VALUES (20672,'XK_MISCELLANY','flag',1513,'',NULL);
+INSERT INTO `Constant` VALUES (20673,'XK_TECHNICAL','flag',1513,'',NULL);
+INSERT INTO `Constant` VALUES (20674,'XK_SPECIAL','flag',1513,'',NULL);
+INSERT INTO `Constant` VALUES (20675,'XK_APL','flag',1513,'',NULL);
+INSERT INTO `Constant` VALUES (20676,'XK_PUBLISHING','flag',1513,'',NULL);
