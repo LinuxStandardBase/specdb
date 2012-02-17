@@ -37,7 +37,7 @@ INSERT INTO `ClassInfo` VALUES (36,'_ZSt14basic_ofstreamIwSt11char_traitsIwEE',1
 INSERT INTO `ClassInfo` VALUES (37,'_ZSt14codecvt_bynameIcc11__mbstate_tE',10656,24271,9,1,24073,'0',24020,0,0,0,0,23979,357,'1',0,0,'std::codecvt_byname<char, char, __mbstate_t>',0);
 INSERT INTO `ClassInfo` VALUES (38,'_ZSt14codecvt_bynameIwc11__mbstate_tE',10670,24257,9,1,24061,'0',24028,0,0,0,0,23979,358,'1',0,0,'std::codecvt_byname<wchar_t, char, __mbstate_t>',0);
 INSERT INTO `ClassInfo` VALUES (39,'_ZSt14collate_bynameIcE',10657,24270,5,1,24072,'0',24021,0,0,0,0,23979,359,'1',0,0,'std::collate_byname<char>',0);
-INSERT INTO `ClassInfo` VALUES (40,'_ZSt14collate_bynameIwE',10670,24256,5,1,24060,'0',24029,0,0,0,0,23979,358,'1',0,0,'std::collate_byname<wchar_t>',0);
+INSERT INTO `ClassInfo` VALUES (40,'_ZSt14collate_bynameIwE',10670,24256,5,1,24060,'0',24029,0,0,0,0,23979,360,'1',0,0,'std::collate_byname<wchar_t>',0);
 INSERT INTO `ClassInfo` VALUES (41,'_ZSt14overflow_error',10615,24242,3,1,24053,'0',23999,0,0,0,0,23979,361,'1',0,0,'std::overflow_error',0);
 INSERT INTO `ClassInfo` VALUES (42,'_ZSt15basic_stringbufIcSt11char_traitsIcESaIcEE',10680,24311,14,1,24089,'0',23990,0,0,0,0,23979,364,'1',0,0,'std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >',0);
 INSERT INTO `ClassInfo` VALUES (43,'_ZSt15basic_stringbufIwSt11char_traitsIwESaIwEE',10684,24307,14,1,24088,'0',23991,0,0,0,0,23979,365,'1',0,0,'std::basic_stringbuf<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >',0);
@@ -90,7 +90,7 @@ INSERT INTO `ClassInfo` VALUES (123,'_ZSt10moneypunctIwLb1EE',10640,24287,11,1,0
 INSERT INTO `ClassInfo` VALUES (124,'_ZSt14basic_iostreamIwSt11char_traitsIwEE',10620,24248,6,3,0,'0',0,2,3,12,0,23980,354,'2',24661,7,'std::basic_iostream<wchar_t, std::char_traits<wchar_t> >',0);
 INSERT INTO `ClassInfo` VALUES (125,'_ZSt21__ctype_abstract_baseIcE',10626,24301,14,1,0,'0',0,2,8,0,0,23980,386,'1',0,0,'std::__ctype_abstract_base<char>',0);
 INSERT INTO `ClassInfo` VALUES (126,'_ZSt21__ctype_abstract_baseIwE',10627,24300,14,1,0,'0',0,2,8,0,0,23980,387,'1',0,0,'std::__ctype_abstract_base<wchar_t>',0);
-INSERT INTO `ClassInfo` VALUES (127,'_ZSt23__codecvt_abstract_baseIcc11__mbstate_tE',10630,24297,9,1,0,'0',0,2,8,0,0,23980,392,'1',0,0,'std::__codecvt_abstract_base<char, char, __mbstate_t>',0);
+INSERT INTO `ClassInfo` VALUES (127,'_ZSt23__codecvt_abstract_baseIcc11__mbstate_tE',10630,24297,9,1,0,'0',0,2,8,0,0,23980,388,'1',0,0,'std::__codecvt_abstract_base<char, char, __mbstate_t>',0);
 INSERT INTO `ClassInfo` VALUES (128,'_ZSt23__codecvt_abstract_baseIwc11__mbstate_tE',10631,24296,9,1,0,'0',0,2,8,0,0,23980,389,'1',0,0,'std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>',0);
 INSERT INTO `ClassInfo` VALUES (129,'_ZSt7num_getIcSt19istreambuf_iteratorIcSt11char_traitsIcEEE',10649,24278,13,1,24078,'1',24005,0,8,0,0,23979,396,'1',0,0,'std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >',0);
 INSERT INTO `ClassInfo` VALUES (130,'_ZSt7num_getIwSt19istreambuf_iteratorIwSt11char_traitsIwEEE',10663,24264,13,1,24066,'1',24005,0,8,0,0,23979,397,'1',0,0,'std::num_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t> > >',0);
