@@ -582,7 +582,7 @@ INSERT INTO `HeaderGroup` VALUES (599,'Default Header Section for XEVI.h',161,0,
 INSERT INTO `HeaderGroup` VALUES (600,'Unwind Stop Function',143,6,'');
 INSERT INTO `HeaderGroup` VALUES (601,'Unwind Trace Function',143,7,'');
 INSERT INTO `HeaderGroup` VALUES (602,'Default Header Section for err.h',162,0,'Default Header Section for err.h');
-INSERT INTO `HeaderGroup` VALUES (603,'Default Header Section for rpc/pmap_clnt.h',163,0,'Default Header Section for err.h');
+INSERT INTO `HeaderGroup` VALUES (603,'Default Header Section for rpc/pmap_clnt.h',163,0,'Default Header Section for rpc/pmap_clnt.h');
 INSERT INTO `HeaderGroup` VALUES (604,'Default Header Section for fontconfig/fontconfig.h',164,0,'Default Header Section for fontconfig/fontconfig.h');
 INSERT INTO `HeaderGroup` VALUES (605,'Default Header Section for fontconfig/fcfreetype.h',165,0,'Default Header Section for fontconfig/fcfreetype.h');
 INSERT INTO `HeaderGroup` VALUES (606,'Default Header Section for fontconfig/fcprivate.h',166,0,'Default Header Section for fontconfig/fcprivate.h');
