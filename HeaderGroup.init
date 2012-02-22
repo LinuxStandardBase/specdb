@@ -1485,3 +1485,6 @@ INSERT INTO `HeaderGroup` VALUES (1557,'Default Header Section for sys/sysinfo.h
 INSERT INTO `HeaderGroup` VALUES (1558,'Default Header Section for sys/ptrace.h',1433,0,'');
 INSERT INTO `HeaderGroup` VALUES (1559,'Default Header Section for execinfo.h',1434,0,'');
 INSERT INTO `HeaderGroup` VALUES (1560,'Default Header Section for gnu/libc-version.h',1435,0,'');
+INSERT INTO `HeaderGroup` VALUES (1561,'Default Header Section for X11/Xarch.h',1436,0,'');
+INSERT INTO `HeaderGroup` VALUES (1562,'Default Header Section for X11/Xos.h',1437,0,'');
+INSERT INTO `HeaderGroup` VALUES (1563,'Default Header Section for X11/Xfuncs.h',1438,0,'');

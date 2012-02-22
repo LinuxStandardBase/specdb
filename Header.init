@@ -1406,3 +1406,6 @@ INSERT INTO `Header` VALUES (1429,'gtk-unix-print-2.0/gtk/gtkunixprint.h',253,'N
 INSERT INTO `Header` VALUES (1433,'sys/ptrace.h',131,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1434,'execinfo.h',131,'No',NULL,'4.1',NULL);
 INSERT INTO `Header` VALUES (1435,'gnu/libc-version.h',131,'No',NULL,'4.1',NULL);
+INSERT INTO `Header` VALUES (1436,'X11/Xarch.h',10,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1437,'X11/Xos.h',10,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1438,'X11/Xfuncs.h',10,'No',NULL,'5.0',NULL);
