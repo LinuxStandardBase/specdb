@@ -277,7 +277,7 @@ BEGIN
              AND tmp_LibDeps.DepId = C2.RLid
             );");
         PREPARE stmt FROM @stmt_text;
-        EXECUTE stmt;
+        -- EXECUTE stmt;
 
         SET @found=(SELECT 1 FROM tmp_NewDeps LIMIT 1);
         IF @found IS NOT NULL THEN
@@ -349,7 +349,7 @@ BEGIN
          AND tmp_LibDeps.DepId = C2.RLid
         );");
     PREPARE stmt FROM @stmt_text;
-    EXECUTE stmt;
+    -- EXECUTE stmt;
 
     SET @found=(SELECT 1 FROM tmp_NewDeps LIMIT 1);
     IF @found IS NOT NULL THEN
