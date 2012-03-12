@@ -1488,3 +1488,11 @@ INSERT INTO `HeaderGroup` VALUES (1560,'Default Header Section for gnu/libc-vers
 INSERT INTO `HeaderGroup` VALUES (1561,'Default Header Section for X11/Xarch.h',1436,0,'');
 INSERT INTO `HeaderGroup` VALUES (1562,'Default Header Section for X11/Xos.h',1437,0,'');
 INSERT INTO `HeaderGroup` VALUES (1563,'Default Header Section for X11/Xfuncs.h',1438,0,'');
+INSERT INTO `HeaderGroup` VALUES (1564,'Default Header Section for X11/extensions/dbeproto.h',1439,0,'');
+INSERT INTO `HeaderGroup` VALUES (1565,'Default Header Section for X11/extensions/securproto.h',1440,0,'');
+INSERT INTO `HeaderGroup` VALUES (1566,'Default Header Section for X11/extensions/dpmsproto.h',1441,0,'');
+INSERT INTO `HeaderGroup` VALUES (1567,'Default Header Section for X11/extensions/syncproto.h',1442,0,'');
+INSERT INTO `HeaderGroup` VALUES (1568,'Default Header Section for X11/extensions/EVIproto.h',1443,0,'');
+INSERT INTO `HeaderGroup` VALUES (1569,'Default Header Section for X11/extensions/shmproto.h',1444,0,'');
+INSERT INTO `HeaderGroup` VALUES (1570,'Default Header Section for X11/extensions/shapeproto.h',1445,0,'');
+INSERT INTO `HeaderGroup` VALUES (1571,'Default Header Section for X11/extensions/xtestproto.h',1446,0,'');

@@ -1409,3 +1409,11 @@ INSERT INTO `Header` VALUES (1435,'gnu/libc-version.h',131,'No',NULL,'4.1',NULL)
 INSERT INTO `Header` VALUES (1436,'X11/Xarch.h',10,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1437,'X11/Xos.h',10,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1438,'X11/Xfuncs.h',10,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1439,'X11/extensions/dbeproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1440,'X11/extensions/securproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1441,'X11/extensions/dpmsproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1442,'X11/extensions/syncproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1443,'X11/extensions/EVIproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1444,'X11/extensions/shmproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1445,'X11/extensions/shapeproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1446,'X11/extensions/xtestproto.h',18,'No',NULL,'5.0',NULL);
