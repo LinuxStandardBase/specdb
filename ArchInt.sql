@@ -17,6 +17,7 @@ CREATE TABLE `ArchInt` (
   `AIappearedin` varchar(5) NOT NULL,
   `AIwithdrawnin` varchar(5) DEFAULT NULL,
   `AIdeprecatedsince` varchar(5) DEFAULT NULL,
+  `AIreturn` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`AIarch`,`AIint`,`AIappearedin`),
   KEY `AIversion` (`AIversion`),
   KEY `k_av` (`AIint`,`AIversion`),
