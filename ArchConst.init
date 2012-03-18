@@ -5599,7 +5599,7 @@ INSERT INTO `ArchConst` VALUES (1,6612,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((obje
 INSERT INTO `ArchConst` VALUES (1,6613,'(2)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6614,'(6)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6615,'(10)','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,6616,'\"2.8.11\"','3.1','4.0',0);
+INSERT INTO `ArchConst` VALUES (1,6616,'\"2.6.10\"','3.1','4.0',0);
 INSERT INTO `ArchConst` VALUES (1,6617,'extern','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6618,'(gdk_pixbuf_get_type ())','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6619,' \\\n	(G_TYPE_CHECK_INSTANCE_CAST ((object), GDK_TYPE_PIXBUF, GdkPixbuf))','3.1',NULL,0);
