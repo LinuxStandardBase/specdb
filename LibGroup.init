@@ -412,3 +412,9 @@ INSERT INTO `LibGroup` VALUES (697,'Glib Memory Slices',242,299,'Glib Memory Sli
 INSERT INTO `LibGroup` VALUES (698,'Glib Base64 Encoding',242,299,'Glib Base64 Encoding');
 INSERT INTO `LibGroup` VALUES (699,'GNU Extensions for libpthread',132,8,'');
 INSERT INTO `LibGroup` VALUES (700,'GNU Extensions for libc',131,25,'');
+INSERT INTO `LibGroup` VALUES (701,'System Calls',132,10,'');
+INSERT INTO `LibGroup` VALUES (702,'Standard I/O',132,11,'');
+INSERT INTO `LibGroup` VALUES (703,'Signal Handling',132,12,'');
+INSERT INTO `LibGroup` VALUES (704,'Standard Library',132,13,'');
+INSERT INTO `LibGroup` VALUES (705,'Socket Interface',132,14,'');
+INSERT INTO `LibGroup` VALUES (706,'Terminal Interface Functions',132,15,'');
