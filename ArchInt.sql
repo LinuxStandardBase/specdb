@@ -24,7 +24,8 @@ CREATE TABLE `ArchInt` (
   KEY `k_appearedin` (`AIappearedin`,`AIwithdrawnin`),
   KEY `k_withdrawnin` (`AIwithdrawnin`,`AIarch`),
   KEY `k_appeared_arch` (`AIappearedin`,`AIarch`),
-  KEY `k_archappeared` (`AIarch`,`AIappearedin`,`AIwithdrawnin`)
+  KEY `k_archappeared` (`AIarch`,`AIappearedin`,`AIwithdrawnin`),
+  KEY `k_AIreturn` (`AIreturn`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
