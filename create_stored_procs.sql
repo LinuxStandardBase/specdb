@@ -368,7 +368,7 @@ delimiter ;
 # create cache_IntsIncludedIn* tables
 CALL create_included_ints_table();
 
-CALL fill_uniq_pairs_id();
+#CALL fill_uniq_pairs_id();
 
 CALL create_cache_Component_tables();
 
