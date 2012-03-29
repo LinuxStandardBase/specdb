@@ -162,32 +162,6 @@ BEGIN
 END
 //
 
-DROP PROCEDURE IF EXISTS fill_uniq_pairs_id //
-
-CREATE PROCEDURE fill_uniq_pairs_id ()
-BEGIN
-    DECLARE app_id INT(10) UNSIGNED;
-    DECLARE rawint_id INT(10) UNSIGNED;
-    DECLARE int_id INT(10) UNSIGNED;
-    DECLARE done INT DEFAULT 0;
-    DECLARE uniq_id INT(10) UNSIGNED DEFAULT 1;
-    DECLARE records_cur CURSOR FOR SELECT ARIaid, RIid, Iid FROM cache_AppRIntLib WHERE Iid IS NOT NULL;
-    DECLARE CONTINUE HANDLER FOR SQLSTATE '02000' SET done = 1;
-
-    OPEN records_cur;
-
-    REPEAT
-    FETCH records_cur INTO app_id, rawint_id, int_id;
-    IF NOT done THEN
-        UPDATE cache_AppRIntLib SET UniqId=uniq_id WHERE ARIaid=app_id AND RIid=rawint_id AND Iid=int_id;
-        SET uniq_id = uniq_id + 1;
-    END IF;
-    UNTIL done END REPEAT;
-
-    CLOSE records_cur;
-END
-//
-
 -- Procedure used in consistency check
 DROP PROCEDURE IF EXISTS count_libs_presence //
 
@@ -367,8 +341,6 @@ delimiter ;
 
 # create cache_IntsIncludedIn* tables
 CALL create_included_ints_table();
-
-#CALL fill_uniq_pairs_id();
 
 CALL create_cache_Component_tables();
 

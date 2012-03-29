@@ -101,12 +101,9 @@ CREATE TABLE `cache_AppLibUsage`
 ALTER TABLE cache_AppLibUsage CHANGE int_cnt int_cnt int(10) unsigned NOT NULL default 0;
 
 -- Table with combined information about app<->rawint mapping.
--- We need additional field 'UniqId' here which will be NULL where Iid is NULL and
---  will have unique values for every (ARIaid,RIid,Iid) pair in order to simply calculate
---  number of unique pairs (RIid,Iid) for every application
 DROP TABLE IF EXISTS `cache_AppRIntLib`;
-CREATE TABLE `cache_AppRIntLib` (PRIMARY KEY (`ARIaid`,`RIid`,`Iid`), KEY `Aarch`(`Aarch`), KEY `RIid`(`RIid`,`Iid`), KEY `RLibRIntId`(`RLibRIntId`), KEY `RIlibrary`(`RIlibrary`), KEY `Iid`(`Iid`,`Aarch`), KEY `UniqId`(`UniqId`))
-SELECT Aname, Aversion, Aarch, ARIaid, RawInterface.RIid, RawInterface.RIlibrary, RawInterface.RIname, RIunmangled, RLibRIntId, RIversion, Iid AS Iid, Iid AS UniqId FROM AppRInt
+CREATE TABLE `cache_AppRIntLib` (PRIMARY KEY (`ARIaid`,`RIid`,`Iid`), KEY `Aarch`(`Aarch`), KEY `RIid`(`RIid`,`Iid`), KEY `RLibRIntId`(`RLibRIntId`), KEY `RIlibrary`(`RIlibrary`), KEY `Iid`(`Iid`,`Aarch`))
+SELECT Aname, Aversion, Aarch, ARIaid, RawInterface.RIid, RawInterface.RIlibrary, RawInterface.RIname, RIunmangled, RLibRIntId, RIversion, Iid AS Iid FROM AppRInt
     LEFT JOIN RawInterface ON ARIriid=RawInterface.RIid
     LEFT JOIN cache_IntCorrespondance USING(RIid)
     LEFT JOIN cache_RLibRIntMapping ON cache_RLibRIntMapping.RIname=RawInterface.RIname AND cache_RLibRIntMapping.RIlibrary=RawInterface.RIlibrary
