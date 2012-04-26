@@ -279,3 +279,4 @@ INSERT INTO `ArchLib` VALUES (267,9,'libpangocairo-1.0.so.0','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (267,10,'libpangocairo-1.0.so.0','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (267,11,'libpangocairo-1.0.so.0','4.0',NULL);
 INSERT INTO `ArchLib` VALUES (267,12,'libpangocairo-1.0.so.0','4.0',NULL);
+INSERT INTO `ArchLib` VALUES (280,1,'libsane.so.1','5.0',NULL);

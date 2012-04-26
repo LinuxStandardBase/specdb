@@ -1417,3 +1417,5 @@ INSERT INTO `Header` VALUES (1443,'X11/extensions/EVIproto.h',18,'No',NULL,'5.0'
 INSERT INTO `Header` VALUES (1444,'X11/extensions/shmproto.h',18,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1445,'X11/extensions/shapeproto.h',18,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1446,'X11/extensions/xtestproto.h',18,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1447,'sane/sane.h',280,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1448,'sane/saneopts.h',280,'No',NULL,'5.0',NULL);

@@ -418,3 +418,4 @@ INSERT INTO `LibGroup` VALUES (703,'Signal Handling',132,12,'');
 INSERT INTO `LibGroup` VALUES (704,'Standard Library',132,13,'');
 INSERT INTO `LibGroup` VALUES (705,'Socket Interface',132,14,'');
 INSERT INTO `LibGroup` VALUES (706,'Terminal Interface Functions',132,15,'');
+INSERT INTO `LibGroup` VALUES (707,'libsane interfaces',280,0,'');

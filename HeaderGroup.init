@@ -1496,3 +1496,5 @@ INSERT INTO `HeaderGroup` VALUES (1568,'Default Header Section for X11/extension
 INSERT INTO `HeaderGroup` VALUES (1569,'Default Header Section for X11/extensions/shmproto.h',1444,0,'');
 INSERT INTO `HeaderGroup` VALUES (1570,'Default Header Section for X11/extensions/shapeproto.h',1445,0,'');
 INSERT INTO `HeaderGroup` VALUES (1571,'Default Header Section for X11/extensions/xtestproto.h',1446,0,'');
+INSERT INTO `HeaderGroup` VALUES (1572,'Default Header Section for sane/sane.h',1447,0,'');
+INSERT INTO `HeaderGroup` VALUES (1573,'Default Header Section for sane/saneopts.h',1448,0,'');
