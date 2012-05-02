@@ -15,7 +15,6 @@ CREATE TABLE `Interface` (
   `Iname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
   `Itype` enum('Function','Data','Alias','Common') NOT NULL DEFAULT 'Function',
   `Iheader` int(10) unsigned NOT NULL DEFAULT '0',
-  `Ireturn` int(10) unsigned NOT NULL DEFAULT '0',
   `Idocumented` enum('Yes','No') NOT NULL DEFAULT 'No',
   `Icomment` varchar(255) DEFAULT NULL,
   `Icandidatefor` varchar(255) DEFAULT NULL,
@@ -38,8 +37,7 @@ CREATE TABLE `Interface` (
   KEY `k_Iheader` (`Iheader`),
   KEY `k_Isrcbin` (`Isrcbin`),
   KEY `k_Itestable` (`Itestable`),
-  KEY `k_Iunmangled` (`Iunmangled`(1000)),
-  KEY `k_Ireturn` (`Ireturn`)
+  KEY `k_Iunmangled` (`Iunmangled`(1000))
 ) ENGINE=MyISAM AUTO_INCREMENT=100064 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
