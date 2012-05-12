@@ -19,9 +19,13 @@ CREATE TABLE `Command` (
   `Ccandidatefor` varchar(255) DEFAULT NULL,
   `Cbuiltin` enum('Yes','No') NOT NULL DEFAULT 'No',
   `Cdeprecatedsince` varchar(5) DEFAULT NULL,
+  `Cappearedin` varchar(5) NOT NULL DEFAULT '',
+  `Cwithdrawnin` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`Cid`),
   UNIQUE KEY `Cname` (`Cname`),
-  KEY `Cdeprecatedsince` (`Cdeprecatedsince`)
+  KEY `Cdeprecatedsince` (`Cdeprecatedsince`),
+  KEY `k_appearedin` (`Cappearedin`,`Cwithdrawnin`),
+  KEY `k_withdrawnin` (`Cwithdrawnin`)
 ) ENGINE=MyISAM AUTO_INCREMENT=1076 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

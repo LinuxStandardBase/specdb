@@ -14,8 +14,12 @@ CREATE TABLE `Module` (
   `Mid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Mname` varchar(255) NOT NULL,
   `Mcomment` varchar(255) DEFAULT NULL,
+  `Mappearedin` varchar(5) NOT NULL DEFAULT '',
+  `Mwithdrawnin` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`Mid`),
-  UNIQUE KEY `Mname` (`Mname`)
+  UNIQUE KEY `Mname` (`Mname`),
+  KEY `k_appearedin` (`Mappearedin`,`Mwithdrawnin`),
+  KEY `k_withdrawnin` (`Mwithdrawnin`)
 ) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
