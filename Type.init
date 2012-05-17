@@ -22264,3 +22264,11 @@ INSERT INTO `Type` VALUES (40615,'void (*)(GdkDrawable *, GdkGC *, GdkDrawable *
 INSERT INTO `Type` VALUES (40616,'_GtkTooltip','Struct',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40617,'GtkTooltip','Typedef',1535,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40618,'GtkTooltip','Typedef',629,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40619,'const __cxxabiv1::__class_type_info','Const',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40620,'const __cxxabiv1::__class_type_info *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40621,'std::type_info *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40622,'void (*)(void *, size_t)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40623,'__cxa_exception','Struct',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40624,'__cxa_exception *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40625,'__cxa_eh_globals','Struct',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40626,'__cxa_eh_globals *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
