@@ -22272,3 +22272,5 @@ INSERT INTO `Type` VALUES (40623,'__cxa_exception','Struct',0,'','No','No','No',
 INSERT INTO `Type` VALUES (40624,'__cxa_exception *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40625,'__cxa_eh_globals','Struct',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40626,'__cxa_eh_globals *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40627,'anon-fpstate-union','Union',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40628,'_fpx_sw_bytes','Struct',365,'','No','No','No',NULL,0,0,'',0);
