@@ -17,6 +17,7 @@ CREATE TABLE `IntStd` (
   `ISappearedin` varchar(5) NOT NULL,
   `ISwithdrawnin` varchar(5) DEFAULT NULL,
   `ISurl` varchar(255) DEFAULT NULL,
+  `ISrefspecurl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ISiid`,`ISsid`,`ISappearedin`),
   KEY `k_appearedin` (`ISappearedin`,`ISwithdrawnin`),
   KEY `k_withdrawnin` (`ISwithdrawnin`),
