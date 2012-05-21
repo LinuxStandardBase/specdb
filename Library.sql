@@ -19,7 +19,7 @@ CREATE TABLE `Library` (
   UNIQUE KEY `k_lib` (`Lname`),
   KEY `k_candidatefor` (`Lcandidatefor`),
   KEY `Ldeprecatedsince` (`Ldeprecatedsince`)
-) ENGINE=MyISAM AUTO_INCREMENT=281 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=282 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
