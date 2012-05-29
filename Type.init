@@ -22437,3 +22437,5 @@ INSERT INTO `Type` VALUES (40788,'anon-enum-security.h-0','Enum',1585,'','No','N
 INSERT INTO `Type` VALUES (40789,'xsltSecurityOption','Typedef',1585,'','No','No','No',NULL,0,0,'libxslt',0);
 INSERT INTO `Type` VALUES (40790,'xsltSecurityCheck','Typedef',1585,'','No','No','No',NULL,0,0,'libxslt',0);
 INSERT INTO `Type` VALUES (40791,'int (*)(xsltSecurityPrefsPtr, xsltTransformContextPtr, const char *)','FuncPtr',0,'','No','No','No',NULL,0,0,'libxslt',0);
+INSERT INTO `Type` VALUES (40792,'anon-sys/select.h-99','Struct',353,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (40793,'fd_set','Typedef',353,'','No','No','No',NULL,0,0,'libc',0);
