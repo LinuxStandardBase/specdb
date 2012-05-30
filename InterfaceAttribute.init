@@ -1352,3 +1352,5 @@ INSERT INTO `InterfaceAttribute` VALUES (1883,'fstatat','libc','Recommendation',
 INSERT INTO `InterfaceAttribute` VALUES (1884,'fstatat64','libc','Recommendation','This interface is source-level only and should not be visible on binary level. It should be transformed to <int libc;__fxstatat64>__fxstatat64</int> at compilation time.');
 INSERT INTO `InterfaceAttribute` VALUES (1885,'cupsRasterReadHeader','libcupsimage','Recommendation','This function is deprecated. Use cupsRasterReadHeader2 instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1886,'cupsRasterWriteHeader','libcupsimage','Recommendation','This function is deprecated. Use cupsRasterWriteHeader2 instead.');
+INSERT INTO `InterfaceAttribute` VALUES (1887,'FcConfigSetRescanInverval','libfontconfig','Recommendation','There is a misspelling in the function name, use <int libfontconfig;FcConfigSetRescanInverval>FcConfigSetRescanIn_t_erval</int> instead');
+INSERT INTO `InterfaceAttribute` VALUES (1888,'FcConfigGetRescanInverval','libfontconfig','Recommendation','There is a misspelling in the function name, use <int libfontconfig;FcConfigGetRescanInverval>FcConfigGetRescanIn_t_erval</int> instead');
