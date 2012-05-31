@@ -22273,7 +22273,7 @@ INSERT INTO `Type` VALUES (40624,'__cxa_exception *','Pointer',0,'','No','No','N
 INSERT INTO `Type` VALUES (40625,'__cxa_eh_globals','Struct',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40626,'__cxa_eh_globals *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40627,'anon-fpstate-union','Union',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (40628,'_fpx_sw_bytes','Struct',365,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (40628,'_fpx_sw_bytes','Struct',41,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40629,'cups_adv_e','Enum',1293,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40630,'cups_bool_e','Enum',1293,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (40631,'cups_cspace_e','Enum',1293,'','No','No','No',NULL,0,0,'',0);
