@@ -162,7 +162,7 @@ INSERT INTO `ArchConst` VALUES (1,903,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,904,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,905,'unsignedint','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,906,'(0L)','1.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,907,'((size_t)&((TYPE*)0)->MEMBER)','1.2',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,907,'__builtin_offsetof (TYPE, MEMBER)','1.2',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,908,'1','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,909,'int','1.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,910,'int','1.2',NULL,0);
@@ -20413,3 +20413,4 @@ INSERT INTO `ArchConst` VALUES (1,21586,'bzero(fdsetp, sizeof(*(fdsetp)))','5.0'
 INSERT INTO `ArchConst` VALUES (1,21587,'((set)->fds_bits[((d)/(8*sizeof(long)))]|=(1L<<((d)%(8*sizeof(long)))))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,21588,'((set)->fds_bits[((d)/(8*sizeof(long)))]&=~(1L<<((d)%(8*sizeof(long)))))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,21589,'(((set)->fds_bits[((d)/(8*sizeof(long)))]&(1L<<((d)%(8*sizeof(long)))))!=0)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,21590,'((size_t)&((TYPE*)0)->MEMBER)','1.2',NULL,0);

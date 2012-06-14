@@ -167,3 +167,4 @@ INSERT INTO `ConstantAttribute` VALUES (168,1308,'Condition','#if !defined __cpl
 INSERT INTO `ConstantAttribute` VALUES (169,1305,'Condition','#if !defined __cplusplus || defined __STDC_FORMAT_MACROS');
 INSERT INTO `ConstantAttribute` VALUES (170,1329,'Condition','#if !defined __cplusplus || defined __STDC_FORMAT_MACROS');
 INSERT INTO `ConstantAttribute` VALUES (171,1335,'Condition','#if !defined __cplusplus || defined __STDC_FORMAT_MACROS');
+INSERT INTO `ConstantAttribute` VALUES (172,21590,'Condition','#if !defined(__GNUC__)');

@@ -19749,3 +19749,4 @@ INSERT INTO `Constant` VALUES (21586,'FD_ZERO(fdsetp)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21587,'FD_SET(d,set)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21588,'FD_CLR(d,set)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21589,'FD_ISSET(d,set)','macro',353,'',NULL);
+INSERT INTO `Constant` VALUES (21590,'__builtin_offsetof (TYPE, MEMBER)','macro',347,'',NULL);
