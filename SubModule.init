@@ -14,3 +14,7 @@ INSERT INTO `SubModule` VALUES (13,'LSB_Multimedia','LSB Multimedia Module','4.1
 INSERT INTO `SubModule` VALUES (14,'LSB_Security','LSB Security Module','4.1',NULL);
 INSERT INTO `SubModule` VALUES (15,'LSB_Java','LSB Java Module','',NULL);
 INSERT INTO `SubModule` VALUES (16,'LSB_Desktop_Misc','LSB Desktop Miscellaeous','4.1',NULL);
+INSERT INTO `SubModule` VALUES (17,'LSB_Base','new name for Core submodule','5.0',NULL);
+INSERT INTO `SubModule` VALUES (18,'LSB_Print','LSB Printing submodule','5.0',NULL);
+INSERT INTO `SubModule` VALUES (19,'LSB_Scan','LSB Scanning submodule','5.0',NULL);
+INSERT INTO `SubModule` VALUES (20,'LSB_Toolkit_Independent','new name for Desktop_Misc submodule','5.0',NULL);

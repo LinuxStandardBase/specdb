@@ -1,6 +1,7 @@
 INSERT INTO `Module` VALUES (1,'LSB-Core','Core LSB Specification','1.0',NULL);
-INSERT INTO `Module` VALUES (2,'LSB-CXX','LSB C++ Specification','1.0',NULL);
+INSERT INTO `Module` VALUES (2,'LSB-CXX','LSB C++ Specification','1.0','5.0');
 INSERT INTO `Module` VALUES (3,'LSB-Desktop','LSB Desktop Specification','3.1',NULL);
 INSERT INTO `Module` VALUES (4,'LSB-Languages','LSB Languages Specification','3.2',NULL);
-INSERT INTO `Module` VALUES (5,'LSB-Printing','LSB Printing Specification','3.2',NULL);
-INSERT INTO `Module` VALUES (6,'LSB-TrialUse','LSB Trial Use Modules','3.2',NULL);
+INSERT INTO `Module` VALUES (5,'LSB-Printing','LSB Printing Specification','3.2','5.0');
+INSERT INTO `Module` VALUES (6,'LSB-TrialUse','LSB Trial Use Specification','3.2',NULL);
+INSERT INTO `Module` VALUES (7,'LSB-Imaging','LSB Imaging Specification','5.0',NULL);
