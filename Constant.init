@@ -19750,3 +19750,7 @@ INSERT INTO `Constant` VALUES (21587,'FD_SET(d,set)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21588,'FD_CLR(d,set)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21589,'FD_ISSET(d,set)','macro',353,'',NULL);
 INSERT INTO `Constant` VALUES (21590,'__builtin_offsetof (TYPE, MEMBER)','macro',347,'',NULL);
+INSERT INTO `Constant` VALUES (21591,'_IOC_TYPECHECK(t)','macro',354,'',NULL);
+INSERT INTO `Constant` VALUES (21592,'_IOR_BAD(type,nr,size)','macro',354,'',NULL);
+INSERT INTO `Constant` VALUES (21593,'_IOW_BAD(type,nr,size)','macro',354,'',NULL);
+INSERT INTO `Constant` VALUES (21594,'_IOWR_BAD(type,nr,size)','macro',354,'',NULL);
