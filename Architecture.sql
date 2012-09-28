@@ -15,6 +15,9 @@ CREATE TABLE `Architecture` (
   `Aname` varchar(255) NOT NULL DEFAULT '',
   `Aspecification` varchar(255) NOT NULL DEFAULT '',
   `Asymbol` varchar(60) NOT NULL DEFAULT '',
+  `Aappearedin` varchar(5) NOT NULL DEFAULT '',
+  `Awithdrawnin` varchar(5) DEFAULT NULL,
+  `Adeprecatedsince` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`Aid`),
   KEY `k_Aname` (`Aname`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
