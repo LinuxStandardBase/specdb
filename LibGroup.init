@@ -420,3 +420,4 @@ INSERT INTO `LibGroup` VALUES (705,'Socket Interface',132,14,'');
 INSERT INTO `LibGroup` VALUES (706,'Terminal Interface Functions',132,15,'');
 INSERT INTO `LibGroup` VALUES (707,'libsane interfaces',280,0,'');
 INSERT INTO `LibGroup` VALUES (708,'libxslt interfaces',281,0,'');
+INSERT INTO `LibGroup` VALUES (709,'libtiff interfaces',282,0,'');

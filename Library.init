@@ -61,3 +61,4 @@ INSERT INTO `Library` VALUES (278,'libssl3',NULL,NULL);
 INSERT INTO `Library` VALUES (279,'libnspr4',NULL,NULL);
 INSERT INTO `Library` VALUES (280,'libsane',NULL,NULL);
 INSERT INTO `Library` VALUES (281,'libxslt',NULL,NULL);
+INSERT INTO `Library` VALUES (282,'libtiff',NULL,NULL);

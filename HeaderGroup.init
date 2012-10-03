@@ -1519,3 +1519,8 @@ INSERT INTO `HeaderGroup` VALUES (1591,'Default Header Section for libxslt/templ
 INSERT INTO `HeaderGroup` VALUES (1592,'Default Header Section for libxslt/extensions.h',1467,0,'');
 INSERT INTO `HeaderGroup` VALUES (1593,'Default Header Section for libxslt/xslt.h',1468,0,'');
 INSERT INTO `HeaderGroup` VALUES (1594,'Default Header Section for libxslt/extra.h',1469,0,'');
+INSERT INTO `HeaderGroup` VALUES (1595,'Default Header Section for tiffvers.h',1470,0,'');
+INSERT INTO `HeaderGroup` VALUES (1596,'Default Header Section for tiffconf.h',1471,0,'');
+INSERT INTO `HeaderGroup` VALUES (1597,'Default Header Section for tiff.h',1472,0,'');
+INSERT INTO `HeaderGroup` VALUES (1598,'Default Header Section for tiffio.h',1473,0,'');
+INSERT INTO `HeaderGroup` VALUES (1599,'Secondary Section for tiff.h',1472,1,'');
