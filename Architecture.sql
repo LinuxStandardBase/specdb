@@ -18,6 +18,7 @@ CREATE TABLE `Architecture` (
   `Aappearedin` varchar(5) NOT NULL DEFAULT '',
   `Awithdrawnin` varchar(5) DEFAULT NULL,
   `Adeprecatedsince` varchar(5) DEFAULT NULL,
+  `Aglibcbase` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`Aid`),
   KEY `k_Aname` (`Aname`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
