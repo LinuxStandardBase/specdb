@@ -1524,3 +1524,5 @@ INSERT INTO `HeaderGroup` VALUES (1596,'Default Header Section for tiffconf.h',1
 INSERT INTO `HeaderGroup` VALUES (1597,'Default Header Section for tiff.h',1472,0,'');
 INSERT INTO `HeaderGroup` VALUES (1598,'Default Header Section for tiffio.h',1473,0,'');
 INSERT INTO `HeaderGroup` VALUES (1599,'Secondary Section for tiff.h',1472,1,'');
+INSERT INTO `HeaderGroup` VALUES (1600,'Default Header Section for ffitarget.h',1474,0,'');
+INSERT INTO `HeaderGroup` VALUES (1601,'Default Header Section for ffi.h',1475,0,'');

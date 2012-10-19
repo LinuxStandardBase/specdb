@@ -1444,3 +1444,5 @@ INSERT INTO `Header` VALUES (1470,'tiffvers.h',282,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1471,'tiffconf.h',282,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1472,'tiff.h',282,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1473,'tiffio.h',282,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1474,'ffitarget.h',283,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1475,'ffi.h',283,'No',NULL,'5.0',NULL);
