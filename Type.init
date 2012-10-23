@@ -2580,7 +2580,7 @@ INSERT INTO `Type` VALUES (11507,'_GMutex','Struct',609,'','No','No','No',NULL,0
 INSERT INTO `Type` VALUES (11508,'_GMutex *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11509,'char[24]','Array',0,'','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11510,'anon-glib-2.0/glib.h-71','Union',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (11511,'GStaticMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (11703,'GStaticMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11512,'_GSystemThread','Union',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11513,'GSystemThread','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11514,'GStaticRecMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
@@ -2772,7 +2772,7 @@ INSERT INTO `Type` VALUES (11699,'gboolean (*)(GNode *, gpointer)','FuncPtr',609
 INSERT INTO `Type` VALUES (11700,'GNodeTraverseFunc','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11701,'anon-glib-2.0/glib.h-86','Enum',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11702,'GNormalizeMode','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (11703,'GMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (11511,'GMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11704,'GMutex *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11705,'GMutex **','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11706,'_GStaticPrivate','Struct',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
@@ -22785,13 +22785,12 @@ INSERT INTO `Type` VALUES (41137,'anon-struct-gthread.h-33','Struct',609,'','No'
 INSERT INTO `Type` VALUES (41138,'anon-struct-gthread.h-34','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41139,'_GRecMutex','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41140,'anon-struct-gthread.h-35','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (41141,'guint64 (*)()','FuncPtr',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (41141,'guint64 *','Pointer',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41142,'anon-enum-gthread.h-47','Enum',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41143,'anon-enum-gthread.h-48','Enum',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41144,'void * volatile','Volatile',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41145,'anon-struct-gthread.h-36','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41146,'anon-struct-gthread.h-37','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (41147,'GStaticMutex','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41148,'anon-union-gthread.h-5','Union',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41149,'anon-struct-gthread.h-38','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41150,'GRWLock *','Pointer',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
