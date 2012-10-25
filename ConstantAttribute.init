@@ -168,3 +168,4 @@ INSERT INTO `ConstantAttribute` VALUES (169,1305,'Condition','#if !defined __cpl
 INSERT INTO `ConstantAttribute` VALUES (170,1329,'Condition','#if !defined __cplusplus || defined __STDC_FORMAT_MACROS');
 INSERT INTO `ConstantAttribute` VALUES (171,1335,'Condition','#if !defined __cplusplus || defined __STDC_FORMAT_MACROS');
 INSERT INTO `ConstantAttribute` VALUES (172,21590,'Condition','#if !defined(__GNUC__)');
+INSERT INTO `ConstantAttribute` VALUES (173,22059,'Declaration','#if LONG_MAX == 2147483647\n#  define FFI_SIZEOF_ARG        4\n#elif LONG_MAX == FFI_64_BIT_MAX\n#  define FFI_SIZEOF_ARG        8\n#endif');

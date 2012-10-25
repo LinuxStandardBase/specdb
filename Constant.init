@@ -20216,3 +20216,8 @@ INSERT INTO `Constant` VALUES (22053,'EXIFTAG_SUBJECTDISTANCERANGE','int',1597,'
 INSERT INTO `Constant` VALUES (22054,'EXIFTAG_IMAGEUNIQUEID','int',1597,'',NULL);
 INSERT INTO `Constant` VALUES (22055,'tiff.h depends on tiffconf.h','header_depend',1597,'',NULL);
 INSERT INTO `Constant` VALUES (22056,'tiffio.h depends on tiffvers.h','header_depend',1598,'',NULL);
+INSERT INTO `Constant` VALUES (22057,'FFI_TRAMPOLINE_SIZE','limit',1600,'',NULL);
+INSERT INTO `Constant` VALUES (22058,'FFI_64_BIT_MAX','limit',1601,'',NULL);
+INSERT INTO `Constant` VALUES (22059,'FFI_SIZEOF_ARG','limit',1601,'',NULL);
+INSERT INTO `Constant` VALUES (22060,'FFI_SIZEOF_JAVA_RAW','limit',1601,'',NULL);
+INSERT INTO `Constant` VALUES (22061,'ffi.h depends on limits.h','header_depend',1601,'',NULL);

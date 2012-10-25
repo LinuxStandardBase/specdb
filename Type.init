@@ -22861,3 +22861,4 @@ INSERT INTO `Type` VALUES (41214,'ffi_java_raw_closure *','Pointer',0,'','No','N
 INSERT INTO `Type` VALUES (41215,'char[FFI_TRAMPOLINE_SIZE]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (41216,'data[FFI_SIZEOF_ARG]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10000000,'goffset','Typedef',928,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (10000001,'va_list *','Pointer',351,'','No','No','No',NULL,0,0,'',0);
