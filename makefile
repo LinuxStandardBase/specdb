@@ -67,16 +67,16 @@ restore::
 	done
 
 community_check::
-	ret_code=0; \
+	@ret_code=0; \
 	for table in $(COMMUNITY); \
 	do \
-		if [[ ! -e $$table.init ]]; \
+		if [ ! -e $$table.init ]; \
 		then \
 			echo "Missing community table init file: $$table.init"; \
 			ret_code=1; \
 		fi; \
 	done; \
-	if [[ $$ret_code == "1" ]]; \
+	if [ $$ret_code -eq 1 ]; \
 	then \
 		echo "!!!Make sure you have the latest community data files unpacked to this folder"; \
 	fi; \
@@ -97,7 +97,7 @@ restoreall:: community_check
 		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
 		case "$(ELEMENTS)" in \
 		        *"$$table"*) mysql $(DBOPTS) $$LSBDB <$$table.init ;; \
-		        *) mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile \"$${PWD}/$${table}.init\" into table $$table" ;; \
+		        *) cp $${table}.init /tmp; chmod 644 /tmp/$${table}.init; mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile \"/tmp/$${table}.init\" into table $$table"; rm /tmp/$${table}.init ;; \
 		esac;\
 	done'
 	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
@@ -138,7 +138,10 @@ restore_apps::
 		set +e; \
 		echo $$table; \
 	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
+	        cp $$table.init /tmp; \
+	        chmod 644 /tmp/$$table.init; \
 		mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
+	        rm /tmp/$$table.init; \
 	done
 	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
