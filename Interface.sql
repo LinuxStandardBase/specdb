@@ -38,7 +38,7 @@ CREATE TABLE `Interface` (
   KEY `k_Isrcbin` (`Isrcbin`),
   KEY `k_Itestable` (`Itestable`),
   KEY `k_Iunmangled` (`Iunmangled`(1000))
-) ENGINE=MyISAM AUTO_INCREMENT=101047 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=101279 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

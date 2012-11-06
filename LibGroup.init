@@ -422,3 +422,4 @@ INSERT INTO `LibGroup` VALUES (707,'libsane interfaces',280,0,'');
 INSERT INTO `LibGroup` VALUES (708,'libxslt interfaces',281,0,'');
 INSERT INTO `LibGroup` VALUES (709,'libtiff interfaces',282,0,'');
 INSERT INTO `LibGroup` VALUES (710,'libffi interfaces',283,0,'');
+INSERT INTO `LibGroup` VALUES (711,'libpng15 interfaces',284,0,'');
