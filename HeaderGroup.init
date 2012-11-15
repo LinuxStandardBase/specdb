@@ -1529,3 +1529,8 @@ INSERT INTO `HeaderGroup` VALUES (1601,'Default Header Section for ffi.h',1475,0
 INSERT INTO `HeaderGroup` VALUES (1602,'Default Header Section for libpng15/png.h',1476,0,'');
 INSERT INTO `HeaderGroup` VALUES (1603,'Default Header Section for libpng15/pnglibconf.h',1477,0,'');
 INSERT INTO `HeaderGroup` VALUES (1604,'Default Header Section for libpng15/pngconf.h',1478,0,'');
+INSERT INTO `HeaderGroup` VALUES (1605,'Default Header Section for xcb/xcbext.h',1479,0,'');
+INSERT INTO `HeaderGroup` VALUES (1606,'Default Header Section for xcb/bigreq.h',1480,0,'');
+INSERT INTO `HeaderGroup` VALUES (1607,'Default Header Section for xcb/xcb.h',1481,0,'');
+INSERT INTO `HeaderGroup` VALUES (1608,'Default Header Section for xcb/xc_misc.h',1482,0,'');
+INSERT INTO `HeaderGroup` VALUES (1609,'Default Header Section for xcb/xproto.h',1483,0,'');

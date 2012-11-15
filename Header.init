@@ -1449,3 +1449,8 @@ INSERT INTO `Header` VALUES (1475,'ffi.h',283,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1476,'libpng15/png.h',284,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1477,'libpng15/pnglibconf.h',284,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1478,'libpng15/pngconf.h',284,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1479,'xcb/xcbext.h',285,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1480,'xcb/bigreq.h',285,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1481,'xcb/xcb.h',285,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1482,'xcb/xc_misc.h',285,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1483,'xcb/xproto.h',285,'No',NULL,'5.0',NULL);

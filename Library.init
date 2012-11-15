@@ -64,3 +64,4 @@ INSERT INTO `Library` VALUES (281,'libxslt',NULL,NULL);
 INSERT INTO `Library` VALUES (282,'libtiff',NULL,NULL);
 INSERT INTO `Library` VALUES (283,'libffi',NULL,NULL);
 INSERT INTO `Library` VALUES (284,'libpng15',NULL,NULL);
+INSERT INTO `Library` VALUES (285,'libxcb',NULL,NULL);
