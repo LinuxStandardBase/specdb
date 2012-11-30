@@ -159,7 +159,7 @@ INSERT INTO `Header` VALUES (163,'rpc/pmap_clnt.h',131,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (164,'fontconfig/fontconfig.h',239,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (165,'fontconfig/fcfreetype.h',239,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (166,'fontconfig/fcprivate.h',239,'No',NULL,'3.1',NULL);
-INSERT INTO `Header` VALUES (167,'png.h',240,'No',NULL,'3.1',NULL);
+INSERT INTO `Header` VALUES (167,'libpng12/png.h',240,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (168,'jpeglib.h',241,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (169,'glib-2.0/glib.h',242,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (170,'glib-2.0/glib/gprintf.h',242,'No',NULL,'3.1',NULL);
