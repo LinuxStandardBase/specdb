@@ -424,3 +424,4 @@ INSERT INTO `LibGroup` VALUES (709,'libtiff interfaces',282,0,'');
 INSERT INTO `LibGroup` VALUES (710,'libffi interfaces',283,0,'');
 INSERT INTO `LibGroup` VALUES (711,'libpng15 interfaces',284,0,'');
 INSERT INTO `LibGroup` VALUES (712,'libxcb interfaces',285,0,'');
+INSERT INTO `LibGroup` VALUES (713,'libgio-2.0 interfaces',286,0,'');
