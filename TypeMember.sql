@@ -31,7 +31,7 @@ CREATE TABLE `TypeMember` (
   KEY `k_TMaid` (`TMaid`),
   KEY `k_TMappearedin` (`TMappearedin`,`TMwithdrawnin`),
   KEY `k_TMmemberof` (`TMmemberof`,`TMaid`,`TMappearedin`)
-) ENGINE=MyISAM AUTO_INCREMENT=232153 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=232170 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

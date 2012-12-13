@@ -1526,9 +1526,9 @@ INSERT INTO `HeaderGroup` VALUES (1598,'Default Header Section for tiffio.h',147
 INSERT INTO `HeaderGroup` VALUES (1599,'Secondary Section for tiff.h',1472,1,'');
 INSERT INTO `HeaderGroup` VALUES (1600,'Default Header Section for ffitarget.h',1474,0,'');
 INSERT INTO `HeaderGroup` VALUES (1601,'Default Header Section for ffi.h',1475,0,'');
-INSERT INTO `HeaderGroup` VALUES (1602,'Default Header Section for libpng15/png.h',1476,0,'');
+INSERT INTO `HeaderGroup` VALUES (1602,'Default Header Section for libpng15/png.h',1476,3,'');
 INSERT INTO `HeaderGroup` VALUES (1603,'Default Header Section for libpng15/pnglibconf.h',1477,0,'');
-INSERT INTO `HeaderGroup` VALUES (1604,'Default Header Section for libpng15/pngconf.h',1478,0,'');
+INSERT INTO `HeaderGroup` VALUES (1604,'Default Header Section for libpng15/pngconf.h',1478,2,'');
 INSERT INTO `HeaderGroup` VALUES (1605,'Default Header Section for xcb/xcbext.h',1479,0,'');
 INSERT INTO `HeaderGroup` VALUES (1606,'Default Header Section for xcb/bigreq.h',1480,0,'');
 INSERT INTO `HeaderGroup` VALUES (1607,'Default Header Section for xcb/xcb.h',1481,0,'');
@@ -1676,3 +1676,8 @@ INSERT INTO `HeaderGroup` VALUES (1748,'Default Header Section for glib-2.0/gio/
 INSERT INTO `HeaderGroup` VALUES (1749,'Default Header Section for glib-2.0/gio/gtlsconnection.h',1623,0,'');
 INSERT INTO `HeaderGroup` VALUES (1750,'Default Header Section for pango-1.0/pango/pangoxft-render.h',1420,0,'Default Header Section for pango-1.0/pango/pangoxft-render.h');
 INSERT INTO `HeaderGroup` VALUES (1751,'Default Header Section for pango-1.0/pango/pangofc-font.h',1419,0,'Default Header Section for pango-1.0/pango/pangofc-font.h');
+INSERT INTO `HeaderGroup` VALUES (1752,'Constants Header Section for libpng15/pngconf.h',1478,0,'');
+INSERT INTO `HeaderGroup` VALUES (1753,'Arch-dependent Header Section for libpng15/pngconf.h',1478,1,'');
+INSERT INTO `HeaderGroup` VALUES (1754,'Constants Header Section for libpng15/png.h',1476,0,'');
+INSERT INTO `HeaderGroup` VALUES (1755,'Pre Header Section One for libpng15/png.h',1476,1,'');
+INSERT INTO `HeaderGroup` VALUES (1756,'Pre Header Section Two for libpng15/png.h',1476,2,'');
