@@ -1354,3 +1354,6 @@ INSERT INTO `InterfaceAttribute` VALUES (1885,'cupsRasterReadHeader','libcupsima
 INSERT INTO `InterfaceAttribute` VALUES (1886,'cupsRasterWriteHeader','libcupsimage','Recommendation','This function is deprecated. Use cupsRasterWriteHeader2 instead.');
 INSERT INTO `InterfaceAttribute` VALUES (1887,'FcConfigSetRescanInverval','libfontconfig','Recommendation','There is a misspelling in the function name, use <int libfontconfig;FcConfigSetRescanInverval>FcConfigSetRescanIn_t_erval</int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (1888,'FcConfigGetRescanInverval','libfontconfig','Recommendation','There is a misspelling in the function name, use <int libfontconfig;FcConfigGetRescanInverval>FcConfigGetRescanIn_t_erval</int> instead');
+INSERT INTO `InterfaceAttribute` VALUES (102606,'g_io_module_load','libgio-2.0','Rejection','this function is to be implemented by modules, not by libgio');
+INSERT INTO `InterfaceAttribute` VALUES (102607,'g_io_module_unload','libgio-2.0','Rejection','this function is to be implemented by modules, not by libgio');
+INSERT INTO `InterfaceAttribute` VALUES (102608,'g_io_module_query','libgio-2.0','Rejection','this function is to be implemented by modules, not by libgio');
