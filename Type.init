@@ -25817,3 +25817,7 @@ INSERT INTO `Type` VALUES (10003255,'anon-struct-pangoxft-render.h-1','Struct',1
 INSERT INTO `Type` VALUES (10003256,'png_charp *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10003257,'png_charpp *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10003258,'jmpbuf *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10003259,'const GDBusErrorEntry','Const',1733,'','No','No','No',NULL,0,0,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10003260,'const GDBusErrorEntry *','Pointer',1733,'','No','No','No',NULL,0,0,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10003261,'const GDBusSubtreeVTable','Const',1618,'','No','No','No',NULL,0,0,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10003262,'const GDBusSubtreeVTable *','Pointer',1618,'','No','No','No',NULL,0,0,'libgio-2.0',0);
