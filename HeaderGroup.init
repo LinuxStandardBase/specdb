@@ -591,7 +591,7 @@ INSERT INTO `HeaderGroup` VALUES (608,'Default Header Section for jpeglib.h',168
 INSERT INTO `HeaderGroup` VALUES (609,'Default Header Section for glib-2.0/glib.h',169,2,'Default Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (610,'Default Header Section for glib-2.0/glib/gprintf.h',170,0,'Default Header Section for glib-2.0/glib/gprintf.h');
 INSERT INTO `HeaderGroup` VALUES (611,'Default Header Section for glib-2.0/glib/gstdio.h',171,0,'Default Header Section for glib-2.0/glib/gstdio.h');
-INSERT INTO `HeaderGroup` VALUES (612,'Default Header Section for glib-2.0/glib-object.h',172,0,'Default Header Section for glib-2.0/glib-object.h');
+INSERT INTO `HeaderGroup` VALUES (612,'Default Header Section for glib-2.0/glib-object.h',172,3,'Default Header Section for glib-2.0/glib-object.h');
 INSERT INTO `HeaderGroup` VALUES (613,'Default Header Section for glib-2.0/gobject/gvaluecollector.h',173,0,'Default Header Section for glib-2.0/gobject/gvaluecollector.h');
 INSERT INTO `HeaderGroup` VALUES (614,'Default Header Section for glib-2.0/gmodule.h',174,0,'Default Header Section for glib-2.0/gmodule.h');
 INSERT INTO `HeaderGroup` VALUES (615,'Default Header Section for atk-1.0/atk/atk.h',175,0,'Default Header Section for atk-1.0/atk/atk.h');
@@ -1681,3 +1681,5 @@ INSERT INTO `HeaderGroup` VALUES (1753,'Arch-dependent Header Section for libpng
 INSERT INTO `HeaderGroup` VALUES (1754,'Constants Header Section for libpng15/png.h',1476,0,'');
 INSERT INTO `HeaderGroup` VALUES (1755,'Pre Header Section One for libpng15/png.h',1476,1,'');
 INSERT INTO `HeaderGroup` VALUES (1756,'Pre Header Section Two for libpng15/png.h',1476,2,'');
+INSERT INTO `HeaderGroup` VALUES (1757,'Constants Header Section for glib-2.0/glib-object.h',172,0,'Constants Header Section for glib-2.0/glib-object.h');
+INSERT INTO `HeaderGroup` VALUES (1758,'Pre Header Section for glib-2.0/glib-object.h',172,1,'Pre Header Section for glib-2.0/glib-object.h');
