@@ -1594,3 +1594,7 @@ INSERT INTO `Header` VALUES (1620,'glib-2.0/gio/gsocketclient.h',286,'No',NULL,'
 INSERT INTO `Header` VALUES (1621,'glib-2.0/gio/gdbusmenumodel.h',286,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1622,'glib-2.0/gio/gio.h',286,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1623,'glib-2.0/gio/gtlsconnection.h',286,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1624,'ncursesw/term.h',287,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1625,'ncursesw/curses.h',287,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1626,'ncursesw/unctrl.h',287,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1627,'ncursesw/ncurses_dll.h',287,'No',NULL,'5.0',NULL);

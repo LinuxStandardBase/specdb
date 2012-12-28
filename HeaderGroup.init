@@ -1683,3 +1683,7 @@ INSERT INTO `HeaderGroup` VALUES (1755,'Pre Header Section One for libpng15/png.
 INSERT INTO `HeaderGroup` VALUES (1756,'Pre Header Section Two for libpng15/png.h',1476,2,'');
 INSERT INTO `HeaderGroup` VALUES (1757,'Constants Header Section for glib-2.0/glib-object.h',172,0,'Constants Header Section for glib-2.0/glib-object.h');
 INSERT INTO `HeaderGroup` VALUES (1758,'Pre Header Section for glib-2.0/glib-object.h',172,1,'Pre Header Section for glib-2.0/glib-object.h');
+INSERT INTO `HeaderGroup` VALUES (1759,'Default Header Section for ncursesw/term.h',1624,0,'');
+INSERT INTO `HeaderGroup` VALUES (1760,'Default Header Section for ncursesw/curses.h',1625,0,'');
+INSERT INTO `HeaderGroup` VALUES (1761,'Default Header Section for ncursesw/unctrl.h',1626,0,'');
+INSERT INTO `HeaderGroup` VALUES (1762,'Default Header Section for ncursesw/ncurses_dll.h',1627,0,'');
