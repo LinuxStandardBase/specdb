@@ -22964,3 +22964,7 @@ INSERT INTO `Constant` VALUES (24801,'NCURSES_IMPEXP','Unknown',1762,'',NULL);
 INSERT INTO `Constant` VALUES (24802,'NCURSES_API','Unknown',1762,'',NULL);
 INSERT INTO `Constant` VALUES (24803,'curses.h depends on ncurses_dll.h','header_depend',1763,'',NULL);
 INSERT INTO `Constant` VALUES (24804,'term.h depends on ncurses_dll.h','header_depend',1759,'',NULL);
+INSERT INTO `Constant` VALUES (24805,'PANGO_RENDER_TYPE_FT2','string',620,'',NULL);
+INSERT INTO `Constant` VALUES (24806,'PANGO_FC_GRAVITY','string',622,'',NULL);
+INSERT INTO `Constant` VALUES (24807,'PANGO_FC_VERSION','string',622,'',NULL);
+INSERT INTO `Constant` VALUES (24808,'PANGO_FC_PRGNAME','string',622,'',NULL);

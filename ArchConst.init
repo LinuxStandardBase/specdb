@@ -23668,3 +23668,7 @@ INSERT INTO `ArchConst` VALUES (1,24801,'','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24802,'','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24803,'1627','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24804,'1627','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24805,'PangoRenderFT2','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24806,'pangogravity','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24807,'pangoversion','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24808,'pangoprgname','',NULL,0);

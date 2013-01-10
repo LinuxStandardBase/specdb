@@ -25986,3 +25986,7 @@ INSERT INTO `Type` VALUES (10003426,'cchar_t *','Pointer',0,'','No','No','No',NU
 INSERT INTO `Type` VALUES (10003427,'wint_t','Typedef',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003428,'wint_t *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003429,'chtype[]','Array',0,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003430,'_PangoFcFontMapPrivate','Struct',622,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
+INSERT INTO `Type` VALUES (10003431,'PangoFcFontMapPrivate','Typedef',622,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
+INSERT INTO `Type` VALUES (10003432,'anon-struct-pangofc-decoder.h-0','Struct',621,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
+INSERT INTO `Type` VALUES (10003433,'anon-struct-pangofc-decoder.h-1','Struct',621,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
