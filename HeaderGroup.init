@@ -1690,3 +1690,7 @@ INSERT INTO `HeaderGroup` VALUES (1762,'Default Header Section for ncursesw/ncur
 INSERT INTO `HeaderGroup` VALUES (1763,'Constants Header Section for ncursesw/curses.h',1625,0,'');
 INSERT INTO `HeaderGroup` VALUES (1764,'First Header Section for ncursesw/curses.h',1625,1,'');
 INSERT INTO `HeaderGroup` VALUES (1765,'Second Header Section for ncursesw/curses.h',1625,2,'');
+INSERT INTO `HeaderGroup` VALUES (1766,'Default Header Section for pango-1.0/pango/pango-bidi-type.h',1396,0,'');
+INSERT INTO `HeaderGroup` VALUES (1767,'Default Header Section for pango-1.0/pango/pango-gravity.h',1408,0,'');
+INSERT INTO `HeaderGroup` VALUES (1768,'Default Header Section for pango-1.0/pango/pango-language.h',1410,0,'');
+INSERT INTO `HeaderGroup` VALUES (1769,'Default Header Section for pango-1.0/pango/pango-matrix.h',1412,0,'');

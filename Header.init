@@ -1366,7 +1366,7 @@ INSERT INTO `Header` VALUES (1392,'gtk-2.0/gtk/gtkvseparator.h',253,'No',NULL,''
 INSERT INTO `Header` VALUES (1393,'gtk-2.0/gtk/gtkwidget.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1394,'gtk-2.0/gtk/gtkwindow.h',253,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1395,'pango-1.0/pango/pango-attributes.h',247,'No',NULL,'',NULL);
-INSERT INTO `Header` VALUES (1396,'pango-1.0/pango/pango-bidi-type.h',247,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1396,'pango-1.0/pango/pango-bidi-type.h',247,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1397,'pango-1.0/pango/pango-break.h',247,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1398,'pango-1.0/pango/pango-context.h',247,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1399,'pango-1.0/pango/pango-coverage.h',247,'No',NULL,'',NULL);
