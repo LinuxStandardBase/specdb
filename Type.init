@@ -13616,7 +13616,7 @@ INSERT INTO `Type` VALUES (31697,'_ZNSt12__basic_fileIcEE','Class',0,'','No','No
 INSERT INTO `Type` VALUES (31698,'_ZNSt6gsliceE','Class',0,'','No','No','No','std::gslice',0,0,'libstdcxx',173);
 INSERT INTO `Type` VALUES (31699,'_ZSt13basic_istreamIcSt11char_traitsIcEE','Class',0,'','No','No','No','std::basic_istream<char, std::char_traits<char> >',0,0,'libstdcxx',174);
 INSERT INTO `Type` VALUES (31700,'_ZSt13basic_ostreamIcSt11char_traitsIcEE','Class',0,'','No','No','No','std::basic_ostream<char, std::char_traits<char> >',0,0,'libstdcxx',175);
-INSERT INTO `Type` VALUES (31701,'volatile gint *','Volatile',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (31701,'volatile gint *','Pointer',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (31702,'volatile gpointer *','Volatile',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (31703,'volatile guint','Volatile',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (31749,'anon-X11/ICE/ICEconn.h-51','Struct',1365,'','No','No','No',NULL,0,0,'libICE',0);
