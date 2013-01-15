@@ -25,6 +25,7 @@ CREATE TABLE `Standard` (
   `Swithdrawnin` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`Sid`),
   UNIQUE KEY `Sname` (`Sname`),
+  UNIQUE KEY `k_Stag` (`Stag`,`Sappearedin`),
   KEY `Stype` (`Stype`),
   KEY `Sshort` (`Sshort`)
 ) ENGINE=MyISAM AUTO_INCREMENT=180 DEFAULT CHARSET=latin1;
