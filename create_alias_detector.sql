@@ -100,7 +100,7 @@ BEGIN
 			IFNULL(class_cnt,0) as class_cnt,
 			IFNULL(rilm_cnt,0) as rilm_cnt,
 			IFNULL(cmd_cnt,0) as cmd_cnt,
-			Cid
+			Cid, Cdistr
 		FROM Component
         LEFT JOIN tmp_Cmds USING(Cid)
         LEFT JOIN tmp_Classes USING(Cid)
@@ -121,14 +121,13 @@ BEGIN
 			IFNULL(class_cnt,0) as class_cnt,
 			IFNULL(rilm_cnt,0) as rilm_cnt,
 			IFNULL(cmd_cnt,0) as cmd_cnt,
-			Cid
+			Cid, Cdistr
 		FROM Component
         LEFT JOIN tmp_Cmds USING(Cid)
         LEFT JOIN tmp_Classes USING(Cid)
         LEFT JOIN tmp_Ints USING(Cid)
         LEFT JOIN tmp_RILMs USING(Cid)
-        WHERE Cdistr!=", Did,
-        " AND Calias=0
+        WHERE Calias=0
         ");
     PREPARE stmt FROM @stmt_text;
     EXECUTE stmt;
@@ -146,7 +145,8 @@ BEGIN
 	AND tmp_DistrCompContent.class_cnt=tmp_OtherCompContent.class_cnt
 	AND tmp_DistrCompContent.int_cnt=tmp_OtherCompContent.int_cnt
 	AND tmp_DistrCompContent.rilm_cnt=tmp_OtherCompContent.rilm_cnt
-	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt;
+	AND tmp_DistrCompContent.cmd_cnt=tmp_OtherCompContent.cmd_cnt
+	AND (tmp_DistrCompContent.Cdistr != tmp_OtherCompContent.Cdistr OR tmp_DistrCompContent.Cid < tmp_OtherCompContent.Cid);
 --	AND tmp_DistrCompContent.jint_cnt=tmp_OtherCompContent.jint_cnt;
 
 -- tmp_BrokenAlias will contain (Cid1, Cid2) pairs that are proved
