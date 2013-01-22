@@ -69,7 +69,7 @@ elements_list:
 	@echo $*
 	@mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $* | grep -v 'Server version' |grep -v 'character_set_client' > $*.sql
 	@if grep -q $* elements_list; then \
-	  mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $* | LC_ALL=C grep INSERT || true > $*.init; \
+	  mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $* | (LC_ALL=C grep INSERT || true) > $*.init; \
 	else \
 	  rm -f "$$PWD/$*.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $* into outfile '$$PWD/$*.init'"; \
 	fi
