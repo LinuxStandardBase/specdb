@@ -7,10 +7,16 @@
 
 DBOPTS=-h $$LSBDBHOST -u $$LSBUSER --password=$$LSBDBPASSWD
 DUMPOPTS=--quote-names --extended-insert=false --triggers=FALSE --skip-dump-date --skip-comments
-# Add '--local-infile' here if there are any problems with direct access to files
-FILEOPTS=
-# If TMPLSBDB environment variable is set, it will be used for temp database name;
-# otherwise we'll use "${LSBDB}_tmp"
+# Sometimes LOAD DATA INFILE doesn't work, but ...LOCAL INFILE does.
+# If this is your case, set this to 'local'.
+LOCAL_INFILE_CMD=
+# If DO_COPY is 'yes', then we copy files being loaded with LOAD DATA INFILE
+# to a common temporary location first.
+DO_COPY=no
+# Use this temporary location if needed.
+TMPDIR=/tmp
+# If TMPLSBDB environment variable is set, it will be used for temp database
+# name; otherwise we'll use "${LSBDB}_tmp"
 TMPLSBDB=$${TMPLSBDB=${LSBDB}}_tmp
 
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
@@ -29,42 +35,63 @@ COMMUNITY=AppCategory AppInfo AppInterpreter AppJInt AppLib AppRequires AppRILM 
 	JavaInterface RILMBuiltin RLibDeps RLibLink RLibRClass RLibRInt RawClass RawCommand RawILModule \
 	RawInterface RawLibSoname RawLibrary WeakSymbol
 
+ifeq (yes,$(DO_COPY))
+LOAD_LOCATION=$(TMPDIR)
+else
+LOAD_LOCATION=$$PWD
+endif
+
+# These variables hold the targets for each thing that needs to be done
+# in the form 'tablename_job'.  Example: 'Type_dump' would dump the Type
+# table.  Most of the work this makefile does is based on these rules.
+
+ELEMENTS_DUMP = $(shell echo $(ELEMENTS) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
+COMMUNITY_DUMP = $(shell echo $(COMMUNITY) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
+APP_TABLES_DUMP = $(shell echo $(APP_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
+ELEMENTS_RESTORE = $(shell echo $(ELEMENTS) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
+COMMUNITY_RESTORE = $(shell echo $(COMMUNITY) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
+APP_TABLES_RESTORE = $(shell echo $(APP_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
+
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
 
+# This is used to distinguish which dump and restore commands to use
+# for the data of a particular table.
+elements_list:
+	echo $(ELEMENTS) > $@
+
+%_dump: elements_list
+	mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $* | grep -v 'Server version' |grep -v 'character_set_client' > $*.sql
+	if grep -q $* elements_list; then \
+	  mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $* | LC_ALL=C grep INSERT > $*.init; \
+	else \
+	  rm -f "$$PWD/$*.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $* into outfile '$$PWD/$*.init'"; \
+	fi
+
+%_restore: elements_list
+	@echo $*
+	@mysql $(DBOPTS) $$LSBDB < $*.sql
+	@if grep -q $* elements_list; then \
+	  mysql $(DBOPTS) $$LSBDB < $*.init; \
+	else \
+	  cp $*.init $(TMPDIR); \
+	  chmod 644 $(TMPDIR)/$*.init; \
+	  mysql $(DBOPTS) $$LSBDB -e "load data $(LOCAL_INFILE_CMD) infile '$(LOAD_LOCATION)/$*.init' into table $*"; \
+	  rm -f $(TMPDIR)/$*.init; \
+	fi
+
 # dump the "source code" tables
-dump::
-	for table in $(ELEMENTS) ; \
-	do \
-		set +e; \
-		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' |grep -v 'character_set_client' >$$table.sql;\
-		mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init;\
-	done
+dump: $(ELEMENTS_DUMP)
 
 # dump everything: the "source code" tables + the "community" tables
 # if the community tables are populated, this will be big!
-dumpall::
-	for table in `mysql $(DBOPTS) -e "SHOW TABLES" $$LSBDB | grep -v Tables | grep -v cache_` ;\
-	do \
-		set +e; \
-		echo $$table; \
-		mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' |grep -v 'character_set_client' >$$table.sql;\
-		case "$(ELEMENTS)" in \
-			*"$$table"*) mysqldump $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | LC_ALL=C grep INSERT >$$table.init ;; \
-			*) rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'" ;; \
-		esac;\
-	done
+dumpall: dump $(COMMUNITY_DUMP)
 
-restore::
-	for table in $(ELEMENTS) ; \
-	do \
-		set +e; \
-		echo $$table; \
-		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-		mysql $(DBOPTS) $$LSBDB <$$table.init; \
-		mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
-	done
+dbsetup::
+	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
+	mysql $(DBOPTS) -e "drop database if exists $(TMPLSBDB)"
+	@mysqladmin $(DBOPTS) create $$LSBDB
+	@mysqladmin $(DBOPTS) create $(TMPLSBDB)
 
 community_check::
 	@ret_code=0; \
@@ -82,34 +109,25 @@ community_check::
 	fi; \
 	exit $$ret_code
 
-restoreall:: community_check
-	mysql $(DBOPTS) -e "drop database if exists $$LSBDB"
-	mysql $(DBOPTS) -e "drop database if exists $(TMPLSBDB)"
-	@mysqladmin $(DBOPTS) create $$LSBDB
-	@mysqladmin $(DBOPTS) create $(TMPLSBDB)
-	#mysql $(DBOPTS) $$LSBDB <setupdb.sql;
-#	sleep 5
-	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
-	do \
-		set +e; \
-		table=`basename $$table .sql`; \
-		echo $$table; \
-		mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-		case "$(ELEMENTS)" in \
-		        *"$$table"*) mysql $(DBOPTS) $$LSBDB <$$table.init ;; \
-		        *) cp $${table}.init /tmp; chmod 644 /tmp/$${table}.init; mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile \"/tmp/$${table}.init\" into table $$table"; rm /tmp/$${table}.init ;; \
-		esac;\
-	done'
-	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
-	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
+alias_detector::
 	mysql $(DBOPTS) $$LSBDB <create_alias_detector.sql;
-	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
-	rm -f cache*.init
+
+optimize::
 	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
 	do \
-		table=`basename $$table .sql`; \
-		mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
+	    table=`basename $$table .sql`; \
+	    mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
 	done'
+
+optimize_speconly::
+	for table in $(ELEMENTS) ; \
+	do \
+	        set +e; \
+	        echo $$table; \
+	        mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
+	done
+
+permissions::
 	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
 	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
 
@@ -117,54 +135,21 @@ restoreall:: community_check
 # then call the 'cache' rule
 
 cache::
-#	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
+	LOCALCMD=$(LOCAL_INFILE_CMD) ./create_cache_tables_inits.sh
 	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
 	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql
 	rm -f cache*.init
-	LC_ALL=C $(SHELL) -c 'for table in [A-Z]*sql ; \
-	do \
-	    table=`basename $$table .sql`; \
-	    mysql $(DBOPTS) $$LSBDB -e "SET SESSION myisam_sort_buffer_size = 30 * 1024 * 1024; OPTIMIZE TABLE $$table"; \
-	done'
-	mysql $(DBOPTS) $$LSBDB <dbperms.sql;
-	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
 
+restore: $(ELEMENTS_RESTORE) optimize_speconly
+
+restoreall:: community_check dbsetup $(ELEMENTS_RESTORE) $(COMMUNITY_RESTORE) \
+  alias_detector cache optimize
 
 # rules to process application data only
 
-restore_apps::
-	for table in $(APP_TABLES) ; \
-	do \
-		set +e; \
-		echo $$table; \
-	        mysql $(DBOPTS) $$LSBDB <$$table.sql; \
-	        cp $$table.init /tmp; \
-	        chmod 644 /tmp/$$table.init; \
-		mysql $(DBOPTS) $(FILEOPTS) $$LSBDB -e "load data infile '$$PWD/$$table.init' into table $$table";\
-	        rm /tmp/$$table.init; \
-	done
-	FILEOPTS=$(FILEOPTS) ./create_cache_tables_inits.sh
-	mysql $(DBOPTS) $$LSBDB <create_cache_tables.sql;
-	mysql $(DBOPTS) $$LSBDB <create_stored_procs.sql 
-	rm -f cache*.init
-	mysql $(DBOPTS) $$LSBDB <dbperms.sql
-	mysql $(DBOPTS) $(TMPLSBDB) <tmpdbperms.sql;
+restore_apps: $(APP_TABLES_RESTORE) cache permissions
 
-dump_apps::
-	for table in $(APP_TABLES) ; \
-	do \
-	        set +e; \
-	        echo $$table; \
-	        mysqldump --add-drop-table --no-data $(DBOPTS) $(DUMPOPTS) $$LSBDB $$table | grep -v 'Server version' >$$table.sql;\
-		rm -f "$$PWD/$$table.init" && mysql $(DBOPTS) $$LSBDB -e "select * from $$table into outfile '$$PWD/$$table.init'";\
-	done
+dump_apps: $(APP_TABLES_DUMP)
 
-# Optimization for spec part tables
-
-optimize::
-	for table in $(ELEMENTS) ; \
-	do \
-	        set +e; \
-	        echo $$table; \
-	        mysql $(DBOPTS) $$LSBDB -e "OPTIMIZE TABLE $$table"; \
-	done
+clean:
+	rm -f elements_list
