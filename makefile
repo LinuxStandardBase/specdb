@@ -35,6 +35,11 @@ COMMUNITY=AppCategory AppInfo AppInterpreter AppJInt AppLib AppRequires AppRILM 
 	JavaInterface RILMBuiltin RLibDeps RLibLink RLibRClass RLibRInt RawClass RawCommand RawILModule \
 	RawInterface RawLibSoname RawLibrary WeakSymbol
 
+# Used by the sanity checker for SQL scripts that don't correspond to
+# tables that should exist.
+SANITY_CHECKER_SQL=create_alias_detector create_cache_tables \
+	create_stored_procs create_triggers dbperms setupdb tmpdbperms
+
 ifeq (yes,$(DO_COPY))
 LOAD_LOCATION=$(TMPDIR)
 else
@@ -150,6 +155,24 @@ restoreall:: community_check dbsetup $(ELEMENTS_RESTORE) $(COMMUNITY_RESTORE) \
 restore_apps: $(APP_TABLES_RESTORE) cache permissions
 
 dump_apps: $(APP_TABLES_DUMP)
+
+# Sanity-check table lists against the data in the repository.  For now,
+# we don't consider a missing .init file to be a problem.
+
+sanitycheck:
+	@for table in $(ELEMENTS) $(COMMUNITY); do \
+	  if [ '!' -e $$table.sql ]; then \
+	    echo "$$table missing table structure file $$table.sql"; \
+	  fi; \
+	done
+	@for table in *.sql; do \
+	  tablename=$$(basename $$table .sql); \
+	  if [ $$(echo $(ELEMENTS) $(COMMUNITY) $(SANITY_CHECKER_SQL) | grep $$tablename | wc -l) -eq 0 ]; then \
+	    echo "unknown table data found: $$table"; \
+	  fi; \
+	done
+
+# clean up
 
 clean:
 	rm -f elements_list
