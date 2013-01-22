@@ -1694,3 +1694,6 @@ INSERT INTO `HeaderGroup` VALUES (1766,'Default Header Section for pango-1.0/pan
 INSERT INTO `HeaderGroup` VALUES (1767,'Default Header Section for pango-1.0/pango/pango-gravity.h',1408,0,'');
 INSERT INTO `HeaderGroup` VALUES (1768,'Default Header Section for pango-1.0/pango/pango-language.h',1410,0,'');
 INSERT INTO `HeaderGroup` VALUES (1769,'Default Header Section for pango-1.0/pango/pango-matrix.h',1412,0,'');
+INSERT INTO `HeaderGroup` VALUES (1770,'Default Header Section for atk-1.0/atk/atkplug.h',1628,0,'');
+INSERT INTO `HeaderGroup` VALUES (1771,'Default Header Section for atk-1.0/atk/atksocket.h',1629,0,'');
+INSERT INTO `HeaderGroup` VALUES (1772,'Default Header Section for atk-1.0/atk/atkwindow.h',1630,0,'');

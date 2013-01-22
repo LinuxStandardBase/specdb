@@ -1598,3 +1598,6 @@ INSERT INTO `Header` VALUES (1624,'ncursesw/term.h',287,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1625,'ncursesw/curses.h',287,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1626,'ncursesw/unctrl.h',287,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1627,'ncursesw/ncurses_dll.h',287,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1628,'atk-1.0/atk/atkplug.h',246,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1629,'atk-1.0/atk/atksocket.h',246,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1630,'atk-1.0/atk/atkwindow.h',246,'No',NULL,'5.0',NULL);
