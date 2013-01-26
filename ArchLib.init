@@ -301,3 +301,5 @@ INSERT INTO `ArchLib` VALUES (287,9,'libncursesw.so.5','5.0',NULL);
 INSERT INTO `ArchLib` VALUES (287,10,'libncursesw.so.5','5.0',NULL);
 INSERT INTO `ArchLib` VALUES (287,12,'libncursesw.so.5','5.0',NULL);
 INSERT INTO `ArchLib` VALUES (287,11,'libncursesw.so.5','5.0',NULL);
+INSERT INTO `ArchLib` VALUES (288,1,'libcairo-gobject.so.2','5.0',NULL);
+INSERT INTO `ArchLib` VALUES (289,1,'libcairo-script-interpreter.so.2','5.0',NULL);

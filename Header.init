@@ -1601,3 +1601,7 @@ INSERT INTO `Header` VALUES (1627,'ncursesw/ncurses_dll.h',287,'No',NULL,'5.0',N
 INSERT INTO `Header` VALUES (1628,'atk-1.0/atk/atkplug.h',246,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1629,'atk-1.0/atk/atksocket.h',246,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1630,'atk-1.0/atk/atkwindow.h',246,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1631,'cairo/cairo-gobject.h',266,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1632,'cairo/cairo-script-interpreter.h',266,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1633,'cairo/cairo-script.h',266,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1634,'cairo/cairo-xcb.h',266,'No',NULL,'5.0',NULL);

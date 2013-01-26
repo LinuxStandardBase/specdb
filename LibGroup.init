@@ -426,3 +426,5 @@ INSERT INTO `LibGroup` VALUES (711,'libpng15 interfaces',284,0,'');
 INSERT INTO `LibGroup` VALUES (712,'libxcb interfaces',285,0,'');
 INSERT INTO `LibGroup` VALUES (713,'libgio-2.0 interfaces',286,0,'');
 INSERT INTO `LibGroup` VALUES (714,'libncursesw interfaces',287,0,'');
+INSERT INTO `LibGroup` VALUES (715,'libcairo-gobject interfaces',288,0,'');
+INSERT INTO `LibGroup` VALUES (716,'libcairo-script-interpreter interfaces',289,0,'');

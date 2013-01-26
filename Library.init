@@ -67,3 +67,5 @@ INSERT INTO `Library` VALUES (284,'libpng15',NULL,NULL);
 INSERT INTO `Library` VALUES (285,'libxcb',NULL,NULL);
 INSERT INTO `Library` VALUES (286,'libgio-2.0',NULL,NULL);
 INSERT INTO `Library` VALUES (287,'libncursesw',NULL,NULL);
+INSERT INTO `Library` VALUES (288,'libcairo-gobject',NULL,NULL);
+INSERT INTO `Library` VALUES (289,'libcairo-script-interpreter',NULL,NULL);

@@ -1697,3 +1697,7 @@ INSERT INTO `HeaderGroup` VALUES (1769,'Default Header Section for pango-1.0/pan
 INSERT INTO `HeaderGroup` VALUES (1770,'Default Header Section for atk-1.0/atk/atkplug.h',1628,0,'');
 INSERT INTO `HeaderGroup` VALUES (1771,'Default Header Section for atk-1.0/atk/atksocket.h',1629,0,'');
 INSERT INTO `HeaderGroup` VALUES (1772,'Default Header Section for atk-1.0/atk/atkwindow.h',1630,0,'');
+INSERT INTO `HeaderGroup` VALUES (1773,'Default Header Section for cairo/cairo-gobject.h',1631,0,'');
+INSERT INTO `HeaderGroup` VALUES (1774,'Default Header Section for cairo/cairo-script-interpreter.h',1632,0,'');
+INSERT INTO `HeaderGroup` VALUES (1775,'Default Header Section for cairo/cairo-script.h',1633,0,'');
+INSERT INTO `HeaderGroup` VALUES (1776,'Default Header Section for cairo/cairo-xcb.h',1634,0,'');
