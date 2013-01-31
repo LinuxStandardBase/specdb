@@ -752,7 +752,7 @@ INSERT INTO `Type` VALUES (9108,'fpos_t','Typedef',42,'','No','No','No',NULL,0,0
 INSERT INTO `Type` VALUES (9109,'fpos64_t','Typedef',42,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9110,'__gnuc_va_list','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9111,'off_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9112,'off64_t','Typedef',62,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9112,'off64_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9113,'fpos_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9114,'fpos64_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9116,'key_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
