@@ -23788,3 +23788,5 @@ INSERT INTO `ArchConst` VALUES (1,24921,'cairo_gobject_filter_get_type ()','5.0'
 INSERT INTO `ArchConst` VALUES (1,24922,'cairo_gobject_region_overlap_get_type ()','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15615,'12','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,15617,'CAIRO_VERSION_STRINGIZE( \\\n        CAIRO_VERSION_MAJOR, \\\n	CAIRO_VERSION_MINOR, \\\n	CAIRO_VERSION_MICRO)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24923,'_sigev_un._sigev_thread._function','1.2',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24924,'_sigev_un._sigev_thread._attribute','1.2',NULL,0);
