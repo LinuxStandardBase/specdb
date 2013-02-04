@@ -170,3 +170,13 @@ INSERT INTO `ConstantAttribute` VALUES (171,1335,'Condition','#if !defined __cpl
 INSERT INTO `ConstantAttribute` VALUES (172,21590,'Condition','#if !defined(__GNUC__)');
 INSERT INTO `ConstantAttribute` VALUES (173,22059,'Declaration','#if LONG_MAX == 2147483647\n#  define FFI_SIZEOF_ARG        4\n#elif LONG_MAX == FFI_64_BIT_MAX\n#  define FFI_SIZEOF_ARG        8\n#endif');
 INSERT INTO `ConstantAttribute` VALUES (174,23670,'Declaration','#ifdef __cplusplus\n#  define NCURSES_CAST(type,value)        static_cast<type>(value)\n#else\n#  define NCURSES_CAST(type,value)        (type)(value)\n#endif');
+INSERT INTO `ConstantAttribute` VALUES (175,23668,'Condition','#ifndef TRUE');
+INSERT INTO `ConstantAttribute` VALUES (176,1635,'Condition','#ifndef SEEK_SET');
+INSERT INTO `ConstantAttribute` VALUES (177,1636,'Condition','#ifndef SEEK_CUR');
+INSERT INTO `ConstantAttribute` VALUES (178,1637,'Condition','#ifndef SEEK_END');
+INSERT INTO `ConstantAttribute` VALUES (179,24925,'Condition','#ifndef SEEK_SET');
+INSERT INTO `ConstantAttribute` VALUES (180,24926,'Condition','#ifndef SEEK_CUR');
+INSERT INTO `ConstantAttribute` VALUES (181,24927,'Condition','#ifndef SEEK_END');
+INSERT INTO `ConstantAttribute` VALUES (182,24928,'Condition','#ifndef SEEK_SET');
+INSERT INTO `ConstantAttribute` VALUES (183,24929,'Condition','#ifndef SEEK_CUR');
+INSERT INTO `ConstantAttribute` VALUES (184,24930,'Condition','#ifndef SEEK_END');
