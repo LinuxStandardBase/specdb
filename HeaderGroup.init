@@ -1701,3 +1701,4 @@ INSERT INTO `HeaderGroup` VALUES (1773,'Default Header Section for cairo/cairo-g
 INSERT INTO `HeaderGroup` VALUES (1774,'Default Header Section for cairo/cairo-script-interpreter.h',1632,0,'');
 INSERT INTO `HeaderGroup` VALUES (1775,'Default Header Section for cairo/cairo-script.h',1633,0,'');
 INSERT INTO `HeaderGroup` VALUES (1776,'Default Header Section for cairo/cairo-xcb.h',1634,0,'');
+INSERT INTO `HeaderGroup` VALUES (1777,'Forced Ordering Header Section for glib-2.0/glib.h',169,3,'Forced Ordering Header Section for glib-2.0/glib.h');

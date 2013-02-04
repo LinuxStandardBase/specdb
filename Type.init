@@ -2583,7 +2583,7 @@ INSERT INTO `Type` VALUES (11510,'anon-glib-2.0/glib.h-71','Union',609,'','No','
 INSERT INTO `Type` VALUES (11703,'GStaticMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11512,'_GSystemThread','Union',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11513,'GSystemThread','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (11514,'GStaticRecMutex','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (11514,'GStaticRecMutex','Typedef',1777,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11515,'GStaticRecMutex *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11516,'gint *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11517,'_GMarkupParseContext','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
@@ -2738,7 +2738,7 @@ INSERT INTO `Type` VALUES (11665,'_GStaticRWLock','Struct',609,'','No','No','Yes
 INSERT INTO `Type` VALUES (11666,'_GCond','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11667,'GCond','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11668,'GCond *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (11669,'GStaticRWLock','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (11669,'GStaticRWLock','Typedef',1777,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11670,'GStaticRWLock *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11671,'void (*)(GPid, gint, gpointer)','FuncPtr',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (11672,'GChildWatchFunc','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
