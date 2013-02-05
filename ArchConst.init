@@ -5187,7 +5187,7 @@ INSERT INTO `ArchConst` VALUES (1,6200,' \\\n	G_DEFINE_TYPE_EXTENDED (TN, t_n, T
 INSERT INTO `ArchConst` VALUES (1,6201,' \\\n	G_DEFINE_TYPE_EXTENDED (TN, t_n, T_P, G_TYPE_FLAG_ABSTRACT, {})','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6202,' \\\n	G_DEFINE_TYPE_EXTENDED (TN, t_n, T_P, G_TYPE_FLAG_ABSTRACT, _C_)','3.1','5.0',0);
 INSERT INTO `ArchConst` VALUES (1,6203,' \\\n	{ static const GInterfaceInfo g_implement_interface_info = { \\\n	(GInterfaceInitFunc) iface_init }; g_type_add_interface_static \\\n	(g_define_type_id, TYPE_IFACE, &g_implement_interface_info); }','3.1','5.0',0);
-INSERT INTO `ArchConst` VALUES (1,6204,' \\\n	static void type_name ##_init (TypeName *self); static void type_name \\\n	##_class_init (TypeName ##Class *klass); static gpointer type_name \\\n	##_parent_class = NULL; static void type_name ##_class_intern_init \\\n	(gpointer klass) { type_name ##_parent_class = \\\n	g_type_class_peek_parent (klass); type_name ##_class_init ((TypeName \\\n	##Class*) klass); } GType type_name ##_get_type (void) { static GType \\\n	g_define_type_id = 0; if (G_UNLIKELY (g_define_type_id == 0)) { static \\\n	const GTypeInfo g_define_type_info = { sizeof (TypeName ##Class), \\\n	(GBaseInitFunc) NULL, (GBaseFinalizeFunc) NULL, (GClassInitFunc) \\\n	type_name ##_class_intern_init, (GClassFinalizeFunc) NULL, NULL, \\\n	sizeof (TypeName), 0, (GInstanceInitFunc) type_name ##_init, NULL }; \\\n	g_define_type_id = g_type_register_static (TYPE_PARENT, #TypeName, \\\n	&g_define_type_info, (GTypeFlags) flags); { CODE ; } } return \\\n	g_define_type_id; }','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6204,' \\\n	static void type_name ##_init (TypeName *self); static void type_name \\\n	##_class_init (TypeName ##Class *klass); static gpointer type_name \\\n	##_parent_class = NULL; static void type_name ##_class_intern_init \\\n	(gpointer klass) { type_name ##_parent_class = \\\n	g_type_class_peek_parent (klass); type_name ##_class_init ((TypeName \\\n	##Class*) klass); } GType type_name ##_get_type (void) { static GType \\\n	g_define_type_id = 0; if (G_UNLIKELY (g_define_type_id == 0)) { static \\\n	const GTypeInfo g_define_type_info = { sizeof (TypeName ##Class), \\\n	(GBaseInitFunc) NULL, (GBaseFinalizeFunc) NULL, (GClassInitFunc) \\\n	type_name ##_class_intern_init, (GClassFinalizeFunc) NULL, NULL, \\\n	sizeof (TypeName), 0, (GInstanceInitFunc) type_name ##_init, NULL }; \\\n	g_define_type_id = g_type_register_static (TYPE_PARENT, #TypeName, \\\n	&g_define_type_info, (GTypeFlags) flags); { CODE ; } } return \\\n	g_define_type_id; }','3.1','5.0',0);
 INSERT INTO `ArchConst` VALUES (1,6205,' \\\n	((ct*) g_type_check_instance_cast ((GTypeInstance*) ip, gt))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6206,' \\\n	((ct*) g_type_check_class_cast ((GTypeClass*) cp, gt))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6207,'(g_type_check_instance ((GTypeInstance*) ip))','3.1',NULL,0);
@@ -5237,7 +5237,7 @@ INSERT INTO `ArchConst` VALUES (1,6250,'(G_PARAM_READABLE | G_PARAM_WRITABLE)','
 INSERT INTO `ArchConst` VALUES (1,6251,'(0x000000ff)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6252,'(8)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6253,' \\\n	(((GClosure*) (closure))->marshal == NULL)','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,6254,' \\\n	((cl)->meta_marshal + ((cl)->n_guards << 1L) + (cl)->n_fnotifiers + \\\n	(cl)->n_inotifiers)','3.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6254,' \\\n	((cl)->meta_marshal + ((cl)->n_guards << 1L) + (cl)->n_fnotifiers + \\\n	(cl)->n_inotifiers)','3.1','5.0',0);
 INSERT INTO `ArchConst` VALUES (1,6255,' \\\n (((GClosure*) (cclosure))->derivative_flag)','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6256,'((GCallback) (f))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6257,'g_cclosure_marshal_BOOLEAN__FLAGS','3.1',NULL,0);
@@ -5261,7 +5261,7 @@ INSERT INTO `ArchConst` VALUES (1,6274,'(g_type_name (G_OBJECT_TYPE (object)))',
 INSERT INTO `ArchConst` VALUES (1,6275,'(G_TYPE_FROM_CLASS (class))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6276,' \\\n	(g_type_name (G_OBJECT_CLASS_TYPE (class)))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6277,' \\\n	(G_TYPE_CHECK_VALUE_TYPE ((value), G_TYPE_OBJECT))','3.1',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,6278,'\\\nG_STMT_START { \\\n  GObject *_object = (GObject*) (object); \\\n  GParamSpec *_pspec = (GParamSpec*) (pspec); \\\n  guint _property_id = (property_id); \\\n  g_warning (\"%s: invalid %s id %u for \"%s\" of type `%s\' in `%s\'\", \\\n             G_STRLOC, \\\n             (pname), \\\n             _property_id, \\\n             _pspec->name, \\\n             g_type_name (G_PARAM_SPEC_TYPE (_pspec)), \\\n             G_OBJECT_TYPE_NAME (_object)); \\\n} G_STMT_END','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6278,' \\\nG_STMT_START { \\\n  GObject *_object = (GObject*) (object); \\\n  GParamSpec *_pspec = (GParamSpec*) (pspec); \\\n  guint _property_id = (property_id); \\\n  g_warning (\"%s: invalid %s id %u for \\\"%s\\\" of type `%s\' in `%s\'\", \\\n	     G_STRLOC, \\\n             (pname), \\\n             _property_id, \\\n             _pspec->name, \\\n             g_type_name (G_PARAM_SPEC_TYPE (_pspec)), \\\n             G_OBJECT_TYPE_NAME (_object)); \\\n} G_STMT_END','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6279,' \\\n	G_OBJECT_WARN_INVALID_PSPEC ((object), \"property\", (property_id), \\\n	(pspec))','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6280,'(g_param_spec_types[0])','3.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6281,' \\\n	(G_TYPE_CHECK_INSTANCE_TYPE ((pspec), G_TYPE_PARAM_CHAR))','3.1',NULL,0);
@@ -22504,7 +22504,7 @@ INSERT INTO `ArchConst` VALUES (1,23643,'(g_binding_flags_get_type ())','5.0',NU
 INSERT INTO `ArchConst` VALUES (1,23644,'(g_binding_get_type ())','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,23645,'(G_TYPE_CHECK_INSTANCE_CAST ((obj), G_TYPE_BINDING, GBinding))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,23646,'(G_TYPE_CHECK_INSTANCE_TYPE ((obj), G_TYPE_BINDING))','5.0',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,23647,'','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,23647,'','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,23648,'(g_param_spec_types[21])','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,23649,'(G_TYPE_CHECK_INSTANCE_TYPE ((pspec), G_TYPE_PARAM_GTYPE))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,23650,'(G_TYPE_CHECK_INSTANCE_CAST ((pspec), G_TYPE_PARAM_GTYPE, GParamSpecGType))','5.0',NULL,0);
@@ -23796,3 +23796,4 @@ INSERT INTO `ArchConst` VALUES (1,24927,'2','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24928,'0','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24929,'1','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24930,'2','1.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,6254,'(((cl)->n_guards << 1L) + \\\n	(cl)->n_fnotifiers + (cl)->n_inotifiers)','5.0',NULL,0);
