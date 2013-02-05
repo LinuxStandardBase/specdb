@@ -23090,4 +23090,3 @@ INSERT INTO `Constant` VALUES (24927,'SEEK_END','int',42,'',NULL);
 INSERT INTO `Constant` VALUES (24928,'SEEK_SET','int',323,'',NULL);
 INSERT INTO `Constant` VALUES (24929,'SEEK_CUR','int',323,'',NULL);
 INSERT INTO `Constant` VALUES (24930,'SEEK_END','int',323,'',NULL);
-INSERT INTO `Constant` VALUES (24931,'sys/time.h depends on sys/select.h','header_depend',298,'',NULL);
