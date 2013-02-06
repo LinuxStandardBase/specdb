@@ -137,7 +137,7 @@ INSERT INTO `HeaderGroup` VALUES (138,'Base Types',38,1,'');
 INSERT INTO `HeaderGroup` VALUES (140,'Base Types',40,1,'');
 INSERT INTO `HeaderGroup` VALUES (239,'Type of a signal handling function.',41,2,'Type of a signal handling function.');
 INSERT INTO `HeaderGroup` VALUES (142,'Base Types',48,1,'');
-INSERT INTO `HeaderGroup` VALUES (143,'Returned by clock()',60,2,'Returned by clock()');
+INSERT INTO `HeaderGroup` VALUES (143,'Returned by clock()',60,2,'');
 INSERT INTO `HeaderGroup` VALUES (144,'errno values',17,1,'errno values');
 INSERT INTO `HeaderGroup` VALUES (145,'These are all the characteristics of characters',14,1,'These are all the characteristics of characters');
 INSERT INTO `HeaderGroup` VALUES (146,'aio_cancel returns',10,1,'Returned by aio_cancel');

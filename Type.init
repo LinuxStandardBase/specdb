@@ -260,7 +260,7 @@ INSERT INTO `Type` VALUES (7023,'utimbuf','Struct',63,'','No','No','No',NULL,0,0
 INSERT INTO `Type` VALUES (8472,'XConfigureRequestEvent','Typedef',100,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (7024,'wctype_t','Typedef',65,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9231,'__compar_fn_t','Typedef',43,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (7019,'tm','Struct',60,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (7019,'tm','Struct',259,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8470,'XResizeRequestEvent','Typedef',100,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (7028,'anon-wordexp.h-27','Struct',66,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (7029,'wordexp_t','Typedef',264,'','No','No','No',NULL,0,0,'libc',0);
@@ -827,7 +827,7 @@ INSERT INTO `Type` VALUES (9185,'idtype_t','Typedef',55,'','No','No','No',NULL,0
 INSERT INTO `Type` VALUES (9186,'speed_t','Typedef',371,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9187,'termios','Struct',372,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9188,'termios *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (9189,'__clock_t','Typedef',341,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9189,'__clock_t','Typedef',0,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9190,'__time_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9191,'time_t','Typedef',399,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9192,'time_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
@@ -857,14 +857,14 @@ INSERT INTO `Type` VALUES (9215,'__uint64_t','Typedef',112,'','No','No','No',NUL
 INSERT INTO `Type` VALUES (9216,'__quad_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9217,'__qaddr_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9218,'__rlim_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9219,'__rlim64_t','Typedef',60,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9219,'__rlim64_t','Typedef',0,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9221,'__fsid_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9222,'__daddr_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9223,'__caddr_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9224,'__swblk_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9225,'__fd_mask','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9226,'anon-time.h-157','Struct',60,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9227,'__fd_set','Typedef',60,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9226,'anon-time.h-157','Struct',0,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9227,'__fd_set','Typedef',0,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9228,'__ipc_pid_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9229,'__t_scalar_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9230,'__t_uscalar_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
@@ -1379,7 +1379,7 @@ INSERT INTO `Type` VALUES (9853,'_XtStateRec **','Pointer',0,'','No','No','No',N
 INSERT INTO `Type` VALUES (9855,'timezone','Struct',298,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9856,'timezone *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9857,'__timezone_ptr_t','Typedef',298,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9858,'timeval','Struct',340,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9858,'timeval','Struct',260,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10102,'timeval *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9860,'__itimer_which','Enum',336,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9861,'itimerval','Struct',335,'','No','No','No',NULL,0,0,'libc',0);
@@ -1532,7 +1532,7 @@ INSERT INTO `Type` VALUES (10096,'anon-X11/Xlib.h-3085','Enum',5,'','No','No','N
 INSERT INTO `Type` VALUES (10097,'anon-X11/Xlib.h-3162','Enum',5,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (10098,'anon-X11/Xlib.h-3193','Enum',5,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (10099,'anon-X11/Xlib.h-3210','Union',5,'','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (10101,'itimerspec','Struct',60,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (10101,'itimerspec','Struct',261,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10103,'_pthread_descr_struct','Struct',346,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (10104,'_pthread_descr_struct *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10105,'_pthread_fastlock','Struct',342,'','No','No','No',NULL,0,0,'libpthread',0);
@@ -2133,10 +2133,10 @@ INSERT INTO `Type` VALUES (11051,'const fenv_t','Const',0,'','No','No','Yes',NUL
 INSERT INTO `Type` VALUES (11052,'const fenv_t *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11057,'const fexcept_t','Const',0,'','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11058,'const fexcept_t *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (11061,'timer_t *','Pointer',60,'','No','No','Yes',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (11062,'itimerspec *','Pointer',60,'','No','No','Yes',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (11061,'timer_t *','Pointer',0,'','No','No','Yes',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (11062,'itimerspec *','Pointer',0,'','No','No','Yes',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (11063,'const itimerspec','Const',60,'','No','No','Yes',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (11064,'const itimerspec *','Pointer',60,'','No','No','Yes',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (11064,'const itimerspec *','Pointer',0,'','No','No','Yes',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (11065,'clockid_t *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (11066,'anon_fenv_tf','Struct',593,'','No','No','Yes',NULL,0,0,'libm',0);
 INSERT INTO `Type` VALUES (11067,'anon-ExtendedVisualInfo','Struct',0,'','No','No','Yes',NULL,0,0,'',0);
