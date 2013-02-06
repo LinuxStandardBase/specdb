@@ -255,7 +255,7 @@ INSERT INTO `HeaderGroup` VALUES (256,'Returned by `div\'.',43,1,'Returned by `d
 INSERT INTO `HeaderGroup` VALUES (257,'Returned by `ldiv\'.',43,2,'Returned by `ldiv\'.');
 INSERT INTO `HeaderGroup` VALUES (258,'Returned by `lldiv\'.',43,3,'Returned by `lldiv\'.');
 INSERT INTO `HeaderGroup` VALUES (259,'Returned by `time\'',60,3,'Returned by `time\'');
-INSERT INTO `HeaderGroup` VALUES (260,'POSIX.1b structure for a time value.',60,4,'POSIX.1b structure for a time value.');
+INSERT INTO `HeaderGroup` VALUES (260,'POSIX.1b structure for a time value.',95,4,'POSIX.1b structure for a time value.');
 INSERT INTO `HeaderGroup` VALUES (261,'Used by other time functions.',60,5,'Used by other time functions.');
 INSERT INTO `HeaderGroup` VALUES (262,'Values for the second argument to access.',62,1,'Values for the second argument to access.');
 INSERT INTO `HeaderGroup` VALUES (263,'Bits set in the FLAGS argument to `wordexp\'.',66,1,'Bits set in the FLAGS argument to `wordexp\'.');
@@ -325,7 +325,7 @@ INSERT INTO `HeaderGroup` VALUES (334,'Default Header Section for endian.h',108,
 INSERT INTO `HeaderGroup` VALUES (335,'itimerval',95,7,'Type of the second argument to `getitimer\' and\nthe second and third arguments `setitimer\'.');
 INSERT INTO `HeaderGroup` VALUES (336,'timer types',95,2,'Values for the first argument to `getitimer\' and `setitimer\'.');
 INSERT INTO `HeaderGroup` VALUES (337,'time_t',95,1,'');
-INSERT INTO `HeaderGroup` VALUES (338,'timespec',95,4,'');
+INSERT INTO `HeaderGroup` VALUES (338,'timespec',60,4,'');
 INSERT INTO `HeaderGroup` VALUES (339,'tm',95,5,'');
 INSERT INTO `HeaderGroup` VALUES (340,'timeval',95,6,'');
 INSERT INTO `HeaderGroup` VALUES (341,'clock_t',60,1,'');
