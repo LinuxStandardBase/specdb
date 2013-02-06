@@ -23797,3 +23797,6 @@ INSERT INTO `ArchConst` VALUES (1,24928,'0','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24929,'1','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24930,'2','1.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6254,'(((cl)->n_guards << 1L) + \\\n	(cl)->n_fnotifiers + (cl)->n_inotifiers)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24932,'0','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24933,'1','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24934,'0','5.0',NULL,0);
