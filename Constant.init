@@ -23093,3 +23093,4 @@ INSERT INTO `Constant` VALUES (24930,'SEEK_END','int',323,'',NULL);
 INSERT INTO `Constant` VALUES (24932,'PNG_FILLER_BEFORE','int',1754,'',NULL);
 INSERT INTO `Constant` VALUES (24933,'PNG_FILLER_AFTER','int',1754,'',NULL);
 INSERT INTO `Constant` VALUES (24934,'PNG_COLOR_TYPE_GRAY','int',1754,'',NULL);
+INSERT INTO `Constant` VALUES (24935,'sys/time.h depends on sys/select.h','header_depend',298,'',NULL);

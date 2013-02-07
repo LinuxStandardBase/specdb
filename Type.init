@@ -689,7 +689,7 @@ INSERT INTO `Type` VALUES (9035,'anon-pthread.h-84','Enum',33,'','No','No','No',
 INSERT INTO `Type` VALUES (9037,'_pthread_cleanup_buffer *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9038,'anon-pthread.h-123','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (9039,'anon-pthread.h-134','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
-INSERT INTO `Type` VALUES (9040,'pthread_t','Typedef',342,'','No','No','No',NULL,0,0,'libpthread',0);
+INSERT INTO `Type` VALUES (9040,'pthread_t','Typedef',1778,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (9041,'pthread_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9042,'pthread_attr_t','Typedef',344,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (9043,'pthread_attr_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
@@ -1379,7 +1379,7 @@ INSERT INTO `Type` VALUES (9853,'_XtStateRec **','Pointer',0,'','No','No','No',N
 INSERT INTO `Type` VALUES (9855,'timezone','Struct',298,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9856,'timezone *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9857,'__timezone_ptr_t','Typedef',298,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9858,'timeval','Struct',260,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9858,'timeval','Struct',1779,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10102,'timeval *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9860,'__itimer_which','Enum',336,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9861,'itimerval','Struct',335,'','No','No','No',NULL,0,0,'libc',0);
