@@ -26247,3 +26247,4 @@ INSERT INTO `Type` VALUES (10003693,'const cairo_ps_level_t **','Pointer',0,'','
 INSERT INTO `Type` VALUES (10003695,'const cairo_script_interpreter_hooks_t','Const',0,'','No','No','No',NULL,0,0,'libcairo-script-interpreter',0);
 INSERT INTO `Type` VALUES (10003696,'const cairo_script_interpreter_hooks_t *','Pointer',0,'','No','No','No',NULL,0,0,'libcairo-script-interpreter',0);
 INSERT INTO `Type` VALUES (10003697,'png_uint_16p *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
+INSERT INTO `Type` VALUES (10003698,'anon_ucontext_reg','Enum',387,'','No','No','No',NULL,0,0,'libc',0);
