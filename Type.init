@@ -26248,3 +26248,16 @@ INSERT INTO `Type` VALUES (10003695,'const cairo_script_interpreter_hooks_t','Co
 INSERT INTO `Type` VALUES (10003696,'const cairo_script_interpreter_hooks_t *','Pointer',0,'','No','No','No',NULL,0,0,'libcairo-script-interpreter',0);
 INSERT INTO `Type` VALUES (10003697,'png_uint_16p *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10003698,'anon_ucontext_reg','Enum',387,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (10003699,'anon-enum-gdk-pixdata.h-0','Enum',624,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003700,'anon-struct-gdk-pixdata.h-0','Struct',624,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003701,'anon-enum-gdk-pixdata.h-1','Enum',624,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003702,'const GdkPixbufFormat','Const',0,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003703,'const GdkPixbufFormat *','Pointer',0,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003704,'anon-enum-gdk-pixbuf-core.h-0','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003705,'anon-enum-gdk-pixbuf-core.h-1','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003706,'anon-enum-gdk-pixbuf-core.h-2','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003707,'gboolean (*)(const char *, gsize, GError **, gpointer)','FuncPtr',0,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003708,'anon-enum-gdk-pixbuf-transform.h-0','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003709,'anon-enum-gdk-pixbuf-transform.h-1','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003710,'anon-struct-gdk-pixbuf-loader.h-0','Struct',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003711,'anon-struct-gdk-pixbuf-loader.h-1','Struct',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);

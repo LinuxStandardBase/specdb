@@ -23115,3 +23115,6 @@ INSERT INTO `Constant` VALUES (24953,'rPR','int',387,'',NULL);
 INSERT INTO `Constant` VALUES (24954,'define NFPREG','int',387,'',NULL);
 INSERT INTO `Constant` VALUES (24955,'define NVRREG','int',387,'',NULL);
 INSERT INTO `Constant` VALUES (24956,'png_jmpbuf(png_ptr)','macro',1754,'',NULL);
+INSERT INTO `Constant` VALUES (24957,'_gdk_pixbuf_marshal_VOID__VOID','Unknown',623,'',NULL);
+INSERT INTO `Constant` VALUES (24958,'_gdk_pixbuf_marshal_VOID__POINTER','Unknown',623,'',NULL);
+INSERT INTO `Constant` VALUES (24959,'GDK_PIXBUF_H_INSIDE','Unknown',623,'',NULL);
