@@ -23821,3 +23821,4 @@ INSERT INTO `ArchConst` VALUES (3,24952,'r30','4.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (3,24953,'r31','4.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (9,24954,'33','4.1',NULL,0);
 INSERT INTO `ArchConst` VALUES (9,24955,'34','4.1',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24956,'(*png_set_longjmp_fn((png_ptr), longjmp, sizeof (jmp_buf)))','5.0',NULL,0);

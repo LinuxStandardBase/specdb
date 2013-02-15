@@ -22909,7 +22909,7 @@ INSERT INTO `Type` VALUES (10000045,'anon-struct-png.h-8','Struct',1602,'','No',
 INSERT INTO `Type` VALUES (10000046,'png_const_structp','Typedef',1602,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10000047,'const png_struct','Const',0,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10000048,'const png_struct *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
-INSERT INTO `Type` VALUES (10000049,'png_unknown_chunk_ptr','Typedef',1602,'','No','No','No',NULL,0,0,'libpng15',0);
+INSERT INTO `Type` VALUES (10000049,'png_unknown_chunk_ptr','Typedef',1780,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10000050,'png_longjmp_ptr','Typedef',1602,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10000051,'__jmp_buf_tag *','Pointer',0,'','No','No','No',NULL,0,0,'libpng15',0);
 INSERT INTO `Type` VALUES (10000052,'void (*)(__jmp_buf_tag *, int)','FuncPtr',0,'','No','No','No',NULL,0,0,'libpng15',0);

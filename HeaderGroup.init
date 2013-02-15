@@ -1704,3 +1704,4 @@ INSERT INTO `HeaderGroup` VALUES (1776,'Default Header Section for cairo/cairo-x
 INSERT INTO `HeaderGroup` VALUES (1777,'Forced Ordering Header Section for glib-2.0/glib.h',169,3,'Forced Ordering Header Section for glib-2.0/glib.h');
 INSERT INTO `HeaderGroup` VALUES (1778,'Default Header Section for lsb/pthread.h',1635,0,'Default Header Section for lsb/pthread.h');
 INSERT INTO `HeaderGroup` VALUES (1779,'Default Header Section for lsb/time.h',1636,0,'Default Header Section for lsb/time.h');
+INSERT INTO `HeaderGroup` VALUES (1780,'Post Header Section for libpng15/png.h',1476,4,'');
