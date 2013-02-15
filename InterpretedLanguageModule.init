@@ -26,13 +26,13 @@ INSERT INTO `InterpretedLanguageModule` VALUES (25,'CGI::Cookie','',1,127,'3.2',
 INSERT INTO `InterpretedLanguageModule` VALUES (26,'CGI::Fast','',1,127,'',NULL,'CGI/Fast.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (27,'CGI::Pretty','',1,127,'3.2',NULL,'CGI/Pretty.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (28,'CGI::Push','',1,127,'3.2',NULL,'CGI/Push.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (29,'CGI::Switch','',1,127,'3.2',NULL,'CGI/Switch.html','4.1');
+INSERT INTO `InterpretedLanguageModule` VALUES (29,'CGI::Switch','',1,127,'3.2','5.0','CGI/Switch.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (30,'CGI::Util','',1,127,'3.2',NULL,'CGI/Util.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (31,'CPAN','',1,127,'3.2',NULL,'CPAN.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (32,'CPAN::FirstTime','',1,127,'3.2',NULL,'CPAN/FirstTime.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (33,'CPAN::Nox','',1,127,'3.2',NULL,'CPAN/Nox.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (34,'Carp::Heavy','',1,127,'3.2',NULL,'Carp/Heavy.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (35,'Class::ISA','',1,127,'3.2',NULL,'Class/ISA.html','4.1');
+INSERT INTO `InterpretedLanguageModule` VALUES (35,'Class::ISA','',1,127,'3.2','5.0','Class/ISA.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (36,'Class::Struct','',1,127,'3.2',NULL,'Class/Struct.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (37,'Cwd','',1,127,'3.2',NULL,'Cwd.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (38,'DB','',1,127,'3.2',NULL,'DB.html',NULL);
@@ -43,7 +43,7 @@ INSERT INTO `InterpretedLanguageModule` VALUES (42,'DBM_Filter::int32','',1,127,
 INSERT INTO `InterpretedLanguageModule` VALUES (43,'DBM_Filter::null','',1,127,'3.2',NULL,'DBM_Filter/null.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (44,'DBM_Filter::utf8','',1,127,'3.2',NULL,'DBM_Filter/utf8.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (45,'Data::Dumper','',1,127,'3.2',NULL,'Data/Dumper.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (46,'Devel::DProf','',1,127,'3.2',NULL,'Devel/DProf.html','4.1');
+INSERT INTO `InterpretedLanguageModule` VALUES (46,'Devel::DProf','',1,127,'3.2','5.0','Devel/DProf.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (47,'Devel::PPPort','',1,127,'3.2',NULL,'Devel/PPPort.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (48,'Devel::Peek','',1,127,'3.2',NULL,'Devel/Peek.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (49,'Devel::SelfStubber','',1,127,'3.2',NULL,'Devel/SelfStubber.html',NULL);
@@ -235,7 +235,7 @@ INSERT INTO `InterpretedLanguageModule` VALUES (236,'Pod::Perldoc::ToText','',1,
 INSERT INTO `InterpretedLanguageModule` VALUES (237,'Pod::Perldoc::ToTk','',1,127,'',NULL,'Pod/Perldoc/ToTk.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (238,'Pod::Perldoc::ToXml','',1,127,'',NULL,'Pod/Perldoc/ToXml.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (239,'Pod::PlainText','',1,127,'3.2',NULL,'Pod/PlainText.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (240,'Pod::Plainer','',1,127,'3.2',NULL,'Pod/Plainer.html','4.1');
+INSERT INTO `InterpretedLanguageModule` VALUES (240,'Pod::Plainer','',1,127,'3.2','5.0','Pod/Plainer.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (241,'Pod::Select','',1,127,'3.2',NULL,'Pod/Select.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (242,'Pod::Text','',1,127,'3.2',NULL,'Pod/Text.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (243,'Pod::Text::Color','',1,127,'3.2',NULL,'Pod/Text/Color.html',NULL);
@@ -246,7 +246,7 @@ INSERT INTO `InterpretedLanguageModule` VALUES (247,'SDBM_File','',1,127,'3.2',N
 INSERT INTO `InterpretedLanguageModule` VALUES (248,'Search::Dict','',1,127,'3.2',NULL,'Search/Dict.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (249,'SelectSaver','',1,127,'3.2',NULL,'SelectSaver.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (250,'SelfLoader','',1,127,'3.2',NULL,'SelfLoader.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (251,'Shell','',1,127,'3.2',NULL,'Shell.html','4.1');
+INSERT INTO `InterpretedLanguageModule` VALUES (251,'Shell','',1,127,'3.2','5.0','Shell.html','4.1');
 INSERT INTO `InterpretedLanguageModule` VALUES (252,'Socket','',1,127,'3.2',NULL,'Socket.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (253,'Storable','',1,127,'3.2',NULL,'Storable.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (254,'Switch','',1,127,'',NULL,'Switch.html',NULL);
