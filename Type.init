@@ -77,7 +77,7 @@ INSERT INTO `Type` VALUES (31773,'_IceConnectToYouInfo','Typedef',1365,'','No','
 INSERT INTO `Type` VALUES (8342,'XcmsColor','Typedef',6,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (31830,'SmsInteractDoneProc','Typedef',9,'','No','No','No',NULL,0,0,'libSM',0);
 INSERT INTO `Type` VALUES (31772,'anon-X11/ICE/ICEconn.h-116','Struct',1365,'','No','No','No',NULL,0,0,'libICE',0);
-INSERT INTO `Type` VALUES (31707,'char **','Pointer',0,'','No','No','No',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10003712,'error_t','Typedef',1781,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8876,'Depth *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (7709,'_IceListenObj','Struct',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8875,'XExtData *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
@@ -10485,7 +10485,7 @@ INSERT INTO `Type` VALUES (26967,'bag_iterator_t','Typedef',0,'','No','No','No',
 INSERT INTO `Type` VALUES (26968,'bag_t **','Pointer',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26969,'bag_t *','Pointer',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26970,'bag_t','Typedef',0,'','No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (26971,'char **','Pointer',0,'','No','No','No',NULL,0,0,'libasound',0);
+INSERT INTO `Type` VALUES (26971,'char **','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (26972,'char[0]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (26973,'char[107]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (26974,'char[13]','Array',0,'','No','No','No',NULL,0,0,'',0);
@@ -11482,7 +11482,6 @@ INSERT INTO `Type` VALUES (27965,'volatile sndrv_pcm_mmap_status *','Pointer',0,
 INSERT INTO `Type` VALUES (27966,'volatile sndrv_pcm_mmap_status','Volatile',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27967,'volatile unsigned char *','Pointer',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (27968,'volatile unsigned char','Volatile',0,'','No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (29359,'const char * ','Const',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29370,'const extra_event_list_t','Const',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29375,'const int[2]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (29377,'const int[3]','Array',0,'','No','No','No',NULL,0,0,'',0);
@@ -13975,7 +13974,6 @@ INSERT INTO `Type` VALUES (32330,'anon-cpu_set_struct','Struct',37,'','No','No',
 INSERT INTO `Type` VALUES (32331,'cpu_set_t','Typedef',37,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (32332,'cpu_set_t *','Pointer',37,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (32333,'const cpu_set_t *','Pointer',37,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (32334,'const pthread_mutexattr_t *','Const',0,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (32335,'drand48_data *','Pointer',43,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (32336,'char[__SIZEOF_PTHREAD_MUTEXATTR_T]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (32337,'char[__SIZEOF_PTHREAD_CONDATTR_T]','Array',0,'','No','No','No',NULL,0,0,'',0);

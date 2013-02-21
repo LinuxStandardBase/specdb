@@ -1607,3 +1607,5 @@ INSERT INTO `Header` VALUES (1633,'cairo/cairo-script.h',266,'No',NULL,'5.0',NUL
 INSERT INTO `Header` VALUES (1634,'cairo/cairo-xcb.h',266,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1635,'lsb/pthread.h',132,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (1636,'lsb/time.h',132,'No',NULL,'1.0',NULL);
+INSERT INTO `Header` VALUES (1637,'argz.h',131,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1638,'envz.h',131,'No',NULL,'5.0',NULL);
