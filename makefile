@@ -28,12 +28,22 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Standard Type TypeMember TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable RawDynamicEntries
 APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
+NAV_TABLES=ArchSource CxxApi FTRLib FutureTarget SourceBinary SourceCode \
+	SourceEntity SourceHeader SourceQualifier SourceShadow StandardSource \
+	TargetDistribution TestCaseSource TestCmd TestInt TestSuite UpliftTarget
 
 COMMUNITY=AppCategory AppInfo AppInterpreter AppJInt AppLib AppRequires AppRILM AppRInt AppShippedLib \
 	Application ApprovedCommand ApprovedLibrary CompatSymbol CompFile CompInfo CompJInt CompLDpath \
 	Component CompProvides CompRequires CompRILM Distribution DistrVendor JavaBaseClass JavaClass \
 	JavaInterface RILMBuiltin RLibDeps RLibLink RLibRClass RLibRInt RawClass RawCommand RawILModule \
 	RawInterface RawLibSoname RawLibrary WeakSymbol
+
+# The Java classes were intended for a future inclusion of Java into
+# the spec; since that looks unlikely in the near future, ignore them.
+# We should still list them here for the sake of the sanity checker.
+JAVA_TABLES=JApplToJInterface JavaComponent JClassJInterface \
+	JClassToInterface JClassToJInterface JCompJClass JCompToJClass \
+	JCompToJInterface
 
 # Used by the sanity checker for SQL scripts that don't correspond to
 # tables that should exist.
@@ -53,9 +63,11 @@ endif
 ELEMENTS_DUMP = $(shell echo $(ELEMENTS) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
 COMMUNITY_DUMP = $(shell echo $(COMMUNITY) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
 APP_TABLES_DUMP = $(shell echo $(APP_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
+NAV_TABLES_DUMP = $(shell echo $(NAV_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_dump"; done))
 ELEMENTS_RESTORE = $(shell echo $(ELEMENTS) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
 COMMUNITY_RESTORE = $(shell echo $(COMMUNITY) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
 APP_TABLES_RESTORE = $(shell echo $(APP_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
+NAV_TABLES_RESTORE = $(shell echo $(NAV_TABLES) | (while read line; do for word in $$line; do echo $$word; done; done) | (while read line; do echo "$${line}_restore"; done))
 
 all:
 	@echo "Please specify dump or restore (or variants dumpall, restoreall, dump_apps, restore_apps)"
@@ -148,8 +160,8 @@ cache::
 
 restore: $(ELEMENTS_RESTORE) optimize_speconly
 
-restoreall:: community_check dbsetup $(ELEMENTS_RESTORE) $(COMMUNITY_RESTORE) \
-  alias_detector cache optimize
+restoreall:: community_check dbsetup $(ELEMENTS_RESTORE) $(NAV_TABLES_RESTORE) \
+  $(COMMUNITY_RESTORE) alias_detector cache optimize
 
 # rules to process application data only
 
@@ -157,18 +169,24 @@ restore_apps: $(APP_TABLES_RESTORE) cache permissions
 
 dump_apps: $(APP_TABLES_DUMP)
 
+# rules to process Navigator data only
+
+restore_nav: $(NAV_TABLES_RESTORE) cache permissions
+
+dump_nav: $(NAV_TABLES_DUMP)
+
 # Sanity-check table lists against the data in the repository.  For now,
 # we don't consider a missing .init file to be a problem.
 
 sanitycheck:
-	@for table in $(ELEMENTS) $(COMMUNITY); do \
+	@for table in $(ELEMENTS) $(NAV_TABLES) $(JAVA_TABLES) $(COMMUNITY); do \
 	  if [ '!' -e $$table.sql ]; then \
 	    echo "$$table missing table structure file $$table.sql"; \
 	  fi; \
 	done
 	@for table in *.sql; do \
 	  tablename=$$(basename $$table .sql); \
-	  if [ $$(echo $(ELEMENTS) $(COMMUNITY) $(SANITY_CHECKER_SQL) | grep $$tablename | wc -l) -eq 0 ]; then \
+	  if [ $$(echo $(ELEMENTS) $(NAV_TABLES) $(JAVA_TABLES) $(COMMUNITY) $(SANITY_CHECKER_SQL) | grep $$tablename | wc -l) -eq 0 ]; then \
 	    echo "unknown table data found: $$table"; \
 	  fi; \
 	done
