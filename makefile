@@ -52,8 +52,12 @@ SANITY_CHECKER_SQL=create_alias_detector create_cache_tables \
 
 ifeq (yes,$(DO_COPY))
 LOAD_LOCATION=$(TMPDIR)
+COPY_CMD=cp $*.init $(TMPDIR); chmod 644 $(TMPDIR)/$*.init
+COPY_RM_CMD=rm -f $(TMPDIR)/$*.init
 else
 LOAD_LOCATION=$$PWD
+COPY_CMD=true
+COPY_RM_CMD=true
 endif
 
 # These variables hold the targets for each thing that needs to be done
@@ -92,10 +96,9 @@ elements_list: makefile
 	@if grep -q $* elements_list; then \
 	  mysql $(DBOPTS) $$LSBDB < $*.init; \
 	else \
-	  cp $*.init $(TMPDIR); \
-	  chmod 644 $(TMPDIR)/$*.init; \
+	  $(COPY_CMD); \
 	  mysql $(DBOPTS) $$LSBDB -e "load data $(LOCAL_INFILE_CMD) infile '$(LOAD_LOCATION)/$*.init' into table $*"; \
-	  rm -f $(TMPDIR)/$*.init; \
+	  $(COPY_RM_CMD); \
 	fi
 
 # dump the "source code" tables
