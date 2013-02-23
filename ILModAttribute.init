@@ -1,8 +1,8 @@
-1	bsddb	2	Recommendation	This module is deprecated for removal in Python 3.0.
-2	commands	2	Recommendation	Using the <ilmod subprocess>subprocess</ilmod> module is preferable to using the commands module.
-3	dbhash	2	Recommendation	This module is deprecated for removal in Python 3.0.
-4	md5	2	Recommendation	This module is deprecated. Use <ilmod hashlib>hashlib</ilmod> instead.
-5	mimetools	2	Recommendation	This module is deprecated. Use the <ilmod email>email</ilmod> package instead.
-6	popen2	2	Recommendation	This module is deprecated. Use <ilmod subprocess>subprocess</ilmod> instead.
-7	sha	2	Recommendation	This module is deprecated. Use <ilmod hashlib>hashlib</ilmod> instead.
-8	vars	1	Recommendation	For variables in the current package, the functionality provided by this pragma has been superseded by "our" declarations.
+INSERT INTO `ILModAttribute` VALUES (1,'bsddb','2','Recommendation','This module is deprecated for removal in Python 3.0.');
+INSERT INTO `ILModAttribute` VALUES (2,'commands','2','Recommendation','Using the <ilmod subprocess>subprocess</ilmod> module is preferable to using the commands module.');
+INSERT INTO `ILModAttribute` VALUES (3,'dbhash','2','Recommendation','This module is deprecated for removal in Python 3.0.');
+INSERT INTO `ILModAttribute` VALUES (4,'md5','2','Recommendation','This module is deprecated. Use <ilmod hashlib>hashlib</ilmod> instead.');
+INSERT INTO `ILModAttribute` VALUES (5,'mimetools','2','Recommendation','This module is deprecated. Use the <ilmod email>email</ilmod> package instead.');
+INSERT INTO `ILModAttribute` VALUES (6,'popen2','2','Recommendation','This module is deprecated. Use <ilmod subprocess>subprocess</ilmod> instead.');
+INSERT INTO `ILModAttribute` VALUES (7,'sha','2','Recommendation','This module is deprecated. Use <ilmod hashlib>hashlib</ilmod> instead.');
+INSERT INTO `ILModAttribute` VALUES (8,'vars','1','Recommendation','For variables in the current package, the functionality provided by this pragma has been superseded by \"our\" declarations.');

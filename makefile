@@ -22,7 +22,7 @@ TMPLSBDB=$${TMPLSBDB=${LSBDB}}_tmp
 ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Architecture ArchLib ArchType BaseTypes ClassInfo ClassVtab CmdStd Command CommandAttribute \
 	Constant ConstantAttribute DynamicEntries ElfSections Header HeaderGroup \
-	Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote \
+	ILModAttribute Interface InterfaceAttribute InterpretedLanguage InterpretedLanguageModule IntStd InterfaceComment InterfaceVote \
 	LGInt LibGroup Library LibraryAttribute LSBVersion SModCmd SModLib SModStd ModSMod Module SubModule \
 	Parameter RpmTag SectionTypes \
 	Standard Type TypeMember TypeMemberExtras TypeType \
@@ -74,7 +74,7 @@ all:
 
 # This is used to distinguish which dump and restore commands to use
 # for the data of a particular table.
-elements_list:
+elements_list: makefile
 	echo $(ELEMENTS) > $@
 
 %_dump: elements_list
