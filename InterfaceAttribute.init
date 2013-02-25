@@ -1367,3 +1367,4 @@ INSERT INTO `InterfaceAttribute` VALUES (102615,'pango_get_mirror_char','libpang
 INSERT INTO `InterfaceAttribute` VALUES (102616,'atk_hyperlink_is_selected_link','libatk-1.0','Recommendation','This function is deprecated use <const libatk-1.0;ATK_STATE_SELECTED>ATK_STATE_SELECTED</const> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102617,'atk_object_get_layer','libatk-1.0','Recommendation','This function is deprecated use <int libatk-1.0;atk_component_get_layer>atk_component_get_layer</int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102618,'atk_object_get_mdi_zorder','libatk-1.0','Recommendation','This function is deprecated use <int libatk-1.0;atk_component_get_mdi_zorder >atk_component_get_mdi_zorder </int> instead');
+INSERT INTO `InterfaceAttribute` VALUES (102619,'futimesat','libc','Rejection','This interface is obsolete.  Use <int libc;utimensat>utimensat</int> from POSIX 2008');
