@@ -23828,3 +23828,4 @@ INSERT INTO `ArchConst` VALUES (1,24959,'','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6614,'(26)','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6615,'(0)','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,6616,'\"2.26.0\"','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24960,'\\\n        inflateBackInit_((strm), (windowBits), (window), \\\n                                            ZLIB_VERSION, sizeof(z_stream))','5.0',NULL,0);

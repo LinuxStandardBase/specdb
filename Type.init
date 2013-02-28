@@ -26259,3 +26259,7 @@ INSERT INTO `Type` VALUES (10003708,'anon-enum-gdk-pixbuf-transform.h-0','Enum',
 INSERT INTO `Type` VALUES (10003709,'anon-enum-gdk-pixbuf-transform.h-1','Enum',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
 INSERT INTO `Type` VALUES (10003710,'anon-struct-gdk-pixbuf-loader.h-0','Struct',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
 INSERT INTO `Type` VALUES (10003711,'anon-struct-gdk-pixbuf-loader.h-1','Struct',623,'','No','No','No',NULL,0,0,'libgdk_pixbuf-2.0',0);
+INSERT INTO `Type` VALUES (10003713,'unsigned int (*) (void *, unsigned char **)','FuncPtr',300,'','No','No','No',NULL,0,0,'libz',0);
+INSERT INTO `Type` VALUES (10003714,'in_func','Typedef',428,'','No','No','No',NULL,0,0,'libz',0);
+INSERT INTO `Type` VALUES (10003715,'int (*) (void *, unsigned char *, unsigned)','FuncPtr',300,'','No','No','No',NULL,0,0,'libz',0);
+INSERT INTO `Type` VALUES (10003716,'out_func','Typedef',428,'','No','No','No',NULL,0,0,'libz',0);
