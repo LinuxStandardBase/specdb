@@ -1369,3 +1369,5 @@ INSERT INTO `InterfaceAttribute` VALUES (102617,'atk_object_get_layer','libatk-1
 INSERT INTO `InterfaceAttribute` VALUES (102618,'atk_object_get_mdi_zorder','libatk-1.0','Recommendation','This function is deprecated use <int libatk-1.0;atk_component_get_mdi_zorder >atk_component_get_mdi_zorder </int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102619,'futimesat','libc','Rejection','This interface is obsolete.  Use <int libc;utimensat>utimensat</int> from POSIX 2008');
 INSERT INTO `InterfaceAttribute` VALUES (102620,'httpConnect','libcups','Recommendation','This function is deprecated. Use\n<int libcups;httpConnectEncrypt>httpConnectEncrypt</int> instead');
+INSERT INTO `InterfaceAttribute` VALUES (102621,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
+INSERT INTO `InterfaceAttribute` VALUES (102622,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
