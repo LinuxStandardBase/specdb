@@ -2018,7 +2018,7 @@ INSERT INTO `Type` VALUES (10843,'const attr_t','Const',0,'','No','No','Yes',NUL
 INSERT INTO `Type` VALUES (10844,'const chtype','Const',0,'','No','No','Yes',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10845,'chtype[]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10846,'TERMINAL','Typedef',541,'','Yes','No','No',NULL,0,0,'libncurses',0);
-INSERT INTO `Type` VALUES (10847,'TERMINAL *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10847,'TERMINAL *','Pointer',0,'','No','No','Yes',NULL,0,0,'libncurses',0);
 INSERT INTO `Type` VALUES (10849,'_ZNSt8valarrayIjEE','Class',0,'','No','No','No','std::valarray<unsigned int>',0,0,'libstdcxx',0);
 INSERT INTO `Type` VALUES (10850,'term','Struct',470,'','Yes','No','No',NULL,0,0,'libncurses',0);
 INSERT INTO `Type` VALUES (10856,'const WINDOW','Const',470,'','No','No','No',NULL,0,0,'libncurses',0);
@@ -25960,7 +25960,7 @@ INSERT INTO `Type` VALUES (10003402,'chars[CCHARW_MAX]','Array',1760,'','No','No
 INSERT INTO `Type` VALUES (10003403,'screen','Struct',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003404,'SCREEN','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003405,'WINDOW','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003406,'WINDOW *','Pointer',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003406,'WINDOW *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003407,'int (*)(WINDOW *, int)','FuncPtr',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003408,'mmask_t','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003409,'ldat','Struct',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
