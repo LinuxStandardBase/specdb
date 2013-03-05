@@ -23831,3 +23831,4 @@ INSERT INTO `ArchConst` VALUES (1,6616,'\"2.26.0\"','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24960,'\\\n        inflateBackInit_((strm), (windowBits), (window), \\\n                                            ZLIB_VERSION, sizeof(z_stream))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24961,'do { if (newscr) { \\\n				 if (is_leaveok(newscr)) \\\n					 (y) = (x) = -1; \\\n				 else \\\n					 getyx(newscr,(y), (x)); \\\n			 } \\\n		 } while(0)','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,24962,'do { if (newscr) { \\\n				 if ((y) == -1 && (x) == -1) \\\n					 leaveok(newscr, TRUE); \\\n				 else { \\\n					 leaveok(newscr, FALSE); \\\n					 wmove(newscr, (y), (x)); \\\n				} \\\n			 } \\\n		  } while(0)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,24963,'132','5.0',NULL,0);

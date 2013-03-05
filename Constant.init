@@ -18818,8 +18818,8 @@ INSERT INTO `Constant` VALUES (20641,'SHT_IA_64_EXT','int',1556,'',NULL);
 INSERT INTO `Constant` VALUES (20642,'SHT_IA_64_UNWIND','int',1556,'',NULL);
 INSERT INTO `Constant` VALUES (20643,'SHF_IA_64_SHORT','int',1556,'',NULL);
 INSERT INTO `Constant` VALUES (20658,'cairo/cairo.h depends on cairo/cairo-features.h','header_depend',1401,'',NULL);
-INSERT INTO `Constant` VALUES (20659,'EOWNERDEAD','int',144,'',NULL);
-INSERT INTO `Constant` VALUES (20660,'ENOTRECOVERABLE','int',144,'',NULL);
+INSERT INTO `Constant` VALUES (20659,'EOWNERDEAD','int',144,'Owner died',NULL);
+INSERT INTO `Constant` VALUES (20660,'ENOTRECOVERABLE','int',144,'State not recoverable',NULL);
 INSERT INTO `Constant` VALUES (20661,'X11/extensions/XKBstr.h depends on X11/extensions/XKB.h','header_depend',1505,'',NULL);
 INSERT INTO `Constant` VALUES (20662,'DT_FLAGS','int',1556,'',NULL);
 INSERT INTO `Constant` VALUES (20663,'DT_ENCODING','int',1556,'',NULL);
@@ -23121,3 +23121,4 @@ INSERT INTO `Constant` VALUES (24959,'GDK_PIXBUF_H_INSIDE','Unknown',623,'',NULL
 INSERT INTO `Constant` VALUES (24960,'inflateBackInit(strm, windowBits, window)','macro',300,'',NULL);
 INSERT INTO `Constant` VALUES (24961,'getsyx(y,x)','macro',1763,'',NULL);
 INSERT INTO `Constant` VALUES (24962,'setsyx(y,x)','macro',1763,'',NULL);
+INSERT INTO `Constant` VALUES (24963,'ERFKILL','int',144,'Operation not possible due to RF-kill',NULL);
