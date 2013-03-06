@@ -25981,8 +25981,8 @@ INSERT INTO `Type` VALUES (10003423,'const chtype *','Pointer',0,'','No','No','N
 INSERT INTO `Type` VALUES (10003424,'SCREEN *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003425,'attr_t *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003426,'cchar_t *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003427,'wint_t','Typedef',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003428,'wint_t *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003718,'const siginfo_t','Const',0,'','No','No','Yes',NULL,0,0,'',0);
+INSERT INTO `Type` VALUES (10003717,'const timespec[2]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10003429,'chtype[]','Array',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003430,'_PangoFcFontMapPrivate','Struct',622,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
 INSERT INTO `Type` VALUES (10003431,'PangoFcFontMapPrivate','Typedef',622,'','No','No','No',NULL,0,0,'libpangoft2-1.0',0);
@@ -26263,3 +26263,4 @@ INSERT INTO `Type` VALUES (10003713,'unsigned int (*) (void *, unsigned char **)
 INSERT INTO `Type` VALUES (10003714,'in_func','Typedef',428,'','No','No','No',NULL,0,0,'libz',0);
 INSERT INTO `Type` VALUES (10003715,'int (*) (void *, unsigned char *, unsigned)','FuncPtr',300,'','No','No','No',NULL,0,0,'libz',0);
 INSERT INTO `Type` VALUES (10003716,'out_func','Typedef',428,'','No','No','No',NULL,0,0,'libz',0);
+INSERT INTO `Type` VALUES (10003719,'const siginfo_t *','Pointer',0,'','No','No','Yes',NULL,0,0,'',0);
