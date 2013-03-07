@@ -679,7 +679,7 @@ INSERT INTO `Type` VALUES (9024,'__kernel_size_t','Typedef',112,'','No','No','No
 INSERT INTO `Type` VALUES (9025,'lconv *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9027,'ptrdiff_t','Typedef',347,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9028,'anon-math.h-31','Enum',29,'','No','No','No',NULL,0,0,'libm',0);
-INSERT INTO `Type` VALUES (9029,'ssize_t','Typedef',112,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9029,'ssize_t','Typedef',1783,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9030,'anon-pthread.h-19','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (9031,'anon-pthread.h-30','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (9032,'anon-pthread.h-41','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
