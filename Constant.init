@@ -23141,3 +23141,13 @@ INSERT INTO `Constant` VALUES (24979,'_POSIX_THREAD_SAFE_FUNCTIONS','limit',366,
 INSERT INTO `Constant` VALUES (24980,'_POSIX_TIMEOUTS','limit',366,'',NULL);
 INSERT INTO `Constant` VALUES (24981,'_POSIX2_CHAR_TERM','limit',366,'',NULL);
 INSERT INTO `Constant` VALUES (24982,'_POSIX_ASYNC_IO','limit',366,'',NULL);
+INSERT INTO `Constant` VALUES (24983,'UTIME_NOW','int',52,'',NULL);
+INSERT INTO `Constant` VALUES (24984,'UTIME_OMIT','int',52,'',NULL);
+INSERT INTO `Constant` VALUES (24985,'AT_FDCWD','int',18,'Use the current working directory to determine the target of relative file paths.',NULL);
+INSERT INTO `Constant` VALUES (24986,'AT_SYMLINK_NOFOLLOW','int',18,'Do not follow symbolic links.',NULL);
+INSERT INTO `Constant` VALUES (24987,'AT_REMOVEDIR','int',18,'Remove directory instead of file.',NULL);
+INSERT INTO `Constant` VALUES (24988,'AT_SYMLINK_FOLLOW','int',18,'Follow symbolic link.',NULL);
+INSERT INTO `Constant` VALUES (24989,'AT_NO_AUTOMOUNT','int',18,'Suppress terminal automount traversal.',NULL);
+INSERT INTO `Constant` VALUES (24990,'AT_EMPTY_PATH','int',18,'Allow empty relative pathname.',NULL);
+INSERT INTO `Constant` VALUES (24991,'AT_EACCESS','int',18,'Check access using effective user and group ID.',NULL);
+INSERT INTO `Constant` VALUES (24992,'O_CLOEXEC','int',18,'The FD_CLOEXEC flag associated with the new descriptor shall be set to close the file descriptor upon execution of an exec family function.',NULL);
