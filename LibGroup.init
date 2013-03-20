@@ -429,3 +429,4 @@ INSERT INTO `LibGroup` VALUES (714,'Curses Wide',287,0,'Curses Wide Library');
 INSERT INTO `LibGroup` VALUES (715,'libcairo-gobject interfaces',288,0,'');
 INSERT INTO `LibGroup` VALUES (716,'libcairo-script-interpreter interfaces',289,0,'');
 INSERT INTO `LibGroup` VALUES (717,'Gobject GBinding',243,51,'Gobject GBinding');
+INSERT INTO `LibGroup` VALUES (718,'Asynchronous I/O',223,1,'');

@@ -7,7 +7,7 @@ INSERT INTO `Header` VALUES (6,'X11/Xcms.h',10,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (7,'X11/ICE/ICElib.h',19,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (8,'X11/ICE/ICEutil.h',19,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (9,'X11/SM/SMlib.h',20,'No',NULL,'1.0',NULL);
-INSERT INTO `Header` VALUES (10,'aio.h',131,'No',NULL,'1.0','1.2');
+INSERT INTO `Header` VALUES (10,'aio.h',131,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (11,'assert.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (12,'cpio.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (13,'crypt.h',29,'No',NULL,'1.0',NULL);
