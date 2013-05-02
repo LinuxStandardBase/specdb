@@ -1708,3 +1708,4 @@ INSERT INTO `HeaderGroup` VALUES (1780,'Post Header Section for libpng15/png.h',
 INSERT INTO `HeaderGroup` VALUES (1781,'Default header group for argz.h',1637,1,'');
 INSERT INTO `HeaderGroup` VALUES (1782,'Default header group for envz.h',1638,1,'');
 INSERT INTO `HeaderGroup` VALUES (1783,'Default Header Section for lsb/types.h',1639,0,'Default Header Section for lsb/types.h');
+INSERT INTO `HeaderGroup` VALUES (1784,'Default Header Section for ifaddrs.h',1640,0,'');

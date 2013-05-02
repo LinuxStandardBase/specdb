@@ -23199,3 +23199,5 @@ INSERT INTO `Constant` VALUES (25037,'_CS_V6_ENV','int',369,'',NULL);
 INSERT INTO `Constant` VALUES (25038,'_CS_V7_ENV','int',369,'',NULL);
 INSERT INTO `Constant` VALUES (25039,'sys/types.h depends on lsb/types.h','header_depend',45,'',NULL);
 INSERT INTO `Constant` VALUES (25040,'sys/param.h depends on limits.h','header_depend',352,'',NULL);
+INSERT INTO `Constant` VALUES (25041,'ifa_broadaddr','accessor',1784,'',NULL);
+INSERT INTO `Constant` VALUES (25042,'ifa_dstaddr','accessor',1784,'',NULL);
