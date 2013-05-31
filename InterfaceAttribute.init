@@ -1371,3 +1371,9 @@ INSERT INTO `InterfaceAttribute` VALUES (102619,'futimesat','libc','Rejection','
 INSERT INTO `InterfaceAttribute` VALUES (102620,'httpConnect','libcups','Recommendation','This function is deprecated. Use\n<int libcups;httpConnectEncrypt>httpConnectEncrypt</int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102621,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
 INSERT INTO `InterfaceAttribute` VALUES (102622,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
+INSERT INTO `InterfaceAttribute` VALUES (102623,'_ZNK7QPixmap6handleEv','libQtGui','Recommendation','This function is guaranteed to work only when the graphics backend is explicitly set by the application or when a QPixmap is loaded directly from a X11 pixmap.');
+INSERT INTO `InterfaceAttribute` VALUES (102624,'_ZNK7QPixmap7x11InfoEv','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
+INSERT INTO `InterfaceAttribute` VALUES (102625,'_ZN7QPixmap12x11SetScreenEi','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
+INSERT INTO `InterfaceAttribute` VALUES (102626,'_ZNK7QPixmap16x11PictureHandleEv','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
+INSERT INTO `InterfaceAttribute` VALUES (102627,'_ZN7QPixmap19x11SetDefaultScreenEi','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
+INSERT INTO `InterfaceAttribute` VALUES (102628,'_ZN7QPixmap13fromX11PixmapEmNS_9ShareModeE','libQtGui','Rejection','It is not recommended to use X11-specific Qt functions.');
