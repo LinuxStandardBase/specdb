@@ -25931,14 +25931,12 @@ INSERT INTO `Type` VALUES (10003371,'anon-struct-gparam.h-1','Struct',612,'','No
 INSERT INTO `Type` VALUES (10003372,'anon-struct-gparam.h-2','Struct',612,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003373,'anon-struct-gparam.h-3','Struct',612,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003375,'void (*)(gpointer, gpointer)','FuncPtr',612,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (10003376,'anon-struct-term.h-0','Struct',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003377,'termtype','Typedef',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003377,'termtype','Struct',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003378,'TERMTYPE','Typedef',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003379,'anon-struct-term.h-1','Struct',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003380,'TERMTYPE *','Typedef',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003381,'const TERMTYPE','Const',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003382,'const TERMTYPE *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003383,'term','Typedef',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003383,'term','Struct',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003384,'NCURSES_BOOL','Typedef',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003385,'anon-struct-curses.h-2','Struct',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003386,'cchar_t','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
@@ -25967,7 +25965,6 @@ INSERT INTO `Type` VALUES (10003409,'ldat','Struct',1760,'','No','No','No',NULL,
 INSERT INTO `Type` VALUES (10003410,'ldat *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003411,'chtype','Typedef',1764,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003412,'attr_t','Typedef',1764,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003413,'term','Struct',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003414,'TERMINAL *','Pointer',1759,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003415,'bool','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003416,'const WINDOW','Const',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
