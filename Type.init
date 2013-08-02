@@ -26269,3 +26269,4 @@ INSERT INTO `Type` VALUES (10003724,'anon-ifaddrs-union','Union',1784,'','No','N
 INSERT INTO `Type` VALUES (10003725,'ifaddrs','Struct',1784,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10003726,'ifaddrs *','Pointer',1784,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10003727,'ifaddrs **','Pointer',1784,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (10003728,'const attr_t','Const',0,'','No','No','Yes',NULL,0,0,'libncursesw',0);
