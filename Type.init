@@ -25961,7 +25961,7 @@ INSERT INTO `Type` VALUES (10003405,'WINDOW','Typedef',1765,'','No','No','No',NU
 INSERT INTO `Type` VALUES (10003406,'WINDOW *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003407,'int (*)(WINDOW *, int)','FuncPtr',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003408,'mmask_t','Typedef',1765,'','No','No','No',NULL,0,0,'libncursesw',0);
-INSERT INTO `Type` VALUES (10003409,'ldat','Struct',1760,'','No','No','No',NULL,0,0,'libncursesw',0);
+INSERT INTO `Type` VALUES (10003409,'ldat','Struct',1760,'','Yes','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003410,'ldat *','Pointer',0,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003411,'chtype','Typedef',1764,'','No','No','No',NULL,0,0,'libncursesw',0);
 INSERT INTO `Type` VALUES (10003412,'attr_t','Typedef',1764,'','No','No','No',NULL,0,0,'libncursesw',0);
