@@ -23201,3 +23201,7 @@ INSERT INTO `Constant` VALUES (25039,'sys/types.h depends on lsb/types.h','heade
 INSERT INTO `Constant` VALUES (25040,'sys/param.h depends on limits.h','header_depend',352,'',NULL);
 INSERT INTO `Constant` VALUES (25041,'ifa_broadaddr','accessor',1784,'',NULL);
 INSERT INTO `Constant` VALUES (25042,'ifa_dstaddr','accessor',1784,'',NULL);
+INSERT INTO `Constant` VALUES (25043,'PR_ATOMIC_INCREMENT(val)','macro',1786,'',NULL);
+INSERT INTO `Constant` VALUES (25044,'PR_ATOMIC_DECREMENT(val)','macro',1786,'',NULL);
+INSERT INTO `Constant` VALUES (25045,'PR_ATOMIC_SET(val)','macro',1786,'',NULL);
+INSERT INTO `Constant` VALUES (25046,'PR_ATOMIC_ADD(val)','macro',1786,'',NULL);

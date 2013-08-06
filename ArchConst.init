@@ -23938,3 +23938,7 @@ INSERT INTO `ArchConst` VALUES (1,25039,'1639','1.0',NULL,2);
 INSERT INTO `ArchConst` VALUES (1,25040,'26','1.0',NULL,2);
 INSERT INTO `ArchConst` VALUES (1,25041,'ifa_ifu.ifu_broadaddr','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,25042,'ifa_ifu.ifu_dstaddr','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,25043,'PR_AtomicIncrement(val)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,25044,'PR_AtomicDecrement(val)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,25045,'PR_AtomicSet(val)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,25046,'PR_AtomicAdd(val)','5.0',NULL,0);
