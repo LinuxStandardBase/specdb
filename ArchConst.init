@@ -2036,7 +2036,7 @@ INSERT INTO `ArchConst` VALUES (1,2790,'(wmove(win,y,x)==ERR?ERR:winnwstr(stdscr
 INSERT INTO `ArchConst` VALUES (1,2791,'(wmove(win,y,x)==ERR?ERR:wvline_set(win,c,n))','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,2792,'((v)?ERR:slk_attroff(a))','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,2793,'((v)?ERR:slk_attron(a))','',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,2794,'vidattr(a)','',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,2794,'vidattr(a)','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,2795,'wvline_set(stdscr,c,n)','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,2796,'waddnwstr(win,wstr,-1)','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,2797,'((void)((a)!=0&&(*(a)=(win)->_attrs)),(void)((p)!=0&&(*(p)=PAIR_NUMBER((win)->_attrs))),OK)','',NULL,0);
@@ -22618,7 +22618,6 @@ INSERT INTO `ArchConst` VALUES (1,23751,'5','5.0',NULL,101);
 INSERT INTO `ArchConst` VALUES (1,23752,'20110404','5.0',NULL,102);
 INSERT INTO `ArchConst` VALUES (1,23753,'__attribute__((format(printf,fmt,var)))','5.0',NULL,103);
 INSERT INTO `ArchConst` VALUES (1,23754,'__attribute__((format(scanf,fmt,var)))','5.0',NULL,104);
-INSERT INTO `ArchConst` VALUES (1,23755,'vidattr(a)','5.0',NULL,105);
 INSERT INTO `ArchConst` VALUES (1,23756,'20110404','5.0',NULL,106);
 INSERT INTO `ArchConst` VALUES (1,23757,'NCURSES_VERSION','5.0',NULL,107);
 INSERT INTO `ArchConst` VALUES (1,23758,'20110404','5.0',NULL,108);

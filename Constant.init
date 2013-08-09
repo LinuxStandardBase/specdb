@@ -21914,7 +21914,6 @@ INSERT INTO `Constant` VALUES (23751,'CCHARW_MAX','Unknown',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23752,'NCURSES_EXT_COLORS','Unknown',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23753,'GCC_PRINTFLIKE(fmt,var)','macro',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23754,'GCC_SCANFLIKE(fmt,var)','macro',1763,'',NULL);
-INSERT INTO `Constant` VALUES (23755,'vid_attr(a,pair,opts)','macro',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23756,'NCURSES_EXT_FUNCS','Unknown',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23757,'curses_version()','Unknown',1763,'',NULL);
 INSERT INTO `Constant` VALUES (23758,'NCURSES_SP_FUNCS','Unknown',1763,'',NULL);
