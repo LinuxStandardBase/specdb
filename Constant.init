@@ -23216,3 +23216,10 @@ INSERT INTO `Constant` VALUES (25055,'PR_INTERVAL_NO_WAIT','macro',1459,'',NULL)
 INSERT INTO `Constant` VALUES (25056,'PR_INTERVAL_NO_TIMEOUT','macro',1459,'',NULL);
 INSERT INTO `Constant` VALUES (25057,'PR_NetAddrFamily(addr)','macro',1465,'',NULL);
 INSERT INTO `Constant` VALUES (25058,'PR_NetAddrInetPort(addr)','macro',1465,'',NULL);
+INSERT INTO `Constant` VALUES (25059,'PR_MALLOC(_bytes)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25060,'PR_NEW(_struct)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25061,'PR_REALLOC(_ptr, _size)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25062,'PR_CALLOC(_size)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25063,'PR_NEWZAP(_struct)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25064,'PR_DELETE(_ptr)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25065,'PR_FREEIF(_ptr)','macro',1787,'',NULL);
