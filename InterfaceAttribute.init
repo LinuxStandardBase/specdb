@@ -1366,11 +1366,9 @@ INSERT INTO `InterfaceAttribute` VALUES (102614,'pango_ft2_font_get_coverage','l
 INSERT INTO `InterfaceAttribute` VALUES (102615,'pango_get_mirror_char','libpango-1.0','Recommendation','This function is deprecated use <int libglib-2.0;g_unichar_get_mirror_char>g_unichar_get_mirror_char</int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102616,'atk_hyperlink_is_selected_link','libatk-1.0','Recommendation','This function is deprecated use <const libatk-1.0;ATK_STATE_SELECTED>ATK_STATE_SELECTED</const> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102617,'atk_object_get_layer','libatk-1.0','Recommendation','This function is deprecated use <int libatk-1.0;atk_component_get_layer>atk_component_get_layer</int> instead');
-INSERT INTO `InterfaceAttribute` VALUES (102618,'atk_object_get_mdi_zorder','libatk-1.0','Recommendation','This function is deprecated use <int libatk-1.0;atk_component_get_mdi_zorder >atk_component_get_mdi_zorder </int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102619,'futimesat','libc','Rejection','This interface is obsolete.  Use <int libc;utimensat>utimensat</int> from POSIX 2008');
 INSERT INTO `InterfaceAttribute` VALUES (102620,'httpConnect','libcups','Recommendation','This function is deprecated. Use\n<int libcups;httpConnectEncrypt>httpConnectEncrypt</int> instead');
 INSERT INTO `InterfaceAttribute` VALUES (102621,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
-INSERT INTO `InterfaceAttribute` VALUES (102622,'xmlParserInputRead','libxml2','Recommendation','This function was internal\nand is now marked as deprecated; it always returns an error.');
 INSERT INTO `InterfaceAttribute` VALUES (102623,'_ZNK7QPixmap6handleEv','libQtGui','Recommendation','This function is guaranteed to work only when the graphics backend is explicitly set by the application or when a QPixmap is loaded directly from a X11 pixmap.');
 INSERT INTO `InterfaceAttribute` VALUES (102624,'_ZNK7QPixmap7x11InfoEv','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
 INSERT INTO `InterfaceAttribute` VALUES (102625,'_ZN7QPixmap12x11SetScreenEi','libQtGui','Recommendation','It is not recommended to use X11-specific Qt functions.');
