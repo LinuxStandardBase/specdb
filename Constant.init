@@ -23223,3 +23223,4 @@ INSERT INTO `Constant` VALUES (25062,'PR_CALLOC(_size)','macro',1787,'',NULL);
 INSERT INTO `Constant` VALUES (25063,'PR_NEWZAP(_struct)','macro',1787,'',NULL);
 INSERT INTO `Constant` VALUES (25064,'PR_DELETE(_ptr)','macro',1787,'',NULL);
 INSERT INTO `Constant` VALUES (25065,'PR_FREEIF(_ptr)','macro',1787,'',NULL);
+INSERT INTO `Constant` VALUES (25066,'COLOR_BLACK','int',1763,'',NULL);

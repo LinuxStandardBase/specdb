@@ -23960,3 +23960,4 @@ INSERT INTO `ArchConst` VALUES (1,25062,'(PR_Calloc(1, (_size)))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,25063,'((_struct*)PR_Calloc(1, sizeof(_struct)))','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,25064,'{ PR_Free(_ptr); (_ptr) = NULL; }','5.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,25065,'if (_ptr) PR_DELETE(_ptr)','5.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,25066,'0','5.0',NULL,38);
