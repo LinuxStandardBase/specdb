@@ -10279,9 +10279,6 @@ INSERT INTO `Type` VALUES (26310,'__u8[1]','Array',0,'','No','No','No',NULL,0,0,
 INSERT INTO `Type` VALUES (26311,'__u8[63]','Array',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26312,'__u8[7]','Array',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26313,'__u8[9]','Array',0,'','No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (26314,'__va_list_tag *','Pointer',0,'','No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (26315,'__va_list_tag','Struct',0,'','No','No','No',NULL,0,0,'libasound',0);
-INSERT INTO `Type` VALUES (26316,'__va_list_tag[0]','Array',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26317,'_bag1','Struct',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26318,'_class_priv','Struct',0,'','No','No','No',NULL,0,0,'libasound',0);
 INSERT INTO `Type` VALUES (26319,'_selem_ctl','Struct',0,'','No','No','No',NULL,0,0,'libasound',0);
@@ -18781,8 +18778,6 @@ INSERT INTO `Type` VALUES (37124,'TT_PCLT','Typedef',941,'','No','No','No',NULL,
 INSERT INTO `Type` VALUES (37125,'TT_MaxProfile_','Struct',941,'','No','No','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (37126,'TT_MaxProfile','Typedef',941,'','No','No','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (37127,'anon-enum-tttables.h-0','Enum',941,'','No','No','No',NULL,0,0,'libfreetype',0);
-INSERT INTO `Type` VALUES (37128,'_CompositeClassRec','Struct',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (37129,'_CompositeClassRec *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (37130,'anon-t1taqbles-enum','Enum',961,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (37131,'T1_Blend_Flags','Typedef',961,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (37132,'char[1]','Array',0,'','No','No','No',NULL,0,0,'',0);
@@ -22737,8 +22732,6 @@ INSERT INTO `Type` VALUES (41091,'_GVariantBuilder','Struct',609,'','No','No','N
 INSERT INTO `Type` VALUES (41092,'anon-enum-gvariant.h-39','Enum',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41093,'GVariantParseError','Typedef',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41094,'GVariantBuilder *','Pointer',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (41095,'__va_list_tag*[1]','Array',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (41096,'__va_list_tag*','Pointer',0,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41097,'anon-enum-gconvert.h-40','Enum',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41098,'anon-enum-gslice.h-41','Enum',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41099,'anon-struct-gpoll.h-28','Struct',609,'','No','No','No',NULL,0,0,'libglib-2.0',0);
