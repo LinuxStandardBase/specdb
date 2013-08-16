@@ -1712,3 +1712,4 @@ INSERT INTO `HeaderGroup` VALUES (1784,'Default Header Section for ifaddrs.h',16
 INSERT INTO `HeaderGroup` VALUES (1785,'Default Header Section for nspr4/prcvar.h',1641,0,'');
 INSERT INTO `HeaderGroup` VALUES (1786,'Default Header Section for nspr4/pratom.h',1642,0,'');
 INSERT INTO `HeaderGroup` VALUES (1787,'Default Header Section for nspr4/prmem.h',1643,0,'');
+INSERT INTO `HeaderGroup` VALUES (1788,'Default Header Section for nspr4/prprf.h',1644,0,'');

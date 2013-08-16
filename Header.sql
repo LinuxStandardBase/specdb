@@ -23,7 +23,7 @@ CREATE TABLE `Header` (
   KEY `k_appearedin` (`Happearedin`,`Hwithdrawnin`),
   KEY `k_withdrawnin` (`Hwithdrawnin`),
   KEY `k_Hlib` (`Hlib`)
-) ENGINE=MyISAM AUTO_INCREMENT=1644 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=1645 DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

@@ -26300,3 +26300,11 @@ INSERT INTO `Type` VALUES (10003755,'PRIntn (*)(PRIntn argc, char **argv)','Func
 INSERT INTO `Type` VALUES (10003756,'PRPrimordialFn','Typedef',1458,'','No','No','No',NULL,0,0,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003757,'PRIPv6Addr *','Pointer',0,'','No','No','No',NULL,0,0,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003758,'PRNetAddrValue','Typedef',1465,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003759,'PRStatus (*)(void)','FuncPtr',1458,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003760,'PRCallOnceFN','Typedef',1458,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003761,'PRStatus (*)(void *arg)','FuncPtr',1458,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003762,'PRCallOnceWithArgFN','Typedef',1458,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003763,'void (*)(void)','FuncPtr',1460,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003764,'PRFuncPtr','Typedef',1460,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003765,'PRIntn (*)(void *arg, const char *s, PRUint32 slen)','FuncPtr',1788,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003766,'PRStuffFunc','Typedef',1788,'','No','No','No',NULL,0,0,'libnspr4',0);
