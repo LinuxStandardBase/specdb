@@ -18778,6 +18778,7 @@ INSERT INTO `Type` VALUES (37124,'TT_PCLT','Typedef',941,'','No','No','No',NULL,
 INSERT INTO `Type` VALUES (37125,'TT_MaxProfile_','Struct',941,'','No','No','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (37126,'TT_MaxProfile','Typedef',941,'','No','No','No',NULL,0,0,'libfreetype',0);
 INSERT INTO `Type` VALUES (37127,'anon-enum-tttables.h-0','Enum',941,'','No','No','No',NULL,0,0,'libfreetype',0);
+INSERT INTO `Type` VALUES (10003767,'PRFileMap','Struct',1460,'','No','No','No',NULL,0,0,'libnspr4',0);
 INSERT INTO `Type` VALUES (37130,'anon-t1taqbles-enum','Enum',961,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (37131,'T1_Blend_Flags','Typedef',961,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (37132,'char[1]','Array',0,'','No','No','No',NULL,0,0,'',0);
