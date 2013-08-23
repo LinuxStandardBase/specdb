@@ -280,7 +280,7 @@ INSERT INTO `HeaderGroup` VALUES (286,'Feedback',1,18,'Feedback');
 INSERT INTO `HeaderGroup` VALUES (290,'Default Header Section for X11/extensions/XKBgeom.h',87,0,'Default Header Section for X11/extensions/XKBgeom.h');
 INSERT INTO `HeaderGroup` VALUES (291,'Default Header Section for X11/XKBlib.h',88,0,'Default Header Section for X11/XKBlib.h');
 INSERT INTO `HeaderGroup` VALUES (292,'Default Header Section for X11/Xresource.h',89,0,'Default Header Section for X11/Xresource.h');
-INSERT INTO `HeaderGroup` VALUES (293,'Default Header Section for X11/Intrinsic.h',90,0,'Default Header Section for X11/Intrinsic.h');
+INSERT INTO `HeaderGroup` VALUES (293,'Default Header Section for X11/Intrinsic.h',90,3,'Default Header Section for X11/Intrinsic.h');
 INSERT INTO `HeaderGroup` VALUES (294,'Default Header Section for X11/Composite.h',91,0,'Default Header Section for X11/Composite.h');
 INSERT INTO `HeaderGroup` VALUES (295,'Default Header Section for X11/StringDefs.h',92,0,'Default Header Section for X11/StringDefs.h');
 INSERT INTO `HeaderGroup` VALUES (296,'Default Header Section for X11/Shell.h',93,0,'Default Header Section for X11/Shell.h');
@@ -1713,3 +1713,6 @@ INSERT INTO `HeaderGroup` VALUES (1785,'Default Header Section for nspr4/prcvar.
 INSERT INTO `HeaderGroup` VALUES (1786,'Default Header Section for nspr4/pratom.h',1642,0,'');
 INSERT INTO `HeaderGroup` VALUES (1787,'Default Header Section for nspr4/prmem.h',1643,0,'');
 INSERT INTO `HeaderGroup` VALUES (1788,'Default Header Section for nspr4/prprf.h',1644,0,'');
+INSERT INTO `HeaderGroup` VALUES (1789,'Intrinsic.h Dependencies in Other Headers',90,0,'Intrinsic.h Dependencies in Other Headers');
+INSERT INTO `HeaderGroup` VALUES (1790,'WidgetClass',90,1,'WidgetClass');
+INSERT INTO `HeaderGroup` VALUES (1791,'XtTranslations',90,2,'XtTranslations');
