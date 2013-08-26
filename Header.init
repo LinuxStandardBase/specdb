@@ -1615,3 +1615,4 @@ INSERT INTO `Header` VALUES (1641,'nspr4/prcvar.h',279,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1642,'nspr4/pratom.h',279,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1643,'nspr4/prmem.h',279,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1644,'nspr4/prprf.h',279,'No',NULL,'',NULL);
+INSERT INTO `Header` VALUES (1645,'lsb/Composite.h',11,'No',NULL,'1.2',NULL);

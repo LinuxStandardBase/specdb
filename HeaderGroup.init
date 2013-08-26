@@ -1716,3 +1716,4 @@ INSERT INTO `HeaderGroup` VALUES (1788,'Default Header Section for nspr4/prprf.h
 INSERT INTO `HeaderGroup` VALUES (1789,'Intrinsic.h Dependencies in Other Headers',90,0,'Intrinsic.h Dependencies in Other Headers');
 INSERT INTO `HeaderGroup` VALUES (1790,'WidgetClass',90,1,'WidgetClass');
 INSERT INTO `HeaderGroup` VALUES (1791,'XtTranslations',90,2,'XtTranslations');
+INSERT INTO `HeaderGroup` VALUES (1792,'Default Header Section for lsb/Composite.h',1645,0,'Default Header Section for lsb/Composite.h');

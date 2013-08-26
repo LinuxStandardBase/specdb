@@ -18445,7 +18445,7 @@ INSERT INTO `Type` VALUES (36791,'const XTextProperty *','Pointer',0,'','No','No
 INSERT INTO `Type` VALUES (36792,'wchar_t ***','Pointer',0,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (36793,'CompositeWidgetClass','Typedef',294,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (36794,'_CompositeClassRec *','Pointer',310,'','No','No','No',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (36795,'XtOrderProc','Typedef',294,'','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (36795,'XtOrderProc','Typedef',1792,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (36796,'Cardinal (*)(Widget)','FuncPtr',0,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (36797,'TMByteCard','Typedef',1377,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (36798,'TMShortInt','Typedef',1377,'','No','No','No',NULL,0,0,'libXt',0);
