@@ -1718,4 +1718,4 @@ INSERT INTO `HeaderGroup` VALUES (1791,'XtTranslations',90,2,'XtTranslations');
 INSERT INTO `HeaderGroup` VALUES (1792,'Default Header Section for lsb/Composite.h',1645,1,'Special header to avoid header inclusion loops ');
 INSERT INTO `HeaderGroup` VALUES (1793,'Default Header Section for lsb/wchar.h',1646,1,'Special header to avoid header inclusion loops ');
 INSERT INTO `HeaderGroup` VALUES (1794,'Default Header Section for sysexits.h',1647,0,'');
-INSERT INTO `HeaderGroup` VALUES (515,'mbstate',65,1,'This really belongs in wchar.h, but creates a circular dependency with stdio.h, so put it here to break the circle.');
+INSERT INTO `HeaderGroup` VALUES (515,'mbstate',1646,2,'');

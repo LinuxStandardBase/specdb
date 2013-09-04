@@ -258,7 +258,7 @@ INSERT INTO `Type` VALUES (7018,'timespec','Struct',338,'','No','No','No',NULL,0
 INSERT INTO `Type` VALUES (8474,'XCirculateEvent','Typedef',100,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (7023,'utimbuf','Struct',63,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8472,'XConfigureRequestEvent','Typedef',100,'','No','No','No',NULL,0,0,'libX11',0);
-INSERT INTO `Type` VALUES (7024,'wctype_t','Typedef',65,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (7024,'wctype_t','Typedef',64,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9231,'__compar_fn_t','Typedef',43,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (7019,'tm','Struct',259,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8470,'XResizeRequestEvent','Typedef',100,'','No','No','No',NULL,0,0,'libX11',0);
@@ -633,7 +633,7 @@ INSERT INTO `Type` VALUES (8976,'anon-ctype.h-13','Enum',145,'','No','No','No',N
 INSERT INTO `Type` VALUES (8977,'__int32_t','Typedef',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8978,'__int32_t *','Pointer',45,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8979,'cchar_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (8980,'wint_t','Typedef',65,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (8980,'wint_t','Typedef',1793,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (8981,'wint_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (8982,'int (*)(WINDOW *, int)','FuncPtr',70,'','No','No','No',NULL,0,0,'libncurses',0);
 INSERT INTO `Type` VALUES (8983,'va_list','Typedef',351,'','No','No','Yes',NULL,0,0,'',0);
@@ -837,7 +837,7 @@ INSERT INTO `Type` VALUES (9195,'__intptr_t','Typedef',45,'','No','No','No',NULL
 INSERT INTO `Type` VALUES (9196,'intptr_t','Typedef',930,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9197,'utimbuf *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (9198,'anon-wctype.h-20','Enum',65,'','No','No','No',NULL,0,0,'libc',0);
-INSERT INTO `Type` VALUES (9199,'wctrans_t','Typedef',65,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (9199,'wctrans_t','Typedef',64,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9200,'anon-wordexp.h-7','Enum',263,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9201,'anon-wordexp.h-45','Enum',265,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (9202,'wordexp_t *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
@@ -1821,7 +1821,7 @@ INSERT INTO `Type` VALUES (10482,'const sigset_t *','Pointer',41,'','No','No','N
 INSERT INTO `Type` VALUES (10483,'random_data','Struct',43,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10484,'random_data *','Pointer',43,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10485,'double[]','Array',29,'','No','No','No',NULL,0,0,'libm',0);
-INSERT INTO `Type` VALUES (10488,'__mbstate_t','Typedef',65,'','No','No','No',NULL,0,0,'libc',0);
+INSERT INTO `Type` VALUES (10488,'__mbstate_t','Typedef',1793,'','No','No','No',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10501,'anon-signal.h-180','Union',41,'','No','No','Yes',NULL,0,0,'libc',0);
 INSERT INTO `Type` VALUES (10505,'signed char','Intrinsic',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (10511,'const Bytef','Const',428,'','No','No','Yes',NULL,0,0,'libz',0);
