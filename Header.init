@@ -1618,3 +1618,4 @@ INSERT INTO `Header` VALUES (1644,'nspr4/prprf.h',279,'No',NULL,'',NULL);
 INSERT INTO `Header` VALUES (1645,'lsb/Composite.h',11,'No',NULL,'1.2',NULL);
 INSERT INTO `Header` VALUES (1646,'lsb/wchar.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (1647,'sysexits.h',131,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1648,'lsb/Intrinsic.h',11,'No',NULL,'1.1',NULL);

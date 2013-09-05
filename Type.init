@@ -1242,9 +1242,9 @@ INSERT INTO `Type` VALUES (31985,'XtVarArgsList','Typedef',293,'','No','No','No'
 INSERT INTO `Type` VALUES (31984,'EventMask','Typedef',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31983,'XtCallbackList','Typedef',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31982,'_XtCallbackRec *','Pointer',293,'','No','No','No',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (31981,'_XtCallbackRec','Struct',293,'','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (31981,'_XtCallbackRec','Struct',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (9696,'_XtResource *','Pointer',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (31980,'XtCallbackProc','Typedef',293,'','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (31980,'XtCallbackProc','Typedef',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31979,'void (*)(Widget, XtPointer, XtPointer)','FuncPtr',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (31978,'XtListPosition','Typedef',293,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31977,'XtInputMask','Typedef',293,'','No','No','No',NULL,0,0,'libXt',0);
@@ -1354,7 +1354,7 @@ INSERT INTO `Type` VALUES (31900,'XEvent *','Pointer',5,'','No','No','No',NULL,0
 INSERT INTO `Type` VALUES (31899,'Widget *','Pointer',293,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31898,'Widget','Typedef',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31897,'_WidgetRec *','Pointer',293,'','No','No','No',NULL,0,0,'libXt',0);
-INSERT INTO `Type` VALUES (31896,'_WidgetRec','Struct',293,'','No','No','No',NULL,0,0,'libXt',0);
+INSERT INTO `Type` VALUES (31896,'_WidgetRec','Struct',1789,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31895,'KeyCode *','Pointer',68,'','No','No','No',NULL,0,0,'libX11',0);
 INSERT INTO `Type` VALUES (31894,'XtPointer *','Pointer',293,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (31893,'XtPointer','Typedef',1789,'','No','No','No',NULL,0,0,'libXt',0);

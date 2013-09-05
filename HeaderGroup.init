@@ -1712,9 +1712,9 @@ INSERT INTO `HeaderGroup` VALUES (1785,'Default Header Section for nspr4/prcvar.
 INSERT INTO `HeaderGroup` VALUES (1786,'Default Header Section for nspr4/pratom.h',1642,0,'');
 INSERT INTO `HeaderGroup` VALUES (1787,'Default Header Section for nspr4/prmem.h',1643,0,'');
 INSERT INTO `HeaderGroup` VALUES (1788,'Default Header Section for nspr4/prprf.h',1644,0,'');
-INSERT INTO `HeaderGroup` VALUES (1789,'Intrinsic.h Dependencies in Other Headers',90,0,'Intrinsic.h Dependencies in Other Headers');
-INSERT INTO `HeaderGroup` VALUES (1790,'WidgetClass',90,1,'WidgetClass');
-INSERT INTO `HeaderGroup` VALUES (1791,'XtTranslations',90,2,'XtTranslations');
+INSERT INTO `HeaderGroup` VALUES (1789,'Default Header Section for lsb/Intrinsic.h',1648,0,'Default Header Section for lsb/Intrinsic.h');
+INSERT INTO `HeaderGroup` VALUES (1790,'WidgetClass',1648,1,'WidgetClass');
+INSERT INTO `HeaderGroup` VALUES (1791,'XtTranslations',1648,2,'XtTranslations');
 INSERT INTO `HeaderGroup` VALUES (1792,'Default Header Section for lsb/Composite.h',1645,1,'Special header to avoid header inclusion loops ');
 INSERT INTO `HeaderGroup` VALUES (1793,'Default Header Section for lsb/wchar.h',1646,1,'Special header to avoid header inclusion loops ');
 INSERT INTO `HeaderGroup` VALUES (1794,'Default Header Section for sysexits.h',1647,0,'');
