@@ -23241,3 +23241,8 @@ INSERT INTO `Constant` VALUES (25080,'EX_TEMPFAIL','macro',1794,'temp failure; u
 INSERT INTO `Constant` VALUES (25081,'EX_PROTOCOL','macro',1794,'remote error in protocol ',NULL);
 INSERT INTO `Constant` VALUES (25082,'EX_NOPERM','macro',1794,'permission denied ',NULL);
 INSERT INTO `Constant` VALUES (25083,'EX_CONFIG','macro',1794,'configuration error ',NULL);
+INSERT INTO `Constant` VALUES (25084,'RLIMIT_SIGPENDING','int',57,'',NULL);
+INSERT INTO `Constant` VALUES (25085,'RLIMIT_MSGQUEUE','int',57,'',NULL);
+INSERT INTO `Constant` VALUES (25086,'RLIMIT_NICE','int',57,'',NULL);
+INSERT INTO `Constant` VALUES (25087,'RLIMIT_RTPRIO','int',57,'',NULL);
+INSERT INTO `Constant` VALUES (25088,'RLIMIT_RTTIME','int',57,'',NULL);
