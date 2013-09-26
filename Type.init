@@ -21004,7 +21004,7 @@ INSERT INTO `Type` VALUES (39352,'int[SIGEV_PAD_SIZE]','Array',0,'','No','No','N
 INSERT INTO `Type` VALUES (39353,'long int[1]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39354,'long int[3]','Array',0,'','No','No','No',NULL,0,0,'',0);
 INSERT INTO `Type` VALUES (39355,'long int[69]','Array',0,'','No','No','No',NULL,0,0,'',0);
-INSERT INTO `Type` VALUES (39358,'anon-pthread.h-enum','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
+INSERT INTO `Type` VALUES (39358,'anon-pthread.h-800','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
 INSERT INTO `Type` VALUES (39359,'_RectObjPart','Struct',1499,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (39360,'RectObjPart','Typedef',1499,'','No','No','No',NULL,0,0,'libXt',0);
 INSERT INTO `Type` VALUES (39361,'_RectObjRec','Struct',1500,'','No','No','No',NULL,0,0,'libXt',0);
@@ -26302,3 +26302,4 @@ INSERT INTO `Type` VALUES (10003763,'void (*)(void)','FuncPtr',1460,'','No','No'
 INSERT INTO `Type` VALUES (10003764,'PRFuncPtr','Typedef',1460,'','No','No','No',NULL,0,0,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003765,'PRIntn (*)(void *arg, const char *s, PRUint32 slen)','FuncPtr',1788,'','No','No','No',NULL,0,0,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003766,'PRStuffFunc','Typedef',1788,'','No','No','No',NULL,0,0,'libnspr4',0);
+INSERT INTO `Type` VALUES (10003768,'anon-pthread.h-850','Enum',33,'','No','No','No',NULL,0,0,'libpthread',0);
