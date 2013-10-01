@@ -175,9 +175,9 @@ INSERT INTO `Header` VALUES (179,'pango-1.0/pango/pangoxft.h',248,'No',NULL,'3.1
 INSERT INTO `Header` VALUES (180,'pango-1.0/pango/pangoft2.h',249,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (181,'pango-1.0/pango/pangofc-decoder.h',249,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (182,'pango-1.0/pango/pangofc-fontmap.h',249,'No',NULL,'3.1',NULL);
-INSERT INTO `Header` VALUES (183,'gtk-2.0/gdk-pixbuf/gdk-pixbuf.h',250,'No',NULL,'3.1',NULL);
-INSERT INTO `Header` VALUES (184,'gtk-2.0/gdk-pixbuf/gdk-pixdata.h',250,'No',NULL,'3.1',NULL);
-INSERT INTO `Header` VALUES (185,'gtk-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h',251,'No',NULL,'3.1',NULL);
+INSERT INTO `Header` VALUES (183,'gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h',250,'No',NULL,'3.1',NULL);
+INSERT INTO `Header` VALUES (184,'gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h',250,'No',NULL,'3.1',NULL);
+INSERT INTO `Header` VALUES (185,'gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h',251,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (186,'gtk-2.0/gdk/gdk.h',252,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (187,'gtk-2.0/gdk/gdkkeysyms.h',252,'No',NULL,'3.1',NULL);
 INSERT INTO `Header` VALUES (188,'gtk-2.0/gdk/gdkx.h',252,'No',NULL,'3.1',NULL);
