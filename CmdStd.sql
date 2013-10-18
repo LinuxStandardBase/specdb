@@ -17,6 +17,7 @@ CREATE TABLE `CmdStd` (
   `CSappearedin` varchar(5) NOT NULL,
   `CSwithdrawnin` varchar(5) DEFAULT NULL,
   `CSurl` varchar(255) DEFAULT NULL,
+  `CSrefspecurl` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`CScid`,`CSsid`,`CSappearedin`),
   KEY `k_appearedin` (`CSappearedin`,`CSwithdrawnin`),
   KEY `k_withdrawnin` (`CSwithdrawnin`),
