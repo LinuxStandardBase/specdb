@@ -2912,7 +2912,7 @@ INSERT INTO `Type` VALUES (11839,'GTypeInstance','Typedef',1758,'','No','No','No
 INSERT INTO `Type` VALUES (11840,'GObject','Typedef',612,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (11841,'GObject *','Pointer',612,'','No','No','Yes',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (11842,'_GValue','Struct',612,'','No','No','Yes',NULL,0,0,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (11843,'gfloat','Typedef',612,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
+INSERT INTO `Type` VALUES (11843,'gfloat','Typedef',928,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (11844,'anon-glib-2.0/glib-object.h-12','Union',612,'','No','No','Yes',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (11845,'anon-glib-2.0/glib-object.h-12[2]','Array',612,'','No','No','Yes',NULL,0,0,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (11846,'GValue','Typedef',1758,'','No','No','No',NULL,0,0,'libgobject-2.0',0);
@@ -22815,7 +22815,6 @@ INSERT INTO `Type` VALUES (41176,'const GTimeVal','Const',609,'','No','No','Yes'
 INSERT INTO `Type` VALUES (41177,'const GTimeVal *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41178,'const guchar','Const',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41179,'const guchar *','Pointer',609,'','No','No','Yes',NULL,0,0,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (41180,'gfloat','Typedef',928,'','No','No','No',NULL,0,0,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (41181,'ffi_arg','Typedef',1600,'','No','No','No',NULL,0,0,'libffi',0);
 INSERT INTO `Type` VALUES (41182,'ffi_sarg','Typedef',1600,'','No','No','No',NULL,0,0,'libffi',0);
 INSERT INTO `Type` VALUES (41183,'ffi_abi','Enum',1600,'','No','No','No',NULL,0,0,'libffi',0);
