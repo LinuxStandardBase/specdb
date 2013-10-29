@@ -1619,3 +1619,8 @@ INSERT INTO `Header` VALUES (1645,'lsb/Composite.h',11,'No',NULL,'1.2',NULL);
 INSERT INTO `Header` VALUES (1646,'lsb/wchar.h',131,'No',NULL,'1.0',NULL);
 INSERT INTO `Header` VALUES (1647,'sysexits.h',131,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1648,'lsb/Intrinsic.h',11,'No',NULL,'1.1',NULL);
+INSERT INTO `Header` VALUES (1649,'gtk-3.0/gdk/gdk.h',290,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1650,'gtk-3.0/gdk/gdkx.h',290,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1651,'gtk-3.0/gdk/gdkbroadway.h',290,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1652,'gtk-3.0/gdk/gdkkeysyms.h',290,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1653,'gtk-3.0/gdk/gdkkeysyms-compat.h',290,'No',NULL,'5.0',NULL);

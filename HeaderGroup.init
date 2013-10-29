@@ -1719,3 +1719,8 @@ INSERT INTO `HeaderGroup` VALUES (1792,'Default Header Section for lsb/Composite
 INSERT INTO `HeaderGroup` VALUES (1793,'Default Header Section for lsb/wchar.h',1646,1,'Special header to avoid header inclusion loops ');
 INSERT INTO `HeaderGroup` VALUES (1794,'Default Header Section for sysexits.h',1647,0,'');
 INSERT INTO `HeaderGroup` VALUES (515,'mbstate',1646,2,'');
+INSERT INTO `HeaderGroup` VALUES (1795,'Default Header Section for gtk-3.0/gdk/gdk.h',1649,0,'');
+INSERT INTO `HeaderGroup` VALUES (1796,'Default Header Section for gtk-3.0/gdk/gdkx.h',1650,0,'');
+INSERT INTO `HeaderGroup` VALUES (1797,'Default Header Section for gtk-3.0/gdk/gdkbroadway.h',1651,0,'');
+INSERT INTO `HeaderGroup` VALUES (1798,'Default Header Section for gtk-3.0/gdk/gdkkeysyms.h',1652,0,'');
+INSERT INTO `HeaderGroup` VALUES (1799,'Default Header Section for gtk-3.0/gdk/gdkkeysyms-compat.h',1653,0,'');
