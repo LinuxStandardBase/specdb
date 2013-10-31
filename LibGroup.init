@@ -431,3 +431,4 @@ INSERT INTO `LibGroup` VALUES (716,'libcairo-script-interpreter interfaces',289,
 INSERT INTO `LibGroup` VALUES (717,'Gobject GBinding',243,51,'Gobject GBinding');
 INSERT INTO `LibGroup` VALUES (718,'Asynchronous I/O',223,1,'');
 INSERT INTO `LibGroup` VALUES (719,'libgdk-3 interfaces',290,0,'');
+INSERT INTO `LibGroup` VALUES (720,'libgtk-3 interfaces',291,0,'');

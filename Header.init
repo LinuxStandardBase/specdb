@@ -1624,3 +1624,5 @@ INSERT INTO `Header` VALUES (1650,'gtk-3.0/gdk/gdkx.h',290,'No',NULL,'5.0',NULL)
 INSERT INTO `Header` VALUES (1651,'gtk-3.0/gdk/gdkbroadway.h',290,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1652,'gtk-3.0/gdk/gdkkeysyms.h',290,'No',NULL,'5.0',NULL);
 INSERT INTO `Header` VALUES (1653,'gtk-3.0/gdk/gdkkeysyms-compat.h',290,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1654,'gtk-3.0/gtk/gtk.h',291,'No',NULL,'5.0',NULL);
+INSERT INTO `Header` VALUES (1655,'gtk-3.0/gtk/gtkunixprint.h',291,'No',NULL,'5.0',NULL);
