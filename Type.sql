@@ -20,8 +20,6 @@ CREATE TABLE `Type` (
   `Tconly` enum('Yes','No') NOT NULL DEFAULT 'No',
   `Tindirect` enum('Yes','No') NOT NULL DEFAULT 'No',
   `Tunmangled` text,
-  `Tmemberof` int(10) unsigned NOT NULL DEFAULT '0',
-  `Tinstanceof` int(10) unsigned NOT NULL DEFAULT '0',
   `Tlibrary` varchar(200) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
   `Tclass` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`Tid`),
