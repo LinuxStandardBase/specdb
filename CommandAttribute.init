@@ -1,3 +1,4 @@
 INSERT INTO `CommandAttribute` VALUES (1,'cpio','Recommendation','This command is deprecated and is no longer in POSIX. Suggest to use pax instead.');
 INSERT INTO `CommandAttribute` VALUES (2,'tar','Recommendation','This command is deprecated and is no longer in POSIX. Suggest to use pax instead.');
 INSERT INTO `CommandAttribute` VALUES (3,'arch','Recommendation','This command is not available on some systems. Use <cmd uname>uname -m</cmd> instead.');
+INSERT INTO `CommandAttribute` VALUES (4,'untic','Custom','This command is present in X/Open Curses Issue 7 but not in target implementations. Inclusion is not mandatory.');

@@ -164,3 +164,7 @@ INSERT INTO `Command` VALUES (1072,'fg',NULL,'Yes','No',NULL,'Yes',NULL,'4.1',NU
 INSERT INTO `Command` VALUES (1073,'hash',NULL,'Yes','No',NULL,'Yes',NULL,'4.1',NULL);
 INSERT INTO `Command` VALUES (1074,'jobs',NULL,'Yes','No',NULL,'Yes',NULL,'4.1',NULL);
 INSERT INTO `Command` VALUES (1075,'unalias',NULL,'Yes','No',NULL,'Yes',NULL,'4.1',NULL);
+INSERT INTO `Command` VALUES (1076,'infocmp',NULL,'Yes','No',NULL,'No',NULL,'5.0',NULL);
+INSERT INTO `Command` VALUES (1077,'tput',NULL,'Yes','No',NULL,'No',NULL,'5.0',NULL);
+INSERT INTO `Command` VALUES (1078,'tic',NULL,'Yes','No',NULL,'No',NULL,'5.0',NULL);
+INSERT INTO `Command` VALUES (1079,'untic',NULL,'Yes','No',NULL,'No',NULL,'',NULL);
