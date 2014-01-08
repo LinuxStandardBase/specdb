@@ -457,7 +457,7 @@ INSERT INTO `HeaderGroup` VALUES (468,'Default HeadGroup for pty.h',138,0,'');
 INSERT INTO `HeaderGroup` VALUES (469,'Default HeadGroup for sys/statfs.h',139,0,'');
 INSERT INTO `HeaderGroup` VALUES (470,'Default HeadGroup for term.h',140,0,'');
 INSERT INTO `HeaderGroup` VALUES (471,'Default HeadGroup for libintl.h',141,0,'');
-INSERT INTO `HeaderGroup` VALUES (472,'Default Header Section for security/pam_appl.h',142,0,'');
+INSERT INTO `HeaderGroup` VALUES (472,'Default Header Section for security/_pam_types.h',142,0,'');
 INSERT INTO `HeaderGroup` VALUES (473,'Values for item_type',142,4,'Possible Values for Item_type');
 INSERT INTO `HeaderGroup` VALUES (474,'Pam conversion',142,2,'');
 INSERT INTO `HeaderGroup` VALUES (475,'Pam structures',142,1,'');
@@ -1726,3 +1726,4 @@ INSERT INTO `HeaderGroup` VALUES (1798,'Default Header Section for gtk-3.0/gdk/g
 INSERT INTO `HeaderGroup` VALUES (1799,'Default Header Section for gtk-3.0/gdk/gdkkeysyms-compat.h',1653,0,'');
 INSERT INTO `HeaderGroup` VALUES (1800,'Default Header Section for gtk-3.0/gtk/gtk.h',1654,0,'');
 INSERT INTO `HeaderGroup` VALUES (1801,'Default Header Section for gtk-3.0/gtk/gtkunixprint.h',1655,0,'');
+INSERT INTO `HeaderGroup` VALUES (1802,'Default Header Section for security/pam_appl.h',1656,0,'');
