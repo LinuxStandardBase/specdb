@@ -1727,3 +1727,4 @@ INSERT INTO `HeaderGroup` VALUES (1799,'Default Header Section for gtk-3.0/gdk/g
 INSERT INTO `HeaderGroup` VALUES (1800,'Default Header Section for gtk-3.0/gtk/gtk.h',1654,0,'');
 INSERT INTO `HeaderGroup` VALUES (1801,'Default Header Section for gtk-3.0/gtk/gtkunixprint.h',1655,0,'');
 INSERT INTO `HeaderGroup` VALUES (1802,'Default Header Section for security/pam_appl.h',1656,0,'');
+INSERT INTO `HeaderGroup` VALUES (1803,'Default Header Section for security/pam_modules.h',1657,0,'');
