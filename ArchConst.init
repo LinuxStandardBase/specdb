@@ -18787,7 +18787,7 @@ INSERT INTO `ArchConst` VALUES (1,19994,'__CPU_OP_S (sizeof (cpu_set_t), destset
 INSERT INTO `ArchConst` VALUES (1,19995,'__CPU_OP_S (setsize, destset, srcset1, srcset2, &)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,19996,'__CPU_OP_S (setsize, destset, srcset1, srcset2, |)','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,19997,'__CPU_OP_S (setsize, destset, srcset1, srcset2, ^)','4.0',NULL,0);
-INSERT INTO `ArchConst` VALUES (1,19998,'code ,','4.0',NULL,0);
+INSERT INTO `ArchConst` VALUES (1,19998,'code ,','',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,19999,'','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,20000,'\\\n  ((cinfo)->err->msg_code = (code), \\\n   (*(cinfo)->err->error_exit) ((j_common_ptr) (cinfo)))','4.0',NULL,0);
 INSERT INTO `ArchConst` VALUES (1,20001,'\\\n  ((cinfo)->err->msg_code = (code), \\\n   (cinfo)->err->msg_parm.i[0] = (p1), \\\n   (*(cinfo)->err->error_exit) ((j_common_ptr) (cinfo)))','4.0',NULL,0);
