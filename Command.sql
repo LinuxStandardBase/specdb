@@ -22,7 +22,7 @@ CREATE TABLE `Command` (
   `Cappearedin` varchar(5) NOT NULL DEFAULT '',
   `Cwithdrawnin` varchar(5) DEFAULT NULL,
   PRIMARY KEY (`Cid`),
-  UNIQUE KEY `Cname` (`Cname`),
+  UNIQUE KEY `Cname` (`Cname`,`Cpath`),
   KEY `Cdeprecatedsince` (`Cdeprecatedsince`),
   KEY `k_appearedin` (`Cappearedin`,`Cwithdrawnin`),
   KEY `k_withdrawnin` (`Cwithdrawnin`)
