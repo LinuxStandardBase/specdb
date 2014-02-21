@@ -27213,11 +27213,11 @@ INSERT INTO `Type` VALUES (10004779,'GtkRegionFlags *','Pointer',0,'','No','No',
 INSERT INTO `Type` VALUES (10004780,'const _PangoFontDescription','Const',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004781,'const _PangoFontDescription *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004782,'GtkFontFilterFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004783,'const _PangoFontFamily','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004784,'const _PangoFontFamily *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004785,'const _PangoFontFace','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004786,'const _PangoFontFace *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004787,'gboolean (*)(const _PangoFontFamily *, const _PangoFontFace *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004783,'const PangoFontFamily','Const',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004784,'const PangoFontFamily *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004785,'const PangoFontFace','Const',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004786,'const PangoFontFace *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004787,'gboolean (*)(const PangoFontFamily *, const PangoFontFace *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004788,'_GtkFontChooser','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004789,'GtkFontChooser','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004790,'GtkFontChooserIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
