@@ -22991,7 +22991,7 @@ INSERT INTO `Type` VALUES (10000139,'png_charp','Typedef',1604,'','No','No','No'
 INSERT INTO `Type` VALUES (10000140,'png_const_charp','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
 INSERT INTO `Type` VALUES (10000141,'png_fixed_point','Typedef',1753,'','No','No','No',NULL,'libpng15',0);
 INSERT INTO `Type` VALUES (10000142,'png_fixed_point *','Pointer',1604,'','No','No','No',NULL,'libpng15',0);
-INSERT INTO `Type` VALUES (10000143,'png_fixed_pointp','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
+INSERT INTO `Type` VALUES (10000143,'png_fixed_point_p','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
 INSERT INTO `Type` VALUES (10000144,'png_FILE_p','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
 INSERT INTO `Type` VALUES (10000145,'png_doublep','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
 INSERT INTO `Type` VALUES (10000146,'png_const_doublep','Typedef',1604,'','No','No','No',NULL,'libpng15',0);
