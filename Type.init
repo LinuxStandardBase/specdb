@@ -26403,7 +26403,6 @@ INSERT INTO `Type` VALUES (10003883,'_GdkEventGrabBroken','Struct',1795,'','No',
 INSERT INTO `Type` VALUES (10003884,'_GdkEventDND','Typedef',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003885,'_GdkEventDND','Struct',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003886,'_GdkEvent','Union',1795,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003887,'_GdkEvent','Typedef',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003888,'const GdkEvent','Const',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003889,'const GdkEvent *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003892,'GdkScrollDirection *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
@@ -26427,8 +26426,6 @@ INSERT INTO `Type` VALUES (10003919,'GdkColor *','Pointer',0,'','No','No','No',N
 INSERT INTO `Type` VALUES (10003920,'const _GdkColor','Const',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003921,'const _GdkColor *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003922,'GdkDeviceManager *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003923,'const _GdkEvent','Const',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003924,'const _GdkEvent *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003925,'GdkScreen **','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003926,'_GdkAtom * const','Const',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003927,'_GdkAtom * const *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
