@@ -20988,7 +20988,7 @@ INSERT INTO `Type` VALUES (39339,'char[65]','Array',0,'','No','No','No',NULL,'',
 INSERT INTO `Type` VALUES (39340,'char[256]','Array',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (39341,'char[(128 - ( 2 * sizeof (__ss_aligntype)))]','Array',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (39342,'char[IFNAMSIZ]','Array',0,'','No','No','No',NULL,'',0);
-INSERT INTO `Type` VALUES (39343,'char[UNIX_PATH_MAX]','Array',0,'','No','No','No',NULL,'',0);
+INSERT INTO `Type` VALUES (39343,'char[108]','Array',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (39344,'char[__IO_FILE_SIZE]','Array',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (39345,'char[__SIZEOF_PTHREAD_BARRIER_T]','Array',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (39346,'char[__SIZEOF_PTHREAD_BARRIERATTR_T]','Array',0,'','No','No','No',NULL,'',0);
