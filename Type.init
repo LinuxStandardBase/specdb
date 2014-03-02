@@ -28617,3 +28617,4 @@ INSERT INTO `Type` VALUES (10006221,'GtkPrintBackend *','Pointer',0,'','No','No'
 INSERT INTO `Type` VALUES (10006222,'GtkPrinterFunc','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006223,'gboolean (*)(GtkPrinter *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006224,'void (*)(pam_handle_t *, void *, int)','FuncPtr',472,'','No','No','No',NULL,'libpam',0);
+INSERT INTO `Type` VALUES (10006225,'GdkAtom *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
