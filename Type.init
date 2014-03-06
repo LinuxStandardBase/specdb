@@ -28596,9 +28596,9 @@ INSERT INTO `Type` VALUES (10006200,'GtkPageSetupUnixDialogClass','Typedef',1801
 INSERT INTO `Type` VALUES (10006201,'_GtkPageSetupUnixDialogPrivate','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006202,'GtkPageSetupUnixDialogPrivate','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006203,'_GtkPageSetupUnixDialog','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006204,'_GtkPageSetupUnixDialog','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006229,'void (*)(GtkPrinter *, gboolean)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006205,'_GtkPageSetupUnixDialogClass','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006206,'_GtkPageSetupUnixDialogClass','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006228,'GtkPrinterPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006207,'GtkPageSetupUnixDialog *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006208,'anon-enum-gtkprinter.h-0','Enum',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006209,'GtkPrintCapabilities','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
@@ -28609,9 +28609,8 @@ INSERT INTO `Type` VALUES (10006213,'GtkPrinterPrivate','Typedef',1801,'','No','
 INSERT INTO `Type` VALUES (10006214,'_GtkPrintBackend','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006215,'GtkPrintBackend','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006216,'_GtkPrinter','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006217,'_GtkPrinter','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006218,'_GtkPrinterClass','Struct',1801,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006219,'_GtkPrinterClass','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006227,'GtkPageSetupUnixDialogPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006220,'GtkPrinter *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006221,'GtkPrintBackend *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006222,'GtkPrinterFunc','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
