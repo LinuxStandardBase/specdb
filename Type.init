@@ -28291,7 +28291,7 @@ INSERT INTO `Type` VALUES (10005891,'_GtkWindowClass','Struct',1800,'','No','No'
 INSERT INTO `Type` VALUES (10006236,'void (*)(GtkWindow *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005893,'_GtkWindowGroup','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005895,'_GtkWindowGroupClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006233,'GtkWinkdowPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006233,'GtkWindowPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005898,'GtkWindowGroup *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005899,'GtkMenu','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005900,'GtkMenuClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28568,9 +28568,8 @@ INSERT INTO `Type` VALUES (10006173,'_GtkContainerPrivate','Struct',1800,'','No'
 INSERT INTO `Type` VALUES (10006174,'GtkContainerPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006175,'GtkContainerClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006176,'_GtkContainer','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006177,'_GtkContainer','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006178,'_GtkContainerClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006179,'_GtkContainerClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006239,'void (*)(GtkContainer *, GtkWidget *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006180,'GtkContainer *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006181,'GList **','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006182,'GtkContainerClass *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28618,3 +28617,11 @@ INSERT INTO `Type` VALUES (10006225,'GdkAtom *','Pointer',1795,'','No','No','Yes
 INSERT INTO `Type` VALUES (10006226,'GdkPoint *','Pointer',0,'','No','No','Yes',NULL,'libgtk-3.0',0);
 INSERT INTO `Type` VALUES (10006232,'void (*)(GtkDialog *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006237,'GtkWinkdowGroupPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006238,'GtkContainerPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006240,'void (*)(GtkContainer *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006241,'void (*)(GtkContainer *, gboolean, GtkCallback, gpointer)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006242,'GType (*)(GtkContainer *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006243,'gchar * (*)(GtkContainer *, GtkWidget *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006244,'void (*)(GtkContainer *, GtkWidget *, guint, const GValue *, GParamSpec *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006245,'void (*)(GtkContainer *, GtkWidget *, guint, GValue *, GParamSpec *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006246,'GtkWidgetPath * (*)(GtkContainer *, GtkWidget *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
