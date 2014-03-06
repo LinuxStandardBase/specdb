@@ -27034,9 +27034,9 @@ INSERT INTO `Type` VALUES (10004588,'_GtkDialogPrivate','Struct',1800,'','No','N
 INSERT INTO `Type` VALUES (10004589,'GtkDialogPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004590,'GtkDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004591,'_GtkDialog','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004592,'_GtkDialog','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006230,'GtkDialogPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004593,'_GtkDialogClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004594,'_GtkDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006231,'void (*)(GtkDialog *, gint)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004595,'GtkDialog *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004596,'GtkActionableInterface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004597,'_GtkActionable','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28618,3 +28618,4 @@ INSERT INTO `Type` VALUES (10006223,'gboolean (*)(GtkPrinter *, gpointer)','Func
 INSERT INTO `Type` VALUES (10006224,'void (*)(pam_handle_t *, void *, int)','FuncPtr',472,'','No','No','No',NULL,'libpam',0);
 INSERT INTO `Type` VALUES (10006225,'GdkAtom *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10006226,'GdkPoint *','Pointer',0,'','No','No','Yes',NULL,'libgtk-3.0',0);
+INSERT INTO `Type` VALUES (10006232,'void (*)(GtkDialog *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
