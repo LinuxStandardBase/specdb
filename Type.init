@@ -22558,8 +22558,6 @@ INSERT INTO `Type` VALUES (40919,'anon-enum-gtestutils.h-0','Enum',609,'','No','
 INSERT INTO `Type` VALUES (40920,'GTestTrapFlags','Typedef',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40921,'GTestCase *','Pointer',0,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40922,'GTestSuite *','Pointer',0,'','No','No','No',NULL,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (40923,'const _GError','Const',0,'','No','No','No',NULL,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (40924,'const _GError *','Pointer',0,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40925,'anon-struct-gtestutils.h-0','Struct',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40926,'GTestConfig','Typedef',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40927,'const GTestConfig','Const',0,'','No','No','No',NULL,'libglib-2.0',0);
@@ -22611,8 +22609,8 @@ INSERT INTO `Type` VALUES (40972,'void (*)(GMarkupParseContext *, const char *, 
 INSERT INTO `Type` VALUES (40973,'void (*)(GMarkupParseContext *, const char *, gsize, void *, GError **)','FuncPtr',0,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40974,'void (*)(GMarkupParseContext *, GError *, void *)','FuncPtr',0,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40975,'anon-struct-gmarkup.h-8','Struct',609,'','No','No','No',NULL,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (40976,'const _GSList','Const',0,'','No','No','No',NULL,'libglib-2.0',0);
-INSERT INTO `Type` VALUES (40977,'const _GSList *','Pointer',0,'','No','No','No',NULL,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (40976,'const GSList','Const',0,'','No','No','No',NULL,'libglib-2.0',0);
+INSERT INTO `Type` VALUES (40977,'const GSList *','Pointer',0,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40978,'anon-enum-gmarkup.h-9','Enum',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40979,'GMarkupCollectType','Typedef',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (40980,'GHashTableIter','Typedef',609,'','No','No','No',NULL,'libglib-2.0',0);
@@ -24328,7 +24326,6 @@ INSERT INTO `Type` VALUES (10001775,'const guint8 * (*)(GInetAddress *)','FuncPt
 INSERT INTO `Type` VALUES (10001776,'anon-struct-ginetaddress.h-1','Struct',1739,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001777,'_GInetAddressClass','Struct',1739,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001778,'GSimpleAction *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10001779,'const _GVariantType','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001781,'GNetworkAddressClass','Typedef',1740,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001782,'_GNetworkAddressPrivate','Struct',1740,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001783,'GNetworkAddressPrivate','Typedef',1740,'','No','No','No',NULL,'libgio-2.0',0);
@@ -24750,7 +24747,6 @@ INSERT INTO `Type` VALUES (10002198,'GVariant * (*)(GActionGroup *, const gchar 
 INSERT INTO `Type` VALUES (10002199,'void (*)(GActionGroup *, const gchar *, GVariant *)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002200,'void (*)(GActionGroup *, const gchar *)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002201,'void (*)(GActionGroup *, const gchar *, gboolean)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002202,'const _GVariantType **','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002203,'gboolean (*)(GActionGroup *, const gchar *, gboolean *, const GVariantType **, const GVariantType **, GVariant **, GVariant **)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002204,'anon-struct-gactiongroup.h-0','Struct',1688,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002205,'_GActionGroupInterface','Struct',1688,'','No','No','No',NULL,'libgio-2.0',0);
@@ -25076,9 +25072,9 @@ INSERT INTO `Type` VALUES (10002524,'_GFileInfo','Struct',1725,'','No','No','No'
 INSERT INTO `Type` VALUES (10002525,'GFileInfo','Typedef',1725,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002526,'_GFileAttributeMatcher','Struct',1725,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002527,'GFileAttributeMatcher','Typedef',1725,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002528,'_GFileAttributeInfo','Struct',1725,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10002528,'_GFileAttributeInfo','Struct',1725,'dummy struct because real one is in headgroup 1644, avoids extra includes','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002529,'GFileAttributeInfo','Typedef',1725,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002530,'_GFileAttributeInfoList','Struct',1725,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10002530,'_GFileAttributeInfoList','Struct',1725,'dummy struct because real one is in headgroup 1644, avoids extra includes','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002531,'GFileAttributeInfoList','Typedef',1725,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002532,'_GFileDescriptorBased','Struct',1725,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002533,'GFileDescriptorBased','Typedef',1725,'','No','No','No',NULL,'libgio-2.0',0);
@@ -25876,7 +25872,6 @@ INSERT INTO `Type` VALUES (10003326,'anon-struct-gparamspecs.h-21','Struct',612,
 INSERT INTO `Type` VALUES (10003327,'_GParamSpecGType','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003328,'anon-struct-gparamspecs.h-22','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003329,'_GParamSpecVariant','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003330,'const _GVariantType *','Pointer',0,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003331,'void (*)(GClosure *, GValue *, guint, const _GValue *, gpointer, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003332,'GVaClosureMarshal','Typedef',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003333,'void (*)(GClosure *, GValue *, gpointer, va_list *, gpointer, int, GType *)','FuncPtr',0,'','No','No','No',NULL,'libgobject-2.0',0);
