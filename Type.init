@@ -21912,12 +21912,9 @@ INSERT INTO `Type` VALUES (40271,'_GtkPageSetupUnixDialog','Struct',1542,'','No'
 INSERT INTO `Type` VALUES (40272,'_GtkPageSetupUnixDialogClass','Struct',1542,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40273,'GtkPageSetupUnixDialog *','Pointer',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40274,'GtkTextBufferSerializeFunc','Typedef',1547,'','No','No','No',NULL,'',0);
-INSERT INTO `Type` VALUES (40275,'const _GtkTextIter','Const',0,'','No','No','No',NULL,'',0);
-INSERT INTO `Type` VALUES (40276,'const _GtkTextIter *','Pointer',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40277,'guint8 * (*)(GtkTextBuffer *, GtkTextBuffer *, const _GtkTextIter *, const _GtkTextIter *, gsize *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40278,'GtkTextBufferDeserializeFunc','Typedef',1547,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40279,'gboolean (*)(GtkTextBuffer *, GtkTextBuffer *, GtkTextIter *, const unsigned char *, gsize, gboolean, gpointer, GError **)','FuncPtr',0,'','No','No','No',NULL,'',0);
-INSERT INTO `Type` VALUES (40280,'_GdkAtom **','Pointer',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40281,'GtkCellRendererSpin','Typedef',629,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40282,'GtkCellRendererSpinClass','Typedef',629,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (40283,'_GtkCellRendererSpinPrivate','Struct',629,'','No','No','No',NULL,'',0);
@@ -26409,7 +26406,7 @@ INSERT INTO `Type` VALUES (10003898,'anon-enum-gdkproperty.h-0','Enum',1795,'','
 INSERT INTO `Type` VALUES (10003899,'GdkPropMode','Typedef',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003900,'GdkWindow *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003901,'_GdkAtom *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003902,'_GdkAtom **','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10003902,'GdkAtom *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003909,'anon-enum-gdkvisual.h-0','Enum',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003910,'GdkVisualType','Typedef',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003911,'GdkVisual *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
@@ -26422,8 +26419,8 @@ INSERT INTO `Type` VALUES (10003920,'const _GdkColor','Const',0,'','No','No','No
 INSERT INTO `Type` VALUES (10003921,'const _GdkColor *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003922,'GdkDeviceManager *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003925,'GdkScreen **','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003926,'_GdkAtom * const','Const',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003927,'_GdkAtom * const *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10003926,'const GdkAtom','Const',0,'','No','No','No',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10003927,'const GdkAtom *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003928,'anon-enum-gdkdnd.h-0','Enum',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003929,'GdkDragAction','Typedef',1795,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003930,'anon-enum-gdkdnd.h-1','Enum',1795,'','No','No','No',NULL,'libgdk-3',0);
@@ -26672,11 +26669,8 @@ INSERT INTO `Type` VALUES (10004192,'anon-enum-gtktextiter.h-0','Enum',1800,'','
 INSERT INTO `Type` VALUES (10004193,'GtkTextSearchFlags','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004194,'_GtkTextBuffer','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004195,'GtkTextBuffer','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004196,'_GtkTextIter','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004197,'_GtkTextIter','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004198,'GtkTextBuffer *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004199,'const _GtkTextIter','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004200,'const _GtkTextIter *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004201,'GtkTextIter *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004204,'GtkTextTag *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004205,'GtkTextAttributes *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -27108,14 +27102,14 @@ INSERT INTO `Type` VALUES (10004673,'void (*)(GtkClipboard *, GdkPixbuf *, gpoin
 INSERT INTO `Type` VALUES (10004674,'GtkClipboardURIReceivedFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004675,'void (*)(GtkClipboard *, gchar **, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004676,'GtkClipboardTargetsReceivedFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004679,'void (*)(GtkClipboard *, _GdkAtom **, gint, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004679,'void (*)(GtkClipboard *, GdkAtom *, gint, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004680,'GtkClipboardGetFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004681,'void (*)(GtkClipboard *, GtkSelectionData *, guint, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004682,'GtkClipboardClearFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004683,'void (*)(GtkClipboard *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004684,'const _GtkTargetEntry','Const',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004685,'const _GtkTargetEntry *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004688,'_GdkAtom ***','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004688,'GdkAtom **','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004689,'GdkEventOwnerChange *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004690,'anon-enum-gtknotebook.h-0','Enum',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004691,'GtkNotebookTab','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28173,7 +28167,7 @@ INSERT INTO `Type` VALUES (10005773,'GtkPrintOperation *','Pointer',0,'','No','N
 INSERT INTO `Type` VALUES (10005774,'GtkPageSetupDoneFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005775,'void (*)(GtkPageSetup *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005776,'GtkTextBufferSerializeFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005777,'guint8 * (*)(GtkTextBuffer *, GtkTextBuffer *, const _GtkTextIter *, const _GtkTextIter *, gsize *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10005777,'guint8 * (*)(GtkTextBuffer *, GtkTextBuffer *, const GtkTextIter *, const GtkTextIter *, gsize *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005778,'GtkTextBufferDeserializeFunc','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005779,'gboolean (*)(GtkTextBuffer *, GtkTextBuffer *, GtkTextIter *, const unsigned char *, gsize, gboolean, gpointer, GError **)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005780,'GtkCellRendererPixbuf','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28608,7 +28602,6 @@ INSERT INTO `Type` VALUES (10006221,'GtkPrintBackend *','Pointer',0,'','No','No'
 INSERT INTO `Type` VALUES (10006222,'GtkPrinterFunc','Typedef',1801,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006223,'gboolean (*)(GtkPrinter *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006224,'void (*)(pam_handle_t *, void *, int)','FuncPtr',472,'','No','No','No',NULL,'libpam',0);
-INSERT INTO `Type` VALUES (10006225,'GdkAtom *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10006226,'GdkPoint *','Pointer',0,'','No','No','Yes',NULL,'libgtk-3.0',0);
 INSERT INTO `Type` VALUES (10006232,'void (*)(GtkDialog *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006237,'GtkWinkdowGroupPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
