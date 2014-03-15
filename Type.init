@@ -26704,9 +26704,7 @@ INSERT INTO `Type` VALUES (10004257,'_GtkColorChooserDialogPrivate','Struct',180
 INSERT INTO `Type` VALUES (10004258,'GtkColorChooserDialogPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004259,'GtkColorChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004260,'_GtkColorChooserDialog','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004261,'_GtkColorChooserDialog','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004262,'_GtkColorChooserDialogClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004263,'_GtkColorChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004264,'GtkWindow *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004265,'GtkBin','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004266,'_GtkBinPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -26781,9 +26779,7 @@ INSERT INTO `Type` VALUES (10004347,'_GtkFileChooserDialogPrivate','Struct',1800
 INSERT INTO `Type` VALUES (10004348,'GtkFileChooserDialogPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004349,'GtkFileChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004350,'_GtkFileChooserDialog','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004351,'_GtkFileChooserDialog','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004352,'_GtkFileChooserDialogClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004353,'_GtkFileChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004354,'_GtkRecentInfo','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004355,'GtkRecentInfo','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004356,'GtkRecentData','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -26808,9 +26804,7 @@ INSERT INTO `Type` VALUES (10004379,'_GtkFileChooserWidgetPrivate','Struct',1800
 INSERT INTO `Type` VALUES (10004380,'GtkFileChooserWidgetPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004381,'GtkFileChooserWidgetClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004382,'_GtkFileChooserWidget','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004383,'_GtkFileChooserWidget','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004384,'_GtkFileChooserWidgetClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004385,'_GtkFileChooserWidgetClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004386,'GtkIMContextSimple','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004387,'_GtkIMContextSimplePrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004388,'GtkIMContextSimplePrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27030,7 +27024,6 @@ INSERT INTO `Type` VALUES (10004620,'GtkRecentChooserIface','Typedef',1800,'','N
 INSERT INTO `Type` VALUES (10004621,'anon-enum-gtkrecentchooser.h-1','Enum',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004622,'GtkRecentChooserError','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004623,'_GtkRecentChooserIface','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004624,'_GtkRecentChooserIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004625,'GtkRecentChooser *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004626,'GtkRecentFilter *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004627,'_GtkScrollable','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27053,9 +27046,7 @@ INSERT INTO `Type` VALUES (10004643,'GtkRecentChooserWidgetClass','Typedef',1800
 INSERT INTO `Type` VALUES (10004644,'_GtkRecentChooserWidgetPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004645,'GtkRecentChooserWidgetPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004646,'_GtkRecentChooserWidget','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004647,'_GtkRecentChooserWidget','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004648,'_GtkRecentChooserWidgetClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004649,'_GtkRecentChooserWidgetClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004650,'GtkPlug','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004651,'_GtkPlugPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004652,'GtkPlugPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27176,7 +27167,6 @@ INSERT INTO `Type` VALUES (10004788,'_GtkFontChooser','Struct',1800,'','No','No'
 INSERT INTO `Type` VALUES (10004789,'GtkFontChooser','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004790,'GtkFontChooserIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004791,'_GtkFontChooserIface','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004792,'_GtkFontChooserIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004794,'GtkFontChooser *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004797,'GtkAppChooserButton','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004798,'GtkAppChooserButtonClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27190,9 +27180,7 @@ INSERT INTO `Type` VALUES (10004807,'GtkCellRendererSpinnerClass','Typedef',1800
 INSERT INTO `Type` VALUES (10004808,'_GtkCellRendererSpinnerPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004809,'GtkCellRendererSpinnerPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004810,'_GtkCellRendererSpinner','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004811,'_GtkCellRendererSpinner','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004812,'_GtkCellRendererSpinnerClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004813,'_GtkCellRendererSpinnerClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004814,'GtkMountOperation','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004815,'GtkMountOperationClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004816,'_GtkMountOperationPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27259,7 +27247,6 @@ INSERT INTO `Type` VALUES (10004893,'_GtkColorChooser','Struct',1800,'','No','No
 INSERT INTO `Type` VALUES (10004894,'GtkColorChooser','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004895,'GtkColorChooserInterface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004896,'_GtkColorChooserInterface','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004897,'_GtkColorChooserInterface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004898,'GtkColorChooser *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004899,'GtkAccelLabel','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004900,'GtkAccelLabelClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27458,9 +27445,7 @@ INSERT INTO `Type` VALUES (10005114,'GtkToolItemClass','Typedef',1800,'','No','N
 INSERT INTO `Type` VALUES (10005115,'_GtkToolItemPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005116,'GtkToolItemPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005117,'_GtkToolItem','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005118,'_GtkToolItem','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005119,'_GtkToolItemClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005120,'_GtkToolItemClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005121,'GtkTextAttributes','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005122,'GtkTextAppearance','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005123,'_GtkTextAppearance','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27472,9 +27457,7 @@ INSERT INTO `Type` VALUES (10005128,'GtkCellRendererSpinClass','Typedef',1800,''
 INSERT INTO `Type` VALUES (10005129,'_GtkCellRendererSpinPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005130,'GtkCellRendererSpinPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005131,'_GtkCellRendererSpin','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005132,'_GtkCellRendererSpin','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005133,'_GtkCellRendererSpinClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005134,'_GtkCellRendererSpinClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005135,'GtkIMMulticontext','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005136,'GtkIMMulticontextClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005137,'_GtkIMMulticontextPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27496,9 +27479,7 @@ INSERT INTO `Type` VALUES (10005154,'_GtkFontChooserDialogPrivate','Struct',1800
 INSERT INTO `Type` VALUES (10005155,'GtkFontChooserDialogPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005156,'GtkFontChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005157,'_GtkFontChooserDialog','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005158,'_GtkFontChooserDialog','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005159,'_GtkFontChooserDialogClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005160,'_GtkFontChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005161,'_GtkPrintOperationPreview','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005162,'GtkPrintOperationPreview','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005163,'GtkPrintOperationPreviewIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27827,9 +27808,7 @@ INSERT INTO `Type` VALUES (10005502,'_GtkFontChooserWidgetPrivate','Struct',1800
 INSERT INTO `Type` VALUES (10005503,'GtkFontChooserWidgetPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005504,'GtkFontChooserWidgetClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005505,'_GtkFontChooserWidget','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005506,'_GtkFontChooserWidget','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005507,'_GtkFontChooserWidgetClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005508,'_GtkFontChooserWidgetClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005509,'GtkFontButton','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005510,'GtkFontButtonClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005511,'_GtkFontButtonPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28227,9 +28206,7 @@ INSERT INTO `Type` VALUES (10005921,'GtkComboBoxClass','Typedef',1800,'','No','N
 INSERT INTO `Type` VALUES (10005922,'_GtkComboBoxPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005923,'GtkComboBoxPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005924,'_GtkComboBox','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005925,'_GtkComboBox','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005926,'_GtkComboBoxClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005927,'_GtkComboBoxClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005928,'GtkComboBox *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005929,'GtkSpinner','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005930,'GtkSpinnerClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28252,9 +28229,7 @@ INSERT INTO `Type` VALUES (10005950,'GtkRecentChooserDialogClass','Typedef',1800
 INSERT INTO `Type` VALUES (10005951,'_GtkRecentChooserDialogPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005952,'GtkRecentChooserDialogPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005953,'_GtkRecentChooserDialog','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005954,'_GtkRecentChooserDialog','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005955,'_GtkRecentChooserDialogClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005956,'_GtkRecentChooserDialogClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005957,'GtkCellRendererCombo','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005958,'_GtkCellRendererComboPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005959,'GtkCellRendererComboPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28387,9 +28362,7 @@ INSERT INTO `Type` VALUES (10006088,'GtkRecentChooserMenuClass','Typedef',1800,'
 INSERT INTO `Type` VALUES (10006089,'_GtkRecentChooserMenuPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006090,'GtkRecentChooserMenuPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006091,'_GtkRecentChooserMenu','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006092,'_GtkRecentChooserMenu','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006093,'_GtkRecentChooserMenuClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006094,'_GtkRecentChooserMenuClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006095,'GtkRecentChooserMenu *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006096,'GtkStyleContextClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006097,'_GtkStyleContextPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28400,9 +28373,7 @@ INSERT INTO `Type` VALUES (10006104,'GtkSeparatorToolItemClass','Typedef',1800,'
 INSERT INTO `Type` VALUES (10006105,'_GtkSeparatorToolItemPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006106,'GtkSeparatorToolItemPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006107,'_GtkSeparatorToolItem','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006108,'_GtkSeparatorToolItem','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006109,'_GtkSeparatorToolItemClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006110,'_GtkSeparatorToolItemClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006111,'GtkSeparatorToolItem *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006112,'GtkAspectFrame','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006113,'_GtkAspectFramePrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28443,9 +28414,7 @@ INSERT INTO `Type` VALUES (10006147,'_GtkFileChooserButtonPrivate','Struct',1800
 INSERT INTO `Type` VALUES (10006148,'GtkFileChooserButtonPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006149,'GtkFileChooserButtonClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006150,'_GtkFileChooserButton','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006151,'_GtkFileChooserButton','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006152,'_GtkFileChooserButtonClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006153,'_GtkFileChooserButtonClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006154,'GtkFileChooserButton *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006155,'_GtkAccelMap','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006156,'GtkAccelMap','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
