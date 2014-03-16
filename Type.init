@@ -24294,8 +24294,8 @@ INSERT INTO `Type` VALUES (10001746,'GFileAttributeInfo *','Pointer',0,'','No','
 INSERT INTO `Type` VALUES (10001747,'anon-struct-gfileattribute.h-1','Struct',1644,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001748,'_GFileAttributeInfoList','Struct',1644,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001749,'GFileAttributeInfoList *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10001750,'const _GFileAttributeInfo','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10001751,'const _GFileAttributeInfo *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10001750,'const GFileAttributeInfo','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10001751,'const GFileAttributeInfo *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001752,'_GTcpWrapperConnectionPrivate','Struct',1614,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001753,'GTcpWrapperConnectionPrivate','Typedef',1614,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001754,'GTcpWrapperConnectionClass','Typedef',1614,'','No','No','No',NULL,'libgio-2.0',0);
@@ -24451,8 +24451,8 @@ INSERT INTO `Type` VALUES (10001905,'void (*)(GRemoteActionGroup *, const gchar 
 INSERT INTO `Type` VALUES (10001906,'anon-struct-gremoteactiongroup.h-0','Struct',1716,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001907,'_GRemoteActionGroupInterface','Struct',1716,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001908,'GDBusMethodInvocation *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10001909,'const _GDBusMethodInfo','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10001910,'const _GDBusMethodInfo *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10001909,'const GDBusMethodInfo','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10001910,'const GDBusMethodInfo *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001911,'GDBusMessage *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001912,'_GSocketListenerPrivate','Struct',1620,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10001913,'GSocketListenerPrivate','Typedef',1620,'','No','No','No',NULL,'libgio-2.0',0);
@@ -24978,8 +24978,6 @@ INSERT INTO `Type` VALUES (10002433,'anon-struct-gsimpleactiongroup.h-1','Struct
 INSERT INTO `Type` VALUES (10002434,'_GSimpleActionGroupClass','Struct',1623,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002435,'GSimpleActionGroup *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002436,'GAction *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002437,'const _GActionEntry','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002438,'const _GActionEntry *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002439,'GActionMapInterface','Typedef',1662,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002440,'GActionEntry','Typedef',1662,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002441,'GActionMap *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
@@ -25295,8 +25293,6 @@ INSERT INTO `Type` VALUES (10002750,'GDBusSubtreeDispatchFunc','Typedef',1618,''
 INSERT INTO `Type` VALUES (10002751,'const GDBusInterfaceVTable * (*)(GDBusConnection *, const gchar *, const gchar *, const gchar *, const gchar *, gpointer *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002752,'anon-struct-gdbusconnection.h-1','Struct',1618,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002753,'_GDBusSubtreeVTable','Struct',1618,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002754,'const _GDBusSubtreeVTable','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002755,'const _GDBusSubtreeVTable *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002756,'GDBusSignalCallback','Typedef',1618,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002757,'void (*)(GDBusConnection *, const gchar *, const gchar *, const gchar *, const gchar *, GVariant *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002758,'GDBusMessageFilterFunction','Typedef',1618,'','No','No','No',NULL,'libgio-2.0',0);
@@ -25499,8 +25495,6 @@ INSERT INTO `Type` VALUES (10002956,'anon-struct-gdbuserror.h-0','Struct',1733,'
 INSERT INTO `Type` VALUES (10002957,'_GDBusErrorEntry','Struct',1733,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002958,'volatile gsize','Volatile',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002959,'volatile unsigned long int *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002960,'const _GDBusErrorEntry','Const',0,'','No','No','No',NULL,'libgio-2.0',0);
-INSERT INTO `Type` VALUES (10002961,'const _GDBusErrorEntry *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002962,'GStaticResource','Typedef',1699,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002963,'GResource *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
 INSERT INTO `Type` VALUES (10002964,'GStaticResource *','Pointer',0,'','No','No','No',NULL,'libgio-2.0',0);
@@ -25885,14 +25879,6 @@ INSERT INTO `Type` VALUES (10003345,'anon-struct-gtype-private.h-0','Struct',612
 INSERT INTO `Type` VALUES (10003346,'_GRealClosure','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003347,'anon-struct-gtypemodule.h-0','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003348,'anon-struct-gtypemodule.h-1','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003349,'const _GTypeInfo','Const',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003350,'const _GTypeInfo *','Pointer',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003351,'const _GInterfaceInfo','Const',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003352,'const _GInterfaceInfo *','Pointer',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003353,'const _GEnumValue','Const',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003354,'const _GEnumValue *','Pointer',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003355,'const _GFlagsValue','Const',0,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003356,'const _GFlagsValue *','Pointer',0,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003357,'anon-enum-gvaluecollector.h-0','Enum',613,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003358,'GSignalCVaMarshaller','Typedef',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003359,'gboolean (*)(GSignalInvocationHint *, guint, const _GValue *, gpointer)','FuncPtr',0,'','No','No','No',NULL,'libgobject-2.0',0);
@@ -25969,8 +25955,6 @@ INSERT INTO `Type` VALUES (10003434,'anon-enum-pango-gravity.h-0','Enum',617,'',
 INSERT INTO `Type` VALUES (10003435,'PangoGravity','Typedef',617,'','No','No','No',NULL,'libpango-1.0',0);
 INSERT INTO `Type` VALUES (10003436,'anon-enum-pango-gravity.h-1','Enum',617,'','No','No','No',NULL,'libpango-1.0',0);
 INSERT INTO `Type` VALUES (10003437,'PangoGravityHint','Typedef',617,'','No','No','No',NULL,'libpango-1.0',0);
-INSERT INTO `Type` VALUES (10003438,'const _PangoMatrix','Const',0,'','No','No','No',NULL,'libpango-1.0',0);
-INSERT INTO `Type` VALUES (10003439,'const _PangoMatrix *','Pointer',0,'','No','No','No',NULL,'libpango-1.0',0);
 INSERT INTO `Type` VALUES (10003440,'anon-struct-pango-attributes.h-0','Struct',617,'','No','No','No',NULL,'libpango-1.0',0);
 INSERT INTO `Type` VALUES (10003441,'anon-enum-pango-attributes.h-0','Enum',617,'','No','No','No',NULL,'libpango-1.0',0);
 INSERT INTO `Type` VALUES (10003442,'anon-enum-pango-attributes.h-1','Enum',617,'','No','No','No',NULL,'libpango-1.0',0);
@@ -27305,8 +27289,8 @@ INSERT INTO `Type` VALUES (10005069,'_GtkTargetEntry','Struct',1800,'','No','No'
 INSERT INTO `Type` VALUES (10005071,'const GtkTargetEntry','Const',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005072,'const GtkTargetEntry *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005073,'GtkTargetEntry *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005074,'const _GtkSelectionData','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005075,'const _GtkSelectionData *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10005074,'const GtkSelectionData','Const',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10005075,'const GtkSelectionData *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005077,'GtkMenuBar','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005078,'_GtkMenuBarPrivate','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005079,'GtkMenuBarPrivate','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -27830,8 +27814,8 @@ INSERT INTO `Type` VALUES (10005706,'GtkIconFactoryClass','Typedef',1800,'','No'
 INSERT INTO `Type` VALUES (10005707,'_GtkIconFactory','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005709,'_GtkIconFactoryClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005711,'GtkStyle *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005712,'const _GtkIconSource','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005713,'const _GtkIconSource *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10005712,'const GtkIconSource','Const',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10005713,'const GtkIconSource *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005714,'GtkIconSize **','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005715,'GtkIconSource *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005716,'GtkAppChooserWidget','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28056,8 +28040,6 @@ INSERT INTO `Type` VALUES (10005982,'GtkTextBufferPrivate','Typedef',1800,'','No
 INSERT INTO `Type` VALUES (10005983,'GtkTextBufferClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005985,'_GtkTextBufferClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005987,'GtkTextBTree *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005988,'const _PangoLogAttr','Const',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10005989,'const _PangoLogAttr *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005990,'_GtkIconInfo','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005991,'GtkIconInfo','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10005992,'GtkIconTheme','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
