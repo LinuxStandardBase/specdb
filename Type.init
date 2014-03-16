@@ -27134,7 +27134,7 @@ INSERT INTO `Type` VALUES (10004846,'GtkAccelGroup *','Pointer',0,'','No','No','
 INSERT INTO `Type` VALUES (10004848,'const GtkAllocation','Const',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004849,'const GtkAllocation *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004851,'GtkWidgetClass *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004856,'const _GtkRequisition','Const',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004856,'const GtkRequisition','Const',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004857,'const _GtkRequisition *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004858,'GtkStyleContext *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004859,'GtkWidgetPath *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28261,3 +28261,4 @@ INSERT INTO `Type` VALUES (10006243,'gchar * (*)(GtkContainer *, GtkWidget *)','
 INSERT INTO `Type` VALUES (10006244,'void (*)(GtkContainer *, GtkWidget *, guint, const GValue *, GParamSpec *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006245,'void (*)(GtkContainer *, GtkWidget *, guint, GValue *, GParamSpec *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006246,'GtkWidgetPath * (*)(GtkContainer *, GtkWidget *)','FuncPtr',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006247,'GtkWidgetPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
