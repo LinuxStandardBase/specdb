@@ -3867,7 +3867,7 @@ INSERT INTO `Type` VALUES (12805,'anon-gtk-2.0/gdk/gdk.h-495','Enum',626,'','No'
 INSERT INTO `Type` VALUES (12806,'GdkDragAction','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12807,'GdkDragContext','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12808,'GdkDragContext *','Pointer',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
-INSERT INTO `Type` VALUES (12809,'gshort','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
+INSERT INTO `Type` VALUES (12809,'gshort','Typedef',609,'','No','No','No',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (12810,'GdkEventDND','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12811,'_GdkEventWindowState','Struct',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12812,'anon-gtk-2.0/gdk/gdk.h-507','Enum',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
@@ -3917,7 +3917,7 @@ INSERT INTO `Type` VALUES (12855,'anon-gtk-2.0/gdk/gdk.h-950','Enum',626,'','No'
 INSERT INTO `Type` VALUES (12856,'GdkWindowTypeHint','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12857,'GdkDisplayPointerHooks *','Pointer',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12858,'_GdkTimeCoord','Struct',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
-INSERT INTO `Type` VALUES (12859,'gdouble[128]','Array',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
+INSERT INTO `Type` VALUES (12859,'gdouble[128]','Array',0,'','No','No','Yes',NULL,'libglib-2.0',0);
 INSERT INTO `Type` VALUES (12860,'GdkTimeCoord','Typedef',626,'','No','No','No',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12861,'GdkTimeCoord *','Pointer',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
 INSERT INTO `Type` VALUES (12862,'GdkTimeCoord **','Pointer',626,'','No','No','Yes',NULL,'libgdk-x11-2.0',0);
