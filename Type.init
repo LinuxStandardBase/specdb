@@ -28265,3 +28265,8 @@ INSERT INTO `Type` VALUES (10006290,'GtkToolItemGroupPrivate *','Pointer',0,'','
 INSERT INTO `Type` VALUES (10006291,'GtkToolItemPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006292,'GtkToolPalettePrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006293,'GtkWidgetClassPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006294,'void (*) (GMountOperation *, const gchar *, gint64, gint64)','FuncPtr',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10006295,'GtkActionPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006296,'GtkButtonPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006297,'GtkMenuPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006298,'GtkToggleButtonPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
