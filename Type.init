@@ -28358,3 +28358,4 @@ INSERT INTO `Type` VALUES (10006383,'GtkTreeViewColumnPrivate *','Pointer',0,'',
 INSERT INTO `Type` VALUES (10006384,'GtkTreeViewPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006385,'GtkUIManagerPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006386,'GtkViewportPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006387,'gpointer[14]','Array',0,'','No','No','No',NULL,'libgio-2.0',0);
