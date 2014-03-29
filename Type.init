@@ -25832,7 +25832,6 @@ INSERT INTO `Type` VALUES (10003297,'anon-struct-gtype.h-6','Struct',612,'','No'
 INSERT INTO `Type` VALUES (10003298,'anon-struct-gtype.h-7','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003299,'void (*)(const  GValue *, GValue *)','FuncPtr',0,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003374,'void (*)(gpointer, gpointer)','FuncPtr',612,'','No','No','No',NULL,'libgobject-2.0',0);
-INSERT INTO `Type` VALUES (10003301,'anon-struct-gvalue.h-0','Struct',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003302,'anon-union-gvalue.h-0','Union',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003303,'GParamSpecGType','Typedef',612,'','No','No','No',NULL,'libgobject-2.0',0);
 INSERT INTO `Type` VALUES (10003304,'GParamSpecVariant','Typedef',612,'','No','No','No',NULL,'libgobject-2.0',0);
