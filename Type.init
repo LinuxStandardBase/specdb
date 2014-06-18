@@ -26428,8 +26428,8 @@ INSERT INTO `Type` VALUES (10006249,'GtkAppChooserButtonPrivate *','Pointer',0,'
 INSERT INTO `Type` VALUES (10003964,'GdkWindowAttr *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003967,'const GdkGeometry','Const',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003968,'const GdkGeometry *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
-INSERT INTO `Type` VALUES (10003969,'const GdkRectangle','Const',0,'','No','No','No',NULL,'libcairo',0);
-INSERT INTO `Type` VALUES (10003970,'const GdkRectangle *','Pointer',0,'','No','No','No',NULL,'libcairo',0);
+INSERT INTO `Type` VALUES (10003969,'const GdkRectangle','Const',0,'','No','No','No',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10003970,'const GdkRectangle *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003972,'GdkCursor *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003975,'GdkRectangle *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10003976,'GdkWMDecoration *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
