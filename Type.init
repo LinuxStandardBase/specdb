@@ -1443,7 +1443,7 @@ INSERT INTO `Type` VALUES (9922,'clnt_ops','Struct',491,'','No','No','No',NULL,'
 INSERT INTO `Type` VALUES (9923,'clnt_stat (*)(CLIENT *, u_long, xdrproc_t, caddr_t, xdrproc_t, caddr_t, timeval)','FuncPtr',303,'','No','No','No',NULL,'libc',0);
 INSERT INTO `Type` VALUES (9924,'CLIENT *','Pointer',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (9948,'xdrproc_t','Typedef',502,'','No','No','No',NULL,'libc',0);
-INSERT INTO `Type` VALUES (9926,'void (*)(void)','FuncPtr',303,'','No','No','No',NULL,'libc',0);
+INSERT INTO `Type` VALUES (9926,'void (*)(void)','FuncPtr',303,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (9927,'void (*)(CLIENT *, rpc_err *)','FuncPtr',303,'','No','No','No',NULL,'libc',0);
 INSERT INTO `Type` VALUES (9928,'rpc_err *','Pointer',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (9929,'bool_t (*)(CLIENT *, xdrproc_t, caddr_t)','FuncPtr',303,'','No','No','No',NULL,'libc',0);
@@ -7662,7 +7662,6 @@ INSERT INTO `Type` VALUES (20554,'_Z8QCString (*)(const QString &)','FuncPtr',0,
 INSERT INTO `Type` VALUES (20515,'void (*)(QImageIO *)','FuncPtr',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20511,'QMetaObject * (*)()','FuncPtr',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20507,'void (*)(QtMsgType, const char *)','FuncPtr',0,'','No','No','No',NULL,'libqt-mt',0);
-INSERT INTO `Type` VALUES (20504,'void (*)()','FuncPtr',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (20475,'int (*)(XEvent *)','FuncPtr',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (21532,'void (*)(void *)','FuncPtr',0,'','No','No','No',NULL,'',0);
 INSERT INTO `Type` VALUES (21496,'bool (*)(QObject *, int, int, QVariant *)','FuncPtr',0,'','No','No','No',NULL,'libqt-mt',0);
@@ -26267,8 +26266,6 @@ INSERT INTO `Type` VALUES (10003759,'PRStatus (*)(void)','FuncPtr',1458,'','No',
 INSERT INTO `Type` VALUES (10003760,'PRCallOnceFN','Typedef',1458,'','No','No','No',NULL,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003761,'PRStatus (*)(void *arg)','FuncPtr',1458,'','No','No','No',NULL,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003762,'PRCallOnceWithArgFN','Typedef',1458,'','No','No','No',NULL,'libnspr4',0);
-INSERT INTO `Type` VALUES (10003763,'void (*)(void)','FuncPtr',1460,'','No','No','No',NULL,'libnspr4',0);
-INSERT INTO `Type` VALUES (10003764,'PRFuncPtr','Typedef',1460,'','No','No','No',NULL,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003765,'PRIntn (*)(void *arg, const char *s, PRUint32 slen)','FuncPtr',1788,'','No','No','No',NULL,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003766,'PRStuffFunc','Typedef',1788,'','No','No','No',NULL,'libnspr4',0);
 INSERT INTO `Type` VALUES (10003768,'anon-pthread.h-850','Enum',33,'','No','No','No',NULL,'libpthread',0);
@@ -28358,3 +28355,7 @@ INSERT INTO `Type` VALUES (10006384,'GtkTreeViewPrivate *','Pointer',0,'','No','
 INSERT INTO `Type` VALUES (10006385,'GtkUIManagerPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006386,'GtkViewportPrivate *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006387,'gpointer[14]','Array',0,'','No','No','No',NULL,'libgio-2.0',0);
+INSERT INTO `Type` VALUES (10006388,'anon-enum-gtkrc.h-0','Enum',1800,'','No','No','Yes',NULL,'libgtk-3.0',0);
+INSERT INTO `Type` VALUES (10006389,'GtkRcFlags','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006390,'GtkRcFlags[5]','Array',1800,'','No','No','Yes',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006391,'GtkCellRendererClassPrivate *','Pointer',1800,'','No','No','No',NULL,'libgtk-3',0);
