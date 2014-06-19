@@ -28718,3 +28718,4 @@ INSERT INTO `Type` VALUES (10006747,'GtkRcStyle *','Pointer',1800,'','No','No','
 INSERT INTO `Type` VALUES (10006748,'GdkWindow * (*)(GdkWindow *, gdouble, gdouble)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006749,'void (*)(GdkWindow *, gdouble, gdouble, gdouble *, gdouble *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006750,'cairo_surface_t * (*)(GdkWindow *, gint, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006751,'GdkEventButton *','Pointer',1800,'','No','No','Yes',NULL,'libgdk-3',0);
