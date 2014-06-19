@@ -26697,7 +26697,7 @@ INSERT INTO `Type` VALUES (10004308,'GtkIMContextClass','Typedef',1800,'','No','
 INSERT INTO `Type` VALUES (10004309,'_GtkIMContext','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004311,'_GtkIMContextClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004313,'GtkIMContext *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004317,'GdkEventKey *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004317,'GdkEventKey *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10004320,'_GtkToolShell','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004321,'GtkToolShell','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004322,'GtkToolShellIface','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -26810,7 +26810,7 @@ INSERT INTO `Type` VALUES (10004466,'GtkRangeClass','Typedef',1800,'','No','No',
 INSERT INTO `Type` VALUES (10004467,'_GtkRange','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004469,'_GtkRangeClass','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004471,'GtkRange *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10004473,'GdkEventScroll *','Pointer',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10004473,'GdkEventScroll *','Pointer',0,'','No','No','No',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10004475,'GtkTextMark','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004476,'GtkTextMarkClass','Typedef',1800,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10004477,'_GtkTextMark','Struct',1800,'','No','No','No',NULL,'libgtk-3',0);
@@ -28719,3 +28719,16 @@ INSERT INTO `Type` VALUES (10006748,'GdkWindow * (*)(GdkWindow *, gdouble, gdoub
 INSERT INTO `Type` VALUES (10006749,'void (*)(GdkWindow *, gdouble, gdouble, gdouble *, gdouble *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006750,'cairo_surface_t * (*)(GdkWindow *, gint, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006751,'GdkEventButton *','Pointer',1800,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006752,'GdkEventMotion *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006753,'GdkEventAny *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006754,'GdkEventCrossing *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006755,'GdkEventConfigure *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006756,'GdkEventFocus *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006757,'GdkEventProperty *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006758,'GdkEventSelection *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006759,'GdkEventProximity *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006760,'GdkEventVisibility *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006761,'GdkEventWindowState *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006762,'GdkEventExpose *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006763,'GdkEventGrabBroken *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006764,'GdkEventTouch *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
