@@ -28440,7 +28440,7 @@ INSERT INTO `Type` VALUES (10006469,'gboolean (*)(GtkTreeDragSource *, GtkTreePa
 INSERT INTO `Type` VALUES (10006470,'gboolean (*)(GtkTreeDragDest *, GtkTreePath *, GtkSelectionData *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006471,'void (*)(GtkEntryBuffer *, guint, const gchar *, guint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006472,'void (*)(GtkEntryBuffer *, guint, guint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006473,'const gchar* (*)(GtkEntryBuffer *, gsize *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006473,'const gchar *(*)(GtkEntryBuffer *, gsize *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006474,'guint (*)(GtkEntryBuffer *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006475,'guint (*)(GtkEntryBuffer *, guint, const gchar *, guint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006476,'guint (*)(GtkEntryBuffer *, guint, guint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28576,7 +28576,7 @@ INSERT INTO `Type` VALUES (10006605,'gboolean (*)(GtkPaned *, GtkScrollType)','F
 INSERT INTO `Type` VALUES (10006606,'void (*)(GtkEditable *, const gchar *, gint, gint *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006607,'void (*)(GtkEditable *, gint, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006608,'void (*)(GtkEditable *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006609,'gchar* (*)(GtkEditable *, gint, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006609,'gchar *(*)(GtkEditable *, gint, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006610,'gboolean (*)(GtkEditable *, gint *, gint *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006611,'void (*)(GtkEditable *, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006612,'gint (*)(GtkEditable *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28585,7 +28585,7 @@ INSERT INTO `Type` VALUES (10006614,'GtkWidget * (*)(GtkAction *)','FuncPtr',0,'
 INSERT INTO `Type` VALUES (10006615,'void (*)(GtkAction *, GtkWidget *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006616,'gboolean (*)(GtkScrolledWindow *, GtkScrollType, gboolean)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006617,'void (*)(GtkScrolledWindow *, GtkDirectionType)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006618,'gchar* (*)(GtkScale *, gdouble)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006618,'gchar *(*)(GtkScale *, gdouble)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006619,'void (*)(GtkScale *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006620,'void (*)(GtkScale *, gint *, gint *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006621,'void (*)(GtkCellRendererText *, const gchar *, const gchar *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28690,7 +28690,7 @@ INSERT INTO `Type` VALUES (10006719,'void (*)(GtkCellLayout *, GtkCellRenderer *
 INSERT INTO `Type` VALUES (10006720,'void (*)(GtkCellLayout *, GtkCellRenderer *, GtkCellLayoutDataFunc, gpointer, GDestroyNotify)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006721,'void (*)(GtkCellLayout *, GtkCellRenderer *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006722,'void (*)(GtkCellLayout *, GtkCellRenderer *, gint)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
-INSERT INTO `Type` VALUES (10006723,'GList* (*)(GtkCellLayout *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
+INSERT INTO `Type` VALUES (10006723,'GList *(*)(GtkCellLayout *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006724,'GtkCellArea * (*)(GtkCellLayout *)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006725,'void (*)(GtkToolbar *, GtkOrientation)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
 INSERT INTO `Type` VALUES (10006726,'void (*)(GtkToolbar *, GtkToolbarStyle)','FuncPtr',0,'','No','No','No',NULL,'libgtk-3',0);
@@ -28732,3 +28732,4 @@ INSERT INTO `Type` VALUES (10006761,'GdkEventWindowState *','Pointer',1795,'','N
 INSERT INTO `Type` VALUES (10006762,'GdkEventExpose *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10006763,'GdkEventGrabBroken *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
 INSERT INTO `Type` VALUES (10006764,'GdkEventTouch *','Pointer',1795,'','No','No','Yes',NULL,'libgdk-3',0);
+INSERT INTO `Type` VALUES (10006765,'GtkCellRendererAccel *','Pointer',1800,'','No','No','Yes',NULL,'libgtk-3',0);
