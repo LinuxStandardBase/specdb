@@ -13,7 +13,7 @@ DROP TABLE IF EXISTS `Type`;
 CREATE TABLE `Type` (
   `Tid` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Tname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
-  `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','BinVariable','Volatile','Function','Ref','Namespace','Template','TemplateInstance','Macro','MemberPtr','MethodPtr') NOT NULL DEFAULT 'Unknown',
+  `Ttype` enum('Intrinsic','FuncPtr','Enum','Pointer','Typedef','Struct','Union','Array','Literal','Const','Class','Unknown','BinVariable','Volatile','Function','Ref','Namespace','Template','TemplateInstance','Macro') NOT NULL DEFAULT 'Unknown',
   `Theadgroup` int(10) unsigned NOT NULL DEFAULT '0',
   `Tdescription` varchar(255) NOT NULL DEFAULT '',
   `Tsrconly` enum('Yes','No') NOT NULL DEFAULT 'No',

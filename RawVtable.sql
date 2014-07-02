@@ -9,19 +9,17 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-DROP TABLE IF EXISTS `Application`;
-CREATE TABLE `Application` (
-  `Aid` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Aname` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL,
-  `Aversion` varchar(255) NOT NULL DEFAULT '',
-  `Aarch` int(10) unsigned NOT NULL DEFAULT '0',
-  `Aabitag` varchar(255) NOT NULL DEFAULT '',
-  `Acomment` varchar(255) DEFAULT NULL,
-  `Apackager` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`Aid`),
-  UNIQUE KEY `k_Aname` (`Aname`,`Aversion`,`Aarch`),
-  KEY `k_Aarch` (`Aarch`)
-) ENGINE=MyISAM AUTO_INCREMENT=1817 DEFAULT CHARSET=latin1;
+DROP TABLE IF EXISTS `RawVtable`;
+CREATE TABLE `RawVtable` (
+  `RVrcid` int(10) unsigned NOT NULL DEFAULT '0',
+  `RVvtpos` int(11) NOT NULL DEFAULT '0',
+  `RVpos` int(11) NOT NULL DEFAULT '0',
+  `RVriid` int(10) unsigned NOT NULL DEFAULT '0',
+  `RVaid` int(10) unsigned NOT NULL DEFAULT '2',
+  PRIMARY KEY (`RVrcid`,`RVpos`,`RVaid`,`RVvtpos`),
+  KEY `k_RVrcid` (`RVrcid`,`RVvtpos`),
+  KEY `k_RVriid` (`RVriid`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
