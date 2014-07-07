@@ -17,8 +17,8 @@ CREATE TABLE `RawVtable` (
   `RVpos` int(11) NOT NULL DEFAULT '0',
   `RVriid` int(10) unsigned NOT NULL DEFAULT '0',
   `RVaid` int(10) unsigned NOT NULL DEFAULT '2',
-  PRIMARY KEY (`RVrcid`,`RVpos`,`RVaid`,`RVvtpos`),
-  KEY `k_RVrcid` (`RVrcid`,`RVrlid`,`RVvtpos`),
+  PRIMARY KEY (`RVrcid`,`RVrlid`,`RVpos`,`RVaid`,`RVvtpos`),
+  KEY `k_RVrcid` (`RVrcid`,`RVvtpos`),
   KEY `k_RVriid` (`RVriid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
