@@ -12,12 +12,13 @@
 DROP TABLE IF EXISTS `RawVtable`;
 CREATE TABLE `RawVtable` (
   `RVrcid` int(10) unsigned NOT NULL DEFAULT '0',
+  `RVrlid` int(10) unsigned NOT NULL DEFAULT '0',
   `RVvtpos` int(11) NOT NULL DEFAULT '0',
   `RVpos` int(11) NOT NULL DEFAULT '0',
   `RVriid` int(10) unsigned NOT NULL DEFAULT '0',
   `RVaid` int(10) unsigned NOT NULL DEFAULT '2',
   PRIMARY KEY (`RVrcid`,`RVpos`,`RVaid`,`RVvtpos`),
-  KEY `k_RVrcid` (`RVrcid`,`RVvtpos`),
+  KEY `k_RVrcid` (`RVrcid`,`RVrlid`,`RVvtpos`),
   KEY `k_RVriid` (`RVriid`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
