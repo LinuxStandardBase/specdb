@@ -8667,7 +8667,7 @@ INSERT INTO `Type` VALUES (21186,'const QSqlCursor','Const',0,'','No','No','No',
 INSERT INTO `Type` VALUES (21188,'const QSqlCursor *','Pointer',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (21187,'const QSqlCursor &','Ref',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (21189,'QSqlCursor::Mode','Enum',1160,'','No','No','No',NULL,'libqt-mt',1004);
-INSERT INTO `Type` VALUES (20624,'bool (QSqlCursor::*)()','MethodPtr',0,'','No','No','No',NULL,'libqt-mt',0);
+INSERT INTO `Type` VALUES (20624,'bool (QSqlCursor::*)()','',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20339,'_Z12QSqlDatabase','Class',1161,'','No','No','No','QSqlDatabase','libqt-mt',884);
 INSERT INTO `Type` VALUES (21190,'QSqlDatabase *','Pointer',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20340,'_Z10QSqlDriver','Class',1162,'','No','No','No','QSqlDriver','libqt-mt',772);
@@ -9084,7 +9084,7 @@ INSERT INTO `Type` VALUES (20489,'_Z10QXmlReader','Class',1224,'','No','No','No'
 INSERT INTO `Type` VALUES (21454,'QXmlReader *','Pointer',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20490,'_Z16QXmlSimpleReader','Class',1224,'','No','No','No','QXmlSimpleReader','libqt-mt',903);
 INSERT INTO `Type` VALUES (21456,'QXmlSimpleReader::ParseFunction','Typedef',1224,'','No','No','No',NULL,'libqt-mt',903);
-INSERT INTO `Type` VALUES (21455,'bool (QXmlSimpleReader::*)()','MethodPtr',0,'','No','No','No',NULL,'libqt-mt',0);
+INSERT INTO `Type` VALUES (21455,'bool (QXmlSimpleReader::*)()','',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20491,'Q_INT16','Typedef',1230,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (21457,'Q_INT16 &','Ref',0,'','No','No','No',NULL,'libqt-mt',0);
 INSERT INTO `Type` VALUES (20018,'Q_INT32','Typedef',1230,'','No','No','No',NULL,'libqt-mt',0);
