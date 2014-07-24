@@ -28,7 +28,7 @@ ELEMENTS=AbiApi AbiMacro ArchClass ArchConst ArchDE ArchES ArchInt \
 	Standard Type TypeMember TypeMemberExtras TypeType \
 	Version VMIBaseTypes Vtable RawDynamicEntries
 APP_TABLES=Application AppLib AppCategory AppInterpreter AppRInt RawInterface RawClass AppRILM RawILModule
-NAV_TABLES=ArchSource CxxApi FTRLib FutureTarget SourceBinary SourceCode \
+NAV_TABLES=CxxApi FTRLib FutureTarget SourceBinary SourceCode \
 	SourceEntity SourceHeader SourceQualifier SourceShadow StandardSource \
 	TargetDistribution TestCaseSource TestCmd TestInt TestSuite UpliftTarget
 
