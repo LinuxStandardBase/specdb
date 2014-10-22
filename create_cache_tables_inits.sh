@@ -10,7 +10,7 @@ mysql -h $LSBDBHOST -u $LSBUSER --password=$LSBDBPASSWD $FILEOPTS $LSBDB -e 'DRO
 
 LC_ALL=C cut RawInterface.init -f2,5 | LC_ALL=C sort -u | LC_ALL=C nl -w1 > cache_RLibRIntMapping.init
 # cache_RLibRIntMapping.init already contains sorted interface names
-LC_ALL=C cut cache_RLibRIntMapping.init -f2 | LC_ALL=C uniq >cache_RIntNames.init
+LC_ALL=C cut cache_RLibRIntMapping.init -f2 | grep -v '^[[:space:]]*' | LC_ALL=C uniq >cache_RIntNames.init
 LC_ALL=C cut RawInterface.init -f2,3,5 | LC_ALL=C sort -u --ignore-case | LC_ALL=C nl -w1 >cache_RIntCaseInsensitiveNames.init
 
 mysql -h $LSBDBHOST -u $LSBUSER --password=$LSBDBPASSWD $FILEOPTS $LSBDB -e "LOAD DATA $LOCALCMD INFILE '$PWD/cache_RIntNames.init' into table cache_RIntNames fields enclosed by '\''; optimize table cache_RIntNames"
