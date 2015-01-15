@@ -20,3 +20,5 @@ INSERT INTO `SubModule` VALUES (19,'LSB_Scan','Scanning support','5.0',NULL);
 INSERT INTO `SubModule` VALUES (20,'LSB_Toolkit_Independent','toolkit-independent desktop components','5.0',NULL);
 INSERT INTO `SubModule` VALUES (21,'LSB_ELF','Executable and Linking Format','5.0',NULL);
 INSERT INTO `SubModule` VALUES (22,'LSB_Packaging','Packaging Specification','5.0',NULL);
+INSERT INTO `SubModule` VALUES (23,'LSB_Toolkit_Gtk3','GTK3 toolkit','',NULL);
+INSERT INTO `SubModule` VALUES (24,'LSB_Toolkit_Qt5','Qt5 toolkit','',NULL);
