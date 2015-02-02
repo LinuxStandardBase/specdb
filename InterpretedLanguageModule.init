@@ -157,7 +157,7 @@ INSERT INTO `InterpretedLanguageModule` VALUES (157,'IPC::Msg','',1,127,'3.2',NU
 INSERT INTO `InterpretedLanguageModule` VALUES (158,'IPC::Semaphore','',1,127,'3.2',NULL,'IPC/Semaphore.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (159,'List::Util','',1,127,'3.2',NULL,'List/Util.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (160,'Scalar::Util','',1,127,'3.2',NULL,'Scalar/Util.html',NULL);
-INSERT INTO `InterpretedLanguageModule` VALUES (161,'Locale::Constants','',1,127,'3.2',NULL,'Locale/Constants.html',NULL);
+INSERT INTO `InterpretedLanguageModule` VALUES (161,'Locale::Constants','',1,127,'3.2','5.0','Locale/Constants.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (162,'Locale::Country','',1,127,'3.2',NULL,'Locale/Country.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (163,'Locale::Currency','',1,127,'3.2',NULL,'Locale/Currency.html',NULL);
 INSERT INTO `InterpretedLanguageModule` VALUES (164,'Locale::Language','',1,127,'3.2',NULL,'Locale/Language.html',NULL);
