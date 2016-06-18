@@ -13,8 +13,12 @@ DROP TABLE IF EXISTS `CompRequires`;
 CREATE TABLE `CompRequires` (
   `CRcid` int(10) unsigned NOT NULL DEFAULT '0',
   `CRdependency` varchar(990) NOT NULL DEFAULT '',
+  `CRversion` varchar(1000) DEFAULT NULL,
+  `CRflag` enum('eq','lt','le','ge','gt') DEFAULT NULL,
   PRIMARY KEY (`CRcid`,`CRdependency`),
-  KEY `k_Dep` (`CRdependency`)
+  KEY `k_Dep` (`CRdependency`),
+  KEY `k_CRflag` (`CRflag`),
+  KEY `k_CRverison` (`CRversion`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

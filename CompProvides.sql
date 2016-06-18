@@ -13,8 +13,12 @@ DROP TABLE IF EXISTS `CompProvides`;
 CREATE TABLE `CompProvides` (
   `CPcid` int(10) unsigned NOT NULL DEFAULT '0',
   `CPcapability` varchar(990) NOT NULL DEFAULT '',
+  `CPflag` enum('eq','lt','le','ge','gt') DEFAULT NULL,
+  `CPversion` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`CPcid`,`CPcapability`),
-  KEY `k_Cap` (`CPcapability`)
+  KEY `k_Cap` (`CPcapability`),
+  KEY `k_CPverison` (`CPversion`),
+  KEY `k_CPflag` (`CPflag`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

@@ -36,7 +36,7 @@ COMMUNITY=AppCategory AppInfo AppInterpreter AppJInt AppLib AppRequires AppRILM 
 	Application ApprovedCommand ApprovedLibrary CompatSymbol CompFile CompInfo CompJInt CompLDpath \
 	Component CompProvides CompRequires CompRILM Distribution DistrVendor JavaBaseClass JavaClass \
 	JavaInterface RILMBuiltin RLibDeps RLibLink RLibRClass RLibRInt RawClass RawCommand RawILModule \
-	RawInterface RawLibSoname RawLibrary WeakSymbol
+	RawInterface RawLibSoname RawLibrary RawVtable WeakSymbol
 
 # The Java classes were intended for a future inclusion of Java into
 # the spec; since that looks unlikely in the near future, ignore them.
