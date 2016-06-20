@@ -13,8 +13,12 @@ DROP TABLE IF EXISTS `AppRequires`;
 CREATE TABLE `AppRequires` (
   `ARaid` int(10) unsigned NOT NULL DEFAULT '0',
   `ARdependency` varchar(990) NOT NULL DEFAULT '',
+  `ARflag` enum('eq','lt','le','ge','gt') DEFAULT NULL,
+  `ARversion` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`ARaid`,`ARdependency`),
-  KEY `k_Dep` (`ARdependency`)
+  KEY `k_Dep` (`ARdependency`),
+  KEY `k_ARflag` (`ARflag`),
+  KEY `k_ARversion` (`ARversion`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
